@@ -1,0 +1,962 @@
+{
+	autofocus_id: "309D995CCCDB3AEE"
+	default_hide_dependency_lines: false
+	default_min_width: 250
+	default_quest_shape: ""
+	filename: "world_engine__tier_5"
+	group: "4B65568899D62A0C"
+	hide_quest_until_deps_visible: true
+	icon: {
+		id: "avaritia:infinity_catalyst"
+	}
+	id: "2523CB3E44086BA3"
+	images: [
+		{
+			alpha: 155
+			color: 0
+			dependency: "0C2DAB30B7A2A7C0"
+			height: 11.0d
+			image: "ftb:textures/quests/backgrounds/smallbgs/roundedbg.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: 0.0d
+			y: 13.5d
+		}
+		{
+			alpha: 155
+			color: 0
+			dependency: "6B31A5D836677A89"
+			height: 11.0d
+			image: "ftb:textures/quests/backgrounds/smallbgs/roundedbg.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: -3.5d
+			y: 3.5d
+		}
+		{
+			alpha: 155
+			color: 0
+			dependency: "6B31A5D836677A89"
+			height: 11.0d
+			image: "ftb:textures/quests/backgrounds/smallbgs/roundedbg.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: 3.5d
+			y: 3.5d
+		}
+		{
+			dependency: "0DE73FC2EE3C60A9"
+			height: 4.0d
+			image: "ftbquests:tasks/input_only"
+			order: -1
+			rotation: 0.0d
+			width: 4.0d
+			x: 0.0d
+			y: 23.0d
+		}
+		{
+			dependency: "0DE73FC2EE3C60A9"
+			height: 4.0d
+			image: "malum:textures/gui/book/widgets/runewood_frame_gilded.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: 0.0d
+			y: 23.0d
+		}
+		{
+			dependency: "3371E3F69A27D1E5"
+			height: 2.0d
+			image: "malum:textures/gui/book/widgets/runewood_frame_grand.png"
+			order: -1
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.0d
+			y: -6.5d
+		}
+		{
+			dependency: "4B576E9FFA5D79CF"
+			height: 2.0d
+			image: "ftbechoes:block/echo_projector_top"
+			rotation: 0.0d
+			width: 2.0d
+			x: -3.5d
+			y: 9.0d
+		}
+		{
+			dependency: "0B25350118D515DF"
+			height: 2.0d
+			image: "ftbechoes:block/echo_projector_top"
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.0d
+			y: 19.0d
+		}
+		{
+			dependency: "4094F70F627F492C"
+			height: 2.0d
+			image: "ftbechoes:block/echo_projector_top"
+			rotation: 0.0d
+			width: 2.0d
+			x: 3.5d
+			y: 9.0d
+		}
+		{
+			dependency: "4B576E9FFA5D79CF"
+			height: 1.5d
+			image: "relics:textures/gui/description/ability/reroll_button_active_quick.png"
+			order: 1
+			rotation: 0.0d
+			width: 1.5d
+			x: -3.5d
+			y: 9.0d
+		}
+		{
+			dependency: "0B25350118D515DF"
+			height: 1.5d
+			image: "relics:textures/gui/description/ability/page_counter.png"
+			order: 1
+			rotation: 0.0d
+			width: 1.5d
+			x: 0.0d
+			y: 19.0d
+		}
+		{
+			dependency: "4094F70F627F492C"
+			height: 1.5d
+			image: "relics:textures/gui/description/ability/reroll_button_active_warning.png"
+			order: 1
+			rotation: 0.0d
+			width: 1.5d
+			x: 3.5d
+			y: 9.0d
+		}
+	]
+	order_index: 6
+	quest_links: [{
+		id: "2FF8519B05B7395D"
+		linked_quest: "3371E3F69A27D1E5"
+		shape: "diamond"
+		size: 1.75d
+		x: 0.0d
+		y: -6.5d
+	}]
+	quests: [
+		{
+			dependencies: ["309D995CCCDB3AEE"]
+			hide_until_deps_complete: true
+			id: "0415C8A3274EF9D1"
+			rewards: [{
+				auto: "invisible"
+				id: "1EABC1901175F0B7"
+				ignore_reward_blocking: true
+				stage: "echo_chaos_meet"
+				team_reward: false
+				type: "gamestage"
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				dimension: "minecraft:overworld"
+				id: "403C59A4B303FE3A"
+				ignore_dimension: false
+				position: [I;
+					-12
+					-71
+					39
+				]
+				size: [I;
+					24
+					9
+					24
+				]
+				type: "location"
+			}]
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["309D995CCCDB3AEE"]
+			hide_until_deps_complete: true
+			id: "71BDC5B453B8CAB4"
+			rewards: [{
+				auto: "invisible"
+				id: "38F07D3091D37295"
+				ignore_reward_blocking: true
+				stage: "echo_radiance_meet"
+				team_reward: false
+				type: "gamestage"
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				dimension: "minecraft:overworld"
+				id: "585E2902BC477B5D"
+				ignore_dimension: false
+				position: [I;
+					-12
+					-71
+					-61
+				]
+				size: [I;
+					24
+					9
+					24
+				]
+				type: "location"
+			}]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"527A754FEFC95F4C"
+				"19C9BB7952E89BA7"
+				"0C2DAB30B7A2A7C0"
+			]
+			hide_until_deps_complete: true
+			id: "7C94432EFD49611F"
+			rewards: [{
+				auto: "invisible"
+				id: "06A35BA788ADFFE0"
+				ignore_reward_blocking: true
+				stage: "echo_infinity_meet"
+				team_reward: false
+				type: "gamestage"
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				dimension: "minecraft:overworld"
+				id: "41B203F8648421C8"
+				ignore_dimension: false
+				position: [I;
+					42
+					-71
+					-12
+				]
+				size: [I;
+					24
+					9
+					24
+				]
+				type: "location"
+			}]
+			x: 0.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["1111B3ACEDDF5633"]
+			icon: {
+				id: "xycraft_machines:void_container"
+			}
+			id: "4094F70F627F492C"
+			rewards: [
+				{
+					auto: "invisible"
+					id: "46773D44807FE793"
+					stage: "echo_radiance_stage5_task1_completed"
+					type: "gamestage"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0B3EB3352F356EDA"
+					table_id: 891108655955453907L
+					type: "loot"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					id: "6D46F9063CC557A6"
+					item: { count: 1, id: "xycraft_machines:void_container" }
+					type: "item"
+				}
+				{
+					id: "37993878E1A5E69B"
+					item: { count: 1, id: "projecte:dark_matter_block" }
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["30EE07811728D901"]
+			icon: {
+				id: "avaritia:infinity_block"
+			}
+			id: "0B25350118D515DF"
+			rewards: [
+				{
+					auto: "invisible"
+					id: "526B386362F93EAF"
+					stage: "echo_infinity_stage5_task1_completed"
+					type: "gamestage"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "27D30628897B7393"
+					table_id: 891108655955453907L
+					type: "loot"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					id: "659B6B6A488B56B6"
+					item: { count: 1, id: "avaritia:infinity_block" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "7483F28E42414EDF"
+					item: { count: 1, id: "oritech:reactor_reflector" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 17.0d
+		}
+		{
+			dependencies: [
+				"0415C8A3274EF9D1"
+				"1DE16238ECFB074D"
+			]
+			icon: {
+				id: "draconicevolution:basic_crafting_injector"
+			}
+			id: "580CDFD2B7675485"
+			tasks: [
+				{
+					id: "219FFF8B3DFE1E86"
+					item: { count: 1, id: "draconicevolution:crafting_core" }
+					type: "item"
+				}
+				{
+					id: "56805641315EA8F2"
+					item: { count: 1, id: "draconicevolution:basic_crafting_injector" }
+					type: "item"
+				}
+				{
+					id: "57555F33C1924877"
+					item: { count: 1, id: "draconicevolution:wyvern_crafting_injector" }
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["580CDFD2B7675485"]
+			icon: {
+				id: "draconicevolution:dragon_heart"
+			}
+			id: "4D7C7DE95E56C7B3"
+			tasks: [
+				{
+					id: "28A4BDB1C5E7FAB4"
+					item: { count: 1, id: "draconicevolution:dragon_heart" }
+					type: "item"
+				}
+				{
+					id: "63D577CBF3072694"
+					item: { count: 1, id: "draconicevolution:awakened_draconium_block" }
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6E24701C49A6114D"]
+			id: "30EE07811728D901"
+			shape: "hexagon"
+			tasks: [{
+				id: "41BA5D22051E424B"
+				item: { count: 1, id: "avaritia:infinity_ingot" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 14.0d
+		}
+		{
+			dependencies: [
+				"7C94432EFD49611F"
+				"027E1E97D874D0EB"
+			]
+			icon: {
+				id: "avaritia:infinity_singularity"
+			}
+			id: "6E24701C49A6114D"
+			tasks: [
+				{
+					id: "3AE8AC959F9CFE8A"
+					item: { count: 1, id: "avaritia:compressor" }
+					type: "item"
+				}
+				{
+					id: "4D72632748EAC013"
+					item: { count: 1, id: "avaritia:infinity_singularity" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["322B81D896CBDF16"]
+			icon: {
+				id: "avaritia:neutronium_ingot"
+			}
+			id: "17C23A586C708425"
+			tasks: [
+				{
+					id: "4C884D581D9ADA1A"
+					item: { count: 1, id: "avaritia:neutron_collector" }
+					type: "item"
+				}
+				{
+					id: "0F5E17510B6A86FF"
+					item: { count: 1, id: "avaritia:neutronium_ingot" }
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["38D2CAF4BD36DED8"]
+			icon: {
+				id: "draconicevolution:awakened_draconium_block"
+			}
+			id: "4B576E9FFA5D79CF"
+			rewards: [
+				{
+					auto: "invisible"
+					id: "54FFDFFA1DE48481"
+					stage: "echo_chaos_stage5_task1_completed"
+					type: "gamestage"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "767272917B3C1B20"
+					table_id: 891108655955453907L
+					type: "loot"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					count: 378L
+					id: "54458872FF95D692"
+					item: { count: 1, id: "draconicevolution:awakened_draconium_block" }
+					type: "item"
+				}
+				{
+					count: 786L
+					id: "256123071C53A5CE"
+					item: { count: 1, id: "draconicevolution:draconium_block" }
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["4B576E9FFA5D79CF"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "527A754FEFC95F4C"
+			rewards: [
+				{
+					amount: 5
+					id: "62DE35D8953BB4D5"
+					type: "currency"
+				}
+				{
+					auto: "invisible"
+					description: "ftb.shop.notification.chaos"
+					icon: {
+						components: {
+							"ftbquests:icon": "ftblibrary:icons/money_bag"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "4C092C94E484A165"
+					type: "toast"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @s run playsound minecraft:block.note_block.bell master @s ~ ~ ~"
+					id: "5E933F61B6845E17"
+					permission_level: 3
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				icon: {
+					components: {
+						"!ftbquests:icon": { }
+						"ftbquests:entity_face": "minecraft:villager"
+					}
+					id: "ftbquests:custom_icon"
+				}
+				id: "77F88B2E5E3A0AE2"
+				stage: "echo_chaos_stage5_task1_check"
+				type: "gamestage"
+			}]
+			x: -3.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["0B25350118D515DF"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "046FCE929A728A34"
+			rewards: [
+				{
+					amount: 5
+					id: "5BF742E996A4B4CB"
+					type: "currency"
+				}
+				{
+					auto: "invisible"
+					description: "ftb.shop.notification.infinity"
+					icon: {
+						components: {
+							"ftbquests:icon": "ftblibrary:icons/money_bag"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "75028F17C07E02D0"
+					type: "toast"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @s run playsound minecraft:block.note_block.bell master @s ~ ~ ~"
+					id: "26CCDBAE601D6670"
+					permission_level: 3
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				icon: {
+					components: {
+						"!ftbquests:icon": { }
+						"ftbquests:entity_face": "minecraft:villager"
+					}
+					id: "ftbquests:custom_icon"
+				}
+				id: "76987C0F742A8A14"
+				stage: "echo_infinity_stage5_task1_check"
+				type: "gamestage"
+			}]
+			x: 0.0d
+			y: 19.0d
+		}
+		{
+			dependencies: ["4094F70F627F492C"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "19C9BB7952E89BA7"
+			rewards: [
+				{
+					amount: 5
+					id: "57625F88F8E21DD2"
+					type: "currency"
+				}
+				{
+					auto: "invisible"
+					description: "ftb.shop.notification.radiance"
+					icon: {
+						components: {
+							"ftbquests:icon": "ftblibrary:icons/money_bag"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "7DA1DB3A1F6C52A0"
+					type: "toast"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @s run playsound minecraft:block.note_block.bell master @s ~ ~ ~"
+					id: "213B24D0300B96A1"
+					permission_level: 3
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				icon: {
+					components: {
+						"!ftbquests:icon": { }
+						"ftbquests:entity_face": "minecraft:villager"
+					}
+					id: "ftbquests:custom_icon"
+				}
+				id: "32877EA200F47B95"
+				stage: "echo_radiance_stage5_task1_check"
+				type: "gamestage"
+			}]
+			x: 3.5d
+			y: 9.0d
+		}
+		{
+			dependencies: [
+				"0DE73FC2EE3C60A9"
+				"046FCE929A728A34"
+			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			hide_until_deps_complete: true
+			icon: {
+				id: "ftbechoes:echo_projector"
+			}
+			id: "4F2B35E4E3729560"
+			shape: "gear"
+			size: 3.0d
+			tasks: [{
+				icon: {
+					components: {
+						"!ftbquests:icon": { }
+						"ftbquests:entity_face": "minecraft:villager"
+					}
+					id: "ftbquests:custom_icon"
+				}
+				id: "7D8611641B6611FB"
+				stage: "echo_guidance_stage5_task1_check"
+				type: "gamestage"
+			}]
+			x: 0.0d
+			y: 23.0d
+		}
+		{
+			dependencies: ["543C6917A16F266C"]
+			id: "1111B3ACEDDF5633"
+			tasks: [{
+				id: "31766BADD6E9436B"
+				item: { count: 1, id: "oritech:black_hole_block" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"71BDC5B453B8CAB4"
+				"1F052C1F0AC1330C"
+			]
+			id: "322B81D896CBDF16"
+			tasks: [{
+				id: "62C9BCC360167DFE"
+				item: { count: 1, id: "oritech:accelerator_controller" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["21322BAF061FE83F"]
+			icon: {
+				id: "mekanism:pellet_antimatter"
+			}
+			id: "543C6917A16F266C"
+			tasks: [
+				{
+					id: "13CB5ECF57A6A1F2"
+					item: { count: 1, id: "mekanism:sps_casing" }
+					type: "item"
+				}
+				{
+					id: "61E3D19DA0E67F61"
+					item: { count: 1, id: "mekanism:pellet_antimatter" }
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["17C23A586C708425"]
+			id: "21322BAF061FE83F"
+			tasks: [{
+				id: "5F2164052B261E2F"
+				item: { components: { "custommachinery:machine": "ftb:neutron_activator" }, count: 1, id: "custommachinery:custom_machine_item" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"37CC00D0136EFDAE"
+				"009EE2933A83120B"
+			]
+			id: "1D8B2D2B03DF3256"
+			rewards: [{
+				auto: "invisible"
+				id: "1A06380591B1C95A"
+				ignore_reward_blocking: true
+				stage: "echo_wyrmwright_stage5_task2_completed"
+				type: "gamestage"
+			}]
+			tasks: [{
+				id: "327AFF2B4EDD08B3"
+				item: { count: 1, id: "ftb:chronon_resonator" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1D8B2D2B03DF3256"]
+			id: "309D995CCCDB3AEE"
+			rewards: [
+				{
+					id: "0AF0575E18DC2063"
+					item: {
+						components: {
+							"minecraft:lore": ["{\"color\":\"gray\",\"text\":\"Set Location: The Fractured Void\"}"]
+						}
+						count: 1
+						id: "tempad:chronon_battery"
+					}
+					type: "item"
+				}
+				{
+					auto: "invisible"
+					id: "4609182644671B5B"
+					stage: "echo_guidance_stage4_task2_completed"
+					type: "gamestage"
+				}
+				{
+					auto: "invisible"
+					id: "113498AAC7D77969"
+					stage: "t5_zone_unlocked"
+					type: "gamestage"
+				}
+			]
+			tasks: [{
+				icon: {
+					components: {
+						"!ftbquests:icon": { }
+						"ftbquests:entity_face": "minecraft:villager"
+					}
+					id: "ftbquests:custom_icon"
+				}
+				id: "64B290466E13BE30"
+				stage: "echo_wyrmwright_stage5_task2_check"
+				type: "gamestage"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3371E3F69A27D1E5"]
+			hide_until_deps_complete: true
+			id: "009EE2933A83120B"
+			tasks: [{
+				icon: {
+					components: {
+						"!ftbquests:icon": { }
+						"ftbquests:entity_face": "minecraft:villager"
+					}
+					id: "ftbquests:custom_icon"
+				}
+				id: "061CA75E28BD6BF6"
+				stage: "echo_wyrmwright_stage5_task1_check"
+				type: "gamestage"
+			}]
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["527A754FEFC95F4C"]
+			icon: {
+				id: "create:empty_schematic"
+			}
+			id: "5C8773D5561D7245"
+			rewards: [{
+				auto: "disabled"
+				command: "/worldengine awakened_core_upgrade"
+				exclude_from_claim_all: true
+				feedback_message: "ftb.echo.upgrade.assembling"
+				icon: {
+					components: {
+						"custommachinery:machine": "ftb:world_engine"
+					}
+					id: "custommachinery:custom_machine_item"
+				}
+				id: "4BA4CA2B38D5C1F3"
+				permission_level: 3
+				team_reward: true
+				type: "command"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					count: 378L
+					id: "6D13A18B1A83D83A"
+					item: { count: 1, id: "draconicevolution:awakened_draconium_block" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 786L
+					id: "23BEF207DFF30654"
+					item: { count: 1, id: "draconicevolution:draconium_block" }
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: 10.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["19C9BB7952E89BA7"]
+			icon: {
+				id: "create:empty_schematic"
+			}
+			id: "65B10C46C1AE5026"
+			rewards: [{
+				auto: "disabled"
+				command: "/worldengine dark_void_upgrade"
+				exclude_from_claim_all: true
+				feedback_message: "ftb.echo.upgrade.assembling"
+				icon: {
+					components: {
+						"custommachinery:machine": "ftb:world_engine"
+					}
+					id: "custommachinery:custom_machine_item"
+				}
+				id: "00D18DF325869C86"
+				permission_level: 3
+				team_reward: true
+				type: "command"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					id: "0070ED6EF0B1C839"
+					item: { count: 1, id: "xycraft_machines:void_container" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "79D19B8812D69C49"
+					item: { count: 1, id: "projecte:dark_matter_block" }
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 10.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["046FCE929A728A34"]
+			icon: {
+				id: "create:empty_schematic"
+			}
+			id: "5804356B2AFCF14A"
+			rewards: [{
+				auto: "disabled"
+				command: "/worldengine infinity_upgrade"
+				exclude_from_claim_all: true
+				feedback_message: "ftb.echo.upgrade.assembling"
+				icon: {
+					components: {
+						"custommachinery:machine": "ftb:world_engine"
+					}
+					id: "custommachinery:custom_machine_item"
+				}
+				id: "1317DCA026D9DFBC"
+				permission_level: 3
+				team_reward: true
+				type: "command"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					count: 2L
+					id: "332424C66F7BE170"
+					item: { count: 1, id: "avaritia:infinity_block" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 2L
+					id: "516C126F381F6460"
+					item: { count: 1, id: "oritech:reactor_reflector" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 20.5d
+		}
+		{
+			dependencies: ["4D7C7DE95E56C7B3"]
+			icon: {
+				id: "draconicevolution:small_chaos_frag"
+			}
+			id: "46FC1AAE550065C3"
+			tasks: [
+				{
+					id: "2D4CD94FE7B1EBDA"
+					item: { count: 1, id: "draconicevolution:small_chaos_frag" }
+					type: "item"
+				}
+				{
+					id: "57946CDEE4E3B177"
+					item: { count: 1, id: "industrialforegoing:black_laser_lens" }
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["46FC1AAE550065C3"]
+			id: "38D2CAF4BD36DED8"
+			tasks: [{
+				id: "3B9E7C4046CE4BCD"
+				item: { count: 1, id: "chicken_roost:c_awakeneddraconium" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"4094F70F627F492C"
+				"4B576E9FFA5D79CF"
+			]
+			id: "5B7CF6FF36F60157"
+			shape: "diamond"
+			tasks: [{
+				id: "61990CCF4D2011E7"
+				item: { components: { "ftbfiltersystem:filter": "or(item(avaritia:infinity_sword)item(avaritia:infinity_bow)item(avaritia:infinity_shovel)item(avaritia:infinity_hoe)item(avaritia:infinity_axe)item(avaritia:infinity_pickaxe)item(avaritia:infinity_helmet)item(avaritia:infinity_chestplate)item(avaritia:infinity_boots)item(avaritia:infinity_leggings)item(avaritia:infinity_catalyst)item(avaritia:infinity_ingot)item(avaritia:infinity_singularity))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["4094F70F627F492C"]
+			id: "1A7FB1EAFAD3B063"
+			shape: "diamond"
+			tasks: [{
+				id: "501D5E25BC5D86BC"
+				item: { components: { "ftbfiltersystem:filter": "or(item(avaritia:compressor)item(avaritia:cosmic_meatballs)item(avaritia:ultimate_stew)item(avaritia:endest_pearl)item(chicken_roost:c_neutron)item(projecte:collector_mk3)item(apotheosis:sigil_of_supremacy)item(mekanism:ultimate_tier_installer))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 7.0d
+		}
+	]
+}
