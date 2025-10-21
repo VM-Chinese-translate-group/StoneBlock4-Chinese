@@ -21,7 +21,7 @@
 		{
 			click: "https://moddedmc.org/en/project/oritech/docs/interaction/particle_accelerator"
 			height: 1.0d
-			hover: ["Particle Accelerator Wiki"]
+			hover: ["粒子加速器Wiki"]
 			image: "jei:textures/jei/atlas/gui/icons/info.png"
 			rotation: 0.0d
 			width: 1.0d
