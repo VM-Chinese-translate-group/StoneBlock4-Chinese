@@ -5,13 +5,13 @@
 	chapter.1769B71219D1B9F7.title: "Tier 1: Foundation"
 	chapter.1C63D973F178FD60.title: "欢迎！"
 	chapter.1FD2F304ADC237D0.title: "Oritech"
-	chapter.204C619900A6B15B.title: "structure teleports"
+	chapter.204C619900A6B15B.title: "结构传送"
 	chapter.2523CB3E44086BA3.title: "Tier 5: Hyperion"
 	chapter.2666349F311E9064.title: "Tier 0: 注释"
 	chapter.2EF5133328945047.title: "打点行装"
 	chapter.2FFD2690C1D8029D.title: "Tier 2: Horizon"
 	chapter.33808F1AE9F1266A.title: "Backstage"
-	chapter.391B65CD04A90459.title: "Power"
+	chapter.391B65CD04A90459.title: "能源"
 	chapter.39E1055DAEF9F36E.title: "Tier 3: Solaris"
 	chapter.3B99F85218D37371.title: "实用物品和小贴士"
 	chapter.41A8FE9D26EFA401.title: "Getting Started"
@@ -276,15 +276,15 @@
 		"{@pagebreak}"
 		"最小可用的&d裂变反应堆&r是一个3x4x3的多方块结构，最大可以达到18x18x18。&d反应堆&r的12条边必须是&a反应堆外壳&r，侧面可以是反应堆玻璃、逻辑适配器或反应堆端口。"
 		""
-		"The &dReactor&r multiblock will form once the cuboid is fully built and at least one &2Fission Fuel Assembly&r is inside with a &aControl Rod Assembly&r on top."
+		"当多方块结构完全建成，并且内部至少放置一个&2裂变燃料组件&r，且在顶部安装一个&a控制棒组件&r时，&d反应堆&r的多方块结构将会自动形成。"
 		""
-		"At least 4 &aFission Reactor Ports&r are needed to supply a &dFission Reactor&r: one for inputing &bWater&r, one for &2Fuel&r, one set to output &7Steam&r, and one set to output &cWaste&r. &dReactor Ports&r can be toggled by Sneak + Right-Clicking them with a &9Configurator&r."
+		"&d裂变反应堆&r至少需要4个&a裂变反应堆端口&r：一个用于输入&b水&r，一个用于输入&2燃料&r，一个用于输出&7蒸汽&r，以及一个用于输出&c废料&r。&d反应堆端口&r可以通过潜行右击&9配置器&r来切换模式。"
 		""
-		"&dReactors&r can also accept &aFission Reactor Logic Adaptors&r for reading different information about its multiblock or for turning it on/off automatically."
+		"&d反应堆&r也可以直接接入&a裂变反应堆逻辑适配器&r，用于读取多方块结构的相关信息，也可实现自动启停。"
 		"{@pagebreak}"
-		"&dReactors&r can burn fuel at a max rate of 1mB * (number of &3Fuel Assemblies&r) per tick, down to 0.01mB/tick."
+		"&d反应堆&r能以每个游戏刻1mB *（&3燃料组件&r数量）的最大速率燃烧燃料，其最低可降至0.01mB 每刻。"
 		""
-		"This rate also adjusts coolant demand, and the production of &7Steam&r and &cnuclear waste&r. Check the recipes and make sure your pipes can handle all these rates, as well as your coolant production."
+		"速率会影响冷却剂的消耗，以及&7蒸汽&r和&c核废料&r的产出。请检查配方，并确保你的运输系统能够满足消耗，同时冷却剂的供应充足。"
 		""
 		"{image:ftb:textures/quests/mekanism/fission_reactor_open.png width:100 height:100 align:center}"
 	]
@@ -298,13 +298,13 @@
 	]
 	quest.056492E163706EC5.title: "&aDislocator"
 	quest.056990503617C147.quest_desc: [
-		"&dWyvern&r tools consume power instead of durability and can be customized via modules placed into their inventories."
+		"&d双足飞龙&r工具使用电力代替耐久，可以通过安装模块来定制属性。"
 		""
-		"Their module inventory can be accessed via the keybind &eTool Modules&r, which isn't bound by default."
+		"模块安装界面可通过&e工具模块&r打开，该功能没有默认绑定按键。"
 		""
 		"&eNote&r: To craft this, you must have the &cAdvanced Machine Block&r &6World Engine Upgrade&r."
 	]
-	quest.056990503617C147.title: "&dWyvern &fTools"
+	quest.056990503617C147.title: "&d双足飞龙&f工具"
 	quest.056C62BBBCEB1173.quest_desc: [
 		"当&d反应堆&r的废料槽溢出，或装有放射性化学品的管道或装置被破坏时，辐射源会蔓延到世界中，从而引发&4核泄露事故&r。"
 		""
@@ -650,13 +650,13 @@
 	]
 	quest.0D159FD643581C18.title: "&fRemnants of The Past"
 	quest.0D38D67E3FD120CB.quest_desc: [
-		"[\"\", {\"text\": \"Chaotic\", \"color\": \"rainbow\"}, \" weapons are the final upgrades to \", {\"text\": \"Draconic\", \"color\": \"gold\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"5388B67410670702\" }, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Go to Draconic Weapons Quest\"}}, \" weapons, with the most room for \", {\"text\": \"Upgrade Modules\", \"color\": \"green\"}, \" and maximum customizability.\"]"
+		"[\"\", {\"text\": \"混沌\", \"color\": \"rainbow\"}, \"武器是\", {\"text\": \"神龙\", \"color\": \"gold\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"5388B67410670702\" }, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"前往神龙武器任务\"}}, \"武器的最终升级，具有最大的\", {\"text\": \"升级模块\", \"color\": \"green\"}, \"安放空间以及最强的可定制性。\"]"
 		""
 		"You can also upgrade into or craft the &zChaotic Staff of Power&r, an All-In-One tool and weapon."
 		""
-		"Their module inventory can be accessed via the keybind &eTool Modules&r, which isn't bound by default."
+		"模块安装界面可通过&e工具模块&r打开，该功能没有默认绑定按键。"
 	]
-	quest.0D38D67E3FD120CB.title: "&zChaotic &fWeapons"
+	quest.0D38D67E3FD120CB.title: "&z混沌&f武器"
 	quest.0D57D3662EB40CE3.quest_desc: [
 		"&aCapacitor Banks&r from &6EnderIO&r are used to store energy!"
 		""
@@ -814,11 +814,11 @@
 	]
 	quest.107C26E8BF309BC1.title: "&f奥术战利品"
 	quest.11A35E8F97ACA240.quest_desc: [
-		"[\"\", {\"text\": \"Draconic\", \"color\": \"gold\"}, \" tools are upgraded versions of \", {\"text\": \"Wyvern\", \"color\": \"light_purple\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"056990503617C147\" }, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Go to Wyvern Tools Quest\"}}, \" tools, with room for more \", {\"text\": \"Upgrade Modules\", \"color\": \"green\"}, \" and better customizability.\"]"
+		"[\"\", {\"text\": \"神龙\", \"color\": \"gold\"}, \"工具是\", {\"text\": \"双足飞龙\", \"color\": \"light_purple\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"056990503617C147\" }, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"前往双足飞龙工具的任务\"}}, \"工具的升级款，拥有更大的放置\", {\"text\": \"升级模块\", \"color\": \"green\"}, \"的空间，具有更强的可定制性。\"]"
 		""
-		"You can also craft the &6Draconic Staff of Power&r, an All-In-One tool and weapon."
+		"你可以打造一把集镐、铲、剑于一体的终极工具：“神龙之力权杖”。"
 		""
-		"Their module inventory can be accessed via the keybind &eTool Modules&r, which isn't bound by default."
+		"模块安装界面可通过&e工具模块&r打开，该功能没有默认绑定按键。"
 		""
 		"&eNote&r: To craft these, you must have the &cAdvanced Machine Block&r and the &dDraconic Energy&r &6World Engine Upgrades&r."
 	]
@@ -838,11 +838,11 @@
 	quest.11C58E38DE9488BE.quest_subtitle: "Mob Grinding Utils"
 	quest.11C58E38DE9488BE.title: "&fMob Mashing"
 	quest.11CC48D772573E73.quest_desc: [
-		"&z极尽武器&r可以造成无限的伤害。"
+		"&z无限武器&r可以造成无限的伤害。"
 		""
 		"&7&o基本上就是对怪物执行了“/kill”指令。"
 	]
-	quest.11CC48D772573E73.title: "&z极尽武器"
+	quest.11CC48D772573E73.title: "&z无限武器"
 	quest.11F69E1E4FE4D5CD.quest_desc: [
 		"The advanced circuitry you need will require a specialized crystal called &dFluxite&r."
 		""
@@ -1901,11 +1901,11 @@
 	]
 	quest.317FE947A23C965A.title: "Fabricator Meet"
 	quest.31C83D9253FFF685.quest_desc: [
-		"&3Industrial Turbines&r are vertical multiblock structures that turn &7Steam&r into energy, and optionally back into &bWater&r using &9Saturating Condensers&r. Be careful if a turbine is full of energy, as it will stop or dump steam."
+		"&3工业涡轮&r是垂直的多方块结构，它能将&7蒸汽&r转化为能量，并可以使用&9饱和冷凝器&r将其变回&b水&r。注意，如果涡轮储存的能量已满，它将开始储存蒸汽并停止工作。"
 		""
-		"The minimum size for this multiblock is a 5x5x5 structure, but adding just one layer to the height (5x6x5) &6quadruples&r its power production capacity. So, this quest will treat these dimensions (5x6x5) as the minimum. The largest size of turbine is a 17x18x17, as turbine widths need to be odd for the spinning blades."
+		"多方块结构的最小尺寸是5x5x5，但只需在高度上增加一层（5x6x5）发电能力将翻四倍。因此，本任务将以此尺寸（5x6x5）作为最低标准。工业涡轮的最大尺寸为17x18x17，涡轮的宽度需要是奇数才能使涡轮叶片正常工作。"
 		""
-		"While &3Industrial Turbines&r are more complex than &dFission Reactors&r, they can handle plenty of &7Steam&r flow."
+		"虽然&3工业涡轮&r比&d裂变反应堆&r更复杂，但是它能处理大量的&7蒸汽&r。"
 		"{@pagebreak}"
 		"The multiblock needs a frame of &aTurbine Casings&r, with the bottom face filled with &aStructural Glass&r or more &aCasings&r."
 		""
@@ -1931,7 +1931,7 @@
 		""
 		"{image:ftb:textures/quests/mekanism/turbine3transp.png width:100 height:100 align:center}"
 	]
-	quest.31C83D9253FFF685.title: "&aMekanism&r &eTurbine&r"
+	quest.31C83D9253FFF685.title: "&a通用机械&r &e工业涡轮&r"
 	quest.31CCB73669788855.quest_desc: ["Claiming this quest reward will set a waypoint at the &dEcho's &6Archive&r entrance."]
 	quest.31CCB73669788855.title: "&fLocating &dThe Machinist"
 	quest.31F2DAA7A3EA9970.quest_desc: [
@@ -3343,11 +3343,11 @@
 		"&7&oThis bounty has 24-hour cooldown."
 	]
 	quest.511B01F40006FC4B.quest_desc: [
-		"&zInfinity Tools&r are unbreakable tools that can instantly break blocks."
+		"&z无限工具&r不可损毁并且可以立刻破坏方块。"
 		""
-		"The &zPickaxe&r and &zShovel&r can be 'Shift + Right-Clicked' to toggle modes, instantly vaporizing large areas of your world."
+		"&z世界崩解之镐&r和&z星球吞噬之铲&r可以通过“Shift+右键”切换模式，第二形态下可以瞬间清除一大片区域的方块。"
 	]
-	quest.511B01F40006FC4B.title: "&zInfinity Tools"
+	quest.511B01F40006FC4B.title: "&z无限工具"
 	quest.5151A30EB06C1122.quest_desc: [
 		"Passively spawned chickens can drop eggs randomly, but you can also get the eggs before the chickens."
 		""
@@ -3407,11 +3407,11 @@
 	]
 	quest.537DE7A354AF8E9E.title: "&fMoving Mobs"
 	quest.5388B67410670702.quest_desc: [
-		"[\"\", {\"text\": \"Draconic\", \"color\": \"gold\"}, \" weapons are upgraded versions of \", {\"text\": \"Wyvern\", \"color\": \"light_purple\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2C141655079AC173\" }, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Go to Wyvern Weapons Quest\"}}, \" weapons, with room for more \", {\"text\": \"Upgrade Modules\", \"color\": \"green\"}, \" and better customizability.\"]"
+		"[\"\", {\"text\": \"神龙\", \"color\": \"gold\"}, \"武器是\", {\"text\": \"双足飞龙\", \"color\": \"light_purple\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2C141655079AC173\" }, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"前往双足飞龙武器任务\"}}, \"武器的升级款，拥有更大的放置\", {\"text\": \"升级模块\", \"color\": \"green\"}, \"的空间，具有更强的可定制性。\"]"
 		""
-		"You can also craft the &6Draconic Staff of Power&r, an All-In-One tool and weapon."
+		"你可以打造一把集镐、铲、剑于一体的终极工具：“神龙之力权杖”。"
 		""
-		"Their module inventory can be accessed via the keybind &eTool Modules&r, which isn't bound by default."
+		"模块安装界面可通过&e工具模块&r打开，该功能没有默认绑定按键。"
 	]
 	quest.5388B67410670702.title: "&6Draconic &fWeapons"
 	quest.53C947D1E96420A1.quest_desc: [
@@ -3845,13 +3845,13 @@
 	quest.5E1FFB29D89798F5.title: "&fPortable &aQIO Dashboard"
 	quest.5E2764E8DB1B789B.title: "Light Bender Meet"
 	quest.5E2F4A6147694D5C.quest_desc: [
-		"[\"\", {\"text\": \"Chaotic\", \"color\": \"rainbow\"}, \" tools are the final upgrades to \", {\"text\": \"Draconic\", \"color\": \"gold\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"11A35E8F97ACA240\" }, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Go to Draconic Tools Quest\"}}, \" tools, with the most room for \", {\"text\": \"Upgrade Modules\", \"color\": \"green\"}, \" and maximum customizability.\"]"
+		"[\"\", {\"text\": 混沌\", \"color\": \"rainbow\"}, \"工具是\", {\"text\": \"神龙\", \"color\": \"gold\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"11A35E8F97ACA240\" }, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"前往神龙工具任务\"}}, \"工具的最终升级，具有最大的\", {\"text\": \"升级模块\", \"color\": \"green\"}, \"的放置空间以及最强的可定制性。\"]"
 		""
 		"You can also upgrade into or craft the &zChaotic Staff of Power&r, an All-In-One tool and weapon."
 		""
-		"Their module inventory can be accessed via the keybind &eTool Modules&r, which isn't bound by default."
+		"模块安装界面可通过&e工具模块&r打开，该功能没有默认绑定按键。"
 	]
-	quest.5E2F4A6147694D5C.title: "&zChaotic &fTools"
+	quest.5E2F4A6147694D5C.title: "&z混沌&工具"
 	quest.5E3A4A3F00FDDEC0.quest_desc: [
 		"The &aArcane Anvil&r will quickly become your best friend when using this mod."
 		""
@@ -4657,7 +4657,7 @@
 		""
 		"Its module inventory can be accessed via the keybind &eTool Modules&r, which isn't set by default."
 	]
-	quest.7244348CAB8356E0.title: "&zChaotic Chestpiece"
+	quest.7244348CAB8356E0.title: "&z混沌护胸"
 	quest.7244D5DADCF0D7A2.quest_desc: [
 		"The &bSeashelf of Aquatic Filtration&r can be loaded with up to six enchanted books, and will block those enchantments from showing up again."
 		""
@@ -5088,7 +5088,7 @@
 		""
 		"这对建造可能导致FPS降低的农场非常有用。"
 		""
-		"&eNote&r: These are &zShop Only&r items!"
+		"&e注意&r：这些是&z仅限商店&r的物品！"
 	]
 	quest.7ACCC2EECD9883FD.quest_desc: ["&eCoginition&r tools are as good as diamond gear with an extra block interaction range."]
 	quest.7ACCC2EECD9883FD.title: "&eCognition &fTools"
@@ -5101,7 +5101,7 @@
 		""
 		"Any items in their range will ignore &aSimple Magnets&r pulling on them."
 	]
-	quest.7B20023BE78887DA.title: "&aSimple Magnets"
+	quest.7B20023BE78887DA.title: "&a简单磁铁"
 	quest.7B496376BC7B399A.quest_desc: ["&aThe Ender&r is a diamond-tier sword that specializes in beheading your enemies."]
 	quest.7B496376BC7B399A.title: "&fThe Ender"
 	quest.7B579D0762DB9F33.quest_desc: [
@@ -5489,7 +5489,7 @@
 	task.19893A74AF61880F.title: "Archwood Saplings"
 	task.1A4A5A59FFF815E2.title: "Heaters"
 	task.1A946F253A4AB3D2.title: "Blazegold Tools"
-	task.1B441EA3D74396D8.title: "Draconic Tools"
+	task.1B441EA3D74396D8.title: "神龙工具"
 	task.1B8D2EA3B6BC97C1.title: "&eLocate&f: ftb:dungeons/nether"
 	task.1C350F6D6B6C0656.title: "&b升级插件"
 	task.1C3B92648D279809.title: "&eLocate&f: &dInfernal"
@@ -5538,7 +5538,7 @@
 	task.2E08C0DD181858C1.title: "&eLocate&f: &dWayfinder"
 	task.2E6B8DF43B7A85E7.title: "Any Basic CAD Assembly"
 	task.2EE249AC7D3DFA9A.title: "Cooldown Timer"
-	task.2F94FA9842248FA3.title: "Snow Queen Vault"
+	task.2F94FA9842248FA3.title: "冰雪女王宝库"
 	task.2FF95590BE56EE26.title: "&fSpeak With The &dEcho of Twilight"
 	task.30F1965A2A29E58A.title: "Click Me!"
 	task.312106B702AEDBB7.title: "Cooldown Timer"
@@ -5556,7 +5556,7 @@
 	task.339585B853B7012C.title: "Basic Weapons"
 	task.33CC6E4518860815.title: "Any Tier 3 CAD Socket"
 	task.343B28028FE3BC73.title: "Cooldown Timer"
-	task.3448255A410B8F99.title: "Wyvern Tools"
+	task.3448255A410B8F99.title: "双足飞龙工具"
 	task.34E4918707295C02.title: "Claim Compass"
 	task.34F064BD38FE398C.title: "Any Substance"
 	task.35458B29D8F8E353.title: "&fSpeak With The &dEcho of The Ancient"
@@ -5589,7 +5589,7 @@
 	task.3D736F8E008552DB.title: "Powercells"
 	task.3EA41562AB11F9B1.title: "ocean east"
 	task.3EF3D33D52CB41A5.title: "&a虚空升级"
-	task.3F1ABCF8325A90C9.title: "&zInfinity Tools"
+	task.3F1ABCF8325A90C9.title: "&z无限工具"
 	task.3FB6FB9AEEAE5739.title: "150x Assembler Wall/Glass"
 	task.4009127EE81601C6.title: "Cooldown Timer"
 	task.402164B895BEDB8E.title: "&fSpeak With The &dEcho of The Quartermaster"
@@ -5598,8 +5598,8 @@
 	task.411B145BAD8AA622.title: "工具"
 	task.41B203F8648421C8.title: "&eLocate&f: &6Infinity"
 	task.41F4FCB0261015FB.title: "Find A Troll Cave"
-	task.42AEAD2BF6113D89.title: "Yeti Vault"
-	task.430918A5AD62C27F.title: "Mid Game Options"
+	task.42AEAD2BF6113D89.title: "雪怪宝库"
+	task.430918A5AD62C27F.title: "游戏中期发电"
 	task.4309B43CD4447705.title: "建筑棒"
 	task.435C5B6B77C3D7B4.title: "Reconstructed Materials"
 	task.4436C5870B83BA75.title: "nether east"
@@ -5611,7 +5611,7 @@
 	task.45E2610784D6C62D.title: "void west"
 	task.46201BC3BAE0D15A.title: "Mekanism Lasers"
 	task.47304646719F0174.title: "Cooldown Timer"
-	task.47CDD3AB69EDD87A.title: "Lich Vault"
+	task.47CDD3AB69EDD87A.title: "巫妖宝库"
 	task.488B1E7E0EBA64D2.title: "Cooldown Timer"
 	task.49801B19B9E8E368.title: "Cooldown Timer"
 	task.49DF96867DE0BB9D.title: "Spirits"
@@ -5664,11 +5664,11 @@
 	task.5926E51F4409C90C.title: "extras"
 	task.59454DA41C1C27D5.title: "Any Rune"
 	task.59521977C507A466.title: "Speak to the &dEcho of Guidance"
-	task.598955C607984551.title: "Starter Gens"
+	task.598955C607984551.title: "游戏初期发电"
 	task.5A060A616C635858.title: "&eKill&f: Wilden Chimera"
 	task.5A0B7C6C05EEBEE2.title: "Drawer Upgrades"
 	task.5A1A66486604C7B8.title: "Cooldown Timer"
-	task.5A43BF69F5EE7A51.title: "End Game Options"
+	task.5A43BF69F5EE7A51.title: "游戏末期发电"
 	task.5A652535811A2B66.title: "Quantum Armor"
 	task.5A912A97A8A7DB47.title: "Finding the &3Create Vault"
 	task.5AB9DD72EFFA8BB2.title: "Hidden"
@@ -5676,7 +5676,7 @@
 	task.5B2F539FB8DF8B64.title: "&fAuto Hammers"
 	task.5B3A2DEB3DFBA285.title: "Talk With The Echo of Guidance"
 	task.5B51C00265B54937.title: "Technology Chapter"
-	task.5C3B57777EB7E7CD.title: "Early Game Gens"
+	task.5C3B57777EB7E7CD.title: "游戏前期发电"
 	task.5C5C0B0C6CC599E2.title: "Find An &cAncient Battleground&r"
 	task.5C6B2370E7B8E980.title: "Occultism Miners"
 	task.5CCC981194E6AD26.title: "&eLocate&f: &dWyrmwright"
@@ -5693,7 +5693,7 @@
 	task.5FFC4927DA3051EE.title: "Cooldown Timer"
 	task.5FFDD210AFD0055D.title: "Specialized Tomes"
 	task.6017B56A0165C534.title: "Ferricore Tools"
-	task.6143E9BDB0C9D417.title: "Portal Vault"
+	task.6143E9BDB0C9D417.title: "传送门宝库"
 	task.61990CCF4D2011E7.title: "Awakened Core + Dark Void Craft Unlocks"
 	task.61C0F35123FBB85E.title: "&eKill&f: &3Warden"
 	task.61D894B195259EFE.title: "Netherite Armor"
@@ -5738,11 +5738,11 @@
 	task.7230891A77CE1977.title: "tf north"
 	task.72426E00128EBE6D.title: "Soulhunter Armor"
 	task.72566E6107743A29.title: "盔甲"
-	task.739AFA2E85FD2354.title: "Compact Machines"
+	task.739AFA2E85FD2354.title: "压缩空间"
 	task.73AD501FEDF94669.title: "nether north"
 	task.742022DB9012FEDC.title: "Saplings"
 	task.7420FCF5C9A3AAD9.title: "Cooldown Timer"
-	task.7586948F032C6048.title: "Hydra Vault"
+	task.7586948F032C6048.title: "九头蛇宝库"
 	task.75A4019E3778367A.title: "&6Unique Weapons"
 	task.7618036DBF5EE196.title: "Create Vault"
 	task.76343612084D1122.title: "Find An &bOcean&r Dungeon"
@@ -5759,7 +5759,7 @@
 	task.78869974512F8AD0.title: "电梯"
 	task.7921E8D54B0095CE.title: "Dark Matter Tools"
 	task.794B10BF050056EB.title: "Better Enchanting Bookshelves"
-	task.79B0BA2223437C7E.title: "Chaotic Tools"
+	task.79B0BA2223437C7E.title: "混沌工具"
 	task.7A46B063C798C2D5.title: "Cooldown Timer"
 	task.7A9F1E65CFB92BDF.title: "void east"
 	task.7B3908878D77CBC9.title: "Echo-Location"
