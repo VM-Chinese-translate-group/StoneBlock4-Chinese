@@ -1394,7 +1394,7 @@
 					item: {
 						components: {
 							"ftbfiltersystem:filter": "or(item(cookingforblockheads:ice_unit)item(cookingforblockheads:heating_unit)item(cookingforblockheads:preservation_chamber))"
-							"minecraft:custom_name": "\"Kitchen Extras\""
+							"minecraft:custom_name": "“厨房附件”"
 						}
 						count: 1
 						id: "ftbfiltersystem:smart_filter"
@@ -1504,7 +1504,7 @@
 				item: {
 					components: {
 						"ftbfiltersystem:filter": "or(item(cookingforblockheads:tool_rack)item(cookingforblockheads:spice_rack)item(cookingforblockheads:fruit_basket))"
-						"minecraft:custom_name": "\"Kitchen Extras\""
+						"minecraft:custom_name": "“厨房附件”"
 					}
 					count: 1
 					id: "ftbfiltersystem:smart_filter"
@@ -2385,7 +2385,7 @@
 				item: {
 					components: {
 						"ftbfiltersystem:filter": "or(item(irons_jewelry:recipe)item(irons_jewelry:recipe)item(irons_jewelry:recipe)item(irons_jewelry:recipe)item(irons_jewelry:recipe)item(irons_jewelry:recipe)item(irons_jewelry:recipe)item(irons_jewelry:recipe)item(irons_jewelry:recipe)item(irons_jewelry:recipe)item(irons_jewelry:recipe)item(irons_jewelry:recipe))"
-						"minecraft:custom_name": "\"Artisan Scrolls\""
+						"minecraft:custom_name": "“工匠卷轴”"
 					}
 					count: 1
 					id: "ftbfiltersystem:smart_filter"
@@ -2519,7 +2519,7 @@
 					item: {
 						components: {
 							"ftbfiltersystem:filter": "or(item(oritech:simple_augment_station)item(oritech:advanced_augment_station)item(oritech:arcane_augment_station))"
-							"minecraft:custom_name": "\"Research Stations\""
+							"minecraft:custom_name": "“研究站”"
 						}
 						count: 1
 						id: "ftbfiltersystem:smart_filter"
