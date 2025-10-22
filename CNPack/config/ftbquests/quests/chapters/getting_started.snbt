@@ -1214,7 +1214,7 @@
 			rewards: [{
 				auto: "disabled"
 				command: "/compass locate ftb:healing_spring"
-				feedback_message: "获取春之愈定位器"
+				feedback_message: "获取治愈之泉定位器"
 				icon: {
 					id: "minecraft:compass"
 				}
