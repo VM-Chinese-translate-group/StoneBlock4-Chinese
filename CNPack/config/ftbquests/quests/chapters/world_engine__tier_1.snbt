@@ -1174,7 +1174,7 @@
 			optional: true
 			rewards: [{
 				command: "/ftbchunks waypoint add \"The Machinist\" -40 2 13 minecraft:overworld light_purple true"
-				feedback_message: "Waypoint claimed"
+				feedback_message: "路径点已激活"
 				icon: {
 					id: "minecraft:compass"
 				}
@@ -1232,7 +1232,7 @@
 			optional: true
 			rewards: [{
 				command: "/ftbchunks waypoint add \"The Magician\" -43 2 -5 minecraft:overworld light_purple true"
-				feedback_message: "Waypoint claimed"
+				feedback_message: "路径点已激活"
 				icon: {
 					id: "minecraft:compass"
 				}

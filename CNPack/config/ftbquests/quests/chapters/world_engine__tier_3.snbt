@@ -1308,7 +1308,7 @@
 			optional: true
 			rewards: [{
 				command: "/ftbchunks waypoint add \"The Light Bender\" -5 2 -68 minecraft:overworld light_purple true"
-				feedback_message: "Waypoint claimed"
+				feedback_message: "路径点已激活"
 				icon: {
 					id: "minecraft:compass"
 				}
@@ -1337,7 +1337,7 @@
 			optional: true
 			rewards: [{
 				command: "/ftbchunks waypoint add \"The Catalyst\" -7 2 -28 minecraft:overworld light_purple true"
-				feedback_message: "Waypoint claimed"
+				feedback_message: "路径点已激活"
 				icon: {
 					id: "minecraft:compass"
 				}
@@ -1366,7 +1366,7 @@
 			optional: true
 			rewards: [{
 				command: "/ftbchunks waypoint add \"The Infernal\" 17 2 -22 minecraft:overworld light_purple true"
-				feedback_message: "Waypoint claimed"
+				feedback_message: "路径点已激活"
 				icon: {
 					id: "minecraft:compass"
 				}
