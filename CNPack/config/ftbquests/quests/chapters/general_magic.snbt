@@ -1054,7 +1054,7 @@
 					item: {
 						components: {
 							"ftbfiltersystem:filter": "or(item(irons_spellbooks:cooldown_upgrade_orb)item(irons_spellbooks:mana_upgrade_orb)item(irons_spellbooks:fire_upgrade_orb)item(irons_spellbooks:ice_upgrade_orb)item(irons_spellbooks:ender_upgrade_orb)item(irons_spellbooks:protection_upgrade_orb)item(irons_spellbooks:evocation_upgrade_orb)item(irons_spellbooks:blood_upgrade_orb)item(irons_spellbooks:holy_upgrade_orb)item(irons_spellbooks:nature_upgrade_orb)item(irons_spellbooks:lightning_upgrade_orb))"
-							"minecraft:custom_name": "\"Upgrade Orbs\""
+							"minecraft:custom_name": "“升级法球”"
 						}
 						count: 1
 						id: "ftbfiltersystem:smart_filter"
@@ -1223,7 +1223,7 @@
 					item: {
 						components: {
 							"ftbfiltersystem:filter": "item_tag(malum:mob_drops)mod(malum)"
-							"minecraft:custom_name": "\"Soulful Drops\""
+							"minecraft:custom_name": "“灵魂掉落物”"
 						}
 						count: 1
 						id: "ftbfiltersystem:smart_filter"

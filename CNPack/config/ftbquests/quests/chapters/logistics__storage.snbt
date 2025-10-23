@@ -681,7 +681,7 @@
 				item: {
 					components: {
 						"ftbfiltersystem:filter": "or(item(ae2:import_bus)item(ae2:export_bus))"
-						"minecraft:custom_name": "“输入/输出总线”"
+						"minecraft:custom_name": "\"输入/输出总线\""
 					}
 					count: 1
 					id: "ftbfiltersystem:smart_filter"
@@ -728,7 +728,7 @@
 					item: {
 						components: {
 							"ftbfiltersystem:filter": "or(item(ae2:1k_crafting_storage)item(ae2:4k_crafting_storage)item(ae2:16k_crafting_storage)item(ae2:64k_crafting_storage)item(ae2:256k_crafting_storage))"
-							"minecraft:custom_name": "\"Any Crafting Storage\""
+							"minecraft:custom_name": "\"任意合成存储器\""
 						}
 						count: 1
 						id: "ftbfiltersystem:smart_filter"
@@ -2614,7 +2614,7 @@
 				item: {
 					components: {
 						"ftbfiltersystem:filter": "or(item(functionalstorage:dripping_upgrade)item(functionalstorage:water_generator_upgrade)item(functionalstorage:obsidian_upgrade))"
-						"minecraft:custom_name": "“抽屉生成器”"
+						"minecraft:custom_name": "\"抽屉生成器\""
 					}
 					count: 1
 					id: "ftbfiltersystem:smart_filter"
