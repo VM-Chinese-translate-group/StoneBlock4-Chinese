@@ -3,10 +3,10 @@
   "entity.ftbechoes.echo": "回响投影",
   "ftbechoes.commands.added_stage": "已添加游戏阶段: %s",
   "ftbechoes.commands.all_progress_reset": "所有回响进度和奖励重置至%s",
-  "ftbechoes.commands.invalid_echo": "无效的回响id: %s",
+  "ftbechoes.commands.invalid_echo": "无效的回响id：%s",
   "ftbechoes.commands.progress_changed": "已将回响'%2$s'的'%1$s'进度设置为阶段%s",
   "ftbechoes.commands.progress_changed.failed": "进度更改失败",
-  "ftbechoes.commands.removed_stage": "已移除游戏阶段: %s",
+  "ftbechoes.commands.removed_stage": "已移除游戏阶段：%s",
   "ftbechoes.commands.reward_reset": "重置回响'%s'阶段%s的奖励",
   "ftbechoes.commands.reward_reset.failed": "无法重置奖励 - 玩家可能尚未领取？",
   "ftbechoes.commands.reward_reset_all": "所有奖励在 '%s' 的回声 '%s' 中重置",
@@ -29,7 +29,7 @@
   "ftbechoes.gui.wallet": "Wallet: %s",
   "ftbechoes.jei.echo_title": "Sold by Echo: %s",
   "ftbechoes.jei.shop.title": "回响商店",
-  "ftbechoes.jei.stage_title": "解锁条件: %s",
+  "ftbechoes.jei.stage_title": "解锁条件：%s",
   "ftbechoes.message.complete_stage": "完成阶段",
   "ftbechoes.message.echo_complete": "Echo %s: All stages complete!",
   "ftbechoes.message.echo_stage_complete": "Echo %s: stage %s complete!",
@@ -47,6 +47,6 @@
   "ftbechoes.tooltip.reward_header": "奖励",
   "ftbechoes.tooltip.stock": "库存",
   "ftbechoes.tooltip.too_expensive": "过于昂贵！无法下单",
-  "ftbechoes.tooltip.total_cost": "总计: %s",
-  "ftbechoes.tooltip.unlocked_by": "解锁条件: %s"
+  "ftbechoes.tooltip.total_cost": "总计：%s",
+  "ftbechoes.tooltip.unlocked_by": "解锁条件：%s"
 }
