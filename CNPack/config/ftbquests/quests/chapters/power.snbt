@@ -14,58 +14,6 @@
 	id: "391B65CD04A90459"
 	images: [
 		{
-			height: 2.0d
-			image: "ae2:block/molecular_assembler_lights"
-			rotation: 0.0d
-			width: 2.0d
-			x: 0.0d
-			y: -1.5d
-		}
-		{
-			height: 2.0d
-			image: "ae2:block/mysterious_cube_side"
-			rotation: 0.0d
-			width: 2.0d
-			x: 0.0d
-			y: -1.5d
-		}
-		{
-			height: 2.0d
-			image: "xycraft_world:block/connected/glass_viewer_single"
-			order: 1
-			rotation: 0.0d
-			width: 2.0d
-			x: 0.0d
-			y: -1.5d
-		}
-		{
-			height: 1.5d
-			image: "xycraft_world:block/connected/lamp_rgb_glowing_single"
-			order: 3
-			rotation: 0.0d
-			width: 1.5d
-			x: -9.5d
-			y: 0.0d
-		}
-		{
-			height: 2.0d
-			image: "mekanism:block/elite_induction_provider_led"
-			order: 1
-			rotation: 0.0d
-			width: 2.0d
-			x: -9.5d
-			y: 0.0d
-		}
-		{
-			alpha: 200
-			height: 7.0d
-			image: "xycraft_world:block/connected/glass_viewer_silicon_single"
-			rotation: 0.0d
-			width: 7.0d
-			x: -9.5d
-			y: 3.0d
-		}
-		{
 			height: 2.5d
 			image: "industrialforegoing:block/laser_drill_bottom"
 			order: 1
@@ -84,12 +32,12 @@
 			y: 14.5d
 		}
 		{
-			alpha: 155
+			alpha: 55
 			color: 0
-			height: 4.5d
-			image: "ftbquests:textures/shapes/square/background.png"
+			height: 5.0d
+			image: "ftbquests:textures/shapes/square/shape.png"
 			rotation: 0.0d
-			width: 7.0d
+			width: 7.5d
 			x: 0.0d
 			y: 14.5d
 		}
@@ -99,45 +47,18 @@
 			order: -1
 			rotation: 45.0d
 			width: 1.5d
-			x: 7.0d
-			y: 10.5d
+			x: 5.5d
+			y: 10.0d
 		}
 		{
 			click: "https://moddedmc.wiki/en/project/oritech/docs/processing/reactor/introduction"
 			height: 1.0d
-			hover: ["Oritech反应堆Wiki"]
+			hover: ["Oritech Reactor Wiki"]
 			image: "jei:textures/jei/atlas/gui/icons/info.png"
 			rotation: 0.0d
 			width: 1.0d
-			x: 7.0d
-			y: 10.5d
-		}
-		{
-			alpha: 200
-			height: 6.0d
-			image: "xycraft_world:block/connected/glass_viewer_silicon_single"
-			rotation: 0.0d
-			width: 6.0d
-			x: 9.0d
-			y: 2.5d
-		}
-		{
-			height: 1.5d
-			image: "xycraft_world:block/connected/lamp_rgb_glowing_single"
-			order: 3
-			rotation: 0.0d
-			width: 1.5d
-			x: 9.0d
-			y: 0.0d
-		}
-		{
-			height: 2.0d
-			image: "mekanism:block/elite_induction_provider_led"
-			order: 1
-			rotation: 0.0d
-			width: 2.0d
-			x: 9.0d
-			y: 0.0d
+			x: 5.5d
+			y: 10.0d
 		}
 		{
 			height: 3.0d
@@ -147,6 +68,162 @@
 			x: 0.0d
 			y: -4.5d
 		}
+		{
+			alpha: 55
+			height: 3.0d
+			image: "advanced_ae:block/crafting/quantum_structure_powered"
+			rotation: 45.0d
+			width: 3.0d
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			alpha: 55
+			color: 0
+			height: 4.0d
+			image: "ftbquests:textures/shapes/square/shape.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: -9.5d
+			y: 4.0d
+		}
+		{
+			alpha: 55
+			color: 0
+			height: 4.0d
+			image: "ftbquests:textures/shapes/square/shape.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: 9.0d
+			y: 4.0d
+		}
+		{
+			alpha: 55
+			color: 0
+			height: 3.0d
+			image: "ftbquests:textures/shapes/square/shape.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: -2.5d
+			y: 10.0d
+		}
+		{
+			alpha: 55
+			color: 0
+			height: 3.0d
+			image: "ftbquests:textures/shapes/square/shape.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: 2.5d
+			y: 10.0d
+		}
+		{
+			color: 0
+			height: 0.05d
+			image: "ftbquests:textures/shapes/square/shape.png"
+			rotation: 0.0d
+			width: 12.0d
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			color: 0
+			height: 0.05d
+			image: "ftbquests:textures/shapes/square/shape.png"
+			rotation: 0.0d
+			width: 12.0d
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			color: 0
+			height: 0.05d
+			image: "ftbquests:textures/shapes/square/shape.png"
+			rotation: 0.0d
+			width: 12.0d
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			alpha: 55
+			color: 0
+			height: 2.3d
+			image: "ftbquests:textures/shapes/square/shape.png"
+			order: -1
+			rotation: 0.0d
+			width: 12.0d
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			alpha: 55
+			color: 0
+			height: 2.3d
+			image: "ftbquests:textures/shapes/square/shape.png"
+			order: -1
+			rotation: 0.0d
+			width: 12.0d
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			alpha: 55
+			color: 0
+			height: 2.3d
+			image: "ftbquests:textures/shapes/square/shape.png"
+			order: -1
+			rotation: 0.0d
+			width: 12.0d
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			color: 0
+			height: 0.05d
+			image: "ftbquests:textures/shapes/square/shape.png"
+			rotation: 0.0d
+			width: 12.0d
+			x: 0.0d
+			y: 7.0d
+		}
+		{
+			height: 6.0d
+			image: "tooltipoverhaul:textures/overlay/gear_frame.png"
+			order: 1
+			rotation: 0.0d
+			width: 6.0d
+			x: 9.0d
+			y: 4.0d
+		}
+		{
+			height: 6.0d
+			image: "tooltipoverhaul:textures/overlay/gear_frame.png"
+			order: 1
+			rotation: 0.0d
+			width: 6.0d
+			x: -9.5d
+			y: 4.0d
+		}
+		{
+			alpha: 155
+			height: 2.0d
+			image: "mekanism:block/chemical_injection_chamber/bottom"
+			order: -1
+			rotation: 45.0d
+			width: 2.0d
+			x: 9.0d
+			y: 1.0d
+		}
+		{
+			alpha: 155
+			height: 2.0d
+			image: "mekanism:block/chemical_injection_chamber/bottom"
+			order: -1
+			rotation: 45.0d
+			width: 2.0d
+			x: -9.5d
+			y: 1.0d
+		}
 	]
 	order_index: 6
 	quest_links: [
@@ -154,34 +231,39 @@
 			id: "2BC74E3806AAC890"
 			linked_quest: "0533C0C07AE600FD"
 			shape: "square"
-			x: -0.5d
+			x: -3.0d
 			y: 9.5d
 		}
 		{
 			id: "27DDFC98CAD347B1"
 			linked_quest: "31C83D9253FFF685"
 			shape: "square"
-			x: 0.5d
+			x: -2.0d
 			y: 9.5d
 		}
 		{
 			id: "09B55DBF9632D800"
 			linked_quest: "333E8FBE15AE980D"
 			shape: "square"
-			x: -0.5d
+			x: -3.0d
 			y: 10.5d
 		}
 		{
 			id: "7B31B688D3C41817"
 			linked_quest: "24401E59D87AC23A"
 			shape: "square"
-			x: 0.5d
+			x: -2.0d
 			y: 10.5d
 		}
 	]
 	quests: [
 		{
 			id: "6F4A4B4C261FF84B"
+			rewards: [{
+				amount: 3
+				id: "075947CABF13DB96"
+				type: "currency"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "487F75439C8ED04B"
@@ -197,6 +279,11 @@
 		}
 		{
 			id: "0FFC6CBB213B30AD"
+			rewards: [{
+				amount: 3
+				id: "44F05FD1D86FF21A"
+				type: "currency"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "1AB751DD1A3EFAF3"
@@ -214,7 +301,7 @@
 			optional: true
 			rewards: [{
 				amount: 3
-				id: "060E5B64E56A20D6"
+				id: "3A0B7C443023411F"
 				type: "currency"
 			}]
 			shape: "square"
@@ -231,6 +318,11 @@
 		}
 		{
 			id: "4A68D2CD7437589E"
+			rewards: [{
+				amount: 3
+				id: "0B008AFFF3645C58"
+				type: "currency"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "249F2BE2580B6C48"
@@ -245,6 +337,11 @@
 		}
 		{
 			id: "789A4FE79256A4C6"
+			rewards: [{
+				amount: 3
+				id: "52E5A5E7036D690B"
+				type: "currency"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "3F925F32AF2C7798"
@@ -259,6 +356,11 @@
 		}
 		{
 			id: "2CEF038B5DA1FF25"
+			rewards: [{
+				amount: 3
+				id: "651FCFD2F1BC1528"
+				type: "currency"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "260379AE8CCA3005"
@@ -273,6 +375,11 @@
 		}
 		{
 			id: "018B19721F4404FF"
+			rewards: [{
+				amount: 3
+				id: "29BFF7F3E1AEBCA7"
+				type: "currency"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "5BB0F69B28D858D6"
@@ -290,7 +397,7 @@
 			optional: true
 			rewards: [{
 				amount: 3
-				id: "3051A30B81D00AF8"
+				id: "1FBA2BFC3A702401"
 				type: "currency"
 			}]
 			shape: "square"
@@ -307,6 +414,11 @@
 		}
 		{
 			id: "795A3ABA29AC0E4F"
+			rewards: [{
+				amount: 3
+				id: "1D257553500C1EE1"
+				type: "currency"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "34D00DB1FF8716FF"
@@ -321,6 +433,11 @@
 		}
 		{
 			id: "12CB62610FEAADA0"
+			rewards: [{
+				amount: 3
+				id: "5948B0AE820AA382"
+				type: "currency"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "69288FA14B54B896"
@@ -335,6 +452,11 @@
 		}
 		{
 			id: "2B2BB685DE246BCC"
+			rewards: [{
+				amount: 3
+				id: "63ECA679F0E366A5"
+				type: "currency"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "737D01E861CAC793"
@@ -349,6 +471,11 @@
 		}
 		{
 			id: "0826EF3E7B15B219"
+			rewards: [{
+				amount: 3
+				id: "716235861A802841"
+				type: "currency"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "160EC8848DA3D047"
@@ -363,6 +490,11 @@
 		}
 		{
 			id: "6B2F4AA722DAC535"
+			rewards: [{
+				amount: 3
+				id: "1C4C271F0123DEF9"
+				type: "currency"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "5E6B3E0A256D40E9"
@@ -377,6 +509,11 @@
 		}
 		{
 			id: "0E610A03BB4007B6"
+			rewards: [{
+				amount: 3
+				id: "0DD4267A591A8AAE"
+				type: "currency"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "0493C227DA230646"
@@ -390,14 +527,36 @@
 			y: 15.0d
 		}
 		{
+			icon: {
+				components: {
+					"minecraft:custom_data": {
+						BaseBlock: "air"
+						Name: ""
+						OffsetY: 2.0d
+						Scale: 3.0d
+						TrophyItem: {
+							id: "oritech:unstable_container"
+						}
+						TrophyType: "item"
+					}
+				}
+				id: "trophymanager:trophy"
+			}
 			id: "754048401D3A6A7B"
-			shape: "gear"
+			optional: true
+			rewards: [{
+				id: "1213193316929972"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "none"
+			size: 3.0d
 			tasks: [{
 				id: "2E2AAC08F926D8EE"
 				type: "checkmark"
 			}]
 			x: 0.0d
-			y: -1.5d
+			y: -1.0d
 		}
 		{
 			id: "7B579D0762DB9F33"
@@ -476,10 +635,15 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: 3.5d
+			y: 4.0d
 		}
 		{
 			id: "6C974CC33C5BADD8"
+			rewards: [{
+				amount: 3
+				id: "62AA41F73835FD64"
+				type: "currency"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "05FFF06AD8005937"
@@ -494,6 +658,11 @@
 		}
 		{
 			id: "5417C0BED57AE8DA"
+			rewards: [{
+				amount: 3
+				id: "423D240F831859D4"
+				type: "currency"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "4CBDE404944B3A40"
@@ -507,10 +676,7 @@
 			y: 16.0d
 		}
 		{
-			dependencies: [
-				"206987FC6B1524F8"
-				"74AD70F5C648DBDF"
-			]
+			dependencies: ["206987FC6B1524F8"]
 			hide_dependency_lines: true
 			icon: {
 				id: "actuallyadditions:quintuple_battery"
@@ -535,7 +701,7 @@
 				type: "item"
 			}]
 			x: 10.0d
-			y: 3.0d
+			y: 4.0d
 		}
 		{
 			icon: {
@@ -616,7 +782,7 @@
 				}
 			]
 			x: -2.5d
-			y: 5.0d
+			y: 6.0d
 		}
 		{
 			id: "3CADD463CFC2FE32"
@@ -648,7 +814,7 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: 5.0d
+			y: 6.0d
 		}
 		{
 			icon: {
@@ -706,7 +872,6 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["74AD70F5C648DBDF"]
 			icon: {
 				id: "enderio:basic_capacitor_bank"
 			}
@@ -726,7 +891,7 @@
 				type: "item"
 			}]
 			x: 9.0d
-			y: 3.0d
+			y: 4.0d
 		}
 		{
 			icon: {
@@ -796,31 +961,20 @@
 				}
 			]
 			x: 1.5d
-			y: 5.0d
+			y: 6.0d
 		}
 		{
-			dependencies: ["4AC8D1AEFCED24FD"]
 			icon: {
 				id: "rftoolspower:dimensionalcell"
 			}
 			id: "25B9F4FD7CA67A0B"
 			min_width: 350
 			optional: true
-			rewards: [
-				{
-					amount: 5
-					id: "464D49A10AD0DF77"
-					type: "currency"
-				}
-				{
-					id: "3587072C416B716F"
-					item: {
-						count: 1
-						id: "rftoolspower:dimensionalcell"
-					}
-					type: "item"
-				}
-			]
+			rewards: [{
+				amount: 5
+				id: "464D49A10AD0DF77"
+				type: "currency"
+			}]
 			shape: "square"
 			size: 1.0d
 			tasks: [
@@ -861,10 +1015,9 @@
 				}
 			]
 			x: -10.5d
-			y: 3.0d
+			y: 4.0d
 		}
 		{
-			dependencies: ["74AD70F5C648DBDF"]
 			icon: {
 				id: "rftoolspower:cell1"
 			}
@@ -900,7 +1053,7 @@
 				type: "item"
 			}]
 			x: 8.0d
-			y: 3.0d
+			y: 4.0d
 		}
 		{
 			hide_dependency_lines: false
@@ -933,7 +1086,7 @@
 				type: "item"
 			}]
 			x: -2.5d
-			y: 3.5d
+			y: 4.0d
 		}
 		{
 			hide_dependency_lines: true
@@ -983,30 +1136,15 @@
 			y: 2.0d
 		}
 		{
-			dependencies: [
-				"340D7F25B5EB0D33"
-				"4AC8D1AEFCED24FD"
-			]
+			dependencies: ["340D7F25B5EB0D33"]
 			hide_dependency_lines: true
 			id: "7A0028FE5DF359E8"
 			optional: true
-			rewards: [
-				{
-					amount: 7
-					id: "4D52CA5A233CF8A1"
-					type: "currency"
-				}
-				{
-					count: 2
-					id: "22FCC1248FC9BD82"
-					item: {
-						count: 1
-						id: "justdirethings:coal_t2"
-					}
-					random_bonus: 2
-					type: "item"
-				}
-			]
+			rewards: [{
+				amount: 7
+				id: "4D52CA5A233CF8A1"
+				type: "currency"
+			}]
 			shape: "square"
 			size: 1.0d
 			tasks: [{
@@ -1018,121 +1156,7 @@
 				type: "item"
 			}]
 			x: -9.5d
-			y: 3.0d
-		}
-		{
-			dependencies: ["48935E2DFCA1E835"]
-			id: "358B91BB3DBCD800"
-			tasks: [{
-				id: "2FFFB2A29A4E3BCB"
-				item: {
-					count: 1
-					id: "draconicevolution:flux_gate"
-				}
-				type: "item"
-			}]
-			x: -4.5d
-			y: 9.0d
-		}
-		{
-			dependencies: ["48935E2DFCA1E835"]
-			id: "4E474C940C683371"
-			shape: "diamond"
-			size: 1.5d
-			tasks: [{
-				id: "7DF638393F15BE42"
-				item: {
-					count: 1
-					id: "draconicevolution:reactor_core"
-				}
-				type: "item"
-			}]
-			x: -4.0d
-			y: 10.0d
-		}
-		{
-			dependencies: ["48935E2DFCA1E835"]
-			id: "52B3DD6783B9CB41"
-			tasks: [{
-				id: "2BF431245C264EA0"
-				item: {
-					count: 1
-					id: "draconicevolution:reactor_injector"
-				}
-				type: "item"
-			}]
-			x: -4.0d
-			y: 8.5d
-		}
-		{
-			dependencies: ["48935E2DFCA1E835"]
-			id: "0B8B788FF7110BFC"
-			tasks: [{
-				id: "4596FB5E3848DED3"
-				item: {
-					count: 1
-					id: "draconicevolution:reactor_stabilizer"
-				}
-				type: "item"
-			}]
-			x: -5.5d
-			y: 10.0d
-		}
-		{
-			dependencies: ["48935E2DFCA1E835"]
-			id: "65C0B7ED4EFC9949"
-			tasks: [{
-				id: "0CEF7884596948E7"
-				item: {
-					count: 1
-					id: "draconicevolution:fluid_gate"
-				}
-				type: "item"
-			}]
-			x: -3.5d
-			y: 9.0d
-		}
-		{
-			dependencies: ["7279FFED00B223D7"]
-			id: "66B6E08271B1EF27"
-			tasks: [{
-				id: "0A0AA6C6AC988479"
-				item: {
-					count: 1
-					id: "draconicevolution:energy_pylon"
-				}
-				type: "item"
-			}]
-			x: -4.5d
-			y: 11.0d
-		}
-		{
-			dependencies: ["7279FFED00B223D7"]
-			id: "2898AB7104469C39"
-			tasks: [{
-				id: "113347325B9F6CCD"
-				item: {
-					count: 1
-					id: "draconicevolution:energy_core_stabilizer"
-				}
-				type: "item"
-			}]
-			x: -3.5d
-			y: 11.0d
-		}
-		{
-			dependencies: ["53060D307C063C25"]
-			id: "1E6E38DC6183463A"
-			tasks: [{
-				id: "0F9D1B914F0933F6"
-				item: {
-					count: 1
-					id: "draconicevolution:energy_core"
-				}
-				type: "item"
-			}]
-			x: -4.0d
-			y: 11.5d
+			y: 4.0d
 		}
 		{
 			id: "13EC7C64DFBD1556"
@@ -1157,7 +1181,6 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["74AD70F5C648DBDF"]
 			id: "4348C9D795E92FCE"
 			optional: true
 			rewards: [{
@@ -1175,7 +1198,7 @@
 				type: "item"
 			}]
 			x: 8.0d
-			y: 4.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["13EC7C64DFBD1556"]
@@ -1210,7 +1233,7 @@
 				}
 			]
 			x: 0.5d
-			y: 3.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["13EC7C64DFBD1556"]
@@ -1232,7 +1255,7 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: 3.5d
+			y: 4.0d
 		}
 		{
 			hide_lock_icon: true
@@ -1256,8 +1279,8 @@
 				}
 				type: "item"
 			}]
-			x: 4.5d
-			y: 10.5d
+			x: 2.5d
+			y: 9.5d
 		}
 		{
 			dependencies: ["3F75F781DE5123F4"]
@@ -1279,8 +1302,8 @@
 				}
 				type: "item"
 			}]
-			x: 4.5d
-			y: 9.5d
+			x: 2.5d
+			y: 10.5d
 		}
 		{
 			dependencies: ["3F75F781DE5123F4"]
@@ -1338,8 +1361,8 @@
 					type: "item"
 				}
 			]
-			x: 3.5d
-			y: 11.0d
+			x: 1.5d
+			y: 10.5d
 		}
 		{
 			dependencies: ["3F75F781DE5123F4"]
@@ -1373,8 +1396,8 @@
 					type: "item"
 				}
 			]
-			x: 5.5d
-			y: 11.0d
+			x: 3.5d
+			y: 10.5d
 		}
 		{
 			dependencies: ["3F75F781DE5123F4"]
@@ -1408,8 +1431,8 @@
 					type: "item"
 				}
 			]
-			x: 3.5d
-			y: 10.0d
+			x: 1.5d
+			y: 9.5d
 		}
 		{
 			dependencies: ["3F75F781DE5123F4"]
@@ -1443,8 +1466,8 @@
 					type: "item"
 				}
 			]
-			x: 5.5d
-			y: 10.0d
+			x: 3.5d
+			y: 9.5d
 		}
 		{
 			dependency_requirement: "one_started"
@@ -1467,7 +1490,7 @@
 				type: "item"
 			}]
 			x: -0.5d
-			y: 5.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["13EC7C64DFBD1556"]
@@ -1490,10 +1513,9 @@
 				type: "item"
 			}]
 			x: -0.5d
-			y: 3.5d
+			y: 4.0d
 		}
 		{
-			dependencies: ["74AD70F5C648DBDF"]
 			hide_dependency_lines: true
 			id: "3B2B26B1AD947CC5"
 			optional: true
@@ -1513,13 +1535,10 @@
 				type: "item"
 			}]
 			x: 9.0d
-			y: 4.0d
+			y: 5.0d
 		}
 		{
-			dependencies: [
-				"3B2B26B1AD947CC5"
-				"74AD70F5C648DBDF"
-			]
+			dependencies: ["3B2B26B1AD947CC5"]
 			id: "6C4783132CC50BF0"
 			min_width: 350
 			optional: true
@@ -1539,7 +1558,7 @@
 				type: "item"
 			}]
 			x: 10.0d
-			y: 4.0d
+			y: 5.0d
 		}
 		{
 			hide_dependency_lines: true
@@ -1568,10 +1587,9 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: 5.0d
+			y: 6.0d
 		}
 		{
-			dependencies: ["4AC8D1AEFCED24FD"]
 			hide_dependency_lines: false
 			icon: {
 				id: "powah:player_transmitter_nitro"
@@ -1609,7 +1627,7 @@
 				}
 			]
 			x: -8.5d
-			y: 2.0d
+			y: 3.0d
 		}
 		{
 			hide_dependency_lines: true
@@ -1637,10 +1655,9 @@
 				type: "item"
 			}]
 			x: 3.5d
-			y: 3.5d
+			y: 4.0d
 		}
 		{
-			dependencies: ["74AD70F5C648DBDF"]
 			hide_dependency_lines: true
 			icon: {
 				id: "powah:energy_cell_nitro"
@@ -1677,10 +1694,9 @@
 				}
 			]
 			x: 8.0d
-			y: 2.0d
+			y: 3.0d
 		}
 		{
-			dependencies: ["4AC8D1AEFCED24FD"]
 			hide_dependency_lines: false
 			icon: {
 				id: "powah:ender_cell_nitro"
@@ -1707,7 +1723,7 @@
 				type: "item"
 			}]
 			x: -9.5d
-			y: 2.0d
+			y: 3.0d
 		}
 		{
 			hide_dependency_lines: true
@@ -1735,10 +1751,9 @@
 				type: "item"
 			}]
 			x: -3.5d
-			y: 3.5d
+			y: 4.0d
 		}
 		{
-			dependencies: ["4AC8D1AEFCED24FD"]
 			hide_dependency_lines: false
 			icon: {
 				id: "powah:ender_gate_nitro"
@@ -1765,10 +1780,9 @@
 				type: "item"
 			}]
 			x: -10.5d
-			y: 2.0d
+			y: 3.0d
 		}
 		{
-			dependencies: ["4AC8D1AEFCED24FD"]
 			icon: {
 				id: "fluxnetworks:flux_configurator"
 			}
@@ -1780,8 +1794,8 @@
 				id: "061AF724DF60D4CC"
 				type: "currency"
 			}]
-			shape: "diamond"
-			size: 1.5d
+			shape: "square"
+			size: 1.0d
 			tasks: [
 				{
 					id: "0B1B2282DAF31E31"
@@ -1801,14 +1815,11 @@
 					type: "item"
 				}
 			]
-			x: -10.5d
-			y: 4.5d
+			x: -9.5d
+			y: 5.0d
 		}
 		{
-			dependencies: [
-				"34D191F76AA69707"
-				"4AC8D1AEFCED24FD"
-			]
+			dependencies: ["34D191F76AA69707"]
 			icon: {
 				id: "fluxnetworks:flux_plug"
 			}
@@ -1819,7 +1830,7 @@
 				id: "4AB4ED67FB531ED4"
 				type: "currency"
 			}]
-			shape: "diamond"
+			shape: "square"
 			size: 1.0d
 			tasks: [
 				{
@@ -1851,14 +1862,11 @@
 					type: "item"
 				}
 			]
-			x: -8.5d
+			x: -10.5d
 			y: 5.0d
 		}
 		{
-			dependencies: [
-				"34D191F76AA69707"
-				"4AC8D1AEFCED24FD"
-			]
+			dependencies: ["34D191F76AA69707"]
 			id: "6D5905345348ABEF"
 			min_width: 350
 			rewards: [{
@@ -1866,7 +1874,7 @@
 				id: "4E2078A1B9823FC8"
 				type: "currency"
 			}]
-			shape: "diamond"
+			shape: "square"
 			size: 1.0d
 			tasks: [{
 				id: "706B296079D24F19"
@@ -1877,13 +1885,11 @@
 				type: "item"
 			}]
 			x: -8.5d
-			y: 4.0d
+			y: 5.0d
 		}
 		{
-			dependencies: [
-				"34D191F76AA69707"
-				"4AC8D1AEFCED24FD"
-			]
+			dependencies: ["34D191F76AA69707"]
+			hide_until_deps_complete: true
 			icon: {
 				components: {
 					"ftbquests:icon": "minecraft:textures/gui/sprites/icon/ping_4.png"
@@ -1898,14 +1904,14 @@
 				id: "0E595445A35797BB"
 				type: "currency"
 			}]
-			shape: "diamond"
+			shape: "square"
 			size: 1.0d
 			tasks: [{
 				id: "36D4CF12BC70DBDD"
 				type: "checkmark"
 			}]
-			x: -8.0d
-			y: 4.5d
+			x: -9.5d
+			y: 6.5d
 		}
 		{
 			id: "28F636FAA3397479"
@@ -1959,7 +1965,7 @@
 				}
 			]
 			x: 1.5d
-			y: 3.5d
+			y: 4.0d
 		}
 		{
 			id: "52B46D49B5C4A7F2"
@@ -1978,63 +1984,68 @@
 				type: "item"
 			}]
 			x: 0.5d
-			y: 5.0d
+			y: 6.0d
 		}
 		{
+			icon: {
+				id: "powah:player_transmitter_nitro"
+			}
+			icon_scale: 2.0d
 			id: "4AC8D1AEFCED24FD"
-			shape: "square"
+			optional: true
+			shape: "none"
+			size: 2.0d
 			tasks: [{
 				id: "05FFCCEAC7E565FB"
 				type: "checkmark"
 			}]
 			x: -9.5d
-			y: 0.0d
+			y: 1.0d
 		}
 		{
+			icon: {
+				components: {
+					"mekanism:energy": {
+						energy_containers: [L;9223372036854775807L]
+					}
+					"mekanism:side_config": {
+						config: {
+							energy: {
+								eject: 1b
+								side: {
+									back: "output"
+									bottom: "output"
+									front: "output"
+									left: "output"
+									right: "output"
+									top: "output"
+								}
+							}
+							items: {
+								side: {
+									back: "input"
+									bottom: "input"
+									front: "output"
+									left: "input"
+									right: "input"
+									top: "input"
+								}
+							}
+						}
+					}
+				}
+				id: "mekanism:creative_energy_cube"
+			}
 			id: "74AD70F5C648DBDF"
-			shape: "square"
+			optional: true
+			shape: "none"
+			size: 3.0d
 			tasks: [{
 				id: "6F0EB6804E6BC2C8"
 				type: "checkmark"
 			}]
 			x: 9.0d
-			y: 0.0d
-		}
-		{
-			id: "2516CD3C35ED3AED"
-			tasks: [{
-				id: "598955C607984551"
-				type: "checkmark"
-			}]
-			x: -4.0d
-			y: 2.0d
-		}
-		{
-			id: "710E450B028B5A68"
-			tasks: [{
-				id: "5C3B57777EB7E7CD"
-				type: "checkmark"
-			}]
-			x: -5.0d
-			y: 3.5d
-		}
-		{
-			id: "4D8C704277EBDD44"
-			tasks: [{
-				id: "430918A5AD62C27F"
-				type: "checkmark"
-			}]
-			x: -4.0d
-			y: 5.0d
-		}
-		{
-			id: "2BF4844927D2CC20"
-			tasks: [{
-				id: "5A43BF69F5EE7A51"
-				type: "checkmark"
-			}]
-			x: 0.0d
-			y: 6.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["212600F8D3C1E1EB"]
@@ -2086,10 +2097,9 @@
 				}
 			]
 			x: 10.0d
-			y: 2.0d
+			y: 3.0d
 		}
 		{
-			dependencies: ["74AD70F5C648DBDF"]
 			icon: {
 				components: {
 					"mekanism:energy": {
@@ -2122,13 +2132,20 @@
 				}
 			]
 			x: 9.0d
-			y: 2.0d
+			y: 3.0d
 		}
 		{
 			icon: {
 				id: "irregular_implements:spectre_energy_injector"
 			}
 			id: "74E9653C810F045B"
+			optional: true
+			rewards: [{
+				amount: 3
+				id: "3AF324F0A715FB03"
+				type: "currency"
+			}]
+			shape: "square"
 			tasks: [
 				{
 					id: "55F0B0500B8AD562"
@@ -2147,16 +2164,95 @@
 					type: "item"
 				}
 				{
-					id: "63693217853FC9F8"
+					id: "11193E0681204B33"
 					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(irregular_implements:spectre_coil_basic)item(irregular_implements:spectre_coil_redstone)item(irregular_implements:spectre_coil_ender))"
+						}
 						count: 1
-						id: "irregular_implements:spectre_coil_basic"
+						id: "ftbfiltersystem:smart_filter"
 					}
 					type: "item"
 				}
 			]
-			x: -9.5d
-			y: 8.0d
+			x: -8.5d
+			y: 4.0d
+		}
+		{
+			icon: {
+				id: "minecraft:coal"
+			}
+			id: "78F7CFEA0EB5024C"
+			optional: true
+			rewards: [{
+				id: "6FEBCBC5FDDAFEB2"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "square"
+			tasks: [{
+				id: "224C16DC19629B4B"
+				type: "checkmark"
+			}]
+			x: -5.0d
+			y: 2.0d
+		}
+		{
+			icon: {
+				id: "mekanism:upgrade_energy"
+			}
+			id: "308D9819EA67D3F0"
+			optional: true
+			rewards: [{
+				id: "24A74C9F99873D28"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "square"
+			tasks: [{
+				id: "2BE7F102A41BB55E"
+				type: "checkmark"
+			}]
+			x: -5.0d
+			y: 4.0d
+		}
+		{
+			icon: {
+				id: "powah:uraninite"
+			}
+			id: "534F1C46873C1358"
+			optional: true
+			rewards: [{
+				id: "652F54478C2BD275"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "square"
+			tasks: [{
+				id: "63405599D33D4D0A"
+				type: "checkmark"
+			}]
+			x: -5.0d
+			y: 6.0d
+		}
+		{
+			icon: {
+				id: "oritech:plutonium_pellet"
+			}
+			id: "2341297707B00E93"
+			optional: true
+			rewards: [{
+				id: "61C9D71A76AA2558"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "square"
+			tasks: [{
+				id: "7F73108709C402C8"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 10.0d
 		}
 	]
 }

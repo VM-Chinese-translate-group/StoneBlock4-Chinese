@@ -68,14 +68,21 @@
 			}
 			icon_scale: 2.0d
 			id: "1F9D3474C8A655A9"
-			rewards: [{
-				auto: "invisible"
-				id: "6E8C72D61D5B35DB"
-				ignore_reward_blocking: true
-				stage: "ftb:bee_1"
-				team_reward: false
-				type: "gamestage"
-			}]
+			rewards: [
+				{
+					amount: 1
+					id: "55DF8FC898B35E4A"
+					type: "currency"
+				}
+				{
+					auto: "invisible"
+					id: "6E8C72D61D5B35DB"
+					ignore_reward_blocking: true
+					stage: "ftb:bee_1"
+					team_reward: false
+					type: "gamestage"
+				}
+			]
 			shape: "none"
 			size: 2.0d
 			tasks: [
@@ -124,12 +131,19 @@
 				id: "ftbquests:custom_icon"
 			}
 			id: "4194852B70E0ECEB"
-			rewards: [{
-				id: "2E521856EFE39CF8"
-				table_id: 8721787916292516836L
-				team_reward: false
-				type: "random"
-			}]
+			rewards: [
+				{
+					amount: 1
+					id: "1BE1F4E900011EE5"
+					type: "currency"
+				}
+				{
+					id: "2E521856EFE39CF8"
+					table_id: 8721787916292516836L
+					team_reward: false
+					type: "random"
+				}
+			]
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [{
@@ -606,7 +620,7 @@
 			optional: true
 			rewards: [
 				{
-					amount: 1
+					amount: 2
 					id: "0AFE6CECDFCCC475"
 					type: "currency"
 				}
@@ -966,7 +980,7 @@
 			}
 			id: "1520491A7804E08E"
 			rewards: [{
-				amount: 3
+				amount: 4
 				id: "44371E780E4A68C3"
 				type: "currency"
 			}]
@@ -1362,7 +1376,7 @@
 			id: "75F6827C1FB52C91"
 			rewards: [
 				{
-					amount: 3
+					amount: 4
 					id: "354CDBBF55C0ABB6"
 					type: "currency"
 				}
@@ -1431,6 +1445,60 @@
 				type: "checkmark"
 			}]
 			x: 22.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6D5A9E9E8B0D8AC2"]
+			icon: {
+				id: "ftbpc:action_pad"
+			}
+			id: "3DF42A6D832C0492"
+			rewards: [
+				{
+					auto: "disabled"
+					exclude_from_claim_all: true
+					id: "5A4021BAC5FD9392"
+					item: {
+						count: 1
+						id: "ftbpc:action_pad"
+					}
+					team_reward: false
+					type: "item"
+				}
+				{
+					amount: 1
+					id: "1C6642DD4F3FE630"
+					type: "currency"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "2CB20E4080C1B6CC"
+				type: "checkmark"
+			}]
+			x: 17.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["036047DE66198D10"]
+			icon: {
+				components: {
+					"ftbquests:icon": "lychee:textures/gui/sprites/info.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "7B2044D285C9F1E3"
+			rewards: [{
+				amount: 1
+				id: "5B238352AA726B7D"
+				type: "currency"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "2D2F59A031BC2E63"
+				type: "checkmark"
+			}]
+			x: 11.0d
 			y: 1.5d
 		}
 	]

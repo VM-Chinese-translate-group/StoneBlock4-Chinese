@@ -128,7 +128,7 @@
 			y: 8.5d
 		}
 	]
-	order_index: 4
+	order_index: 3
 	quest_links: [{
 		id: "66E8678CC3988415"
 		linked_quest: "3819423319D1A414"
@@ -150,7 +150,7 @@
 			id: "695B2CCD18E5DDFE"
 			rewards: [
 				{
-					amount: 3
+					amount: 25
 					id: "35AE642C42AF121F"
 					type: "currency"
 				}
@@ -204,7 +204,7 @@
 			id: "500074C1D4EC9591"
 			rewards: [
 				{
-					amount: 3
+					amount: 25
 					id: "7CAF33B06E480296"
 					type: "currency"
 				}
@@ -261,7 +261,7 @@
 			id: "787BD711CFF837C6"
 			rewards: [
 				{
-					amount: 3
+					amount: 25
 					id: "71A33FF655567FDC"
 					type: "currency"
 				}
@@ -308,7 +308,7 @@
 			id: "71F25B7D688EE182"
 			rewards: [
 				{
-					amount: 15
+					amount: 75
 					id: "4CDBAA5045834250"
 					type: "currency"
 				}
@@ -348,7 +348,7 @@
 			id: "6461D19F839957B6"
 			rewards: [
 				{
-					amount: 20
+					amount: 75
 					id: "1E287703BF6E8B80"
 					type: "currency"
 				}
@@ -391,9 +391,23 @@
 			id: "0E7AD6BCF9F8605F"
 			rewards: [
 				{
-					amount: 30
+					amount: 50
 					id: "4F1B9DDED5C0093D"
 					type: "currency"
+				}
+				{
+					id: "7B852973C712FCDD"
+					item: {
+						count: 1
+						id: "minecraft:dragon_head"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "659A8D4DD933ED2E"
+					table_id: 7750792604136724303L
+					type: "loot"
 				}
 				{
 					auto: "invisible"
@@ -402,16 +416,18 @@
 					stage: "echo_catalyst_stage3_task2_completed"
 					type: "gamestage"
 				}
-				{
-					exclude_from_claim_all: true
-					id: "659A8D4DD933ED2E"
-					table_id: 7750792604136724303L
-					type: "loot"
-				}
 			]
 			shape: "gear"
 			size: 1.0d
 			tasks: [
+				{
+					id: "1FCC47601D407F24"
+					item: {
+						count: 1
+						id: "ftb:mighty_chicken_egg"
+					}
+					type: "item"
+				}
 				{
 					icon: {
 						components: {
@@ -458,7 +474,7 @@
 			}
 			id: "5CD461E6C3E8E7D1"
 			rewards: [{
-				amount: 5
+				amount: 25
 				id: "2218E1495134DBB9"
 				type: "currency"
 			}]
@@ -488,7 +504,7 @@
 			}
 			id: "2D110AB9A38178C5"
 			rewards: [{
-				amount: 10
+				amount: 30
 				id: "15E68134EABD52C4"
 				type: "currency"
 			}]
@@ -505,26 +521,6 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["71F25B7D688EE182"]
-			hide_until_deps_complete: true
-			id: "161E5C5904FCEDAB"
-			optional: true
-			shape: "diamond"
-			tasks: [{
-				id: "66E96E8D93525948"
-				item: {
-					components: {
-						"ftbfiltersystem:filter": "or(item(justdirethings:portalgun_v2)item(mekanism:advanced_tier_installer)item(mekanism:teleporter)item(enderio:travel_anchor)item(laserio:logic_chip)item(ae2:controller)item(ae2:crafting_unit)item(modularrouters:modular_router))"
-					}
-					count: 1
-					id: "ftbfiltersystem:smart_filter"
-				}
-				type: "item"
-			}]
-			x: 8.0d
-			y: 3.5d
-		}
-		{
 			dependencies: [
 				"5A04F7A95366D15F"
 				"11F69E1E4FE4D5CD"
@@ -533,7 +529,7 @@
 			id: "0FD446B7912E00CB"
 			rewards: [
 				{
-					amount: 50
+					amount: 75
 					id: "14DAF64F570A446A"
 					type: "currency"
 				}
@@ -584,13 +580,20 @@
 			}
 			id: "3DCD6DC36B31EEF4"
 			min_required_dependencies: 3
-			rewards: [{
-				auto: "invisible"
-				id: "15CC6D43D6B5EF58"
-				ignore_reward_blocking: true
-				stage: "ftb:bee_3"
-				type: "gamestage"
-			}]
+			rewards: [
+				{
+					amount: 15
+					id: "43752754702F3323"
+					type: "currency"
+				}
+				{
+					auto: "invisible"
+					id: "15CC6D43D6B5EF58"
+					ignore_reward_blocking: true
+					stage: "ftb:bee_3"
+					type: "gamestage"
+				}
+			]
 			shape: "gear"
 			size: 3.0d
 			tasks: [{
@@ -618,7 +621,7 @@
 			}
 			id: "70BB982228095E51"
 			rewards: [{
-				amount: 5
+				amount: 15
 				id: "2EEA67428FAF1393"
 				type: "currency"
 			}]
@@ -654,7 +657,7 @@
 			}
 			id: "066342488E03F3B5"
 			rewards: [{
-				amount: 5
+				amount: 15
 				id: "54744095BE30AF50"
 				type: "currency"
 			}]
@@ -690,7 +693,7 @@
 			}
 			id: "1F1A15B6E079F31F"
 			rewards: [{
-				amount: 5
+				amount: 15
 				id: "73728CACF4CC0050"
 				type: "currency"
 			}]
@@ -714,7 +717,7 @@
 			id: "0B69B9E1209A9234"
 			rewards: [
 				{
-					amount: 15
+					amount: 35
 					id: "6172F098ED854EE2"
 					type: "currency"
 				}
@@ -752,7 +755,7 @@
 			id: "11BB3C62703E0B3E"
 			rewards: [
 				{
-					amount: 5
+					amount: 25
 					id: "0EFF59DFAEC065CD"
 					type: "currency"
 				}
@@ -800,7 +803,7 @@
 			id: "26F3ECD3CC9E7CDA"
 			rewards: [
 				{
-					amount: 5
+					amount: 25
 					id: "34ECD70AD0D8626C"
 					type: "currency"
 				}
@@ -848,7 +851,7 @@
 			id: "7E7745D3E460831F"
 			rewards: [
 				{
-					amount: 5
+					amount: 25
 					id: "45C3093655739F41"
 					type: "currency"
 				}
@@ -896,7 +899,7 @@
 			}
 			id: "11F69E1E4FE4D5CD"
 			rewards: [{
-				amount: 15
+				amount: 25
 				id: "3189DA3CE928F70B"
 				type: "currency"
 			}]
@@ -937,7 +940,7 @@
 			}
 			id: "5A04F7A95366D15F"
 			rewards: [{
-				amount: 10
+				amount: 25
 				id: "4E560B8AA0A811DF"
 				type: "currency"
 			}]
@@ -978,7 +981,7 @@
 			}
 			id: "74EA9D857CB71A91"
 			rewards: [{
-				amount: 10
+				amount: 25
 				id: "27E0AA8257DA2B52"
 				type: "currency"
 			}]
@@ -1005,86 +1008,6 @@
 			y: 4.75d
 		}
 		{
-			dependencies: ["0E7AD6BCF9F8605F"]
-			hide_until_deps_complete: true
-			id: "25671486C05D3BDD"
-			optional: true
-			shape: "diamond"
-			tasks: [{
-				id: "37AD604DC3429E57"
-				item: {
-					components: {
-						"ftbfiltersystem:filter": "or(item(projecte:collector_mk2)item(projecte:interdiction_torch)item(ftb:dark_matter_smithing_template)item(projecte:iron_band)item(ftb:iron_amulet)item(ftb:blank_slate))"
-					}
-					count: 1
-					id: "ftbfiltersystem:smart_filter"
-				}
-				type: "item"
-			}]
-			x: 2.0d
-			y: 2.5d
-		}
-		{
-			dependencies: ["0B69B9E1209A9234"]
-			hide_until_deps_complete: true
-			id: "04390374B616F240"
-			optional: true
-			shape: "diamond"
-			tasks: [{
-				id: "51A10188D6628ECE"
-				item: {
-					components: {
-						"ftbfiltersystem:filter": "or(item(fluxnetworks:flux_dust)item(sfm:manager)item(rftoolsutility:matter_receiver)item(rftoolsutility:matter_transmitter)item(pipez:universal_pipe)item(xnet:controller)item(ironfurnaces:augment_factory))"
-					}
-					count: 1
-					id: "ftbfiltersystem:smart_filter"
-				}
-				type: "item"
-			}]
-			x: 2.0d
-			y: 1.5d
-		}
-		{
-			dependencies: ["0FD446B7912E00CB"]
-			hide_until_deps_complete: true
-			id: "316E6B7417136ADB"
-			optional: true
-			shape: "diamond"
-			tasks: [{
-				id: "357A1AFDAEFE1347"
-				item: {
-					count: 1
-					id: "entangled:block"
-				}
-				type: "item"
-			}]
-			x: 3.0d
-			y: 7.0d
-		}
-		{
-			dependencies: [
-				"6461D19F839957B6"
-				"0FD446B7912E00CB"
-			]
-			hide_until_deps_complete: true
-			id: "456E8B20AB9734BF"
-			optional: true
-			shape: "diamond"
-			tasks: [{
-				id: "6B27B17119E4FED3"
-				item: {
-					components: {
-						"ftbfiltersystem:filter": "or(item(deepdarkdimdungeons:deep_dark_catalyst)item(bhc:vigor_bow)item(bhc:blade_of_vitality))"
-					}
-					count: 1
-					id: "ftbfiltersystem:smart_filter"
-				}
-				type: "item"
-			}]
-			x: -3.0d
-			y: 6.0d
-		}
-		{
 			dependencies: [
 				"695B2CCD18E5DDFE"
 				"375DBC764A420D98"
@@ -1095,7 +1018,7 @@
 			id: "3AB006907366227A"
 			min_width: 350
 			rewards: [{
-				amount: 5
+				amount: 30
 				id: "039517DD109B4CBD"
 				type: "currency"
 			}]
@@ -1136,7 +1059,7 @@
 			}
 			id: "007F4A173D5CA51F"
 			rewards: [{
-				amount: 10
+				amount: 35
 				id: "6D45B3EF8B8F0069"
 				type: "currency"
 			}]
@@ -1169,7 +1092,7 @@
 			}
 			id: "38124EBC1E14AB38"
 			rewards: [{
-				amount: 20
+				amount: 35
 				id: "258CFE11EB6B1178"
 				type: "currency"
 			}]
@@ -1195,29 +1118,6 @@
 		}
 		{
 			dependencies: [
-				"7713D75A36D0A23D"
-				"0FD446B7912E00CB"
-			]
-			hide_until_deps_complete: true
-			id: "08E45BF0BBC892E7"
-			optional: true
-			shape: "diamond"
-			tasks: [{
-				id: "159CA0D800D44755"
-				item: {
-					components: {
-						"ftbfiltersystem:filter": "or(item(advanced_ae:reaction_chamber)item(mekanism:elite_tier_installer)item(pipez:ultimate_upgrade)item(xp_synthesiser:xp_synthesiser))"
-					}
-					count: 1
-					id: "ftbfiltersystem:smart_filter"
-				}
-				type: "item"
-			}]
-			x: 3.0d
-			y: 6.0d
-		}
-		{
-			dependencies: [
 				"71F25B7D688EE182"
 				"1E307C13D534A75C"
 			]
@@ -1227,7 +1127,7 @@
 			id: "7713D75A36D0A23D"
 			rewards: [
 				{
-					amount: 20
+					amount: 75
 					id: "5F54BB6098A09B5D"
 					type: "currency"
 				}
@@ -1281,7 +1181,7 @@
 			dependencies: ["71F25B7D688EE182"]
 			id: "6739E7A96309D0A8"
 			rewards: [{
-				amount: 5
+				amount: 20
 				id: "58C4714D8D4234C1"
 				type: "currency"
 			}]
@@ -1420,7 +1320,7 @@
 				}
 				type: "item"
 			}]
-			x: -1.5d
+			x: -1.0d
 			y: 1.5d
 		}
 		{
@@ -1460,7 +1360,7 @@
 				}
 				type: "item"
 			}]
-			x: -1.5d
+			x: 1.0d
 			y: 2.5d
 		}
 		{
@@ -1620,8 +1520,8 @@
 				}
 				type: "item"
 			}]
-			x: 4.5d
-			y: 3.5d
+			x: 5.0d
+			y: 4.5d
 		}
 		{
 			can_repeat: true
@@ -1635,6 +1535,7 @@
 				id: "create:empty_schematic"
 			}
 			id: "727070B13B966DE1"
+			optional: true
 			rewards: [{
 				auto: "disabled"
 				command: "/worldengine tesseract_upgrade"
@@ -1660,7 +1561,7 @@
 				}
 				type: "item"
 			}]
-			x: -2.5d
+			x: -1.0d
 			y: 2.5d
 		}
 	]

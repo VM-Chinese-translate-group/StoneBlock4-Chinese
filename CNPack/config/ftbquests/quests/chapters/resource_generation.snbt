@@ -24,37 +24,21 @@
 		}
 		{
 			height: 1.0d
-			image: "minecraft:item/diamond"
-			rotation: 15.0d
-			width: 1.0d
-			x: 2.0d
-			y: 0.0d
-		}
-		{
-			height: 1.0d
-			image: "minecraft:item/emerald"
-			rotation: -15.0d
-			width: 1.0d
-			x: -2.0d
-			y: 0.0d
-		}
-		{
-			height: 1.0d
 			image: "ftb:textures/quests/other_titles_and_logos/replication_logo.png"
 			rotation: 0.0d
 			width: 6.0d
-			x: 7.0d
-			y: -1.5d
+			x: 6.0d
+			y: 3.5d
 		}
 		{
-			alpha: 150
+			alpha: 100
 			height: 7.0d
 			image: "replication:item/memory_chip"
 			order: -10
 			rotation: 45.0d
 			width: 7.0d
-			x: 7.0d
-			y: 0.0d
+			x: 6.0d
+			y: 5.0d
 		}
 		{
 			height: 3.0d
@@ -62,7 +46,7 @@
 			rotation: 0.0d
 			width: 3.0d
 			x: -8.0d
-			y: 3.0d
+			y: 3.5d
 		}
 		{
 			dependency: "5CD7299E8709E7F6"
@@ -71,7 +55,7 @@
 			rotation: 0.0d
 			width: 1.5d
 			x: -1.5d
-			y: 5.5d
+			y: 4.5d
 		}
 		{
 			dependency: "5CD7299E8709E7F6"
@@ -80,7 +64,7 @@
 			rotation: 0.0d
 			width: 1.5d
 			x: 0.0d
-			y: 5.5d
+			y: 5.0d
 		}
 		{
 			dependency: "5CD7299E8709E7F6"
@@ -89,31 +73,17 @@
 			rotation: 0.0d
 			width: 1.5d
 			x: 1.5d
-			y: 5.5d
+			y: 4.5d
 		}
 		{
-			height: 5.0d
-			image: "chisel:block/ctm/noborder/glass/0"
-			rotation: 0.0d
-			width: 4.5d
-			x: -6.5d
-			y: -6.0d
-		}
-		{
-			height: 2.0d
-			image: "chisel:block/ctm/noborder/glass/0"
-			rotation: 0.0d
-			width: 4.5d
-			x: 5.5d
-			y: -7.0d
-		}
-		{
+			alpha: 55
+			color: 0
 			height: 4.0d
-			image: "chisel:block/ctm/noborder/glass/0"
+			image: "ftbquests:textures/shapes/square/shape.png"
 			rotation: 0.0d
-			width: 4.5d
-			x: 0.0d
-			y: -6.0d
+			width: 4.0d
+			x: -5.5d
+			y: -4.5d
 		}
 		{
 			height: 3.0d
@@ -122,13 +92,13 @@
 			rotation: 0.0d
 			width: 3.0d
 			x: -5.0d
-			y: 3.0d
+			y: 3.5d
 		}
 		{
-			height: 3.0d
+			height: 4.0d
 			image: "chicken_roost:textures/bh_ru_logo.png"
 			rotation: 0.0d
-			width: 3.0d
+			width: 4.0d
 			x: -6.5d
 			y: 0.0d
 		}
@@ -139,7 +109,7 @@
 			rotation: 0.0d
 			width: 3.0d
 			x: -5.0d
-			y: 6.0d
+			y: 6.5d
 		}
 		{
 			height: 3.0d
@@ -148,7 +118,7 @@
 			rotation: 0.0d
 			width: 3.0d
 			x: -8.0d
-			y: 6.0d
+			y: 6.5d
 		}
 		{
 			alpha: 155
@@ -158,7 +128,7 @@
 			rotation: 0.0d
 			width: 3.0d
 			x: -5.0d
-			y: 3.0d
+			y: 3.5d
 		}
 		{
 			alpha: 155
@@ -168,7 +138,7 @@
 			rotation: 0.0d
 			width: 3.0d
 			x: -5.0d
-			y: 6.0d
+			y: 6.5d
 		}
 		{
 			alpha: 155
@@ -178,7 +148,7 @@
 			rotation: 0.0d
 			width: 3.0d
 			x: -8.0d
-			y: 6.0d
+			y: 6.5d
 		}
 		{
 			alpha: 155
@@ -188,7 +158,7 @@
 			rotation: 0.0d
 			width: 3.0d
 			x: -8.0d
-			y: 3.0d
+			y: 3.5d
 		}
 		{
 			height: 1.0d
@@ -197,7 +167,7 @@
 			rotation: 0.0d
 			width: 1.0d
 			x: -9.0d
-			y: 2.0d
+			y: 2.5d
 		}
 		{
 			height: 1.0d
@@ -206,7 +176,7 @@
 			rotation: -75.0d
 			width: 1.0d
 			x: -4.0d
-			y: 2.0d
+			y: 2.5d
 		}
 		{
 			height: 1.0d
@@ -215,7 +185,7 @@
 			rotation: -75.0d
 			width: 1.0d
 			x: -9.0d
-			y: 7.0d
+			y: 7.5d
 		}
 		{
 			height: 1.0d
@@ -224,23 +194,81 @@
 			rotation: 0.0d
 			width: 1.0d
 			x: -4.0d
-			y: 7.0d
+			y: 7.5d
 		}
 		{
-			height: 2.0d
-			image: "chisel:block/ctm/noborder/glass/0"
+			height: 6.0d
+			image: "tooltipoverhaul:textures/overlay/diamond_frame.png"
+			rotation: 0.0d
+			width: 6.0d
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			height: 6.0d
+			image: "tooltipoverhaul:textures/overlay/zombie_brain_frame.png"
+			order: 1
+			rotation: 0.0d
+			width: 6.0d
+			x: -5.5d
+			y: -4.5d
+		}
+		{
+			height: 3.0d
+			image: "immersiveengineering:textures/models/blueprint_frame.png"
+			order: -3
+			rotation: 0.0d
+			width: 4.0d
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			alpha: 100
+			color: 0
+			height: 3.5d
+			image: "ftbquests:textures/shapes/square/shape.png"
+			order: -4
 			rotation: 0.0d
 			width: 4.5d
-			x: 5.5d
-			y: -5.0d
+			x: 0.0d
+			y: -4.5d
 		}
 		{
-			height: 5.0d
-			image: "gag:item/pigment_jar"
+			alpha: 55
+			color: 0
+			height: 4.0d
+			image: "ftbquests:textures/shapes/square/shape.png"
 			rotation: 0.0d
-			width: 5.0d
+			width: 4.0d
 			x: 5.5d
-			y: 4.5d
+			y: -4.5d
+		}
+		{
+			height: 6.0d
+			image: "tooltipoverhaul:textures/overlay/gear_frame.png"
+			order: 1
+			rotation: 0.0d
+			width: 6.0d
+			x: 5.5d
+			y: -4.5d
+		}
+		{
+			alpha: 55
+			color: 0
+			height: 4.0d
+			image: "ftbquests:textures/shapes/square/shape.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			height: 6.0d
+			image: "tooltipoverhaul:textures/overlay/king_frame.png"
+			rotation: 0.0d
+			width: 6.0d
+			x: -6.5d
+			y: 0.0d
 		}
 	]
 	order_index: 3
@@ -258,7 +286,7 @@
 			linked_quest: "30F922372D95D407"
 			shape: "square"
 			x: 5.5d
-			y: -5.0d
+			y: -4.0d
 		}
 	]
 	quests: [
@@ -280,7 +308,7 @@
 				type: "item"
 			}]
 			x: -1.0d
-			y: -6.5d
+			y: -5.0d
 		}
 		{
 			icon: {
@@ -314,8 +342,8 @@
 					type: "item"
 				}
 			]
-			x: -7.5d
-			y: -6.0d
+			x: -6.5d
+			y: -4.5d
 		}
 		{
 			icon: {
@@ -348,11 +376,12 @@
 					type: "item"
 				}
 			]
-			x: -7.5d
-			y: -5.0d
+			x: -6.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["0BEF15E1352A5F72"]
+			hide_dependency_lines: true
 			icon: {
 				id: "replication:disintegrator"
 			}
@@ -389,11 +418,12 @@
 					type: "item"
 				}
 			]
-			x: 6.5d
-			y: 0.0d
+			x: 5.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["705E4FFB4FCADFD1"]
+			hide_dependency_lines: true
 			icon: {
 				id: "replication:replicator"
 			}
@@ -404,56 +434,20 @@
 				type: "currency"
 			}]
 			shape: "diamond"
-			tasks: [
-				{
-					id: "56BB8661527B61FB"
-					item: {
-						count: 1
-						id: "replication:replicator"
-					}
-					type: "item"
+			tasks: [{
+				id: "56BB8661527B61FB"
+				item: {
+					count: 1
+					id: "replication:replicator"
 				}
-				{
-					id: "43ECC8B85D8C50FE"
-					item: {
-						count: 1
-						id: "replication:replicator_enclosure"
-					}
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "39F3BC43D3E35C1C"
-					item: {
-						components: {
-							"replication:blueprint": {
-								Item: {
-									count: 1
-									id: "replication:replicator_motor"
-								}
-								Progress: 1.0d
-							}
-						}
-						count: 1
-						id: "replication:matter_blueprint"
-					}
-					type: "item"
-				}
-				{
-					id: "01D1106A2ED172A2"
-					item: {
-						count: 1
-						id: "replication:replicator_motor"
-					}
-					optional_task: true
-					type: "item"
-				}
-			]
-			x: 7.5d
-			y: 0.5d
+				type: "item"
+			}]
+			x: 6.5d
+			y: 5.5d
 		}
 		{
 			dependencies: ["705E4FFB4FCADFD1"]
+			hide_dependency_lines: true
 			icon: {
 				id: "replication:identification_chamber"
 			}
@@ -490,8 +484,8 @@
 					type: "item"
 				}
 			]
-			x: 8.0d
-			y: -0.5d
+			x: 7.5d
+			y: 4.5d
 		}
 		{
 			dependencies: [
@@ -499,6 +493,7 @@
 				"5624865A6F796087"
 				"2F8BB4724991B7C4"
 			]
+			hide_dependency_lines: true
 			id: "39751E377C0F22EE"
 			rewards: [{
 				amount: 5
@@ -515,8 +510,8 @@
 				}
 				type: "item"
 			}]
-			x: 9.5d
-			y: 0.0d
+			x: 8.5d
+			y: 5.0d
 		}
 		{
 			icon: {
@@ -528,7 +523,7 @@
 				id: "37D6AF1365CF0619"
 				type: "currency"
 			}]
-			shape: "hexagon"
+			shape: "diamond"
 			size: 1.5d
 			tasks: [
 				{
@@ -550,8 +545,8 @@
 					type: "item"
 				}
 			]
-			x: 5.0d
-			y: 0.0d
+			x: 4.0d
+			y: 5.0d
 		}
 		{
 			icon: {
@@ -568,7 +563,7 @@
 				type: "currency"
 			}]
 			shape: "square"
-			size: 1.5d
+			size: 2.0d
 			tasks: [
 				{
 					id: "0E850E81875EE075"
@@ -593,7 +588,7 @@
 				}
 			]
 			x: 5.5d
-			y: 3.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["50E133C3E351255E"]
@@ -617,7 +612,7 @@
 				type: "item"
 			}]
 			x: -5.5d
-			y: 2.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["50E133C3E351255E"]
@@ -645,7 +640,7 @@
 				type: "item"
 			}]
 			x: -5.5d
-			y: 5.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["081EA35CCBDF793F"]
@@ -666,7 +661,7 @@
 				type: "item"
 			}]
 			x: -5.5d
-			y: 3.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["551964C1A41FA3D0"]
@@ -677,6 +672,7 @@
 				type: "currency"
 			}]
 			shape: "rsquare"
+			size: 1.0d
 			tasks: [{
 				id: "271EC069F6104B8E"
 				item: {
@@ -686,7 +682,7 @@
 				type: "item"
 			}]
 			x: -4.5d
-			y: 3.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["081EA35CCBDF793F"]
@@ -731,7 +727,7 @@
 				}
 			]
 			x: -4.5d
-			y: 2.5d
+			y: 3.0d
 		}
 		{
 			icon: {
@@ -792,8 +788,8 @@
 					type: "item"
 				}
 			]
-			x: -5.5d
-			y: -7.0d
+			x: -4.5d
+			y: -5.5d
 		}
 		{
 			dependencies: ["5CD7299E8709E7F6"]
@@ -829,7 +825,7 @@
 				}
 			]
 			x: -1.5d
-			y: 5.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["5CD7299E8709E7F6"]
@@ -865,7 +861,7 @@
 				}
 			]
 			x: 0.0d
-			y: 5.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["5CD7299E8709E7F6"]
@@ -901,7 +897,7 @@
 				}
 			]
 			x: 1.5d
-			y: 5.5d
+			y: 4.5d
 		}
 		{
 			hide_dependent_lines: true
@@ -924,7 +920,7 @@
 				type: "item"
 			}]
 			x: -4.5d
-			y: 5.5d
+			y: 6.0d
 		}
 		{
 			hide_dependent_lines: true
@@ -944,7 +940,7 @@
 				type: "item"
 			}]
 			x: -4.5d
-			y: 6.5d
+			y: 7.0d
 		}
 		{
 			dependencies: ["099594F0A383C280"]
@@ -966,8 +962,8 @@
 				}
 				type: "item"
 			}]
-			x: -5.5d
-			y: -6.0d
+			x: -4.5d
+			y: -4.5d
 		}
 		{
 			dependencies: [
@@ -992,7 +988,7 @@
 				type: "item"
 			}]
 			x: -5.5d
-			y: 6.5d
+			y: 7.0d
 		}
 		{
 			dependencies: ["72934B141A741423"]
@@ -1013,7 +1009,7 @@
 				type: "item"
 			}]
 			x: -7.5d
-			y: 6.5d
+			y: 7.0d
 		}
 		{
 			dependencies: ["0CAA799855644363"]
@@ -1034,7 +1030,7 @@
 				type: "item"
 			}]
 			x: -8.5d
-			y: 6.5d
+			y: 7.0d
 		}
 		{
 			dependencies: [
@@ -1057,7 +1053,7 @@
 				type: "item"
 			}]
 			x: -7.5d
-			y: 5.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["150BB4679DD2B4B5"]
@@ -1072,28 +1068,33 @@
 			}]
 			shape: "square"
 			tasks: [{
-				id: "0086A6AA18540F0B"
+				id: "45E16BAC26D921B8"
 				item: {
 					components: {
-						"ftbfiltersystem:filter": "or(item(minecraft:ender_eye)item(minecraft:blaze_rod)item(appflux:insulating_resin)item(chicken_roost:ingot_enderium))"
+						"ftbfiltersystem:filter": "or(item(minecraft:ender_eye)item(minecraft:blaze_rod)item(appflux:insulating_resin)item(chicken_roost:ingot_enderium)item(ftb:stable_antimatter))"
 					}
 					count: 1
 					id: "ftbfiltersystem:smart_filter"
 				}
 				type: "item"
 			}]
-			x: 6.0d
-			y: 5.0d
+			x: 6.5d
+			y: 1.0d
 		}
 		{
+			icon: {
+				id: "replication:matter_tank"
+			}
+			icon_scale: 1.5d
 			id: "5A7056F1FB256B5F"
+			optional: true
 			rewards: [{
 				amount: 1
 				id: "12595BF2F5454BD7"
 				type: "currency"
 			}]
-			shape: "hexagon"
-			size: 1.5d
+			shape: "diamond"
+			size: 2.0d
 			tasks: [{
 				id: "54C8C7E72F5D069E"
 				type: "checkmark"
@@ -1138,7 +1139,7 @@
 				}
 			]
 			x: -8.0d
-			y: 3.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["150BB4679DD2B4B5"]
@@ -1167,8 +1168,8 @@
 				}
 				type: "item"
 			}]
-			x: 5.0d
-			y: 5.0d
+			x: 4.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["36BA7AADD98E9868"]
@@ -1188,7 +1189,7 @@
 				type: "item"
 			}]
 			x: -8.5d
-			y: 5.5d
+			y: 6.0d
 		}
 		{
 			icon: {
@@ -1222,7 +1223,7 @@
 				}
 			]
 			x: 6.5d
-			y: -5.0d
+			y: -4.0d
 		}
 		{
 			id: "76482BDD2CD6CB8E"
@@ -1242,7 +1243,7 @@
 				type: "item"
 			}]
 			x: 4.5d
-			y: -5.0d
+			y: -4.0d
 		}
 		{
 			id: "159DE084D82C6A1C"
@@ -1262,7 +1263,7 @@
 				type: "item"
 			}]
 			x: 4.5d
-			y: -7.0d
+			y: -5.0d
 		}
 		{
 			id: "2E9F9DD6660745B3"
@@ -1282,7 +1283,7 @@
 				type: "item"
 			}]
 			x: 5.5d
-			y: -7.0d
+			y: -5.0d
 		}
 		{
 			icon: {
@@ -1316,7 +1317,7 @@
 				}
 			]
 			x: 6.5d
-			y: -7.0d
+			y: -5.0d
 		}
 		{
 			icon: {
@@ -1349,7 +1350,7 @@
 				}
 			]
 			x: -1.0d
-			y: -5.5d
+			y: -4.0d
 		}
 		{
 			icon: {
@@ -1385,7 +1386,7 @@
 				}
 			]
 			x: 0.0d
-			y: -5.5d
+			y: -4.0d
 		}
 		{
 			icon: {
@@ -1421,7 +1422,7 @@
 				}
 			]
 			x: 1.0d
-			y: -5.5d
+			y: -4.0d
 		}
 		{
 			icon: {
@@ -1454,7 +1455,7 @@
 				}
 			]
 			x: 1.0d
-			y: -6.5d
+			y: -5.0d
 		}
 		{
 			id: "45CB4500F3CEF539"
@@ -1474,7 +1475,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: -6.5d
+			y: -5.0d
 		}
 		{
 			icon: {
@@ -1499,8 +1500,8 @@
 				}
 				type: "item"
 			}]
-			x: -6.5d
-			y: -7.0d
+			x: -5.5d
+			y: -5.5d
 		}
 		{
 			dependencies: ["74CC5FF2097C0839"]
@@ -1541,8 +1542,8 @@
 					type: "item"
 				}
 			]
-			x: -5.5d
-			y: -5.0d
+			x: -4.5d
+			y: -3.5d
 		}
 		{
 			id: "52ADC3D46CCB2659"
@@ -1561,8 +1562,116 @@
 				}
 				type: "item"
 			}]
-			x: -7.5d
-			y: -7.0d
+			x: -6.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["150BB4679DD2B4B5"]
+			id: "4BEBF37F66E48801"
+			optional: true
+			rewards: [{
+				amount: 1
+				id: "6F308EBF0F7CD29D"
+				type: "currency"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "269F72FFF82234C8"
+				item: {
+					count: 1
+					id: "minecraft:milk_bucket"
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["705E4FFB4FCADFD1"]
+			hide_dependency_lines: true
+			icon: {
+				id: "projecte:red_matter"
+			}
+			id: "1CCD08A54B3F94C4"
+			rewards: [{
+				amount: 10
+				id: "721E11188AF3833C"
+				type: "currency"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "6166C057F795A2CB"
+				item: {
+					components: {
+						"ftbfiltersystem:filter": "or(item(projecte:dark_matter)item(projecte:red_matter))"
+					}
+					count: 1
+					id: "ftbfiltersystem:smart_filter"
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5624865A6F796087"]
+			hide_dependency_lines: true
+			icon: {
+				components: {
+					"replication:blueprint": {
+						Item: {
+							count: 1
+							id: "replication:replicator_motor"
+						}
+						Progress: 1.0d
+					}
+				}
+				id: "replication:matter_blueprint"
+			}
+			id: "4CE414ADD47790B2"
+			rewards: [{
+				amount: 3
+				id: "39671041DF24D47C"
+				type: "currency"
+			}]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "43DFBDAE8F1344B9"
+					item: {
+						count: 1
+						id: "replication:replicator_enclosure"
+					}
+					type: "item"
+				}
+				{
+					id: "44C8A55B59ECF622"
+					item: {
+						components: {
+							"replication:blueprint": {
+								Item: {
+									count: 1
+									id: "replication:replicator_motor"
+								}
+								Progress: 1.0d
+							}
+						}
+						count: 1
+						id: "replication:matter_blueprint"
+					}
+					type: "item"
+				}
+				{
+					id: "794216241490FE7D"
+					item: {
+						count: 1
+						id: "replication:replicator_motor"
+					}
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: 5.5d
 		}
 	]
 }

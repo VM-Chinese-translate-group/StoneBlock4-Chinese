@@ -15,7 +15,7 @@
 			image: "ae2:item/singularity"
 			rotation: 45.0d
 			width: 1.5d
-			x: -7.0d
+			x: -6.5d
 			y: 12.5d
 		}
 		{
@@ -23,7 +23,7 @@
 			image: "ae2:block/glass/quartz_glass_item"
 			rotation: 0.0d
 			width: 2.0d
-			x: -11.5d
+			x: -11.0d
 			y: 11.0d
 		}
 		{
@@ -32,7 +32,7 @@
 			order: -1
 			rotation: 0.0d
 			width: 2.0d
-			x: -11.5d
+			x: -11.0d
 			y: 11.0d
 		}
 		{
@@ -41,7 +41,7 @@
 			image: "advanced_ae:block/quantum_crafter_grid_on"
 			rotation: 0.0d
 			width: 2.0d
-			x: 10.5d
+			x: 11.0d
 			y: 11.0d
 		}
 		{
@@ -49,7 +49,7 @@
 			image: "advanced_ae:block/crafting/quantum_structure_powered"
 			rotation: 45.0d
 			width: 2.0d
-			x: 8.0d
+			x: 8.5d
 			y: 11.0d
 		}
 		{
@@ -57,7 +57,7 @@
 			image: "ae2:block/molecular_assembler_lights"
 			rotation: 0.0d
 			width: 2.0d
-			x: -3.5d
+			x: -3.0d
 			y: 11.0d
 		}
 		{
@@ -65,7 +65,7 @@
 			image: "ftbquests:tasks/input_only"
 			rotation: 0.0d
 			width: 3.0d
-			x: 4.5d
+			x: 5.0d
 			y: 11.0d
 		}
 		{
@@ -73,7 +73,7 @@
 			image: "enderio:block/vacuum_portal"
 			rotation: 45.0d
 			width: 1.0d
-			x: 0.0d
+			x: 0.5d
 			y: 17.5d
 		}
 		{
@@ -83,7 +83,7 @@
 			order: -1
 			rotation: 45.0d
 			width: 1.5d
-			x: 0.0d
+			x: 0.5d
 			y: 17.5d
 		}
 		{
@@ -92,7 +92,7 @@
 			order: -3
 			rotation: 0.0d
 			width: 1.0d
-			x: -6.0d
+			x: -5.5d
 			y: 11.0d
 		}
 		{
@@ -101,7 +101,7 @@
 			order: -1
 			rotation: 0.0d
 			width: 3.0d
-			x: 4.5d
+			x: 5.0d
 			y: 11.0d
 		}
 		{
@@ -109,7 +109,7 @@
 			image: "advanced_ae:block/crafting/quantum_unit"
 			rotation: 45.0d
 			width: 2.0d
-			x: 8.0d
+			x: 8.5d
 			y: 14.5d
 		}
 		{
@@ -117,7 +117,7 @@
 			image: "ae2:block/controller"
 			rotation: 0.0d
 			width: 1.0d
-			x: -1.0d
+			x: -0.5d
 			y: 9.0d
 		}
 		{
@@ -125,7 +125,7 @@
 			image: "minecraft:block/sculk"
 			rotation: 45.0d
 			width: 1.0d
-			x: -2.5d
+			x: -2.0d
 			y: 8.5d
 		}
 		{
@@ -134,7 +134,7 @@
 			image: "extendedae:block/assembler_matrix/frame_block_on"
 			rotation: 45.0d
 			width: 2.0d
-			x: 4.5d
+			x: 5.0d
 			y: 14.5d
 		}
 		{
@@ -142,7 +142,7 @@
 			image: "replication:block/shader"
 			rotation: 45.0d
 			width: 1.0d
-			x: -4.5d
+			x: -4.0d
 			y: 8.5d
 		}
 		{
@@ -160,6 +160,76 @@
 			width: 8.89d
 			x: 0.0d
 			y: -4.5d
+		}
+		{
+			alpha: 55
+			color: 0
+			height: 6.0d
+			image: "ftbquests:textures/shapes/square/shape.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			alpha: 55
+			color: 0
+			height: 6.0d
+			image: "ftbquests:textures/shapes/square/shape.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			alpha: 55
+			color: 0
+			height: 6.0d
+			image: "ftbquests:textures/shapes/square/shape.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			alpha: 55
+			color: 0
+			height: 6.0d
+			image: "ftbquests:textures/shapes/square/shape.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: -6.0d
+			y: 4.0d
+		}
+		{
+			alpha: 55
+			color: 0
+			height: 13.0d
+			image: "ftbquests:textures/shapes/square/shape.png"
+			rotation: 0.0d
+			width: 30.0d
+			x: 0.0d
+			y: 13.0d
+		}
+		{
+			alpha: 55
+			color: 0
+			height: 3.0d
+			image: "ftbquests:textures/shapes/square/shape.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: -3.5d
+			y: -0.5d
+		}
+		{
+			alpha: 55
+			color: 0
+			height: 3.0d
+			image: "ftbquests:textures/shapes/square/shape.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: 3.5d
+			y: -0.5d
 		}
 	]
 	order_index: 7
@@ -185,6 +255,16 @@
 					}
 					type: "item"
 				}
+				{
+					count: 4
+					id: "1B19BE537ADF4EA3"
+					item: {
+						count: 1
+						id: "minecraft:glowstone"
+					}
+					team_reward: true
+					type: "item"
+				}
 			]
 			shape: "diamond"
 			size: 2.0d
@@ -196,7 +276,7 @@
 				}
 				type: "item"
 			}]
-			x: -11.5d
+			x: -11.0d
 			y: 11.0d
 		}
 		{
@@ -220,7 +300,7 @@
 				id: "55B1C70507F60EDF"
 				type: "checkmark"
 			}]
-			x: -10.0d
+			x: -9.5d
 			y: 12.0d
 		}
 		{
@@ -258,13 +338,16 @@
 					type: "item"
 				}
 			]
-			x: -10.0d
+			x: -9.5d
 			y: 10.0d
 		}
 		{
 			dependencies: ["73EC5E7F2300B99D"]
 			icon: {
-				id: "ae2:inscriber"
+				components: {
+					"custommachinery:machine": "ftb:circuit_fabricator"
+				}
+				id: "custommachinery:custom_machine_item"
 			}
 			id: "663460DE8AF7E464"
 			min_width: 300
@@ -273,16 +356,6 @@
 					amount: 1
 					id: "105EF35C8204A684"
 					type: "currency"
-				}
-				{
-					count: 4
-					id: "043209DA4BD2F497"
-					item: {
-						count: 1
-						id: "ae2:inscriber"
-					}
-					team_reward: true
-					type: "item"
 				}
 				{
 					count: 5
@@ -313,15 +386,36 @@
 					type: "item"
 				}
 				{
-					id: "010FA7DD575A2D08"
+					count: 19L
+					id: "4691C0F7CD4B2661"
 					item: {
 						count: 1
-						id: "ae2:inscriber"
+						id: "immersiveengineering:sheetmetal_colored_blue"
+					}
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "022A5F5D91FC015D"
+					item: {
+						count: 1
+						id: "ae2:quartz_vibrant_glass"
+					}
+					type: "item"
+				}
+				{
+					id: "279D9C7BF6F11D8E"
+					item: {
+						components: {
+							"custommachinery:machine": "ftb:circuit_fabricator"
+						}
+						count: 1
+						id: "custommachinery:custom_machine_item"
 					}
 					type: "item"
 				}
 			]
-			x: -6.0d
+			x: -5.5d
 			y: 11.0d
 		}
 		{
@@ -374,7 +468,7 @@
 					type: "item"
 				}
 			]
-			x: -8.5d
+			x: -8.0d
 			y: 11.0d
 		}
 		{
@@ -396,7 +490,7 @@
 				}
 				type: "item"
 			}]
-			x: -8.5d
+			x: -8.0d
 			y: 13.0d
 		}
 		{
@@ -440,7 +534,7 @@
 					type: "item"
 				}
 			]
-			x: -7.0d
+			x: -6.5d
 			y: 12.5d
 		}
 		{
@@ -480,7 +574,7 @@
 				}
 				type: "item"
 			}]
-			x: -6.0d
+			x: -5.5d
 			y: 13.0d
 		}
 		{
@@ -525,7 +619,7 @@
 					type: "item"
 				}
 			]
-			x: -7.0d
+			x: -6.5d
 			y: 13.5d
 		}
 		{
@@ -553,7 +647,7 @@
 				}
 				type: "item"
 			}]
-			x: -3.5d
+			x: -3.0d
 			y: 11.0d
 		}
 		{
@@ -583,7 +677,7 @@
 				}
 				type: "item"
 			}]
-			x: 0.0d
+			x: 0.5d
 			y: 12.5d
 		}
 		{
@@ -641,7 +735,7 @@
 					type: "item"
 				}
 			]
-			x: 1.0d
+			x: 1.5d
 			y: 9.0d
 		}
 		{
@@ -688,7 +782,7 @@
 				}
 				type: "item"
 			}]
-			x: 0.0d
+			x: 0.5d
 			y: 9.0d
 		}
 		{
@@ -744,7 +838,7 @@
 					type: "item"
 				}
 			]
-			x: 3.5d
+			x: 4.0d
 			y: 9.0d
 		}
 		{
@@ -779,7 +873,7 @@
 					type: "item"
 				}
 			]
-			x: 4.5d
+			x: 5.0d
 			y: 9.0d
 		}
 		{
@@ -800,7 +894,7 @@
 				}
 				type: "item"
 			}]
-			x: -2.0d
+			x: -1.5d
 			y: 15.0d
 		}
 		{
@@ -836,7 +930,7 @@
 					type: "item"
 				}
 			]
-			x: -3.5d
+			x: -3.0d
 			y: 15.0d
 		}
 		{
@@ -856,7 +950,7 @@
 				}
 				type: "item"
 			}]
-			x: 8.0d
+			x: 8.5d
 			y: 12.5d
 		}
 		{
@@ -881,7 +975,7 @@
 				}
 				type: "item"
 			}]
-			x: 8.0d
+			x: 8.5d
 			y: 14.5d
 		}
 		{
@@ -914,7 +1008,7 @@
 				}
 				type: "item"
 			}]
-			x: 7.0d
+			x: 7.5d
 			y: 15.5d
 		}
 		{
@@ -947,7 +1041,7 @@
 				}
 				type: "item"
 			}]
-			x: 7.0d
+			x: 7.5d
 			y: 13.5d
 		}
 		{
@@ -982,7 +1076,7 @@
 				}
 				type: "item"
 			}]
-			x: 9.0d
+			x: 9.5d
 			y: 15.5d
 		}
 		{
@@ -1003,7 +1097,7 @@
 				}
 				type: "item"
 			}]
-			x: 10.5d
+			x: 11.0d
 			y: 11.0d
 		}
 		{
@@ -1056,7 +1150,7 @@
 					type: "item"
 				}
 			]
-			x: -8.5d
+			x: -8.0d
 			y: 15.0d
 		}
 		{
@@ -1101,7 +1195,7 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
+			x: 0.5d
 			y: 14.0d
 		}
 		{
@@ -1123,7 +1217,7 @@
 				}
 				type: "item"
 			}]
-			x: -1.0d
+			x: -0.5d
 			y: 9.0d
 		}
 		{
@@ -1146,7 +1240,7 @@
 				}
 				type: "item"
 			}]
-			x: 4.5d
+			x: 5.0d
 			y: 11.0d
 		}
 		{
@@ -1177,7 +1271,7 @@
 				}
 				type: "item"
 			}]
-			x: 8.0d
+			x: 8.5d
 			y: 11.0d
 		}
 		{
@@ -1204,7 +1298,7 @@
 				}
 				type: "item"
 			}]
-			x: 0.0d
+			x: 0.5d
 			y: 11.0d
 		}
 		{
@@ -1225,7 +1319,7 @@
 				}
 				type: "item"
 			}]
-			x: 0.0d
+			x: 0.5d
 			y: 17.5d
 		}
 		{
@@ -1270,7 +1364,7 @@
 					type: "item"
 				}
 			]
-			x: 5.5d
+			x: 6.0d
 			y: 9.0d
 		}
 		{
@@ -1301,7 +1395,7 @@
 				}
 				type: "item"
 			}]
-			x: 9.0d
+			x: 9.5d
 			y: 13.5d
 		}
 		{
@@ -1355,7 +1449,7 @@
 					type: "item"
 				}
 			]
-			x: -3.5d
+			x: -3.0d
 			y: 9.5d
 		}
 		{
@@ -1387,7 +1481,7 @@
 				id: "16F2199AE6D61307"
 				type: "checkmark"
 			}]
-			x: -2.5d
+			x: -2.0d
 			y: 8.5d
 		}
 		{
@@ -1456,7 +1550,7 @@
 					type: "item"
 				}
 			]
-			x: 4.5d
+			x: 5.0d
 			y: 16.5d
 		}
 		{
@@ -1527,7 +1621,7 @@
 					type: "item"
 				}
 			]
-			x: 8.0d
+			x: 8.5d
 			y: 16.5d
 		}
 		{
@@ -1560,7 +1654,7 @@
 				}
 				type: "item"
 			}]
-			x: 3.5d
+			x: 4.0d
 			y: 13.5d
 		}
 		{
@@ -1593,7 +1687,7 @@
 				}
 				type: "item"
 			}]
-			x: 4.5d
+			x: 5.0d
 			y: 14.5d
 		}
 		{
@@ -1614,7 +1708,7 @@
 				}
 				type: "item"
 			}]
-			x: 3.5d
+			x: 4.0d
 			y: 15.5d
 		}
 		{
@@ -1635,7 +1729,7 @@
 				}
 				type: "item"
 			}]
-			x: 5.5d
+			x: 6.0d
 			y: 15.5d
 		}
 		{
@@ -1656,7 +1750,7 @@
 				}
 				type: "item"
 			}]
-			x: 5.5d
+			x: 6.0d
 			y: 13.5d
 		}
 		{
@@ -1678,7 +1772,7 @@
 				}
 				type: "item"
 			}]
-			x: -4.5d
+			x: -4.0d
 			y: 8.5d
 		}
 		{
@@ -1740,7 +1834,7 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
+			x: 0.5d
 			y: 15.5d
 		}
 		{
@@ -1846,7 +1940,7 @@
 					type: "item"
 				}
 			]
-			x: 3.5d
+			x: 4.0d
 			y: 0.0d
 		}
 		{
@@ -1867,7 +1961,7 @@
 				}
 				type: "item"
 			}]
-			x: -4.0d
+			x: -2.0d
 			y: 2.5d
 		}
 		{
@@ -1910,7 +2004,7 @@
 				}
 				type: "item"
 			}]
-			x: 0.0d
+			x: 2.0d
 			y: 2.5d
 		}
 		{
@@ -1937,7 +2031,7 @@
 				}
 				type: "item"
 			}]
-			x: 4.0d
+			x: 6.0d
 			y: 2.5d
 		}
 		{
@@ -1985,7 +2079,7 @@
 				}
 				type: "item"
 			}]
-			x: 3.0d
+			x: 5.0d
 			y: 3.5d
 		}
 		{
@@ -2023,7 +2117,7 @@
 					type: "item"
 				}
 			]
-			x: 5.0d
+			x: 7.0d
 			y: 3.5d
 		}
 		{
@@ -2078,7 +2172,7 @@
 					type: "item"
 				}
 			]
-			x: 4.0d
+			x: 6.0d
 			y: 5.5d
 		}
 		{
@@ -2105,7 +2199,7 @@
 				}
 				type: "item"
 			}]
-			x: 3.0d
+			x: 5.0d
 			y: 4.5d
 		}
 		{
@@ -2133,7 +2227,7 @@
 				}
 				type: "item"
 			}]
-			x: 3.0d
+			x: 5.0d
 			y: 5.5d
 		}
 		{
@@ -2159,7 +2253,7 @@
 				}
 				type: "item"
 			}]
-			x: 5.0d
+			x: 7.0d
 			y: 4.5d
 		}
 		{
@@ -2181,7 +2275,7 @@
 				}
 				type: "item"
 			}]
-			x: 4.0d
+			x: 6.0d
 			y: 4.5d
 		}
 		{
@@ -2213,7 +2307,7 @@
 				}
 				type: "item"
 			}]
-			x: -4.0d
+			x: -2.0d
 			y: 4.5d
 		}
 		{
@@ -2245,7 +2339,7 @@
 				}
 				type: "item"
 			}]
-			x: 0.0d
+			x: 2.0d
 			y: 4.5d
 		}
 		{
@@ -2271,7 +2365,7 @@
 				}
 				type: "item"
 			}]
-			x: -3.0d
+			x: -1.0d
 			y: 3.5d
 		}
 		{
@@ -2297,7 +2391,7 @@
 				}
 				type: "item"
 			}]
-			x: -4.0d
+			x: -2.0d
 			y: 6.0d
 		}
 		{
@@ -2324,7 +2418,7 @@
 				}
 				type: "item"
 			}]
-			x: -3.5d
+			x: -1.5d
 			y: 5.5d
 		}
 		{
@@ -2351,7 +2445,7 @@
 				}
 				type: "item"
 			}]
-			x: -4.5d
+			x: -2.5d
 			y: 5.5d
 		}
 		{
@@ -2395,7 +2489,7 @@
 					type: "item"
 				}
 			]
-			x: 1.0d
+			x: 3.0d
 			y: 3.5d
 		}
 		{
@@ -2416,7 +2510,7 @@
 				}
 				type: "item"
 			}]
-			x: -1.0d
+			x: 1.0d
 			y: 3.5d
 		}
 		{
@@ -2447,7 +2541,7 @@
 				}
 				type: "item"
 			}]
-			x: -5.0d
+			x: -3.0d
 			y: 3.5d
 		}
 		{
@@ -2496,7 +2590,7 @@
 				}
 				type: "item"
 			}]
-			x: 0.0d
+			x: 2.0d
 			y: 6.0d
 		}
 		{
@@ -2524,7 +2618,7 @@
 				}
 				type: "item"
 			}]
-			x: -0.5d
+			x: 1.5d
 			y: 5.5d
 		}
 		{
@@ -2551,7 +2645,7 @@
 				}
 				type: "item"
 			}]
-			x: 0.5d
+			x: 2.5d
 			y: 5.5d
 		}
 		{
@@ -2621,7 +2715,7 @@
 				}
 				type: "item"
 			}]
-			x: 5.0d
+			x: 7.0d
 			y: 5.5d
 		}
 		{
@@ -2656,7 +2750,7 @@
 					type: "item"
 				}
 			]
-			x: 2.5d
+			x: 3.0d
 			y: 0.0d
 		}
 		{
@@ -2710,7 +2804,7 @@
 					type: "item"
 				}
 			]
-			x: 3.0d
+			x: 3.5d
 			y: -1.0d
 		}
 		{
@@ -2745,6 +2839,7 @@
 						count: 1
 						id: "ftbfiltersystem:smart_filter"
 					}
+					optional_task: true
 					type: "item"
 				}
 			]
@@ -2793,7 +2888,7 @@
 					type: "item"
 				}
 			]
-			x: -8.5d
+			x: -6.0d
 			y: 2.5d
 		}
 		{
@@ -2848,8 +2943,8 @@
 					type: "item"
 				}
 			]
-			x: -9.5d
-			y: 3.5d
+			x: -7.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["4101E75F69C9909F"]
@@ -2891,8 +2986,8 @@
 					type: "item"
 				}
 			]
-			x: -7.5d
-			y: 3.5d
+			x: -5.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["4101E75F69C9909F"]
@@ -2913,8 +3008,8 @@
 				}
 				type: "item"
 			}]
-			x: -8.5d
-			y: 4.5d
+			x: -6.0d
+			y: 5.5d
 		}
 	]
 }

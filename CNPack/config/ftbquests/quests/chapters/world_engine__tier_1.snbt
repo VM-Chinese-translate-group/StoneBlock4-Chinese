@@ -128,7 +128,7 @@
 			y: 8.5d
 		}
 	]
-	order_index: 2
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
@@ -143,7 +143,7 @@
 			id: "0448DC5884C8ED55"
 			rewards: [
 				{
-					amount: 1
+					amount: 25
 					id: "5820EB6AC8969458"
 					type: "currency"
 				}
@@ -203,7 +203,7 @@
 			id: "47D745A94C534B48"
 			rewards: [
 				{
-					amount: 1
+					amount: 15
 					id: "038ED49289315062"
 					type: "currency"
 				}
@@ -267,7 +267,7 @@
 			id: "0484D6030DF690BD"
 			rewards: [
 				{
-					amount: 1
+					amount: 15
 					id: "3A124B8AA4784F11"
 					type: "currency"
 				}
@@ -309,7 +309,7 @@
 			id: "62531896A7E58F55"
 			rewards: [
 				{
-					amount: 15
+					amount: 40
 					id: "174DC838730F5EC0"
 					type: "currency"
 				}
@@ -357,7 +357,7 @@
 			id: "79EB0239FE299185"
 			rewards: [
 				{
-					amount: 15
+					amount: 50
 					id: "07F4EFE3FAD20ABD"
 					type: "currency"
 				}
@@ -399,12 +399,18 @@
 				id: "ars_nouveau:blue_archwood_sapling"
 			}
 			id: "7F7C0B1523AA28C4"
-			min_width: 275
+			min_width: 300
 			rewards: [
 				{
-					amount: 5
+					amount: 15
 					id: "19D856B925549650"
 					type: "currency"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5120BA0AB51B9360"
+					table_id: 7750792604136724303L
+					type: "loot"
 				}
 				{
 					id: "6C7D6A23CFC065CD"
@@ -421,12 +427,6 @@
 					stage: "echo_magician_stage1_task1_completed"
 					team_reward: false
 					type: "gamestage"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "5120BA0AB51B9360"
-					table_id: 7750792604136724303L
-					type: "loot"
 				}
 			]
 			shape: "gear"
@@ -466,7 +466,7 @@
 			id: "3F81256B4E65076F"
 			rewards: [
 				{
-					amount: 5
+					amount: 20
 					id: "3374B29D6D1575F7"
 					type: "currency"
 				}
@@ -506,12 +506,12 @@
 		{
 			dependencies: ["584B4C34CBF0E028"]
 			icon: {
-				id: "ars_nouveau:relay"
+				id: "ars_nouveau:dominion_wand"
 			}
 			id: "48005B47655AD525"
 			rewards: [
 				{
-					amount: 15
+					amount: 40
 					id: "494F495C34480A73"
 					type: "currency"
 				}
@@ -542,14 +542,6 @@
 					type: "item"
 				}
 				{
-					id: "61DA7D0F20EB7D05"
-					item: {
-						count: 1
-						id: "ars_nouveau:relay"
-					}
-					type: "item"
-				}
-				{
 					count: 2L
 					id: "03E13C21D022EA84"
 					item: {
@@ -574,9 +566,15 @@
 			min_width: 300
 			rewards: [
 				{
-					amount: 5
+					amount: 20
 					id: "40E8907FEDEFC9CA"
 					type: "currency"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7D6324119BFBBB58"
+					table_id: 7750792604136724303L
+					type: "loot"
 				}
 				{
 					auto: "invisible"
@@ -585,12 +583,6 @@
 					stage: "echo_quartermaster_stage1_task1_completed"
 					team_reward: false
 					type: "gamestage"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "7D6324119BFBBB58"
-					table_id: 7750792604136724303L
-					type: "loot"
 				}
 			]
 			shape: "gear"
@@ -635,9 +627,15 @@
 			id: "22B94BDDC08B3FA9"
 			rewards: [
 				{
-					amount: 5
+					amount: 15
 					id: "2D47B348BBF0B6D7"
 					type: "currency"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "06738A103F6577D9"
+					table_id: 7750792604136724303L
+					type: "loot"
 				}
 				{
 					auto: "invisible"
@@ -646,12 +644,6 @@
 					stage: "echo_machinist_stage1_task1_completed"
 					team_reward: false
 					type: "gamestage"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "06738A103F6577D9"
-					table_id: 7750792604136724303L
-					type: "loot"
 				}
 			]
 			shape: "gear"
@@ -677,7 +669,7 @@
 			id: "18E10F15FD94258B"
 			rewards: [
 				{
-					amount: 3
+					amount: 15
 					id: "6D378B698F80B18C"
 					type: "currency"
 				}
@@ -734,7 +726,7 @@
 			}
 			id: "325826C9B71AD7E1"
 			rewards: [{
-				amount: 3
+				amount: 15
 				id: "1F77A60FCA0D1095"
 				type: "currency"
 			}]
@@ -770,7 +762,7 @@
 			}
 			id: "4C549866DEB8DB61"
 			rewards: [{
-				amount: 5
+				amount: 15
 				id: "37A9E137B4E70CE2"
 				type: "currency"
 			}]
@@ -823,7 +815,7 @@
 			}
 			id: "0D159FD643581C18"
 			rewards: [{
-				amount: 10
+				amount: 15
 				id: "792E8B515A9ACFB3"
 				type: "currency"
 			}]
@@ -850,76 +842,13 @@
 			y: 4.5d
 		}
 		{
-			dependencies: ["79EB0239FE299185"]
-			hide_dependency_lines: true
-			hide_until_deps_complete: true
-			id: "0E536FB39F0E079E"
-			optional: true
-			shape: "diamond"
-			tasks: [{
-				id: "53DCB3C11B6D07C7"
-				item: {
-					components: {
-						"ftbfiltersystem:filter": "or(item(pipez:item_pipe)item(pipez:fluid_pipe)item(pipez:energy_pipe)item(pipez:gas_pipe)item(ae2:flawed_budding_quartz)item(ae2:crystal_resonance_generator)item(ae2:energy_acceptor)item(rftoolsbuilder:builder)item(compactmachines:personal_shrinking_device)item(mekanism:basic_tier_installer)item(ironfurnaces:augment_generator)item(rftoolsbase:machine_frame))"
-					}
-					count: 1
-					id: "ftbfiltersystem:smart_filter"
-				}
-				type: "item"
-			}]
-			x: 1.5d
-			y: 6.0d
-		}
-		{
-			dependencies: ["48005B47655AD525"]
-			hide_dependency_lines: true
-			hide_until_deps_complete: true
-			id: "2181742604F02256"
-			optional: true
-			shape: "diamond"
-			tasks: [{
-				id: "28C14943E06CE907"
-				item: {
-					components: {
-						"ftbfiltersystem:filter": "or(item(ars_nouveau:blank_thread)item(irons_jewelry:jewelcrafting_station)item(ars_nouveau:basic_spell_turret)item(ars_nouveau:summon_focus)item(irons_spellbooks:inscription_table)item(torchmaster:megatorch)item(ars_nouveau:enchanting_apparatus))"
-					}
-					count: 1
-					id: "ftbfiltersystem:smart_filter"
-				}
-				type: "item"
-			}]
-			x: -4.5d
-			y: 6.0d
-		}
-		{
-			dependencies: ["62531896A7E58F55"]
-			hide_dependency_lines: true
-			hide_until_deps_complete: true
-			id: "276CB9832D35011A"
-			optional: true
-			shape: "diamond"
-			tasks: [{
-				id: "4483C09E6123BC4C"
-				item: {
-					components: {
-						"ftbfiltersystem:filter": "or(item(createaddition:electric_motor)item(create:mechanical_bearing)item(create:item_vault)item(projecte:condenser_mk2)item(projecte:relay_mk3))"
-					}
-					count: 1
-					id: "ftbfiltersystem:smart_filter"
-				}
-				type: "item"
-			}]
-			x: 7.5d
-			y: 6.0d
-		}
-		{
 			dependencies: ["3F81256B4E65076F"]
 			icon: {
 				id: "ars_nouveau:source_jar"
 			}
 			id: "584B4C34CBF0E028"
 			rewards: [{
-				amount: 5
+				amount: 25
 				id: "499DE60A9DCC0E28"
 				type: "currency"
 			}]
@@ -964,21 +893,28 @@
 			}
 			id: "4D754E91D203A89A"
 			min_required_dependencies: 3
-			rewards: [{
-				auto: "disabled"
-				command: "/ftbunearthed setlevel @s 4"
-				feedback_message: "你的发掘技能升级了！"
-				icon: {
-					components: {
-						"ftbquests:icon": "relics:textures/gui/description/ability/upgrade_button_active.png"
-					}
-					id: "ftbquests:custom_icon"
+			rewards: [
+				{
+					amount: 5
+					id: "52A6C405E1D54F20"
+					type: "currency"
 				}
-				id: "2730B9B9300AA75C"
-				permission_level: 4
-				silent: true
-				type: "command"
-			}]
+				{
+					auto: "disabled"
+					command: "/ftbunearthed setlevel @s 4"
+					feedback_message: "你的发掘技能升级了！"
+					icon: {
+						components: {
+							"ftbquests:icon": "relics:textures/gui/description/ability/upgrade_button_active.png"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "2730B9B9300AA75C"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+			]
 			shape: "gear"
 			size: 3.0d
 			tasks: [{
@@ -1014,7 +950,7 @@
 			progression_mode: "linear"
 			rewards: [
 				{
-					amount: 1
+					amount: 5
 					id: "37FFF41A7E7A659A"
 					type: "currency"
 				}
@@ -1062,7 +998,7 @@
 			hide_until_deps_complete: true
 			id: "275C5A38C3231690"
 			rewards: [{
-				amount: 5
+				amount: 10
 				id: "778D16F5F220D243"
 				type: "currency"
 			}]
@@ -1088,7 +1024,7 @@
 			hide_until_deps_complete: true
 			id: "3E89531AEC1CF0DA"
 			rewards: [{
-				amount: 5
+				amount: 15
 				id: "187B1BBCC1F7FDA4"
 				type: "currency"
 			}]
@@ -1114,7 +1050,7 @@
 			hide_until_deps_complete: true
 			id: "6B391D0B32AF8529"
 			rewards: [{
-				amount: 5
+				amount: 15
 				id: "4D028E8F3243DEA8"
 				type: "currency"
 			}]
@@ -1140,7 +1076,7 @@
 			id: "715F30D0A9B79DD7"
 			rewards: [
 				{
-					amount: 5
+					amount: 10
 					id: "1D4E6D011DF8F18B"
 					type: "currency"
 				}

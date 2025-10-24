@@ -128,7 +128,7 @@
 			y: 7.5d
 		}
 	]
-	order_index: 5
+	order_index: 4
 	quest_links: [{
 		id: "3971EABAA68F529A"
 		linked_quest: "3DCD6DC36B31EEF4"
@@ -154,7 +154,7 @@
 			id: "03E48CD6E5DB806F"
 			rewards: [
 				{
-					amount: 4
+					amount: 40
 					id: "1E0B974E0DC28FB8"
 					type: "currency"
 				}
@@ -211,7 +211,7 @@
 			id: "1F0F37429F1177DF"
 			rewards: [
 				{
-					amount: 4
+					amount: 40
 					id: "609E095B25B95454"
 					type: "currency"
 				}
@@ -268,7 +268,7 @@
 			id: "27439A8D79B21B73"
 			rewards: [
 				{
-					amount: 4
+					amount: 40
 					id: "4717582AB80A30E8"
 					type: "currency"
 				}
@@ -318,7 +318,7 @@
 			id: "6D0C1811DA909BBD"
 			rewards: [
 				{
-					amount: 25
+					amount: 150
 					id: "4F9AB0BC3575CA83"
 					type: "currency"
 				}
@@ -371,7 +371,7 @@
 			id: "15DE76B303680F79"
 			rewards: [
 				{
-					amount: 10
+					amount: 75
 					id: "5B19F81315116739"
 					type: "currency"
 				}
@@ -419,14 +419,17 @@
 				}
 			]
 			x: 0.0d
-			y: 2.5d
+			y: 2.0d
 		}
 		{
-			dependencies: ["15DE76B303680F79"]
+			dependencies: [
+				"4D6D066B0855586D"
+				"4BAD7359CF074014"
+			]
 			id: "012DF07A81C69AAA"
 			rewards: [
 				{
-					amount: 25
+					amount: 150
 					id: "72FB5BA6250467EA"
 					type: "currency"
 				}
@@ -468,7 +471,7 @@
 			id: "45A3E686E32AB95D"
 			rewards: [
 				{
-					amount: 5
+					amount: 75
 					id: "7DFE89A478E59459"
 					type: "currency"
 				}
@@ -519,7 +522,7 @@
 			icon_scale: 1.5d
 			id: "45BA73F16B7AE681"
 			rewards: [{
-				amount: 5
+				amount: 50
 				id: "726E8CB33DEA6B24"
 				type: "currency"
 			}]
@@ -565,12 +568,19 @@
 			}
 			id: "3371E3F69A27D1E5"
 			min_required_dependencies: 3
-			rewards: [{
-				auto: "invisible"
-				id: "7E30AAA334E6F012"
-				stage: "echo_wyrmwright_stage5_task1_completed"
-				type: "gamestage"
-			}]
+			rewards: [
+				{
+					amount: 25
+					id: "0624F8EEC8302D9D"
+					type: "currency"
+				}
+				{
+					auto: "invisible"
+					id: "7E30AAA334E6F012"
+					stage: "echo_wyrmwright_stage5_task1_completed"
+					type: "gamestage"
+				}
+			]
 			shape: "gear"
 			size: 3.0d
 			tasks: [{
@@ -595,7 +605,7 @@
 			id: "775BE99DF402AF0D"
 			rewards: [
 				{
-					amount: 5
+					amount: 40
 					id: "4B1F734C1D97E723"
 					type: "currency"
 				}
@@ -642,7 +652,7 @@
 			hide_until_deps_complete: true
 			id: "0F48353EDD296510"
 			rewards: [{
-				amount: 5
+				amount: 40
 				id: "250AD9C84727F767"
 				type: "currency"
 			}]
@@ -669,7 +679,7 @@
 			id: "665C261B98E4D20B"
 			rewards: [
 				{
-					amount: 5
+					amount: 40
 					id: "0C88D4EC5394D29E"
 					type: "currency"
 				}
@@ -711,63 +721,6 @@
 			y: 7.5d
 		}
 		{
-			dependencies: ["6D0C1811DA909BBD"]
-			hide_until_deps_complete: true
-			id: "1D1034A457720365"
-			optional: true
-			shape: "diamond"
-			tasks: [{
-				id: "148E5EEEF5CB87F0"
-				item: {
-					count: 1
-					id: "industrialforegoingsouls:soul_laser_base"
-				}
-				type: "item"
-			}]
-			x: -4.0d
-			y: 5.0d
-		}
-		{
-			dependencies: ["32653261B16850B3"]
-			hide_until_deps_complete: true
-			id: "3C7EE560CFB484EF"
-			optional: true
-			shape: "diamond"
-			tasks: [{
-				id: "1EBEAF4114DC3BFD"
-				item: {
-					components: {
-						"ftbfiltersystem:filter": "or(item(ars_nouveau:warp_scroll)item(ars_nouveau:shapers_focus))"
-					}
-					count: 1
-					id: "ftbfiltersystem:smart_filter"
-				}
-				type: "item"
-			}]
-			x: 8.0d
-			y: 5.0d
-		}
-		{
-			dependencies: ["012DF07A81C69AAA"]
-			hide_until_deps_complete: true
-			id: "6F11B899DAC36DFD"
-			optional: true
-			shape: "diamond"
-			tasks: [{
-				id: "05C31228DE4297E0"
-				item: {
-					components: {
-						"ftbfiltersystem:filter": "or(item(justdirethings:time_crystal)item(ars_nouveau:glyph_animate_block))"
-					}
-					count: 1
-					id: "ftbfiltersystem:smart_filter"
-				}
-				type: "item"
-			}]
-			x: 2.0d
-			y: 5.0d
-		}
-		{
 			dependencies: ["45A3E686E32AB95D"]
 			icon: {
 				id: "twilightforest:alpha_yeti_trophy"
@@ -775,7 +728,7 @@
 			id: "1E077BC4B8832C98"
 			rewards: [
 				{
-					amount: 5
+					amount: 75
 					id: "441DEE198929256E"
 					type: "currency"
 				}
@@ -833,7 +786,7 @@
 			}
 			id: "30902357747A64F1"
 			rewards: [{
-				amount: 5
+				amount: 100
 				id: "3D585C3F240FBAA6"
 				type: "currency"
 			}]
@@ -866,7 +819,7 @@
 			}
 			id: "3D0CE267A8FD95CD"
 			rewards: [{
-				amount: 5
+				amount: 100
 				id: "098AB4073CA97AD6"
 				type: "currency"
 			}]
@@ -903,6 +856,11 @@
 			id: "32653261B16850B3"
 			rewards: [
 				{
+					amount: 150
+					id: "7E1B898342CFD697"
+					type: "currency"
+				}
+				{
 					exclude_from_claim_all: true
 					id: "36FDA87842CB02A7"
 					table_id: 891108655955453907L
@@ -913,6 +871,19 @@
 					id: "64330F5382A0CDD0"
 					stage: "echo_twilight_stage4_task1_completed"
 					type: "gamestage"
+				}
+				{
+					id: "3899058B807D786F"
+					item: {
+						components: {
+							"hostilenetworks:data": 64
+							"hostilenetworks:data_model": "hostilenetworks:twilightforest/ur_ghast"
+						}
+						count: 1
+						id: "hostilenetworks:data_model"
+					}
+					team_reward: true
+					type: "item"
 				}
 			]
 			shape: "gear"
@@ -937,26 +908,6 @@
 			]
 			x: 6.0d
 			y: 5.0d
-		}
-		{
-			dependencies: ["15DE76B303680F79"]
-			hide_until_deps_complete: true
-			id: "59683C2FB5E9E0C6"
-			optional: true
-			shape: "diamond"
-			tasks: [{
-				id: "154C17C5C905CDB8"
-				item: {
-					components: {
-						"ftbfiltersystem:filter": "or(item(apotheosis:mythic_material)item(draconicevolution:dragon_heart)item(projecte:dm_pedestal)item(ftb:red_matter_smithing_template))"
-					}
-					count: 1
-					id: "ftbfiltersystem:smart_filter"
-				}
-				type: "item"
-			}]
-			x: 2.0d
-			y: 2.5d
 		}
 		{
 			can_repeat: true
@@ -1249,7 +1200,73 @@
 				}
 			]
 			x: -1.5d
-			y: 2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["15DE76B303680F79"]
+			icon: {
+				id: "cataclysm:abyssal_egg"
+			}
+			id: "4D6D066B0855586D"
+			rewards: [{
+				amount: 50
+				id: "305F3397C72B0412"
+				type: "currency"
+			}]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "74F1FBD0D84FA059"
+					item: {
+						count: 1
+						id: "cataclysm:abyssal_sacrifice"
+					}
+					type: "item"
+				}
+				{
+					id: "1E174A9691D90A87"
+					item: {
+						count: 1
+						id: "cataclysm:abyssal_egg"
+					}
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["15DE76B303680F79"]
+			icon: {
+				id: "oritech:prometheum_ingot"
+			}
+			id: "4BAD7359CF074014"
+			rewards: [{
+				amount: 50
+				id: "6E4ED5148480A028"
+				type: "currency"
+			}]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "323F9506856C395B"
+					item: {
+						count: 1
+						id: "oritech:atomic_forge_block"
+					}
+					type: "item"
+				}
+				{
+					id: "0F381500C84F9D6A"
+					item: {
+						count: 1
+						id: "oritech:prometheum_ingot"
+					}
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: 3.5d
 		}
 	]
 }
