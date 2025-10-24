@@ -475,7 +475,7 @@
 				{
 					auto: "invisible"
 					command: "/compass locate ftb:vault/twilight/yeti"
-					feedback_message: "Twilight's Yeti Vault Compass Acquired"
+					feedback_message: "已获得暮色雪怪首领宝库指南针"
 					icon: {
 						id: "explorerscompass:explorerscompass"
 					}
@@ -781,7 +781,7 @@
 				}
 				{
 					command: "/compass locate ftb:vault/twilight/hydra"
-					feedback_message: "Twilight's Hydra Vault Compass Acquired"
+					feedback_message: "已获得暮色九头蛇宝库指南针"
 					icon: {
 						id: "explorerscompass:explorerscompass"
 					}
@@ -793,7 +793,7 @@
 				}
 				{
 					command: "/compass locate ftb:vault/twilight/snow_queen"
-					feedback_message: "Twilight's Snow Queen Vault Compass Acquired"
+					feedback_message: "已获得暮色冰雪女王宝库指南针"
 					icon: {
 						id: "explorerscompass:explorerscompass"
 					}

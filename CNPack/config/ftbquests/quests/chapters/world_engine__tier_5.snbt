@@ -790,7 +790,7 @@
 					id: "0AF0575E18DC2063"
 					item: {
 						components: {
-							"minecraft:lore": ["{\"color\":\"gray\",\"text\":\"Set Location: The Fractured Void\"}"]
+							"minecraft:lore": ["{\"color\":\"gray\",\"text\":\"设定位置：破碎虚空\"}"]
 						}
 						count: 1
 						id: "tempad:chronon_battery"

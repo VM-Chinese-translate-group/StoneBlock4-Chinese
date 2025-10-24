@@ -105,7 +105,7 @@
 		{
 			click: "https://moddedmc.wiki/en/project/oritech/docs/processing/reactor/introduction"
 			height: 1.0d
-			hover: ["Oritech Reactor Wiki"]
+			hover: ["Oritech反应堆Wiki"]
 			image: "jei:textures/jei/atlas/gui/icons/info.png"
 			rotation: 0.0d
 			width: 1.0d
@@ -718,7 +718,7 @@
 				item: {
 					components: {
 						"ftbfiltersystem:filter": "or(item(enderio:basic_capacitor_bank)item(enderio:advanced_capacitor_bank)item(enderio:vibrant_capacitor_bank))"
-						"minecraft:custom_name": "\"Capacitor Banks\""
+						"minecraft:custom_name": "\"电容库\""
 					}
 					count: 1
 					id: "ftbfiltersystem:smart_filter"
@@ -1302,7 +1302,7 @@
 					item: {
 						components: {
 							"ftbfiltersystem:filter": "or(item(oritech:reactor_rod)item(oritech:reactor_double_rod)item(oritech:reactor_quad_rod))"
-							"minecraft:custom_name": "\"Reactor Rods\""
+							"minecraft:custom_name": "\"反应堆棒\""
 						}
 						count: 1
 						id: "ftbfiltersystem:smart_filter"
@@ -1330,7 +1330,7 @@
 					item: {
 						components: {
 							"ftbfiltersystem:filter": "or(item(oritech:uranium_pellet)item(oritech:plutonium_pellet))"
-							"minecraft:custom_name": "\"Reactor Fuel\""
+							"minecraft:custom_name": "\"反应堆燃料\""
 						}
 						count: 1
 						id: "ftbfiltersystem:smart_filter"
@@ -1560,7 +1560,7 @@
 				item: {
 					components: {
 						"ftbfiltersystem:filter": "or(item(powah:reactor_starter)item(powah:reactor_basic)item(powah:reactor_hardened)item(powah:reactor_blazing)item(powah:reactor_niotic)item(powah:reactor_spirited)item(powah:reactor_nitro))"
-						"minecraft:custom_name": "\"Powah Reactors\""
+						"minecraft:custom_name": "\"Powah模组的反应堆\""
 					}
 					count: 1
 					id: "ftbfiltersystem:smart_filter"
@@ -1592,7 +1592,7 @@
 					item: {
 						components: {
 							"ftbfiltersystem:filter": "or(item(powah:player_transmitter_starter)item(powah:player_transmitter_basic)item(powah:player_transmitter_hardened)item(powah:player_transmitter_blazing)item(powah:player_transmitter_niotic)item(powah:player_transmitter_spirited)item(powah:player_transmitter_nitro))"
-							"minecraft:custom_name": "\"Player Transmitters\""
+							"minecraft:custom_name": "\"玩家供电仪\""
 						}
 						count: 1
 						id: "ftbfiltersystem:smart_filter"
@@ -1629,7 +1629,7 @@
 				item: {
 					components: {
 						"ftbfiltersystem:filter": "or(item(powah:magmator_starter)item(powah:magmator_basic)item(powah:magmator_hardened)item(powah:magmator_blazing)item(powah:magmator_niotic)item(powah:magmator_spirited)item(powah:magmator_nitro))"
-						"minecraft:custom_name": "\"Magmators\""
+						"minecraft:custom_name": "\"岩浆发电机\""
 					}
 					count: 1
 					id: "ftbfiltersystem:smart_filter"
@@ -1655,7 +1655,7 @@
 					item: {
 						components: {
 							"ftbfiltersystem:filter": "or(item(powah:energy_cell_starter)item(powah:energy_cell_basic)item(powah:energy_cell_hardened)item(powah:energy_cell_blazing)item(powah:energy_cell_niotic)item(powah:energy_cell_spirited)item(powah:energy_cell_nitro))"
-							"minecraft:custom_name": "\"Energy Cell\""
+							"minecraft:custom_name": "\"能量单元\""
 						}
 						count: 1
 						id: "ftbfiltersystem:smart_filter"
@@ -1667,7 +1667,7 @@
 					item: {
 						components: {
 							"ftbfiltersystem:filter": "or(item(powah:battery_starter)item(powah:battery_basic)item(powah:battery_hardened)item(powah:battery_blazing)item(powah:battery_niotic)item(powah:battery_spirited)item(powah:battery_nitro))"
-							"minecraft:custom_name": "\"Powah Batteries\""
+							"minecraft:custom_name": "\"Powah模组的电池\""
 						}
 						count: 1
 						id: "ftbfiltersystem:smart_filter"
@@ -1699,7 +1699,7 @@
 				item: {
 					components: {
 						"ftbfiltersystem:filter": "or(item(powah:ender_cell_starter)item(powah:ender_cell_basic)item(powah:ender_cell_hardened)item(powah:ender_cell_blazing)item(powah:ender_cell_niotic)item(powah:ender_cell_spirited)item(powah:ender_cell_nitro))"
-						"minecraft:custom_name": "\"Ender Cells\""
+						"minecraft:custom_name": "\"末影单元\""
 					}
 					count: 1
 					id: "ftbfiltersystem:smart_filter"
@@ -1727,7 +1727,7 @@
 				item: {
 					components: {
 						"ftbfiltersystem:filter": "or(item(powah:thermo_generator_starter)item(powah:thermo_generator_basic)item(powah:thermo_generator_hardened)item(powah:thermo_generator_blazing)item(powah:thermo_generator_niotic)item(powah:thermo_generator_spirited)item(powah:thermo_generator_nitro))"
-						"minecraft:custom_name": "\"Thermo Generators\""
+						"minecraft:custom_name": "\"热力发电机\""
 					}
 					count: 1
 					id: "ftbfiltersystem:smart_filter"
@@ -1757,7 +1757,7 @@
 				item: {
 					components: {
 						"ftbfiltersystem:filter": "or(item(powah:ender_gate_starter)item(powah:ender_gate_basic)item(powah:ender_gate_hardened)item(powah:ender_gate_blazing)item(powah:ender_gate_niotic)item(powah:ender_gate_spirited)item(powah:ender_gate_nitro))"
-						"minecraft:custom_name": "\"Ender Gates\""
+						"minecraft:custom_name": "\"末影道门\""
 					}
 					count: 1
 					id: "ftbfiltersystem:smart_filter"

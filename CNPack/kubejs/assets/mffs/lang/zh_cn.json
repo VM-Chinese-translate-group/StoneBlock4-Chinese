@@ -26,7 +26,7 @@
     "block.mffs.projector":"力场投影仪",
     "death.attack.mffs.field_shock":"%1$s被力场裂解了。",
     "fluid_type.mffs.fortron":"力场子",
-    "info.mffs.cannot_harness":"Cannot harness %s FE from the Fortron field.",
+    "info.mffs.cannot_harness":"无法从Fortron能量场中收束%sFE",
     "info.mffs.coercion_deriver.mode.derive":"输入",
     "info.mffs.coercion_deriver.mode.integrate":"输出",
     "info.mffs.field_permission.bypass_confiscation":"无视收缴",

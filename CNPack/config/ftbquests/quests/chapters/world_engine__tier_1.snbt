@@ -436,7 +436,7 @@
 					item: {
 						components: {
 							"ftbfiltersystem:filter": "or(item(ars_nouveau:blue_archwood_sapling)item(ars_nouveau:red_archwood_sapling)item(ars_nouveau:purple_archwood_sapling)item(ars_nouveau:green_archwood_sapling))"
-							"minecraft:custom_name": "\"Archwood Saplings\""
+							"minecraft:custom_name": "\"至高木树苗\""
 						}
 						count: 1
 						id: "ftbfiltersystem:smart_filter"
@@ -967,7 +967,7 @@
 			rewards: [{
 				auto: "disabled"
 				command: "/ftbunearthed setlevel @s 4"
-				feedback_message: "Your Unearthing Skill Has Leveled Up!"
+				feedback_message: "你的发掘技能升级了！"
 				icon: {
 					components: {
 						"ftbquests:icon": "relics:textures/gui/description/ability/upgrade_button_active.png"
@@ -1203,7 +1203,7 @@
 			optional: true
 			rewards: [{
 				command: "ftbchunks waypoint add \"The Quartermaster\" -28 2 -15 minecraft:overworld light_purple true"
-				feedback_message: "Waypoint claimable"
+				feedback_message: "路径点已激活"
 				icon: {
 					id: "minecraft:compass"
 				}

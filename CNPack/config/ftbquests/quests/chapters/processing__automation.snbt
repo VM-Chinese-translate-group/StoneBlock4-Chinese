@@ -142,7 +142,7 @@
 					item: {
 						components: {
 							"ftbfiltersystem:filter": "or(item(pipez:energy_pipe)item(pipez:gas_pipe)item(pipez:fluid_pipe)item(pipez:item_pipe)item(pipez:universal_pipe))"
-							"minecraft:custom_name": "\"Pipes\""
+							"minecraft:custom_name": "\"管道\""
 						}
 						count: 1
 						id: "ftbfiltersystem:smart_filter"
@@ -191,7 +191,7 @@
 					item: {
 						components: {
 							"ftbfiltersystem:filter": "or(item(enderio:conduit))"
-							"minecraft:custom_name": "\"Conduits\""
+							"minecraft:custom_name": "\"导管\""
 						}
 						count: 1
 						id: "ftbfiltersystem:smart_filter"
