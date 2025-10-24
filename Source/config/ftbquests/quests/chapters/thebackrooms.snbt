@@ -1583,26 +1583,6 @@
 					team_reward: false
 					type: "gamestage"
 				}
-				{
-					auto: "enabled"
-					description: "ftb.shop.notification.guidance"
-					icon: {
-						components: {
-							"ftbquests:icon": "ftblibrary:icons/money_bag"
-						}
-						id: "ftbquests:custom_icon"
-					}
-					id: "73D5606B942028E5"
-					type: "toast"
-				}
-				{
-					auto: "invisible"
-					command: "/execute as @s run playsound minecraft:block.note_block.bell master @s ~ ~ ~"
-					id: "6D282E1B4203BA4B"
-					permission_level: 3
-					silent: true
-					type: "command"
-				}
 			]
 			tasks: [{
 				id: "275CBA2077DB22E7"
@@ -1704,7 +1684,6 @@
 					id: "6F1F22E04B99B609"
 					permission_level: 3
 					silent: true
-					team_reward: true
 					type: "command"
 				}
 				{
@@ -1942,7 +1921,6 @@
 				id: "03FA3D36C0FFD9B9"
 				permission_level: 3
 				silent: true
-				team_reward: true
 				type: "command"
 			}]
 			tasks: [{
@@ -2156,7 +2134,6 @@
 				id: "1715C1CD29212F91"
 				permission_level: 3
 				silent: true
-				team_reward: true
 				type: "command"
 			}]
 			tasks: [{
@@ -2183,7 +2160,6 @@
 				id: "6E3E85E46CE763A0"
 				permission_level: 3
 				silent: true
-				team_reward: true
 				type: "command"
 			}]
 			tasks: [{
@@ -2224,7 +2200,6 @@
 					id: "1FAF33A11484C6CC"
 					permission_level: 3
 					silent: true
-					team_reward: true
 					type: "command"
 				}
 				{
@@ -2237,7 +2212,6 @@
 					id: "2CA4F7C9612E9579"
 					permission_level: 3
 					silent: true
-					team_reward: true
 					type: "command"
 				}
 				{
@@ -2489,7 +2463,6 @@
 				id: "5B7F80ED3DC07AE6"
 				permission_level: 3
 				silent: true
-				team_reward: true
 				type: "command"
 			}]
 			tasks: [{
@@ -2725,18 +2698,6 @@
 			}]
 			x: 7.0d
 			y: 4.5d
-		}
-		{
-			can_repeat: true
-			id: "360EACC75AA0DDD1"
-			tasks: [{
-				consume_items: true
-				id: "63A584793FBF9D69"
-				item: { count: 1, id: "minecraft:bedrock" }
-				type: "item"
-			}]
-			x: -2.5d
-			y: -5.0d
 		}
 		{
 			dependencies: [
@@ -2994,6 +2955,126 @@
 			]
 			x: 12.0d
 			y: 4.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "simpleteleporters:ender_shard"
+			}
+			id: "364AA0C55F3312DE"
+			rewards: [{
+				auto: "no_toast"
+				exclude_from_claim_all: true
+				id: "2F8913A8803187DE"
+				table_id: 7715934798614568740L
+				type: "all_table"
+			}]
+			tasks: [{
+				id: "02CC4D7DB653D0B6"
+				type: "checkmark"
+			}]
+			x: -7.0d
+			y: -1.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "simpleteleporters:ender_shard"
+			}
+			id: "300503F48627E3DB"
+			rewards: [{
+				auto: "no_toast"
+				exclude_from_claim_all: true
+				id: "2484A4394A19D746"
+				table_id: 7312320355766548436L
+				type: "all_table"
+			}]
+			tasks: [{
+				id: "69A10E50E3B5403D"
+				type: "checkmark"
+			}]
+			x: -6.0d
+			y: -1.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "simpleteleporters:ender_shard"
+			}
+			id: "5777C137BF472784"
+			rewards: [{
+				auto: "no_toast"
+				exclude_from_claim_all: true
+				id: "2778C3A0ACF8E673"
+				table_id: 6136641063265794427L
+				type: "all_table"
+			}]
+			tasks: [{
+				id: "2F6A260008E1E6E3"
+				type: "checkmark"
+			}]
+			x: -5.0d
+			y: -1.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "simpleteleporters:ender_shard"
+			}
+			id: "4E0BAFDCADC617C5"
+			rewards: [{
+				auto: "no_toast"
+				exclude_from_claim_all: true
+				id: "11B2D56344D92748"
+				table_id: 6991226218517963694L
+				type: "all_table"
+			}]
+			tasks: [{
+				id: "40FA733233F38BAA"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: -1.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "simpleteleporters:ender_shard"
+			}
+			id: "35A0BC59FB62D5F9"
+			rewards: [{
+				auto: "no_toast"
+				exclude_from_claim_all: true
+				id: "6AAE6F64DFF68C93"
+				table_id: 4611501721502039447L
+				type: "all_table"
+			}]
+			tasks: [{
+				id: "263C21E239B346DB"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "simpleteleporters:ender_shard"
+			}
+			id: "26727A01D814C5A9"
+			rewards: [{
+				auto: "no_toast"
+				exclude_from_claim_all: true
+				id: "4B34585C711D421C"
+				table_id: 6654702344875563130L
+				type: "all_table"
+			}]
+			tasks: [{
+				id: "223F8518EBC9EFF4"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: -1.0d
 		}
 	]
 }

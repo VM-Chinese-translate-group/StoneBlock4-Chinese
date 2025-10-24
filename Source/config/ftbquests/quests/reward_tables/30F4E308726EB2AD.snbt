@@ -24,7 +24,7 @@
 				count: 1
 				id: "minecraft:ender_pearl"
 			}
-			weight: 100.0f
+			weight: 50.0f
 		}
 		{ id: "0C736F1A24B139E8", item: { count: 1, id: "ars_nouveau:warp_scroll" } }
 		{
@@ -36,7 +36,7 @@
 				count: 1
 				id: "justdirethings:portalgun"
 			}
-			weight: 75.0f
+			weight: 50.0f
 		}
 		{
 			id: "409805509E36697C"
@@ -62,7 +62,7 @@
 				count: 1
 				id: "actuallyadditions:teleport_staff"
 			}
-			weight: 75.0f
+			weight: 50.0f
 		}
 		{
 			id: "318B20533B226F20"

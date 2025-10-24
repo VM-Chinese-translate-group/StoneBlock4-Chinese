@@ -7,9 +7,18 @@
 	group: ""
 	icon: {
 		components: {
-			"ftbquests:icon": "endercore:textures/gui/sprites/icon/checkmark.png"
+			"minecraft:custom_data": {
+				BaseBlock: "air"
+				Name: ""
+				OffsetY: 0.0d
+				Scale: 4.0d
+				TrophyItem: {
+					id: "ftb:stone_pebble"
+				}
+				TrophyType: "item"
+			}
 		}
-		id: "ftbquests:custom_icon"
+		id: "trophymanager:trophy"
 	}
 	id: "1C63D973F178FD60"
 	images: [
@@ -31,7 +40,7 @@
 			rotation: 0.0d
 			width: 1.0d
 			x: -2.5d
-			y: 2.0d
+			y: 0.5d
 		}
 		{
 			click: "https://github.com/FTBTeam/FTB-Modpack-Issues/issues"
@@ -41,17 +50,7 @@
 			rotation: 0.0d
 			width: 1.0d
 			x: -0.5d
-			y: 2.0d
-		}
-		{
-			color: 5636095
-			height: 1.0d
-			image: "ftbquests:textures/shapes/square/background.png"
-			order: -1
-			rotation: 0.0d
-			width: 1.0d
-			x: -0.5d
-			y: 2.0d
+			y: 0.5d
 		}
 		{
 			height: 5.0d
@@ -68,9 +67,18 @@
 		{
 			icon: {
 				components: {
-					"ftbquests:icon": "ftbquests:block/loot_crate_opener"
+					"minecraft:custom_data": {
+						BaseBlock: "air"
+						Name: ""
+						OffsetY: 0.0d
+						Scale: 4.0d
+						TrophyItem: {
+							id: "ftb:stone_pebble"
+						}
+						TrophyType: "item"
+					}
 				}
-				id: "ftbquests:custom_icon"
+				id: "trophymanager:trophy"
 			}
 			id: "2F15D918EF183051"
 			min_width: 300
@@ -107,8 +115,8 @@
 				id: "2988CAF299690CDB"
 				type: "checkmark"
 			}]
-			x: -3.0d
-			y: 0.5d
+			x: -3.5d
+			y: -1.0d
 		}
 		{
 			icon: {
@@ -128,8 +136,8 @@
 				id: "519E1F80092719D1"
 				type: "checkmark"
 			}]
-			x: 0.0d
-			y: 0.5d
+			x: 0.5d
+			y: -1.0d
 		}
 	]
 }

@@ -8,6 +8,10 @@
 	disable_gui: false
 	drop_book_on_death: false
 	drop_loot_crates: false
+	emergency_items: [{
+		count: 1
+		id: "ftbpc:action_pad"
+	}]
 	emergency_items_cooldown: 300
 	fallback_locale: ""
 	grid_scale: 0.5d

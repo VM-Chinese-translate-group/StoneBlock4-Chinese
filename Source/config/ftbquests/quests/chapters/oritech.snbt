@@ -1,6 +1,7 @@
 {
 	autofocus_id: "33E4C81B762892B2"
 	default_hide_dependency_lines: false
+	default_min_width: 250
 	default_quest_shape: ""
 	filename: "oritech"
 	group: "1B747BDF0A1FE37A"
@@ -73,6 +74,11 @@
 				id: "oritech:laser_arm_block"
 			}
 			id: "036C11AC70835846"
+			rewards: [{
+				amount: 10
+				id: "69A7E3F44A487FC0"
+				type: "currency"
+			}]
 			shape: "hexagon"
 			size: 1.0d
 			tasks: [
@@ -183,23 +189,11 @@
 		{
 			dependencies: ["5FD42392FCECCB47"]
 			id: "091B8E814908DEDF"
-			rewards: [
-				{
-					amount: 50
-					id: "037EDF3E9F05F5D0"
-					type: "currency"
-				}
-				{
-					count: 2
-					id: "0E36E2BF3A2A57AC"
-					item: {
-						count: 1
-						id: "oritech:machine_core_4"
-					}
-					random_bonus: 2
-					type: "item"
-				}
-			]
+			rewards: [{
+				amount: 50
+				id: "037EDF3E9F05F5D0"
+				type: "currency"
+			}]
 			shape: "hexagon"
 			size: 1.0d
 			tasks: [{

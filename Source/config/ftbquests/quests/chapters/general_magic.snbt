@@ -10,27 +10,19 @@
 	id: "091DB004D9DE93BA"
 	images: [
 		{
-			height: 3.5d
-			image: "malum:item/raw_soulstone"
-			rotation: 0.0d
-			width: 3.5d
-			x: 11.5d
-			y: -0.5d
-		}
-		{
-			height: 3.0d
+			height: 2.5d
 			image: "ftb:textures/quests/other_titles_and_logos/malum_logo.png"
 			rotation: 0.0d
-			width: 5.0d
-			x: 11.5d
-			y: -3.5d
+			width: 4.5d
+			x: 10.0d
+			y: -3.0d
 		}
 		{
 			height: 2.0d
 			image: "malum:textures/mob_effect/rejected.png"
 			rotation: 0.0d
 			width: 2.0d
-			x: 11.5d
+			x: 10.0d
 			y: -1.0d
 		}
 		{
@@ -38,7 +30,7 @@
 			image: "malum:textures/gui/book/widgets/runewood_frame_gilded.png"
 			rotation: 0.0d
 			width: 3.0d
-			x: 11.5d
+			x: 10.0d
 			y: 7.5d
 		}
 		{
@@ -46,7 +38,7 @@
 			image: "malum:textures/gui/book/widgets/paper_filling_gilded.png"
 			rotation: 0.0d
 			width: 3.0d
-			x: 11.5d
+			x: 10.0d
 			y: 7.5d
 		}
 		{
@@ -54,30 +46,30 @@
 			image: "malum:textures/gui/book/widgets/paper_filling_default.png"
 			rotation: 0.0d
 			width: 3.0d
-			x: 8.5d
-			y: 3.5d
+			x: 7.5d
+			y: 7.0d
 		}
 		{
 			height: 3.0d
 			image: "malum:textures/gui/book/widgets/withered_frame_default.png"
 			rotation: 0.0d
 			width: 3.0d
-			x: 8.5d
-			y: 3.5d
+			x: 7.5d
+			y: 7.0d
 		}
 		{
 			height: 3.0d
 			image: "malum:textures/gui/book/widgets/withered_frame_default.png"
 			rotation: 0.0d
 			width: 3.0d
-			x: 14.5d
-			y: 3.5d
+			x: 12.5d
+			y: 7.0d
 		}
 		{
-			height: 2.0d
+			height: 1.5d
 			image: "ftb:textures/quests/irons/irons_spellbook_logo.png"
 			rotation: 0.0d
-			width: 5.0d
+			width: 4.5d
 			x: -5.0d
 			y: -3.0d
 		}
@@ -86,7 +78,7 @@
 			height: 1.5d
 			image: "ftb:textures/quests/ars/ars_nouveau_title.png"
 			rotation: 0.0d
-			width: 8.0d
+			width: 7.5d
 			x: -12.5d
 			y: -3.0d
 		}
@@ -103,8 +95,8 @@
 			image: "malum:textures/gui/book/widgets/paper_filling_default.png"
 			rotation: 0.0d
 			width: 3.0d
-			x: 14.5d
-			y: 3.5d
+			x: 12.5d
+			y: 7.0d
 		}
 		{
 			height: 3.0d
@@ -127,8 +119,8 @@
 			height: 2.5d
 			image: "ftb:textures/quests/ars/drygmyperch.png"
 			rotation: 0.0d
-			width: 1.5d
-			x: -10.5d
+			width: 2.0d
+			x: -10.0d
 			y: 6.5d
 		}
 		{
@@ -171,11 +163,11 @@
 		}
 		{
 			dependency: "48005B47655AD525"
-			height: 2.5d
+			height: 2.0d
 			image: "ftb:textures/quests/ars/scribetable.png"
 			rotation: 0.0d
-			width: 3.0d
-			x: -15.0d
+			width: 2.5d
+			x: -14.5d
 			y: 6.5d
 		}
 		{
@@ -184,15 +176,15 @@
 			rotation: 0.0d
 			width: 1.5d
 			x: -3.0d
-			y: -0.5d
+			y: 6.0d
 		}
 		{
 			height: 2.0d
 			image: "irons_spellbooks:item/upgrade_orb_holy"
 			rotation: 0.0d
 			width: 2.0d
-			x: -7.5d
-			y: -0.5d
+			x: -7.0d
+			y: 6.0d
 		}
 		{
 			height: 2.0d
@@ -200,8 +192,8 @@
 			order: -1
 			rotation: 0.0d
 			width: 2.0d
-			x: -7.5d
-			y: -0.5d
+			x: -7.0d
+			y: 6.0d
 		}
 		{
 			height: 1.0d
@@ -265,6 +257,153 @@
 			x: 2.5d
 			y: -3.0d
 		}
+		{
+			alpha: 55
+			color: 0
+			height: 11.0d
+			image: "ftbquests:textures/shapes/square/shape.png"
+			order: -1
+			rotation: 0.0d
+			width: 8.0d
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			alpha: 55
+			color: 0
+			height: 11.0d
+			image: "ftbquests:textures/shapes/square/shape.png"
+			order: -3
+			rotation: 0.0d
+			width: 8.0d
+			x: -5.0d
+			y: 2.5d
+		}
+		{
+			alpha: 80
+			color: 0
+			height: 2.0d
+			image: "ftbquests:textures/shapes/square/shape.png"
+			order: -1
+			rotation: 0.0d
+			width: 8.0d
+			x: -5.0d
+			y: -3.0d
+		}
+		{
+			alpha: 80
+			color: 0
+			height: 2.0d
+			image: "ftbquests:textures/shapes/square/shape.png"
+			order: -1
+			rotation: 0.0d
+			width: 8.0d
+			x: -12.5d
+			y: -3.0d
+		}
+		{
+			alpha: 55
+			color: 0
+			height: 11.0d
+			image: "ftbquests:textures/shapes/square/shape.png"
+			rotation: 0.0d
+			width: 8.0d
+			x: -12.5d
+			y: 2.5d
+		}
+		{
+			alpha: 55
+			color: 0
+			height: 11.0d
+			image: "ftbquests:textures/shapes/square/shape.png"
+			order: -1
+			rotation: 0.0d
+			width: 8.0d
+			x: 10.0d
+			y: 2.5d
+		}
+		{
+			alpha: 80
+			color: 0
+			height: 2.0d
+			image: "ftbquests:textures/shapes/square/shape.png"
+			order: -1
+			rotation: 0.0d
+			width: 8.0d
+			x: 10.0d
+			y: -3.0d
+		}
+		{
+			height: 2.0d
+			image: "occultism:block/spirit_fire_2"
+			rotation: 0.0d
+			width: 2.0d
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			height: 2.0d
+			image: "occultism:block/spirit_fire_2"
+			rotation: 180.0d
+			width: 2.0d
+			x: 2.5d
+			y: -0.5d
+		}
+		{
+			height: 3.0d
+			image: "irons_spellbooks:item/upgrade_orb_fire"
+			rotation: 0.0d
+			width: 3.0d
+			x: -5.0d
+			y: -1.0d
+		}
+		{
+			height: 1.5d
+			image: "ars_nouveau:block/warp_portal"
+			order: -1
+			rotation: 45.0d
+			width: 1.5d
+			x: -12.5d
+			y: -1.0d
+		}
+		{
+			height: 1.5d
+			image: "ars_affinity:textures/gui/perk_tree_frame.png"
+			order: -1
+			rotation: 45.0d
+			width: 1.5d
+			x: -12.5d
+			y: -1.0d
+		}
+		{
+			height: 2.0d
+			image: "malum:item/edge_of_deliverance_huge"
+			order: 1
+			rotation: 0.0d
+			width: 2.0d
+			x: 12.0d
+			y: 1.5d
+		}
+		{
+			height: 2.0d
+			image: "malum:textures/mob_effect/pyromaniacs_fervor.png"
+			order: 1
+			rotation: -90.0d
+			width: 2.0d
+			x: 8.0d
+			y: 1.5d
+		}
+		{
+			alpha: 55
+			color: 0
+			height: 6.0d
+			image: "ftbquests:textures/shapes/square/shape.png"
+			order: -3
+			rotation: 0.0d
+			width: 16.0d
+			x: -1.5d
+			y: 11.0d
+		}
 	]
 	order_index: 5
 	quest_links: [
@@ -274,7 +413,7 @@
 			shape: "hexagon"
 			size: 1.5d
 			x: -12.5d
-			y: -1.2000000000000002d
+			y: -1.0d
 		}
 		{
 			id: "5006B11AF98921FB"
@@ -342,7 +481,6 @@
 			y: 2.5d
 		}
 		{
-			dependencies: ["0ACCAD3AEF57F2E2"]
 			icon: {
 				id: "occultism:datura_seeds"
 			}
@@ -1045,7 +1183,7 @@
 					type: "item"
 				}
 			]
-			x: 11.5d
+			x: 10.0d
 			y: 0.5d
 		}
 		{
@@ -1101,7 +1239,7 @@
 					type: "item"
 				}
 			]
-			x: 11.5d
+			x: 10.0d
 			y: 2.0d
 		}
 		{
@@ -1135,8 +1273,8 @@
 					type: "item"
 				}
 			]
-			x: 15.0d
-			y: 3.0d
+			x: 13.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["41C439295D5558C2"]
@@ -1174,7 +1312,7 @@
 					type: "item"
 				}
 			]
-			x: 11.0d
+			x: 9.5d
 			y: 7.0d
 		}
 		{
@@ -1204,7 +1342,7 @@
 				item: { count: 1, id: "malum:repair_pylon" }
 				type: "item"
 			}]
-			x: 12.0d
+			x: 10.5d
 			y: 8.0d
 		}
 		{
@@ -1223,7 +1361,7 @@
 				item: { count: 1, id: "malum:spirit_catalyzer" }
 				type: "item"
 			}]
-			x: 12.0d
+			x: 10.5d
 			y: 7.0d
 		}
 		{
@@ -1254,7 +1392,7 @@
 				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(malum:augments)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 11.0d
+			x: 9.5d
 			y: 8.0d
 		}
 		{
@@ -1283,8 +1421,8 @@
 				item: { count: 1, id: "malum:runewood_totem_base" }
 				type: "item"
 			}]
-			x: 9.0d
-			y: 3.0d
+			x: 8.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["272E84656D0F133C"]
@@ -1330,8 +1468,8 @@
 					type: "item"
 				}
 			]
-			x: 8.0d
-			y: 4.0d
+			x: 7.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["62C92C8960875611"]
@@ -1371,8 +1509,8 @@
 					type: "item"
 				}
 			]
-			x: 9.0d
-			y: 4.0d
+			x: 8.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["62C92C8960875611"]
@@ -1415,7 +1553,7 @@
 					type: "item"
 				}
 			]
-			x: 12.5d
+			x: 11.0d
 			y: 3.0d
 		}
 		{
@@ -1435,7 +1573,7 @@
 				item: { count: 1, id: "malum:weavers_workbench" }
 				type: "item"
 			}]
-			x: 10.5d
+			x: 9.0d
 			y: 3.0d
 		}
 		{
@@ -1463,8 +1601,8 @@
 					type: "item"
 				}
 			]
-			x: 14.0d
-			y: 4.0d
+			x: 12.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["62C92C8960875611"]
@@ -1524,7 +1662,7 @@
 					type: "item"
 				}
 			]
-			x: 11.5d
+			x: 10.0d
 			y: 3.0d
 		}
 		{
@@ -1561,7 +1699,7 @@
 					type: "item"
 				}
 			]
-			x: 11.5d
+			x: 10.0d
 			y: 4.0d
 		}
 		{
@@ -1588,7 +1726,7 @@
 				item: { count: 1, id: "malum:mnemonic_hex_staff" }
 				type: "item"
 			}]
-			x: 10.5d
+			x: 9.0d
 			y: 4.0d
 		}
 		{
@@ -1645,7 +1783,7 @@
 					type: "item"
 				}
 			]
-			x: 12.0d
+			x: 10.5d
 			y: 5.0d
 		}
 		{
@@ -1691,7 +1829,7 @@
 					type: "item"
 				}
 			]
-			x: 11.0d
+			x: 9.5d
 			y: 5.0d
 		}
 		{
@@ -1731,7 +1869,7 @@
 					type: "item"
 				}
 			]
-			x: 12.5d
+			x: 11.0d
 			y: 4.0d
 		}
 		{
@@ -1780,7 +1918,7 @@
 					type: "item"
 				}
 			]
-			x: 11.5d
+			x: 10.0d
 			y: -1.0d
 		}
 		{
@@ -1815,8 +1953,8 @@
 				id: "3772CB9C1C8A3D66"
 				type: "checkmark"
 			}]
-			x: 8.0d
-			y: 3.0d
+			x: 7.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["41C439295D5558C2"]
@@ -1844,8 +1982,8 @@
 					type: "item"
 				}
 			]
-			x: 14.0d
-			y: 3.0d
+			x: 12.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["7169587C7DC4C8C0"]
@@ -1864,8 +2002,8 @@
 				item: { count: 1, id: "gaze:splintered_world" }
 				type: "item"
 			}]
-			x: 15.0d
-			y: 4.0d
+			x: 13.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["107C26E8BF309BC1"]
@@ -2014,8 +2152,8 @@
 					type: "item"
 				}
 			]
-			x: -7.875d
-			y: 11.25d
+			x: -7.125d
+			y: 11.125d
 		}
 		{
 			dependencies: ["1A2D8034C07D988B"]
@@ -2038,8 +2176,8 @@
 					type: "item"
 				}
 			]
-			x: -5.875d
-			y: 11.25d
+			x: -5.125d
+			y: 11.125d
 		}
 		{
 			dependencies: ["5BF72200F151FF24"]
@@ -2080,8 +2218,8 @@
 					type: "item"
 				}
 			]
-			x: -3.875d
-			y: 11.25d
+			x: -3.125d
+			y: 11.125d
 		}
 		{
 			dependencies: ["69E90341CD1AD494"]
@@ -2104,8 +2242,8 @@
 					type: "item"
 				}
 			]
-			x: -1.875d
-			y: 11.25d
+			x: -1.125d
+			y: 11.125d
 		}
 		{
 			dependencies: ["7CA687749E953A19"]
@@ -2120,8 +2258,8 @@
 				item: { count: 1, id: "psi:cad_assembly_psimetal" }
 				type: "item"
 			}]
-			x: 0.125d
-			y: 11.25d
+			x: 0.875d
+			y: 11.125d
 		}
 		{
 			dependencies: ["7BF4EF06E2D0D763"]
@@ -2143,8 +2281,8 @@
 					type: "item"
 				}
 			]
-			x: 2.125d
-			y: 11.25d
+			x: 2.875d
+			y: 11.125d
 		}
 		{
 			dependencies: ["5BF72200F151FF24"]
@@ -2160,8 +2298,8 @@
 				item: { count: 1, id: "psi:cad_core_basic" }
 				type: "item"
 			}]
-			x: -5.875d
-			y: 9.75d
+			x: -5.125d
+			y: 9.625d
 		}
 		{
 			dependencies: ["7CA687749E953A19"]
@@ -2177,8 +2315,8 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item(psi:cad_core_overclocked)item(psi:cad_core_conductive))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: -1.875d
-			y: 9.75d
+			x: -1.125d
+			y: 9.625d
 		}
 		{
 			dependencies: ["2F9F60F308C42FB0"]
@@ -2194,8 +2332,8 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item(psi:cad_core_hyperclocked)item(psi:cad_core_radiative))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 2.125d
-			y: 9.75d
+			x: 2.875d
+			y: 9.625d
 		}
 		{
 			dependencies: ["5BF72200F151FF24"]
@@ -2211,8 +2349,8 @@
 				item: { count: 1, id: "psi:cad_battery_basic" }
 				type: "item"
 			}]
-			x: -6.875d
-			y: 9.75d
+			x: -6.125d
+			y: 9.625d
 		}
 		{
 			dependencies: ["7CA687749E953A19"]
@@ -2228,8 +2366,8 @@
 				item: { count: 1, id: "psi:cad_battery_extended" }
 				type: "item"
 			}]
-			x: -2.875d
-			y: 9.75d
+			x: -2.125d
+			y: 9.625d
 		}
 		{
 			dependencies: ["2F9F60F308C42FB0"]
@@ -2244,8 +2382,8 @@
 				item: { count: 1, id: "psi:cad_battery_ultradense" }
 				type: "item"
 			}]
-			x: 1.125d
-			y: 9.75d
+			x: 1.875d
+			y: 9.625d
 		}
 		{
 			dependencies: ["5BF72200F151FF24"]
@@ -2261,8 +2399,8 @@
 				item: { count: 1, id: "psi:cad_socket_basic" }
 				type: "item"
 			}]
-			x: -4.875d
-			y: 9.75d
+			x: -4.125d
+			y: 9.625d
 		}
 		{
 			dependencies: ["7CA687749E953A19"]
@@ -2278,8 +2416,8 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item(psi:cad_socket_signaling)item(psi:cad_socket_large))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: -0.875d
-			y: 9.75d
+			x: -0.125d
+			y: 9.625d
 		}
 		{
 			dependencies: ["2F9F60F308C42FB0"]
@@ -2295,8 +2433,8 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item(psi:cad_socket_transmissive)item(psi:cad_socket_huge))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 3.125d
-			y: 9.75d
+			x: 3.875d
+			y: 9.625d
 		}
 		{
 			dependencies: ["5BF72200F151FF24"]
@@ -2313,8 +2451,8 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item(psi:cad_colorizer_white)item(psi:cad_colorizer_orange)item(psi:cad_colorizer_magenta)item(psi:cad_colorizer_light_blue)item(psi:cad_colorizer_yellow)item(psi:cad_colorizer_lime)item(psi:cad_colorizer_pink)item(psi:cad_colorizer_gray)item(psi:cad_colorizer_light_gray)item(psi:cad_colorizer_cyan)item(psi:cad_colorizer_purple)item(psi:cad_colorizer_blue)item(psi:cad_colorizer_brown)item(psi:cad_colorizer_green)item(psi:cad_colorizer_red)item(psi:cad_colorizer_black)item(psi:cad_colorizer_psi)item(psi:cad_colorizer_empty))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: -5.875d
-			y: 12.25d
+			x: -5.125d
+			y: 12.125d
 		}
 		{
 			dependencies: ["2F9F60F308C42FB0"]
@@ -2349,8 +2487,8 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item(psi:psimetal_sword)item(psi:psimetal_pickaxe)item(psi:psimetal_axe)item(psi:psimetal_shovel))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 1.625d
-			y: 12.75d
+			x: 2.375d
+			y: 12.625d
 		}
 		{
 			dependencies: ["2F9F60F308C42FB0"]
@@ -2386,8 +2524,8 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item(psi:psimetal_exosuit_helmet)item(psi:psimetal_exosuit_chestplate)item(psi:psimetal_exosuit_leggings)item(psi:psimetal_exosuit_boots))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 2.625d
-			y: 12.75d
+			x: 3.375d
+			y: 12.625d
 		}
 		{
 			dependencies: ["7CA687749E953A19"]
@@ -2397,8 +2535,8 @@
 				id: "30F1965A2A29E58A"
 				type: "checkmark"
 			}]
-			x: -1.875d
-			y: 12.25d
+			x: -1.125d
+			y: 12.125d
 		}
 		{
 			dependencies: ["2F9F60F308C42FB0"]
@@ -2431,8 +2569,8 @@
 					type: "item"
 				}
 			]
-			x: 3.625d
-			y: 11.25d
+			x: 4.375d
+			y: 11.125d
 		}
 	]
 }

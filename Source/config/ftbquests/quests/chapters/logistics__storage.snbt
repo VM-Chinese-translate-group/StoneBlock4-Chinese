@@ -15,7 +15,7 @@
 			image: "ae2:item/singularity"
 			rotation: 45.0d
 			width: 1.5d
-			x: -7.0d
+			x: -6.5d
 			y: 12.5d
 		}
 		{
@@ -23,7 +23,7 @@
 			image: "ae2:block/glass/quartz_glass_item"
 			rotation: 0.0d
 			width: 2.0d
-			x: -11.5d
+			x: -11.0d
 			y: 11.0d
 		}
 		{
@@ -32,7 +32,7 @@
 			order: -1
 			rotation: 0.0d
 			width: 2.0d
-			x: -11.5d
+			x: -11.0d
 			y: 11.0d
 		}
 		{
@@ -41,7 +41,7 @@
 			image: "advanced_ae:block/quantum_crafter_grid_on"
 			rotation: 0.0d
 			width: 2.0d
-			x: 10.5d
+			x: 11.0d
 			y: 11.0d
 		}
 		{
@@ -49,7 +49,7 @@
 			image: "advanced_ae:block/crafting/quantum_structure_powered"
 			rotation: 45.0d
 			width: 2.0d
-			x: 8.0d
+			x: 8.5d
 			y: 11.0d
 		}
 		{
@@ -57,7 +57,7 @@
 			image: "ae2:block/molecular_assembler_lights"
 			rotation: 0.0d
 			width: 2.0d
-			x: -3.5d
+			x: -3.0d
 			y: 11.0d
 		}
 		{
@@ -65,7 +65,7 @@
 			image: "ftbquests:tasks/input_only"
 			rotation: 0.0d
 			width: 3.0d
-			x: 4.5d
+			x: 5.0d
 			y: 11.0d
 		}
 		{
@@ -73,7 +73,7 @@
 			image: "enderio:block/vacuum_portal"
 			rotation: 45.0d
 			width: 1.0d
-			x: 0.0d
+			x: 0.5d
 			y: 17.5d
 		}
 		{
@@ -83,7 +83,7 @@
 			order: -1
 			rotation: 45.0d
 			width: 1.5d
-			x: 0.0d
+			x: 0.5d
 			y: 17.5d
 		}
 		{
@@ -92,7 +92,7 @@
 			order: -3
 			rotation: 0.0d
 			width: 1.0d
-			x: -6.0d
+			x: -5.5d
 			y: 11.0d
 		}
 		{
@@ -101,7 +101,7 @@
 			order: -1
 			rotation: 0.0d
 			width: 3.0d
-			x: 4.5d
+			x: 5.0d
 			y: 11.0d
 		}
 		{
@@ -109,7 +109,7 @@
 			image: "advanced_ae:block/crafting/quantum_unit"
 			rotation: 45.0d
 			width: 2.0d
-			x: 8.0d
+			x: 8.5d
 			y: 14.5d
 		}
 		{
@@ -117,7 +117,7 @@
 			image: "ae2:block/controller"
 			rotation: 0.0d
 			width: 1.0d
-			x: -1.0d
+			x: -0.5d
 			y: 9.0d
 		}
 		{
@@ -125,7 +125,7 @@
 			image: "minecraft:block/sculk"
 			rotation: 45.0d
 			width: 1.0d
-			x: -2.5d
+			x: -2.0d
 			y: 8.5d
 		}
 		{
@@ -134,7 +134,7 @@
 			image: "extendedae:block/assembler_matrix/frame_block_on"
 			rotation: 45.0d
 			width: 2.0d
-			x: 4.5d
+			x: 5.0d
 			y: 14.5d
 		}
 		{
@@ -142,7 +142,7 @@
 			image: "replication:block/shader"
 			rotation: 45.0d
 			width: 1.0d
-			x: -4.5d
+			x: -4.0d
 			y: 8.5d
 		}
 		{
@@ -160,6 +160,76 @@
 			width: 8.89d
 			x: 0.0d
 			y: -4.5d
+		}
+		{
+			alpha: 55
+			color: 0
+			height: 6.0d
+			image: "ftbquests:textures/shapes/square/shape.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			alpha: 55
+			color: 0
+			height: 6.0d
+			image: "ftbquests:textures/shapes/square/shape.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			alpha: 55
+			color: 0
+			height: 6.0d
+			image: "ftbquests:textures/shapes/square/shape.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			alpha: 55
+			color: 0
+			height: 6.0d
+			image: "ftbquests:textures/shapes/square/shape.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: -6.0d
+			y: 4.0d
+		}
+		{
+			alpha: 55
+			color: 0
+			height: 13.0d
+			image: "ftbquests:textures/shapes/square/shape.png"
+			rotation: 0.0d
+			width: 30.0d
+			x: 0.0d
+			y: 13.0d
+		}
+		{
+			alpha: 55
+			color: 0
+			height: 3.0d
+			image: "ftbquests:textures/shapes/square/shape.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: -3.5d
+			y: -0.5d
+		}
+		{
+			alpha: 55
+			color: 0
+			height: 3.0d
+			image: "ftbquests:textures/shapes/square/shape.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: 3.5d
+			y: -0.5d
 		}
 	]
 	order_index: 7
@@ -185,6 +255,16 @@
 					}
 					type: "item"
 				}
+				{
+					count: 4
+					id: "1B19BE537ADF4EA3"
+					item: {
+						count: 1
+						id: "minecraft:glowstone"
+					}
+					team_reward: true
+					type: "item"
+				}
 			]
 			shape: "diamond"
 			size: 2.0d
@@ -193,7 +273,7 @@
 				item: { count: 1, id: "ae2:flawless_budding_quartz" }
 				type: "item"
 			}]
-			x: -11.5d
+			x: -11.0d
 			y: 11.0d
 		}
 		{
@@ -217,7 +297,7 @@
 				id: "55B1C70507F60EDF"
 				type: "checkmark"
 			}]
-			x: -10.0d
+			x: -9.5d
 			y: 12.0d
 		}
 		{
@@ -249,13 +329,16 @@
 					type: "item"
 				}
 			]
-			x: -10.0d
+			x: -9.5d
 			y: 10.0d
 		}
 		{
 			dependencies: ["73EC5E7F2300B99D"]
 			icon: {
-				id: "ae2:inscriber"
+				components: {
+					"custommachinery:machine": "ftb:circuit_fabricator"
+				}
+				id: "custommachinery:custom_machine_item"
 			}
 			id: "663460DE8AF7E464"
 			min_width: 300
@@ -264,16 +347,6 @@
 					amount: 1
 					id: "105EF35C8204A684"
 					type: "currency"
-				}
-				{
-					count: 4
-					id: "043209DA4BD2F497"
-					item: {
-						count: 1
-						id: "ae2:inscriber"
-					}
-					team_reward: true
-					type: "item"
 				}
 				{
 					count: 5
@@ -301,12 +374,24 @@
 					type: "item"
 				}
 				{
-					id: "010FA7DD575A2D08"
-					item: { count: 1, id: "ae2:inscriber" }
+					count: 19L
+					id: "4691C0F7CD4B2661"
+					item: { count: 1, id: "immersiveengineering:sheetmetal_colored_blue" }
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "022A5F5D91FC015D"
+					item: { count: 1, id: "ae2:quartz_vibrant_glass" }
+					type: "item"
+				}
+				{
+					id: "279D9C7BF6F11D8E"
+					item: { components: { "custommachinery:machine": "ftb:circuit_fabricator" }, count: 1, id: "custommachinery:custom_machine_item" }
 					type: "item"
 				}
 			]
-			x: -6.0d
+			x: -5.5d
 			y: 11.0d
 		}
 		{
@@ -347,7 +432,7 @@
 					type: "item"
 				}
 			]
-			x: -8.5d
+			x: -8.0d
 			y: 11.0d
 		}
 		{
@@ -366,7 +451,7 @@
 				item: { count: 1, id: "ae2:fluix_crystal" }
 				type: "item"
 			}]
-			x: -8.5d
+			x: -8.0d
 			y: 13.0d
 		}
 		{
@@ -404,7 +489,7 @@
 					type: "item"
 				}
 			]
-			x: -7.0d
+			x: -6.5d
 			y: 12.5d
 		}
 		{
@@ -441,7 +526,7 @@
 				item: { count: 1, id: "ae2:growth_accelerator" }
 				type: "item"
 			}]
-			x: -6.0d
+			x: -5.5d
 			y: 13.0d
 		}
 		{
@@ -480,7 +565,7 @@
 					type: "item"
 				}
 			]
-			x: -7.0d
+			x: -6.5d
 			y: 13.5d
 		}
 		{
@@ -502,7 +587,7 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item(ae2:engineering_processor)item(ae2:logic_processor)item(ae2:calculation_processor))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: -3.5d
+			x: -3.0d
 			y: 11.0d
 		}
 		{
@@ -529,7 +614,7 @@
 				item: { count: 1, id: "ae2:crafting_terminal" }
 				type: "item"
 			}]
-			x: 0.0d
+			x: 0.5d
 			y: 12.5d
 		}
 		{
@@ -569,7 +654,7 @@
 					type: "item"
 				}
 			]
-			x: 1.0d
+			x: 1.5d
 			y: 9.0d
 		}
 		{
@@ -609,7 +694,7 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item(ae2:import_bus)item(ae2:export_bus))", "minecraft:custom_name": "\"I/O Bus\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 0.0d
+			x: 0.5d
 			y: 9.0d
 		}
 		{
@@ -655,7 +740,7 @@
 					type: "item"
 				}
 			]
-			x: 3.5d
+			x: 4.0d
 			y: 9.0d
 		}
 		{
@@ -684,7 +769,7 @@
 					type: "item"
 				}
 			]
-			x: 4.5d
+			x: 5.0d
 			y: 9.0d
 		}
 		{
@@ -702,7 +787,7 @@
 				item: { count: 1, id: "advanced_ae:reaction_chamber" }
 				type: "item"
 			}]
-			x: -2.0d
+			x: -1.5d
 			y: 15.0d
 		}
 		{
@@ -732,7 +817,7 @@
 					type: "item"
 				}
 			]
-			x: -3.5d
+			x: -3.0d
 			y: 15.0d
 		}
 		{
@@ -749,7 +834,7 @@
 				item: { count: 1, id: "advanced_ae:quantum_core" }
 				type: "item"
 			}]
-			x: 8.0d
+			x: 8.5d
 			y: 12.5d
 		}
 		{
@@ -771,7 +856,7 @@
 				item: { count: 1, id: "advanced_ae:quantum_structure" }
 				type: "item"
 			}]
-			x: 8.0d
+			x: 8.5d
 			y: 14.5d
 		}
 		{
@@ -801,7 +886,7 @@
 				item: { count: 1, id: "advanced_ae:data_entangler" }
 				type: "item"
 			}]
-			x: 7.0d
+			x: 7.5d
 			y: 15.5d
 		}
 		{
@@ -831,7 +916,7 @@
 				item: { count: 1, id: "advanced_ae:quantum_multi_threader" }
 				type: "item"
 			}]
-			x: 7.0d
+			x: 7.5d
 			y: 13.5d
 		}
 		{
@@ -863,7 +948,7 @@
 				item: { count: 1, id: "advanced_ae:quantum_storage_128" }
 				type: "item"
 			}]
-			x: 9.0d
+			x: 9.5d
 			y: 15.5d
 		}
 		{
@@ -881,7 +966,7 @@
 				item: { count: 1, id: "advanced_ae:quantum_crafter" }
 				type: "item"
 			}]
-			x: 10.5d
+			x: 11.0d
 			y: 11.0d
 		}
 		{
@@ -925,7 +1010,7 @@
 					type: "item"
 				}
 			]
-			x: -8.5d
+			x: -8.0d
 			y: 15.0d
 		}
 		{
@@ -964,7 +1049,7 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
+			x: 0.5d
 			y: 14.0d
 		}
 		{
@@ -983,7 +1068,7 @@
 				item: { count: 1, id: "ae2:controller" }
 				type: "item"
 			}]
-			x: -1.0d
+			x: -0.5d
 			y: 9.0d
 		}
 		{
@@ -1003,7 +1088,7 @@
 				item: { count: 1, id: "ae2:crafting_unit" }
 				type: "item"
 			}]
-			x: 4.5d
+			x: 5.0d
 			y: 11.0d
 		}
 		{
@@ -1031,7 +1116,7 @@
 				item: { count: 1, id: "advanced_ae:quantum_unit" }
 				type: "item"
 			}]
-			x: 8.0d
+			x: 8.5d
 			y: 11.0d
 		}
 		{
@@ -1052,7 +1137,7 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item(ae2:fluix_glass_cable)item(ae2:fluix_covered_cable)item(ae2:fluix_smart_cable))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 0.0d
+			x: 0.5d
 			y: 11.0d
 		}
 		{
@@ -1070,7 +1155,7 @@
 				item: { count: 1, id: "ae2wtlib:quantum_bridge_card" }
 				type: "item"
 			}]
-			x: 0.0d
+			x: 0.5d
 			y: 17.5d
 		}
 		{
@@ -1109,7 +1194,7 @@
 					type: "item"
 				}
 			]
-			x: 5.5d
+			x: 6.0d
 			y: 9.0d
 		}
 		{
@@ -1137,7 +1222,7 @@
 				item: { count: 1, id: "advanced_ae:quantum_accelerator" }
 				type: "item"
 			}]
-			x: 9.0d
+			x: 9.5d
 			y: 13.5d
 		}
 		{
@@ -1179,7 +1264,7 @@
 					type: "item"
 				}
 			]
-			x: -3.5d
+			x: -3.0d
 			y: 9.5d
 		}
 		{
@@ -1211,7 +1296,7 @@
 				id: "16F2199AE6D61307"
 				type: "checkmark"
 			}]
-			x: -2.5d
+			x: -2.0d
 			y: 8.5d
 		}
 		{
@@ -1262,7 +1347,7 @@
 					type: "item"
 				}
 			]
-			x: 4.5d
+			x: 5.0d
 			y: 16.5d
 		}
 		{
@@ -1315,7 +1400,7 @@
 					type: "item"
 				}
 			]
-			x: 8.0d
+			x: 8.5d
 			y: 16.5d
 		}
 		{
@@ -1345,7 +1430,7 @@
 				item: { count: 1, id: "extendedae:assembler_matrix_frame" }
 				type: "item"
 			}]
-			x: 3.5d
+			x: 4.0d
 			y: 13.5d
 		}
 		{
@@ -1375,7 +1460,7 @@
 				item: { count: 1, id: "extendedae:assembler_matrix_wall" }
 				type: "item"
 			}]
-			x: 4.5d
+			x: 5.0d
 			y: 14.5d
 		}
 		{
@@ -1393,7 +1478,7 @@
 				item: { count: 1, id: "extendedae:assembler_matrix_pattern" }
 				type: "item"
 			}]
-			x: 3.5d
+			x: 4.0d
 			y: 15.5d
 		}
 		{
@@ -1411,7 +1496,7 @@
 				item: { count: 1, id: "extendedae:assembler_matrix_crafter" }
 				type: "item"
 			}]
-			x: 5.5d
+			x: 6.0d
 			y: 15.5d
 		}
 		{
@@ -1429,7 +1514,7 @@
 				item: { count: 1, id: "extendedae:assembler_matrix_speed" }
 				type: "item"
 			}]
-			x: 5.5d
+			x: 6.0d
 			y: 13.5d
 		}
 		{
@@ -1448,7 +1533,7 @@
 				item: { count: 1, id: "rep_ae2_bridge:rep_ae2_bridge" }
 				type: "item"
 			}]
-			x: -4.5d
+			x: -4.0d
 			y: 8.5d
 		}
 		{
@@ -1501,7 +1586,7 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
+			x: 0.5d
 			y: 15.5d
 		}
 		{
@@ -1583,7 +1668,7 @@
 					type: "item"
 				}
 			]
-			x: 3.5d
+			x: 4.0d
 			y: 0.0d
 		}
 		{
@@ -1601,7 +1686,7 @@
 				item: { count: 1, id: "sophisticatedbackpacks:backpack" }
 				type: "item"
 			}]
-			x: -4.0d
+			x: -2.0d
 			y: 2.5d
 		}
 		{
@@ -1641,7 +1726,7 @@
 				item: { count: 1, id: "sophisticatedstorage:basic_to_copper_tier_upgrade" }
 				type: "item"
 			}]
-			x: 0.0d
+			x: 2.0d
 			y: 2.5d
 		}
 		{
@@ -1662,7 +1747,7 @@
 				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(functionalstorage:drawer)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 4.0d
+			x: 6.0d
 			y: 2.5d
 		}
 		{
@@ -1701,7 +1786,7 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item(functionalstorage:copper_upgrade)item(functionalstorage:gold_upgrade)item(functionalstorage:diamond_upgrade)item(functionalstorage:netherite_upgrade))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 3.0d
+			x: 5.0d
 			y: 3.5d
 		}
 		{
@@ -1730,7 +1815,7 @@
 					type: "item"
 				}
 			]
-			x: 5.0d
+			x: 7.0d
 			y: 3.5d
 		}
 		{
@@ -1770,7 +1855,7 @@
 					type: "item"
 				}
 			]
-			x: 4.0d
+			x: 6.0d
 			y: 5.5d
 		}
 		{
@@ -1791,7 +1876,7 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item(functionalstorage:simple_compacting_drawer)item(functionalstorage:compacting_drawer))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 3.0d
+			x: 5.0d
 			y: 4.5d
 		}
 		{
@@ -1813,7 +1898,7 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item(functionalstorage:framed_1)item(functionalstorage:framed_2)item(functionalstorage:framed_4)item(functionalstorage:framed_fluid_1)item(functionalstorage:framed_fluid_2)item(functionalstorage:framed_fluid_4)item(functionalstorage:compacting_framed_drawer)item(functionalstorage:framed_storage_controller)item(functionalstorage:framed_controller_extension)item(functionalstorage:framed_simple_compacting_drawer))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 3.0d
+			x: 5.0d
 			y: 5.5d
 		}
 		{
@@ -1833,7 +1918,7 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item(functionalstorage:fluid_1)item(functionalstorage:fluid_2)item(functionalstorage:fluid_4))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 5.0d
+			x: 7.0d
 			y: 4.5d
 		}
 		{
@@ -1852,7 +1937,7 @@
 				item: { count: 1, id: "functionalstorage:configuration_tool" }
 				type: "item"
 			}]
-			x: 4.0d
+			x: 6.0d
 			y: 4.5d
 		}
 		{
@@ -1881,7 +1966,7 @@
 				item: { count: 1, id: "sophisticatedbackpacks:upgrade_base" }
 				type: "item"
 			}]
-			x: -4.0d
+			x: -2.0d
 			y: 4.5d
 		}
 		{
@@ -1910,7 +1995,7 @@
 				item: { count: 1, id: "sophisticatedstorage:upgrade_base" }
 				type: "item"
 			}]
-			x: 0.0d
+			x: 2.0d
 			y: 4.5d
 		}
 		{
@@ -1930,7 +2015,7 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item(sophisticatedbackpacks:copper_backpack)item(sophisticatedbackpacks:iron_backpack)item(sophisticatedbackpacks:gold_backpack)item(sophisticatedbackpacks:diamond_backpack)item(sophisticatedbackpacks:netherite_backpack))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: -3.0d
+			x: -1.0d
 			y: 3.5d
 		}
 		{
@@ -1950,7 +2035,7 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item(sophisticatedbackpacks:stack_upgrade_starter_tier)item(sophisticatedbackpacks:stack_upgrade_tier_1)item(sophisticatedbackpacks:stack_upgrade_tier_2)item(sophisticatedbackpacks:stack_upgrade_tier_3)item(sophisticatedbackpacks:stack_upgrade_tier_4)item(sophisticatedbackpacks:stack_upgrade_omega_tier))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: -4.0d
+			x: -2.0d
 			y: 6.0d
 		}
 		{
@@ -1971,7 +2056,7 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item(sophisticatedbackpacks:pickup_upgrade)item(sophisticatedbackpacks:advanced_pickup_upgrade)item(sophisticatedbackpacks:magnet_upgrade)item(sophisticatedbackpacks:advanced_magnet_upgrade))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: -3.5d
+			x: -1.5d
 			y: 5.5d
 		}
 		{
@@ -1992,7 +2077,7 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item(sophisticatedbackpacks:void_upgrade)item(sophisticatedbackpacks:advanced_void_upgrade))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: -4.5d
+			x: -2.5d
 			y: 5.5d
 		}
 		{
@@ -2027,7 +2112,7 @@
 					type: "item"
 				}
 			]
-			x: 1.0d
+			x: 3.0d
 			y: 3.5d
 		}
 		{
@@ -2045,7 +2130,7 @@
 				item: { count: 1, id: "sophisticatedstorage:packing_tape" }
 				type: "item"
 			}]
-			x: -1.0d
+			x: 1.0d
 			y: 3.5d
 		}
 		{
@@ -2070,7 +2155,7 @@
 				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:dyes)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: -5.0d
+			x: -3.0d
 			y: 3.5d
 		}
 		{
@@ -2113,7 +2198,7 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item(sophisticatedstorage:stack_upgrade_tier_1)item(sophisticatedstorage:stack_upgrade_tier_1_plus)item(sophisticatedstorage:stack_upgrade_tier_2)item(sophisticatedstorage:stack_upgrade_tier_3)item(sophisticatedstorage:stack_upgrade_tier_4)item(sophisticatedstorage:stack_upgrade_tier_5))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 0.0d
+			x: 2.0d
 			y: 6.0d
 		}
 		{
@@ -2135,7 +2220,7 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item(sophisticatedstorage:void_upgrade)item(sophisticatedstorage:advanced_void_upgrade))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: -0.5d
+			x: 1.5d
 			y: 5.5d
 		}
 		{
@@ -2156,7 +2241,7 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item(sophisticatedstorage:pickup_upgrade)item(sophisticatedstorage:advanced_pickup_upgrade)item(sophisticatedstorage:magnet_upgrade)item(sophisticatedstorage:advanced_magnet_upgrade))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 0.5d
+			x: 2.5d
 			y: 5.5d
 		}
 		{
@@ -2210,7 +2295,7 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item(functionalstorage:dripping_upgrade)item(functionalstorage:water_generator_upgrade)item(functionalstorage:obsidian_upgrade))", "minecraft:custom_name": "\"Drawer Generators\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 5.0d
+			x: 7.0d
 			y: 5.5d
 		}
 		{
@@ -2239,7 +2324,7 @@
 					type: "item"
 				}
 			]
-			x: 2.5d
+			x: 3.0d
 			y: 0.0d
 		}
 		{
@@ -2278,7 +2363,7 @@
 					type: "item"
 				}
 			]
-			x: 3.0d
+			x: 3.5d
 			y: -1.0d
 		}
 		{
@@ -2301,6 +2386,7 @@
 				{
 					id: "6DF527923993A57F"
 					item: { components: { "ftbfiltersystem:filter": "or(item(ironchest:wood_to_copper_chest_upgrade)item(ironchest:wood_to_iron_chest_upgrade)item(ironchest:copper_to_iron_chest_upgrade)item(ironchest:iron_to_gold_chest_upgrade)item(ironchest:gold_to_diamond_chest_upgrade)item(ironchest:diamond_to_crystal_chest_upgrade)item(ironchest:diamond_to_obsidian_chest_upgrade))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					optional_task: true
 					type: "item"
 				}
 			]
@@ -2343,7 +2429,7 @@
 					type: "item"
 				}
 			]
-			x: -8.5d
+			x: -6.0d
 			y: 2.5d
 		}
 		{
@@ -2386,8 +2472,8 @@
 					type: "item"
 				}
 			]
-			x: -9.5d
-			y: 3.5d
+			x: -7.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["4101E75F69C9909F"]
@@ -2420,8 +2506,8 @@
 					type: "item"
 				}
 			]
-			x: -7.5d
-			y: 3.5d
+			x: -5.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["4101E75F69C9909F"]
@@ -2439,8 +2525,8 @@
 				item: { count: 1, id: "mekanism:portable_qio_dashboard" }
 				type: "item"
 			}]
-			x: -8.5d
-			y: 4.5d
+			x: -6.0d
+			y: 5.5d
 		}
 	]
 }

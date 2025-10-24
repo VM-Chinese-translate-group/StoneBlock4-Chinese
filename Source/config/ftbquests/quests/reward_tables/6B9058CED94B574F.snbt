@@ -95,7 +95,7 @@
 				id: "draconicevolution:draconium_dust"
 			}
 		}
-		{ id: "2550C5E5A4D0782E", item: { count: 1, id: "enderio:staff_of_travelling" } }
+		{ id: "2550C5E5A4D0782E", item: { components: { "enderio:energy": 100000 }, count: 1, id: "enderio:staff_of_travelling" } }
 		{
 			count: 2
 			id: "19AA27B55AEE0168"

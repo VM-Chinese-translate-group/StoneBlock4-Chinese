@@ -1639,6 +1639,7 @@
 		}
 		{
 			id: "5964573222E4FA19"
+			optional: true
 			rewards: [{
 				amount: 1
 				id: "7E3C58BDEADFC0C1"

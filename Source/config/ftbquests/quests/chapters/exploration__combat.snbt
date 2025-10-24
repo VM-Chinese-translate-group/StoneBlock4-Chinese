@@ -54,7 +54,7 @@
 			id: "4032C8BD158D1776"
 			optional: true
 			rewards: [{
-				amount: 3
+				amount: 15
 				id: "6D083F18D0E12C6D"
 				type: "currency"
 			}]
@@ -184,7 +184,7 @@
 			id: "7DE9A4C7979AC1FA"
 			rewards: [
 				{
-					amount: 10
+					amount: 15
 					id: "4D637521E280E83C"
 					type: "currency"
 				}
@@ -234,7 +234,7 @@
 			dependency_requirement: "one_completed"
 			id: "54B7D149B45635F4"
 			rewards: [{
-				amount: 3
+				amount: 5
 				id: "005FAA3F386BF75E"
 				type: "currency"
 			}]
@@ -302,7 +302,7 @@
 			}
 			id: "6D28E1AFBB33C43E"
 			rewards: [{
-				amount: 3
+				amount: 5
 				id: "021FFB6829EE0351"
 				type: "currency"
 			}]
@@ -329,7 +329,7 @@
 			}
 			id: "21A521011401074F"
 			rewards: [{
-				amount: 2
+				amount: 5
 				id: "5B9FA04B7FC49065"
 				type: "currency"
 			}]
@@ -396,7 +396,7 @@
 			id: "056492E163706EC5"
 			optional: true
 			rewards: [{
-				amount: 15
+				amount: 10
 				id: "55C0F642F236AA68"
 				type: "currency"
 			}]
@@ -459,7 +459,7 @@
 			id: "7C72E7E48CCA7BB1"
 			optional: true
 			rewards: [{
-				amount: 10
+				amount: 15
 				id: "612B954971D0ADF6"
 				type: "currency"
 			}]
@@ -715,17 +715,17 @@
 			id: "165A1B6F56051FA6"
 			rewards: [
 				{
+					amount: 5
+					id: "6359E5396793D1C7"
+					type: "currency"
+				}
+				{
 					id: "7459FD34B6687F30"
 					item: {
 						count: 1
 						id: "tempad:knowledge_projector"
 					}
 					type: "item"
-				}
-				{
-					amount: 5
-					id: "6359E5396793D1C7"
-					type: "currency"
 				}
 			]
 			shape: "square"
@@ -753,7 +753,7 @@
 		{
 			id: "1E061D2E5C560867"
 			rewards: [{
-				amount: 5
+				amount: 10
 				id: "1DAAF59316E3469B"
 				type: "currency"
 			}]
@@ -796,6 +796,11 @@
 		}
 		{
 			id: "7B772A85691C60F5"
+			rewards: [{
+				amount: 5
+				id: "4F2274D6D6885522"
+				type: "currency"
+			}]
 			shape: "square"
 			size: 1.0d
 			tasks: [{
@@ -814,6 +819,7 @@
 				id: "minecraft:stone"
 			}
 			id: "3CFDFD0BA7D30118"
+			min_width: 300
 			rewards: [{
 				amount: 1
 				id: "0045DC9E98ECA5F8"
@@ -831,7 +837,7 @@
 		{
 			id: "2E53319ED51DC7C8"
 			rewards: [{
-				amount: 5
+				amount: 10
 				id: "1CB88AA1A546197E"
 				type: "currency"
 			}]
@@ -869,7 +875,7 @@
 		{
 			id: "4A2EB77748103124"
 			rewards: [{
-				amount: 3
+				amount: 5
 				id: "37F097AEE1034C59"
 				type: "currency"
 			}]
@@ -888,7 +894,7 @@
 		{
 			id: "466E449BFD87E62F"
 			rewards: [{
-				amount: 5
+				amount: 10
 				id: "5244903D0E580816"
 				type: "currency"
 			}]
@@ -928,6 +934,11 @@
 		}
 		{
 			id: "6910347C765AE7C6"
+			rewards: [{
+				amount: 10
+				id: "21A6A1AABB350DA8"
+				type: "currency"
+			}]
 			shape: "square"
 			tasks: [{
 				icon: {

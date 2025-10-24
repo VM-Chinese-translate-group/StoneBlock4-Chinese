@@ -2,6 +2,7 @@
 	always_invisible: true
 	autofocus_id: "4A1DBDE0963407E7"
 	default_hide_dependency_lines: false
+	default_min_width: 250
 	default_quest_shape: ""
 	filename: "draconic_evolution"
 	group: "1B747BDF0A1FE37A"
@@ -261,6 +262,96 @@
 			}]
 			x: -2.0d
 			y: 0.0d
+		}
+		{
+			dependencies: ["7AA56C74F18FC345"]
+			id: "358B91BB3DBCD800"
+			tasks: [{
+				id: "2FFFB2A29A4E3BCB"
+				item: { count: 1, id: "draconicevolution:flux_gate" }
+				type: "item"
+			}]
+			x: 12.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7AA56C74F18FC345"]
+			id: "4E474C940C683371"
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "7DF638393F15BE42"
+				item: { count: 1, id: "draconicevolution:reactor_core" }
+				type: "item"
+			}]
+			x: 11.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7AA56C74F18FC345"]
+			id: "52B3DD6783B9CB41"
+			tasks: [{
+				id: "2BF431245C264EA0"
+				item: { count: 1, id: "draconicevolution:reactor_injector" }
+				type: "item"
+			}]
+			x: 13.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7AA56C74F18FC345"]
+			id: "0B8B788FF7110BFC"
+			tasks: [{
+				id: "4596FB5E3848DED3"
+				item: { count: 1, id: "draconicevolution:reactor_stabilizer" }
+				type: "item"
+			}]
+			x: 12.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7AA56C74F18FC345"]
+			id: "65C0B7ED4EFC9949"
+			tasks: [{
+				id: "0CEF7884596948E7"
+				item: { count: 1, id: "draconicevolution:fluid_gate" }
+				type: "item"
+			}]
+			x: 13.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7279FFED00B223D7"]
+			id: "66B6E08271B1EF27"
+			tasks: [{
+				id: "0A0AA6C6AC988479"
+				item: { count: 1, id: "draconicevolution:energy_pylon" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7279FFED00B223D7"]
+			id: "2898AB7104469C39"
+			tasks: [{
+				id: "113347325B9F6CCD"
+				item: { count: 1, id: "draconicevolution:energy_core_stabilizer" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["53060D307C063C25"]
+			id: "1E6E38DC6183463A"
+			tasks: [{
+				id: "0F9D1B914F0933F6"
+				item: { count: 1, id: "draconicevolution:energy_core" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.5d
 		}
 	]
 }

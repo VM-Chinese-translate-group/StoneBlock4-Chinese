@@ -9,14 +9,92 @@
 		id: "gag:time_sand_pouch"
 	}
 	id: "3B99F85218D37371"
-	images: [{
-		height: 2.0d
-		image: "ftb:textures/quests/other_titles_and_logos/useful_items_title.png"
-		rotation: 0.0d
-		width: 14.2d
-		x: -1.5d
-		y: -3.5d
-	}]
+	images: [
+		{
+			height: 2.0d
+			image: "ftb:textures/quests/other_titles_and_logos/useful_items_title.png"
+			rotation: 0.0d
+			width: 14.2d
+			x: -1.5d
+			y: -3.5d
+		}
+		{
+			height: 6.0d
+			image: "tooltipoverhaul:textures/overlay/emerald_frame.png"
+			rotation: 0.0d
+			width: 6.0d
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			alpha: 55
+			color: 0
+			height: 4.0d
+			image: "ftbquests:textures/shapes/square/shape.png"
+			order: -1
+			rotation: 0.0d
+			width: 4.0d
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			height: 6.0d
+			image: "tooltipoverhaul:textures/overlay/amber_frame.png"
+			rotation: 0.0d
+			width: 4.5d
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			alpha: 55
+			color: 0
+			height: 4.0d
+			image: "ftbquests:textures/shapes/square/shape.png"
+			order: -1
+			rotation: 0.0d
+			width: 3.0d
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			alpha: 55
+			color: 0
+			height: 4.0d
+			image: "ftbquests:textures/shapes/square/shape.png"
+			order: -1
+			rotation: 0.0d
+			width: 3.0d
+			x: -5.5d
+			y: 0.0d
+		}
+		{
+			alpha: 55
+			color: 0
+			height: 3.0d
+			image: "ftbquests:textures/shapes/square/shape.png"
+			order: -1
+			rotation: 0.0d
+			width: 4.0d
+			x: -1.5d
+			y: 3.5d
+		}
+		{
+			height: 4.5d
+			image: "tooltipoverhaul:textures/overlay/silver_frame.png"
+			rotation: 0.0d
+			width: 6.0d
+			x: -1.5d
+			y: 3.5d
+		}
+		{
+			height: 6.0d
+			image: "tooltipoverhaul:textures/overlay/amber_frame.png"
+			rotation: 0.0d
+			width: 4.5d
+			x: -5.5d
+			y: 0.0d
+		}
+	]
 	order_index: 8
 	quest_links: [ ]
 	quests: [
@@ -36,8 +114,8 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item(buildinggadgets2:gadget_building)item(buildinggadgets2:gadget_exchanging)item(buildinggadgets2:gadget_copy_paste)item(buildinggadgets2:gadget_cut_paste)item(buildinggadgets2:gadget_destruction))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 4.5d
-			y: -0.5d
+			x: 2.0d
+			y: 1.0d
 		}
 		{
 			icon: {
@@ -55,8 +133,8 @@
 				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(elevatorid:elevators)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 2.5d
-			y: 0.5d
+			x: 2.0d
+			y: 0.0d
 		}
 		{
 			id: "215E7EB95A7C64A3"
@@ -71,8 +149,8 @@
 				item: { count: 1, id: "gag:time_sand_pouch" }
 				type: "item"
 			}]
-			x: -1.0d
-			y: 3.5d
+			x: -1.5d
+			y: 3.0d
 		}
 		{
 			icon: {
@@ -105,8 +183,8 @@
 					type: "item"
 				}
 			]
-			x: 3.5d
-			y: 0.5d
+			x: 3.0d
+			y: 0.0d
 		}
 		{
 			icon: {
@@ -213,8 +291,8 @@
 				item: { components: { "ftbfiltersystem:filter": "or(mod(constructionstick))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 2.5d
-			y: -0.5d
+			x: 2.0d
+			y: -1.0d
 		}
 		{
 			icon: {
@@ -253,8 +331,8 @@
 					type: "item"
 				}
 			]
-			x: -2.0d
-			y: 3.5d
+			x: -2.5d
+			y: 3.0d
 		}
 		{
 			icon: {
@@ -306,8 +384,8 @@
 					type: "item"
 				}
 			]
-			x: -6.5d
-			y: -0.5d
+			x: -6.0d
+			y: -1.0d
 		}
 		{
 			icon: {
@@ -331,8 +409,8 @@
 					type: "item"
 				}
 			]
-			x: -5.5d
-			y: 0.5d
+			x: -5.0d
+			y: 0.0d
 		}
 		{
 			icon: {
@@ -359,8 +437,8 @@
 					type: "item"
 				}
 			]
-			x: -7.5d
-			y: -0.5d
+			x: -6.0d
+			y: 1.0d
 		}
 		{
 			id: "6323068C93CF7DCE"
@@ -377,8 +455,8 @@
 				item: { count: 1, id: "create:wand_of_symmetry" }
 				type: "item"
 			}]
-			x: 3.5d
-			y: -0.5d
+			x: 3.0d
+			y: -1.0d
 		}
 		{
 			icon: {
@@ -414,8 +492,8 @@
 					type: "item"
 				}
 			]
-			x: -5.5d
-			y: -0.5d
+			x: -5.0d
+			y: -1.0d
 		}
 		{
 			icon: {
@@ -436,7 +514,7 @@
 				type: "item"
 			}]
 			x: -2.0d
-			y: 4.5d
+			y: 4.0d
 		}
 		{
 			id: "5BBA51F8FE4D6C3B"
@@ -453,8 +531,8 @@
 				item: { count: 1, id: "justdynathings:phase_box" }
 				type: "item"
 			}]
-			x: 4.5d
-			y: 0.5d
+			x: 3.0d
+			y: 1.0d
 		}
 		{
 			hide_dependency_lines: true
@@ -476,11 +554,10 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item(justdirethings:experienceholder)item(cognition:experience_obelisk))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: -6.5d
-			y: 0.5d
+			x: -6.0d
+			y: 0.0d
 		}
 		{
-			dependencies: ["33A9FF901E2D7725"]
 			hide_dependency_lines: true
 			id: "4126A470077923D2"
 			min_width: 250
@@ -557,8 +634,8 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item(compactmachines:new_machine)item(compactmachines:new_machine)item(compactmachines:new_machine))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: -7.5d
-			y: 0.5d
+			x: -5.0d
+			y: 1.0d
 		}
 		{
 			icon: {
@@ -577,7 +654,7 @@
 				type: "item"
 			}]
 			x: -1.0d
-			y: 4.5d
+			y: 4.0d
 		}
 		{
 			hide_dependency_lines: true
@@ -595,8 +672,8 @@
 				item: { count: 1, id: "actuallyadditions:coffee_machine" }
 				type: "item"
 			}]
-			x: -1.5d
-			y: 5.5d
+			x: -0.5d
+			y: 3.0d
 		}
 	]
 }

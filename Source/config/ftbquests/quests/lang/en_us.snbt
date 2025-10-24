@@ -5,9 +5,7 @@
 	chapter.1769B71219D1B9F7.title: "Tier 1: Foundation"
 	chapter.1C63D973F178FD60.title: "Welcome!"
 	chapter.1FD2F304ADC237D0.title: "Oritech"
-	chapter.204C619900A6B15B.title: "structure teleports"
 	chapter.2523CB3E44086BA3.title: "Tier 5: Hyperion"
-	chapter.2666349F311E9064.title: "Tier 0: Notes"
 	chapter.2EF5133328945047.title: "Gearing Up"
 	chapter.2FFD2690C1D8029D.title: "Tier 2: Horizon"
 	chapter.33808F1AE9F1266A.title: "Backstage"
@@ -31,8 +29,6 @@
 		"The &eAncient Remnant&r can be found within an &dOtherworld Dungeon&r."
 		""
 		"These are found scattered throughout the &dVoid Chasm&r ring."
-		""
-		"&7&oThis bounty has 24-hour cooldown."
 	]
 	quest.0065DA4214B7B303.title: "Kill The &6Ancient Remnant&r"
 	quest.0071ADE2804C1B24.title: "Light Bender Check 2"
@@ -55,7 +51,8 @@
 		"When powered by &3Fortron&r and with a &aBiometric Identifier&r on its frequency, it can use installed &amodules&r to perform various key functions, such as: killing hostile mobs, denying block interaction without use of chunk claims or among team members, and warning the general public that they're getting too close to that nuclear mishap &l(not your fault)&r"
 	]
 	quest.0089BFB911BD5E5B.title: "&eInterdiction Matrix"
-	quest.009EE2933A83120B.title: "&fTracing &6Chaos"
+	quest.009EE2933A83120B.quest_desc: ["&6W.E.R.K&r has encountered a system error, perhaps &dThe Wyrmwright&r will be able to find traces of her brother &k&6Chaos&r."]
+	quest.009EE2933A83120B.title: "&fTracing &6&kChaos"
 	quest.009FE1E1B3017486.quest_desc: ["The &cMob Slaughter Factory&r does more than just kill passive mobs for meat—it reduces them to &dPink Slime&r, a liquid that is crucial for progression in &eI.F&r."]
 	quest.009FE1E1B3017486.title: "&cMob Slaughter Factory"
 	quest.00A7C1FE54F86429.quest_desc: [
@@ -107,6 +104,7 @@
 	quest.012AEBFDB1F1512E.quest_desc: ["&eJust Dire Things&r armor can be tiered up via &aSmithing Templates&r and accept more &2Upgrades&r as they rank up to armor better than netherite."]
 	quest.012AEBFDB1F1512E.title: "&fJust Dire's Armor"
 	quest.012DF07A81C69AAA.quest_subtitle: "Major World Engine Upgrade"
+	quest.012DF07A81C69AAA.title: "&dResonant Void&r"
 	quest.0138DA9E72BF9CE0.quest_desc: ["This compass will lead you to the nearest &aHealing Spring&r."]
 	quest.0138DA9E72BF9CE0.title: "&fLocating the &aHealing Spring"
 	quest.0171649B0F984DBB.quest_desc: ["This quest will set up a waypoint to the &dWyrmwright's &6Archive&r."]
@@ -129,6 +127,7 @@
 		"- 3rd Slot: Framed Drawer"
 		"- 4th Slot: Divider Texture"
 	]
+	quest.01C338263242935F.title: "TF East"
 	quest.01D2CEAF59872C33.quest_desc: [
 		"The &aGem Cutting Table&r is used to upgrade &bGems&r."
 		""
@@ -229,10 +228,13 @@
 		"The &dEnder Guardian&r is found within the &eRuined Citadel&r structure."
 		""
 		"You can find this structure in the &eEnd&r ring. "
-		""
-		"&7&oThis bounty has 24-hour cooldown."
 	]
 	quest.040795388568AB69.title: "Kill The &dEnder Guardian&r"
+	quest.0415C8A3274EF9D1.quest_desc: [
+		"You find yourself at the event horizon of a gigantic black hole. Explore the area and find &6Chaos&r."
+		""
+		"Work with him to learn about the draconic species' most prized creation and acquire the &3Awakede Core Upgrade&r for your &6World Engine&r."
+	]
 	quest.0415C8A3274EF9D1.title: "&fMeet &6Chaos"
 	quest.0448DC5884C8ED55.quest_desc: [
 		"With more &6Archives&r unlocked, it is time to explore the lobby and find the &dEcho of The Quartermaster&r."
@@ -242,6 +244,11 @@
 		"&7&oYou may teleport directly to this Echo from anywhere in the lobby after meeting them using &e/echo quartermaster&7."
 	]
 	quest.0448DC5884C8ED55.title: "&fMeet &dThe Quartermaster"
+	quest.046FCE929A728A34.quest_desc: [
+		"The wonders of &zInfinity&r, compressed into the form of a block."
+		""
+		"Head back to &zInfinity&r &6Echoborne&r."
+	]
 	quest.0484D6030DF690BD.quest_desc: [
 		"With more &6Archives&r unlocked, it is time to explore the lobby to find the &dEcho of The Machinist&r."
 		""
@@ -253,6 +260,7 @@
 	]
 	quest.0484D6030DF690BD.title: "&fMeet &dThe Machinist"
 	quest.0484DE13B27E77D0.title: "Explain Task Screen"
+	quest.04886BA191FF452F.title: "Ocean West"
 	quest.049DE43A1B31C38F.quest_desc: ["This chapter covers most of the basic ways to store your items!"]
 	quest.049DE43A1B31C38F.title: "&aGeneral Storage Options"
 	quest.04ABB8DD43099429.quest_desc: [
@@ -263,6 +271,8 @@
 	quest.04BF47162CC46237.quest_subtitle: "Unearther, Archaeologist"
 	quest.04E68DA90DC83B45.quest_desc: [
 		"Submitting the blocks required for the &3Upgrade&f and claiming its rewards will automatically assemble your team's &6World Engine&r."
+		""
+		"You will still need to set up and connect a rotational power source close to the &6World Engine&r."
 		""
 		"&eNote&f: Any blocks placed where an upgrade should go will be voided."
 	]
@@ -370,7 +380,7 @@
 		"The &aReconstructor&r requires a special material to be crafted. The &2Geologist&r will know exactly where to find the crystal it needs."
 	]
 	quest.066342488E03F3B5.title: "&fReconstructing Minerals"
-	quest.066B47D2AB72355C.quest_desc: ["This dungeon spawns at exactly x:512, z:512."]
+	quest.066B47D2AB72355C.quest_desc: ["This dungeon spawns at around x:512, z:512."]
 	quest.068C117DD3DD10C2.title: "Guidance Check 3"
 	quest.06A86C3EC5CBF204.quest_subtitle: "Unearther, Archaeologist"
 	quest.06C9E9DBE25887D9.quest_desc: ["The &aLava Generator&r from &6Oritech&r generates RF by consuming lava. RF generation can be increased with &bAddons&r."]
@@ -435,7 +445,6 @@
 	]
 	quest.087D1FBAE8A425C0.quest_subtitle: "With Subtitles"
 	quest.087D1FBAE8A425C0.title: "&fMaking &dPortals&f!"
-	quest.08E45BF0BBC892E7.title: "AE2 + Advanced WE Craft Unlocks"
 	quest.091B8E814908DEDF.quest_desc: [
 		"The &dAtomic Forge&r is a powerful machine capable of creating advanced computer chips, reinforcing deepslate, and even duplicating ores!"
 		""
@@ -445,7 +454,7 @@
 	]
 	quest.091F82E2770F3011.title: "Ancient Check 1"
 	quest.094A534C72917405.quest_desc: ["This dungeon spawns in the lower parts of the &bOcean&r ring."]
-	quest.099481C1F0718B67.quest_desc: ["&7&oThis bounty has 24-hour cooldown."]
+	quest.099481C1F0718B67.quest_desc: ["The &#FCD205Priest&r can be found in the &dTale of a Priest who knew too much!&r Gateway."]
 	quest.099594F0A383C280.quest_desc: [
 		"The &cAdvanced Machine Frame&r is the next tier upgrade for our machine frames."
 		""
@@ -533,6 +542,7 @@
 	quest.0AD2F3DB33241628.title: "&eArs &fTools"
 	quest.0ADBBF7BA99D2811.quest_desc: ["&eActually Additions' &aAll-In-One-Tools&r are handy additions to save you hotbar space, as they act as every tool at once!"]
 	quest.0ADBBF7BA99D2811.title: "&fAll In One Tools"
+	quest.0AFA74FA77E9056B.title: "Ocean South"
 	quest.0AFF8E28FC51B123.quest_desc: [
 		"Need to swap two simple blocks with as little hassle as possible? Try the &cSwapper Wand&r!"
 		""
@@ -564,6 +574,7 @@
 		"&bThis mode&r ignores &2Scale Modules&r, and defaults its origin to the center of the selected area. A &dCamouflage Module&r will copy the selected blocks instead of its normal behavior."
 	]
 	quest.0B1E459D12D11A0D.title: "&fDefine the &bField"
+	quest.0B25350118D515DF.quest_desc: ["The final upgrade for the &6World Engine&r requires the power of &zInfinity&r in block form."]
 	quest.0B25350118D515DF.quest_subtitle: "Major World Engine Upgrade"
 	quest.0B295CE75D367D59.quest_desc: [
 		"Wood is important, especially in a world made of Stone. You need to make use of everything you can get!"
@@ -743,18 +754,19 @@
 		"&eNote&r: Fortune does not work on these ores. You will typically get between 3 or 4 raw ores."
 	]
 	quest.0E107AC18FCFDB57.title: "&aGoo Transmutations&r"
-	quest.0E536FB39F0E079E.title: "&fItems Unlocked via World Craft"
 	quest.0E610A03BB4007B6.quest_desc: ["Generates power by consuming some Mob Drops."]
 	quest.0E7AD6BCF9F8605F.quest_desc: [
-		"Now that the &bWorld Engine&r can handle some &dEnder&r crafts, you will need to get your hands on a &dDragon Egg&r without going to the &eEnd&r."
+		"Now that the &6World Engine&r can handle some &dEnder&r crafts, you will need to get your hands on a &dDragon Egg&r without going to the &eEnd&r."
 		""
 		"Within the &eEnd&r ring, you'll be able to find a very special &3Vault&r with a dangerous fight inside. And maybe a Dragon Egg."
 		""
-		"Once you have your hands on one, the &bWorld Engine&r should be able to extract its essence into block form."
+		"You will need to craft the &dMighty Ender Chicken Egg&r and use it in the center of the ring to summon the boss."
+		"{@pagebreak}"
+		"Once you have your hands on one, the &6World Engine&r should be able to extract its essence into block form."
 		""
 		"Return to the &dEcho of The Catalyst&r once again to find out how to upgrade your &6World Engine&r."
 		""
-		"&eNote&r: It's worth setting up an &aExtractor&r to get more &dDragon Eggs&r, or you can redo the fight over and over."
+		"[\"\", {\"text\": \"Note\", \"color\": \"yellow\"}, \": It's worth setting up an \", {\"text\": \"Extractor\", \"color\": \"green\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0EBA58B7FD2AF36D\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Go to Extractor Quest\"} }, \" to get more \", {\"text\": \"Dragon Eggs\", \"color\": \"light_purple\"}, \", or you can redo the fight over and over.\" ]"
 	]
 	quest.0E7AD6BCF9F8605F.quest_subtitle: "Minor World Engine Upgrade"
 	quest.0E7AD6BCF9F8605F.title: "&fLike Taking Candy From A Baby"
@@ -803,7 +815,7 @@
 	quest.0F1B7185D8F4CDE6.title: "&7Dark Matter &fTools"
 	quest.0F3EDB9AE592016B.quest_subtitle: "Improves energy capacity and energy transfer rate"
 	quest.0F3EDB9AE592016B.title: "&fMachine Capacitor Addon"
-	quest.0F48353EDD296510.quest_desc: ["Speak to &dThe Wyrmwright&r once you have returned from the &3Vault&r."]
+	quest.0F48353EDD296510.quest_desc: ["Speak to &dThe Wyrmwright&r once you have crafted the &dResonant Void&r and they will show you how install this &3World Engine Upgrade&r."]
 	quest.0FD446B7912E00CB.quest_desc: ["It's time to combine each of the pieces together to create the &cAdvanced Machine Blocks&r."]
 	quest.0FD446B7912E00CB.quest_subtitle: "Major World Engine Upgrade"
 	quest.0FD446B7912E00CB.title: "&fThe Advanced Machinery Upgrade"
@@ -832,6 +844,14 @@
 		"&bMithril&r is a legendary metal not obtainable through usual methods in the void, or at least what passes for usual. Perhaps some magical source could provide it, some sort of gate..."
 	]
 	quest.107C26E8BF309BC1.title: "&fArcane Discoveries"
+	quest.1111B3ACEDDF5633.quest_desc: [
+		"If you let &cRed Matter&r collide into &zAntimatter&r, you might destroy your world."
+		""
+		"Or a little totally harmless item version of the &zBlack Hole&r will plop down for you to pick up."
+		""
+		"Let's play a guessing game!"
+	]
+	quest.1111B3ACEDDF5633.title: "&zBlack Holes&r"
 	quest.11A35E8F97ACA240.quest_desc: [
 		"[\"\", {\"text\": \"Draconic\", \"color\": \"gold\"}, \" tools are upgraded versions of \", {\"text\": \"Wyvern\", \"color\": \"light_purple\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"056990503617C147\" }, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Go to Wyvern Tools Quest\"}}, \" tools, with room for more \", {\"text\": \"Upgrade Modules\", \"color\": \"green\"}, \" and better customizability.\"]"
 		""
@@ -845,7 +865,7 @@
 	quest.11BB3C62703E0B3E.quest_desc: [
 		"Encasing spirits directly into a block is probably not the most ethical thing to do, but the &6World Engine&r can harness that power for more advanced crafts."
 		""
-		"Bring this back to &dThe Infernal&r to learn how to install the &bSpirit Block&r upgrade."
+		"Bring this back to &dThe Infernal&r to learn how to install the &3Spirit Block Upgrade&r."
 	]
 	quest.11C58E38DE9488BE.quest_desc: [
 		"The &aMob Masher&r from &bMob Grinding Utils&r can automate the killing process in mob farms when given a redstone signal."
@@ -857,7 +877,7 @@
 	quest.11C58E38DE9488BE.quest_subtitle: "Mob Grinding Utils"
 	quest.11C58E38DE9488BE.title: "&fMob Mashing"
 	quest.11CC48D772573E73.quest_desc: [
-		"&zInfinity Weapons&r deal an infinity amount of damage."
+		"&zInfinity Weapons&r deal an infinite amount of damage."
 		""
 		"&7&oLiterally performs the '/kill' command on mobs."
 	]
@@ -869,14 +889,15 @@
 		"{@pagebreak}"
 		"Once you've crafted the &cEnderic Laser&r, make sure to build it near a &dBudding Amethyst Block&r that can grow crystals."
 		""
-		"By Sneak+Right-clicking with the &bTarget Designator&r on an &dAmethyst Crystal&r, you can store the location into the Designator. Once stored, Sneak+Right-click on the &cEnderic Laser&r to designate where the laser should shoot."
+		"By Sneak + Right-clicking with the &bTarget Designator&r on an &dAmethyst Crystal&r, you can store the location into the Designator. Once stored, Sneak + Right-click on the &cEnderic Laser&r to designate where the laser should shoot."
 		""
 		"If done properly, the laser will fire and convert the crystal over into &dFluxite&r."
 		""
 		"Use this to craft the &dFlux Gate&r."
 	]
 	quest.11F69E1E4FE4D5CD.title: "&fThe Power of Flux"
-	quest.1237537100194BED.quest_desc: ["&7&oThis bounty has 24-hour cooldown."]
+	quest.1237537100194BED.quest_desc: [""]
+	quest.1237537100194BED.title: "&eKill&f: &7Wither"
 	quest.1278BB2F13A74537.quest_subtitle: "Unearther, Geologist"
 	quest.12CB62610FEAADA0.quest_desc: ["Generates power by consuming Dragon's Breath."]
 	quest.131199313AE3F5E9.quest_desc: ["The &aEnergized Smelter&r is essentially a powered furnace that can be upgraded!"]
@@ -1023,9 +1044,15 @@
 	quest.159DE084D82C6A1C.title: "Garden Cloches"
 	quest.15B551FCA8790707.quest_desc: ["Claiming this quest reward will set a waypoint at the &dEcho's &6Archive&r entrance."]
 	quest.15B551FCA8790707.title: "&fLocating &dThe Magician"
-	quest.15DE76B303680F79.quest_desc: ["Return to the &dEcho of The Wyrmwright&r to find out how to install this &3Upgrade&r."]
+	quest.15DE76B303680F79.quest_desc: [
+		"The &dWyrmwright&r knows a lot about dragons. At this point, you should have some &dDraconic Dust&r."
+		""
+		"That's dragon dust right?"
+		""
+		"Return to the &dEcho of The Wyrmwright&r once you've made a few draconic items to find out how to install this &3Upgrade&r."
+	]
 	quest.15DE76B303680F79.quest_subtitle: "Major World Engine Upgrade"
-	quest.15DE76B303680F79.title: "&fDraconic Energy Core"
+	quest.15DE76B303680F79.title: "&dDraconic Core&r"
 	quest.160C4C63A3CEACE1.title: "Fortron World Engine Upgrade"
 	quest.1617D99EA1AE47E4.quest_desc: [
 		"&bCheck&f: &lSubmitting&r Chronon Generator"
@@ -1033,7 +1060,6 @@
 		"&bUnlocks&f:"
 	]
 	quest.1617D99EA1AE47E4.title: "Guidance 1.2 check"
-	quest.161E5C5904FCEDAB.title: "Fortron WE Crafts"
 	quest.1628081CB8A2E5CA.quest_subtitle: "Unearther, Geologist"
 	quest.165A1B6F56051FA6.quest_desc: [
 		"&eTempad&r is a teleportation mod that uses special temporary portals called timedoors to travel between locations."
@@ -1094,7 +1120,11 @@
 		"The &dEcho of Guidance&r should now guide your next steps."
 	]
 	quest.17AC5EBEBDC124E9.title: "&fA Token of the Mindless"
-	quest.17C23A586C708425.quest_desc: ["Needs Particle Accelerator to craft the plutonium dust"]
+	quest.17C23A586C708425.quest_desc: [
+		"Once you have the &dPlutonium Pellets&r, you can craft the &6Neutron Collector&r."
+		""
+		"This machine will generate a &zNeutron Pile&r about every 6 minutes. It's worth making a few of these unless you want to wait a while."
+	]
 	quest.17C23A586C708425.title: "&zNeutronium"
 	quest.17D5EB0E89BC10D7.quest_desc: [
 		"The &aEndergenic&r generator setup is one of the most complicated energy generators that doesn't require a degree in nuclear physics."
@@ -1148,6 +1178,8 @@
 		"While only considered a tier 1 chicken, these chickens are required for breeding for the higher tier chickens!"
 	]
 	quest.19C7CC772EC56E7B.title: "Basic Dye Chickens"
+	quest.19C9BB7952E89BA7.quest_desc: ["Now that you've shoved a &zBlack Hole&r into a container, head back to &6Radiance&r and learn how to set up the upgrade."]
+	quest.19C9BB7952E89BA7.title: "&fSpeak With &6Radiance"
 	quest.1A2D8034C07D988B.quest_desc: [
 		"&6Psi&f is a Mod that brings an interesting concept to &2Minecraft&r, What if it was possible to &dProgram Magical Spells&r and imbue them into &cBullets&r?"
 		""
@@ -1158,7 +1190,6 @@
 	]
 	quest.1A2D8034C07D988B.quest_subtitle: "A Technomagic Anime Inspired Mod!"
 	quest.1A2D8034C07D988B.title: "Psi"
-	quest.1A7FB1EAFAD3B063.title: "Dark Void Craft Unlocks"
 	quest.1A84E167BFF8C2E4.quest_desc: [
 		"No dirt... no trees... no tools... But you've still got your fists."
 		""
@@ -1210,7 +1241,7 @@
 	]
 	quest.1B3B2B9697D7AEA6.title: "&dEclipse Alloy &fTools"
 	quest.1B8BB733ADF897FE.quest_desc: [
-		"&eProductive Metalworks&r is used to smelt and forge alloys into various different parts, which can be used to make tools, armor, and more."
+		"&eProductive Metalworks&r is used to smelt and forge alloys, and cast them into various different parts."
 		""
 		"Start by crafting some &cFire Clay&r and then smelting that into &4Fire Bricks&r. These will be used to build the structure of our &6Foundry&r."
 		""
@@ -1254,7 +1285,6 @@
 		"This is a decent machine in the early game, but can be upgraded to be much faster using &bAddons&r."
 	]
 	quest.1CA7E96F42B75C2F.title: "&fThe &aPowered Furnace"
-	quest.1CA8D89EE7C50CFD.quest_desc: ["&7&oThis bounty has 24-hour cooldown."]
 	quest.1CC15C703CEC4190.quest_desc: [
 		"&eImmersive Engineering&r (&eI.E&r) is a realism-inspired tech-mod with many fun and useful multiblocks."
 		""
@@ -1263,6 +1293,12 @@
 		"The &aEngineer's Manual&r will be your best friend when showing you how to set up these multiblock machines."
 	]
 	quest.1CC15C703CEC4190.title: "&eImmersive Engineering"
+	quest.1CCD08A54B3F94C4.quest_desc: [
+		"Most items in the pack won't have EMC values, but &dDark Matter&r and &cRed Matter&r can be used for more than EMC."
+		""
+		"Either of these can be converted into a TON of &bMatter&r using the &aDisintegrator&r."
+	]
+	quest.1CCD08A54B3F94C4.title: "Matter Overload"
 	quest.1CFBFD1CE648772F.quest_desc: [
 		"If you want to tap into your power storage wirelessly, you should pump your power into an &dEnder Cell&r."
 		""
@@ -1279,7 +1315,7 @@
 	]
 	quest.1CFD4CE2704F2ADE.title: "&aCrafting &dSpells"
 	quest.1D52FC5D0EAD911B.title: "Guidance Check 2"
-	quest.1D8B2D2B03DF3256.quest_desc: ["The &dWyrmwright&r was able to trace his twin: &6Chaos&f to the remnants of a lost realm."]
+	quest.1D8B2D2B03DF3256.quest_desc: ["&dThe Wyrmwright&r says crafting this item will allow her to infuse her draconic essence into a &aChronon Battery&r, allowing it to teleport you to her brother's last known location, wherever that may be."]
 	quest.1D8B2D2B03DF3256.title: "&fFinding the &6Ascended Echos"
 	quest.1DA11C69EFDA19EC.quest_subtitle: "Unearther, Geologist"
 	quest.1DA78BAB2A6E2C82.quest_desc: [
@@ -1307,7 +1343,7 @@
 		"This arena comes with its own boss fight!"
 	]
 	quest.1E061D2E5C560867.title: "Find the &cChesed Arena&r"
-	quest.1E077BC4B8832C98.quest_desc: ["Found within the upper levels of the &bTwilight Forest&r ring, the vault of the &bYeti&r is the second Twilight boss to fight."]
+	quest.1E077BC4B8832C98.quest_desc: ["Found within the upper levels of the &bTwilight Forest&r ring, the vault of the &aYeti&r is the second Twilight boss to fight."]
 	quest.1E077BC4B8832C98.title: "&fThe Yeti's Cave"
 	quest.1E2A91B73A752B3B.quest_desc: [
 		"The &aBiometric Identifier&r is a requirement for making the &dForcefield&r and the &eInterdiction Matrix&r function on an individual level, such as being able to sneak to walk through field blocks."
@@ -1350,7 +1386,7 @@
 	quest.1F0F37429F1177DF.quest_desc: [
 		"With more &6Archives&r unlocked, it is time to explore the lobby and find the &dEcho of Twilight&r."
 		""
-		"Work with them to unlock the &dTwilight Trophy&r upgrade for your &6World Engine&r."
+		"Work with them to unlock the &3Twilight Upgrade&r for your &6World Engine&r."
 		""
 		"&7&oYou may teleport directly to this Echo from anywhere in the lobby after meeting them using &e/echo twilight&7."
 	]
@@ -1362,7 +1398,7 @@
 		""
 		"&eNote&r: To assemble this machine, you'll need 3 &aMachine Cores&r of any tier."
 		""
-		"[{\"text\": \"\", \"color\": \"gray\", \"italic\": true}, \"If you wish to learn more about Oritech, check out the \", { \"text\": \"Oritech Section\", \"color\": \"gray\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6EA5652195DB5FE3\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Go to Oritech Questline\"} }, \".\"]"
+		"[{\"text\": \"\", \"color\": \"gray\", \"italic\": true}, \"If you wish to learn more about Oritech, check out the \", { \"text\": \"Oritech Chapter\", \"color\": \"gray\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6EA5652195DB5FE3\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Go to Oritech Questline\"} }, \".\"]"
 	]
 	quest.1F1A15B6E079F31F.title: "&fA More Advanced Crafting Table"
 	quest.1F1C11D77667DEB4.quest_desc: [
@@ -1381,11 +1417,11 @@
 	]
 	quest.1F1C11D77667DEB4.title: "&dTier 3&f CAD Cores"
 	quest.1F66695405A4863D.quest_desc: [
-		"The &dFortron Star&r is filled with the power to alter time and space."
+		"The &dChroniton Star&r is filled with the power to alter time and space."
 		""
 		"Using the &6World Engine&r, you should be able to drain this power to upgrade the &6World Engine&r itself by infusing it's own power into &2Chroniton Glass&r."
 		""
-		"&eNote&r: The &dFortron Star&r can be restored once you've upgraded the &6World Engine&r with the glass."
+		"&eNote&r: The &dChroniton Star&r can be restored once you've upgraded the &6World Engine&r with the glass."
 	]
 	quest.1F66695405A4863D.quest_subtitle: "Minor World Engine Upgrade"
 	quest.1F66695405A4863D.title: "&fTime-Space Glass"
@@ -1397,7 +1433,7 @@
 		"&eNote&f: If you're playing with friends, complete this quest first and reach your home base &nbefore&r inviting others to your team."
 	]
 	quest.1F9D3474C8A655A9.title: "&fA Mysterious Path..."
-	quest.1FE2B36C234A35C9.quest_desc: ["&7&oThis bounty has 24-hour cooldown."]
+	quest.1FE2B36C234A35C9.quest_desc: ["The &2Apothecarist&r can be found in the &aTale of Life and Death&r Gateway."]
 	quest.1FEEBCA6D633B479.quest_desc: [
 		"&eEnder Storage&r allows for cross-dimensional storage of items and fluids."
 		""
@@ -1430,7 +1466,7 @@
 	quest.206987FC6B1524F8.title: "&aAtomic Reconstructor"
 	quest.206F8B25D5A3CB7E.title: "Catalyst Meet"
 	quest.20D7DA6055C540FA.quest_desc: [
-		"Most quests in the Bounty Board are repeatable and &arefresh daily&r!"
+		"Most quests in the Bounty Board are repeatable and &arefresh every 24 hours&r!"
 		""
 		"The clock task in each quest will show the cooldown once you've collected your rewards."
 	]
@@ -1460,6 +1496,16 @@
 		"To make the best power storage in &aMekanism&r, we'll need to convert Lithium into &6Lithium Dust&r using a &aChemical Crystallizer&r. The Crystallizer requires &dUltimate Control Circuits&r to craft!"
 	]
 	quest.212600F8D3C1E1EB.title: "&dLithium Dust"
+	quest.21322BAF061FE83F.quest_desc: [
+		"&6Neutronium&r gives you a start to work with, but now we will need to activate it. The &zNeutron Activator&r is a multiblock machine that will be used for this purpose."
+		""
+		"This machine requires heat to simulate the power of the sun that is obviously missing in this stone world."
+		"{@pagebreak}"
+		"It can convert &eNuclear Waste&r into &dPolonium&r, and &eLithium&r into &aTritium&r when powered with a single &6Neutron Pile&r."
+		""
+		"&eNote&r: A single &6Neutron Collector&r should be enough to power 2 &zNeutron Activators&r infinitely."
+	]
+	quest.21322BAF061FE83F.title: "&zNeutron Activator&r"
 	quest.213FE1D19D589513.quest_desc: [
 		"&eBaubly Heart Crystals&r allows you to increase your maximum health by up to 80 hearts (160 health points). This can be done by placing up to 20 canisters of each tier inside the &aHeart Amulet&r."
 		""
@@ -1467,9 +1513,9 @@
 		""
 		"&eYellow Hearts&r are dropped by most bosses."
 		""
-		"&aGreen Hearts&r are dropped by "
+		"&aGreen Hearts&r are dropped by the &dWarden&r and &cIgnis&r."
 		""
-		"&9Blue Hearts&r are dropped by "
+		"&9Blue Hearts&r are dropped by &zMighty Ender Chicken&r, &6Leviathan&r, &6Tyros&r, and &cMaledictus&r."
 	]
 	quest.213FE1D19D589513.title: "&6Baubly Heart Crystals"
 	quest.214D210F200CD11F.quest_desc: [
@@ -1487,7 +1533,6 @@
 		"&7&oWho says you can't buy time?"
 	]
 	quest.215E7EB95A7C64A3.title: "&zTime In A Bag"
-	quest.2181742604F02256.title: "&fItems Unlocked via World Craft"
 	quest.21A521011401074F.quest_desc: ["This dungeon spawns in the &7Deepslate&r and &cNetherrack&r rings."]
 	quest.21A521011401074F.title: "&fFind a &cNether Dungeon"
 	quest.21E1A72027DBF236.quest_desc: [
@@ -1511,7 +1556,7 @@
 		""
 		"This is a big step towards upgrading the &6World Engine&r!"
 		""
-		"Head back to the &dEcho of The Machinist&r to show them your progress."
+		"Head back to the &dMachinist&r to show them your progress."
 	]
 	quest.22B94BDDC08B3FA9.title: "&fTrain Casing"
 	quest.231726AD865A945F.quest_desc: [
@@ -1520,6 +1565,13 @@
 		"&aEnergy Cubes&r can also charge items by placing them in the right slot of the interface."
 	]
 	quest.2323A6EEDF97BE96.title: "Wayfinder Check 1"
+	quest.2341297707B00E93.quest_desc: [
+		"The rest of the generators in this chapter are considered &aEnd Game Generators&r."
+		""
+		"These generators are customizable, and can generate some of the highest amounts of power in the pack."
+		""
+		"&eNote&r: Reactors from &6Oritech&r and &6Draconic Evolution&r have been massively buffed."
+	]
 	quest.238137090A4F8FD6.title: "Minor WE Upgrade Check"
 	quest.23DC842244086CB9.title: "Wayfinder Meet"
 	quest.24401E59D87AC23A.quest_desc: [
@@ -1554,7 +1606,6 @@
 	]
 	quest.25023C87AA259688.quest_subtitle: "&oSneaky Sneaky"
 	quest.25023C87AA259688.title: "&fCardboard Armor"
-	quest.25671486C05D3BDD.title: "Enderium WE Crafts"
 	quest.2568C81FA7914FE2.quest_desc: [
 		"The &6Quantum Entangler&r will effectively multiply all &bQuantum Storage&r by 4."
 		""
@@ -1578,6 +1629,7 @@
 		"&bUnlocks&f: \"Create Vault\" Technically players can get there before"
 	]
 	quest.2646D51DBAD8AD42.title: "Machinist Check 1"
+	quest.26727A01D814C5A9.title: "Void Shards"
 	quest.2682A911828C2D88.quest_desc: [
 		"&eFramed Blocks&r allow you to create custom blocks and shapes that uses the texture of almost any other block in the pack!"
 		""
@@ -1630,7 +1682,7 @@
 	quest.26F3ECD3CC9E7CDA.quest_desc: [
 		"The &cAdvanced Machine Blocks&r are a modern wonder of technology."
 		""
-		"Bring these back to &dThe Catalyst&r, and they'll show you how to install this &bWorld Engine Upgrade&r."
+		"Bring these back to &dThe Catalyst&r, and they'll show you how to install this &3World Engine Upgrade&r."
 	]
 	quest.2722C0E2E8993658.quest_desc: [
 		"The centerpiece of a fully-completed enchanting setup. "
@@ -1657,7 +1709,6 @@
 	]
 	quest.27439A8D79B21B73.title: "&fMeet &dThe Ancient"
 	quest.275C5A38C3231690.quest_desc: ["Once you've acquired the ability to produce &dSource&r, you should return to the &dMagician&r to learn how to infuse it into the &6World Engine&r."]
-	quest.276CB9832D35011A.title: "&fItems Unlocked via World Craft"
 	quest.276D2B384F21AC10.quest_desc: ["&eJust Dire Things&r weapons can be tiered up via &aSmithing Templates&r and accept more &2Upgrades&r as they rank up to tools better than netherite."]
 	quest.276D2B384F21AC10.title: "&fJust Dire's Weaponry"
 	quest.277181E358575312.quest_desc: [
@@ -1680,6 +1731,12 @@
 		"This can be a good early source of fuel."
 	]
 	quest.28683BFE22FBCCFC.title: "&fCharcoal and You"
+	quest.28C1BB5C88F65CA0.quest_desc: [
+		"With &dWyvern&r tier injectors, you should be able to create &6Awakened Draconium&r, but you'll need a &6Dragon Heart&r. Several &6Dragon Hearts&r actually."
+		""
+		"You're going to need a ton of &6Awakened Draconium&r, so this method isn't the best way to go about making it."
+	]
+	quest.28C1BB5C88F65CA0.title: "&6Awakened Draconium"
 	quest.28DB6A7095E20B2A.title: "Reactor"
 	quest.28E63B302DFCF6D9.quest_desc: [
 		"Depending on your enchanting setup, you might need a little boost of &dArcana&r."
@@ -1699,7 +1756,7 @@
 		""
 		"[\"\", {\"text\": \"Note\", \"color\": \"yellow\"},  \": Take a look at the \", {\"text\": \"Power Generation\", \"color\": \"red\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"391B65CD04A90459\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Go to Power chapter\"}}, \" chapter if you want some more early power options.\"]"
 		""
-		"You should return to the &dEcho of The Quartermaster&r once you have completed his task."
+		"You should return to the &dQuartermaster&r once you have completed his task."
 	]
 	quest.2950D495BCF2D52D.title: "&fInfusing Metals"
 	quest.2AB07DEF9E14C784.title: "Stage 3 'or' Check"
@@ -1728,9 +1785,9 @@
 		"[\"We'd love to know so we can fix it! You can stop by to let us know on \", {\"text\": \"Discord\", \"color\": \"aqua\", \"underlined\": true, \"clickEvent\": {\"action\": \"open_url\", \"value\": \"https://discord.com/invite/X5UGvBs\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": [\"Open the Discord invite\"]} }, \" or by making a bug report on \", {\"text\": \"GitHub\", \"color\": \"light_purple\", \"underlined\": true, \"clickEvent\": {\"action\": \"open_url\", \"value\": \"https://github.com/FTBTeam/FTB-Modpack-Issues/issues\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": [\"Open the Github link\"]} }, \".\"]"
 	]
 	quest.2B02D9425E19F560.title: "&fFound A Bug?"
-	quest.2B21D8D19E0413AC.quest_desc: ["&7&oThis bounty has 24-hour cooldown."]
+	quest.2B21D8D19E0413AC.quest_desc: ["The &cDead King&r can be found in the &aCatacombs&r with the &3Stone&r and &7Deepslate&r layers."]
 	quest.2B2BB685DE246BCC.quest_desc: ["Generates power by consuming Lava (and optionally redstone)."]
-	quest.2B86CBB61E10051F.quest_desc: ["&7&oThis bounty has 24-hour cooldown."]
+	quest.2B86CBB61E10051F.quest_desc: ["The &cPyromancer&r can be found in the &cTale of Ice and Fire&r Gateway."]
 	quest.2BB6C51E445A1C95.quest_desc: [
 		"&6Entangled&r allows you to bind two blocks together, allowing you to interact with them as if they were the same block!"
 		""
@@ -1846,6 +1903,7 @@
 		"&7&oAny resemblance to Ficsit technologies current or previous is coincidental."
 	]
 	quest.2D20EDB447787183.title: "&6Create: Hypertubes"
+	quest.2D35AD2FDC93FA46.title: "TF South"
 	quest.2D99F429A18BEED1.title: "Catalyst Check 2"
 	quest.2DB9D91CFB15C210.quest_desc: ["Use the Infuser to make the circuitry needed for the &2Machine Frames&r."]
 	quest.2DB9D91CFB15C210.title: "&fBasic Circuitry"
@@ -1882,7 +1940,6 @@
 		""
 		"[\"This powerful resource is essential for crafting \", {\"text\": \"Prometheum Tools\", \"color\":\"#FCD205\"}, \" and the \", {\"text\": \"Ultimate Machine Core\", \"color\":\"#FF55FF\"}, \".\"]"
 	]
-	quest.2EE5352D8E5F715F.quest_desc: ["&7&oThis bounty has 24-hour cooldown."]
 	quest.2EEE782146096F9C.quest_desc: ["Probably one of the best mods out there for builders, the &eBuilding Gadgets&r mod adds several new gadgets that are a must have to make building better!"]
 	quest.2EEE782146096F9C.title: "&eBuilding Gadgets"
 	quest.2F15D918EF183051.quest_desc: [
@@ -1892,6 +1949,7 @@
 		""
 		"For those who want a challenge, the final challenge of the pack is completing the &dWorld Engine&r. Do you think you have what it takes?"
 	]
+	quest.2F15D918EF183051.title: "Welcome To &6Stoneblock 4&r!"
 	quest.2F2DC018DD6A2A23.quest_desc: [
 		"&aGems&r are the part of most &bJewelry&r that grants effects."
 		""
@@ -1924,6 +1982,7 @@
 		""
 		"These devices can be upgraded with &aCards&r to be redstone sensitive, accept NBT specific items or not (Fuzzy), or to increase speed and capacity with &eAcceleration&r and &eCapacity Cards&r."
 	]
+	quest.300503F48627E3DB.title: "Nether Shards"
 	quest.30453DA99EE2BCBF.title: "Wyrmwright Meet"
 	quest.304B25BADD64077D.quest_desc: [
 		"You can increase the overall storage size of a backpack by upgrading it to the next tier!"
@@ -1938,16 +1997,29 @@
 		""
 		"This table will draw in the latent magical energies of bookshelves around them. Basic bookshelves will only get you so far!"
 		""
-		"&eNote&r: You'll need either &aInfused Hellshelves&r or &aInfused Seashelves&r to reach the required &6Eterna&r levels for progression!"
+		"&eNote&r: You'll need either &aInfused Hellshelves&r or &aInfused Seashelves&r to reach the required &bEterna&r levels for progression!"
 	]
 	quest.30689B890F5E7A03.title: "&fInfusing The Magic"
-	quest.30902357747A64F1.quest_desc: [
-		"With the &bYeti&r defeated, you will have access to 2 new vaults to find."
+	quest.308D9819EA67D3F0.quest_desc: [
+		"The generators in this row are considered &aEarly Game Generators&r!"
 		""
-		"Found within the upper levels of the &bTwilight Forest&r ring, you can run into a vault of the &bSnow Queen's Castle&r."
+		"These generators are fairly easy to make and can scale well as you create your power network."
+	]
+	quest.30902357747A64F1.quest_desc: [
+		"With the &2Yeti&r defeated, you will have access to 2 new vaults to find."
+		""
+		"Found within the upper levels of the &bTwilight Forest&r ring, you can run into a vault of the &aSnow Queen's Castle&r."
 	]
 	quest.30902357747A64F1.title: "&fThe Snow Queen's Palace"
-	quest.309D995CCCDB3AEE.title: "&fSpeak to &dWyrmwright&f"
+	quest.309D995CCCDB3AEE.quest_desc: ["The &dWyrmwright&r has provided you with the &aChronon Battery&r, a tool capable of accessing &zThe Fractured Void&r."]
+	quest.309D995CCCDB3AEE.title: "&fSpeak to &dThe Wyrmwright&f"
+	quest.30DC15C5BF42A9DE.title: "Ocean East"
+	quest.30EE07811728D901.quest_desc: [
+		"The &6World Engine&r is almost to full functionality. The final step would be to create the ultimate metal."
+		""
+		"It's time to create the &zInfinity Ingot&r."
+	]
+	quest.30EE07811728D901.title: "&zInfinity Ingot&r"
 	quest.30F922372D95D407.quest_desc: [
 		"&eBonsai Pots&r make tree farming a breeze!"
 		""
@@ -1963,7 +2035,6 @@
 		"&eNote&f: &dTwilight&r and &dThe Ancient&r share the same &6Archive&r."
 	]
 	quest.310F815C02B2CAF8.title: "&fLocating &dTwilight"
-	quest.316E6B7417136ADB.title: "Advanced Block WE Craft"
 	quest.31705AD5BE50E2CB.quest_desc: [
 		"The &aPressurized Reaction Chamber&r is an advanced machine that combines 1 liquid, 1 gas, and 1 item to produce a new item, and sometimes a gas byproduct."
 		""
@@ -2023,6 +2094,14 @@
 		"There is a base cost of experience, sigils, and materials for reforges of each rarity, which can be doubled or tripled if choosing the other two options."
 	]
 	quest.3208AF90091D1B6B.title: "&aSimple Reforging Table"
+	quest.322B81D896CBDF16.quest_desc: [
+		"&dParticle Acceleration&r is a very complex subject, but it must be done."
+		""
+		"You will need to first create &ePlutonium Dust&r, and use that to create &dPlutonium Pellets&r."
+		""
+		"[\"\", {\"text\": \"Note\", \"color\": \"yellow\"},  \": Take a look at the \", {\"text\": \"Particle Accleration\", \"color\": \"light_purple\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2C0C63951FDED180\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Go to Particle Acceleration Quest\"}}, \" quest if you want to learn more.\"]"
+	]
+	quest.322B81D896CBDF16.title: "&6Particle Acceleration&r"
 	quest.323A230EB571C4CA.quest_desc: [
 		"&aReactors&r are where generating power starts to get serious!"
 		""
@@ -2049,9 +2128,9 @@
 	]
 	quest.325D35004FF683C2.title: "&fThe &6Quantum Computer &fCore"
 	quest.32653261B16850B3.quest_desc: [
-		"Once both the &bSnow Queen&r and the &bHydra&r have been defeated, there is one final vault that unlocks."
+		"Once both the &aSnow Queen&r and the &2Hydra&r have been defeated, there is one final vault that unlocks."
 		""
-		"The vault of the &bKnight Phantoms&r will be your final puzzle and fight within the &bTwilight&r ring."
+		"The vault of the &dKnight Phantoms&r will be your final puzzle and fight within the &bTwilight Forest&r ring."
 	]
 	quest.32653261B16850B3.title: "&fThe Final Twilight Vault"
 	quest.32A6859ECF7E775F.title: "Enchanter Check 1"
@@ -2149,8 +2228,8 @@
 	]
 	quest.3435641A78B90D97.title: "&fAffecting the Area"
 	quest.34B2900863004CC2.title: "Pre-Knight compass give"
-	quest.34C8824842867F5D.quest_desc: ["&7&oThis bounty has 24-hour cooldown."]
-	quest.34C8824842867F5D.title: "&eKill&f: &dChicken Jockey"
+	quest.34C8824842867F5D.quest_desc: ["The &zMighty Ender Chicken&r has a home on both the North and South parts of the map, specifically in &eEnd&r ring."]
+	quest.34C8824842867F5D.title: "&eKill&f: &zMighty Ender Chicken"
 	quest.34D191F76AA69707.quest_desc: [
 		"&eFlux Networks&r is the ultimate wireless power solution!"
 		""
@@ -2158,6 +2237,7 @@
 		""
 		"&eNote&r: &eFlux Dust&r requires the &aMachine Block&r and &cEnder Cell&r &6World Engine Upgrades&r to craft."
 	]
+	quest.34D191F76AA69707.title: "Flux Networks"
 	quest.34EC72BBCD9F197F.quest_desc: [
 		"This &aNovice Spellbook&r allows you to cast &aTier 1 Spells&r! It also comes with some basic spell knowledge (called &bGlyphs&r) already learned to help you craft your first spell."
 		""
@@ -2211,6 +2291,8 @@
 	]
 	quest.35791C02AC048594.quest_subtitle: "Unlocking /home"
 	quest.35791C02AC048594.title: "&fChronon Management"
+	quest.35A0BC59FB62D5F9.title: "Ocean Shards"
+	quest.364AA0C55F3312DE.title: "Deepslate Shards"
 	quest.364B2143B874582D.quest_desc: [""]
 	quest.364B2143B874582D.title: "&fUncovering The World Engine"
 	quest.36BA7AADD98E9868.quest_subtitle: "Diamond + Gold"
@@ -2240,7 +2322,7 @@
 		""
 		"The &cResistive Heater&r, however, specializes in converting power directly into heat. It allows for fine-tuning how much power is converted, and generates significantly more heat."
 	]
-	quest.370B05FC62884456.quest_subtitle: "Minor World Engine Upgrade"
+	quest.370B05FC62884456.quest_subtitle: "Major World Engine Upgrade"
 	quest.370B05FC62884456.title: "&fHeating Things Up"
 	quest.37104662F0BDDE66.quest_desc: [
 		"&eApplied Energistics&r (&eAE2&r) is a highly customizable &bdigital storage mod&r."
@@ -2269,11 +2351,6 @@
 		"These crystals are made in the &6World Engine&r, which requires the &dResonant Void&r and &cAdvanced Machine Block&r upgrades."
 	]
 	quest.376227602F2E3DA4.title: "&zTime Crystals&r"
-	quest.37A6FBA47B056D57.quest_desc: [
-		"The &dMachinist&r will trade you for &aShadow Casings&r."
-		""
-		"&7&oThis trade has 24-hour cooldown."
-	]
 	quest.37A6FBA47B056D57.title: "Shadow Casing Trade"
 	quest.37CC00D0136EFDAE.title: "Guidance Check 4.1"
 	quest.37F99696A47264FD.quest_desc: ["This chapter is all about teaching you some of the different ways to craft, enhance, and enchant any gear you might need on your adventures!"]
@@ -2323,6 +2400,16 @@
 	]
 	quest.38869642A2E6F8B6.quest_subtitle: "They Can Do Anything"
 	quest.38869642A2E6F8B6.title: "Modular Routers"
+	quest.38D2CAF4BD36DED8.quest_desc: [
+		"Using the &6Chaos Fragments&r, you will eventually be able to upgrade to 12 &6Chaotic Infusion Injectors&r."
+		""
+		"This will allow you to make the best method for creating &6Awakened Draconium&r, which is..."
+		""
+		"A Chicken."
+		""
+		"P.S. - Alfred Approves"
+	]
+	quest.38D2CAF4BD36DED8.title: "Embracing The &zChaos&r"
 	quest.38E2176886386133.quest_desc: [
 		"The &aAlloy Kiln&r is an early-game multiblock used to make alloys like: constantan, invar, electrum, and bronze."
 		""
@@ -2380,7 +2467,7 @@
 		""
 		"It also requires a tool in your hand to work."
 	]
-	quest.39F6026AB205841A.title: "&fUltimine Notes"
+	quest.39F6026AB205841A.title: "Ultimine Notes"
 	quest.3A106E4D6EE35D7A.quest_subtitle: "Unearther, Geologist"
 	quest.3A1424B69AD511BD.quest_desc: [
 		"The &eActually Additions &aDrill&r consumes power to function and can be upgraded with several different augments."
@@ -2533,7 +2620,10 @@
 		"4. &eEnd&r"
 		"5. &dTwilight Forest&r (Maze Stone)"
 		"6. &bOcean&r (Mossy Cobblestone)"
-		"7. &dVoid Chasms&r (Otherrock, with Skystone in the bottom layer)"
+		"7. &dVoid Chasms&r (Otherrock, with Skystone in the upper layer)"
+		"{@pagebreak}"
+		""
+		"{image:ftb:textures/quests/worldgen_rings.png width:300 height:300 align:center}"
 	]
 	quest.3CFDFFDCDC306A83.quest_desc: [
 		"There are several extra items that you can craft to upgrade your &aKitchen Multiblock&r!"
@@ -2554,9 +2644,9 @@
 	]
 	quest.3D0CD724F9302BDD.title: "The &zSlowMelter 9000&r"
 	quest.3D0CE267A8FD95CD.quest_desc: [
-		"With the &bYeti&r defeated, you will have access to 2 new vaults to find."
+		"With the &2Yeti&r defeated, you will have access to 2 new vaults to find."
 		""
-		"Found within the lower levels of the &bTwilight Forest&r ring, you can find the &bHydra's Lair Vault&r."
+		"Found within the lower levels of the &bTwilight Forest&r ring, you can find the &aHydra's Lair Vault&r."
 	]
 	quest.3D0CE267A8FD95CD.title: "&fThe Hydra's Lair"
 	quest.3D0DC34C36A173F5.quest_desc: ["&eOritech's &2Exo Suit&r provides very useful effects for exploring the world, but provide no protection against the dangers of leaving your home."]
@@ -2574,7 +2664,6 @@
 		"Chalk is pretty hard to scrub off of the ground. You can use a &aChalk Brush&r to get rid of any misplaced glyphs."
 	]
 	quest.3D239E5AD486D419.title: "&fBasic Chalks"
-	quest.3D687BF735E54AE8.quest_desc: ["&7&oThis bounty has 24-hour cooldown."]
 	quest.3D767C3E2F0DE320.quest_desc: [
 		"The structure of the &6Quantum Computer&r multiblock can range from a 3x3x3 to a 7x7x7 square."
 		""
@@ -2586,10 +2675,19 @@
 	quest.3DCD6DC36B31EEF4.quest_desc: [
 		"With these &3World Engine Upgrades&r installed, you feel as though you are finally starting to master the &6World Engine&r."
 		""
-		"Head back to the &dEcho of Guidance&r to see what comes next. and unlock more &6Archives&r!"
+		"Head back to the &dEcho of Guidance&r to see what comes next and unlock even more &6Archives&r!"
 	]
 	quest.3DCD6DC36B31EEF4.title: "&fUnlocking &dOblivion"
-	quest.3E0D5504617365AD.quest_desc: ["&7&oThis bounty has 24-hour cooldown."]
+	quest.3DF42A6D832C0492.quest_desc: [
+		"The &dAction Pad&r is a marvel of the ages. It can route many of your commonly used commands such has home, spawn and world engine teleportation through this device. "
+		""
+		"You can &9set a keybind&r for the Teleporter to activate it and wear it in any curios slot of your choosing. "
+		""
+		"Many other teleportation options will appear as you meet the various &dEchos&r and progress through the pack."
+		""
+		"If you ever lose your device you can claim a replacement in the questbook emergency items tab. "
+	]
+	quest.3DF42A6D832C0492.title: "Action Pad"
 	quest.3E1DB27DAB197F6B.quest_desc: [
 		"With more &6Archives&r unlocked, it is time to explore the lobby and find the &dEcho of The Wayfinder&r."
 		""
@@ -2687,7 +2785,6 @@
 		""
 		"If you manage to find your way through this &3Vault's&r puzzles, the &dChroniton Star&r should be yours for the taking."
 	]
-	quest.3FA9D6A475E4D1C6.quest_subtitle: "Do you know de way?"
 	quest.3FA9D6A475E4D1C6.title: "&fFinding the &2Chroniton Star"
 	quest.3FD6F10BE6F06FFF.quest_desc: ["Each &dAssembler Matrix Craft Core&r can run up to 8 crafting jobs simultaneously."]
 	quest.3FD6F10BE6F06FFF.title: "&dAssembler Matrix Craft Core"
@@ -2732,7 +2829,9 @@
 		"&7&oHearts must be inserted via their interfaces."
 	]
 	quest.4080C053E58A8B55.title: "&aVitality Weapons"
+	quest.4094F70F627F492C.quest_desc: ["The &6World Engine&r can actually use the &zBlack Hole&r as an upgrade, but will need a container for it."]
 	quest.4094F70F627F492C.quest_subtitle: "Major World Engine Upgrade"
+	quest.4094F70F627F492C.title: "Powering The &zVoid&r"
 	quest.4101E75F69C9909F.quest_desc: [
 		"The &dQuantum Item Orchestration&r (&dQIO&r) system is &eMekanism's&r wireless, power-free, and expandable digital storage solution."
 		""
@@ -2796,6 +2895,14 @@
 		"While the crafting process can be slow, up to four &eRunewood Obelisks&r placed in this range will speed it up."
 	]
 	quest.41C439295D5558C2.title: "The Reaping of Souls"
+	quest.41ED404574094D5B.quest_desc: [
+		"For the next step, you'll want to craft a &dDislocator&r and bind it directly on top of the &aStasis Chamber&r. Once you have the setup ready to go, head to the arena and right-click the &dDislocator&r into the &aReceptacle&r."
+		""
+		"Hopefully the chicken will fall right in to your trap."
+		""
+		"Milking the &zMighty Ender Chicken&r will give you &zMolten Chaos&r which can be used to make &6Tiny Chaos Shards&r."
+	]
+	quest.41ED404574094D5B.title: "Milking A... Chicken?"
 	quest.41F048EAE6949163.quest_desc: [
 		"&6Ars&r has several options for magical gear."
 		""
@@ -2883,6 +2990,7 @@
 	]
 	quest.43949500F6A0B46A.title: "&fThe &dAutocrafting Multiblock"
 	quest.43A632369D0E2CE0.title: "Guidance Completed 4.1"
+	quest.43B92A87F280211F.title: "TF West"
 	quest.4402F6855A75B7F6.quest_desc: ["This dungeon spawns in the lower parts of the &2Twilight Forest&r ring."]
 	quest.4426687CCCDD759A.title: "Magician Check 2"
 	quest.4445906BD04FC37D.quest_desc: [
@@ -2946,7 +3054,7 @@
 		""
 		"The less you miss and the faster you complete the challenge, the better the loot!"
 		""
-		"&eNote&r: The chest will still unlock if you fail. You can also use &aLock Picks&r to completely skip the minigame."
+		"&eNote&r: The chest will still unlock with reduced rewards if you fail. You can also use &aLock Picks&r to completely skip the minigame."
 	]
 	quest.455930CEC0C90C0C.title: "&zLoot Chests"
 	quest.456030ECDFA9CE3B.quest_desc: [
@@ -2960,7 +3068,7 @@
 	]
 	quest.456030ECDFA9CE3B.title: "&bReactor Heat Absorbers"
 	quest.456B067C9CC123AD.quest_desc: ["Once you've crafted a &cHeater&r, you should return to the &dFabricator&r to learn how to use it with the &6World Engine&r."]
-	quest.45A3E686E32AB95D.quest_desc: ["Found within the &bTwilight Forest&r ring, the vault of the &bLich&r is the first of five Twilight bosses you need to find."]
+	quest.45A3E686E32AB95D.quest_desc: ["Found within the &bTwilight Forest&r ring, the vault of the &aLich&r is the first of five Twilight bosses you need to find."]
 	quest.45A3E686E32AB95D.title: "&fThe Lair of the Lich"
 	quest.45B2C8BD2ACBA46D.quest_desc: [
 		"The &dReactor&r needs to be made of rectangular walls, where the frame is made of &aReactor Wall&r blocks. The max size of a Reactor is 64 blocks per direction. Its interior needs to be identical in the vertical (y) axis."
@@ -3059,7 +3167,8 @@
 		"The &6Dictionary of Spirits&r is the guidebook for the mod, but it's also needed for certain recipes, and can be used to create &bholograms&r to help you build out &dRituals&r!"
 	]
 	quest.4784FDEE62A479D0.title: "&eOccultism"
-	quest.47C1E9F93CEF25D3.quest_desc: ["Increasing your &bUnearther Level&r will also increase the types of drops you get from brushing blocks."]
+	quest.47920CCF1C3CAE5B.title: "End North"
+	quest.47C1E9F93CEF25D3.quest_desc: ["Increasing your &3Unearther Level&r will also increase the types of drops you get from brushing blocks."]
 	quest.47C1E9F93CEF25D3.title: "&fUnearther Levels"
 	quest.47C45A0552FBC1BD.title: "&fPlay For &d50 Hours"
 	quest.47D745A94C534B48.quest_desc: [
@@ -3073,9 +3182,9 @@
 	quest.48005B47655AD525.quest_desc: [
 		"With the power of &dSource Gems&r, you can harness the flow of &dSource&r by making a &2Source Relay&r."
 		""
-		"Using a &aDominion Wand&r, you can direct the flow of &dSource&r between jars and other blocks using a &2Source Relay&r."
+		"Using a &aDominion Wand&r, you can direct the flow of &dSource&r between jars."
 		""
-		"By installing the &dSource&r &6World Engine&r upgrade, you can direct &dSource&r into the engine to craft more magical items."
+		"By installing the &dSource&r &3World Engine Upgrade&r, you can direct &dSource&r into the engine to craft more magical items."
 	]
 	quest.48005B47655AD525.quest_subtitle: "Minor World Engine Upgrade"
 	quest.48005B47655AD525.title: "&fWorld Engine Source"
@@ -3145,6 +3254,7 @@
 		""
 		"&eTip&r: &7Fluorite&r blocks take about as much &eSulfuric Acid&r to break down as a single &7Fluorite Crystal&r, but produce as much &9Hyrdofluoric Acid&r as nine &7Crystals&r, saving on &eSulfur&r!"
 	]
+	quest.49B8310D0C7A6C55.title: "Fissile Fuel"
 	quest.49DD167D6323406B.quest_desc: [
 		"Functional Storage can also handle storing fluids using &aFluid Drawers&r!"
 		""
@@ -3205,6 +3315,13 @@
 		"These &dSingularities&r are critical for creating massive storages and inter-dimensional links. "
 	]
 	quest.4B463FDAEAC42511.title: "&fThe &3Matter Condenser"
+	quest.4B576E9FFA5D79CF.quest_desc: [
+		"Remember that these quests said you need a lot of &6Awakened Draconium&r? You need &a378&r &6Awakened Draconium Blocks&r."
+		""
+		"To upgrade the &6World Engine&r, you will need to create a &aTier 8 Energy Core&r which also requires &a786&r &dDraconium Blocks&r as well."
+		""
+		"Bawk to it then."
+	]
 	quest.4B576E9FFA5D79CF.quest_subtitle: "Major World Engine Upgrade"
 	quest.4B576E9FFA5D79CF.title: "&fTier 8 Energy Core"
 	quest.4B6154D6F9B7C7BF.quest_desc: [
@@ -3225,6 +3342,14 @@
 		""
 		"By itself, this upgrade can be set up to automatically void specific items that you set inside of its filter. Upgrading to the Advanced version allows for more filtering options!"
 	]
+	quest.4BAD7359CF074014.quest_desc: [
+		"Before you can harness the power of the void, you'll need to create a machine to craft on an atomic level."
+		""
+		"The &dAtomic Forge&r is perfect for this, and can craft an ingot strong enough to hold in the void."
+		""
+		"&eNote&r: The &dAtomic Forge&r must be powered by the &dEnderic Laser&r."
+	]
+	quest.4BAD7359CF074014.title: "Making &6Prometheum&r"
 	quest.4BB5ADD98F958712.quest_desc: ["This dungeon spawns in the &7Stone&r and &7Deepslate&r rings."]
 	quest.4BB5ADD98F958712.title: "Find A Stone Dungeon"
 	quest.4BB6832FE4685131.quest_desc: ["To use your &3Souls&r, point the &aSoul Surge&r at the block you want to accelerate and connect it to the &dSoul Laser Base&r using &aSoul Pipes&r."]
@@ -3235,6 +3360,8 @@
 		""
 		"For example: &dEndawn the Ogre Slayer's Windswept Burnt Shoes of the Spellwarden&r will be renamed to &dBurnt Shoes&r."
 	]
+	quest.4BEBF37F66E48801.quest_desc: ["If you feed a &bFluid Cow&r a bucket of milk, they will revert back to a regular cow."]
+	quest.4BEBF37F66E48801.title: "I Take It Back"
 	quest.4BFF8EE3F588E006.quest_desc: [
 		"With more &6Archives&r unlocked, it is time to explore the lobby and find the &dEcho of The Enchanter&r."
 		""
@@ -3264,6 +3391,15 @@
 		""
 		"Some recipes also require &dSource&r, which means you'll need &aSource Jars&r placed within 3 blocks as well. "
 	]
+	quest.4CE414ADD47790B2.quest_desc: [
+		"&aReplicators&r can be sped up using &dReplicator Enclosures&r, which can be Sneak+Right-clicked onto the &aReplicator&r to install it."
+		""
+		"You can also configure speeds by installing a &aReplicator Motor&r. To craft the motor, you'll need to first craft the &dMatter Blueprint&r for the motor."
+		"{@pagebreak}"
+		"Place this into an &aIdentification Chamber&r with a &dMemory Chip&r to teach your system how to replicate it, then craft it from the &aReplication Terminal&r."
+		""
+		"Once installed into a &aReplicator&r, you can configure its speed. The fastest it can go is 20%, but increases the chance for the replication to fail."
+	]
 	quest.4D1EBD92C674531E.quest_desc: [
 		"Applying five arcane spirits at the totem pole and activating it will invoke &bThe Unchained Rite&r."
 		""
@@ -3282,6 +3418,25 @@
 		"To add the Upgrade Orb to your equipment, use the &dArcane Anvil&r. Up to 3 Orbs can be applied per equipment piece."
 	]
 	quest.4D55D9FBE06DAA46.title: "&dUpgrade Orbs"
+	quest.4D64F277A4330749.quest_desc: [
+		"&6B.E.E.R. (Bookshelf Extended Enchanting Reach)&r allows you to modify the range that enchanting tables scan for bookshelves!"
+		""
+		"Normally, enchanting tables only look for bookshelves in a 5x5x3 area around them. With &6B.E.E.R.&r, you can extend this out further!"
+		""
+		"To modify an enchanting table's range, you just need to hold a &amodifyier block&r in your main hand and Sneak + Right-click it on the table."
+		""
+		"Holding a piece of &anether quartz&r in your offhand will decrease the range instead."
+	]
+	quest.4D64F277A4330749.quest_subtitle: "BEER for short"
+	quest.4D64F277A4330749.title: "Bookshelf Extended Enchantment Reach"
+	quest.4D6D066B0855586D.quest_desc: [
+		"Within the Ocean ring, there is a creature that has been touched by the void."
+		""
+		"To summon it, you will need to craft the &dAbyssal Sacrifice&r and use it on the altar."
+		""
+		"Good luck."
+	]
+	quest.4D6D066B0855586D.title: "&dAbyssal Sacrifice&r"
 	quest.4D754E91D203A89A.quest_desc: [
 		"Now that you've unlocked a few &6World Engine&r upgrades, you should head back to the &dEcho of Guidance&r."
 		""
@@ -3289,6 +3444,14 @@
 	]
 	quest.4D754E91D203A89A.quest_subtitle: "Unlocks Tier 2 Chapter"
 	quest.4D754E91D203A89A.title: "&fNeeding More Guidance"
+	quest.4D7C7DE95E56C7B3.quest_desc: [
+		"When you fought the &zMighty Ender Chicken&r, you might have noticed a &aDislocator Receptacle&r in the arena. It's time to use that, because you have to milk the chicken."
+		""
+		"Start by setting up a &aStasis Chamber&r setup for the boss. This might be worth doing somewhere like a &dCompact Machine&r."
+		""
+		"The goal will be to teleport the &zMighty Ender Chicken&r onto a &aStasis Chamber&r so that you can use a &6Fluid Laser Drill&r to milk it."
+	]
+	quest.4D7C7DE95E56C7B3.title: "Bringing Home The Chicken"
 	quest.4DABDC2484C732AC.quest_desc: [
 		"The &dArc Furnace&r is a massive machine used to quickly alloy metals and smelt ores."
 		""
@@ -3323,6 +3486,7 @@
 		""
 		"These can also be bought from the &zShop&r!"
 	]
+	quest.4E0BAFDCADC617C5.title: "TF Shards"
 	quest.4E4434B6CE1F2560.quest_desc: [
 		"&6Cores&r are a &aessential part of your CAD&r, always try to make the best one you can, &athey're basically the CPU of your CAD&r."
 		""
@@ -3356,7 +3520,6 @@
 		""
 		"&7&oWhen working, this block generates explosions that deal significant player damage, but has not effect on terrain."
 	]
-	quest.4F025183EF92FFAB.title: "Neutron Activator"
 	quest.4F27342D2DA7C605.quest_desc: [
 		"Smashing &7Gravel&r down further turns it into &aDirt&r!"
 		""
@@ -3365,6 +3528,11 @@
 		"Try breaking &aDirt&r with a &aStone Crook&r."
 	]
 	quest.4F27342D2DA7C605.title: "&fA Fine-Tooth Pick"
+	quest.4F2B35E4E3729560.quest_desc: [
+		"With the final upgrade in place, the &6World Engine&r has been completely restored to its full functionality."
+		""
+		"You have now completed &6Stoneblock 4&r!"
+	]
 	quest.4F3CA2DCE719D18A.quest_desc: [
 		"The &6Quantum Multithreader&r will effectively multiply all &bCo-Processors&r in the multiblock by 4."
 		""
@@ -3420,7 +3588,11 @@
 		"This machine can be upgraded to separate fluids with the &bMachine Fluid Addon&r to make items like &bPlastic&r, or can be used to automate ore processing when using a &6Fragment Forge&r later down the road."
 	]
 	quest.50B7CA94F8BB6F58.title: "&fSpin To Win"
-	quest.50BB7069AC5A1A14.quest_desc: ["&7&oThis bounty has 24-hour cooldown."]
+	quest.50BB7069AC5A1A14.quest_desc: [
+		"You can find &zTyros&r in the &cCitadel&r that spawns in the &dVoid Chasms&r ring."
+		""
+		"You will need a &cCinderous Soulcaller&r to summon the boss."
+	]
 	quest.50E133C3E351255E.quest_desc: [
 		"Why use machines to create resources when you can grow some chickens from the mod &eRoost Ultimate&r!"
 		""
@@ -3430,11 +3602,7 @@
 	]
 	quest.50E133C3E351255E.quest_subtitle: "Roost Ultimate"
 	quest.50E133C3E351255E.title: "&fChickens!!"
-	quest.5119EFBB9FB39CDE.quest_desc: [
-		"You might find one of these in the &dArcane Grove&r structure."
-		""
-		"&7&oThis bounty has 24-hour cooldown."
-	]
+	quest.5119EFBB9FB39CDE.quest_desc: ["You might find one of these in the &dArcane Grove&r structure, or from the &dTale of a Priest who knew too much!&r Gateway."]
 	quest.511B01F40006FC4B.quest_desc: [
 		"&zInfinity Tools&r are unbreakable tools that can instantly break blocks."
 		""
@@ -3483,6 +3651,8 @@
 	]
 	quest.51EBCDC63A047562.title: "&eMalum &fArmor"
 	quest.51F3F949B8426B43.title: "Chroniton World Engine Upgrade"
+	quest.527A754FEFC95F4C.quest_desc: ["Now that you've literally milked some &zChaos&r, it's time for you to return to the &dChaos&r &6Echoborne&r."]
+	quest.527A754FEFC95F4C.title: "&fSpeak With &6Chaos"
 	quest.52ADC3D46CCB2659.quest_desc: [
 		"&aApotheosis&r provides the ability to relocate and upgrade &dMob Spawners&r that can be great for making your own mob farms. To move a spawner, break it with a pickaxe that has &bsilk touch&r on it."
 		""
@@ -3492,7 +3662,13 @@
 	]
 	quest.52ADC3D46CCB2659.title: "Apotheosis Spawners"
 	quest.52B46D49B5C4A7F2.quest_desc: ["The &dGas-Burning Generator&r can burn &dEthene&r to produce power at a very high rate! You can expect each full generator to produce ~8k RF/t."]
-	quest.534BC89436B0D544.title: "World Engine Craft Unlock"
+	quest.534F1C46873C1358.quest_desc: [
+		"The generators in this row are considered &aMid Game Generators&r!"
+		""
+		"These generators start to become available once you have some progress and unlock several of the &6World Engine Upgrades&r."
+		""
+		"Some of them can also be upgraded or scaled up well into the late game, like the &6Powah&r &dReactors&r."
+	]
 	quest.537DE7A354AF8E9E.quest_desc: [
 		"&bMob Grinding Utils&r provides easy to use blocks to move mobs around in your mob farms."
 		""
@@ -3524,13 +3700,21 @@
 	]
 	quest.53E949B1A0D04290.title: "&6Foundry &fOuter Structure"
 	quest.5417C0BED57AE8DA.quest_desc: ["Generates power by consuming Nether Fauna."]
+	quest.543C6917A16F266C.quest_desc: [
+		"With the &zNeutron Activator&r, you have the power of the sun now to convert &aNuclear Waste&r."
+		""
+		"This will give you the ability to create &zAntimatter&r using the &6Supercritical Phase Shifter&r."
+		""
+		"[\"\", {\"text\": \"Note\", \"color\": \"yellow\"},  \": Take a look at the \", {\"text\": \"Mekanism Reactor\", \"color\": \"light_purple\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"49B8310D0C7A6C55\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Go to Reactor Quest\"}}, \" quest if you want to learn more about creating Reactors and converting Nuclear Waste.\"]"
+		""
+		"Also, you will only need half of the normal amount of &aNuclear Waste&r as normal."
+	]
+	quest.543C6917A16F266C.title: "&zAntimatter&r"
 	quest.54404B81EAC760E8.quest_subtitle: "(Sold by Echo)"
 	quest.5455CF5D3C37ECA9.quest_desc: [
 		"The &cNetherite Monstrosity&r can be found in the &3Soul Blacksmith&r."
 		""
 		"This is located in the upper parts of the &cNether&r ring."
-		""
-		"&7&oThis bounty has 24-hour cooldown."
 	]
 	quest.5455CF5D3C37ECA9.title: "Kill The &cNether Monstrosity&r"
 	quest.54A1D7A1D89C1A04.quest_desc: ["The &bFrosten Prison&r dungeon can be found in the upper parts of the &bOcean&r ring."]
@@ -3576,14 +3760,6 @@
 		"The &aReplicator&r is the core working machine of your matter network."
 		""
 		"Once an item is set in a &dMemory Chip&r and requested from a &aReplication Terminal&r, the job is sent to available &aReplicators&r to be crafted using stored matter."
-		""
-		"These machines can be sped up using &dReplicator Enclosures&r, which can be Sneak+Right-clicked onto the &aReplicator&r to install it."
-		"{@pagebreak}"
-		"You can also configure speeds by installing a &aReplicator Motor&r. To craft the motor, you'll need to first craft the &dMatter Blueprint&r for the motor."
-		""
-		"Place this into an &aIdentification Chamber&r with a &dMemory Chip&r to teach your system how to replicate it, then craft it from the &aReplication Terminal&r."
-		""
-		"Once installed into a &aReplicator&r, you can configure its speed. The fastest it can go is 20%, but increases the chance for the replication to fail."
 	]
 	quest.56279976861A0A95.quest_desc: [
 		"-Green: easy to access, easy to tell in JEI"
@@ -3634,6 +3810,7 @@
 		"The &6Metronome&r has input and output slots that make it function as a &dChronon Battery&r, and it can link to other &6Metronomes&r on an internal network, which can also be set to private."
 	]
 	quest.575A111D4418BFB6.title: "&6Metronome"
+	quest.5777C137BF472784.title: "End Shards"
 	quest.5778BAEC8F095B3D.quest_desc: [
 		"&eLaserIO&r allows you to transfer pretty much everything using LASERS!"
 		""
@@ -3692,6 +3869,20 @@
 		"The base level is just a &aPickup Upgrade&r, but upgrading to the &aMagnet Upgrade&r allows for more options and a wider range!"
 	]
 	quest.580866E99C53DB3E.title: "&aPickup Upgrades"
+	quest.580CDFD2B7675485.quest_desc: [
+		"To craft items in &6Draconic Evolution&r, you will need a special crafting setup called &dFusion Crafting&r."
+		""
+		"The &dFusion Crafting Core&r must be the middle of the setup, with &dDraconium Fusion Crafting Ejectors&r placed facing towards the Core 2 blocks apart."
+		""
+		"The Core will also need a redstone signal to start."
+		"{@pagebreak}"
+		"To upgrade to the &dWyvern Fusion Injectors&r, you will need at least 8 &dDraconium Injectors&r placed around the Core."
+		""
+		"You can right-click each item the injectos need to craft the upgrade. Each injector will also need power."
+		""
+		"With all items placed in the injectors, you can place the main item in the Core, and the craft should start once it has a redstone signal."
+	]
+	quest.580CDFD2B7675485.title: "&dFusion Crafting&r"
 	quest.583FFE29C881EE8C.quest_desc: [
 		"You can access the Network UI from any block within the mod, like a &aFlux Plug&r or &aPoint&r."
 		""
@@ -3773,7 +3964,6 @@
 		"These can also copy the texture of another block by using that block directly on the &dElevator&r."
 	]
 	quest.59A6D7B544F1AE06.title: "&fElevators"
-	quest.59C71582F19E8554.quest_desc: ["&7&oThis bounty has 24-hour cooldown."]
 	quest.59CBFA5583139A3B.quest_desc: ["The &dReforging Table&r is an improved version of the &aSimple Reforging Table&r, allowing you to reforge items of all rarities, including &zMythic&r items."]
 	quest.59CBFA5583139A3B.title: "&dReforging Table&r"
 	quest.59D007531CD064D9.quest_subtitle: "needs removing for IronJs"
@@ -3813,7 +4003,6 @@
 		"The &2Geologist&r is one of the only sources for generating items like &aXychorium Gems&r and &aBlack Quartz&r."
 	]
 	quest.5A793B307C82AB91.title: "Geologist"
-	quest.5A8CEB600CAADCD2.quest_desc: ["&7&oThis bounty has 24-hour cooldown."]
 	quest.5AC7EEC3D69AF032.quest_desc: [
 		"&bCelestigem&r tools are the next tier of tools from &6Just Dire Things&r."
 		""
@@ -3844,7 +4033,6 @@
 		"&eNote&r: Certain mods won't connect with it, like the &bFarmer's Delight Cooking Pot&r. Make sure to always check JEI for specific recipes! "
 	]
 	quest.5B7448EEC26FF0E3.title: "The &aKitchen Multiblock&r"
-	quest.5B7CF6FF36F60157.title: "Awakened Core + Dark Void Craft Unlocks"
 	quest.5BBA51F8FE4D6C3B.quest_desc: [
 		"A solid block that you can choose whether you want to walk through it or not! Right-click it to toggle its current state"
 		""
@@ -3864,8 +4052,6 @@
 		"That ends today."
 		""
 		"Kill the &aWandering Trader&r in the name of &6AlfredGG&r."
-		""
-		"&7&oThis bounty has 24-hour cooldown."
 	]
 	quest.5C2C0986D6014ADD.title: "&6A Personal Vendetta"
 	quest.5C8773D5561D7245.quest_desc: [
@@ -3983,6 +4169,7 @@
 		"&7&oGone are the days of manually making more villagers."
 	]
 	quest.5E90192C6F3011B7.title: "&fVillager Breeding"
+	quest.5ED062BF97780287.title: "End West"
 	quest.5ED10C54AE06DB40.quest_desc: [
 		"&zInfinity Armor&r negates all damage to the player and provides jump boost and movement speed."
 		""
@@ -4112,6 +4299,8 @@
 		"The &aIron&r versions are used to extract items or fluids when given redstone power."
 		""
 		"There are also several different tiers of pipes that do different things, so check them out!"
+		""
+		"&eNote&r: When these pipes overflow, they will lag the world. Make sure to create an overflow system!"
 	]
 	quest.61B948F3E526ADF9.quest_desc: [
 		"With the right combination of ingredients placed into a &aSoulbinding Brazier&r, semi-permanent &bOaths&r (also known as Geasa, singular: Geas) can be sworn on one's soul that change your experience in ways from minor to drastic."
@@ -4199,6 +4388,7 @@
 		"&aTreated Wood&r is used to craft various &6I.E&r workstations, such as the &aEngineer's Workbench&r."
 	]
 	quest.63B7AC676FC1EE7F.title: "&fTreated Wood Planks"
+	quest.63BA03EC05C8105F.title: "TF North"
 	quest.63BED4D08224B3EF.quest_desc: [
 		"There are more types of Relays to transfer &dSource&r between jars and blocks!"
 		""
@@ -4225,7 +4415,7 @@
 	quest.6461D19F839957B6.quest_desc: [
 		"The heat from the &cIgnitium Ingot&r will give the spirits infused in the &bSoulstained Steel Ingots&r the feeling of home..."
 		""
-		"The &6World Engine&r should be able to encase the spirits properly into a block that you can use for the &3World Engine Upgrade&r."
+		"The &6World Engine&r should be able to encase the spirits properly into a block that you can use for the &3Spirit World Engine Upgrade&r."
 	]
 	quest.6461D19F839957B6.quest_subtitle: "Minor World Engine Upgrade"
 	quest.6461D19F839957B6.title: "&fA Block Of Spirits"
@@ -4264,13 +4454,14 @@
 	]
 	quest.6600E26635FD3D0E.title: "&aMachine Upgrades"
 	quest.663460DE8AF7E464.quest_desc: [
-		"The &aInscriber&r creates processors for all of your network parts and technology. These do require power but can accept regular FE power from other modded sources."
+		"The &aCircuit Fabricator&r is a multiblock that creates processors for all of your network parts and technology. These do require power but can accept regular FE power from other modded sources."
 		""
-		"To create processors, you will need &aInscriber Presses&r which can be obtained from a &dMysterious Cube&r. This can be purchased from the &6Machinist&r, or traded from a &dWandering Trader&r or &aFluix Researcher&r."
+		"To create the multiblock, you will need a &dMysterious Cube&r. This can be purchased from the &6Machinist&r, or traded from a &dWandering Trader&r or &aFluix Researcher&r. Along with some &dBlue Sheetmetal&r and &dVibrant Quartz Glass&r"
 		""
-		"You'll want an &aInscriber&r for each &2Inscriber Press&r, and should look to automate this as soon as possible. Each &aInscriber&r can take up to &b4 Acceleration Cards&r to greatly increase their working speed."
+		"{@pagebreak}"
+		"The &aCircuit Fabricator&r utilizes the same dimensional parallaxing as the world engine and is able to process up to 16 recipes at once! You can overclock the fabricator by placing up to 10 &dAcceleration Cards&r into it's upgrade slot. Fully upgraded this machine has the potential to consume A LOT of power!"
 	]
-	quest.663460DE8AF7E464.title: "&aInscribing Processors"
+	quest.663460DE8AF7E464.title: "&aProcessors O' Plenty"
 	quest.664F7957756D84FF.quest_desc: [
 		"No matter what kind of spell school you choose to use, there is an armor set just for you."
 		""
@@ -4278,7 +4469,7 @@
 	]
 	quest.66545AFE0DEA820F.quest_desc: ["A darker set of items for a darker sort of craft."]
 	quest.66545AFE0DEA820F.title: "&fThe Well's Returns"
-	quest.665C261B98E4D20B.quest_desc: ["Speak to &dTwilight&r once you have returned from your travels."]
+	quest.665C261B98E4D20B.quest_desc: ["Speak to &dTwilight&r once you have returned triumphantly from your adventure so they can show you how install the &3Twilight World Engine Upgrade&r."]
 	quest.6681C945EBF3E114.quest_desc: ["Input mode"]
 	quest.6697F832067F1A9C.quest_desc: [
 		"&eOritech's &3Enderic Railgun&r can shoot out both a concentrated laser beam and an explosive damaging beam depending on its mode. You can Shift + Right-click to toggle &bMining Mode&r on/off."
@@ -4302,7 +4493,6 @@
 	quest.66FF7D88B712C969.quest_desc: ["Claiming this quest reward will set a waypoint at the &dEcho's &6Archive&r entrance."]
 	quest.66FF7D88B712C969.title: "&fLocating &dThe Wayfinder"
 	quest.67012432915196A3.title: "Weapons"
-	quest.67078BCAD52BC4B4.quest_desc: ["&7&oThis bounty has 24-hour cooldown."]
 	quest.67181BD1F2434E2C.title: "Wyrmwright Check 1"
 	quest.67396087E1916115.quest_desc: [
 		"A &aMolecular Metamorpher&r is a device that uses experience from a bound &eObelisk&r to infuse materials. This can make certain recipes for the mod cheaper, but is also a required method of crafting for some of &2Cognition's&r resources."
@@ -4351,8 +4541,6 @@
 		"This is found scattered throughout the &bOcean&r ring."
 		""
 		"To summon this boss, you must use an &dAbyssal Sacrifice&r on the &aAltar of Abyss&r."
-		""
-		"&7&oThis bounty has 24-hour cooldown."
 	]
 	quest.67D1E0D81B2C5D8D.title: "Kill The &dLeviathan&r"
 	quest.67DE9E103F50E3F1.quest_desc: [
@@ -4547,7 +4735,7 @@
 		"3-4 &bCursium Ingots&r will drop on each kill. These ingots can be transformed into a usable upgrade in the &6World Engine&r."
 	]
 	quest.6D0C1811DA909BBD.quest_subtitle: "Minor World Engine Upgrade"
-	quest.6D0C1811DA909BBD.title: "&fEuphonium"
+	quest.6D0C1811DA909BBD.title: "&dEuphonium"
 	quest.6D28E1AFBB33C43E.quest_desc: [
 		"&eTime Steel&r is used to craft better versions of your existing devices, and a few new gadgets as well."
 		""
@@ -4581,26 +4769,21 @@
 		"&eNote&f: You must submit the &aChronon Generator&r to complete this quest and update the &dEcho of Guidance&r. "
 	]
 	quest.6D5A9E9E8B0D8AC2.title: "&fChronon Generator"
+	quest.6D9862948E97E696.title: "End East"
 	quest.6DB6B40C3E07E389.quest_desc: [
 		"If you manage to find your way through the puzzles of this vault, the &2Chroniton Star&r should be yours for the taking."
 		""
 		"Just remember, the cake is a lie."
 	]
-	quest.6DC738A434C5B02F.quest_desc: ["&7&oThis bounty has 24-hour cooldown."]
-	quest.6DD9A75EE8C97710.quest_desc: [
-		"The &cDead King&r can be found in the &aCatacombs&r with the &3Stone&r and &7Deepslate&r layers."
-		""
-		"&7&oThis bounty has 24-hour cooldown."
-	]
 	quest.6DEB5453D8E3BD76.quest_subtitle: "Unearther, Dimensionalist"
 	quest.6DEB5453D8E3BD76.title: "Ancient Debris or Netherite"
 	quest.6E149F8E8B3F150B.quest_desc: ["Once you've crafted the &2Echoing Deepshelves&r, head back to the &dEcho of the Enchanter&r to learn how to install it into the &6World Engine&r as an upgrade."]
-	quest.6E24701C49A6114D.title: "&zSingularities&r"
-	quest.6E458E2978B64C77.quest_desc: [
-		"The &dQuartermaster&r will trade you for &aSteel Plates&r."
+	quest.6E24701C49A6114D.quest_desc: [
+		"With the &6World Engine&r upgraded with the power of the &zVoid&r, you can create the &dNeutronium Compressor&r to compact items down into &zSingularities&r."
 		""
-		"&7&oThis trade has 24-hour cooldown."
+		"Use these to create the &zInfinity Singulary&r."
 	]
+	quest.6E24701C49A6114D.title: "&zSingularities&r"
 	quest.6E458E2978B64C77.title: "Basic Plating Trade"
 	quest.6EE1C1B7FFB86C6C.quest_desc: [
 		"&aSigils of Socketing&r are used to increase the amount of &bGem Sockets&r of an &bAffix&r item."
@@ -4618,7 +4801,7 @@
 	quest.6F53C65C3131B68A.title: "&fThe Archaeologist&r"
 	quest.6F68D2CC4B83671E.quest_subtitle: "Unearther, Geologist"
 	quest.6F91297C4FAA43FE.quest_desc: [
-		"The &dDimensionalist&r is a master of other-worldy materials, and can brush through &cNetherrack&r, &eEnd Stone&r, and &7Otherrock&r. They require a &aSalvaging Table&r as a workstation."
+		"The &dDimensionalist&r is a master of other-worldy materials, and can brush through &cNetherrack&r, &eEnd Stone&r, and &7Otherrock&r. They require a &aResonanz Engineering Block&r as a workstation."
 		""
 		"This is an advanced worker that allows you to acquire some of the rarer materials like &aPlatinum&r and &bDimensional Shards&r."
 		""
@@ -4643,11 +4826,6 @@
 		"This matter will need to be stored into &aMatter Tanks&r for later use, and can be piped between machines and tanks using &eMatter Network Pipes&r."
 	]
 	quest.705E4FFB4FCADFD1.title: "Creating Matter"
-	quest.706E469302F9F383.quest_desc: [
-		"The &dMagician&r will trade you for &aLiquefied Source&r."
-		""
-		"&7&oThis trade has 24-hour cooldown."
-	]
 	quest.706E469302F9F383.title: "Source"
 	quest.70753CD7045AE9E1.quest_desc: [
 		"&dMalignant Pewter&r is a material made of magic that is inherently counter to the world of magic and creation."
@@ -4661,7 +4839,6 @@
 		""
 		"The basic &aLens&r is only used as a crafting material for other lenses."
 	]
-	quest.708DD6CD3AE7F0FE.quest_desc: ["&7&oThis bounty has 24-hour cooldown."]
 	quest.70A9E1AC900A77B4.quest_desc: [
 		"&aPlayer Transmitters&r are used to power items in your inventory."
 		""
@@ -4735,7 +4912,7 @@
 		""
 		"This will speed up gathering cobblestone greatly."
 		""
-		"&eNote&r: Completing this quest will upgrade your &bUnearther Level&r, which increases the types of items that you receive when &3Brushing&r."
+		"&eNote&r: Completing this quest will upgrade your &3Unearther Level&r, which increases the types of items that you receive when &3Brushing&r."
 	]
 	quest.71205F3FE5AD49B3.title: "&fProving Yourself"
 	quest.7131F9C883EE955E.quest_desc: [
@@ -4771,6 +4948,11 @@
 	]
 	quest.718C72A43E57B75A.quest_desc: ["In this &bChapter&r, you'll find most of the ways to handle transferring items, energy, fluids, and more!"]
 	quest.7191726ECAAFE40F.quest_desc: ["Once you've crafted enough &2Chroniton Glass&r, head back to the &dEcho of the Wayfinder&r to learn how to install it into the &6World Engine&r as an upgrade."]
+	quest.71BDC5B453B8CAB4.quest_desc: [
+		"You find yourself at the event horizon of a gigantic black hole. Explore the area and find &6Radiance&r."
+		""
+		"Work with them to create and encase your very own &dBlack Hole&r and acquire the &3Dark Void Upgrade&r for your &6World Engine&r."
+	]
 	quest.71BDC5B453B8CAB4.title: "&fMeet &6Radiance"
 	quest.71EF740F3234EA08.title: "Mycelial Reactor"
 	quest.71F25B7D688EE182.quest_desc: [
@@ -4888,6 +5070,7 @@
 	quest.73EC5E7F2300B99D.title: "&bCertus Quartz&r"
 	quest.73FEE6C6149817E7.title: "Infernal Check 1"
 	quest.7408FB23D476F791.title: "Guidance Completed 1"
+	quest.740B9F63604944F3.title: "Ocean North"
 	quest.744120E37CD03AE0.quest_desc: [
 		"The &aAtomic Disassembler&r from &6Mekanism&r is an unbreakable tool that consumes power to break blocks."
 		""
@@ -4902,6 +5085,7 @@
 		"&eNote&r: To craft these, you must have the &aMachine Block&r &6World Engine Upgrade&r."
 	]
 	quest.749634B68269401A.title: "ProjectE Weapons"
+	quest.74AD70F5C648DBDF.title: "Power Storage Options"
 	quest.74CC5FF2097C0839.quest_desc: [
 		"&6Hostile Neural Networks&r (or &6HNN&r for short) allows you to collect data from a mob to harvest its drops in the form of &bPredictions&r."
 		""
@@ -4912,13 +5096,23 @@
 		"&eNote&r: You will need the &bChroniton Glass&r &6World Engine Upgrade&r to use this mod."
 	]
 	quest.74CC5FF2097C0839.title: "Server Friendly Mob Farming"
+	quest.74E9653C810F045B.quest_desc: [
+		"If you're looking for an early game option for transferring power wirelessly, &6Irregular Implements&r has a simple solution!"
+		""
+		"The first step is to get your hands on &bEctoplasm&r from killing a &bSoul&r. Once you have one, you can make a &bSpectre Saplilng&r for a renewable resource of them."
+		"{@pagebreak}"
+		"The next step will be making the &aSpectre Energy Injector&r and placing it down and pipe power into it."
+		""
+		"Anywhere you need to use that power, simply place down a &eSpectre Coil&r to transfer energy out!"
+	]
 	quest.74E9653C810F045B.title: "Wireless Spectre Power"
 	quest.74EA9D857CB71A91.quest_desc: [
 		"Using a &aDissolution Chamber&r, you can infuse a Simple Machine Frame with &cNetherite&r and &#ffa5fcPink Slime&r."
 		""
-		"This should create a frame strong enough to create the &cAdvanced Machine Blocks&r you need for the &bWorld Engine&r upgrade."
+		"This should create a frame strong enough to create the &cAdvanced Machine Blocks&r you need for the &6World Engine&r upgrade."
 	]
 	quest.74EA9D857CB71A91.title: "&fAssembling The Frame&r"
+	quest.754048401D3A6A7B.quest_desc: ["This chapter covers most of the different ways to generate power."]
 	quest.754048401D3A6A7B.title: "Power Options"
 	quest.754ADB22C6B8041F.quest_desc: [
 		"This structure spawns in the lower &7Deepslate&r ring."
@@ -5016,7 +5210,11 @@
 	]
 	quest.7713D75A36D0A23D.quest_subtitle: "Minor World Engine Upgrade"
 	quest.7713D75A36D0A23D.title: "&fThe Start of Automation"
-	quest.775BE99DF402AF0D.quest_desc: ["Speak to &dThe Ancient&r once you have returned from the &3Vault&r."]
+	quest.775BE99DF402AF0D.quest_desc: [
+		"Speak to &dThe Ancient&r once you have returned from the &3Vault&r."
+		""
+		"They'll be able to show you how to install the &3Euphonium World Engine Upgrade&r."
+	]
 	quest.777F76601D213DF2.quest_desc: [
 		"The &eSimply Swords&r mod adds a wide range of weapons that you can choose to craft."
 		""
@@ -5084,7 +5282,6 @@
 		"Shift + right-click a &aDimensional Storage Actuator&r with a &cStorage Accesor&r to link them, allowing you to access your items from anywhere in the world, even across dimensions."
 	]
 	quest.77F8CCE971B9B186.title: "&dOccultism&r Storage"
-	quest.77F964631F38EA2E.quest_desc: ["&7&oThis bounty has 24-hour cooldown."]
 	quest.77FC846DC0EF4ED2.quest_desc: [
 		"&a/home&r | This command unlocks during the main quest in the early game, and opens a portal to take you back to your base."
 		""
@@ -5104,7 +5301,7 @@
 	quest.78115154B5DC07B3.quest_desc: ["This block generates &625 Million RF/t&r when all other &dMycelial Generators&r are active."]
 	quest.78115154B5DC07B3.title: "&fMycelial Reactor"
 	quest.781D7DA09E444B95.quest_desc: [
-		"The &dWeeping Well&r can be found within the &7Deepslate&r."
+		"The &dWeeping Well&r can be found within the &7Deepslate&r or in the &dArcane Grove&r structure."
 		""
 		"This structure leaks whispers and heartbeats and weeping and tugs on certain items with its dark pull. It ... wants something. Try offering it your &earcane knowledge&r, or raw resources, see what you might get in return."
 		""
@@ -5148,14 +5345,13 @@
 		"To see which enchantments you can make, make sure to check out the uses in JEI!"
 	]
 	quest.78D488A506FD3EB8.title: "Machinist Check 2"
+	quest.78F7CFEA0EB5024C.quest_desc: ["The generators in this row are considered &aStarter Generators&r to help you create your first bit of power!"]
 	quest.7913B52AD9D28D2B.quest_desc: [
 		"The &6Harbinger&r is a tough mob found within the &6Ancient Factory&r structure."
 		""
 		"This can be found in the &dVoid Chasm&r ring."
 		""
 		"&eNote&r: You must activate the boss by using a &dNether Star&r on it first."
-		""
-		"&7&oThis bounty has 24-hour cooldown."
 	]
 	quest.7913B52AD9D28D2B.title: "Kill The &6Harbinger&r"
 	quest.795A3ABA29AC0E4F.quest_desc: ["Generates power by consuming Frozen/Snow Items."]
@@ -5226,7 +5422,7 @@
 		"Cx: -1"
 		"Cz: 185"
 	]
-	quest.7A8669713BE28E8F.quest_desc: ["&7&oThis bounty has 24-hour cooldown."]
+	quest.7A8669713BE28E8F.quest_desc: ["The &dWarden&r lives in the &dAncient City&r, which you can find in the &3Deepslate&r layers. "]
 	quest.7A8669713BE28E8F.title: "&eKill&f: &3Warden"
 	quest.7A8D31482AB1FCAA.quest_desc: [
 		"&6Compact Machines&r allow you to create your own room in a pocket dimension!"
@@ -5247,6 +5443,12 @@
 		"Any items in their range will ignore &aSimple Magnets&r pulling on them."
 	]
 	quest.7B20023BE78887DA.title: "&aSimple Magnets"
+	quest.7B2044D285C9F1E3.quest_desc: [
+		"Most quests in the main chapters that are shaped like a &aGear&r are &dEcho&r related quests!"
+		""
+		"This means that you will most likely need to return to an &dEcho&r to complete their task, or see if they have something new for you."
+	]
+	quest.7B2044D285C9F1E3.title: "Gear Quests!"
 	quest.7B496376BC7B399A.quest_desc: ["&aThe Ender&r is a diamond-tier sword that specializes in beheading your enemies."]
 	quest.7B496376BC7B399A.title: "&fThe Ender"
 	quest.7B579D0762DB9F33.quest_desc: [
@@ -5310,6 +5512,7 @@
 		""
 		"To fuel it, open up the interface with Ender Pearls in your inventory, then click the + buttons at the bottom of the GUI to add them in as fuel."
 	]
+	quest.7C94432EFD49611F.quest_desc: ["The &dEcho of Infinity&r is basically a God."]
 	quest.7C94432EFD49611F.title: "&fMeet &6Infinity"
 	quest.7C9B4CE2A2F62096.quest_desc: [
 		"Using the &aPressurized Reaction Chamber&r, we can use Substrates to make &6HDPE Pellets&r. These advanced pellets are used to create many high tier items and machines!"
@@ -5339,7 +5542,6 @@
 		"&bUnlocks&f: Doors to T1 Echos and Chapter 1"
 	]
 	quest.7D1FB9A40B5CAE97.title: "Guidance 1.3 check"
-	quest.7D23D1C9DE75721F.quest_desc: ["&7&oThis bounty has 24-hour cooldown."]
 	quest.7D2A583FBDCE4FC7.quest_desc: [
 		"A &6CAD's Socket&r is basically its &abullet clip&r."
 		"It's what &aSpell Bullets&r are loaded into, and it's responsible for transferring the compiled &bSpells&r contained within the Bullets to the &dCore&r for processing."
@@ -5400,9 +5602,9 @@
 	]
 	quest.7E685EAD7FB60B45.title: "&fThe &aSalvaging Table"
 	quest.7E7745D3E460831F.quest_desc: [
-		"The &dEcho&r would be very interested in the &bFortron Infused Blocks&r. You should head back to the lobby to chat with them!"
+		"Those &aQuantum Links&r will be a great help as you require more and more automation from the &6World Engine&r."
 		""
-		"They should be able to show you how to install them as an upgrade to the &bWorld Engine&r. Once installed, you'll be able to make &dFortron Infused Ingots&r."
+		"Speak to &dThe Light Bender&r so they can show you where to install this &3World Engine Upgrade&r."
 	]
 	quest.7E88C7654F281E43.quest_desc: [
 		"The &#EA6F14Augmenting Table&r is an end-game crafting station used to augment the individual affixes on an item."
@@ -5430,6 +5632,7 @@
 		"It's also used to create &6Ethene&r, which is an energy-dense gas used for both power and crafting &eHDPE Pellets&r."
 	]
 	quest.7EF7546FF007EF36.title: "&2Bio Fuel"
+	quest.7F022A9289CCBF5D.title: "End South"
 	quest.7F4E7C687E7D8707.quest_desc: [
 		"There are several ways to keep items from piling up on the ground from your farms!"
 		""
@@ -5449,11 +5652,11 @@
 		""
 		"You should work together with an Expert or Master &2Archaeologist&r in an &aUnearther&r to dig up these magical saplings up."
 		""
-		"[\"If you're more of the explorer type, you may also find some magical resources in the \", {\"text\": \"Arcane Grove\", \"color\": \"aqua\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"066B47D2AB72355C\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Go to Arcane Grove Quest\"}}, \". Use the compass provided by the \", {\"text\": \"Magician\", \"color\": \"light_purple\"}, \" to guide you.\"]"
+		"[\"If you're more of the explorer type, you may also find some magical resources in the \", {\"text\": \"Arcane Grove\", \"color\": \"dark_green\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"066B47D2AB72355C\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Go to Arcane Grove Quest\"}}, \". Use the compass provided by the \", {\"text\": \"Magician\", \"color\": \"light_purple\"}, \" to guide you.\"]"
 		""
 		"If you're planning to engage the enemies within the &2Grove&r, make sure to equip at least &bDiamond-level&r gear. &cYou've been warned!&r"
 		""
-		"You should return to the &dEcho of The Magician&r once you have completed his task."
+		"You should return to the &dMagician&r once you have completed his task."
 	]
 	quest.7F7C0B1523AA28C4.quest_subtitle: "Unlocking Ars"
 	quest.7F7C0B1523AA28C4.title: "&fMagical Trees"
@@ -5483,13 +5686,17 @@
 	quest.7FCCB25011D69673.title: "&fThe &aEnrichment Chamber"
 	quest.7FEDD82D9B47EFCD.quest_desc: ["The &aBio Generator&r consumes biomass to generate energy, which can be increased with &bAddons&r."]
 	reward.00D18DF325869C86.title: "Assemble The &3Dark Void Upgrade"
+	reward.00EC1162EB842D86.title: "Void South"
+	reward.042C6860A26F6057.title: "End West"
 	reward.053BB94B773511FC.title: "{\"translate\": \"ftb.shop.notification\"}"
 	reward.07015FDD343B3E88.title: "Wyvern Bow"
 	reward.07FDE2A45E2F6200.title: "{\"translate\": \"ftb.shop.notification\"}"
+	reward.08099C03B0628B39.title: "Nether South"
 	reward.08D775729B3EAF3E.title: "&dQuartermaster &fWaypoint"
 	reward.09DF4A8DBF01CD61.title: "&e+1 &3Unearther Level"
 	reward.0BED496C8D68C629.title: "Chaotic Shovel"
 	reward.0C0AB23B4929400B.title: "{\"translate\": \"ftb.shop.notification\"}"
+	reward.0D23EB824CB0A0C2.title: "Void East"
 	reward.0E91DBA45C7125BF.title: "&eUnlock&f: &6World Engine"
 	reward.0F2B93D49D8DA760.title: "Wyrmwright Archive Waypoint"
 	reward.11F46FD8EC5EE6C8.title: "Assemble The &3Euphonium Upgrade"
@@ -5499,6 +5706,7 @@
 	reward.12E34C33B113C643.title: "Assemble The &3Draconic Upgrade"
 	reward.1317DCA026D9DFBC.title: "Assemble The &3Infinity Upgrade"
 	reward.13B35A67AAF5C0DF.title: "{\"translate\": \"ftb.shop.notification\"}"
+	reward.15B421B3ACE269E3.title: "End North"
 	reward.16061432FA49EE66.title: "Chaotic Sword"
 	reward.174EEA65827DF6EA.title: "Assemble The &3Chroniton Upgrade"
 	reward.1A219FE0647ED732.title: "Wyvern Axe"
@@ -5506,6 +5714,7 @@
 	reward.1ADD62DBE8217E40.title: "Draconic Shovel"
 	reward.1B215A9431DBAF6F.title: "Wyvern Shovel"
 	reward.1E8870E07D7F4A99.title: "Bee Event"
+	reward.1EA85DCE2A9227C3.title: "End South"
 	reward.1F113E78DDABE6A6.title: "{\"translate\": \"ftb.shop.notification\"}"
 	reward.1FC0E512CB219EE5.title: "Chaotic Axe"
 	reward.1FC841321A5BA9AB.title: "Assemble The &3Enchanting Upgrade"
@@ -5518,26 +5727,34 @@
 	reward.24582F4B1C3E7E1F.title: "Twilight Archive Waypoint"
 	reward.266BE24BD00654A1.title: "Chaotic Bow"
 	reward.2730B9B9300AA75C.title: "&e+1 &3Unearther Level"
+	reward.27EBCAD2651AD138.title: "Void North"
 	reward.2A85D0C9269D0EE5.title: "Infernal Archive Waypoint"
 	reward.2AA4A91EF3A6EE48.title: "{\"translate\": \"ftb.shop.notification\"}"
 	reward.2B0BC74A9E61D881.title: "Draconic Capacitor"
 	reward.2C24A3F46426B257.title: "Assemble The &3Machine Block Upgrade"
+	reward.2CA4C34FFD72EA33.title: "Twilight East"
 	reward.2D7E2A69C45D8ABD.title: "{\"translate\": \"ftb.shop.notification\"}"
 	reward.2E85DC3CE143BC3A.title: "Machinist Vault Compass"
 	reward.2F7B82DA30E186CA.title: "&e+1 &3Unearther Level"
 	reward.307426CA8BF12CAC.title: "&dWayfinder &fWaypoint"
 	reward.30A58719DB130EE9.title: "&dFabricator &fWaypoint"
+	reward.31A55C1C7979AC74.title: "End East"
+	reward.31B152CBB7E9CDAD.title: "Nether West"
 	reward.31B318A2B60F4CC5.title: "Assemble The &3Shadow Casing Upgrade"
 	reward.3322D2E72CD06BE1.title: "Mekanism Teleporter"
 	reward.338E0593C527D311.title: "Mycelial Reactor Set"
 	reward.35FBC3A2C111904A.title: "{\"translate\": \"ftb.shop.notification\"}"
+	reward.37851CF3F949515A.title: "Twilight South"
 	reward.37F1C940A746F48C.title: "StoneBlock4 Official NFT"
+	reward.397185875416F4D2.title: "Ocean West"
 	reward.3982DCDCE0A66B83.title: "{\"translate\": \"ftb.shop.notification\"}"
 	reward.39A9BA8313470A5D.title: "Catalyst Archive Waypoint"
 	reward.3C0E24CCC82A480D.title: "Assemble The &3Fortron Upgrade"
 	reward.3CC21684802E95E5.title: "Wyvern Pickaxe"
 	reward.3E2DC10E8591B9CC.title: "Wyvern Capacitor"
 	reward.3E8E67868DA564D2.title: "&dLight Bender &fWaypoint"
+	reward.3FBE85B391697AA3.title: "Ocean East"
+	reward.419A1C4D9279BF50.title: "Nether East"
 	reward.4348C140262F1176.title: "Assemble The &3Twilight Upgrade"
 	reward.437C0250BD2823D8.title: "Assemble The &3Resonant Void Upgrade"
 	reward.444D56BB0340167E.title: "Assemble The &3Ender Power Upgrade"
@@ -5548,13 +5765,18 @@
 	reward.4BA4CA2B38D5C1F3.title: "Assemble The &3Awakened Core Upgrade"
 	reward.4C092C94E484A165.title: "{\"translate\": \"ftb.shop.notification\"}"
 	reward.4CF243911064BB93.title: "{\"translate\": \"ftb.shop.notification\"}"
+	reward.4EDE4462114C77EE.title: "Deepslate North"
+	reward.4F0943ED6ECF70E6.title: "Deepslate East"
 	reward.5014EDA364D8789D.title: "&dInfernal &fWaypoint"
 	reward.52BCACF7F3F4A767.title: "&dAncient &fWaypoint"
 	reward.53ECA21ACDF436DD.title: "Machinist Archive Waypoint"
 	reward.54DC27E90D2295BC.title: "Looting 8"
+	reward.55FBD183C62F244F.title: "Nether North"
 	reward.58419DD95D235FD7.title: "Chaotic Chestpiece"
 	reward.59039114F2E02EBE.title: "Arcane Grove Locator"
 	reward.594E158A9C86929B.title: "&aTier 1 Glyph"
+	reward.59AD0E3C98FC5EA2.title: "Void West"
+	reward.59E384F5A05211FC.title: "Deepslate South"
 	reward.5A34161D4FD3FD66.title: "{\"translate\": \"ftb.shop.notification\"}"
 	reward.5A9E657EB27180C7.title: "Assemble The &3Advanced Machine Upgrade"
 	reward.5AE23D826352677E.title: "Healing Spring Locator"
@@ -5568,6 +5790,7 @@
 	reward.61E89C638FD700C4.title: "&eMax &3Unearther Level"
 	reward.62E61D9249A89F89.title: "{\"translate\": \"ftb.shop.notification\"}"
 	reward.632965F5B615FA8D.title: "Fusion Reactor"
+	reward.64CB075D188C05CC.title: "Ocean South"
 	reward.676EC71A125D6E04.title: "Assemble The &3Source Upgrade"
 	reward.689FE9894FCB03FA.title: "Assemble The &3Enderium Upgrade"
 	reward.68F8EBD48743037D.title: "Simple Teleporter Bundle"
@@ -5576,22 +5799,25 @@
 	reward.696B39000701CF3E.title: "&dEnchanter &fWaypoint"
 	reward.69E35BEC6CB9A014.title: "Assemble The &3Tesseract Upgrade"
 	reward.6A0011BF8C25D4FA.title: "Draconic Sword"
+	reward.6A7A635D5039E00E.title: "Deepslate West"
 	reward.6A9CBD374B41A598.title: "&dCatalyst &fWaypoint"
 	reward.6AA784677A036A36.title: "Draconic Pickaxe"
+	reward.6AE5675C3DAAB1D9.title: "Ocean North"
 	reward.6B6E3D9E6F38918E.title: "&dTier 3 Glyph"
 	reward.6E2831AAACB7E9AD.title: "Draconic Chestpiece"
 	reward.6E69E924D695FE30.title: "{\"translate\": \"ftb.shop.notification\"}"
 	reward.70BC62F1A67B859F.title: "Amulet of Protection Scroll"
 	reward.729901F3863D27E4.title: "Fabricator Archive Waypoint"
 	reward.72FFFB11B65A0DF3.title: "Chaotic Capacitor"
-	reward.73D5606B942028E5.title: "{\"translate\": \"ftb.shop.notification\"}"
 	reward.742CB3E07E4CCEB1.title: "&bTier 2 Glyph"
 	reward.7459FD34B6687F30.title: "Tempad's Guidebook"
 	reward.747CED69FCED45E8.title: "Magician Archive Waypoint"
 	reward.75028F17C07E02D0.title: "{\"translate\": \"ftb.shop.notification\"}"
+	reward.7834CF7F86C29EE0.title: "Twilight North"
 	reward.798A5012C244EC87.title: "Wayfinder Archive Waypoint"
 	reward.7AA9A619B211B53A.title: "Wyvern Chestpiece"
 	reward.7DA1DB3A1F6C52A0.title: "{\"translate\": \"ftb.shop.notification\"}"
+	reward.7DB306ACACBC5FA3.title: "Twilight West"
 	reward_table.00A0F6A281CEE4D3.title: "Singularities"
 	reward_table.01A8F0EB2209A24F.title: "Basic Draconic Gear"
 	reward_table.0C5DDA99EE8027D3.title: "Gifts of Stone"
@@ -5608,11 +5834,17 @@
 	reward_table.30F4E308726EB2AD.title: "Teleporters"
 	reward_table.3621231FD4F80730.title: "Chest Upgrade"
 	reward_table.37F7F856288632A7.title: "Supreme Combat Relics"
+	reward_table.3FFF5862073B3D97.title: "Shards - Ocean"
 	reward_table.54091F8A76F9E488.title: "Draconic Gear"
+	reward_table.5529BA88A208797B.title: "Shards - End"
 	reward_table.56235F58490C3C41.title: "Lesser Combat Relic"
+	reward_table.5C5A40864844587A.title: "Shards - Void"
 	reward_table.5E58BEB7F462AA87.title: "Sophisticated Chest Addons"
+	reward_table.6105D334632923AE.title: "Shards - Twilight"
 	reward_table.61FD9A6CC07465C1.title: "Random Furnace"
+	reward_table.657A949F0952B7D4.title: "Shards - Nether"
 	reward_table.6835AC5E14D58A8C.title: "Greater Exploration Relic"
+	reward_table.6B1481D18D7F1F24.title: "Shards - Deepslate"
 	reward_table.6B9058CED94B574F.title: "Gift of Pebbles"
 	reward_table.70ADF260F7A38A21.title: "Mycelial RF"
 	reward_table.73C257EFB0D405CE.title: "ProjectE Gear"
@@ -5620,7 +5852,6 @@
 	reward_table.7CDA9FD69979A8C9.title: "Apotheosis Tomes"
 	reward_table.7D0A27C985829037.title: "Lesser Exploration Relic"
 	task.003F316E9DCBE7FE.title: "Any #minecraft:logs_that_burn"
-	task.0086A6AA18540F0B.title: "Special Fluid Cow Items"
 	task.00ABB62332FC4C09.title: "&fSpeak With The &dEcho of The Catalyst"
 	task.00F90C52CBAECEBB.title: "&dSpell &aInks"
 	task.0119636863DFB474.title: "Speak to Guidance"
@@ -5630,6 +5861,7 @@
 	task.0269945CD49FAC4A.title: "Any #c:seeds/tiered"
 	task.0284D9E486F445FC.title: "&fLocate the Hydra Vault"
 	task.0287C11F3728514E.title: "World Engine Craft Unlocks"
+	task.02CC4D7DB653D0B6.title: "Check"
 	task.02E900C9DF62699B.title: "Any #irons_spellbooks:add_to_lectern_and_bookshelf"
 	task.045D6D51D5A394B8.title: "Early Power"
 	task.04B00E264007135A.title: "Extra Deepshelves"
@@ -5641,14 +5873,17 @@
 	task.05C31228DE4297E0.title: "Resonant WE Crafts"
 	task.05EA231F68B35FBA.title: "Generation 9"
 	task.05FFCCEAC7E565FB.title: "Wireless Power Options"
-	task.061CA75E28BD6BF6.title: "Speak to the &dEcho of The Wyrmwright"
+	task.061CA75E28BD6BF6.title: "Speak with the &dEcho of The Wyrmwright"
 	task.0645EC76DE0EB57B.title: "Cooldown Timer"
 	task.06483FBA8021FDEF.title: "Moving Mobs"
 	task.0675F9CC003D7723.title: "Chesed Arena"
 	task.06F0C110F6DF4933.title: "Color Guide"
+	task.0707B05028ADBA69.title: "&eKill&f: &6The Harbinger"
 	task.075F7BA7175B340A.title: "Unearther Levels"
 	task.07BBC0302934453B.title: "Stone Generation Options"
 	task.0879C32890B7363C.title: "&dRunic Weapons"
+	task.08D1694DFD199F2E.title: "Modifier Items"
+	task.08F70556D06E7B86.title: "Bookshelf Extended Enchantment Reach"
 	task.09842F1F80A0B5A9.title: "Extraction Tomes"
 	task.09D272BA64115EA4.title: "Congrats, You've finished the pack"
 	task.09D3F1EFF0A49CE5.title: "Cooldown Timer"
@@ -5658,6 +5893,7 @@
 	task.0AAA6FAB20E74E5F.title: "Upgraded Hellshelves"
 	task.0AE9E3C1553154B6.title: "Machine Cores"
 	task.0AFBB94C24406DAD.title: "Heart Canisters"
+	task.0C13FA83021AE4C5.title: "&eKill&f: &cNetherite Monstrosity"
 	task.0C703E47B7643F97.title: "Level 1"
 	task.0CDA50C894140131.title: "Any spirit alchemy product"
 	task.0D2B50FDF033C966.title: "Iron's Armor"
@@ -5674,13 +5910,16 @@
 	task.0E861275FB1F9A6E.title: "&dEcho Unlock Twilight Ancient"
 	task.0EFEB7A9C3BC6904.title: "Cooldown Timer"
 	task.0F2D2B75BBD3B74B.title: "&cEnergy Cubes&r"
+	task.0F4B5618923F3F8B.title: "&eKill&f: Hydra"
 	task.0F7A749B164D259A.title: "Any #minecraft:coals"
 	task.0FAC970FD967F5DF.title: "deepslate west"
 	task.0FE18EA47455263E.title: "Echo-Location"
 	task.101BA566216C32AD.title: "ME Cable"
 	task.1040794FCC53E1C2.title: "cehck"
 	task.10414FF6D2800922.title: "&fSpeak With The &dEcho of The Light Bender"
+	task.108D536F5C6428BB.title: "Echo-Location"
 	task.10F4611888E8BE79.title: "Echo 1"
+	task.11193E0681204B33.title: "Spectre Coils"
 	task.111E92A0F608B427.title: "Start of Foundation Chapter"
 	task.1159F04F98B724A1.title: "Burning Disco Vault"
 	task.115D12D9D3CB1F13.title: "Cooldown Timer"
@@ -5690,7 +5929,7 @@
 	task.121998ADA1263511.title: "tier 4 echoes"
 	task.1221574B280EBA24.title: "Behold: Grass!"
 	task.129AAFBA73EBA070.title: "&dEcho Unlock Ancient"
-	task.12C03EE6A8238B47.title: "end west"
+	task.12C03EE6A8238B47.title: "ocean west"
 	task.12E5C6B08FAC5523.title: "&eLocate&f: &3Maze Vault"
 	task.135A92EF1CA22FD9.title: "Cooldown Timer"
 	task.13749D631F4473F2.title: "things guide should say"
@@ -5725,6 +5964,7 @@
 	task.1B354BFDDC6B862B.title: "machinist"
 	task.1B441EA3D74396D8.title: "Draconic Tools"
 	task.1B8D2EA3B6BC97C1.title: "&eLocate&f: ftb:dungeons/nether"
+	task.1BB73680D1CA700A.title: "Echo-Location"
 	task.1C350F6D6B6C0656.title: "&bUpgraded Addons"
 	task.1C3B92648D279809.title: "&eLocate&f: &dInfernal"
 	task.1C618817AA660A51.title: "Cooldown Timer"
@@ -5739,6 +5979,8 @@
 	task.20FE0359B927FE66.title: "Ore Generation Options"
 	task.21F1C6036A37CED9.title: "&eLocate&f: &dTwilight"
 	task.220AEB0F13353108.title: "&fCraftable Spellbook Upgrades"
+	task.224C16DC19629B4B.title: "Starter Generators"
+	task.226AB3512612624B.title: "&eFind&f: &6cataclysm:ancient_factory"
 	task.22DC2FE65941A0AB.title: "Appliance Addons"
 	task.22F4D12640FE8DE4.title: "Growing Resources"
 	task.23288392FC94FD36.title: "lightbender"
@@ -5748,7 +5990,7 @@
 	task.24555C39800B508A.title: "Cooldown Timer"
 	task.24B4FAC2831477B4.title: "&eLocate&f: &3Ancient City"
 	task.24F1AD47BF873ABE.title: "magician"
-	task.24F9A4F56ECE9A55.title: "ocean north"
+	task.24F9A4F56ECE9A55.title: "tf north"
 	task.251CDFF26C59DD32.title: "Dark Matter Armor"
 	task.254216164263D3E2.title: "Talk with Dude"
 	task.257444FAB277BA50.title: "Cooldown Timer"
@@ -5756,13 +5998,15 @@
 	task.25A2E220B9181819.title: "&dEcho Unlock Wyrmwright"
 	task.25B4028ACF0AA25B.title: "Archaeologist Brush Blocks"
 	task.25E59EFA886226D4.title: "Resource Check"
+	task.25EB772A7B06594D.title: "Echo-Location"
 	task.266AF5D6914A2BA5.title: "Chicken Soul"
 	task.2672BC5E75CFBDEC.title: "Upgraded Seashelves"
 	task.268850BC9199AE77.title: "Observe A &bFluid Cow&r"
 	task.2689CFF1F62FA5FF.title: "EchoLocation"
 	task.2695E2029A6BC6A0.title: "&fSpeak With The &dEcho of The Magician"
 	task.275981DE51204FB4.title: "Cooldown Timer"
-	task.27B14942E7BE87E2.title: "end south"
+	task.27B14942E7BE87E2.title: "ocean south"
+	task.27B5B3E2F6360E5F.title: "&eFind&f: &ccataclysm:soul_black_smith"
 	task.27D0428BD5B59E54.title: "Eclipse Alloy Tools"
 	task.27F04FD03BB1682C.title: "Empowered Crystals"
 	task.27F8AF789DE14145.title: "Completed Processor"
@@ -5771,24 +6015,29 @@
 	task.2897D7BC60592E58.title: "Any #c:wools"
 	task.28C14943E06CE907.title: "Items Unlocked via World Craft"
 	task.293421D07539E14B.title: "Any wizard armor"
-	task.2988CAF299690CDB.title: "Useful Commands!"
+	task.2988CAF299690CDB.title: "Useful Commands"
 	task.29B29381709E8E09.title: "Passive Mob Farms"
 	task.2A0C5609613F2557.title: "Kitchen Cabinets"
 	task.2A8090973C51366E.title: "Find A &2Trial Chamber&r"
 	task.2AF40F8B8B4E480D.title: "&aGems&r"
 	task.2B1D6D217FEE192B.title: "Cooldown Timer"
 	task.2B3540F8DE693645.title: "Unlocks Quartermaster"
-	task.2B4A71FE904A1A6D.title: "&fSpeak to the &dEcho of Guidance"
+	task.2B4824CA0A798240.title: "Echo-Location"
+	task.2B4A71FE904A1A6D.title: "Speak With The &dEcho of Guidance"
 	task.2BAEE4414B32E48E.title: "&eObserve&f: &7Foliot &fCrusher Demon"
+	task.2BE7F102A41BB55E.title: "Early Game Generators"
 	task.2C1D58B8E7565119.title: "Early Power Suggestions"
+	task.2C540B93320B1588.title: "&eFind&f: &aftb:dungeons/otherworld"
 	task.2C70B41BE01902A0.title: "EchoLocation"
 	task.2C7178256D98DFC4.title: "go visit lobby for echo"
 	task.2CADC968F4897489.title: "Cooldown Timer"
+	task.2CB20E4080C1B6CC.title: "Teleporter"
 	task.2CBD12BA944BB6A7.title: "Wireless Redstone"
 	task.2CD07B6CF24F7460.title: "&bUpgraded Addons"
 	task.2CDC924219F0604D.title: "The Xychorium Gems"
 	task.2CDCBCC6501AC541.title: "Find A &eCatacombs&r Dungeon"
 	task.2CEBEF58554AD915.title: "Cooldown Timer"
+	task.2D2F59A031BC2E63.title: "Gear Quests"
 	task.2D6AEF337BEAFA58.title: "Crucible Augments"
 	task.2D717F3B3573B504.title: "&bUpgraded Addons"
 	task.2DCE94139CB2078D.title: "Drawer Item Management"
@@ -5813,9 +6062,10 @@
 	task.31DBB76BB460AE1B.title: "Machine Cores"
 	task.322FFDB250990323.title: "Power Storage"
 	task.323197B515C2DAB6.title: "&3Echo Unlock Catalyst"
-	task.32877EA200F47B95.title: "&fSpeak With The &6Echo of Radiance"
+	task.327D6E2AE8863BC1.title: "&eKill&f: &cPyromancer"
+	task.32877EA200F47B95.title: "&fSpeak With &6Radiance"
 	task.329BA2B5EB3185FC.title: "Salvaged Materials"
-	task.32FB115D88E24CD5.title: "ocean west"
+	task.32FB115D88E24CD5.title: "tf west"
 	task.3384D1EE66D61464.title: "Hellshelf of Sight"
 	task.33877DBF6AC0BF78.title: "Upgraded Deepshelves"
 	task.339585B853B7012C.title: "Basic Weapons"
@@ -5833,14 +6083,15 @@
 	task.368FF30FEFA57F73.title: "Ring Generation"
 	task.36D65F0F76F3F5E9.title: "Ultimine Notes"
 	task.36E4280D3F1F4D95.title: "&bCelestigem Armor"
-	task.376297FFB45E51A2.title: "tf west"
+	task.376297FFB45E51A2.title: "end west"
 	task.379AF15FE59B449C.title: "All About Chronon"
 	task.37AD604DC3429E57.title: "Enderium WE Crafts"
-	task.37C9E3F65AE092C6.title: "tf south"
+	task.37C9E3F65AE092C6.title: "end north"
 	task.37F6704E46F8E7BC.title: "Loot"
 	task.3806016FFDCF244F.title: "Cooldown Timer"
 	task.387AEDAFD8378A6D.title: "Chicken Jockey South"
 	task.38B484C5F2CD48C9.title: "EchoLocation"
+	task.38F70B93B01BA8DA.title: "&eKill&f: Phantom Knight"
 	task.398CB19DF3238318.title: "Non-Typed Storage Disks"
 	task.39A587FEA3FFAB6B.title: "&aEcho Unlock Wayfinder"
 	task.39A8645834696943.title: "Cognition Tools"
@@ -5857,15 +6108,16 @@
 	task.3C26A988187EEF02.title: "nether west"
 	task.3C30835D105E888F.title: "Fluid Drawers"
 	task.3C532F10AE78D105.title: "&eLocate&f: &dMachinist"
-	task.3C99AA1534641A3F.title: "end east"
+	task.3C99AA1534641A3F.title: "ocean east"
 	task.3CB07FD3F54AFA92.title: "&zRelics&r"
 	task.3CEB40B064A202AA.title: "Unlock World Engine"
 	task.3CF9E82FE7A7CA32.title: "deepslate south"
 	task.3D6254435D99C13C.title: "Malkuth Arena"
 	task.3D736F8E008552DB.title: "Powercells"
 	task.3E9C440E3E2EE022.title: "Have a quest reward these things"
-	task.3EA41562AB11F9B1.title: "ocean east"
+	task.3EA41562AB11F9B1.title: "tf east"
 	task.3EB209408B5FD9FA.title: "EchoLocation"
+	task.3EBAF104991E89BF.title: "&eKill&f: &dMighty Chicken Jockey"
 	task.3EF3D33D52CB41A5.title: "&aVoid Upgrades"
 	task.3F1ABCF8325A90C9.title: "&zInfinity Tools"
 	task.3FB6FB9AEEAE5739.title: "150x Assembler Wall/Glass"
@@ -5888,11 +6140,12 @@
 	task.4436C5870B83BA75.title: "nether east"
 	task.4483C09E6123BC4C.title: "Items Unlocked via World Craft"
 	task.4497434CDD9642C0.title: "Villager Trading"
-	task.44BC8362B01E30DC.title: "end north"
+	task.44BC8362B01E30DC.title: "ocean north"
 	task.44F14FF1208B0B03.title: "AIOTs"
 	task.45B09FA666AC50A6.title: "tier 2 echoes"
 	task.45B385C4A1E03540.title: "Dungeon Vault"
 	task.45C3B788492E3C09.title: "&eObserve&f: &2Grass Block"
+	task.45E16BAC26D921B8.title: "Special Fluid Cow Items"
 	task.45E18E3EE8C1D683.title: "&fSpeak With The &dEcho of The Machinist"
 	task.45E2610784D6C62D.title: "void west"
 	task.46201BC3BAE0D15A.title: "Mekanism Lasers"
@@ -5903,6 +6156,7 @@
 	task.48521259017869AC.title: "Generation 4"
 	task.488B1E7E0EBA64D2.title: "Cooldown Timer"
 	task.48DEF5D938C94BF6.title: "&fIndustrial Foregoing Options"
+	task.491E250D69066BBC.title: "&eKill&f: &7Wither"
 	task.4973EE979B7CEBB2.title: "Remove Gamestage"
 	task.49801B19B9E8E368.title: "Cooldown Timer"
 	task.49D95439F3D1CFCD.title: "Kitchen Knives"
@@ -5911,6 +6165,7 @@
 	task.4A252C67885BD891.title: "Level 2 Dirt Products"
 	task.4A5574B73D5286B1.title: "Runes"
 	task.4A84D885C313D512.title: "Stack Upgrades"
+	task.4AEB443222A345F9.title: "Echo-Location"
 	task.4B20B5C5E0F87281.title: "Cooldown Timer"
 	task.4B2BAB2FC31AEA4D.title: "&eLocate&f: &dLight Bender"
 	task.4B4B8BC2E5273E05.title: "force"
@@ -5930,7 +6185,7 @@
 	task.4E9D1C67F4EAD926.title: "Connectors"
 	task.4EF42C21DDEAAB6F.title: "Cooldown Timer"
 	task.4EF4B4FB9E896FDA.title: "Level 4"
-	task.4F171D8BC8C1C8F7.title: "Any Hammer from Just Hammers"
+	task.4F171D8BC8C1C8F7.title: "Any &bHammer&r from &eJust Hammers"
 	task.4F37295B08FFCA81.title: "Create Your Home"
 	task.4F48BE06A8542822.title: "Items For Moving Mobs"
 	task.4FC80BE367960541.title: "&eLocate&f: &dAncient"
@@ -5961,6 +6216,7 @@
 	task.54C8C7E72F5D069E.title: "Generating Resources"
 	task.54E21F0B7510D638.title: "&eKill&f: &cIgnis"
 	task.553E2E245BD16D6A.title: "Cooldown Timer"
+	task.55E36C96A2424F59.title: "&eKill&f: &6Ancient Remnant"
 	task.56A35A967954A4C2.title: "Drawers"
 	task.56BA1011DDE093D0.title: "Raw Osmium"
 	task.56C9F06D62E42184.title: "Any Psimetal Tool"
@@ -5977,6 +6233,7 @@
 	task.585E2902BC477B5D.title: "&eLocate&f: &6Radiance"
 	task.58670C125A30CD28.title: "wayfinder"
 	task.58BD6F9BD3D252EE.title: "World Engine Craft Unlocks"
+	task.58DC7CD2A4F595DD.title: "&eKill&f: &dAchevoker"
 	task.5926E51F4409C90C.title: "extras"
 	task.59454DA41C1C27D5.title: "Any Rune"
 	task.59521977C507A466.title: "Speak to the &dEcho of Guidance"
@@ -5996,9 +6253,11 @@
 	task.5AEBA3792645C057.title: "link"
 	task.5AFEC71F18BD2D1B.title: "Drill Upgrades"
 	task.5B2F539FB8DF8B64.title: "&fAuto Hammers"
-	task.5B3A2DEB3DFBA285.title: "Talk With The Echo of Guidance"
+	task.5B3A2DEB3DFBA285.title: "Speak With The &dEcho of Guidance"
 	task.5B51C00265B54937.title: "Technology Chapter"
+	task.5B82C7AEA857BED3.title: "&eKill&f: &dEnder Guardian"
 	task.5C1653E469BF0527.title: "Villager Breeding"
+	task.5C3A03650166A961.title: "&eFind&f: &bftb:water_orb"
 	task.5C3B57777EB7E7CD.title: "Early Game Gens"
 	task.5C41B9EBAA3BFB91.title: "infinity"
 	task.5C5C0B0C6CC599E2.title: "Find An &cAncient Battleground&r"
@@ -6020,28 +6279,35 @@
 	task.5EA5666395E5AAEC.title: "&eLocate&f: &dMagician"
 	task.5F9845BFD2B34AC6.title: "Your Choice"
 	task.5F99BA061A1605D9.title: "World Stone Layers Layout"
+	task.5FD1AC346811740C.title: "&eKill&f: &cThe Dead King"
 	task.5FFC4927DA3051EE.title: "Cooldown Timer"
 	task.5FFDD210AFD0055D.title: "Specialized Tomes"
 	task.6017B56A0165C534.title: "Ferricore Tools"
+	task.6064031AABA0D8D1.title: "&eKill&f: &2Apothecarist"
 	task.60A5E4D097F85580.title: "Steel Acquisition"
 	task.6143E9BDB0C9D417.title: "Portal Vault"
 	task.614C3268B71D6CE3.title: "enchanter"
+	task.615166F23D87249A.title: "Echo-Location"
+	task.6166C057F795A2CB.title: "Loads of Matter"
 	task.61990CCF4D2011E7.title: "Awakened Core + Dark Void Craft Unlocks"
 	task.619E259715D3DAFC.title: "Any &eApplied Flux &fStorage Cell"
 	task.61C0F35123FBB85E.title: "&eKill&f: &3Warden"
 	task.61D894B195259EFE.title: "Netherite Armor"
+	task.61D984A3215E20D1.title: "&eKill&f: Snow Queen"
 	task.62017C4AEF15B756.title: "Finding The Portal Vault"
-	task.620B0BA6A6337A57.title: "ocean south"
+	task.620B0BA6A6337A57.title: "tf south"
 	task.623C40B073B6326E.title: "Eclipse Alloy Armor"
 	task.62978C611C641A3D.title: "&fME Interface"
 	task.62D52342AFC4B5B5.title: "Generation 5"
 	task.62DE6121CE506116.title: "Pipe Upgrades"
+	task.63405599D33D4D0A.title: "Mid Game Generators"
 	task.639A8E9CF51A8596.title: "Plant Farming"
 	task.63A8F38180C3FD30.title: "Tree Farming"
+	task.6403B80C8DFFEB46.title: "&eKill&f: Twilight Lich"
 	task.6405640824417BB2.title: "EchoLocation"
 	task.64439911825F80B2.title: "Block Wands"
 	task.64AB5234ED7B0BDC.title: "Portal Vault"
-	task.64B290466E13BE30.title: "&fSpeak With The &dEcho of The Wyrmwright"
+	task.64B290466E13BE30.title: "Speak with the &dEcho of The Wyrmwright"
 	task.64E418FC4666C686.title: "Find A &dOtherworld&r Dungeon"
 	task.651313A5A837BB13.title: "&7Echo Unlock Magician"
 	task.655EA10D763BC971.title: "&eLocate&f: &dEnchanter"
@@ -6053,7 +6319,8 @@
 	task.66B4466B7858F8C2.title: "Any #minecraft:saplings"
 	task.66BE14D0E22A9924.title: "Give Create Echo Unlock"
 	task.66E96E8D93525948.title: "Fortron WE Crafts"
-	task.66F6B411E884E391.title: "tf east"
+	task.66F6B411E884E391.title: "end east"
+	task.671339615BA68B10.title: "&eKill&f: &bCryomancer"
 	task.6751D267B2D7A52D.title: "Uncovering The Lost Echoes"
 	task.678E1BECB4BB8A9A.title: "Generation 2"
 	task.684A45E0379D0386.title: "vault"
@@ -6071,12 +6338,14 @@
 	task.6A00069F522D80AB.title: "See All Quests"
 	task.6A0F7469DEB4D145.title: "Any Tier 2 CAD Core"
 	task.6A32E04F83997A6D.title: "&eLocate&f: &dCatalyst"
+	task.6A3AABB86967A8C4.title: "Echo-Location"
 	task.6A3B0E8AFAFEFD67.title: "Find The Weeping Well"
 	task.6A6EB35F2D0397D5.title: "&fSpeak With The &dEcho of The Wayfinder"
 	task.6AD228A3A433DD1F.title: "MFFS Vault"
 	task.6B27B17119E4FED3.title: "Spirit + Advanced WE Craft Unlocks"
 	task.6B45D5D3054C838C.title: "Echo of Guidance"
 	task.6B46A4D5E6915E1B.title: "&fSpeak With The &dEcho of The Fabricator"
+	task.6B957BA447FEB4F1.title: "&eFind&f &cirons_spellbooks:citadel"
 	task.6B9EDB6F4966725F.title: "Building Gadgets"
 	task.6BEB322262E5EAF8.title: "Cooldown Timer"
 	task.6BF1B3F7E85C5E17.title: "&bUpgraded Addons"
@@ -6084,9 +6353,10 @@
 	task.6D0AA9BE40A0E859.title: "EchoLocation"
 	task.6DA9798B3428C3AB.title: "Cooldown Timer"
 	task.6DF527923993A57F.title: "In-World Chest Upgrades"
+	task.6EE5745FE00E4ACC.title: "&eKill&f: Alpha Yeti"
 	task.6EEDBE793BDCC2D7.title: "Logistics"
 	task.6F0EB6804E6BC2C8.title: "Storage"
-	task.6F63CD417D16DE7F.title: "&eObserve&r: World Engine Block"
+	task.6F63CD417D16DE7F.title: "&eObserve&r: &6World Engine Block"
 	task.6FA17DE3B63BDA1A.title: "Compacting Drawers"
 	task.6FCBB412F4BBBAEB.title: "&aEcho Unlock Fabricator"
 	task.6FD8E3AAD2A0F9EC.title: "Cooldown Timer"
@@ -6095,14 +6365,15 @@
 	task.716711D72FE69FF5.title: "Typed Storage Cells"
 	task.719285FE3BB19A6E.title: "quest 1"
 	task.71B63908FDE6CC61.title: "&bAll-In-One Tools"
+	task.71EF7138E44BDF05.title: "Echo-Location"
 	task.72121E28134ACE07.title: "Meet the &dEcho of Guidance"
-	task.7230891A77CE1977.title: "tf north"
+	task.7230891A77CE1977.title: "end south"
 	task.72426E00128EBE6D.title: "Soulhunter Armor"
 	task.72566E6107743A29.title: "armor"
 	task.736019FA0D0976A4.title: "Tier 5"
 	task.739AFA2E85FD2354.title: "Compact Machines"
 	task.73AD501FEDF94669.title: "nether north"
-	task.742022DB9012FEDC.title: "Saplings"
+	task.742022DB9012FEDC.title: "Any Sapling"
 	task.7420FCF5C9A3AAD9.title: "Cooldown Timer"
 	task.748C2ADA8E320CA0.title: "Machine Fabrication"
 	task.7586948F032C6048.title: "Hydra Vault"
@@ -6112,12 +6383,13 @@
 	task.765414790D7CA99B.title: "Raw Nickel"
 	task.766D48135EA53798.title: "Ammo"
 	task.7695C5FDA30F4196.title: "Blazegold Armor"
+	task.769744CFA9DB671F.title: "Echo-Location"
 	task.76987C0F742A8A14.title: "&fSpeak With The &6Echo of Infinity"
 	task.76D42E59F98B63FA.title: "Reward Check"
 	task.7747C8ECA64D179D.title: "&fSpeak With The &dEcho of Guidance"
 	task.77CB0065516AC9D6.title: "Find The &bFrosted Prison&r Dungeon"
 	task.77D5AFC1BC5F67C9.title: "World Engine Craft Unlocks"
-	task.77F88B2E5E3A0AE2.title: "&fSpeak With The &6Echo of Chaos"
+	task.77F88B2E5E3A0AE2.title: "&fSpeak With &6Chaos"
 	task.7805089FB14CE3E1.title: "&fSpeak With The &dEcho of The Infernal"
 	task.782E4A45A331FB27.title: "Echo Waypoint"
 	task.78780481BF9D2140.title: "Find An Ice Spider Den"
@@ -6125,11 +6397,13 @@
 	task.7921E8D54B0095CE.title: "Dark Matter Tools"
 	task.794B10BF050056EB.title: "Better Enchanting Bookshelves"
 	task.79B0BA2223437C7E.title: "Chaotic Tools"
+	task.79B58E484D4196CD.title: "&eKill&f: &dThe Leviathan"
 	task.79CCC49178D03422.title: "Auto-Build the World Engine Upgrade"
 	task.7A0B3916B2B15F4C.title: "twilight"
 	task.7A46B063C798C2D5.title: "Cooldown Timer"
 	task.7A9E3DADF485CCB4.title: "some craft"
 	task.7A9F1E65CFB92BDF.title: "void east"
+	task.7AC3BD79A70049CA.title: "&eKill&f: &#FCD205Priest"
 	task.7B3908878D77CBC9.title: "Echo-Location"
 	task.7BDED38E6532CB94.title: "Processing Upgrades"
 	task.7C552DAEA902AA13.title: "Speed Upgrades"
@@ -6141,11 +6415,13 @@
 	task.7CECE0F1C53701B6.title: "Magical Tools"
 	task.7D75B40EC4AF799A.title: "Just Dire Things Machines"
 	task.7D8611641B6611FB.title: "&fSpeak With The &dEcho of Guidance"
+	task.7D9038B9019EBFEC.title: "&eFind&f: &dcataclysm:ruined_citadel"
 	task.7D91A1EAA7FEC6BD.title: "Things the Guides Should Say"
 	task.7E02151602B34E2A.title: "Dimensional Storage Stabilizer"
 	task.7E4EF12285852B6E.title: "Plant Harvesting Options"
 	task.7ECEEC776BBA8B53.title: "Speak With The &dEcho of Guidance"
 	task.7F49EBC813E06257.title: "world engine"
+	task.7F73108709C402C8.title: "Late Game Generators"
 	task.7F7FC9A4E8AADA7F.title: "Villager Trading"
 	task.7FAA87B19ACACCBC.title: "Any Dye"
 	task.7FF2F415F5685DBA.title: "Remove Create Echo Unlock"

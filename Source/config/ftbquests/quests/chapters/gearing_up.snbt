@@ -297,6 +297,27 @@
 			x: 0.0d
 			y: 0.0d
 		}
+		{
+			color: 16711680
+			height: 5.0d
+			image: "ftbquests:textures/shapes/hexagon/outline.png"
+			order: -3
+			rotation: 90.0d
+			width: 5.0d
+			x: 0.0d
+			y: -5.5d
+		}
+		{
+			alpha: 55
+			color: 0
+			height: 4.0d
+			image: "ftbquests:textures/shapes/hexagon/shape.png"
+			order: -3
+			rotation: 90.0d
+			width: 4.0d
+			x: 0.0d
+			y: -5.5d
+		}
 	]
 	order_index: 2
 	quest_links: [ ]
@@ -1977,7 +1998,7 @@
 			id: "496903AB7E8A0A92"
 			min_width: 300
 			rewards: [{
-				amount: 1
+				amount: 5
 				id: "59307965CCFFE159"
 				type: "currency"
 			}]
@@ -2004,7 +2025,7 @@
 			id: "3900E67C8B833980"
 			optional: true
 			rewards: [{
-				amount: 1
+				amount: 5
 				id: "67F69850909AD2C6"
 				type: "currency"
 			}]
@@ -2029,7 +2050,7 @@
 			}
 			id: "26D7C5298D95C69A"
 			rewards: [{
-				amount: 1
+				amount: 3
 				id: "2E81F525AC13EE49"
 				type: "currency"
 			}]
@@ -2107,7 +2128,7 @@
 				id: "2F51E89EEE20756F"
 				type: "currency"
 			}]
-			shape: "square"
+			shape: "rsquare"
 			size: 1.0d
 			tasks: [
 				{
@@ -2131,11 +2152,11 @@
 			id: "3D0DC34C36A173F5"
 			optional: true
 			rewards: [{
-				amount: 3
+				amount: 10
 				id: "58DBE8EEF259A8E8"
 				type: "currency"
 			}]
-			shape: "square"
+			shape: "rsquare"
 			size: 1.0d
 			tasks: [
 				{
@@ -2170,7 +2191,7 @@
 				id: "52A3A14036D7EE8D"
 				type: "currency"
 			}]
-			shape: "square"
+			shape: "rsquare"
 			size: 1.0d
 			tasks: [{
 				id: "7676F058DAC567F5"
@@ -2797,7 +2818,7 @@
 				id: "5DB97036533429E8"
 				type: "currency"
 			}]
-			shape: "square"
+			shape: "rsquare"
 			tasks: [
 				{
 					id: "611350C845CBFDD9"
@@ -2810,7 +2831,7 @@
 					type: "item"
 				}
 			]
-			x: 1.5d
+			x: 2.0d
 			y: -5.5d
 		}
 		{
@@ -2873,7 +2894,7 @@
 				id: "7FA489D9A0633BA8"
 				type: "currency"
 			}]
-			shape: "square"
+			shape: "rsquare"
 			tasks: [{
 				id: "3A0AA4ECFE92B8F8"
 				item: { components: { "ftbfiltersystem:filter": "or(item_tag(curios:adv_pattern_encoder)item_tag(curios:all)item_tag(curios:an_focus)item_tag(curios:back)item_tag(curios:belt)item_tag(curios:body)item_tag(curios:bracelet)item_tag(curios:brooch)item_tag(curios:bundle)item_tag(curios:charm)item_tag(curios:curio)item_tag(curios:deep_learner)item_tag(curios:feet)item_tag(curios:geas)item_tag(curios:hands)item_tag(curios:head)item_tag(curios:heart_amulet)item_tag(curios:klein_star)item_tag(curios:necklace)item_tag(curios:pipegoggles)item_tag(curios:psd)item_tag(curios:qio)item_tag(curios:ring)item_tag(curios:rune)item_tag(curios:spellbook)item_tag(curios:teleporter))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
@@ -3095,14 +3116,39 @@
 				id: "6EE41DCA28CD3FDB"
 				type: "currency"
 			}]
-			shape: "square"
+			shape: "rsquare"
 			tasks: [{
 				id: "3CB07FD3F54AFA92"
 				item: { components: { "ftbfiltersystem:filter": "or(mod(relics))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: -1.5d
+			x: -2.0d
 			y: -5.5d
+		}
+		{
+			icon: {
+				id: "actuallyadditions:fermenting_barrel"
+			}
+			id: "4D64F277A4330749"
+			rewards: [{
+				amount: 1
+				id: "1161A5E5F5ADFA2A"
+				type: "currency"
+			}]
+			shape: "square"
+			tasks: [
+				{
+					id: "08F70556D06E7B86"
+					type: "checkmark"
+				}
+				{
+					id: "08D1694DFD199F2E"
+					item: { components: { "ftbfiltersystem:filter": "or(item(minecraft:redstone_block)item(minecraft:lapis_block)item(minecraft:glowstone))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+			]
+			x: 5.5d
+			y: 0.0d
 		}
 	]
 }

@@ -8,14 +8,25 @@
 		id: "create:fluid_pipe"
 	}
 	id: "5653350BC99D4290"
-	images: [{
-		height: 2.0d
-		image: "ftb:textures/quests/other_titles_and_logos/logistics_title.png"
-		rotation: 0.0d
-		width: 13.41d
-		x: 0.0d
-		y: -4.5d
-	}]
+	images: [
+		{
+			height: 1.0d
+			image: "ftb:textures/quests/other_titles_and_logos/logistics_title.png"
+			rotation: 0.0d
+			width: 6.0d
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			height: 6.0d
+			image: "immersiveengineering:textures/models/blueprint_frame.png"
+			order: -2
+			rotation: 0.0d
+			width: 7.0d
+			x: 0.0d
+			y: -0.25d
+		}
+	]
 	order_index: 4
 	quest_links: [ ]
 	quests: [
@@ -56,8 +67,8 @@
 					type: "item"
 				}
 			]
-			x: 2.0d
-			y: -1.0d
+			x: 1.0d
+			y: -1.5d
 		}
 		{
 			icon: {
@@ -155,7 +166,7 @@
 					type: "item"
 				}
 			]
-			x: -1.0d
+			x: 0.0d
 			y: 1.5d
 		}
 		{
@@ -277,7 +288,7 @@
 				}
 			]
 			x: 0.0d
-			y: -2.0d
+			y: -1.5d
 		}
 		{
 			icon: {
@@ -287,6 +298,7 @@
 				id: "ftbquests:custom_icon"
 			}
 			id: "718C72A43E57B75A"
+			optional: true
 			rewards: [{
 				amount: 1
 				id: "7762E294281EA097"
@@ -317,8 +329,8 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item(justdirethings:blockplacert1)item(justdirethings:fluidplacert1)item(justdirethings:droppert1)item(justdirethings:blockbreakert1)item(justdirethings:fluidcollectort1)item(justdirethings:clickert1))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 1.0d
-			y: -1.5d
+			x: 2.0d
+			y: -1.0d
 		}
 		{
 			icon: {
@@ -343,8 +355,8 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
-			y: 2.0d
+			x: -1.0d
+			y: 1.5d
 		}
 		{
 			icon: {
@@ -391,7 +403,7 @@
 				item: { count: 1, id: "mekanism:quantum_entangloporter" }
 				type: "item"
 			}]
-			x: 2.5d
+			x: 2.0d
 			y: 0.0d
 		}
 		{
@@ -418,7 +430,7 @@
 				item: { count: 1, id: "tesseract:tesseract" }
 				type: "item"
 			}]
-			x: -2.5d
+			x: -2.0d
 			y: 0.0d
 		}
 	]
