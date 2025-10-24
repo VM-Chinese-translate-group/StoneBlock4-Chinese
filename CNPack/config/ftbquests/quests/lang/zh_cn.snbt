@@ -55,13 +55,13 @@
 	quest.009FE1E1B3017486.quest_desc: ["&c生物屠宰厂&r不仅可以屠宰友好生物获取肉汤，还能把它们变成&d粉红黏液&r。你需要粉红黏液才能继续发展&e工业先锋&r。"]
 	quest.009FE1E1B3017486.title: "&c生物屠宰厂"
 	quest.00A7C1FE54F86429.quest_desc: [
-		"&eApotheosis&r overhauls the vanilla enchanting system with three new values, allowing for high-level enchants with upgradable progression. You will want to manage these values as you progress through upgrading your enchanting setup:"
+		"&e神化&r模组利用三种新属性大幅修改了原版附魔系统，使玩家可以升级过的附魔台中进行更高阶的附魔。在升级附魔设备的过程中，你需要合理安排这三个属性的数值："
 		""
-		"&aEterna&r: The power of the enchanting table, capped based on the tier of your bookshelves. This stat determines the maximum level of enchants."
+		"&a位阶&r：这是附魔台的力量源泉，其最大值取决于你的书架等级。这个属性决定了附魔的最高等级。"
 		""
-		"&cQuanta&r: The chaos inherent when enchanting at higher power. This determines the randomness of enchants."
+		"&c量子化&r：这是进行高阶附魔时必然产生的混沌。这个属性决定了你附魔等级的随机性。"
 		""
-		"&dArcana&r: The overall quality and quantity of the enchantments. This determines the rarity of enchants, as well as how many enchants are applied per use."
+		"&d阿卡纳&r：阿卡纳代表着魔咒的整体质量和数量。这个属性决定了魔咒的稀有度，以及单次附魔能够获得的魔咒数量。"
 	]
 	quest.00A7DEFCF07BC63A.quest_desc: [
 		"&z红物质拳剑&r是&6等价交换&r模组中的最终兵器。"
@@ -75,33 +75,33 @@
 		"安装该组件后，你就可以燃烧各种物品发电了，比如煤炭或者木头，具体能烧什么取决于该熔炉的种类。比如说，你可以给这个发电机安装&a强化组件：高炉&r，这样它就可以烧铁或者钻石之类的矿物，发更多的电了。"
 	]
 	quest.011DBD2652E49B97.quest_desc: [
-		"&6Apotheosis&r has a new &bWorld Tier&r system that can be accessed using \"CTRL + T\" by default."
+		"&6神化&r模组添加了一个全新的&b世界层级&r系统，默认可以通过“CTRL + T”查看。"
 		""
-		"[\"You start at \", {\"text\": \"Haven\", \"color\": \"#7E7E7E\"}, \" upon acquiring your first \", {\"text\": \"Affix Item\", \"color\": \"#55FF55\"}, \", and unlock more tiers as you advance in the mod.\"]"
+		"[\"捡起第一个\", {\"text\": \"词缀物品\", \"color\": \"#55FF55\"}, \"时，你就会进入\", {\"text\": \"居所\", \"color\": \"#7E7E7E\"}, \"层级，随着你推进模组的内容，将会解锁更多的层级。\"]"
 		""
-		"Higher tiers increase the difficulty and rewards across all dimensions. These rewards can be checked in the Tiers menu (\"CTRL + T\")."
+		"随着层级升高，所有维度的怪物强度和奖励将会增加。这些变化可以在层级菜单（“CTRL+T”）中查看。"
 		""
-		"In order to progress your &bWorld Tier&r, you can check the &6Apotheosis&r advancements using \"L\" by default, and going to the tab with a skull to guide you through the progression."
+		"要提升你的&b世界层级&r，你可以按“L”（默认按键）来查看&6神化&r模组的进度，然后转到带有头颅的选项卡，它会指导你推进模组进度。"
 		""
-		"You can also check the next page on this quest for all of the requirements."
+		"你也可以查看此任务的下一页以查看解锁所有层级需求的条件。"
 		"{@pagebreak}"
-		"&bWorld Tiers&r"
+		"&b世界层级&r"
 		""
-		"[\"\", {\"text\": \"Haven\", \"color\": \"#7E7E7E\"}, \" - Acquire your first \", {\"text\": \"Affix\", \"color\": \"#55FFFF\"}, \" gear.\"]"
+		"[\"\", {\"text\": \"居所\", \"color\": \"#7E7E7E\"}, \" - 获得第一个\", {\"text\": \"词缀\", \"color\": \"#55FFFF\"}, \"装备。\"]"
 		""
-		"[\"\", {\"text\": \"Frontier\", \"color\": \"#55FF55\"}, \" - Equip a full set of \", {\"text\": \"Common\", \"color\": \"#7E7E7E\"}, \" or higher \", {\"text\": \"Affix\", \"color\": \"#55FFFF\"}, \" gear.\"]"
+		"[\"\", {\"text\": \"边境\", \"color\": \"#55FF55\"}, \" - 穿上一整套\", {\"text\": \"普通\", \"color\": \"#7E7E7E\"}, \"或更高级\", {\"text\": \"词缀\", \"color\": \"#55FFFF\"}, \"的装备。\"]"
 		""
-		"[\"\", {\"text\": \"Ascent\", \"color\": \"#5454FC\"}, \" - Equip a full set of \", {\"text\": \"Uncommon\", \"color\": \"#55FF55\"}, \" or higher \", {\"text\": \"Affix\", \"color\": \"#55FFFF\"}, \" gear and slay an \", {\"text\": \"Apotheosis\", \"color\": \"#FFAA00\"}, \" boss monster.\"]"
+		"[\"\", {\"text\": \"攀升\", \"color\": \"#5454FC\"}, \" - 穿上一整套\", {\"text\": \"罕见\", \"color\": \"#55FF55\"}, \"或更高级\", {\"text\": \"词缀\", \"color\": \"#55FFFF\"}, \"的装备，并击杀一名\", {\"text\": \"神化\", \"color\": \"#FFAA00\"}, \"Boss。\"]"
 		""
-		"[\"\", {\"text\": \"Summit\", \"color\": \"#B900B9\"}, \" - Equip a full set of \", {\"text\": \"Rare\", \"color\": \"#5454FC\"}, \" or higher \", {\"text\": \"Affix\", \"color\": \"#55FFFF\"}, \" gear and slay the Wither\"]"
+		"[\"\", {\"text\": \"高峰\", \"color\": \"#B900B9\"}, \" - 穿上一整套\", {\"text\": \"稀有\", \"color\": \"#5454FC\"}, \"或更高级\", {\"text\": \"词缀\", \"color\": \"#55FFFF\"}, \"的装备，并击杀凋灵\"]"
 		""
 		"[\"\", {\"text\": \"Pinnacle\", \"color\": \"#EA6F14\"}, \" - Equip a full set of \", {\"text\": \"Epic\", \"color\": \"#B900B9\"}, \" or higher \", {\"text\": \"Affix\", \"color\": \"#55FFFF\"}, \" gear and slay the Chicken Jockey Boss\"]"
 		""
-		"Changes for each tier can be checked in the &bWorld Tiers&r menu (\"CTRL + T\" by default)."
+		"可以在&b世界层级&r菜单（默认为“CTRL+T”）中查看每个层级的变化。"
 	]
-	quest.011DBD2652E49B97.title: "&fApothic World Tiers"
+	quest.011DBD2652E49B97.title: "&f神化世界层级"
 	quest.012AEBFDB1F1512E.quest_desc: ["&eJust Dire Things&r盔甲可以使用&a锻造模板&r进行升级，并且可以加装升级，因其作为盔甲来讲，其比下界合金更加合适。"]
-	quest.012AEBFDB1F1512E.title: "&fJust Dire's Armor"
+	quest.012AEBFDB1F1512E.title: "&fJust Dire Things模组的盔甲"
 	quest.012DF07A81C69AAA.quest_subtitle: "主要世界引擎升级"
 	quest.012DF07A81C69AAA.title: "&dResonant Void&r"
 	quest.0138DA9E72BF9CE0.quest_desc: ["这个指南针会指引你前往最近的&a治愈之泉&r。"]
@@ -170,7 +170,7 @@
 	quest.02BC8FCDB2D94F0E.quest_desc: [
 		"提交&3升级&f所需的方块并领取奖励，即可自动为你的团队组装&6世界引擎&r。"
 		""
-		"&e提示&f：任何放置在升级位置的方块都将消失。"
+		"&e注意&f：任何放置在升级位置的方块都将消失。"
 	]
 	quest.02BC8FCDB2D94F0E.title: "&f自动建造&3量子隧道升级"
 	quest.02F6AC9E53029E0A.quest_desc: [
@@ -193,9 +193,9 @@
 	quest.033F3D2427ED6F40.quest_subtitle: "允许更多类型的红石信号控制"
 	quest.0355F5FB00143754.title: "Fabricator Check 1"
 	quest.036047DE66198D10.quest_desc: [
-		"如果&a树叶&r烘干了，就可以用来制作更坚韧的纤维。"
+		"烘干后的&a树叶&r可以制成更坚韧的纤维。"
 		""
-		"制作一个&a营火&r，把&a树叶&r放在上面将其烘干。烘干后，你就可以用&a钩子&r破坏它们，它们会掉落草秆。"
+		"制造一个&a营火&r，把&a树叶&r放在上面烘干，烘干后，用&a钩子&r破坏它们，就可以获得草秆。"
 	]
 	quest.036047DE66198D10.title: "&fFeel The Burn"
 	quest.036C11AC70835846.quest_desc: [
@@ -266,9 +266,9 @@
 	quest.04E68DA90DC83B45.quest_desc: [
 		"提交&3升级&f所需的方块并领取奖励，即可自动为你的团队组装&6世界引擎&r。"
 		""
-		"You will still need to set up and connect a rotational power source close to the &6World Engine&r."
+		"你仍然需要在&6世界引擎&r附近建造并连接一个旋转动力源。"
 		""
-		"&eNote&f: Any blocks placed where an upgrade should go will be voided."
+		"&e注意&f：任何放置在升级位置的方块都将消失。"
 	]
 	quest.04E68DA90DC83B45.title: "&f自动建造&3暗影机壳升级"
 	quest.0533C0C07AE600FD.quest_desc: [
@@ -398,7 +398,7 @@
 		"The &dEntangloporters&r have a buffer, so it can store a small amount of power, gases, etc. You'll want to set the sides up properly to determine what goes in and out of the block, especially if you are using these to transfer gases!"
 	]
 	quest.081EA35CCBDF793F.quest_desc: [
-		"Chickens will need a place to lay eggs and/or resources, which is what the &2Roost&r is for."
+		"小鸡需要一块地方来产蛋或资源，这就是&2鸡窝&r的作用。"
 		""
 		"While chickens are in a &2Roost&r, they will need seeds matching their tier to produce resources. These tiered seeds are crafted using &bSouls&r."
 		""
@@ -477,7 +477,7 @@
 		""
 		"在获得这个碎片后，你应该能看到&d魔法师的回响&r。"
 		""
-		"&e提示&r：&d魔法师&r提到，&d领路者&r在你完成他们的一些任务后也可以提供一些物品供你购买。"
+		"&e注意&r：&d魔法师&r提到，&d领路者&r在你完成他们的一些任务后也可以提供一些物品供你购买。"
 	]
 	quest.0A3C1CD48C85E17D.title: "&f从监守者那里偷东西"
 	quest.0A6E103A6945D11E.quest_desc: [
@@ -502,11 +502,11 @@
 		"此外，这也是唯一一种能够修复&e碎裂促符&r的方法。"
 	]
 	quest.0AAA6858DAF43067.quest_desc: [
-		"仅靠圆石，你只能走到这一步了。"
+		"圆石只能带你走到这一步了。"
 		""
-		"制作一把&a石锤&r，这样你就能把圆石敲碎成更精细的材料。圆石里面肯定藏着一些矿物！"
+		"制作一把&a石锤&r，这样就能把圆石敲碎成更精细的材料了。这里面肯定藏着矿物！"
 	]
-	quest.0AAA6858DAF43067.title: "&f从轻轻一击到强力粉碎"
+	quest.0AAA6858DAF43067.title: "&fFrom Punching To Smashing"
 	quest.0ABD10520EAB1C57.quest_desc: [
 		"&a存储控制器&r能连接大量抽屉并与其进行交互。对于要进进出出的自动化抽屉系统来说，这玩意简直是神器啊！"
 		""
@@ -697,7 +697,7 @@
 	quest.0E06BDC6265EB7F7.quest_desc: [
 		"&3ME控制器&r可以用来增加一个网络中的频道数量，这个东西在游戏初期并不是特别重要的东西，因为你初始网络自带36个频道。但是一个没有&3控制器&r的网络只能&b暂时拿来用用&r。"
 		""
-		"&eNote&r: &3Controllers&r require the &bFortron Infused Block&r &6World Engine Upgrade&r to craft."
+		"&e注意&r：要合成&3控制器&r，需要先用&b力场子灌注块&r进行&6世界引擎升级&r。"
 		"{@pagebreak}"
 		"&3ME控制器&r是你的ME网络路由中心，一个网络内不允许存在两个互相独立的&3ME控制器&r。如果实在需要大量频道的话，你可以选择建造一个巨大的&3ME控制器&r多方块结构。"
 		""
@@ -804,14 +804,14 @@
 	quest.0FF5D73B3256F400.quest_desc: [
 		"提交&3升级&f所需的方块并领取奖励，即可自动为你的团队组装&6世界引擎&r。"
 		""
-		"&e提示&f：任何放置在升级位置的方块都将消失。"
+		"&e注意&f：任何放置在升级位置的方块都将消失。"
 	]
 	quest.0FF5D73B3256F400.title: "&f自动建造&3精魄升级"
 	quest.0FFC6CBB213B30AD.quest_desc: ["消耗奶与黏液球发电。"]
 	quest.101B8D9769D835AB.quest_desc: [
 		"提交&3升级&f所需的方块并领取奖励，即可自动为你的团队组装&6世界引擎&r。"
 		""
-		"&e提示&f：任何放置在升级位置的方块都将消失。"
+		"&e注意&f：任何放置在升级位置的方块都将消失。"
 	]
 	quest.101B8D9769D835AB.title: "&f自动建造&3时空粒子升级"
 	quest.106A9E7AD6051D8C.title: "Guidance Completed 3"
@@ -893,7 +893,7 @@
 	quest.137EC884018376A1.quest_desc: [
 		"&c下界合金&r盔甲提供充足的防御力，只是你需要&a远古残骸&r和&c远古升级锻造模板&r……"
 		""
-		"[\"想早早的获得\", {\"text\": \"远古残骸\", \"color\": \"green\"}, \"你可以前往\", { \"text\": \"下界地牢\", \"color\": \"red\", \"underlined\": true, \"clickEvent\": {\"action\": \"change_page\", \"value\": \"21A521011401074F\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"前往寻找下界地牢的任务\"}}, \"其会在深板岩环区域生成。\" ]"
+		"[\"想早早的获得\", {\"text\": \"远古残骸\", \"color\": \"green\"}, \"，你可以前往\", { \"text\": \"下界地牢\", \"color\": \"red\", \"underlined\": true, \"clickEvent\": {\"action\": \"change_page\", \"value\": \"21A521011401074F\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"前往寻找下界地牢的任务\"}}, \"其会在深板岩环区域生成。\" ]"
 	]
 	quest.137EC884018376A1.title: "&f原版下界合金盔甲"
 	quest.13874944C284A510.quest_desc: [
@@ -954,7 +954,7 @@
 	quest.14537A63D3BDC09B.quest_desc: [
 		"提交&3升级&f所需的方块并领取奖励，即可自动为你的团队组装&6世界引擎&r。"
 		""
-		"&e提示&f：任何放置在升级位置的方块都将消失。"
+		"&e注意&f：任何放置在升级位置的方块都将消失。"
 	]
 	quest.14537A63D3BDC09B.title: "&f自动建造&3低吟金属升级"
 	quest.1461682BD1978BA8.quest_desc: [
@@ -1173,7 +1173,7 @@
 	quest.1AA08B095A8B378F.quest_desc: [
 		"建立自动化产线的时候，从抽屉中存入或取出物品会很麻烦，所以存储工具就派上用场了！"
 		""
-		"The &3Configuration Tool&r is used to lock Drawers to only interact with certain items. This is super useful when you are constantly pulling or pushing items from Drawers!"
+		"&3配置工具&r是用来锁定抽屉存放物品种类的，如果你要从抽屉中一直存取同类物品的话，那么它就能派上用场了！"
 		"{@pagebreak}"
 		"&e专业提示&r：如果你把抽屉都连上了&a存储控制器&r，那么可以对存储控制器使用配置工具，这样一次就能锁定所有抽屉！"
 		""
@@ -1368,11 +1368,11 @@
 	]
 	quest.1F1C11D77667DEB4.title: "&d三阶&fCAD核心"
 	quest.1F66695405A4863D.quest_desc: [
-		"The &dChroniton Star&r is filled with the power to alter time and space."
+		"&d时空粒子之星&r充满了改变时间和空间的力量。"
 		""
 		"使用&6世界引擎&r，你能抽取这种能量，通过将其自身的能量注入&2时空粒子玻璃&r来升级&6世界引擎&r本身。"
 		""
-		"&eNote&r: The &dChroniton Star&r can be restored once you've upgraded the &6World Engine&r with the glass."
+		"&e注意&r：使用时空粒子玻璃升级&6世界引擎&r后，&d时空粒子之星&r可以复原。"
 	]
 	quest.1F66695405A4863D.quest_subtitle: "次要世界引擎升级"
 	quest.1F66695405A4863D.title: "&f时空玻璃"
@@ -1383,14 +1383,14 @@
 		""
 		"&e注意&f：如果你在和朋友一起玩，先完成这个任务并到达你的基地，&n然后&r再邀请其他人加入你的队伍。"
 	]
-	quest.1F9D3474C8A655A9.title: "&f一条神秘之路……"
+	quest.1F9D3474C8A655A9.title: "&f神秘之路……"
 	quest.1FE2B36C234A35C9.quest_desc: ["The &2Apothecarist&r can be found in the &aTale of Life and Death&r Gateway."]
 	quest.1FEEBCA6D633B479.quest_desc: [
 		"&e末影存储&r可以实现跨维度存储流体和物品。"
 		""
 		"相同颜色排列的&a末影箱子&r之间互通，用任意颜色的染料对着它的羊毛右击就可以改变颜色。"
 		""
-		"&eNote&r: Crafting these requires the &bChroniton Glass&r &6World Engine Upgrade&r."
+		"&e注意&r：要合成此物，需要先用&b时空粒子玻璃&r进行&6世界引擎升级&r。"
 		"{@pagebreak}"
 		"&a末影袋子&r可以让你远程访问相同颜色的&a末影箱子&r，对着目标箱子右击就可以将袋子颜色变为箱子颜色。"
 		""
@@ -1417,7 +1417,7 @@
 	quest.206987FC6B1524F8.title: "&a原子再构机"
 	quest.206F8B25D5A3CB7E.title: "Catalyst Meet"
 	quest.20D7DA6055C540FA.quest_desc: [
-		"Most quests in the Bounty Board are repeatable and &arefresh every 24 hours&r!"
+		"悬赏板中的大多数任务都是可重复且&a每24小时刷新&r的！"
 		""
 		"每个任务中的时钟任务将在你领取奖励后显示冷却时间。"
 	]
@@ -1456,7 +1456,7 @@
 		""
 		"&eNote&r: A single &6Neutron Collector&r should be enough to power 2 &zNeutron Activators&r infinitely."
 	]
-	quest.21322BAF061FE83F.title: "&zNeutron Activator&r"
+	quest.21322BAF061FE83F.title: "&z中子活化器&r"
 	quest.213FE1D19D589513.quest_desc: [
 		"利用&e心之容器&r模组，你可以增加你的最大生命值，最多可以增加80颗心（160点生命值）。只需在&a心之容器&r中放上每种不同等级的心之容器各20个即可。"
 		""
@@ -1506,7 +1506,7 @@
 		""
 		"你离升级&6世界引擎&r又近了一大步！"
 		""
-		"Head back to the &dMachinist&r to show them your progress."
+		"回去找&d机械师&r，向他展示你的成果吧。"
 	]
 	quest.22B94BDDC08B3FA9.title: "&f列车机壳"
 	quest.231726AD865A945F.quest_desc: [
@@ -1691,7 +1691,7 @@
 	quest.28E63B302DFCF6D9.title: "&dArcana&r Items"
 	quest.28F636FAA3397479.quest_desc: ["&6RF工具&r模组的&a基础燃煤发电机&r是一种简单方便的发电机，它可以消耗熔炉燃料产能。"]
 	quest.28F636FAA3397479.title: "&f基础燃煤发电机"
-	quest.294AB45D52BE342B.title: "&6Create's &eInventory System"
+	quest.294AB45D52BE342B.title: "&6机械动力&e的仓储系统"
 	quest.2950D495BCF2D52D.quest_desc: [
 		"为了升级&6世界引擎&r，你需要制造一些基础的机器，帮你加工材料。"
 		""
@@ -1701,7 +1701,7 @@
 		""
 		"[\"\", {\"text\": \"注意\", \"color\": \"yellow\"},  \"：你可以查阅\", {\"text\": \"能源\", \"color\": \"red\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"391B65CD04A90459\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"前往能源章节\"}}, \"章节以了解更多游戏早期可用的发电方式。\"]"
 		""
-		"You should return to the &dQuartermaster&r once you have completed his task."
+		"完成&d军需官&r给你的任务后，请回去找他。"
 	]
 	quest.2950D495BCF2D52D.title: "&f金属灌注"
 	quest.2AB07DEF9E14C784.title: "Stage 3 'or' Check"
@@ -1769,7 +1769,7 @@
 		""
 		"最多可以在GUI中放入8个物品，来提供特殊的增益。"
 		"{@pagebreak}"
-		"提示：GUI中的小数字展示了制造咖啡时物品的消耗顺序，所以仔细规划增益的获得顺序。"
+		"注意：GUI中的小数字展示了制造咖啡时物品的消耗顺序，所以仔细规划增益的获得顺序。"
 		""
 		""
 		"你可以酿造出以下的Buff："
@@ -1886,7 +1886,7 @@
 		""
 		"对于那些渴望挑战的人来说，该整合包的最终挑战是完成&dWorld Engine&r。行不行啊你？"
 	]
-	quest.2F15D918EF183051.title: "Welcome To &6Stoneblock 4&r!"
+	quest.2F15D918EF183051.title: "欢迎来到&6石头世界4&r！"
 	quest.2F2DC018DD6A2A23.quest_desc: [
 		"大多数&b珠宝&r的效果加成都来自其所镶嵌的&a宝石&r 。"
 		""
@@ -1933,7 +1933,7 @@
 		""
 		"附魔台会吸收周围书架中潜在的魔法能量。普通书架的效果可是有限的！"
 		""
-		"&eNote&r: You'll need either &aInfused Hellshelves&r or &aInfused Seashelves&r to reach the required &bEterna&r levels for progression!"
+		"&e注意&r：你需要&a灌注下界书架&r或&a灌注海洋书架&r才能达到升级所需的&b永恒&r等级！"
 	]
 	quest.30689B890F5E7A03.title: "&f注入魔法"
 	quest.308D9819EA67D3F0.quest_desc: [
@@ -2125,7 +2125,7 @@
 		"也许&d飞龙匠人&r知道点什么…"
 	]
 	quest.3371E3F69A27D1E5.title: "&f解锁&6许珀里翁"
-	quest.3382AC7FEFE0B76E.quest_desc: ["[\"想早早的获得\", {\"text\": \"远古残骸\", \"color\": \"green\"}, \"你可以前往\", { \"text\": \"下界地牢\", \"color\": \"red\", \"underlined\": true, \"clickEvent\": {\"action\": \"change_page\", \"value\": \"21A521011401074F\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"前往寻找下界地牢的任务\"}}, \"其会在深板岩环区域生成。\" ]"]
+	quest.3382AC7FEFE0B76E.quest_desc: ["[\"想早早的获得\", {\"text\": \"远古残骸\", \"color\": \"green\"}, \"，你可以前往\", { \"text\": \"下界地牢\", \"color\": \"red\", \"underlined\": true, \"clickEvent\": {\"action\": \"change_page\", \"value\": \"21A521011401074F\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"前往寻找下界地牢的任务\"}}, \"其会在深板岩环区域生成。\" ]"]
 	quest.3382AC7FEFE0B76E.title: "&f原版下界合金武器"
 	quest.33A9FF901E2D7725.quest_desc: [
 		"你需要&2钢制机壳&r才能制作该模组的机器！"
@@ -2247,7 +2247,7 @@
 		""
 		"然而，&c电阻型加热器&r能直接将电能转化为热能。还能精细调整转化的功率，而且能产生更多的热量。"
 	]
-	quest.370B05FC62884456.quest_subtitle: "Major World Engine Upgrade"
+	quest.370B05FC62884456.quest_subtitle: "主要世界引擎升级"
 	quest.370B05FC62884456.title: "&f加热物品"
 	quest.37104662F0BDDE66.quest_desc: [
 		"&e应用能源&r（&eAE2&r）是一款高度定制化的&b数字存储模组&r。"
@@ -2279,7 +2279,7 @@
 	quest.37A6FBA47B056D57.title: "暗影机壳交易"
 	quest.37CC00D0136EFDAE.title: "Guidance Check 4.1"
 	quest.37F99696A47264FD.quest_desc: ["本章节旨在教导你几种方式来打造、强化、附魔你在冒险中可能会用到的装备。"]
-	quest.37F99696A47264FD.title: "&fGearing Up For Adventure!"
+	quest.37F99696A47264FD.title: "&f穿戴整齐，出门探险！"
 	quest.38124EBC1E14AB38.quest_desc: [
 		"这个饱受折磨的灵魂掌握着另外一个&6世界引擎&r的升级方法。"
 		""
@@ -2304,7 +2304,7 @@
 	quest.383DAD591823C746.quest_desc: [
 		"提交&3升级&f所需的方块并领取奖励，即可自动为你的团队组装&6世界引擎&r。"
 		""
-		"&e提示&f：任何放置在升级位置的方块都将消失。"
+		"&e注意&f：任何放置在升级位置的方块都将消失。"
 	]
 	quest.383DAD591823C746.title: "&f自动建造&3暮色升级"
 	quest.387FB75C400B5D34.quest_desc: [
@@ -2381,17 +2381,17 @@
 	]
 	quest.39ED88D2EF2F617B.title: "符文工艺"
 	quest.39F10D110D7E77B7.quest_desc: [
-		"&cNetherite&r tools are great to use once you have your hands on  some &aAncient Debris&r and a &cNetherite Smithing Template&r."
+		"&c下界合金&r工具总是一个好的选择，只是你需要先弄到&a远古残骸&r和&c远古升级锻造模板&r。"
 		""
-		"[\"You may get \", {\"text\": \"Ancient Debris\", \"color\": \"green\"}, \" early by going to the \", { \"text\": \"Nether Dungeon\", \"color\": \"red\", \"underlined\": true, \"clickEvent\": {\"action\": \"change_page\", \"value\": \"21A521011401074F\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Go to Nether Dungeon Quest\"}}, \", which can spawn in the Deepslate Ring.\"]"
+		"[\"想早早的获得\", {\"text\": \"远古残骸\", \"color\": \"green\"}, \"，你可以前往\", { \"text\": \"下界地牢\", \"color\": \"red\", \"underlined\": true, \"clickEvent\": {\"action\": \"change_page\", \"value\": \"21A521011401074F\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"前往寻找下界地牢的任务\"}}, \"其会在深板岩环区域生成。\"]"
 	]
 	quest.39F10D110D7E77B7.title: "&f原版下界合金工具"
 	quest.39F6026AB205841A.quest_desc: [
-		"虽然该整合包包含&eFTB连锁挖矿&r模组，但它对&a石头&r并不起作用！"
+		"虽然该整合包包含&eFTB连锁挖矿&r模组，但它不能连锁挖掘&a石头&r！"
 		""
-		"使用时还需要你手持工具。"
+		"此外，你还需要手持工具才能使用。"
 	]
-	quest.39F6026AB205841A.title: "Ultimine Notes"
+	quest.39F6026AB205841A.title: "连锁破坏须知"
 	quest.3A1424B69AD511BD.quest_desc: [
 		"&e实用拓展的&a手钻&r运转时需要消耗能量，可以用不同的升级组件增强其功能。"
 		""
@@ -2569,7 +2569,7 @@
 		"Found within the lower levels of the &bTwilight Forest&r ring, you can find the &aHydra's Lair Vault&r."
 	]
 	quest.3D0CE267A8FD95CD.title: "&f九头蛇巢穴"
-	quest.3D0DC34C36A173F5.quest_desc: ["&eOritech&2模组的&2外骨骼装甲&r在探索世界时有诸多增益效果，但当你在外遇到危险时，它提供不了任何保护。"]
+	quest.3D0DC34C36A173F5.quest_desc: ["&eOritech&r模组的&2外骨骼装甲&r在探索世界时有诸多增益效果，但当你在外遇到危险时，它提供不了任何保护。"]
 	quest.3D0DC34C36A173F5.title: "&2外骨骼装甲"
 	quest.3D220672224EDBD7.quest_desc: ["所有&6CAD设备&r都有一个空间用于安装&c五&r&2颜&r&9六&r&d色&r&e的&r&b附件&r。虽然纯粹是装饰性质，但肯定能让它们看起来更酷！"]
 	quest.3D220672224EDBD7.quest_subtitle: "Time to turn your CAD into a Gamer CAD."
@@ -2700,7 +2700,7 @@
 		""
 		"他提到一个隐藏在&3深板岩&r环中的一个&3宝库&r里的秘密力量。"
 		""
-		"&e提示&r：制作一个&a探险家指南针&r可能会有用，可以帮你找到&3宝库&r！"
+		"&e注意&r：制作一个&a探险家指南针&r可能会有用，可以帮你找到&3宝库&r！"
 		""
 		"如果你设法破解这个&3宝库&r的谜题，&d时空粒子之星&r就可以任你取用。"
 	]
@@ -2786,9 +2786,9 @@
 	]
 	quest.417573A657CAED05.title: "&fCreating &cBlazegold"
 	quest.4194852B70E0ECEB.quest_desc: [
-		"&d指引者的回响&r已经教了你如何建起第一个家园。"
+		"&d指引者的回响&r已经教了你如何建起你的第一个家园。"
 		""
-		"接下来离开这些&6回响&r，穿过那道巨型传送门去开天辟地吧！"
+		"离开&6档案馆&r，穿过那道巨型传送门，去开天辟地吧！"
 	]
 	quest.4194852B70E0ECEB.title: "&f开始游玩石头世界"
 	quest.4194F3C176E50B7B.quest_desc: [
@@ -3034,15 +3034,15 @@
 	]
 	quest.45E7D62C229F898C.title: "&aME合成终端"
 	quest.464AED8311A32476.quest_desc: [
-		"Before we dive into &eApotheosis&r, we need to cover what an &bAffix&r is!"
+		"在深入游玩&e神化&r模组前，我们得先讲明白&b词缀&r究竟是什么！"
 		""
-		"An &bAffix&r is the driving force behind all &eApotheosis&r gear. Each &bAffix&r is very similar to an enchantment, providing a bonus to the item it is attached to."
+		"&b词缀&r是&e神化&r装备的力量来源。每个&b词缀&r的作用都和附魔非常相似，可以给附有该词缀的物品提供增幅。"
 		"{@pagebreak}"
-		"&bAffix&r items can be found when exploiring the world and their effects vary based on the item's rarity. They are more commonly dropped from &eApotheosis&r boss monsters which can be found in underground caves or have a chance to randomly appear during the night."
+		"你可以在探索世界的时候找到带有&b词缀&r的物品，而它们的属性加成高低主要由稀有度决定。一般情况下&e神化&rboss会掉这类物品，它们会出现在地底的洞穴，有时也会在晚上随机刷新。"
 		""
-		"There are a few different types of &bAffixes&r, each affecting a specific part of the item such as: Stats, Effects, Durability, and &bGem Sockets&r, which will be covered in the &bGems&r section."
+		"&b词缀&r有着不同的种类，一个词缀只会影响物品的一个特定部分，比如：属性、药水效果、耐久和&b宝石镶嵌槽数量&r，后者将会在&b宝石&r章节中进行介绍。"
 	]
-	quest.464AED8311A32476.title: "&fUnderstanding &aAffix &fitems"
+	quest.464AED8311A32476.title: "&f了解&a词缀&f物品"
 	quest.466E449BFD87E62F.quest_desc: ["&c远古战场&r会生成在&c下界&r环的上层。"]
 	quest.466E449BFD87E62F.title: "找到&c远古战场&r"
 	quest.469C88B6CEC1F9E7.quest_desc: [
@@ -3098,9 +3098,9 @@
 	quest.48005B47655AD525.quest_desc: [
 		"借助&d魔源宝石&r的力量，你得以制造出&2魔源中转器&r，掌控&d魔源&r的流动。"
 		""
-		"Using a &aDominion Wand&r, you can direct the flow of &dSource&r between jars."
+		"你可以使用&a支配之杖&r在魔源罐中操控&d魔源&r。"
 		""
-		"By installing the &dSource&r &3World Engine Upgrade&r, you can direct &dSource&r into the engine to craft more magical items."
+		"安装&d魔源&r&3世界引擎&r升级后，你就可以将&d魔源&r注入引擎，合成更多的魔法物品了。"
 	]
 	quest.48005B47655AD525.quest_subtitle: "次要世界引擎升级"
 	quest.48005B47655AD525.title: "&f世界引擎魔源"
@@ -3170,7 +3170,7 @@
 		""
 		"&e提示&r：&7氟石&r分解所需的&e硫酸&r量与单个&7氟石晶体l&r大致相同，但产生的&9氢氟酸&r量是九个&7氟石晶体&r的量，从而节省&e硫&r！"
 	]
-	quest.49B8310D0C7A6C55.title: "Fissile Fuel"
+	quest.49B8310D0C7A6C55.title: "裂变燃料"
 	quest.49DD167D6323406B.quest_desc: [
 		"你可以用功能性存储模组的&a流体抽屉&r来存储流体！"
 		""
@@ -3478,7 +3478,7 @@
 	quest.50B0E45705EDB5F2.quest_desc: [
 		"提交&3升级&f所需的方块并领取奖励，即可自动为你的团队组装&6世界引擎&r。"
 		""
-		"&e提示&f：任何放置在升级位置的方块都将消失。"
+		"&e注意&f：任何放置在升级位置的方块都将消失。"
 	]
 	quest.50B0E45705EDB5F2.title: "&f自动建造&3附魔升级"
 	quest.50B7A38F7E66139C.quest_desc: [
@@ -3542,7 +3542,7 @@
 	quest.51B3EF0BCEB804A4.quest_desc: [
 		"提交&3升级&f所需的方块并领取奖励，即可自动为你的团队组装&6世界引擎&r。"
 		""
-		"&e提示&f：任何放置在升级位置的方块都将消失。"
+		"&e注意&f：任何放置在升级位置的方块都将消失。"
 	]
 	quest.51B3EF0BCEB804A4.title: "&f自动建造&3神龙升级"
 	quest.51EBCDC63A047562.quest_desc: [
@@ -3758,7 +3758,7 @@
 	quest.5804356B2AFCF14A.quest_desc: [
 		"提交&3升级&f所需的方块并领取奖励，即可自动为你的团队组装&6世界引擎&r。"
 		""
-		"&e提示&f：任何放置在升级位置的方块都将消失。"
+		"&e注意&f：任何放置在升级位置的方块都将消失。"
 	]
 	quest.5804356B2AFCF14A.title: "&f自动建造&3无尽升级"
 	quest.580866E99C53DB3E.quest_desc: [
@@ -3949,7 +3949,7 @@
 	quest.5C8773D5561D7245.quest_desc: [
 		"提交&3升级&f所需的方块并领取奖励，即可自动为你的团队组装&6世界引擎&r。"
 		""
-		"&e提示&f：任何放置在升级位置的方块都将消失。"
+		"&e注意&f：任何放置在升级位置的方块都将消失。"
 	]
 	quest.5C8773D5561D7245.title: "&f自动建造&3觉醒核心升级"
 	quest.5CD461E6C3E8E7D1.quest_desc: [
@@ -4086,7 +4086,7 @@
 	quest.5FDB9EC42FE936C6.quest_desc: [
 		"提交&3升级&f所需的方块并领取奖励，即可自动为你的团队组装&6世界引擎&r。"
 		""
-		"&e提示&f：任何放置在升级位置的方块都将消失。"
+		"&e注意&f：任何放置在升级位置的方块都将消失。"
 	]
 	quest.5FDB9EC42FE936C6.title: "&f自动建造&3共振虚空升级"
 	quest.5FFC80176D33E4E1.quest_desc: [
@@ -4136,21 +4136,21 @@
 	]
 	quest.60BBE214131DF6EB.title: "Simulating Loot"
 	quest.60FDF616DEDE5E73.quest_desc: [
-		"&eApotheosis&r overhauls exploration and combat by creating a more RPG-like experience."
+		"&e神化&r模组通过打造类似于RPG游戏的体验，将原版的探索与战斗进行了大改。"
 		""
-		"Items and mobs you can find in the world can have special &bAffixes&r on them, making them much stronger, and sometimes giving them special abilities to make things even more fun!"
+		"无论是你在世界中探索得到的物品，还是偶然遭遇的怪物，都有可能带有一个特殊的&b词缀&r。词缀会让带有它的物品/生物更为强大，有时甚至还能带来特殊的能力，让你的探索充满乐趣。"
 		""
-		"If you feel lost, you can always refer to the &aChronicle of Shadows&r, which is the guide book for the mod."
+		"如果你感到不知所措的话，记得去查阅&a阴影编年史&r，那是本模组的指导书。"
 	]
-	quest.60FDF616DEDE5E73.title: "&eApothic Gems&f!"
+	quest.60FDF616DEDE5E73.title: "&e神化宝石&f！"
 	quest.6120A9478D66C2F9.quest_desc: [
-		"With the &aStraw&r that you've made, you are finally able to make a basic version of the most important tool on your journey: &3The Crude Brush&r."
+		"有了&a草秆&r，你就可以做出游戏中最重要的工具的基础版本了：&3粗制刷子&r。"
 		""
-		"With a gentle hand and a stroke of the &3Brush&r, you'll be able to find the minerals hidden inside the broken stones."
+		"挥动&3刷子&r，在碎石中小心地搜寻，你就可以找到其中埋藏的矿物了。"
 		""
-		"You should return to the &dEcho of Guidance&r to show him your progress."
+		"现在回去找&d指引者的回响&r，向他展示你的成果吧。"
 		""
-		"&eNote&r: You can use /spawn to return to the lobby."
+		"&e注意&r：你可以用/spawn返回大厅。"
 	]
 	quest.6120A9478D66C2F9.title: "&fThe Strands of Time"
 	quest.615D1A52ED3A9C78.quest_desc: [
@@ -4331,7 +4331,7 @@
 	quest.65B10C46C1AE5026.quest_desc: [
 		"提交&3升级&f所需的方块并领取奖励，即可自动为你的团队组装&6世界引擎&r。"
 		""
-		"&e提示&f：任何放置在升级位置的方块都将消失。"
+		"&e注意&f：任何放置在升级位置的方块都将消失。"
 	]
 	quest.65B10C46C1AE5026.title: "&f自动建造&3黑暗虚空升级"
 	quest.65C1A809B6A22758.title: "Wyrmwright Check 2"
@@ -4509,9 +4509,9 @@
 	quest.6B2F4AA722DAC535.quest_desc: ["消耗下界之星发电。"]
 	quest.6B31A5D836677A89.title: "Wyrmwright Check 3"
 	quest.6B387999FBEE2E9E.quest_desc: [
-		"这个整合包有着各种各样的随机事件，但它们在默认情况下是不会发生的。完成这个任务，就可以启用它们！"
+		"这个整合包里有各种各样的随机事件，但它们在默认情况下是不会发生的。完成这个任务，就可以启用它们！"
 		""
-		"&e注意&r：有些随机事件包含跳杀元素。你可以通过&b/events toggle <事件名>&r这个指令来禁用或启用各种事件。"
+		"&e注意&r：有些随机事件包含跳杀元素。你可以通过&b/events toggle <事件名>&r这个指令来启用或禁用各种事件。"
 	]
 	quest.6B387999FBEE2E9E.title: "&6FTB事件"
 	quest.6B391D0B32AF8529.quest_desc: ["制得足量的&2暗影钢&r后，请回到&d机械师&r处，他会告诉你这些东西需要装在&6世界引擎&r的什么位置上。"]
@@ -4888,7 +4888,7 @@
 	quest.727070B13B966DE1.quest_desc: [
 		"提交&3升级&f所需的方块并领取奖励，即可自动为你的团队组装&6世界引擎&r。"
 		""
-		"&e提示&f：任何放置在升级位置的方块都将消失。"
+		"&e注意&f：任何放置在升级位置的方块都将消失。"
 	]
 	quest.727070B13B966DE1.title: "&f自动建造&3超立方体升级"
 	quest.72766EEF59130E19.title: "&f游玩&c25&r小时"
@@ -5048,7 +5048,7 @@
 	quest.76673B8374630924.quest_desc: [
 		"提交&3升级&f所需的方块并领取奖励，即可自动为你的团队组装&6世界引擎&r。"
 		""
-		"&e提示&f：任何放置在升级位置的方块都将消失。"
+		"&e注意&f：任何放置在升级位置的方块都将消失。"
 	]
 	quest.76673B8374630924.title: "&f自动建造&3机器方块升级"
 	quest.7675666E156F0A94.quest_desc: [
@@ -5158,7 +5158,7 @@
 	quest.78115154B5DC07B3.quest_desc: ["此方块在所有种类的&d菌丝网络发电机&r同时工作时，可产生&62500万RF/t&r的能量。"]
 	quest.78115154B5DC07B3.title: "&f菌丝网络产能反应堆"
 	quest.781D7DA09E444B95.quest_desc: [
-		"The &dWeeping Well&r can be found within the &7Deepslate&r or in the &dArcane Grove&r structure."
+		"可以在&7深板岩环&r或者&d奥术林地&r中找到&d哭泣之井&r。"
 		""
 		"这个结构散发着低语、心跳和哭泣的声音，它那黑暗的引力正向外界索取着某些物品。它……有想要的东西。试着把你的&e奥术全典&r交给它，或者给它一些粗矿，看看你会得到什么回报。"
 		""
@@ -5284,7 +5284,7 @@
 		""
 		"这对于建造可能会导致FPS下降的农场非常有用。"
 		""
-		"&e提示&r：这些是&z仅限商店&r的物品！"
+		"&e注意&r：这些是&z仅限商店&r的物品！"
 	]
 	quest.7ACCC2EECD9883FD.quest_desc: ["&e认知&r工具和钻石工具属性相同，但具有更远的交互/挖掘距离。"]
 	quest.7ACCC2EECD9883FD.title: "&e认知&f工具"
@@ -5474,7 +5474,7 @@
 	quest.7EEBD17F0EA6EE0C.quest_desc: [
 		"提交&3升级&f所需的方块并领取奖励，即可自动为你的团队组装&6世界引擎&r。"
 		""
-		"&e提示&f：任何放置在升级位置的方块都将消失。"
+		"&e注意&f：任何放置在升级位置的方块都将消失。"
 	]
 	quest.7EEBD17F0EA6EE0C.title: "&f自动建造&3末影能量升级"
 	quest.7EF7546FF007EF36.quest_desc: [
@@ -5505,11 +5505,11 @@
 		""
 		"你需要与专家或大师级的&2考古学家&r合作，在&a发掘室&r中挖出这种魔法树苗。"
 		""
-		"[\"If you're more of the explorer type, you may also find some magical resources in the \", {\"text\": \"Arcane Grove\", \"color\": \"dark_green\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"066B47D2AB72355C\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Go to Arcane Grove Quest\"}}, \". Use the compass provided by the \", {\"text\": \"Magician\", \"color\": \"light_purple\"}, \" to guide you.\"]"
+		"[\"如果你更喜欢探险的话，在\", {\"text\": \"奥术林地\", \"color\": \"dark_green\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"066B47D2AB72355C\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"前往奥术林地任务\"}}, \"中也能找到一些魔法资源。\", {\"text\": \"魔法师\", \"color\": \"light_purple\"}, \"给你的那个指南针会为你指路。\"]"
 		""
 		"如果你打算会一会&2林地&r中的那些敌人，你的装备至少得是&b钻石级别&r的才行。&c我警告过你了！&r"
 		""
-		"You should return to the &dMagician&r once you have completed his task."
+		"完成&d魔法师&r给你的任务后，请回去找他。"
 	]
 	quest.7F7C0B1523AA28C4.quest_subtitle: "解锁新生魔艺"
 	quest.7F7C0B1523AA28C4.title: "&f魔法树"
@@ -5674,7 +5674,7 @@
 	task.0FE18EA47455263E.title: "定位回响"
 	task.101BA566216C32AD.title: "ME线缆"
 	task.10414FF6D2800922.title: "&f与&d折光师的回响交谈"
-	task.108D536F5C6428BB.title: "Echo-Location"
+	task.108D536F5C6428BB.title: "定位回响"
 	task.11193E0681204B33.title: "Spectre Coils"
 	task.1159F04F98B724A1.title: "Burning Disco Vault"
 	task.115D12D9D3CB1F13.title: "冷却计时器"
@@ -5702,7 +5702,7 @@
 	task.1A946F253A4AB3D2.title: "烈焰金工具"
 	task.1B441EA3D74396D8.title: "神龙工具"
 	task.1B8D2EA3B6BC97C1.title: "&eLocate&f: ftb:dungeons/nether"
-	task.1BB73680D1CA700A.title: "Echo-Location"
+	task.1BB73680D1CA700A.title: "定位回响"
 	task.1C350F6D6B6C0656.title: "&b升级插件"
 	task.1C3B92648D279809.title: "&e定位&f：&d炼狱使者"
 	task.1C618817AA660A51.title: "冷却计时器"
@@ -5734,7 +5734,7 @@
 	task.27F04FD03BB1682C.title: "Empowered Crystals"
 	task.27F8AF789DE14145.title: "成品处理器"
 	task.287D976A94ACDE7C.title: "Blazegold Weapons"
-	task.2988CAF299690CDB.title: "Useful Commands"
+	task.2988CAF299690CDB.title: "实用命令"
 	task.2A0C5609613F2557.title: "厨房橱柜"
 	task.2A8090973C51366E.title: "找到&2试炼密室&r"
 	task.2AF40F8B8B4E480D.title: "&a宝石&r"
@@ -5892,7 +5892,7 @@
 	task.5AB9DD72EFFA8BB2.title: "隐藏"
 	task.5AFEC71F18BD2D1B.title: "钻头升级"
 	task.5B2F539FB8DF8B64.title: "&fAuto Hammers"
-	task.5B3A2DEB3DFBA285.title: "Speak With The &dEcho of Guidance"
+	task.5B3A2DEB3DFBA285.title: "与&d指引者的回响&r交流"
 	task.5B51C00265B54937.title: "Technology Chapter"
 	task.5B82C7AEA857BED3.title: "&eKill&f: &dEnder Guardian"
 	task.5C3A03650166A961.title: "&eFind&f: &bftb:water_orb"
@@ -5908,7 +5908,7 @@
 	task.5E3DB978C813B92A.title: "控制器扩展器"
 	task.5E4795D98A4F96E5.title: "苍穹晶工具"
 	task.5EA5666395E5AAEC.title: "&e定位&f：&d魔法师"
-	task.5F99BA061A1605D9.title: "World Stone Layers Layout"
+	task.5F99BA061A1605D9.title: "世界岩石层布局"
 	task.5FD1AC346811740C.title: "&eKill&f: &cThe Dead King"
 	task.5FFC4927DA3051EE.title: "冷却计时器"
 	task.5FFDD210AFD0055D.title: "Specialized Tomes"
@@ -5961,7 +5961,7 @@
 	task.6FD8E3AAD2A0F9EC.title: "冷却计时器"
 	task.70DC330B1BB5FE90.title: "&f与&d飞龙匠人的回响&f交谈"
 	task.716711D72FE69FF5.title: "Typed Storage Cells"
-	task.71EF7138E44BDF05.title: "Echo-Location"
+	task.71EF7138E44BDF05.title: "定位回响"
 	task.72121E28134ACE07.title: "Meet the &dEcho of Guidance"
 	task.7230891A77CE1977.title: "end south"
 	task.72426E00128EBE6D.title: "Soulhunter Armor"
