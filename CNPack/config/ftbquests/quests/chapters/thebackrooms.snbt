@@ -1513,7 +1513,7 @@
 					id: "6249EC37A840C6A5"
 					item: {
 						components: {
-							"minecraft:custom_name": "\"Worn-Out Ender Lead\""
+							"minecraft:custom_name": "\"磨损的末影拴绳\""
 							"minecraft:damage": 48
 						}
 						count: 1
@@ -2193,7 +2193,7 @@
 			rewards: [
 				{
 					command: "/compass locate ftb:vault/jockey_north"
-					feedback_message: "Catalyst's Northern Vault Compass Acquired"
+					feedback_message: "已获得精械师北宝库指南针"
 					icon: {
 						id: "explorerscompass:explorerscompass"
 					}
@@ -2205,7 +2205,7 @@
 				{
 					auto: "enabled"
 					command: "/compass locate ftb:vault/jockey_south"
-					feedback_message: "Catalyst's Southern Vault Compass Acquired"
+					feedback_message: "已获得机械师南宝库指南针"
 					icon: {
 						id: "explorerscompass:explorerscompass"
 					}

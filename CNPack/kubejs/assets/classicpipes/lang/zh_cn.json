@@ -145,7 +145,7 @@
   "chat.classicpipes.nothing_in_offhand": "你的另一个手上没有物品。",
   "chat.classicpipes.no_tags_in_hand": "你另一个手上的物品没有Tag。",
   "chat.classicpipes.tag_set": "标签的tag过滤器已设定为%s。",
-  "chat.classicpipes.tag_set_translatable": "标签的tag过滤器已设定为%s (%s)。",
+  "chat.classicpipes.tag_set_translatable": "标签的tag过滤器已设定为%s（%s）。",
   "chat.classicpipes.mod_set": "标签的模组过滤器已设定为%s.",
   "tag.item.classicpipes.pipes.item": "物品管道",
   "tag.item.classicpipes.pipes.fluid": "流体管道",
