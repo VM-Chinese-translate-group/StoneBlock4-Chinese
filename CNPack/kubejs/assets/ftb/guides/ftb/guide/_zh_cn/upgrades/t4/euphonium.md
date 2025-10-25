@@ -1,21 +1,21 @@
 ---
 navigation:
-  title: Euphonium
+  title: 低吟金属
   position: 2
   parent: ftb:t4_upgrades.md
   icon: "ftb:euphonium"
 item_ids:
   - ftb:euphonium
 ---
-# Euphonium Upgrade
+# 低吟金属升级
 
 <ItemImage id="ftb:euphonium" scale="3" />
 
-The <Color id="light_purple">Euphonium</Color> is a minor upgrade that unlocks <Color id="dark_purple">Soul Surging</Color>.
+<Color id="light_purple">低吟金属</Color>次要升级，该升级解锁了<Color id="dark_purple">灵魂促动</Color>技术。
 
-This upgrade will also need the <Color id="red">Advanced Machine Block</Color> upgrade for its recipe unlocks.
+该升级需要<Color id="red">高级机器方块</Color>升级来解锁其合成配方。
 
-## Recipe Unlocks
+## 解锁配方
 
 <ItemGrid>
   <ItemIcon id="industrialforegoingsouls:soul_laser_base" />

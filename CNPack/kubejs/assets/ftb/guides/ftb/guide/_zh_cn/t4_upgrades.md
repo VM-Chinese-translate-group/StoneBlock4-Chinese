@@ -1,9 +1,9 @@
 ---
 navigation:
-  title: Tier 4 Upgrades
+  title: 四阶升级
   position: 5
 ---
-# Tier 4 World Engine Upgrades
+# 四阶世界引擎升级
 
 <SubPages />
 

@@ -1,9 +1,9 @@
 ---
 navigation:
-  title: Tier 2 Upgrades
+  title: 二阶升级
   position: 3
 ---
-# Tier 2 World Engine Upgrades
+# 二阶世界引擎升级
 
 <SubPages />
 

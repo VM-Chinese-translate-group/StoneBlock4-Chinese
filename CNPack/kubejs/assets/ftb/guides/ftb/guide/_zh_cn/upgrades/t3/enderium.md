@@ -1,21 +1,21 @@
 ---
 navigation:
-  title: Enderium Block
+  title: 末影块
   position: 2
   parent: ftb:t3_upgrades.md
   icon: "ftb:enderium_block"
 item_ids:
   - ftb:enderium_block
 ---
-# Enderium Block Upgrade
+# 末影块升级
 
 <ItemImage id="ftb:enderium_block" scale="3" />
 
-The <Color id="red">Enderium Block</Color> is a major upgrade that unlocks a lot of <Color id="gold">ProjectE</Color>upgrades using the <Color id="gold">World Engine</Color>.
+<Color id="red">末影块</Color>主要升级，它能解锁许多<Color id="gold">世界引擎</Color>关于<Color id="gold">等价交换</Color>的升级内容。
 
-This upgrade is also need to craft the <Color id="gold">Advanced Machine Block</Color> upgrade.
+这项升级是制作<Color id="gold">高级机器方块</Color>升级所必需的。
 
-## Recipe Unlocks
+## 解锁配方
 
 <ItemGrid>
   <ItemIcon id="projecte:collector_mk2" />

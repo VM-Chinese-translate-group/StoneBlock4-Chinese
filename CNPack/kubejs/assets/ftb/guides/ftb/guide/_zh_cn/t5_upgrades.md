@@ -1,9 +1,9 @@
 ---
 navigation:
-  title: Tier 5 Upgrades
+  title: 五阶升级
   position: 6
 ---
-# Tier 5 World Engine Upgrades
+# 五阶世界引擎升级
 
 <SubPages />
 
