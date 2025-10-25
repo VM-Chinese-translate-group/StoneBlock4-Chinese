@@ -504,7 +504,7 @@
 				{
 					auto: "disabled"
 					command: "/ftbunearthed setlevel @s 3"
-					feedback_message: "Your Unearthing Skill Has Leveled Up"
+					feedback_message: "你的发掘技能升级了"
 					icon: {
 						components: {
 							"ftbquests:icon": "relics:textures/gui/description/ability/upgrade_button_active.png"
@@ -692,7 +692,7 @@
 					id: "568A955FED6B97A7"
 					item: {
 						components: {
-							"minecraft:custom_name": "\"Lost Cell of the Echoes\""
+							"minecraft:custom_name": "\"失落的回响单元\""
 						}
 						count: 1
 						id: "tempad:chronon_cell"
@@ -762,7 +762,7 @@
 				{
 					auto: "enabled"
 					command: "/ftbunearthed setlevel @s 2"
-					feedback_message: "Your Unearthing Skill Has Leveled Up!"
+					feedback_message: "你的发掘技能升级了！"
 					icon: {
 						components: {
 							"ftbquests:icon": "relics:textures/gui/description/ability/upgrade_button_active.png"

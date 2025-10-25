@@ -1677,7 +1677,7 @@
 				{
 					auto: "enabled"
 					command: "/compass locate ftb:vault/create"
-					feedback_message: "Machinist's Vault Compass Acquired"
+					feedback_message: "已获得机械师宝库指南针"
 					icon: {
 						id: "explorerscompass:explorerscompass"
 					}
@@ -1914,7 +1914,7 @@
 			rewards: [{
 				auto: "enabled"
 				command: "/compass locate ftb:vault/portal"
-				feedback_message: "Machinist's Vault Compass Acquired"
+				feedback_message: "已获得机械师宝库指南针"
 				icon: {
 					id: "explorerscompass:explorerscompass"
 				}
@@ -2127,7 +2127,7 @@
 			rewards: [{
 				auto: "enabled"
 				command: "/compass locate ftb:vault/mffs"
-				feedback_message: "Light Bender's Vault Compass Acquired"
+				feedback_message: "已获得折光师宝库指南针"
 				icon: {
 					id: "explorerscompass:explorerscompass"
 				}
@@ -2153,7 +2153,7 @@
 			rewards: [{
 				auto: "enabled"
 				command: "/compass locate ftb:vault/burning_disco"
-				feedback_message: "Infernal's Vault Compass Acquired"
+				feedback_message: "已获得炼狱使者宝库指南针"
 				icon: {
 					id: "explorerscompass:explorerscompass"
 				}
@@ -2456,7 +2456,7 @@
 			rewards: [{
 				auto: "enabled"
 				command: "/compass locate ftb:vault/twilight/lich"
-				feedback_message: "Twilight's Lich Vault Compass Acquired"
+				feedback_message: "已获得暮色巫妖宝库指南针"
 				icon: {
 					id: "explorerscompass:explorerscompass"
 				}
@@ -2708,7 +2708,7 @@
 			rewards: [{
 				auto: "invisible"
 				command: "/compass locate ftb:vault/twilight/knight"
-				feedback_message: "Twilight's Knight Vault Compass Acquired"
+				feedback_message: "已获得暮色骑士宝库指南针"
 				icon: {
 					id: "explorerscompass:explorerscompass"
 				}
