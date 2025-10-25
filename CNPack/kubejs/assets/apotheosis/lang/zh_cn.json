@@ -1,0 +1,930 @@
+{
+    "comment_id": "/冒险模块",
+
+    "key.categories.apotheosis": "神化",
+
+    "text.apotheosis.world_tier.haven": "居所",
+    "text.apotheosis.world_tier.haven.desc": "旅途的开始",
+
+    "text.apotheosis.world_tier.frontier": "边境",
+    "text.apotheosis.world_tier.frontier.desc": "勇闯危险世界",
+
+    "text.apotheosis.world_tier.ascent": "攀升",
+    "text.apotheosis.world_tier.ascent.desc": "寻求力量，达到更高高度",
+
+    "text.apotheosis.world_tier.summit": "高峰",
+    "text.apotheosis.world_tier.summit.desc": "你已到达高峰，但这不是终点",
+
+    "text.apotheosis.world_tier.pinnacle": "顶点",
+    "text.apotheosis.world_tier.pinnacle.desc": "醉心于山颠的风暴之中",
+
+    "title.apotheosis.select_world_tier": "选择世界层级",
+    "title.apotheosis.world_tier_details": "世界层级详情",
+
+    "button.apotheosis.haven": "居所",
+    "button.apotheosis.frontier": "边境",
+    "button.apotheosis.ascent": "攀升",
+    "button.apotheosis.summit": "高峰",
+    "button.apotheosis.pinnacle": "顶点",
+    "button.apotheosis.tier_locked": "%s（已锁定）",
+    "button.apotheosis.tier_advancement": "完成%s进度以解锁。",
+    "button.apotheosis.tier_advancement_criteria": "",
+    "button.apotheosis.activate_tier": "激活世界层级：%s",
+    "button.apotheosis.already_activated": "该世界层级目前处于激活状态",
+    "button.apotheosis.activate": "激活",
+    "button.apotheosis.activated": "已激活",
+    "button.apotheosis.disabled": "已禁用",
+    "button.apotheosis.tier_changes_disabled": "已在配置文件禁用手动更改世界层级。",
+    "button.apotheosis.show_detailed_info": "详细信息",
+    "button.apotheosis.show_detailed_info.desc": "查看生物增益、玩家增益和稀有度",
+    "button.apotheosis.return": "X",
+    "button.apotheosis.return.desc": "返回层级选择界面",
+    "button.apotheosis.inactive": "未激活",
+    "button.apotheosis.locked": "该世界层级已锁定",
+    "button.apotheosis.skip_tutorial": "跳过教程",
+    "button.apotheosis.prev_tutorial": "上一步",
+    "button.apotheosis.next_tutorial": "下一步",
+    "button.apotheosis.done": "完成",
+    "button.apotheosis.open_world_tier_tutorial": "打开世界层级教程",
+
+    "tutorial.apotheosis.world_tier.introduction.title": "介绍",
+    "tutorial.apotheosis.world_tier.introduction.desc": "欢迎来到神化世界层级教程！在本教程中，你将了解新的世界层级系统，以及其进阶方式。点击“下一步”继续，或点击“跳过教程”跳过本教程。",
+
+    "tutorial.apotheosis.world_tier.world_tiers.title": "世界层级",
+    "tutorial.apotheosis.world_tier.world_tiers.desc": "世界层级是神化的进阶系统，解锁并激活新的世界层级会提高游戏难度，但同时也会提高世界中战利品的品质。\n\n将鼠标放在世界层级的图标上可查看解锁条件，点击图标以选中已解锁的层级。",
+
+    "tutorial.apotheosis.world_tier.tier_name.title": "世界层级名称",
+    "tutorial.apotheosis.world_tier.tier_name.desc": "这是所选世界层级的名称，以及对该层级的简短描述。",
+    
+    "tutorial.apotheosis.world_tier.tier_difficulty.title": "世界层级难度",
+    "tutorial.apotheosis.world_tier.tier_difficulty.desc": "这是所选世界层级的难度。难度越高，怪物越强，奖励也越好。\n\n在世界层级为边境及以上层级时神化入侵者会在你的世界中开始生成。",
+    
+    "tutorial.apotheosis.world_tier.detailed_info.title": "详细信息", 
+    "tutorial.apotheosis.world_tier.detailed_info.desc": "该按钮将显示世界层级的详细信息，包括玩家和怪物的正面效果和负面效果，以及不同稀有度的物品与不同纯度的宝石的掉落概率。\n\n如果你不清楚什么是稀有度或纯度，请参阅《阴影编年史》（游戏内指南）。",
+    
+    "tutorial.apotheosis.world_tier.activate.title": "激活世界层级",
+    "tutorial.apotheosis.world_tier.activate.desc": "如果所选世界层级尚未激活，则可以通过点击该按钮激活选择的层级。\n\n点击“完成”将自动激活世界层级：居所。至于所有其他世界层级，你需要回到这里手动激活它们。",
+    "tutorial.apotheosis.world_tier.activate_disabled.desc": "通常情况下，此按钮可用于激活所选的世界层级。\n\n然而，在该整合包中，世界层级是自动激活的，且无法手动更改。你仍然可以查看每个世界层级的详细信息，但无法激活或停用它们。",
+
+    "text.apotheosis.tier_info": "世界层级信息",
+    "text.apotheosis.monster_augments": "怪物强化",
+    "text.apotheosis.player_augments": "玩家强化",
+    "text.apotheosis.drop_chances": "掉落概率",
+    "text.apotheosis.rarities": "稀有度",
+    "text.apotheosis.purities": "纯度",
+    "text.apotheosis.unidentified": "未知%s",
+    "text.apotheosis.world_tier_tutorial": "该物品拥有未知力量",
+    "text.apotheosis.world_tier_tutorial.2": "按%s并激活世界层级: 居所以解锁它",
+
+    "key.apotheosis.toggle_radial_mining": "更改范围挖掘模式",
+    "key.apotheosis.open_world_tier_select": "打开世界层级选择界面",
+    "key.apotheosis.compare_equipment": "对比鼠标所指的物品",
+    "key.apotheosis.link_item_to_chat": "将鼠标所指的物品链接到聊天栏",
+
+    "info.apotheosis.affix_item": "神化词缀物品",
+
+    "death.attack.apotheosis:execute": "%s被%s处决了",
+    "death.attack.apotheosis:execute.item": "%s被%s用%s处决了",
+
+    "misc.apotheosis.affix_name.two": "%s的%s",
+    "misc.apotheosis.affix_name.three": "%s的%s（%s）",
+    "misc.apotheosis.affix_name.four": "%s %s的%s（%s）",
+    "misc.apotheosis.affix_bounds": "[%s\u00A0-\u00A0%s]",
+
+    "misc.apotheosis.radial_state_updated": "范围挖掘模式已更新为“%s”",
+    "misc.apotheosis.radial_state.require_not_sneaking": "潜行时禁用",
+    "misc.apotheosis.radial_state.require_sneaking": "潜行时启用",
+    "misc.apotheosis.radial_state.enabled": "启用",
+    "misc.apotheosis.radial_state.disabled": "禁用",
+    "misc.apotheosis.right_click_to_socket": "右击以将%s镶嵌在%s上",
+
+    "affix.apotheosis:armor/attribute/blessed": "祝福",
+    "affix.apotheosis:armor/attribute/blessed.suffix": "生命",
+
+    "affix.apotheosis:armor/attribute/windswept": "风袭",
+    "affix.apotheosis:armor/attribute/windswept.suffix": "气流",
+
+    "affix.apotheosis:armor/attribute/ironforged": "铁铸",
+    "affix.apotheosis:armor/attribute/ironforged.suffix": "铁",
+
+    "affix.apotheosis:melee/attribute/violent": "暴力",
+    "affix.apotheosis:melee/attribute/violent.suffix": "杀戮",
+
+    "affix.apotheosis:ranged/attribute/windswept": "风袭",
+    "affix.apotheosis:ranged/attribute/windswept.suffix": "气流",
+
+    "affix.apotheosis:melee/attribute/graceful": "优雅",
+    "affix.apotheosis:melee/attribute/graceful.suffix": "决斗者",
+
+    "affix.apotheosis:melee/attribute/forceful": "强力",
+    "affix.apotheosis:melee/attribute/forceful.suffix": "公牛",
+
+    "affix.apotheosis:armor/attribute/aquatic": "水行",
+    "affix.apotheosis:armor/attribute/aquatic.suffix": "海洋",
+
+    "affix.apotheosis:armor/attribute/gravitational": "重力",
+    "affix.apotheosis:armor/attribute/gravitational.suffix": "重力",
+
+    "affix.apotheosis:breaker/attribute/lengthy": "伸长",
+    "affix.apotheosis:breaker/attribute/lengthy.suffix": "抓握",
+
+    "affix.apotheosis:breaker/attribute/experienced": "经验",
+    "affix.apotheosis:breaker/attribute/experienced.suffix": "学者",
+
+    "affix.apotheosis:melee/attribute/elongated": "延展",
+    "affix.apotheosis:melee/attribute/elongated.suffix": "远战",
+
+    "affix.apotheosis:ranged/attribute/agile": "敏捷",
+    "affix.apotheosis:ranged/attribute/agile.suffix": "迅敏",
+
+    "affix.apotheosis:armor/attribute/steel_touched": "钢触",
+    "affix.apotheosis:armor/attribute/steel_touched.suffix": "捍卫者",
+
+    "affix.apotheosis:armor/attribute/stalwart": "坚定",
+    "affix.apotheosis:armor/attribute/stalwart.suffix": "顽固",
+
+    "affix.apotheosis:armor/attribute/elastic": "灵活",
+    "affix.apotheosis:armor/attribute/elastic.suffix": "攀爬",
+
+    "affix.apotheosis:armor/attribute/fortunate": "幸运",
+    "affix.apotheosis:armor/attribute/fortunate.suffix": "四叶草",
+
+    "affix.apotheosis:armor/attribute/winged": "有翼",
+    "affix.apotheosis:armor/attribute/winged.suffix": "天空",
+
+    "affix.apotheosis:melee/attribute/intricate": "复杂",
+    "affix.apotheosis:melee/attribute/intricate.suffix": "批判性思维",
+
+    "affix.apotheosis:melee/attribute/lacerating": "撕裂",
+    "affix.apotheosis:melee/attribute/lacerating.suffix": "精准打击",
+
+    "affix.apotheosis:melee/attribute/glacial": "冰川",
+    "affix.apotheosis:melee/attribute/glacial.suffix": "冻土",
+
+    "affix.apotheosis:melee/attribute/infernal": "地狱",
+    "affix.apotheosis:melee/attribute/infernal.suffix": "太阳",
+
+    "affix.apotheosis:melee/attribute/vampiric": "吸血",
+    "affix.apotheosis:melee/attribute/vampiric.suffix": "放血",
+
+    "affix.apotheosis:melee/attribute/piercing": "穿刺",
+    "affix.apotheosis:melee/attribute/piercing.suffix": "撕裂者",
+
+    "affix.apotheosis:weapon/attribute/shredding": "粉碎",
+    "affix.apotheosis:weapon/attribute/shredding.suffix": "漩涡",
+
+    "affix.apotheosis:melee/attribute/giant_slaying": "爆杀",
+    "affix.apotheosis:melee/attribute/giant_slaying.suffix": "巨人打击",
+
+    "affix.apotheosis:melee/attribute/berserking": "狂暴",
+    "affix.apotheosis:melee/attribute/berserking.suffix": "狂战士",
+
+    "affix.apotheosis:breaker/attribute/destructive": "破坏",
+    "affix.apotheosis:breaker/attribute/destructive.suffix": "凿岩机",
+
+    "affix.apotheosis:ranged/attribute/elven": "精灵",
+    "affix.apotheosis:ranged/attribute/elven.suffix": "冠军射手",
+
+    "affix.apotheosis:ranged/attribute/streamlined": "流线型",
+    "affix.apotheosis:ranged/attribute/streamlined.suffix": "狙击手",
+
+    "affix.apotheosis:melee/mob_effect/elusive": "灵巧",
+    "affix.apotheosis:melee/mob_effect/elusive.suffix": "闪避",
+
+    "affix.apotheosis:breaker/mob_effect/swift": "迅捷",
+    "affix.apotheosis:breaker/mob_effect/swift.suffix": "粉碎",
+
+    "affix.apotheosis:breaker/mob_effect/spelunkers": "探穴者",
+    "affix.apotheosis:breaker/mob_effect/spelunkers.suffix": "洞穴探险者",
+
+    "affix.apotheosis:ranged/mob_effect/ensnaring": "诱捕",
+    "affix.apotheosis:ranged/mob_effect/ensnaring.suffix": "捕食者",
+
+    "affix.apotheosis:shield/mob_effect/venomous": "淬毒",
+    "affix.apotheosis:shield/mob_effect/venomous.suffix": "毒蛇",
+
+    "affix.apotheosis:ranged/mob_effect/fleeting": "疾驰",
+    "affix.apotheosis:ranged/mob_effect/fleeting.suffix": "游侠",
+
+    "affix.apotheosis:melee/mob_effect/weakening": "弱化",
+    "affix.apotheosis:melee/mob_effect/weakening.suffix": "虚弱",
+
+    "affix.apotheosis:armor/mob_effect/bolstering": "支撑",
+    "affix.apotheosis:armor/mob_effect/bolstering.suffix": "坚韧",
+
+    "affix.apotheosis:armor/mob_effect/revitalizing": "新生",
+    "affix.apotheosis:armor/mob_effect/revitalizing.suffix": "源泉",
+
+    "affix.apotheosis:armor/mob_effect/nimble": "灵敏",
+    "affix.apotheosis:armor/mob_effect/nimble.suffix": "狐狸",
+
+    "affix.apotheosis:armor/mob_effect/blinding": "失明",
+    "affix.apotheosis:armor/mob_effect/blinding.suffix": "黑暗",
+
+    "affix.apotheosis:ranged/mob_effect/shulkers": "潜影",
+    "affix.apotheosis:ranged/mob_effect/shulkers.suffix": "飘浮",
+
+    "affix.apotheosis:shield/mob_effect/withering": "凋零",
+    "affix.apotheosis:shield/mob_effect/withering.suffix": "黑暗骷髅",
+
+    "affix.apotheosis:shield/attribute/ironforged": "铁铸",
+    "affix.apotheosis:shield/attribute/ironforged.suffix": "铁",
+
+    "affix.apotheosis:shield/attribute/steel_touched": "钢触",
+    "affix.apotheosis:shield/attribute/steel_touched.suffix": "捍卫者",
+
+    "affix.apotheosis:ranged/mob_effect/ivy_laced": "藤绕",
+    "affix.apotheosis:ranged/mob_effect/ivy_laced.suffix": "自然毒素",
+
+    "affix.apotheosis:ranged/mob_effect/satanic": "邪恶",
+    "affix.apotheosis:ranged/mob_effect/satanic.suffix": "诅咒",
+
+    "affix.apotheosis:ranged/spectral": "光灵",
+    "affix.apotheosis:ranged/spectral.suffix": "被遗弃者",
+    "affix.apotheosis:ranged/spectral.desc": "你有%s%%概率发射第二支箭",
+
+    "affix.apotheosis:ranged/magical": "魔法",
+    "affix.apotheosis:ranged/magical.suffix": "奥秘",
+    "affix.apotheosis:ranged/magical.desc": "你射出的箭矢将会造成魔法伤害",
+
+    "affix.apotheosis:melee/festive": "节庆",
+    "affix.apotheosis:melee/festive.suffix": "派对",
+    "affix.apotheosis:melee/festive.desc": "杀死敌人有%s%%概率触发战利品大爆发",
+
+    "affix.apotheosis:melee/thunderstruck": "雷鸣",
+    "affix.apotheosis:melee/thunderstruck.suffix": "风暴",
+    "affix.apotheosis:melee/thunderstruck.desc": "攻击对周围敌人造成%s点伤害",
+
+    "affix.apotheosis:shield/retreating": "后撤",
+    "affix.apotheosis:shield/retreating.suffix": "弄臣",
+    "affix.apotheosis:shield/retreating.desc": "格挡近战攻击时，进行一次后跳",
+
+    "affix.apotheosis:generic/telepathic": "念动",
+    "affix.apotheosis:generic/telepathic.suffix": "时空",
+    "affix.apotheosis:generic/telepathic.desc.weapon": "生物的掉落物将传送至你身边",
+    "affix.apotheosis:generic/telepathic.desc.tool": "挖掘的掉落物将传送至你身边",
+
+    "affix.apotheosis:melee/executing": "行刑",
+    "affix.apotheosis:melee/executing.suffix": "刽子手",
+    "affix.apotheosis:melee/executing.desc": "生命值低于%s%%的敌人将会被直接处决",
+
+    "affix.apotheosis:melee/cleaving": "挥劈",
+    "affix.apotheosis:melee/cleaving.suffix": "屠夫",
+    "affix.apotheosis:melee/cleaving.desc": "攻击有%s%%概率同时施加到周围至多%s名敌人",
+
+    "affix.apotheosis:breaker/ability/enlightened": "启明",
+    "affix.apotheosis:breaker/ability/enlightened.suffix": "携光者",
+    "affix.apotheosis:breaker/ability/enlightened.desc": "该工具可消耗%s点耐久度放置一根火把",
+
+    "affix.apotheosis:shield/psychic": "通灵",
+    "affix.apotheosis:shield/psychic.suffix": "睚眦",
+    "affix.apotheosis:shield/psychic.desc": "格挡弹射物时，会对伤害来源造成%s%%伤害",
+
+    "affix.apotheosis:shield/catalyzing": "催化",
+    "affix.apotheosis:shield/catalyzing.suffix": "转化",
+    "affix.apotheosis:shield/catalyzing.desc": "格挡爆炸会给你带来巨大的力量效果",
+
+    "affix.apotheosis:melee/attribute/annihilating": "歼灭",
+    "affix.apotheosis:melee/attribute/annihilating.suffix": "泰坦",
+
+    "affix.apotheosis:melee/attribute/decimating": "屠戮",
+    "affix.apotheosis:melee/attribute/decimating.suffix": "神王",
+
+    "affix.apotheosis:melee/attribute/murderous": "凶残",
+    "affix.apotheosis:melee/attribute/murderous.suffix": "米诺陶",
+
+    "affix.apotheosis:ranged/mob_effect/acidic": "酸蚀",
+    "affix.apotheosis:ranged/mob_effect/acidic.suffix": "侵蚀",
+
+    "affix.apotheosis:melee/mob_effect/bloodletting": "放血",
+    "affix.apotheosis:melee/mob_effect/bloodletting.suffix": "杀戮者",
+
+    "affix.apotheosis:melee/mob_effect/caustic": "腐蚀",
+    "affix.apotheosis:melee/mob_effect/caustic.suffix": "腐蚀领域",
+
+    "affix.apotheosis:melee/mob_effect/sophisticated": "老练",
+    "affix.apotheosis:melee/mob_effect/sophisticated.suffix": "古代图书馆",
+
+    "affix.apotheosis:shield/mob_effect/devilish": "残忍",
+    "affix.apotheosis:shield/mob_effect/devilish.suffix": "老兵",
+
+    "affix.apotheosis:breaker/effect/radial": "范围",
+    "affix.apotheosis:breaker/effect/radial.suffix": "裂地者",
+    "affix.apotheosis:breaker/effect/radial.desc": "该工具可破坏%sx%s范围的方块。",
+
+    "affix.apotheosis:breaker/ability/supermassive": "超大质量",
+    "affix.apotheosis:breaker/ability/supermassive.suffix": "世界破坏者",
+    "affix.apotheosis:breaker/ability/supermassive.desc": "该工具可破坏%sx%s范围的方块。",
+
+    "affix.apotheosis:melee_weapon/mob_effect/detonating": "引爆",
+    "affix.apotheosis:melee_weapon/mob_effect/detonating.suffix": "元素火焰",
+
+    "affix.apotheosis:armor/attribute/oxygenated": "含氧",
+    "affix.apotheosis:armor/attribute/oxygenated.suffix": "潜水员",
+
+    "affix.apotheosis:melee/mob_effect/omniscient": "无所不知",
+    "affix.apotheosis:melee/mob_effect/omniscient.suffix": "大贤者",
+
+    "affix.apotheosis:breaker/attribute/submerged": "淹没",
+    "affix.apotheosis:breaker/attribute/submerged.suffix": "海洋矿工",
+
+    "affix.apotheosis:shield/mob_effect/galvanizing": "电镀",
+    "affix.apotheosis:shield/mob_effect/galvanizing.suffix": "坚不可摧",
+
+    "affix.apotheosis:armor/dmg_reduction/grounded": "接地",
+    "affix.apotheosis:armor/dmg_reduction/grounded.suffix": "避雷针",
+
+    "affix.apotheosis:ranged/mob_effect/deathbound": "死亡约束",
+    "affix.apotheosis:ranged/mob_effect/deathbound.suffix": "凋灵领主",
+
+    "affix.apotheosis:shield/mob_effect/reinforcing": "强化",
+    "affix.apotheosis:shield/mob_effect/reinforcing.suffix": "钢铁",
+
+    "affix.apotheosis:melee/attribute/lengthy": "冗长",
+    "affix.apotheosis:melee/attribute/lengthy.suffix": "极限长度",
+
+    "affix.apotheosis:ranged/mob_effect/blighted": "枯萎",
+    "affix.apotheosis:ranged/mob_effect/blighted.suffix": "枯萎之地",
+
+    "affix.apotheosis:armor/attribute/unbound": "不受约束",
+    "affix.apotheosis:armor/attribute/unbound.suffix": "伊卡洛斯",
+
+    "affix.apotheosis:armor/attribute/fireproof": "防火",
+    "affix.apotheosis:armor/attribute/fireproof.suffix": "火焰防御",
+
+    "affix.apotheosis:armor/attribute/adamantine": "精金",
+    "affix.apotheosis:armor/attribute/adamantine.suffix": "精金",
+
+    "affix.apotheosis:breaker/enchantment/prosperous": "繁荣",
+    "affix.apotheosis:breaker/enchantment/prosperous.suffix": "大吉大利",
+
+    "affix.apotheosis:ranged/enchantment/prosperous": "繁荣",
+    "affix.apotheosis:ranged/enchantment/prosperous.suffix": "寻宝者",
+
+    "affix.apotheosis:armor/dmg_reduction/deflective": "偏转",
+    "affix.apotheosis:armor/dmg_reduction/deflective.suffix": "偏转",
+
+    "misc.apotheosis.iron": "铁",
+    "misc.apotheosis.diamond": "钻石",
+    "misc.apotheosis.netherite": "下界合金",
+
+    "affix.apotheosis:breaker/effect/omnetic": "全能",
+    "affix.apotheosis:breaker/effect/omnetic.suffix": "奇点",
+    "affix.apotheosis:breaker/effect/omnetic.desc": "该工具对所有方块均有%s级的效能",
+
+    "misc.apotheosis.physical": "物理",
+    "misc.apotheosis.magic": "魔法",
+    "misc.apotheosis.fire": "火焰",
+    "misc.apotheosis.fall": "摔落",
+    "misc.apotheosis.explosion": "爆炸",
+    "misc.apotheosis.projectile": "弹射物",
+    "misc.apotheosis.lightning": "闪电",
+    "affix.apotheosis:damage_reduction.desc": "受到的%s伤害减少%s%%",
+
+    "affix.apotheosis:armor/dmg_reduction/blockading": "封锁",
+    "affix.apotheosis:armor/dmg_reduction/blockading.suffix": "屏障",
+
+    "affix.apotheosis:armor/dmg_reduction/runed": "符文",
+    "affix.apotheosis:armor/dmg_reduction/runed.suffix": "咒法监守",
+
+    "affix.apotheosis:armor/dmg_reduction/blast_forged": "爆诞",
+    "affix.apotheosis:armor/dmg_reduction/blast_forged.suffix": "锻造之神",
+
+    "affix.apotheosis:armor/dmg_reduction/dwarven": "矮人",
+    "affix.apotheosis:armor/dmg_reduction/dwarven.suffix": "火山",
+
+    "affix.apotheosis:armor/dmg_reduction/feathery": "覆羽",
+    "affix.apotheosis:armor/dmg_reduction/feathery.suffix": "鹰",
+
+    "affix.apotheosis:shield/attribute/stalwart": "坚毅",
+    "affix.apotheosis:shield/attribute/stalwart.suffix": "不屈",
+
+    "affix.apotheosis:armor/attribute/spiritual": "灵魂",
+    "affix.apotheosis:armor/attribute/spiritual.suffix": "巫医",
+
+    "affix.apotheosis:generic/attribute/lucky": "幸运",
+    "affix.apotheosis:generic/attribute/lucky.suffix": "偶然",
+
+    "affix.apotheosis:melee/attribute/nullifying": "抹除",
+    "affix.apotheosis:melee/attribute/nullifying.suffix": "破法者",
+
+    "affix.apotheosis:melee/attribute/spellbreaking": "破法",
+    "affix.apotheosis:melee/attribute/spellbreaking.suffix": "岩石傀儡",
+
+    "affix.apotheosis:ranged/mob_effect/grievous": "重创",
+    "affix.apotheosis:ranged/mob_effect/grievous.suffix": "伤口",
+
+    "affix.apotheosis:armor/mob_effect/bursting": "迸发",
+    "affix.apotheosis:armor/mob_effect/bursting.suffix": "活力",
+
+    "affix.apotheosis:durable": "耐用",
+    "affix.apotheosis:durable.suffix": "耐久",
+
+    "affix.apotheosis:breaker/ability/stoneforming": "塑石",
+    "affix.apotheosis:breaker/ability/stoneforming.suffix": "石工",
+    "affix.apotheosis:breaker/ability/stoneforming.desc": "天然石头可能会彼此转化",
+
+    "affix.apotheosis:breaker/ability/sandforming": "塑沙",
+    "affix.apotheosis:breaker/ability/sandforming.suffix": "沙子",
+    "affix.apotheosis:breaker/ability/sandforming.desc": "沙子和类似方块可能会彼此转化",
+
+    "affix.apotheosis.stoneforming.desc": "破坏[%s]会将其转化为%s，Shift右击可选择目标。",
+    "affix.apotheosis.stoneforming.target_updated": "目标已更新为：%s",
+
+    "affix.apotheosis:shears/effect/leafforming": "塑叶",
+    "affix.apotheosis:shears/effect/leafforming.suffix": "树艺师",
+    "affix.apotheosis:shears/effect/leafforming.desc": "树叶可能会彼此转化",
+
+    "affix.apotheosis:shears/effect/gardening": "园艺",
+    "affix.apotheosis:shears/effect/gardening.suffix": "园艺师",
+    "affix.apotheosis:shears/effect/gardening.desc": "花可能会彼此转化",
+
+    "affix.apotheosis.target.attack_self": "击中目标时，获得%s",
+    "affix.apotheosis.target.attack_target": "击中目标时，造成%s",
+    "affix.apotheosis.target.hurt_self": "受到攻击时，获得%s",
+    "affix.apotheosis.target.hurt_attacker": "受到攻击时，造成%s",
+    "affix.apotheosis.target.break_self": "破坏方块时，获得%s",
+    "affix.apotheosis.target.arrow_self": "箭矢击中目标时，获得%s",
+    "affix.apotheosis.target.arrow_target": "箭矢击中目标时，造成%s",
+    "affix.apotheosis.target.block_self": "格挡时，获得%s",
+    "affix.apotheosis.target.block_attacker": "格挡时，造成%s",
+    "affix.apotheosis.target.projectile_self": "弹射物击中目标时，获得%s",
+    "affix.apotheosis.target.projectile_target": "弹射物击中目标时，造成%s",
+    "affix.apotheosis.cooldown": "[⌛ %s]",
+    "affix.apotheosis.stacking": "[叠加]",
+
+    "affix.apotheosis:durable.desc": "该物品无视%s%%耐久度损耗",
+    "affix.apotheosis:socket.desc": "已开镶孔（%s）",
+
+    "socket.apotheosis.empty": "空镶孔",
+    "text.apotheosis.when_socketed": "镶嵌时：",
+    "text.apotheosis.when_socketed_in": "镶嵌时：",
+    "text.apotheosis.when_socketed_typed": "镶嵌在%s时：",
+    "info.apotheosis.socketing": "使用锻造台来镶嵌宝石。物品放在左侧，宝石放在右侧。\n\n选择时要慎重，因为取出已镶嵌的宝石会付出很大的代价。",
+
+    "purity.apotheosis.cracked": "碎裂",
+    "purity.apotheosis.chipped": "开裂",
+    "purity.apotheosis.flawed": "有瑕",
+    "purity.apotheosis.normal": "正常",
+    "purity.apotheosis.flawless": "无瑕",
+    "purity.apotheosis.perfect": "完美",
+
+    "gem_class.melee_weapon": "近战武器",
+    "gem_class.ranged_weapon": "远程武器",
+    "gem_class.light_weapon": "轻型武器",
+    "gem_class.core_armor": "核心盔甲",
+    "gem_class.lower_armor": "下身盔甲",
+    "gem_class.armor": "盔甲",
+    "gem_class.breaker": "挖掘工具",
+    "gem_class.pickaxe": "镐",
+    "gem_class.light_ranged": "轻型或远程武器",
+    "gem_class.weapon_or_tool": "武器或工具",
+    "gem_class.weapons": "武器",
+
+    "gem_class.helmet": "头盔",
+    "gem_class.chestplate": "胸甲",
+    "gem_class.leggings": "护腿",
+    "gem_class.boots": "靴子",
+    "gem_class.shield": "盾牌",
+    "gem_class.bow": "弓",
+    "gem_class.trident": "三叉戟",
+    "gem_class.anything": "任何",
+
+    "bonus.apotheosis:durability.desc": "无视%s%%耐久度损耗",
+    "bonus.apotheosis:enchantment.desc": "+%s%s%s",
+    "bonus.apotheosis:enchantment.desc.mustExist": "+%s%s至现有的%s",
+    "bonus.apotheosis:enchantment.desc.global": "+%s%s至所有现有魔咒",
+    "bonus.apotheosis:multi_attr.desc.and": "%s和%s",
+    "bonus.apotheosis:multi_attr.desc.and_but": "%s和%s，但会%s",
+    "bonus.apotheosis:multi_attr.desc.but_and": "%s，但会%s和%s",
+    "bonus.apotheosis:bloody_arrow.desc": "发射时，你失去%s%%最大生命值并造成%s%%伤害。%s",
+    "bonus.apotheosis:leech_block.desc": "格挡一次攻击可治疗你%s%%的伤害。%s",
+    "bonus.apotheosis:all_stats.desc": "+%s%%至所有属性",
+    "gem.apotheosis:overworld/royalty.bonus.pickaxe": "破坏铜矿石有%s%%概率掉落粗金。",
+    "bonus.apotheosis:mageslayer.desc": "无视%s%%的魔法伤害并治疗等量的伤害。",
+    "bonus.apotheosis:twilight_ore_magnet.desc": "可以当作矿石磁铁使用，额外消耗%s点耐久度。",
+    "bonus.apotheosis:twilight_treasure_goblin.desc": "攻击实体有%s%%概率召唤宝藏哥布林。%s",
+    "bonus.apotheosis:twilight_fortification.desc": "受到伤害时有%s%%概率召唤暮色护盾来保护你。%s",
+    "bonus.apotheosis:frozen_drops.desc": "杀死带有%s的敌人会增加%s%%战利品掉落。",
+
+    "misc.apotheosis.level": "级",
+    "misc.apotheosis.level.many": "级",
+    "name.apotheosis.treasure_goblin": "宝藏哥布林",
+
+    "item.apotheosis.gem.apotheosis:legacy": "经典宝石",
+    "item.apotheosis.gem.apotheosis:core/guardian": "护卫宝石",
+    "item.apotheosis.gem.apotheosis:core/ballast": "稳定宝石",
+    "item.apotheosis.gem.apotheosis:core/solar": "阳炎宝石",
+    "item.apotheosis.gem.apotheosis:core/lunar": "月华宝石",
+    "item.apotheosis.gem.apotheosis:core/samurai": "武士宝石",
+    "item.apotheosis.gem.apotheosis:core/warlord": "战神宝石",
+    "item.apotheosis.gem.apotheosis:core/splendor": "辉煌宝石",
+    "item.apotheosis.gem.apotheosis:core/tyrannical": "暴君宝石",
+    "item.apotheosis.gem.apotheosis:core/breach": "突破宝石",
+    "item.apotheosis.gem.apotheosis:core/lightning": "闪电宝石",
+    "item.apotheosis.gem.apotheosis:core/slipstream": "逸流宝石",
+    "item.apotheosis.gem.apotheosis:core/brawlers": "斗争宝石",
+    "item.apotheosis.gem.apotheosis:core/combatant": "战斗宝石",
+    "item.apotheosis.gem.apotheosis:overworld/earth": "地球宝石",
+    "item.apotheosis.gem.apotheosis:overworld/royalty": "王室宝石",
+    "item.apotheosis.gem.apotheosis:overworld/verdant_ruin": "翠殒宝石",
+    "item.apotheosis.gem.apotheosis:the_nether/inferno": "炽狱宝石",
+    "item.apotheosis.gem.apotheosis:the_nether/blood_lord": "嗜血领主宝石",
+    "item.apotheosis.gem.apotheosis:the_nether/molten_breach": "熔融突破宝石",
+    "item.apotheosis.gem.apotheosis:the_end/endersurge": "影激宝石",
+    "item.apotheosis.gem.apotheosis:the_end/mageslayer": "法师克星宝石",
+    "item.apotheosis.gem.apotheosis:twilight/forest": "暮色森林宝石",
+    "item.apotheosis.gem.apotheosis:twilight/queen": "冰雪女王宝石",
+
+    "item.apotheosis.boss_summoner": "神化Boss召唤器",
+    "item.apotheosis.gem.cracked": "碎裂的%s",
+    "item.apotheosis.gem.chipped": "开裂的%s",
+    "item.apotheosis.gem.flawed": "有瑕的%s",
+    "item.apotheosis.gem.normal": "%s",
+    "item.apotheosis.gem.flawless": "无瑕的%s",
+    "item.apotheosis.gem.perfect": "完美的%s",
+    "item.apotheosis.vial_of_extraction": "奥术提取剂",
+    "item.apotheosis.vial_of_expulsion": "灼热驱逐剂",
+    "item.apotheosis.vial_of_unnaming": "除名药剂",
+    "item.apotheosis.gem_dust": "宝石粉",
+    "item.apotheosis.gem_dust.desc": "碾碎后的神化宝石",
+    "item.apotheosis.common_material": "神秘废金属",
+    "item.apotheosis.uncommon_material": "陈旧布匹",
+    "item.apotheosis.rare_material": "发光水晶碎片",
+    "item.apotheosis.epic_material": "玄奥沙",
+    "item.apotheosis.mythic_material": "神铸珍珠",
+    "item.apotheosis.ancient_material": "无限之体现",
+    "item.apotheosis.gem_fused_slate": "宝石融合板岩",
+
+    "item.apotheosis.sigil_of_socketing": "镶孔符石",
+    "item.apotheosis.sigil_of_socketing.desc": "为物品增加一个镶孔",
+
+    "item.apotheosis.sigil_of_withdrawal": "摘除符石",
+    "item.apotheosis.sigil_of_withdrawal.desc": "移除物品上所有镶嵌的宝石",
+
+    "item.apotheosis.sigil_of_rebirth": "新生符石",
+    "item.apotheosis.sigil_of_rebirth.desc": "用于为重铸台提供燃料",
+
+    "item.apotheosis.sigil_of_enhancement": "强化符石",
+    "item.apotheosis.sigil_of_enhancement.desc": "用于为强化台提供燃料",
+
+    "item.apotheosis.sigil_of_unnaming": "除名符石",
+    "item.apotheosis.sigil_of_unnaming.desc": "从物品中移除词缀名称",
+
+    "item.apotheosis.sigil_of_malice": "恶意符石",
+    "item.apotheosis.sigil_of_malice.desc": "将恶意之触施加于词缀物品",
+
+    "item.apotheosis.sigil_of_supremacy": "至高符石",
+    "item.apotheosis.sigil_of_supremacy.desc": "对词缀物品上的每个词缀进行过度充能",
+
+    "item.apotheosis.iron_upgrade_smithing_template": "锻造模板",
+    "upgrade.apotheosis.iron": "铁升级",
+    "item.apotheosis.iron_upgrade_smithing_template.applies_to": "石制和锁链装备",
+    "item.apotheosis.iron_upgrade_smithing_template.ingredients": "4个铁锭",
+    "item.apotheosis.iron_upgrade_smithing_template.base_slot_description": "放入锁链或石制装备",
+    "item.apotheosis.iron_upgrade_smithing_template.additions_slot_description": "放入4个铁锭",
+
+    "item.apotheosis.gold_upgrade_smithing_template": "锻造模板",
+    "upgrade.apotheosis.gold": "金升级",
+    "item.apotheosis.gold_upgrade_smithing_template.applies_to": "铁制装备",
+    "item.apotheosis.gold_upgrade_smithing_template.ingredients": "4个金锭",
+    "item.apotheosis.gold_upgrade_smithing_template.base_slot_description": "放入铁制盔甲、武器或工具",
+    "item.apotheosis.gold_upgrade_smithing_template.additions_slot_description": "放入4个金锭",
+
+    "item.apotheosis.diamond_upgrade_smithing_template": "锻造模板",
+    "upgrade.apotheosis.diamond": "钻石升级",
+    "item.apotheosis.diamond_upgrade_smithing_template.applies_to": "金制装备",
+    "item.apotheosis.diamond_upgrade_smithing_template.ingredients": "4个钻石",
+    "item.apotheosis.diamond_upgrade_smithing_template.base_slot_description": "放入金制盔甲、武器或工具",
+    "item.apotheosis.diamond_upgrade_smithing_template.additions_slot_description": "放入4个钻石",
+
+    "block.apotheosis.boss_spawner": "笼中入侵者",
+    "block.apotheosis.gem_cutting_table": "宝石切割台",
+    "block.apotheosis.gem_cutting_table.desc": "使用宝石粉和珍宝材料来升级宝石",
+    "block.apotheosis.salvaging_table": "回收台",
+    "block.apotheosis.salvaging_table.desc": "将词缀物品分解为珍宝材料",
+    "block.apotheosis.simple_reforging_table": "简易重铸台",
+    "block.apotheosis.reforging_table": "重铸台",
+    "block.apotheosis.reforging_table.desc": "使用新生符石和珍宝材料来重铸物品",
+    "block.apotheosis.reforging_table.desc2": "最高稀有度：%s",
+    "block.apotheosis.augmenting_table": "强化台",
+    "block.apotheosis.augmenting_table.desc": "使用强化符石来强化单个词缀",
+
+    "button.apotheosis.salvage": "回收物品",
+    "button.apotheosis.no_salvage": "没有放入物品",
+    "button.apotheosis.no_salvage_all": "物品栏中没有可回收的物品",
+    "button.apotheosis.upgrade": "升级宝石",
+    "button.apotheosis.upgrade.no": "缺少输入材料",
+    "button.apotheosis.augmenting.upgrade": "升级选择的词缀",
+    "button.apotheosis.augmenting.reroll": "刷新选择的词缀",
+    "button.apotheosis.augmenting.no_selection": "没有选择词缀",
+    "button.apotheosis.augmenting.max_level": "已达到最高等级",
+    "button.apotheosis.augmenting.no_alternatives": "没有替代词缀",
+    "button.apotheosis.augmenting.upgrade.cost": "花费：%s个%s",
+    "button.apotheosis.augmenting.upgrade.exp_cost": "经验花费：%s级",
+
+    "menu.apotheosis.gem_cutting": "宝石切割",
+    "container.apotheosis.salvage": "回收",
+    "container.apotheosis.reforge": "重铸",
+    "text.apotheosis.cost": "%s个%s",
+    "text.apotheosis.reforge_cost": "重铸花费",
+    "text.apotheosis.salvage_results": "回收结果",
+    "text.apotheosis.unique": "唯一",
+    "text.apotheosis.results": "结果",
+    "text.apotheosis.facets": "刻面：%s",
+    "text.apotheosis.socketable_into": "适用于：",
+    "text.apotheosis.dot_prefix": "• %s",
+    "text.apotheosis.star_prefix": "🌟 %s",
+    "text.apotheosis.socket_limit": "镶孔最多施加：%s",
+    "text.apotheosis.gems_returned": "宝石将返还至你的物品栏",
+    "text.apotheosis.no_upgrade": "已达到最高等级",
+    "text.apotheosis.cut_cost": "宝石切割花费",
+    "text.apotheosis.one_rarity_mat": "珍宝材料（任选其一）",
+    "text.apotheosis.potential_rerolls": "潜在刷新结果",
+    "text.apotheosis.upgraded_form": "升级结果",
+    "text.apotheosis.alternative_page": "第%s页，共%s页（滚动以翻页）",
+    "text.apotheosis.any_x_item": "任意%s词缀物品",
+    "text.apotheosis.any_affix_item": "任意词缀物品",
+    "text.apotheosis.malice_marker": "合成时将会施加恶意",
+    "text.apotheosis.touched_by_malice": "受恶意侵蚀",
+    "text.apotheosis.malice_notice": "恶意：%s吞噬了%s的力量",
+
+    "title.apotheosis.smithing": "神化锻造",
+    "title.apotheosis.salvaging": "回收",
+
+    "text.apotheosis.anything": "任何",
+    "loot_category.apotheosis.none": "无",
+    "loot_category.apotheosis.none.plural": "无",
+    "loot_category.apotheosis.bow": "弓",
+    "loot_category.apotheosis.bow.plural": "弓",
+    "loot_category.apotheosis.crossbow": "弩",
+    "loot_category.apotheosis.crossbow.plural": "弩",
+    "loot_category.apotheosis.breaker": "挖掘工具",
+    "loot_category.apotheosis.breaker.plural": "挖掘工具",
+    "loot_category.apotheosis.pickaxe": "镐",
+    "loot_category.apotheosis.pickaxe.plural": "镐",
+    "loot_category.apotheosis.shovel": "锹",
+    "loot_category.apotheosis.shovel.plural": "锹",
+    "loot_category.apotheosis.armor": "盔甲",
+    "loot_category.apotheosis.armor.plural": "盔甲",
+    "loot_category.apotheosis.shield": "盾牌",
+    "loot_category.apotheosis.shield.plural": "盾牌",
+    "loot_category.apotheosis.trident": "三叉戟",
+    "loot_category.apotheosis.trident.plural": "三叉戟",
+    "loot_category.apotheosis.melee_weapon": "近战武器",
+    "loot_category.apotheosis.melee_weapon.plural": "近战武器",
+    "loot_category.apotheosis.helmet": "头盔",
+    "loot_category.apotheosis.helmet.plural": "头盔",
+    "loot_category.apotheosis.chestplate": "胸甲",
+    "loot_category.apotheosis.chestplate.plural": "胸甲",
+    "loot_category.apotheosis.leggings": "护腿",
+    "loot_category.apotheosis.leggings.plural": "护腿",
+    "loot_category.apotheosis.boots": "靴子",
+    "loot_category.apotheosis.boots.plural": "靴子",
+
+    "info.apotheosis.boss_spawn": "%s在附近苏醒了！",
+    "info.apotheosis.boss": "神化Boss（%s）",
+    "info.apotheosis.boss_item": "将掉落：%s",
+    "info.apotheosis.boss_modifiers": "Boss属性：",
+    "info.apotheosis.rarity_material": "珍宝材料（%s）",
+    "info.apotheosis.gem_crushing": "你的第一个宝石粉可通过下落的铁砧砸中任意神化宝石获得。\n\n之后，使用回收台。",
+    "info.apotheosis.gem_extraction": "在锻造台中使用，用来取出神化宝石。\n\n物品将在此过程中被销毁。",
+    "info.apotheosis.gem_expulsion": "在锻造台中使用，用来取出神化宝石。\n\n宝石将在此过程中被销毁。",
+    "info.apotheosis.unnaming": "在锻造台中使用，用来移除物品名称中的词缀。",
+    "info.apotheosis.salvaging": "珍宝材料通过回收台回收带有词缀的物品获得。",
+    "info.apotheosis.criteria_done": "☑ %s",
+    "info.apotheosis.criteria_unfinished": "☐ %s",
+    "info.apotheosis.criteria_unknown": "❓ %s",
+
+    "rarity.apotheosis:common": "普通",
+    "rarity.apotheosis:uncommon": "罕见",
+    "rarity.apotheosis:rare": "稀有",
+    "rarity.apotheosis:epic": "史诗",
+    "rarity.apotheosis:mythic": "神话",
+    "rarity.apotheosis:ancient": "远古",
+
+    "death.attack.apotheosis:psychic": "%s被反弹攻击杀死了。",
+    "death.attack.apotheosis:psychic.player": "%s的攻击被%s反弹了。",
+    "death.attack.apotheosis:execute": "%s被处决了。",
+    "death.attack.apotheosis:execute.player": "%s被%s处决了。",
+
+    "disconnect.apotheosis.tier_changes_disabled": "已在配置文件禁用手动更改世界层级。",
+
+    "elite.apotheosis.craig": "永恒克雷格",
+
+    "comment_id": "/Adventure + Gateways Compat",
+
+    "misc.apotheosis.random": "随机",
+    "wave_entity.apotheosis.invader": "%s神化入侵者",
+    "wave_entity.apotheosis.elite": "神化精英怪 - %s",
+    "wave_entity.apotheosis.true_random_invader": "真随机神化入侵者",
+    "reward.apotheosis.affix_item": "词缀物品（%s）",
+    "reward.apotheosis.random_affix": "随机词缀物品",
+    "reward.apotheosis.gem": "神化宝石（%s）",
+    "reward.apotheosis.random_gem": "神化宝石（随机）",
+    "reward.apotheosis.true_random_gem": "真随机神化宝石",
+    "reward.apotheosis.netherite_smithing_template": "下界合金锻造模板",
+    "error.apotheosis.gate_tier_incorrect": "该传送门只能在以下世界层级中打开：%s",
+    "modifier.apotheosis.affix": "收到一个词缀物品",
+    "tooltip.apotheosis.requires_world_tier": "需要世界层级：%s",
+
+    "wave_entity.apotheosis.affixed_armored_zombie": "词缀附加的武装僵尸",
+    "wave_entity.apotheosis.affixed_armored_husk": "词缀附加的武装尸壳",
+    "wave_entity.apotheosis.affixed_armored_skeleton": "词缀附加的武装骷髅",
+    "wave_entity.apotheosis.affixed_armored_stray": "词缀附加的武装流浪者",
+    "wave_entity.apotheosis.affixed_polar_bear": "词缀附加的北极熊",
+    "wave_entity.apotheosis.affixed_wolf": "词缀附加的狼",
+    "wave_entity.apotheosis.affixed_armored_bogged": "词缀附加的武装沼骸",
+    "wave_entity.apotheosis.vampiric_phantom": "吸血鬼幻翼",
+    "wave_entity.apotheosis.nether_herald": "下界先驱",
+    "wave_entity.apotheosis.affixed_armored_zombified_piglin": "词缀附加的武装僵尸猪灵",
+    "wave_entity.apotheosis.affixed_armored_wither_skeleton": "词缀附加的武装凋灵骷髅",
+    "wave_entity.apotheosis.ghast_rider": "恶魂骑士",
+    "wave_entity.apotheosis.affixed_armored_piglin_brute": "词缀附加的武装猪灵蛮兵",
+    "wave_entity.apotheosis.bastion_guard": "堡垒精英守卫",
+    "wave_entity.apotheosis.killer_bunny": "杀手兔",
+
+    "reward.apotheosis.desert_pyramid_loot": "沙漠神殿战利品",
+    "reward.apotheosis.woodland_mansion_loot": "林地府邸战利品",
+
+    "apotheosis.tiered/frontier": "第一边境传送门",
+    "apotheosis.tiered/ascent": "日耀攀升传送门",
+    "apotheosis.tiered/summit": "雷霆高峰传送门",
+    "apotheosis.tiered/pinnacle": "神化顶点传送门",
+    "apotheosis.endless_invader": "神化入侵者无尽传送门",
+
+    "comment_id": "/进度",
+
+    "advancements.apotheosis.progression.root.title": "神化世界层级",
+    "advancements.apotheosis.progression.root.desc": "在神化中解锁世界层级的里程碑。\n按CTRL+T打开选择界面。",
+
+    "advancements.apotheosis.progression.haven.title": "居所",
+    "advancements.apotheosis.progression.haven.desc": "当你找到第一个词缀物品时，“居所”就会解锁，并默认激活。",
+    "advancements.apotheosis.progression.haven.criteria.affixed": "拾取一件词缀物品",
+
+    "advancements.apotheosis.progression.frontier.title": "世界层级：边境",
+    "advancements.apotheosis.progression.frontier.desc": "装备全套词缀物品以解锁“边境”。\n解锁后，使用CTRL+T激活它。",
+    "advancements.apotheosis.progression.frontier.criteria.common_helm": "装备普通头盔",
+    "advancements.apotheosis.progression.frontier.criteria.common_chest": "装备普通胸甲",
+    "advancements.apotheosis.progression.frontier.criteria.common_legs": "装备普通护腿",
+    "advancements.apotheosis.progression.frontier.criteria.common_feet": "装备普通靴子", 
+    "advancements.apotheosis.progression.frontier.criteria.common_hand": "装备普通武器",
+
+    "advancements.apotheosis.progression.ascent.title": "世界层级：攀升",
+    "advancements.apotheosis.progression.ascent.desc": "装备全套罕见装备并杀死入侵者以开始你的攀升",
+    "advancements.apotheosis.progression.ascent.criteria.uncommon_helm": "装备罕见头盔",
+    "advancements.apotheosis.progression.ascent.criteria.uncommon_chest": "装备罕见胸甲",
+    "advancements.apotheosis.progression.ascent.criteria.uncommon_legs": "装备罕见护腿",
+    "advancements.apotheosis.progression.ascent.criteria.uncommon_feet": "装备罕见靴子",
+    "advancements.apotheosis.progression.ascent.criteria.uncommon_hand": "装备罕见武器",
+    "advancements.apotheosis.progression.ascent.criteria.kill_apothic_invader": "杀死神化入侵者",
+
+    "advancements.apotheosis.progression.summit.title": "世界层级：高峰",
+    "advancements.apotheosis.progression.summit.desc": "要达到“高峰”，杀死凋灵，并装备全套稀有装备",
+    "advancements.apotheosis.progression.summit.criteria.rare_helm": "装备稀有头盔",
+    "advancements.apotheosis.progression.summit.criteria.rare_chest": "装备稀有胸甲",
+    "advancements.apotheosis.progression.summit.criteria.rare_legs": "装备稀有护腿",
+    "advancements.apotheosis.progression.summit.criteria.rare_feet": "装备稀有靴子",
+    "advancements.apotheosis.progression.summit.criteria.rare_hand": "装备稀有武器",
+    "advancements.apotheosis.progression.summit.criteria.kill_wither": "杀死凋灵",
+
+    "advancements.apotheosis.progression.pinnacle.title": "世界层级：顶点",
+    "advancements.apotheosis.progression.pinnacle.desc": "达到“顶点”需要解放末地，并获得全套史诗装备",
+    "advancements.apotheosis.progression.pinnacle.criteria.epic_helm": "装备史诗头盔",
+    "advancements.apotheosis.progression.pinnacle.criteria.epic_chest": "装备史诗胸甲",
+    "advancements.apotheosis.progression.pinnacle.criteria.epic_legs": "装备史诗护腿",
+    "advancements.apotheosis.progression.pinnacle.criteria.epic_feet": "装备史诗靴子",
+    "advancements.apotheosis.progression.pinnacle.criteria.epic_hand": "装备史诗武器",
+    "advancements.apotheosis.progression.pinnacle.criteria.kill_ender_dragon": "杀死末影龙",
+
+    "advancements.apotheosis.affix": "神化词缀",
+    "advancements.apotheosis.affix.desc": "找到一个带有神化词缀的物品。",
+
+    "advancements.apotheosis.rare": "值钱的装备",
+    "advancements.apotheosis.rare.desc": "找到一个带有稀有词缀的物品。",
+
+    "advancements.apotheosis.epic": "史诗！",
+    "advancements.apotheosis.epic.desc": "找到一个带有史诗词缀的物品。",
+
+    "advancements.apotheosis.mythic": "鬼斧神工",
+    "advancements.apotheosis.mythic.desc": "找到一个带有神话词缀的物品。",
+
+    "advancements.apotheosis.ancient": "神明遗珍",
+    "advancements.apotheosis.ancient.desc": "找到一个带有远古词缀的物品。",
+
+    "advancements.apotheosis.boss": "虚张声势",
+    "advancements.apotheosis.boss.desc": "杀死一个神化Boss，并取走它那带有词缀的物品。",
+    "advancements.apotheosis.chests": "地底宝藏",
+    "advancements.apotheosis.chests.desc": "在一个箱子里找到一个带有词缀的物品。",
+    "advancements.apotheosis.merchant": "我有优惠",
+    "advancements.apotheosis.merchant.desc": "从流浪商人那里购买一个带有词缀的物品。",
+    "advancements.apotheosis.random": "你是怎么得到这个的？",
+    "advancements.apotheosis.random.desc": "从一个随机怪物那里获得一个带有词缀的物品。",
+
+    "advancements.apotheosis.gem": "不是钻石",
+    "advancements.apotheosis.gem.desc": "找到一个神化宝石，它可以镶嵌在词缀物品上。",
+
+    "advancements.apotheosis.rare_gem": "远未达到完美",
+    "advancements.apotheosis.rare_gem.desc": "获得一个有瑕的宝石。",
+
+    "advancements.apotheosis.mythic_gem": "无瑕水晶",
+    "advancements.apotheosis.mythic_gem.desc": "获得一个无瑕的宝石。",
+
+    "advancements.apotheosis.ancient_gem": "无限宝石",
+    "advancements.apotheosis.ancient_gem.desc": "使用宝石切割台，制作一个完美的宝石。",
+
+    "advancements.apotheosis.socket": "珠宝匠",
+    "advancements.apotheosis.socket.desc": "使用锻造台镶嵌一个宝石。",
+
+    "advancements.apotheosis.gem_cut": "宝石雕琢工",
+    "advancements.apotheosis.gem_cut.desc": "使用宝石切割台升级神化宝石。",
+
+    "advancements.apotheosis.challenge_gates.frontier.title": "离开边境",
+    "advancements.apotheosis.challenge_gates.frontier.desc": "完成第一边境传送门挑战",
+
+    "advancements.apotheosis.challenge_gates.ascent.title": "完成攀升",
+    "advancements.apotheosis.challenge_gates.ascent.desc": "完成日耀攀升传送门挑战",
+
+    "advancements.apotheosis.challenge_gates.summit.title": "到达高峰",
+    "advancements.apotheosis.challenge_gates.summit.desc": "完成雷霆高峰传送门挑战",
+
+    "advancements.apotheosis.challenge_gates.pinnacle.title": "在顶点",
+    "advancements.apotheosis.challenge_gates.pinnacle.desc": "完成神化顶点传送门挑战",
+
+    "advancements.apotheosis.challenge_gates.sigil_of_supremacy.title": "至高无上！",
+    "advancements.apotheosis.challenge_gates.sigil_of_supremacy.desc": "从神化入侵者无尽传送门第100波获得一个至高符石",
+
+    "comment_id": "/药水模块",
+
+    "item.apotheosis.lucky_foot": "幸运兔子脚",
+
+    "item.apotheosis.potion_charm_broke": "无效的药水护符",
+    "item.apotheosis.potion_charm": "%s护符",
+    "item.apotheosis.potion_charm.desc": "启用并放入物品栏将持续施加%s状态效果。",
+    "item.apotheosis.potion_charm.desc2": "%s - 右击启用/禁用。",
+    "item.apotheosis.potion_charm.desc3": "状态效果：%s",
+    "item.apotheosis.potion_charm.enabled": "已启用",
+    "item.apotheosis.potion_charm.disabled": "已禁用",
+    "item.apotheosis.potion_charm.curios_only": "只能在饰品栏位工作",
+    "misc.apotheosis.blacklisted_potion": "无法转化为药水护符。",
+
+    "comment_id": "/花园模块",
+    "item.apotheosis.ender_lead": "末影拴绳",
+    "info.apotheosis.noentity": "拴有实体：无",
+    "info.apotheosis.containedentity": "拴有实体：%s",
+    "info.apotheosis.ender_lead": "末影拴绳是一种可以用来移动动物的物品。左击捕捉动物，右击释放动物。末影拴绳对其他类型的实体不起作用。",
+
+    "comment_id": "/流浪者模块",
+    "name.apotheosis.captive_dreams": "奴役狂梦",
+    "name.apotheosis.stonebreaker": "碎石机",
+    "name.apotheosis.treecapitator": "伐木者",
+    "name.apotheosis.bonesplitter": "碎骨者",
+    "name.apotheosis.arachnids_fear": "节肢之惧",
+    "name.apotheosis.timeworn_visage": "老面孔",
+    "name.apotheosis.greatplate_of_eternity": "永恒之甲",
+    "name.apotheosis.thunder_forged_legguards": "雷鸣护腿",
+    "name.apotheosis.rune_forged_greaves": "符文靴子",
+    "name.apotheosis.eternal_vigilance": "警惕长存",
+
+    "comment_id": "/杂项",
+    "info.apoth.modifier_disabled": "该调节器已被禁用",
+    "itemGroup.apotheosis.adventure": "神化：冒险模块",
+    "itemGroup.apotheosis.ench": "神化：附魔模块",
+    "config.jade.plugin_apotheosis.spawner": "神化刷怪笼模块",
+    "config.jade.plugin_apotheosis.ench": "神化附魔模块",
+    "config.jade.plugin_apotheosis.adventure": "神化冒险模块",
+    "message.apotheosis.item_linking_disabled": "物品链接已被服务器禁用。",
+    "text.apotheosis.equipped": "当前装备",
+
+    "item.apotheosis.music_disc_flash": "音乐唱片",
+    "jukebox_song.apotheosis.flash": "Renren - Flash",
+    "subtitle.apotheosis.music_disc.flash": "Renren - Flash",
+
+    "item.apotheosis.music_disc_glimmer": "音乐唱片",
+    "jukebox_song.apotheosis.glimmer": "Caner Crebes - Glimmer",
+    "subtitle.apotheosis.music_disc.glimmer": "Caner Crebes - Glimmer",
+
+    "item.apotheosis.music_disc_shimmer": "音乐唱片",
+    "jukebox_song.apotheosis.shimmer": "Chamberlain Kaifry - Shimmer",
+    "subtitle.apotheosis.music_disc.shimmer": "Chamberlain Kaifry - Shimmer",
+
+    "painting.apotheosis.gems.title": "宝石",
+    "painting.apotheosis.gems.author": "Faellynna",
+
+    "painting.apotheosis.craig.title": "永恒克雷格",
+    "painting.apotheosis.craig.author": "Astrel",
+
+    "painting.apotheosis.tower.title": "高塔",
+    "painting.apotheosis.tower.author": "Faellynna",
+
+    "painting.apotheosis.enchanting_table.title": "神化附魔",
+    "painting.apotheosis.enchanting_table.author": "Faellynna",
+
+    "painting.apotheosis.window.title": "超越视野",
+    "painting.apotheosis.window.author": "Faellynna",
+
+    "comment_id": "指南书",
+    "book.apotheosis.name": "阴影编年史",
+    "book.apotheosis.subtitle": "神化指南",
+    "book.apotheosis.landing": "欢迎来到神化的世界。$(br2)神化模组分为不同的$(#8080FF)模块$()，这本书的内容也是如此。$(br2)禁用的模块其内容将被隐藏。"
+}
