@@ -573,11 +573,11 @@
 	quest.0B295CE75D367D59.title: "&f片叶不留"
 	quest.0B3FD3C2AD980AD7.title: "Ancient Meet"
 	quest.0B65713A23351790.quest_desc: [
-		"The &dWyvern Sword&r is a powered sword that allows for a ton of customization options."
+		"&d双足飞龙剑&r由能量驱动，具有多个自定义选项。"
 		""
-		"&6Draconic Evolution&r gear has its own interface that can store modular upgrades inside of each item."
+		"&6龙之进化&r模组的装备都具有一个可以装配升级模块的面板。"
 		""
-		"This allows you to upgrade any of the mod's items in many different ways using &dModules&r."
+		"通过使用&d模块&r，你可以以多种不同的思路升级本模组的各件装备。"
 	]
 	quest.0B69B9E1209A9234.quest_desc: [
 		"虽然你的主要目标是用&c高级机械方块&r升级&b世界引擎&r，但是可能你需要升级他的供能系统。"
@@ -663,7 +663,7 @@
 	quest.0D38D67E3FD120CB.quest_desc: [
 		"[\"\", {\"text\": \"混沌\", \"color\": \"rainbow\"}, \"武器是\", {\"text\": \"神龙\", \"color\": \"gold\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"5388B67410670702\" }, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"前往神龙武器任务\"}}, \"武器的最终升级，具有最大的\", {\"text\": \"升级模块\", \"color\": \"green\"}, \"安放空间以及最强的可定制性。\"]"
 		""
-		"You can also upgrade into or craft the &zChaotic Staff of Power&r, an All-In-One tool and weapon."
+		"通过升级神龙之力权杖或直接合成的方式打造&z混沌之力权杖&r，其既是一把全能工具，也是一把武器。"
 		""
 		"模块安装界面可通过&e工具模块&r打开，该功能没有默认绑定按键。"
 	]
@@ -836,13 +836,13 @@
 	quest.11A35E8F97ACA240.quest_desc: [
 		"[\"\", {\"text\": \"神龙\", \"color\": \"gold\"}, \"工具是\", {\"text\": \"双足飞龙\", \"color\": \"light_purple\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"056990503617C147\" }, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"前往双足飞龙工具的任务\"}}, \"工具的升级款，拥有更大的放置\", {\"text\": \"升级模块\", \"color\": \"green\"}, \"的空间，具有更强的可定制性。\"]"
 		""
-		"你可以打造一把集镐、铲、剑于一体的终极工具：“神龙之力权杖”。"
+		"你可以打造一把集镐、铲、剑于一体的终极工具：&6神龙之力权杖&r。"
 		""
 		"模块安装界面可通过&e工具模块&r打开，该功能没有默认绑定按键。"
 		""
 		"&eNote&r: To craft these, you must have the &cAdvanced Machine Block&r and the &dDraconic Energy&r &6World Engine Upgrades&r."
 	]
-	quest.11A35E8F97ACA240.title: "&6Draconic &fTools"
+	quest.11A35E8F97ACA240.title: "&6神龙&f工具"
 	quest.11BB3C62703E0B3E.quest_desc: [
 		"直接将这些精魄囚禁在方块中可能并非最人道的做法，但是&6世界引擎&r可以利用它的力量制作更强大的东西。"
 		""
@@ -858,7 +858,7 @@
 	quest.11C58E38DE9488BE.quest_subtitle: "Mob Grinding Utils"
 	quest.11C58E38DE9488BE.title: "&fMob Mashing"
 	quest.11CC48D772573E73.quest_desc: [
-		"&zInfinity Weapons&r deal an infinite amount of damage."
+		"&z无限武器&r可以造成无限的伤害。"
 		""
 		"&7&o基本上就是对怪物执行了“/kill”指令。"
 	]
@@ -883,13 +883,13 @@
 	quest.131199313AE3F5E9.quest_desc: ["&a电力熔炼炉&r本质上是一种可升级的电动熔炉！"]
 	quest.131199313AE3F5E9.title: "&f你的第一台&a电力熔炉"
 	quest.137039009E8EBA03.quest_desc: [
-		"&6ProjectE&r has several very strong tools that can be made once you have your hands on enough EMC and a &cNetherite Smithing Template&r."
+		"&6等价交换&r模组有一些非常强大的工具，只要你就足够的EMC和&c下界合金锻造模板&r就能制作。"
 		""
 		"These tools can be charged (default: \"V\") with EMC to empower powerful Area of Effect abilities when Right-Clicking each tool."
 		""
 		"&eNote&r: To craft these, you must have the &aMachine Block&r &6World Engine Upgrade&r."
 	]
-	quest.137039009E8EBA03.title: "ProjectE Tools"
+	quest.137039009E8EBA03.title: "等价交换工具"
 	quest.137EC884018376A1.quest_desc: [
 		"&c下界合金&r盔甲提供充足的防御力，只是你需要&a远古残骸&r和&c远古升级锻造模板&r……"
 		""
@@ -1425,7 +1425,7 @@
 	quest.20F9CC6590B8990C.quest_desc: [
 		"&6新生魔艺&r中有许多你可以召唤来帮助你完成日常任务的魔法生物，你可以使用&d支配之杖&r来控制这些生物！"
 		""
-		"要了解更多关于每个生物的作用，请查阅&a破破的宝典&r指南书。"
+		"要了解更多关于每个生物的作用，请查阅&a残破的宝典&r指南书。"
 	]
 	quest.210753664AB84703.quest_desc: [
 		"&a合金炉&r将是你&e末影接口&r旅途中最常用的机器，因为大多数机器和设备都需要用到它生产的合金！哦，它还可以用&b电容&r升级。"
@@ -2075,7 +2075,7 @@
 		""
 		"{@pagebreak}"
 		""
-		"&f要选择用于&6套装单件&r的&b术式&f，就制作一个&d&l套装控制器&r&f，"
+		"制作一个&d&l套装控制器&r&f&f来选择用于&6套装单件&r的&b术式&f，"
 		""
 		"&f要使用&d控制器&f，请拿着它并按下&bPsi的主要快捷键&r&8（默认按键：c）&r。"
 		""
@@ -3585,7 +3585,7 @@
 	quest.5388B67410670702.quest_desc: [
 		"[\"\", {\"text\": \"神龙\", \"color\": \"gold\"}, \"武器是\", {\"text\": \"双足飞龙\", \"color\": \"light_purple\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2C141655079AC173\" }, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"前往双足飞龙武器任务\"}}, \"武器的升级款，拥有更大的放置\", {\"text\": \"升级模块\", \"color\": \"green\"}, \"的空间，具有更强的可定制性。\"]"
 		""
-		"你可以打造一把集镐、铲、剑于一体的终极工具：“神龙之力权杖”。"
+		"你可以打造一把集镐、铲、剑于一体的终极工具：&6神龙之力权杖&r。"
 		""
 		"模块安装界面可通过&e工具模块&r打开，该功能没有默认绑定按键。"
 	]
@@ -4240,7 +4240,7 @@
 		"&6CAD的插槽&r实际上是它的&a弹夹&r。"
 		"它是装填&a术式子弹&r的地方，并且也负责将子弹中已编译的&b术式&r转移到&d核心&r进行处理。"
 		""
-		"一个&6弹夹&r有自己的&e带宽&r，这是它一次可以将&b术式&r传输到&d核心&r的&8&o（在网格中）&r&r的最大值。"
+		"一个&6弹夹&r有自己的&e带宽&r，这是它一次可以将&b术式&r传输到&d核心&r的最大值&8&o（在网格中）&r&r。"
 		"&8&o（例如，一个带宽为5的弹夹最多可以传输尺寸为5x5的术式）&r&r"
 		""
 		"此外，&6CAD弹夹&r的另一个特有的属性是提供一种存储&3连续信息&r的方法，一个&6弹夹&r提供的&b内存&r越多，可以存储的&b向量&r就越多，以便之后的&b术式&r执行。"
@@ -4784,7 +4784,7 @@
 		"&6CAD的插槽&r实际上是它的&a弹夹&r。"
 		"它是装填&a术式子弹&r的地方，并且也负责将子弹中已编译的&b术式&r转移到&d核心&r进行处理。"
 		""
-		"一个&6弹夹&r有自己的&e带宽&r，这是它一次可以将&b术式&r传输到&d核心&r的&8&o（在网格中）&r&r的最大值。"
+		"一个&6弹夹&r有自己的&e带宽&r，这是它一次可以将&b术式&r传输到&d核心&r的最大值&8&o（在网格中）&r&r。"
 		"&8&o（例如，一个带宽为5的弹夹最多可以传输尺寸为5x5的术式）&r&r"
 		""
 		"此外，&6CAD弹夹&r的另一个特有的属性是提供一种存储&3连续信息&r的方法，一个&6弹夹&r提供的&b内存&r越多，可以存储的&b向量&r就越多，以便之后的&b术式&r执行。"
@@ -5399,7 +5399,7 @@
 		"&6CAD的插槽&r实际上是它的&a弹夹&r。"
 		"它是装填&a术式子弹&r的地方，并且也负责将子弹中已编译的&b术式&r转移到&d核心&r进行处理。"
 		""
-		"一个&6弹夹&r有自己的&e带宽&r，这是它一次可以将&b术式&r传输到&d核心&r的&8&o（在网格中）&r&r的最大值。"
+		"一个&6弹夹&r有自己的&e带宽&r，这是它一次可以将&b术式&r传输到&d核心&r的最大值&8&o（在网格中）&r&r。"
 		"&8&o（例如，一个带宽为5的弹夹最多可以传输尺寸为5x5的术式）&r&r"
 		""
 		"此外，&6CAD弹夹&r的另一个特有的属性是提供一种存储&3连续信息&r的方法，一个&6弹夹&r提供的&b内存&r越多，可以存储的&b向量&r就越多，以便之后的&b术式&r执行。"
