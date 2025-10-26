@@ -27,7 +27,7 @@
   "ftbechoes.gui.stage_completed": "阶段已完成！",
   "ftbechoes.gui.stages": "阶段",
   "ftbechoes.gui.wallet": "钱包：%s",
-  "ftbechoes.jei.echo_title": "由回响：%s出售",
+  "ftbechoes.jei.echo_title": "由%s出售",
   "ftbechoes.jei.shop.title": "回响商店",
   "ftbechoes.jei.stage_title": "解锁条件：%s",
   "ftbechoes.message.complete_stage": "完成阶段",

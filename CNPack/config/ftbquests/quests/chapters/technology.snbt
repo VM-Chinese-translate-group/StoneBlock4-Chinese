@@ -1356,7 +1356,7 @@
 					item: {
 						components: {
 							"ftbfiltersystem:filter": "or(item(mffs:cube_mode)item(mffs:sphere_mode)item(mffs:tube_mode)item(mffs:pyramid_mode)item(mffs:cylinder_mode)item(mffs:custom_mode))"
-							"minecraft:custom_name": "\"Shape Modes\""
+							"minecraft:custom_name": "\"塑形模式\""
 						}
 						count: 1
 						id: "ftbfiltersystem:smart_filter"
@@ -1396,7 +1396,7 @@
 				item: {
 					components: {
 						"ftbfiltersystem:filter": "or(item(mffs:dome_module)item(mffs:camouflage_module)item(mffs:shock_module)item(mffs:glow_module)item(mffs:silence_module))"
-						"minecraft:custom_name": "\"Forcefield Tweaks\""
+						"minecraft:custom_name": "\"力场调整\""
 					}
 					count: 1
 					id: "ftbfiltersystem:smart_filter"
@@ -1426,7 +1426,7 @@
 				item: {
 					components: {
 						"ftbfiltersystem:filter": "or(item(mffs:warn_module)item(mffs:block_access_module)item(mffs:block_alter_module)item(mffs:anti_friendly_module)item(mffs:anti_hostile_module)item(mffs:anti_personnel_module)item(mffs:anti_spawn_module)item(mffs:confiscation_module))"
-						"minecraft:custom_name": "\"Matrix Effects\""
+						"minecraft:custom_name": "\"矩阵能力\""
 					}
 					count: 1
 					id: "ftbfiltersystem:smart_filter"
@@ -1537,7 +1537,7 @@
 				item: {
 					components: {
 						"ftbfiltersystem:filter": "or(item(mffs:disintegration_module)item(mffs:sponge_module)item(mffs:stabilization_module)item(mffs:collection_module))"
-						"minecraft:custom_name": "\"Field Effects\""
+						"minecraft:custom_name": "\"力场能力\""
 					}
 					count: 1
 					id: "ftbfiltersystem:smart_filter"
@@ -1631,7 +1631,7 @@
 					item: {
 						components: {
 							"ftbfiltersystem:filter": "or(item(enderio:pulsating_alloy_grinding_ball)item(enderio:energetic_alloy_grinding_ball)item(enderio:vibrant_alloy_grinding_ball)item(enderio:conductive_alloy_grinding_ball)item(enderio:redstone_alloy_grinding_ball)item(enderio:soularium_grinding_ball)item(enderio:copper_alloy_grinding_ball)item(enderio:dark_steel_grinding_ball)item(enderio:end_steel_grinding_ball))"
-							"minecraft:custom_name": "\"Grinding Balls\""
+							"minecraft:custom_name": "\"磨珠\""
 						}
 						count: 1
 						id: "ftbfiltersystem:smart_filter"
@@ -1933,7 +1933,7 @@
 				item: {
 					components: {
 						"ftbfiltersystem:filter": "or(item(actuallyadditions:lens_of_color)item(actuallyadditions:lens_of_detonation)item(actuallyadditions:lens_of_certain_death)item(actuallyadditions:lens_of_the_miner)item(actuallyadditions:lens_of_disenchanting))"
-						"minecraft:custom_name": "\"Lenses\""
+						"minecraft:custom_name": "\"透镜\""
 					}
 					count: 1
 					id: "ftbfiltersystem:smart_filter"
