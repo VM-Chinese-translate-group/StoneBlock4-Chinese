@@ -360,6 +360,8 @@
 		""
 		"You can place these in a &eCurio Slot&r as well for easy access using a keybind. These can also be placed down in the world by Sneak + Right-clicking while it's in your main hand."
 		""
+		"[\"You can place these in a curio slot for easy access using the keybind \", { \"keybind\": \"keybind.sophisticatedbackpacks.open_backpack\", \"color\": \"green\" }, \".\"]"
+		""
 		"&eNote&r: Backpacks do not connect to pipes or cables."
 	]
 	quest.05CEF45909A11F60.title: "&eSophisticated Backpacks"
@@ -555,7 +557,7 @@
 		""
 		"&aShape Modes&r define the form &bForce Field Blocks&r will be placed in and &2Directional Modules&r &7(next quest)&r specify its placement in the world."
 		""
-		"An &eInversion Module&r in the matrix slots will fill the &lentire&r projected volume with &bfield blocks&r instead of just creating an outline."
+		"An &eInverter Module&r in the matrix slots will fill the &lentire&r projected volume with &bfield blocks&r instead of just creating an outline."
 		""
 		"&7&oMore mode details on the next pages."
 		"{@pagebreak}"
@@ -590,6 +592,7 @@
 		""
 		"This allows you to upgrade any of the mod's items in many different ways using &dModules&r."
 	]
+	quest.0B65713A23351790.title: "&dWyvern &fWeapons"
 	quest.0B69B9E1209A9234.quest_desc: [
 		"While the main goal will be to upgrade the &bWorld Engine&r with the &cAdvanced Machine Blocks&r, you'll need to upgrade how it handles power first."
 		""
@@ -599,7 +602,7 @@
 		""
 		"Return to the &dEcho of The Catalyst&r so they may show you how to upgrade your &6World Engine&r."
 	]
-	quest.0B69B9E1209A9234.quest_subtitle: "Minor World Engine Upgrade"
+	quest.0B69B9E1209A9234.quest_subtitle: "Major World Engine Upgrade"
 	quest.0B69B9E1209A9234.title: "&fEnder Technology"
 	quest.0B92679772DB0C68.quest_desc: [
 		"&aShafts&r and &aCogwheels&r are the primary ways to transfer rotational force to your machines and contraptions."
@@ -609,7 +612,7 @@
 	quest.0BAF0C06F01C4E80.quest_subtitle: "Improves energy capacity and energy transfer rate"
 	quest.0BD2630DFA958C65.title: "Twilight Meet"
 	quest.0BEF15E1352A5F72.quest_desc: [
-		"Once you have an experienced &dDimensionalist&r working for you, you'll run into a very valuable or called &dRaw Replication&r."
+		"Once you have an experienced &dDimensionalist&r working for you, you'll run into a very valuable ore called &dRaw Replication&r."
 		""
 		"This is how you start &6Replication&r, which will allow you to break down items into &bMatter&r, which can be converted into other items that are made up of that same type of &bMatter&r."
 		""
@@ -669,6 +672,8 @@
 		"The &dMachinist&r mentioned a forgotten and potentially &cdangerous&r &3Vault&r that should contain the alloy needed to make the &6World Engine's &3Shadow Casing Upgrade&r."
 		""
 		"Dig throughout the &3Stone&r and &3Deepslate&r rings to locate the &3Vault&r using the compass provided by the &dMachinist&r."
+		""
+		"&7&oThe Compass can be Sneak + Right-clicked when at least 256 blocks from the vault to instantly teleport to the entrance!&r"
 	]
 	quest.0D159FD643581C18.title: "&fRemnants of The Past"
 	quest.0D38D67E3FD120CB.quest_desc: [
@@ -680,7 +685,7 @@
 	]
 	quest.0D38D67E3FD120CB.title: "&zChaotic &fWeapons"
 	quest.0D57D3662EB40CE3.quest_desc: [
-		"&aCapacitor Banks&r from &6EnderIO&r are used to store energy!"
+		"&aCapacitor Banks&r from &eEnderIO&r are used to store energy!"
 		""
 		"These are easily configurable within the interface. You can also stack these together to make multiblock power banks."
 	]
@@ -724,8 +729,6 @@
 		"The &aFuel Port&r will be placed on the ceiling of the Reactor. This Port will need &aFuel Rods&r connecting it all the way to the bottom of the Reactor."
 		""
 		"To create &6Uranium Pellets&r, you'll need access to the &6Atomic Forge&r to create &6Uranium Gems&r."
-		""
-		"You can make &6Uranium Dust&r by Centrifuging &cRedstone&r."
 		"{@pagebreak}"
 		"When burning fuel, &aFuel Rods&r will generate neutron pulses that create a specific amount of energy, the more pulses a rod receives, the more energy it also creates. However, if a neighbor component is also a &aFuel Rod&r, it will also hit the neighboring component with a pulse."
 		""
@@ -761,6 +764,8 @@
 		"Within the &eEnd&r ring, you'll be able to find a very special &3Vault&r with a dangerous fight inside. And maybe a Dragon Egg."
 		""
 		"You will need to craft the &dMighty Ender Chicken Egg&r and use it in the center of the ring to summon the boss."
+		""
+		"&7&oThe Compass given can be Sneak + Right-clicked when at least 256 blocks from the vault to instantly teleport to the entrance!&r"
 		"{@pagebreak}"
 		"Once you have your hands on one, the &6World Engine&r should be able to extract its essence into block form."
 		""
@@ -768,7 +773,7 @@
 		""
 		"[\"\", {\"text\": \"Note\", \"color\": \"yellow\"}, \": It's worth setting up an \", {\"text\": \"Extractor\", \"color\": \"green\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0EBA58B7FD2AF36D\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Go to Extractor Quest\"} }, \" to get more \", {\"text\": \"Dragon Eggs\", \"color\": \"light_purple\"}, \", or you can redo the fight over and over.\" ]"
 	]
-	quest.0E7AD6BCF9F8605F.quest_subtitle: "Minor World Engine Upgrade"
+	quest.0E7AD6BCF9F8605F.quest_subtitle: "Major World Engine Upgrade"
 	quest.0E7AD6BCF9F8605F.title: "&fLike Taking Candy From A Baby"
 	quest.0EBA58B7FD2AF36D.quest_desc: [
 		"The &aExtractor&r from &bXycraft&r is a staple for easily generating niche resources like &dDragon Eggs&r or &7Sky Stone Dust&r."
@@ -816,6 +821,14 @@
 	quest.0F3EDB9AE592016B.quest_subtitle: "Improves energy capacity and energy transfer rate"
 	quest.0F3EDB9AE592016B.title: "&fMachine Capacitor Addon"
 	quest.0F48353EDD296510.quest_desc: ["Speak to &dThe Wyrmwright&r once you have crafted the &dResonant Void&r and they will show you how install this &3World Engine Upgrade&r."]
+	quest.0F7CB818AC0A9187.quest_desc: [
+		"You gain access to &zTiny Chaos Fragments&r after facing off against the &zMighty Ender Chicken&r."
+		""
+		"You will need to use a &aFluid Laser&r to extract &zMolten Chaos&r, which can be turned into &6Tiny Chaos Fragments&r."
+		""
+		"[\"You can learn more about how to do this in the \", {\"text\": \"Bringing Home The Chicken quest\", \"color\": \"light_purple\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"4D7C7DE95E56C7B3\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Go to Quest\"}}, \" in the T5 chapter.\"]"
+	]
+	quest.0F7CB818AC0A9187.title: "&zChaos Fragments"
 	quest.0FD446B7912E00CB.quest_desc: ["It's time to combine each of the pieces together to create the &cAdvanced Machine Blocks&r."]
 	quest.0FD446B7912E00CB.quest_subtitle: "Major World Engine Upgrade"
 	quest.0FD446B7912E00CB.title: "&fThe Advanced Machinery Upgrade"
@@ -1154,6 +1167,14 @@
 		""
 		"These can be easily crafted, or you might have gotten one from being bonked by a Loot Bee."
 	]
+	quest.18A36EA79A9355C4.quest_desc: [
+		"To upgrade to the &dWyvern Fusion Injectors&r, you will need at least 8 &dDraconium Injectors&r placed around the Core."
+		""
+		"You can right-click each item the injectos need to craft the upgrade. Each injector will also need power."
+		""
+		"With all items placed in the injectors, you can place the main item in the &aCore&r, and the craft should start once it has a redstone signal."
+	]
+	quest.18A36EA79A9355C4.title: "&dWyvern &fInfusion"
 	quest.18AF36E1C2375101.quest_desc: ["Using the latent magical powers of &7Deepstone&r, you should be able to craft a bookshelf that can grant even stronger enchants within your table."]
 	quest.18AF36E1C2375101.quest_subtitle: "Minor World Engine Upgrade"
 	quest.18AF36E1C2375101.title: "&fMagics of The Deep"
@@ -1315,6 +1336,14 @@
 	]
 	quest.1CFD4CE2704F2ADE.title: "&aCrafting &dSpells"
 	quest.1D52FC5D0EAD911B.title: "Guidance Check 2"
+	quest.1D87C5E9D52341C4.quest_desc: [
+		"To craft more advanced items in &eDraconic Evolution&r, you will need a special crafting setup called &dFusion Crafting&r."
+		""
+		"The &dFusion Crafting Core&r must be the middle of the setup, with &dDraconium Fusion Crafting Ejectors&r placed facing towards the Core 2 blocks apart."
+		""
+		"The Core will also need a redstone signal to start."
+	]
+	quest.1D87C5E9D52341C4.title: "Fusion Crafting"
 	quest.1D8B2D2B03DF3256.quest_desc: ["&dThe Wyrmwright&r says crafting this item will allow her to infuse her draconic essence into a &aChronon Battery&r, allowing it to teleport you to her brother's last known location, wherever that may be."]
 	quest.1D8B2D2B03DF3256.title: "&fFinding the &6Ascended Echos"
 	quest.1DA11C69EFDA19EC.quest_subtitle: "Unearther, Geologist"
@@ -1343,7 +1372,11 @@
 		"This arena comes with its own boss fight!"
 	]
 	quest.1E061D2E5C560867.title: "Find the &cChesed Arena&r"
-	quest.1E077BC4B8832C98.quest_desc: ["Found within the upper levels of the &bTwilight Forest&r ring, the vault of the &aYeti&r is the second Twilight boss to fight."]
+	quest.1E077BC4B8832C98.quest_desc: [
+		"Found within the upper levels of the &bTwilight Forest&r ring, the vault of the &aYeti&r is the second Twilight boss to fight."
+		""
+		"&7&oThe Compass given can be Sneak + Right-clicked when at least 256 blocks from the vault to instantly teleport to the entrance!&r"
+	]
 	quest.1E077BC4B8832C98.title: "&fThe Yeti's Cave"
 	quest.1E2A91B73A752B3B.quest_desc: [
 		"The &aBiometric Identifier&r is a requirement for making the &dForcefield&r and the &eInterdiction Matrix&r function on an individual level, such as being able to sneak to walk through field blocks."
@@ -1376,6 +1409,20 @@
 		"► &aOverflow&r: 400"
 	]
 	quest.1E6014F4B7CBE373.title: "&dTier 3&f CAD Battery"
+	quest.1E6E38DC6183463A.quest_desc: [
+		"The &eDE&r energy core is a tiered energy storage solution capable of storing a near-infinite quantity of power when fully upgraded."
+		""
+		"Its core components are the &aEnergy Core&r and the &2Energy Core Stabilizers&r, which can be placed in any direction up to 8 blocks away from the core."
+		""
+		"To insert or extract power from the Core, you'll need to place down an &bEnergy Pylon&r within 10 blocks of the core, then place a glass block under or above it."
+		"{@pagebreak}"
+		"To upgrade the core you'll need to surround the &aEnergy Core&r with more &dDraconium Blocks&r per tier. At tier 8, you'll also need to surround it with &6Awakened Draconium Blocks&r."
+		""
+		"The energy core has a build guide within its interface when you interact with it that can automatically place the blocks in their position from your inventory."
+		""
+		"At tier 8, you will also need to upgrade your &2Stabilizers&r into a ring, requiring a total of 36 blocks (9 per ring)."
+	]
+	quest.1E6E38DC6183463A.title: "&eDE &fEnergy Core"
 	quest.1EC4F12DACE04299.quest_desc: ["Gotten from the create vault"]
 	quest.1EEC74B18B1BFBB5.quest_desc: [
 		"&aBatteries&r are a good way to store energy to move around. They can be charged with any wired or wireless charging method."
@@ -1570,7 +1617,7 @@
 		""
 		"These generators are customizable, and can generate some of the highest amounts of power in the pack."
 		""
-		"&eNote&r: Reactors from &6Oritech&r and &6Draconic Evolution&r have been massively buffed."
+		"&eNote&r: Reactors from &6Oritech&r have been massively buffed."
 	]
 	quest.238137090A4F8FD6.title: "Minor WE Upgrade Check"
 	quest.23DC842244086CB9.title: "Wayfinder Meet"
@@ -1746,6 +1793,17 @@
 	quest.28E63B302DFCF6D9.title: "&dArcana&r Items"
 	quest.28F636FAA3397479.quest_desc: ["The &aBasic Coal Generator&r from &6RFTools&r is a simple to use generator that burns furnace fuel items to generate power."]
 	quest.28F636FAA3397479.title: "&fBasic Coal Generator"
+	quest.294AB45D52BE342B.quest_desc: [
+		"&6Create&r has a very unique way of storing items as well as doing autocrafting!"
+		""
+		"&aItem Vaults&r can store a ton of items, but don't have an interface to see what is in it."
+		""
+		"You can use &aPackagers&r to wrap items up and ship them off to other storages to create an inventory sorting system!"
+		"{@pagebreak}"
+		"&2Stock Links&r help connect items in a storage to your storage network."
+		""
+		"Combine this with a &aStock Ticker&r, you can request items from those linked storages."
+	]
 	quest.294AB45D52BE342B.title: "&6Create's &eInventory System"
 	quest.2950D495BCF2D52D.quest_desc: [
 		"To upgrade the &6World Engine&r, you'll need to make some basic machines for processing materials."
@@ -1893,8 +1951,28 @@
 		"The &3Vault&r comes alive once the jukebox is activated with its favorite song."
 		""
 		"&eNote&r: This vault is dangerous. Come prepared for a fight!"
+		""
+		"&7&oThe Compass given can be Sneak + Right-clicked when at least 256 blocks from the vault to instantly teleport to the entrance!&r"
 	]
 	quest.2D110AB9A38178C5.title: "&fFlame of the Disco"
+	quest.2D1B390B363E0F27.quest_desc: [
+		"&eDE &bEnergy Crystals&r can transfer RF power to linked blocks via an energy network with at least one &aI/O Crystal&r and one &2Wireless Crystal&r. "
+		""
+		"Shift + Right-click your Wireless Crystal to start linking it to other blocks by Right-clicking."
+		""
+		"&aRelays&r can only connect to other Network components, so they are only used to extend the range of your network."
+		""
+		"&7&oCheck the next page for transfer rates ->"
+		"{@pagebreak}"
+		"Each crystal tier can output a different amount of power per connection:"
+		""
+		"The &aBasic Tier&r can transfer up to 32,000 RF/t"
+		""
+		"The &dWyvern Tier&r can transfer up to 128,000 RF/t"
+		""
+		"The &6Draconic Tier&r can transfer up to 256,000 RF/t"
+	]
+	quest.2D1B390B363E0F27.title: "Draconic Energy Transfer"
 	quest.2D20EDB447787183.quest_desc: [
 		"While you can use &ebelts&r as an automatic sidewalk and &eweighted ejectors&r to fling yourself, there are more sophisticated methods of travel around the different sections of your base using the &6Create&r mod. Namely: &6Hypertubes&r!"
 		""
@@ -1904,16 +1982,25 @@
 	]
 	quest.2D20EDB447787183.title: "&6Create: Hypertubes"
 	quest.2D35AD2FDC93FA46.title: "TF South"
+	quest.2D95FEECCF48B088.quest_desc: [
+		"&aDraconic Capacitors&r are portable batteries that can store and provide power to other items within your inventory."
+		""
+		"&eNote&f: Capacitors can also go in your Curio Slots."
+		""
+		"[\"At this point you will also gain access to \", { \"text\": \"Wyvern Tools\", \"color\": \"light_purple\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"056990503617C147\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Go to Wyvern Tools Quest\"}}, \", \", { \"text\": \"Wyvern Weapons\", \"color\": \"light_purple\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0B65713A23351790\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Go to Wyvern Weapons Quest\"}}, \", and the \", {\"text\": \"Wyvern Chestpiece\", \"color\": \"light_purple\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2DF77DA2ED65FBAC\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Go to Wyvern Chestpiece Quest\"}}, \".\"]"
+	]
+	quest.2D95FEECCF48B088.title: "&dDraconic &fCapacitors"
 	quest.2D99F429A18BEED1.title: "Catalyst Check 2"
 	quest.2DB9D91CFB15C210.quest_desc: ["Use the Infuser to make the circuitry needed for the &2Machine Frames&r."]
 	quest.2DB9D91CFB15C210.title: "&fBasic Circuitry"
 	quest.2DF77DA2ED65FBAC.quest_desc: [
 		"The &dWyvern Chestpiece&r is a powered piece of armor that allows for a ton of customization options."
 		""
-		"&6Draconic Evolution&r gear has its own interface that can store modular upgrades inside each piece of gear."
+		"&6Draconic Evolution&r gear has its own interface that can store modular upgrades inside each piece of gear which can be accessed via a keybind (&eTool Modules&r)."
 		""
-		"This allows you to upgrade this chestpiece in many different ways using &dModules&r."
+		"This allows you to upgrade this chestpiece in many different ways using &aUpgrade Modules&r."
 	]
+	quest.2DF77DA2ED65FBAC.title: "&dWyvern &fChestpiece"
 	quest.2E53319ED51DC7C8.quest_desc: ["You wouldn't believe it, but this dungeon spawns in the &eEnd&r ring."]
 	quest.2E53319ED51DC7C8.title: "Find A &eEnd&r Dungeon"
 	quest.2E619195856B3B9F.quest_desc: [
@@ -2009,6 +2096,8 @@
 		"With the &2Yeti&r defeated, you will have access to 2 new vaults to find."
 		""
 		"Found within the upper levels of the &bTwilight Forest&r ring, you can run into a vault of the &aSnow Queen's Castle&r."
+		""
+		"&7&oThe Compass given can be Sneak + Right-clicked when at least 256 blocks from the vault to instantly teleport to the entrance!&r"
 	]
 	quest.30902357747A64F1.title: "&fThe Snow Queen's Palace"
 	quest.309D995CCCDB3AEE.quest_desc: ["The &dWyrmwright&r has provided you with the &aChronon Battery&r, a tool capable of accessing &zThe Fractured Void&r."]
@@ -2131,6 +2220,8 @@
 		"Once both the &aSnow Queen&r and the &2Hydra&r have been defeated, there is one final vault that unlocks."
 		""
 		"The vault of the &dKnight Phantoms&r will be your final puzzle and fight within the &bTwilight Forest&r ring."
+		""
+		"&7&oThe Compass given can be Sneak + Right-clicked when at least 256 blocks from the vault to instantly teleport to the entrance!&r"
 	]
 	quest.32653261B16850B3.title: "&fThe Final Twilight Vault"
 	quest.32A6859ECF7E775F.title: "Enchanter Check 1"
@@ -2175,7 +2266,7 @@
 	quest.333E8FBE15AE980D.quest_desc: [
 		"&cNuclear Waste&r can be safely dumped into &aRadioactive Waste Barrels&r to slowly decay, but a &dReactor&r produces a lot of waste from which we can still extract some new useful products."
 		""
-		"Centrifuging radioactive waste will create &3Plutonium&r, while further radiating it with a &6Solar Neutron Activator&r will produce &9Polonium&r, both processes heavily reducing the amount of radioactive chemicals."
+		"Centrifuging radioactive waste will create &3Plutonium&r, while further radiating it with a &6Neutron Activator&r will produce &9Polonium&r, both processes heavily reducing the amount of radioactive chemicals."
 		"{@pagebreak}"
 		"These chemicals can be further converted into &2Pellets&r, removing any final few chemical impurites that will still ultimately need to decay."
 		""
@@ -2228,7 +2319,7 @@
 	]
 	quest.3435641A78B90D97.title: "&fAffecting the Area"
 	quest.34B2900863004CC2.title: "Pre-Knight compass give"
-	quest.34C8824842867F5D.quest_desc: ["The &zMighty Ender Chicken&r has a home on both the North and South parts of the map, specifically in &eEnd&r ring."]
+	quest.34C8824842867F5D.quest_desc: ["The &zMighty Ender Chicken&r has a home on both the North and South parts of the map, specifically in &eEnd&r ring. Rumor has it, the chicken has an impenetrable shield. Perhaps a &bChicken Stick&r might help with that..."]
 	quest.34C8824842867F5D.title: "&eKill&f: &zMighty Ender Chicken"
 	quest.34D191F76AA69707.quest_desc: [
 		"&eFlux Networks&r is the ultimate wireless power solution!"
@@ -2465,6 +2556,8 @@
 	quest.39F6026AB205841A.quest_desc: [
 		"While the pack contains &eFTB Ultimine&r, it does not work on &aStone&r!"
 		""
+		"[\"Ultimine can be toggled with the keybind \", { \"keybind\": \"key.ftbultimine\", \"color\": \"green\" }, \".\"]"
+		""
 		"It also requires a tool in your hand to work."
 	]
 	quest.39F6026AB205841A.title: "Ultimine Notes"
@@ -2647,6 +2740,8 @@
 		"With the &2Yeti&r defeated, you will have access to 2 new vaults to find."
 		""
 		"Found within the lower levels of the &bTwilight Forest&r ring, you can find the &aHydra's Lair Vault&r."
+		""
+		"&7&oThe Compass given can be Sneak + Right-clicked when at least 256 blocks from the vault to instantly teleport to the entrance!&r"
 	]
 	quest.3D0CE267A8FD95CD.title: "&fThe Hydra's Lair"
 	quest.3D0DC34C36A173F5.quest_desc: ["&eOritech's &2Exo Suit&r provides very useful effects for exploring the world, but provide no protection against the dangers of leaving your home."]
@@ -2679,9 +2774,9 @@
 	]
 	quest.3DCD6DC36B31EEF4.title: "&fUnlocking &dOblivion"
 	quest.3DF42A6D832C0492.quest_desc: [
-		"The &dAction Pad&r is a marvel of the ages. It can route many of your commonly used commands such has home, spawn and world engine teleportation through this device. "
+		"The &dAction Pad&r is a marvel of the ages. It can route many of your commonly used commands such has home, spawn and world engine teleportation through this device."
 		""
-		"You can &9set a keybind&r for the Teleporter to activate it and wear it in any curios slot of your choosing. "
+		"[\"You can open the menu by using the item or with the keybind \", { \"keybind\": \"ftbpackcompanion.key.open_action_pad\", \"color\": \"green\" }, \".\"]"
 		""
 		"Many other teleportation options will appear as you meet the various &dEchos&r and progress through the pack."
 		""
@@ -2784,6 +2879,8 @@
 		"&eNote&r: It might be worth making an &aExplorer's Compass&r to help locate the &3Vault&r!"
 		""
 		"If you manage to find your way through this &3Vault's&r puzzles, the &dChroniton Star&r should be yours for the taking."
+		""
+		"&7&oThe Compass given can be Sneak + Right-clicked when at least 256 blocks from the vault to instantly teleport to the entrance!&r"
 	]
 	quest.3FA9D6A475E4D1C6.title: "&fFinding the &2Chroniton Star"
 	quest.3FD6F10BE6F06FFF.quest_desc: ["Each &dAssembler Matrix Craft Core&r can run up to 8 crafting jobs simultaneously."]
@@ -2963,6 +3060,7 @@
 		""
 		"&2Steel&r is a great material to make tools out of due to its high durability, and is also need to make the basic pipes from the mod."
 	]
+	quest.437F2C378CD6FE51.title: "Making Steel"
 	quest.43919D8A9EB5C627.quest_desc: [
 		"The &2Hydroponic Bed&r from &bIndustrial Foregoing&r works as an accelerated soil for crops to grow on."
 		""
@@ -3068,7 +3166,11 @@
 	]
 	quest.456030ECDFA9CE3B.title: "&bReactor Heat Absorbers"
 	quest.456B067C9CC123AD.quest_desc: ["Once you've crafted a &cHeater&r, you should return to the &dFabricator&r to learn how to use it with the &6World Engine&r."]
-	quest.45A3E686E32AB95D.quest_desc: ["Found within the &bTwilight Forest&r ring, the vault of the &aLich&r is the first of five Twilight bosses you need to find."]
+	quest.45A3E686E32AB95D.quest_desc: [
+		"Found within the &bTwilight Forest&r ring, the vault of the &aLich&r is the first of five Twilight bosses you need to find."
+		""
+		"&7&oThe Compass given can be Sneak + Right-clicked when at least 256 blocks from the vault to instantly teleport to the entrance!&r"
+	]
 	quest.45A3E686E32AB95D.title: "&fThe Lair of the Lich"
 	quest.45B2C8BD2ACBA46D.quest_desc: [
 		"The &dReactor&r needs to be made of rectangular walls, where the frame is made of &aReactor Wall&r blocks. The max size of a Reactor is 64 blocks per direction. Its interior needs to be identical in the vertical (y) axis."
@@ -3213,6 +3315,12 @@
 		""
 		"&eNote&r: Hitting &aU&r on the Fuel Generator will show a full list of fuels that can be used."
 	]
+	quest.48935E2DFCA1E835.quest_desc: [
+		"By milking the &zMighty Ender Chicken&r, you can acquire &zMolten Chaos&r that can be solidified into &zChaos Shards&r used to upgrade your infusion setup and craft the most advanced &eDE&r items."
+		""
+		"You can now upgrade your &6Draconic Gear&r to &zChaotic Tier&r."
+	]
+	quest.48935E2DFCA1E835.title: "&zChaotic Infusion"
 	quest.48B3D104BEFE1959.quest_desc: [
 		"Using a &aMechanical Saw&r from &6Create&r, you can create a contraption that can automatically harvest grown trees for you!"
 		""
@@ -3260,7 +3368,15 @@
 		""
 		"You can pump in fluids directly into the drawer to set it, or just by using a bucket of the fluid onto the drawer."
 	]
-	quest.4A1DBDE0963407E7.quest_desc: ["&eDraconic Evolution&r is a late-game mod focused around dragons, energy, and very overpowered equipment."]
+	quest.4A1DBDE0963407E7.quest_desc: [
+		"&eDraconic Evolution&r (&eDE&r)is a mid-game to late-game mod focused around dragons, energy, and very overpowered equipment."
+		""
+		"To get started with &eDE&r, you'll first need to gather some &aDraconium Dust."
+		""
+		"[\"The main way to acquire this dust is to level up your \", {\"text\": \"Dimensionalist Unearther\", \"color\": \"light_purple\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6F91297C4FAA43FE\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Go to Dimensionalist Quest\"}}, \" at least tier 4, but you may also acquire it through other methods (check JEI).\"]"
+		""
+		"You can also just manually brush &eEnd Stone&r once your &aUnearther Level&r is high enough."
+	]
 	quest.4A1DBDE0963407E7.title: "&fWelcome to &eDraconic Evolution"
 	quest.4A2EB77748103124.quest_desc: ["This dungeon can be found in the &3Stone&r and &7Deepslate&r rings."]
 	quest.4A5FD3641E0A566E.quest_desc: [
@@ -3309,6 +3425,7 @@
 		"While it might not look magical, the remnants of ancient magic can be tapped into for their enchanting powers."
 	]
 	quest.4A87B0D25DE57F3F.title: "&fDigging Deeper"
+	quest.4AC8D1AEFCED24FD.quest_desc: ["This section refers to the different ways to transmit power &aWirelessly&r."]
 	quest.4B463FDAEAC42511.quest_desc: [
 		"The &3Matter Condensor&r will destroy any item inserted into it like a trashcan. If you provide it a Cell to act as a buffer, it can instead convert the items into &aMatter Balls&r(1-16k) or &dSingularities&r (64k+)."
 		""
@@ -3440,7 +3557,7 @@
 	quest.4D754E91D203A89A.quest_desc: [
 		"Now that you've unlocked a few &6World Engine&r upgrades, you should head back to the &dEcho of Guidance&r."
 		""
-		"Make sure you've claimed claimed any outstanding rewards from the other &dEchoes&r."
+		"Make sure you've claimed any outstanding rewards from the other &dEchoes&r."
 	]
 	quest.4D754E91D203A89A.quest_subtitle: "Unlocks Tier 2 Chapter"
 	quest.4D754E91D203A89A.title: "&fNeeding More Guidance"
@@ -3502,6 +3619,38 @@
 		"► &3Projection&r: 3 or 4"
 	]
 	quest.4E4434B6CE1F2560.title: "&bTier 2&f CAD Cores"
+	quest.4E474C940C683371.quest_desc: [
+		"The &6Draconic Reactor&r is the ultimate energy generator, capable of producing hundreds of millions of RF/t with the correct setup. &cThis Reactor can explode!&r"
+		""
+		"To start setting one, place the &6Reactor Core&r in the center with the &aStabilizers&r up to 5 blocks away from it each in a separate direction, and the &2Injector&r above or below it."
+		""
+		"To fuel the Reactor, you must provide it with &6Awakened Draconium&r (max 8 blocks at a time) and a massive amount of energy: the more energy you provide, the more energy it'll produce."
+		""
+		"&7&oMore information on the next page ->"
+		"{@pagebreak}"
+		"{image:ftb:textures/quests/draconic_evolution/reactor_ui_charge.png width:150 height:133 align:center}"
+		"Before you can power on your reactor, you'll be met with this interface, and you'll need to know what's what to avoid a Reactor meltdown that will nuke everything within 500 blocks."
+		""
+		"We'll go over the interface, from left to right, on the next page ->"
+		"{@pagebreak}"
+		"- Core Temperature: Requires at least 2000°C to Activate the Reactor. A temperature of 8000°C or higher will begin heating up the core exponentially, increasing the chance of a meltdown occurring."
+		""
+		"- Containment Field Strength: Controls the protection around the core. If this reaches 0 the Reactor will explode. The lower this value the more power you can make."
+		""
+		"- Energy Saturation: Increases as it absorbs more energy and reduces when you pull out energy. THe higher the saturation the lower the generation rate. Higher Saturation also increases temperature"
+		""
+		"- Fuel Conversion: How much fuel you have left and how much has been converted into energy (how much fuel is spent per tick to keep the reactor going). A perfectly balanced reactor burns nothing per tick. The Longer it stays balanced the longer it'll maintain its temperature."
+		""
+		"&7&oMore on the next page ->"
+		"{@pagebreak}"
+		"Once everything is in place and you've provided fuel to your Reactor, you can sefely hit \"Charge\" to start the Reactor."
+		""
+		"First it'll change the Containment Field and Energy Saturation to 50%, then start heating up to 2kC. At this point it'll give you the option to Activate the reactor. If all goes well, nothing blows up."
+		""
+		"Your \"Active\" interface should look something like this:"
+		"{image:ftb:textures/quests/draconic_evolution/reactor_ui_activate.png width:188 height:166 align:center}"
+	]
+	quest.4E474C940C683371.title: "&6The Draconic Reactor"
 	quest.4E623BAFD92591EE.quest_desc: [
 		"The &aStaff of Travelling&r is a powerful tool that allows you to teleport forward a short distance by Sneak + Right-clicking."
 		""
@@ -3518,7 +3667,7 @@
 	quest.4E9EBB1268DEF8A6.quest_desc: [
 		"Generates power by consuming TNT."
 		""
-		"&7&oWhen working, this block generates explosions that deal significant player damage, but has not effect on terrain."
+		"&7&oWhen working, this block generates explosions that deal significant player damage, but has no effect on terrain."
 	]
 	quest.4F27342D2DA7C605.quest_desc: [
 		"Smashing &7Gravel&r down further turns it into &aDirt&r!"
@@ -3627,7 +3776,11 @@
 	quest.517AAA103D89A14F.quest_subtitle: "Queue Training Montage"
 	quest.517AAA103D89A14F.title: "Hitting The Gym"
 	quest.51804232265672A9.quest_desc: [
-		"By hitting &bT&r while in your inventory, you can toggle the inventory trash slot. You can use the &aDelete&r key to throw things away instantly, or &aShift+Delete&r to delete several stacks at once."
+		"The &aTrash Slot&r mod allows you to open a slot in any inventory to delete unwanted items."
+		""
+		"[\"The slot in the inventory can be toggled with the keybind \", { \"keybind\": \"key.trashslot.toggle\", \"color\": \"green\" }, \".\"]"
+		""
+		"[\"You can also quickly delete items once the slot is open by using the keybind \", { \"keybind\": \"key.trashslot.delete\", \"color\": \"green\" }, \".\"]"
 		""
 		"There is also the &aTrash Bin&r icon in the top left of your inventory that you can use as well. This can also be accessed by using the &a/trashcan&r command."
 	]
@@ -3662,6 +3815,7 @@
 	]
 	quest.52ADC3D46CCB2659.title: "Apotheosis Spawners"
 	quest.52B46D49B5C4A7F2.quest_desc: ["The &dGas-Burning Generator&r can burn &dEthene&r to produce power at a very high rate! You can expect each full generator to produce ~8k RF/t."]
+	quest.53060D307C063C25.quest_desc: ["The &aWyvern Core&r is an upgraded crafting component used for most &eDE&r recipes and items."]
 	quest.534F1C46873C1358.quest_desc: [
 		"The generators in this row are considered &aMid Game Generators&r!"
 		""
@@ -3846,7 +4000,7 @@
 	]
 	quest.57DF1A1F0556B970.title: "Enchantment Machines"
 	quest.57ED7DBAC5E8C5BE.quest_desc: [
-		"The &dEnergized Induction Matrix&r from &6Mekanism&r is the ultimate way to store tons of power!"
+		"The &dEnergized Induction Matrix&r from &eMekanism&r is the ultimate way to store tons of power!"
 		""
 		"This is a custom multiblock structure that can be built up to 18x18x18 for all of your power storage needs. It only requires 1 &aInduction Cell&r, 1 &aInduction Provider&r, and &aInduction Ports&r to pull and push power out."
 		"{@pagebreak}"
@@ -4003,6 +4157,7 @@
 		"The &2Geologist&r is one of the only sources for generating items like &aXychorium Gems&r and &aBlack Quartz&r."
 	]
 	quest.5A793B307C82AB91.title: "Geologist"
+	quest.5A8CEB600CAADCD2.quest_desc: ["The &bCryomancer&r can be found by using the &aPearl of the Frozen Oath&r Gateway."]
 	quest.5AC7EEC3D69AF032.quest_desc: [
 		"&bCelestigem&r tools are the next tier of tools from &6Just Dire Things&r."
 		""
@@ -4038,6 +4193,12 @@
 		""
 		"While mobs don't know how to walk through this in its non-solid state, they can still be pushed or fall through."
 	]
+	quest.5BE257CE3FD1FDAC.quest_desc: [
+		"With &6Awakened Draconium&r, you can now upgrade your Infusion setup to craft more advanced items."
+		""
+		"You can now upgrade your &dWyvern Gear&r to &6Draconic Tier&r."
+	]
+	quest.5BE257CE3FD1FDAC.title: "&6Awakened Infusion"
 	quest.5BF72200F151FF24.quest_desc: [
 		"&6Psi&r has a fairly simple progression of materials, allowing you to unlock better components for your &bCADs&r thus allowing you to cast more &dcomplex&r and &3cool&r spells."
 		""
@@ -4052,6 +4213,8 @@
 		"That ends today."
 		""
 		"Kill the &aWandering Trader&r in the name of &6AlfredGG&r."
+		""
+		"&7Try /cry&r"
 	]
 	quest.5C2C0986D6014ADD.title: "&6A Personal Vendetta"
 	quest.5C8773D5561D7245.quest_desc: [
@@ -4064,6 +4227,8 @@
 		"Found within the &3Deepslate&r ring, this vault is easy to get lost in."
 		""
 		"&eNote&r: It might be worth making an &aExplorer's Compass&r to help locate the vault!"
+		""
+		"&7&oThe Compass given can be Sneak + Right-clicked when at least 256 blocks from the vault to instantly teleport to the entrance!&r"
 	]
 	quest.5CD461E6C3E8E7D1.title: "&3The Maze Vault"
 	quest.5CD7299E8709E7F6.quest_desc: [
@@ -4223,7 +4388,9 @@
 	quest.6089F3DC28FB69C0.quest_desc: [
 		"The &aDirt&r seems to have plenty of &2Saplings&r that you can use! You can get these saplings by mining &aDirt&r with the &2Crook&r."
 		""
-		"While you can wait for a tree to grow, you can force it to grow by toggling &eSquat Grow&r with a keybind (default: 'V')."
+		"While you can wait for a tree to grow, you can force it to grow by using &eSquat Grow&r."
+		""
+		"[\"This can be toggled with the keybind \", { \"keybind\": \"key.squatgrow.toggle\", \"color\": \"green\" }, \".\"]"
 	]
 	quest.6089F3DC28FB69C0.title: "&fDigging In The Dirt"
 	quest.609DF15D870AE2C0.quest_desc: [
@@ -4239,7 +4406,7 @@
 		""
 		"When provided with a &2Prediction Matrix&r and power, the &aSimulation Chamber&r will run simulations as if you were killing that specific mob."
 		""
-		"If the simulation fails, you'll get a &bGeneralized Prediction&r. If it succeds, you'll get that mob's &6Prediction&r."
+		"If the simulation fails, you'll get a &bGeneralized Prediction&r. If it succeeds, you'll get that mob's &6Prediction&r."
 		""
 		"This &6Prediction&r can be ran through a &dLoot Fabricator&r to create loot!"
 	]
@@ -4620,7 +4787,7 @@
 	]
 	quest.6A3BFD63419A15CE.title: "&fThe &aCrusher"
 	quest.6A4A2A2EFD552316.quest_desc: [
-		"If you're looking to store your power, &aEnergy Cells&r from &6Powah&r will do the trick."
+		"If you're looking to store your power, &aEnergy Cells&r from &ePowah&r will do the trick."
 		""
 		"You can also craft &aBatteries&r and charge them up using the Cells. The Batteries can then be used to charge items in your inventory in the early game!"
 	]
@@ -4781,7 +4948,7 @@
 	quest.6E24701C49A6114D.quest_desc: [
 		"With the &6World Engine&r upgraded with the power of the &zVoid&r, you can create the &dNeutronium Compressor&r to compact items down into &zSingularities&r."
 		""
-		"Use these to create the &zInfinity Singulary&r."
+		"Use these to create the &zInfinity Singularity&r."
 	]
 	quest.6E24701C49A6114D.title: "&zSingularities&r"
 	quest.6E458E2978B64C77.title: "Basic Plating Trade"
@@ -4819,7 +4986,7 @@
 		""
 		"Its module inventory can be accessed via the keybind &eTool Modules&r, which isn't bound by default."
 	]
-	quest.700716B4ACCBD4F4.title: "&6Draconic Chestpiece"
+	quest.700716B4ACCBD4F4.title: "&6Draconic &fChestpiece"
 	quest.705E4FFB4FCADFD1.quest_desc: [
 		"You can extract matter from items using the &aDisintegrator&r."
 		""
@@ -5027,6 +5194,7 @@
 	]
 	quest.727070B13B966DE1.title: "&fAuto-Build The &3Tesseract Upgrade"
 	quest.72766EEF59130E19.title: "&fPlay For &c25 Hours"
+	quest.7279FFED00B223D7.quest_desc: ["The &aDraconium Core&r is one of the main crafting components in &eDE&r and can be used in some basic recipes for items and &bModules&r used in Draconic Armor and Tools."]
 	quest.727FAF20A8E1303B.quest_subtitle: "Found in Healing Springs"
 	quest.72934B141A741423.quest_subtitle: "Yellow + Iron"
 	quest.7312FFEDAD1A6F75.quest_desc: [
@@ -5068,6 +5236,8 @@
 		"&eNote&r: Squat grow does work on the budding blocks."
 	]
 	quest.73EC5E7F2300B99D.title: "&bCertus Quartz&r"
+	quest.73FD015A3696ABFB.quest_desc: ["By infusing a &aDragon's Heart&r into your &dDraconium&r, you can acquire &6Awakened Draconium&r which you'll need if you wish to upgrade your existing &eDE&r setups."]
+	quest.73FD015A3696ABFB.title: "&6Awakened Draconium"
 	quest.73FEE6C6149817E7.title: "Infernal Check 1"
 	quest.7408FB23D476F791.title: "Guidance Completed 1"
 	quest.740B9F63604944F3.title: "Ocean North"
@@ -5085,6 +5255,7 @@
 		"&eNote&r: To craft these, you must have the &aMachine Block&r &6World Engine Upgrade&r."
 	]
 	quest.749634B68269401A.title: "ProjectE Weapons"
+	quest.74AD70F5C648DBDF.quest_desc: ["This section refers to most of the ways to store power!"]
 	quest.74AD70F5C648DBDF.title: "Power Storage Options"
 	quest.74CC5FF2097C0839.quest_desc: [
 		"&6Hostile Neural Networks&r (or &6HNN&r for short) allows you to collect data from a mob to harvest its drops in the form of &bPredictions&r."
@@ -5818,7 +5989,6 @@
 	reward.7AA9A619B211B53A.title: "Wyvern Chestpiece"
 	reward.7DA1DB3A1F6C52A0.title: "{\"translate\": \"ftb.shop.notification\"}"
 	reward.7DB306ACACBC5FA3.title: "Twilight West"
-	reward_table.00A0F6A281CEE4D3.title: "Singularities"
 	reward_table.01A8F0EB2209A24F.title: "Basic Draconic Gear"
 	reward_table.0C5DDA99EE8027D3.title: "Gifts of Stone"
 	reward_table.1320ECC4666318A7.title: "Glyphs"
@@ -6078,6 +6248,7 @@
 	task.34F41FF2B63589A6.title: "source inlet"
 	task.35458B29D8F8E353.title: "&fSpeak With The &dEcho of The Ancient"
 	task.35F9337A21031B7C.title: "Any Tier 3 CAD Core"
+	task.3602BC5A7FA7DDB8.title: "Basic Energy Transfer"
 	task.36114BC736C0EB31.title: "Unlocks Machinist"
 	task.36851BEF447522C1.title: "fabricator"
 	task.368FF30FEFA57F73.title: "Ring Generation"
@@ -6112,6 +6283,8 @@
 	task.3CB07FD3F54AFA92.title: "&zRelics&r"
 	task.3CEB40B064A202AA.title: "Unlock World Engine"
 	task.3CF9E82FE7A7CA32.title: "deepslate south"
+	task.3D00D0A8A61617EA.title: "SNAD Type Blocks"
+	task.3D5F6DE10646EBE3.title: "Wyvern Gear"
 	task.3D6254435D99C13C.title: "Malkuth Arena"
 	task.3D736F8E008552DB.title: "Powercells"
 	task.3E9C440E3E2EE022.title: "Have a quest reward these things"
@@ -6211,11 +6384,13 @@
 	task.54161E44D6EC0403.title: "ancient"
 	task.5434F149E894EFA6.title: "Welcome"
 	task.545431F57E485EE7.title: "Shovels"
+	task.54630C413BFC35E2.title: "Draconic Energy Transfer"
 	task.546F475B57F686A3.title: "Red Matter Armor"
 	task.54900CC98541771C.title: "Any Psi CAD Colorizer"
 	task.54C8C7E72F5D069E.title: "Generating Resources"
 	task.54E21F0B7510D638.title: "&eKill&f: &cIgnis"
 	task.553E2E245BD16D6A.title: "Cooldown Timer"
+	task.55C6BE7CD74598FA.title: "Casts"
 	task.55E36C96A2424F59.title: "&eKill&f: &6Ancient Remnant"
 	task.56A35A967954A4C2.title: "Drawers"
 	task.56BA1011DDE093D0.title: "Raw Osmium"
@@ -6227,13 +6402,14 @@
 	task.576C3A4D28B4D076.title: "Modules"
 	task.576F9DD2957EB18A.title: "Experience Holders"
 	task.57A2EA2AAF0401BE.title: "EchoLocation"
+	task.57A5CC881C60B69D.title: "Time Wands"
 	task.57BE5B16087C947C.title: "&6Echo Unlock Infinity"
 	task.57EE94BA6579685A.title: "Batteries from Actually Additions"
 	task.581CF680220285B0.title: "Hearts"
 	task.585E2902BC477B5D.title: "&eLocate&f: &6Radiance"
 	task.58670C125A30CD28.title: "wayfinder"
 	task.58BD6F9BD3D252EE.title: "World Engine Craft Unlocks"
-	task.58DC7CD2A4F595DD.title: "&eKill&f: &dAchevoker"
+	task.58DC7CD2A4F595DD.title: "&eKill&f: &dArchevoker"
 	task.5926E51F4409C90C.title: "extras"
 	task.59454DA41C1C27D5.title: "Any Rune"
 	task.59521977C507A466.title: "Speak to the &dEcho of Guidance"
@@ -6303,6 +6479,7 @@
 	task.63405599D33D4D0A.title: "Mid Game Generators"
 	task.639A8E9CF51A8596.title: "Plant Farming"
 	task.63A8F38180C3FD30.title: "Tree Farming"
+	task.63C4D2F3F7059C8E.title: "Backpack Pickup Upgrades"
 	task.6403B80C8DFFEB46.title: "&eKill&f: Twilight Lich"
 	task.6405640824417BB2.title: "EchoLocation"
 	task.64439911825F80B2.title: "Block Wands"
@@ -6376,6 +6553,7 @@
 	task.742022DB9012FEDC.title: "Any Sapling"
 	task.7420FCF5C9A3AAD9.title: "Cooldown Timer"
 	task.748C2ADA8E320CA0.title: "Machine Fabrication"
+	task.757B783AC8A9410F.title: "Psimetal Armor"
 	task.7586948F032C6048.title: "Hydra Vault"
 	task.75A4019E3778367A.title: "&6Unique Weapons"
 	task.7618036DBF5EE196.title: "Create Vault"
@@ -6394,6 +6572,7 @@
 	task.782E4A45A331FB27.title: "Echo Waypoint"
 	task.78780481BF9D2140.title: "Find An Ice Spider Den"
 	task.78869974512F8AD0.title: "Elevators"
+	task.78AD19380F54B22A.title: "JDT Coals"
 	task.7921E8D54B0095CE.title: "Dark Matter Tools"
 	task.794B10BF050056EB.title: "Better Enchanting Bookshelves"
 	task.79B0BA2223437C7E.title: "Chaotic Tools"
@@ -6412,6 +6591,7 @@
 	task.7C9A60156BE5D21A.title: "Generation 1"
 	task.7CA66CFB9AAC98BB.title: "nether south"
 	task.7CCE37FAC12528D7.title: "Soulhunter Gear"
+	task.7CD51F8C7BC7FF66.title: "Wyvern Energy Transfer"
 	task.7CECE0F1C53701B6.title: "Magical Tools"
 	task.7D75B40EC4AF799A.title: "Just Dire Things Machines"
 	task.7D8611641B6611FB.title: "&fSpeak With The &dEcho of Guidance"
