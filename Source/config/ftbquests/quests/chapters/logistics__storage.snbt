@@ -1624,21 +1624,13 @@
 			size: 1.0d
 			tasks: [
 				{
-					count: 9L
 					id: "56B7F1960D8E0462"
 					item: { count: 1, id: "create:item_vault" }
 					type: "item"
 				}
 				{
-					count: 4L
 					id: "54EE2B1013849F51"
 					item: { count: 1, id: "create:packager" }
-					type: "item"
-				}
-				{
-					count: 2L
-					id: "1D8733DD0C1F8302"
-					item: { count: 1, id: "create:chute" }
 					type: "item"
 				}
 				{
@@ -1649,22 +1641,6 @@
 				{
 					id: "39916DA9FAEC4EB7"
 					item: { count: 1, id: "create:stock_ticker" }
-					type: "item"
-				}
-				{
-					id: "13CD8983AB096CDF"
-					item: { count: 1, id: "create:white_seat" }
-					type: "item"
-				}
-				{
-					id: "345D2590ED76D55F"
-					item: { count: 1, id: "create:blaze_burner" }
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "21238D093CB67A26"
-					item: { count: 1, id: "minecraft:lever" }
 					type: "item"
 				}
 			]

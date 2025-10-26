@@ -679,6 +679,19 @@
 					silent: true
 					type: "command"
 				}
+				{
+					id: "5BBB92ADC6160240"
+					item: {
+						components: {
+							"hostilenetworks:data": 250
+							"hostilenetworks:data_model": "hostilenetworks:twilightforest/hydra"
+						}
+						count: 1
+						id: "hostilenetworks:data_model"
+					}
+					team_reward: false
+					type: "item"
+				}
 			]
 			shape: "square"
 			tasks: [{

@@ -777,6 +777,8 @@
 				{
 					id: "49C0CBB8FFE8E6BE"
 					item: { components: { "gateways:gateway": "gateways:iron_spells/apothehostage_situation" }, count: 1, id: "gateways:gate_pearl" }
+					match_components: "strict"
+					optional_task: true
 					type: "item"
 				}
 				{
@@ -818,6 +820,13 @@
 			shape: "square"
 			tasks: [
 				{
+					id: "2CA8E43529521390"
+					item: { components: { "gateways:gateway": "gateways:iron_spells/simple_cryomage" }, count: 1, id: "gateways:gate_pearl" }
+					match_components: "strict"
+					optional_task: true
+					type: "item"
+				}
+				{
 					entity: "irons_spellbooks:cryomancer"
 					icon: {
 						id: "irons_spellbooks:cryomancer_helmet"
@@ -858,6 +867,8 @@
 				{
 					id: "08BD3F5E675ECC9F"
 					item: { components: { "gateways:gateway": "gateways:iron_spells/pyrohostage_situation" }, count: 1, id: "gateways:gate_pearl" }
+					match_components: "strict"
+					optional_task: true
 					type: "item"
 				}
 				{
@@ -898,6 +909,8 @@
 				{
 					id: "243AF6365F5682FA"
 					item: { components: { "gateways:gateway": "gateways:iron_spells/holyhostage_situation" }, count: 1, id: "gateways:gate_pearl" }
+					match_components: "strict"
+					optional_task: true
 					type: "item"
 				}
 				{
@@ -1123,22 +1136,11 @@
 				id: "trophymanager:trophy"
 			}
 			id: "34C8824842867F5D"
-			rewards: [
-				{
-					amount: 30
-					id: "31864C0FB4427893"
-					type: "currency"
-				}
-				{
-					id: "3003ECACCCC501A2"
-					item: {
-						count: 1
-						id: "mecrh:music_disc_chicken_of_chaos"
-					}
-					team_reward: true
-					type: "item"
-				}
-			]
+			rewards: [{
+				amount: 30
+				id: "31864C0FB4427893"
+				type: "currency"
+			}]
 			shape: "hexagon"
 			size: 2.0d
 			tasks: [
@@ -1156,6 +1158,12 @@
 					id: "115D12D9D3CB1F13"
 					tags: ["daily"]
 					type: "custom"
+				}
+				{
+					id: "130C73691CB1F176"
+					item: { count: 1, id: "chicken_roost:chicken_stick" }
+					optional_task: true
+					type: "item"
 				}
 			]
 			x: 0.0d

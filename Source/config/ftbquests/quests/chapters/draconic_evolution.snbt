@@ -1,5 +1,4 @@
 {
-	always_invisible: true
 	autofocus_id: "4A1DBDE0963407E7"
 	default_hide_dependency_lines: false
 	default_min_width: 250
@@ -10,180 +9,94 @@
 		id: "draconicevolution:reactor_core"
 	}
 	id: "5BBD28643F4FD3B6"
-	order_index: 3
-	quest_links: [ ]
-	quests: [
+	images: [
 		{
-			dependencies: ["7B4CBCAF13C6F189"]
-			id: "5BE257CE3FD1FDAC"
-			shape: "hexagon"
-			size: 1.0d
-			tasks: [{
-				id: "403CC73F80C49E5D"
-				item: { count: 1, id: "draconicevolution:awakened_crafting_injector" }
-				type: "item"
-			}]
+			height: 1.0d
+			image: "draconicevolution:block/awakened_draconium_block"
+			rotation: 45.0d
+			width: 1.0d
 			x: 6.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["7B4CBCAF13C6F189"]
-			id: "728F149E1F837209"
-			shape: "hexagon"
-			size: 1.0d
-			tasks: [
-				{
-					id: "539CBFFD483120EA"
-					item: { count: 1, id: "draconicevolution:dragon_heart" }
-					type: "item"
-				}
-				{
-					id: "528102A6E4527113"
-					item: { count: 1, id: "draconicevolution:awakened_draconium_block" }
-					type: "item"
-				}
-			]
-			x: 5.0d
-			y: 1.5d
+			height: 1.0d
+			image: "draconicevolution:block/creative_op_capacitor"
+			rotation: 45.0d
+			width: 1.0d
+			x: 3.0d
+			y: -2.0d
 		}
 		{
-			dependencies: ["7279FFED00B223D7"]
-			icon: {
-				id: "draconicevolution:crafting_core"
-			}
-			id: "704DA4761DD8FDDD"
+			height: 1.0d
+			image: "draconicevolution:block/draconium_block"
+			order: 45
+			rotation: 45.0d
+			width: 1.0d
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			height: 1.25d
+			image: "draconicevolution:textures/gui/reactor/core.png"
+			rotation: 0.0d
+			width: 1.25d
+			x: 11.0d
+			y: 0.0d
+		}
+	]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["73FD015A3696ABFB"]
+			id: "5BE257CE3FD1FDAC"
+			rewards: [{
+				amount: 15
+				id: "3A7DF88E6069C32C"
+				type: "currency"
+			}]
 			shape: "hexagon"
 			size: 1.0d
-			tasks: [
-				{
-					id: "0D222FF27CCD01CE"
-					item: { count: 1, id: "draconicevolution:basic_crafting_injector" }
-					type: "item"
-				}
-				{
-					id: "21CCFA70E97168C5"
-					item: { count: 1, id: "draconicevolution:crafting_core" }
-					type: "item"
-				}
-			]
-			x: 3.0d
-			y: 0.0d
+			tasks: [{
+				count: 9L
+				id: "403CC73F80C49E5D"
+				item: { count: 1, id: "draconicevolution:awakened_crafting_injector" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.5d
 		}
 		{
 			dependencies: [
 				"5BE257CE3FD1FDAC"
-				"36D2BBC89995F597"
-				"7AA56C74F18FC345"
+				"0F7CB818AC0A9187"
 			]
 			id: "48935E2DFCA1E835"
+			rewards: [{
+				amount: 25
+				id: "5B6545FA16FB9353"
+				type: "currency"
+			}]
 			shape: "hexagon"
 			size: 1.0d
 			tasks: [{
+				count: 9L
 				id: "3C30E810ADE5486D"
 				item: { count: 1, id: "draconicevolution:chaotic_crafting_injector" }
 				type: "item"
 			}]
-			x: 7.5d
+			x: 9.0d
 			y: 0.0d
-		}
-		{
-			dependencies: ["704DA4761DD8FDDD"]
-			id: "7B4CBCAF13C6F189"
-			shape: "hexagon"
-			size: 1.0d
-			tasks: [{
-				id: "0F242C523068466E"
-				item: { count: 1, id: "draconicevolution:wyvern_crafting_injector" }
-				type: "item"
-			}]
-			x: 4.5d
-			y: 0.0d
-		}
-		{
-			dependencies: ["5BE257CE3FD1FDAC"]
-			icon: {
-				id: "draconicevolution:awakened_core"
-			}
-			id: "2AA1FF7D5AD163F1"
-			size: 1.0d
-			tasks: [
-				{
-					id: "0CA0B8C58AF62C63"
-					item: { count: 1, id: "draconicevolution:awakened_core" }
-					type: "item"
-				}
-				{
-					id: "5ED705DAD87D9184"
-					item: { count: 1, id: "draconicevolution:draconic_energy_core" }
-					type: "item"
-				}
-			]
-			x: 6.5d
-			y: -1.5d
-		}
-		{
-			dependencies: ["4A1DBDE0963407E7"]
-			hide_dependency_lines: true
-			id: "7AA56C74F18FC345"
-			size: 1.0d
-			tasks: [{
-				id: "3FCBB45F49D83200"
-				item: { count: 1, id: "draconicevolution:chaos_shard" }
-				type: "item"
-			}]
-			x: 9.5d
-			y: -0.5d
-		}
-		{
-			dependencies: ["48935E2DFCA1E835"]
-			id: "7A221B18C73B7A68"
-			size: 1.0d
-			tasks: [{
-				id: "306A93ED748CB95A"
-				item: { count: 1, id: "draconicevolution:chaotic_capacitor" }
-				type: "item"
-			}]
-			x: 7.0d
-			y: 1.5d
-		}
-		{
-			dependencies: ["48935E2DFCA1E835"]
-			icon: {
-				id: "draconicevolution:chaotic_core"
-			}
-			id: "660955FF7D0920A8"
-			size: 1.0d
-			tasks: [
-				{
-					id: "3F6ECA465FE9B7CC"
-					item: { count: 1, id: "draconicevolution:chaotic_core" }
-					type: "item"
-				}
-				{
-					id: "088A55B629F226AC"
-					item: { count: 1, id: "draconicevolution:chaotic_energy_core" }
-					type: "item"
-				}
-			]
-			x: 8.0d
-			y: 1.5d
-		}
-		{
-			dependencies: ["5BE257CE3FD1FDAC"]
-			id: "3D176417681AFE46"
-			size: 1.0d
-			tasks: [{
-				id: "0C531F28170E45A8"
-				item: { count: 1, id: "draconicevolution:draconic_capacitor" }
-				type: "item"
-			}]
-			x: 5.5d
-			y: -1.5d
 		}
 		{
 			dependencies: ["4A1DBDE0963407E7"]
 			id: "7279FFED00B223D7"
-			shape: "hexagon"
+			rewards: [{
+				amount: 5
+				id: "047E2FF13EF3CE60"
+				type: "currency"
+			}]
+			shape: "rsquare"
 			size: 1.0d
 			tasks: [{
 				id: "39ECE6A6EA1D0AFF"
@@ -194,8 +107,12 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["2586C4FB415D0160"]
 			id: "4A1DBDE0963407E7"
+			rewards: [{
+				amount: 3
+				id: "0AFE4024E9CB91DA"
+				type: "currency"
+			}]
 			shape: "hexagon"
 			size: 1.0d
 			tasks: [{
@@ -207,47 +124,191 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["4A1DBDE0963407E7"]
-			hide_dependency_lines: true
-			id: "36D2BBC89995F597"
-			size: 1.0d
-			tasks: [{
-				id: "07D44FD2542E56BC"
-				item: { count: 1, id: "draconicevolution:large_chaos_frag" }
-				type: "item"
-			}]
-			x: 9.5d
-			y: 0.5d
-		}
-		{
-			dependencies: ["7B4CBCAF13C6F189"]
-			id: "4939A75E99826CF6"
-			size: 1.0d
-			tasks: [{
-				id: "0B5F050F07FCB5CC"
-				item: { count: 1, id: "draconicevolution:wyvern_capacitor" }
-				type: "item"
-			}]
-			x: 4.0d
-			y: 1.5d
-		}
-		{
 			dependencies: ["7279FFED00B223D7"]
 			icon: {
 				id: "draconicevolution:wyvern_core"
 			}
 			id: "53060D307C063C25"
-			shape: "hexagon"
+			rewards: [{
+				amount: 5
+				id: "152CC5250AD32612"
+				type: "currency"
+			}]
+			shape: "rsquare"
 			size: 1.0d
+			tasks: [{
+				id: "7626957CDEDA2759"
+				item: { count: 1, id: "draconicevolution:wyvern_core" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["48935E2DFCA1E835"]
+			icon: {
+				id: "draconicevolution:reactor_core"
+			}
+			id: "4E474C940C683371"
+			min_width: 350
+			rewards: [{
+				amount: 40
+				id: "6BC9CCFAFDE59F6E"
+				type: "currency"
+			}]
+			shape: "none"
+			size: 1.5d
 			tasks: [
 				{
-					id: "7626957CDEDA2759"
-					item: { count: 1, id: "draconicevolution:wyvern_core" }
+					id: "7DF638393F15BE42"
+					item: { count: 1, id: "draconicevolution:reactor_core" }
 					type: "item"
 				}
 				{
-					id: "59C01B3E1C94018A"
-					item: { count: 1, id: "draconicevolution:wyvern_energy_core" }
+					id: "0B8E29A2BA0A7E11"
+					item: { count: 1, id: "draconicevolution:reactor_injector" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "40B852E415EFA44F"
+					item: { count: 1, id: "draconicevolution:flux_gate" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "3E13325B81451CC2"
+					item: { count: 1, id: "draconicevolution:reactor_stabilizer" }
+					type: "item"
+				}
+			]
+			x: 11.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["53060D307C063C25"]
+			icon: {
+				id: "draconicevolution:energy_core"
+			}
+			id: "1E6E38DC6183463A"
+			min_width: 300
+			rewards: [{
+				amount: 5
+				id: "2AA31FA52117A947"
+				type: "currency"
+			}]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "0F9D1B914F0933F6"
+					item: { count: 1, id: "draconicevolution:energy_core" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "25761D7A81CE2F55"
+					item: { count: 1, id: "draconicevolution:energy_core_stabilizer" }
+					type: "item"
+				}
+				{
+					id: "03B09A46EFAB827D"
+					item: { count: 1, id: "draconicevolution:energy_pylon" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["18A36EA79A9355C4"]
+			icon: {
+				components: {
+					"ftbquests:icon": "draconicevolution:item/tools/wyvern_capacitor"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "2D95FEECCF48B088"
+			rewards: [{
+				amount: 10
+				id: "474D4B0DD7CF60DD"
+				type: "currency"
+			}]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "038F39578B3A7CC6"
+					item: { count: 1, id: "draconicevolution:wyvern_capacitor" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "0C7FC8FD790E219D"
+					item: { count: 1, id: "draconicevolution:draconic_capacitor" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "00CDE01ED37D4EE3"
+					item: { count: 1, id: "draconicevolution:chaotic_capacitor" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["18A36EA79A9355C4"]
+			id: "73FD015A3696ABFB"
+			rewards: [{
+				amount: 15
+				id: "68F39A79598DC403"
+				type: "currency"
+			}]
+			shape: "diamond"
+			size: 1.0d
+			tasks: [{
+				id: "56E02E3B1CD89DAF"
+				item: { count: 1, id: "draconicevolution:awakened_draconium_block" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7279FFED00B223D7"]
+			icon: {
+				id: "draconicevolution:basic_wireless_crystal"
+			}
+			id: "2D1B390B363E0F27"
+			min_width: 300
+			rewards: [{
+				amount: 5
+				id: "174E2D393563927B"
+				type: "currency"
+			}]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "470A9D7EDCAA0DB8"
+					item: { count: 1, id: "draconicevolution:crystal_binder" }
+					type: "item"
+				}
+				{
+					id: "3602BC5A7FA7DDB8"
+					item: { components: { "ftbfiltersystem:filter": "or(item(draconicevolution:basic_io_crystal)item(draconicevolution:basic_relay_crystal)item(draconicevolution:basic_wireless_crystal))", "minecraft:custom_name": "\"Basic Energy Transfer\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "7CD51F8C7BC7FF66"
+					item: { components: { "ftbfiltersystem:filter": "or(item(draconicevolution:wyvern_io_crystal)item(draconicevolution:wyvern_relay_crystal)item(draconicevolution:wyvern_wireless_crystal))", "minecraft:custom_name": "\"Wyvern Energy Transfer\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "54630C413BFC35E2"
+					item: { components: { "ftbfiltersystem:filter": "or(item(draconicevolution:draconic_io_crystal)item(draconicevolution:draconic_relay_crystal)item(draconicevolution:draconic_wireless_crystal))", "minecraft:custom_name": "\"Draconic Energy Transfer\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					optional_task: true
 					type: "item"
 				}
 			]
@@ -255,103 +316,73 @@
 			y: 1.5d
 		}
 		{
-			id: "2586C4FB415D0160"
-			tasks: [{
-				id: "5AB9DD72EFFA8BB2"
-				type: "checkmark"
+			dependencies: ["7279FFED00B223D7"]
+			icon: {
+				id: "draconicevolution:crafting_core"
+			}
+			id: "1D87C5E9D52341C4"
+			rewards: [{
+				amount: 10
+				id: "40740062655ED799"
+				type: "currency"
 			}]
-			x: -2.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["7AA56C74F18FC345"]
-			id: "358B91BB3DBCD800"
-			tasks: [{
-				id: "2FFFB2A29A4E3BCB"
-				item: { count: 1, id: "draconicevolution:flux_gate" }
-				type: "item"
-			}]
-			x: 12.5d
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "46E994C401B5566D"
+					item: { count: 1, id: "draconicevolution:crafting_core" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "5FE11B3EEF25DDEB"
+					item: { count: 1, id: "draconicevolution:basic_crafting_injector" }
+					type: "item"
+				}
+			]
+			x: 3.0d
 			y: 0.5d
 		}
 		{
-			dependencies: ["7AA56C74F18FC345"]
-			id: "4E474C940C683371"
-			shape: "diamond"
-			size: 1.5d
+			dependencies: [
+				"53060D307C063C25"
+				"1D87C5E9D52341C4"
+			]
+			id: "18A36EA79A9355C4"
+			rewards: [{
+				amount: 5
+				id: "07162A9FF353DA24"
+				type: "currency"
+			}]
+			shape: "hexagon"
 			tasks: [{
-				id: "7DF638393F15BE42"
-				item: { count: 1, id: "draconicevolution:reactor_core" }
+				count: 8L
+				id: "4B0BE86361EDBA2C"
+				item: { count: 1, id: "draconicevolution:wyvern_crafting_injector" }
 				type: "item"
 			}]
-			x: 11.5d
+			x: 4.5d
 			y: 0.0d
 		}
 		{
-			dependencies: ["7AA56C74F18FC345"]
-			id: "52B3DD6783B9CB41"
+			dependencies: [
+				"41ED404574094D5B"
+				"73FD015A3696ABFB"
+			]
+			id: "0F7CB818AC0A9187"
+			rewards: [{
+				amount: 5
+				id: "664D5754D8C631AF"
+				type: "currency"
+			}]
+			shape: "hexagon"
 			tasks: [{
-				id: "2BF431245C264EA0"
-				item: { count: 1, id: "draconicevolution:reactor_injector" }
+				id: "193285E70D45B2AF"
+				item: { count: 1, id: "draconicevolution:small_chaos_frag" }
 				type: "item"
 			}]
-			x: 13.5d
+			x: 7.5d
 			y: -0.5d
-		}
-		{
-			dependencies: ["7AA56C74F18FC345"]
-			id: "0B8B788FF7110BFC"
-			tasks: [{
-				id: "4596FB5E3848DED3"
-				item: { count: 1, id: "draconicevolution:reactor_stabilizer" }
-				type: "item"
-			}]
-			x: 12.5d
-			y: -0.5d
-		}
-		{
-			dependencies: ["7AA56C74F18FC345"]
-			id: "65C0B7ED4EFC9949"
-			tasks: [{
-				id: "0CEF7884596948E7"
-				item: { count: 1, id: "draconicevolution:fluid_gate" }
-				type: "item"
-			}]
-			x: 13.5d
-			y: 0.5d
-		}
-		{
-			dependencies: ["7279FFED00B223D7"]
-			id: "66B6E08271B1EF27"
-			tasks: [{
-				id: "0A0AA6C6AC988479"
-				item: { count: 1, id: "draconicevolution:energy_pylon" }
-				type: "item"
-			}]
-			x: 1.0d
-			y: -2.0d
-		}
-		{
-			dependencies: ["7279FFED00B223D7"]
-			id: "2898AB7104469C39"
-			tasks: [{
-				id: "113347325B9F6CCD"
-				item: { count: 1, id: "draconicevolution:energy_core_stabilizer" }
-				type: "item"
-			}]
-			x: 2.0d
-			y: -2.0d
-		}
-		{
-			dependencies: ["53060D307C063C25"]
-			id: "1E6E38DC6183463A"
-			tasks: [{
-				id: "0F9D1B914F0933F6"
-				item: { count: 1, id: "draconicevolution:energy_core" }
-				type: "item"
-			}]
-			x: 1.5d
-			y: -1.5d
 		}
 	]
 }

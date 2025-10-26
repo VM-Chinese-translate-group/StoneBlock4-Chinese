@@ -125,7 +125,7 @@
 			dependencies: ["616E3CE38F1D73AE"]
 			hide_dependent_lines: true
 			icon: {
-				id: "minecraft:coal"
+				id: "ftbmaterials:steel_ingot"
 			}
 			id: "437F2C378CD6FE51"
 			rewards: [{
