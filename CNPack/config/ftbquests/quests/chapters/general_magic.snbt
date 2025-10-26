@@ -2473,7 +2473,7 @@
 					id: "15E003A299B271A6"
 					item: {
 						components: {
-							"minecraft:custom_name": "\"Gamer Colorizer\""
+							"minecraft:custom_name": "\"游戏玩家着色器\""
 						}
 						count: 1
 						id: "psi:cad_colorizer_rainbow"

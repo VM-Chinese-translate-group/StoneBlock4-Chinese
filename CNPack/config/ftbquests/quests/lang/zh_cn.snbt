@@ -2085,7 +2085,7 @@
 		""
 		"&f选择空白的&c第四个槽位&r将完全禁用该套装单件——&n即使满足其激活条件，也不会施放任何术式&r。"
 	]
-	quest.32ACE9E47B8A6C87.quest_subtitle: "Ley'zel Approved!"
+	quest.32ACE9E47B8A6C87.quest_subtitle: "莱泽尔批准了！"
 	quest.32ACE9E47B8A6C87.title: "灵能盔甲！"
 	quest.32C6E1FD67863F50.quest_desc: [
 		"&d炼金锅&r算是升级了你那普通又老旧的酿造台。"
@@ -3304,9 +3304,9 @@
 		""
 		"你也可以安装&a复制器马达&r来调速。为了制造马达，你首先需要制造马达的&d物质蓝图&r。"
 		"{@pagebreak}"
-		"Place this into an &aIdentification Chamber&r with a &dMemory Chip&r to teach your system how to replicate it, then craft it from the &aReplication Terminal&r."
+		"将物质蓝图放入带有&d存储芯片&r的&a鉴定室&r中，来使你的系统了解如何复制出马达，然后在&a复制终端&r里合成它。"
 		""
-		"Once installed into a &aReplicator&r, you can configure its speed. The fastest it can go is 20%, but increases the chance for the replication to fail."
+		"一旦将其安装到&a复制器&r上，你就可以调节它的速度。你最快可以调至加速20％，但是会增加复制失败的概率。"
 	]
 	quest.4D1EBD92C674531E.quest_desc: [
 		"用5个奥术精魂做一个图腾柱并激活它，它会展开&b释缚仪式&r。"
@@ -3501,14 +3501,14 @@
 		"召唤此boss需要用到&c寻魂烬铃&r。"
 	]
 	quest.50E133C3E351255E.quest_desc: [
-		"Why use machines to create resources when you can grow some chickens from the mod &eRoost Ultimate&r!"
+		"既然你可以培育&eRoost Ultimate&r的小鸡，为啥要做机器去生产资源呢？"
 		""
-		"This mod contains a chicken type for most resources in the pack, with the only exception being alloys. You can make Fluid Cows for those!"
+		"这个模组的鸡包括了该整合包里大多数资源，唯一的例外是合金。不过你可以用流体牛来得到这些！"
 		""
-		"Once you've gotten your hands on an egg and a feather, you should make the &aChicken Stick&r. This serves as the wrench for the mod, and allows you to pick up chickens from the world."
+		"当你获得了鸡蛋和羽毛后，你就可以制作&a鸡调试棒&r了。它是这个模组的扳手，可以让你从世界中拾取鸡。"
 	]
 	quest.50E133C3E351255E.quest_subtitle: "Roost Ultimate"
-	quest.50E133C3E351255E.title: "&fChickens!!"
+	quest.50E133C3E351255E.title: "&f鸡！！"
 	quest.5119EFBB9FB39CDE.quest_desc: ["你可能会在&d奥术林地&r结构中找到其中之一，也可从&d一则传说——一位知道了太多的牧师&r传送门中找到。"]
 	quest.511B01F40006FC4B.quest_desc: [
 		"&z无尽工具&r不可损毁并且可以立刻破坏方块。"
@@ -3525,14 +3525,14 @@
 	]
 	quest.5151A30EB06C1122.title: "&f先有鸡还是先有蛋？"
 	quest.517AAA103D89A14F.quest_desc: [
-		"The &6Chicken Trainer&r is a gym for your chickens to level up."
+		"&6训练鸡器&r是为你的鸡升级的健身房。"
 		""
-		"If you want to beef up your chickens fast, you place them in the trainer and feed them tiered seeds."
+		"如果你想要快速强化你的鸡，只需把它们放到训练鸡器并喂给它们对应等级的鸡饲料。"
 		""
-		"Instead of producing materials, the seeds will be consumed and give full experience to the chickens."
+		"这不会产出材料，而是会消耗饲料，并给予鸡完整的经验值。"
 	]
-	quest.517AAA103D89A14F.quest_subtitle: "Queue Training Montage"
-	quest.517AAA103D89A14F.title: "Hitting The Gym"
+	quest.517AAA103D89A14F.quest_subtitle: "上BGM！"
+	quest.517AAA103D89A14F.title: "去健身房"
 	quest.51804232265672A9.quest_desc: [
 		"在物品栏界面按&bT&r键即可打开/关闭垃圾桶槽位。按&aDelete&r键可以直接把物品丢掉，按&aShift+Delete&r则可以一次性丢掉多组物品。"
 		""
@@ -3559,13 +3559,13 @@
 	quest.527A754FEFC95F4C.quest_desc: ["现在你应该挤出了一些&z混沌&r，是时候返回&d混沌&r&6至高者&r身边了。"]
 	quest.527A754FEFC95F4C.title: "&f与&6混沌&f交谈"
 	quest.52ADC3D46CCB2659.quest_desc: [
-		"&aApotheosis&r provides the ability to relocate and upgrade &dMob Spawners&r that can be great for making your own mob farms. To move a spawner, break it with a pickaxe that has &bsilk touch&r on it."
+		"&a神化&r模组可以转移并升级&d刷怪笼&r，以搭建属于你的刷怪场。要移动刷怪笼，用附魔&b精准采集&r的镐子挖掉即可。"
 		""
-		"Mob spawners can be changed by using a &aMob Egg&r on them, allowing you to create your own custom spawners. Using specific items on the spawners will also upgrade them to be faster, ignore spawning rules, and more!"
+		"对刷怪笼使用&a刷怪蛋&r可以改变刷怪类型，你可以以此创建自己的自定义刷怪笼。对其使用某些特定物品可以让刷怪速度更快、无视刷怪限制等等！"
 		""
-		"To learn more about which items to use, check the recipes in JEI for a spawner."
+		"在JEI中查看刷怪笼的配方来查看可使用的物品。"
 	]
-	quest.52ADC3D46CCB2659.title: "Apotheosis Spawners"
+	quest.52ADC3D46CCB2659.title: "神化刷怪笼"
 	quest.52B46D49B5C4A7F2.quest_desc: ["&d燃气发电机&r可以燃烧&d乙烯&r，发电速率极高！每台满功率运行的燃气发电机产能速率约为8000RF/t。"]
 	quest.534F1C46873C1358.quest_desc: [
 		"这一排的发电机属于&a游戏中期发电机&r！"
@@ -3575,13 +3575,13 @@
 		"其中部分也可以升级或者扩大规模，到游戏后期仍然适用，比如&6Powah&r模组的&d反应堆&r。"
 	]
 	quest.537DE7A354AF8E9E.quest_desc: [
-		"&bMob Grinding Utils&r provides easy to use blocks to move mobs around in your mob farms."
+		"&b刷怪塔实用设备&r提供了些简单的方块，用于在刷怪塔里移动生物。"
 		""
-		"The &aMob Fan&r can push mobs away from it, and can be upgraded to increase its work area."
+		"&a怪物风扇&r可以推离生物，并可以升级以提升其工作范围。"
 		""
-		"The &aEntity Conveyer&r is a floor block that pushes mobs in the direction of its arrow. The player can sneak while on top to negate the effect."
+		"&a实体传送带&r可以朝其箭头方向推动生物。玩家可以在其上方潜行以免疫其效果。"
 	]
-	quest.537DE7A354AF8E9E.title: "&fMoving Mobs"
+	quest.537DE7A354AF8E9E.title: "&f转移生物"
 	quest.5388B67410670702.quest_desc: [
 		"[\"\", {\"text\": \"神龙\", \"color\": \"gold\"}, \"武器是\", {\"text\": \"双足飞龙\", \"color\": \"light_purple\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2C141655079AC173\" }, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"前往双足飞龙武器任务\"}}, \"武器的升级款，拥有更大的放置\", {\"text\": \"升级模块\", \"color\": \"green\"}, \"的空间，具有更强的可定制性。\"]"
 		""
@@ -3591,11 +3591,11 @@
 	]
 	quest.5388B67410670702.title: "&6神龙&f武器"
 	quest.53C947D1E96420A1.quest_desc: [
-		"Using an &aAtomic Reconstructor&r, you can install a &dLens of the Miner&r to zap certain stone blocks into ores using power."
+		"使用&a原子再构机&r，你可以为其安装&d矿工透镜&r，来消耗能量将石类方块转化为矿物。"
 		""
-		"This Lens can convert Stone, Deepslate, and Netherrack into ores."
+		"该透镜可以将石头，深板岩和下界岩转换为矿物。"
 		""
-		"When automated, this can be really strong for ore generation!"
+		"一旦实现了自动化，这在矿物生成方面十分强力！"
 	]
 	quest.53D550D3FD459ED2.title: "Guidance Completed 2"
 	quest.53E949B1A0D04290.quest_desc: [
@@ -3636,13 +3636,13 @@
 	quest.54A433FAF8A65CC0.title: "&f第一次世界合成"
 	quest.54B7D149B45635F4.quest_desc: ["&d精密时计&r是&a时间量子生成器&r的改良版本，它可以比之前被动地生成更多的&b时间量子&r。"]
 	quest.551964C1A41FA3D0.quest_desc: [
-		"To get chickens for the higher tier materials, you'll need to breed specific chickens together in a &aBreeder&r."
+		"为了得到高阶材料鸡，你需要将一些鸡在&a繁殖箱&r中繁育。"
 		""
-		"For breeding to be successful, you'll need to provide 2 chickens and a specific tier of seed for the chicken you are trying to breed for. JEI will be your best friend when finding breeding recipes!"
+		"为确保繁育成功，你需要提供两只鸡和对应你想要繁育出鸡的等级的饲料。在找寻繁育配方时，JEI将会是你最好的朋友！"
 		""
-		"To see which tier of seed that you need, make sure to hover over the seed in the recipe while in JEI. This will show you a tooltip with the required seed tier."
+		"要查看你需要哪个等级的饲料，请务必在JEI中将鼠标悬停在配方里的饲料上。这会显示一个带有所需饲料等级的提示。"
 	]
-	quest.551964C1A41FA3D0.title: "Breeding Chickens"
+	quest.551964C1A41FA3D0.title: "鸡的繁育"
 	quest.5535D64E2B05005E.quest_desc: [""]
 	quest.5535D64E2B05005E.quest_subtitle: "增加方块破坏器和末影激光器的工作范围"
 	quest.555BB3F7C11CD6F9.title: "Radiance Check 1"
@@ -3708,7 +3708,7 @@
 		"&6节拍器&r有数个输入和输出槽位，可以当作&d时间量子电池&r来使用，并且它可以与其相连的其他&6节拍器&r一起组成一个内部网络，还可以将一个节拍器网络设置为私有。"
 	]
 	quest.575A111D4418BFB6.title: "&6节拍器"
-	quest.5777C137BF472784.title: "End Shards"
+	quest.5777C137BF472784.title: "末影碎片"
 	quest.5778BAEC8F095B3D.quest_desc: [
 		"你可以用&eLaserIO&r的激光传输万物！"
 		""
@@ -4858,11 +4858,11 @@
 		""
 		"打开镭射钻的GUI，确认一下它是否正确连接！"
 		"{@pagebreak}"
-		"Inside of the &dFluid Laser Base&r, make sure to place in the &5Purple Laser Lens&r to tell it what type of fluid to extract."
+		"在&d流体镭射钻&r的UI界面里放入&5紫色镭射聚焦透镜&r以设定镭射钻的提取目标。"
 		""
-		"You'll also need to adjust the &bY Level&r to match up with the Wither. If done properly, you'll start extracting &dEther Gas&r!"
+		"你还需要把机器的&bY轴&r和凋灵的位置匹配上，万事俱备后你就可以开始提取&d以太气体&r了！"
 	]
-	quest.726891EAC51F5F70.title: "&dFluid Lasers"
+	quest.726891EAC51F5F70.title: "&d流体镭射钻"
 	quest.726B56E54CAC971B.quest_desc: [
 		"举行&a仪式&r可不是在地上随便画两笔那么简单！"
 		""
@@ -4993,22 +4993,22 @@
 	]
 	quest.75A7DDE0D617B5E6.title: "&f满配&6量子计算机"
 	quest.75D124AF83D637A8.quest_desc: [
-		"&eIndustrial Foregoing&r (&eI.F&r) is all about using machines to do your work for you."
+		"&e工业先锋&r（&eIF&r）的核心理念就是运用机器解放双手。"
 		""
-		"To get started, you'll need to make a &aPity Machine Frame&r. This machine frame is used for all early game machines, and some cheaper machines like the Block Breaker and Block Placer."
+		"你需要先制作&a缺陷机器框架&r。该机器框架用于制作游戏早期的机器，以及像方块破坏器和方块放置器这样的廉价机器。"
 		""
-		"Let's use the &aPity Machine Frame&r to get into creating &7Plastic&r next!"
+		"用&a缺陷机器框架&r制作机器，开始生产&7塑料片&r吧！"
 	]
-	quest.75D124AF83D637A8.title: "&eIndustrial Foregoing"
+	quest.75D124AF83D637A8.title: "&e工业先锋"
 	quest.75D3AC9CCA5A82E4.quest_desc: [
-		"&dMechanical Crafters&r are gigantic crafting tables that can be automated in several different ways."
+		"&d动力合成器&r是一个巨大的可自动化工作台。"
 		""
-		"&aCrafter Slot Covers&r can be used to cover up any slots that are not used in autocrafting. However, you can also use a redstone signal to force-start a crafting recipe."
+		"&a合成槽盖板&r可用于覆盖自动合成中未使用的槽位。当然，你也可以使用红石信号来强制启动合成配方。"
 		""
 		""
-		"&c&lFTB Notice&r: Due to impact on load times, general crafting is currently disabled. We apologize for the inconvenience."
+		"&c&l注&r：由于对加载时间的影响，目前普通的合成功能已禁用。对于给你带来的不便，我们深表歉意。"
 	]
-	quest.75D3AC9CCA5A82E4.title: "&dMechanical Crafter"
+	quest.75D3AC9CCA5A82E4.title: "&d动力合成器"
 	quest.75D7595FD90E77E5.quest_desc: ["每装一个&d装配矩阵样板核心&r，就能给&6装配矩阵&r增加36个样板槽位。"]
 	quest.75D7595FD90E77E5.title: "&d装配矩阵样板核心"
 	quest.75DB0E723089281E.quest_desc: [
@@ -5213,13 +5213,13 @@
 	quest.7913B52AD9D28D2B.title: "击杀&6先驱者&r"
 	quest.795A3ABA29AC0E4F.quest_desc: ["消耗冰雪发电。"]
 	quest.7983727D0EE456FD.quest_desc: [
-		"&eJust Dire Things&r (&eJDT&r) is a cool tech mod that despite the name, actually adds some &oimpressive&r and slightly overpowered &2Gadgets&r, &aTools&r and &9Armors&r!"
+		"虽然名字不咋样，但&eJust Dire Things&r（&eJDT&r）其实是一个很酷的科技模组，它加入了一些&o令人眼前一亮&r而且有一丢丢超模的&2小帮手&r、&a工具&r以及&9盔甲&r！"
 		""
-		"&eJDT&r has a very unique mechanic for acquiring its materials."
+		"&eJDT&r拥有一套独特的资源获取方式。"
 		""
-		"It starts by making &bGoo&r which will spread onto other blocks to convert them over time."
+		"一般来说就是先制造&b凝胶&r，然后等凝胶慢慢蔓延到其他方块，将他们转化。"
 		""
-		"The first &bGoo&r that you'll make is called &aPrimogel Goo&r, which takes only a few basic materials."
+		"第一种&b凝胶&r叫做&a原初浆凝胶&r，只需要消耗一点点基础材料就能做出来。"
 	]
 	quest.7983727D0EE456FD.title: "&eJust Dire Things"
 	quest.79873815DEB7A086.quest_desc: [
@@ -5315,11 +5315,11 @@
 	]
 	quest.7B579D0762DB9F33.title: "&c热力&r&f发电机"
 	quest.7B5B32A08ADB5E76.quest_desc: [
-		"The &dPrecision Mechanism&r is an important crafting component used for some of the best tools and machines &eCreate&r has to offer."
+		"&d精密构件&r是&e机械动力&r模组中一些顶级工具和机器的重要合成部件。"
 		""
-		"&eNote&r: This recipe has a 20% chance to fail, so make sure to have a filter in place to account for this."
+		"&e注意&r：本配方有20%的失败概率，因此请在产物输出设置过滤。"
 		""
-		"You can also buy these from the &zShop&r!"
+		"你也可以从&z商店&r直接购买！"
 	]
 	quest.7B6A17901EC8180C.quest_desc: ["&z红物质钉头锤&r是&6等价交换&r模组中的最强全能工具。"]
 	quest.7B6A17901EC8180C.title: "&c红物质钉头锤&r"
@@ -5731,7 +5731,7 @@
 	task.27B14942E7BE87E2.title: "ocean south"
 	task.27B5B3E2F6360E5F.title: "&e找到&f：&ccataclysm:soul_black_smith"
 	task.27D0428BD5B59E54.title: "蚀空合金工具"
-	task.27F04FD03BB1682C.title: "Empowered Crystals"
+	task.27F04FD03BB1682C.title: "充能水晶"
 	task.27F8AF789DE14145.title: "成品处理器"
 	task.287D976A94ACDE7C.title: "烈焰金武器"
 	task.2988CAF299690CDB.title: "实用命令"
@@ -5821,7 +5821,7 @@
 	task.41F4FCB0261015FB.title: "找到巨魔洞窟"
 	task.42AEAD2BF6113D89.title: "雪怪宝库"
 	task.4309B43CD4447705.title: "建筑棒"
-	task.435C5B6B77C3D7B4.title: "Reconstructed Materials"
+	task.435C5B6B77C3D7B4.title: "重构材料"
 	task.4436C5870B83BA75.title: "下界东"
 	task.44BC8362B01E30DC.title: "ocean north"
 	task.44F14FF1208B0B03.title: "全能工具"
@@ -5893,7 +5893,7 @@
 	task.5AFEC71F18BD2D1B.title: "钻头升级"
 	task.5B2F539FB8DF8B64.title: "&f自动锤"
 	task.5B3A2DEB3DFBA285.title: "与&d指引者的回响&r对话"
-	task.5B51C00265B54937.title: "Technology Chapter"
+	task.5B51C00265B54937.title: "科技章节"
 	task.5B82C7AEA857BED3.title: "&e击杀&f：&d末影守卫"
 	task.5C3A03650166A961.title: "&e找到&f：&bftb:water_orb"
 	task.5C5C0B0C6CC599E2.title: "找到&c远古战场&r"
@@ -5904,7 +5904,7 @@
 	task.5D44C1D4945AB04C.title: "&e定位&f：地下泉水"
 	task.5D6384EA6154EF7C.title: "冷却计时器"
 	task.5DB582096285438A.title: "&e定位&f：&d军需官"
-	task.5DEDD864CB2276F1.title: "&bEfficiency Upgrades"
+	task.5DEDD864CB2276F1.title: "&b效率升级"
 	task.5E3DB978C813B92A.title: "控制器扩展器"
 	task.5E4795D98A4F96E5.title: "苍穹晶工具"
 	task.5EA5666395E5AAEC.title: "&e定位&f：&d魔法师"
@@ -5993,8 +5993,8 @@
 	task.7A9F1E65CFB92BDF.title: "虚空东"
 	task.7AC3BD79A70049CA.title: "&e击杀&f：&#FCD205牧师"
 	task.7B3908878D77CBC9.title: "定位回响"
-	task.7BDED38E6532CB94.title: "Processing Upgrades"
-	task.7C552DAEA902AA13.title: "Speed Upgrades"
+	task.7BDED38E6532CB94.title: "处理升级"
+	task.7C552DAEA902AA13.title: "速度升级"
 	task.7C972E1F071C029A.title: "传送带控制用品"
 	task.7CA66CFB9AAC98BB.title: "下界南"
 	task.7CCE37FAC12528D7.title: "灵魂猎手装备"
