@@ -7,7 +7,7 @@ navigation:
 item_ids:
   - mekanism:resistive_heater
 ---
-# 加热装置升级
+# 加热器升级
 
 <ItemImage id="mekanism:resistive_heater" scale="3" />
 
