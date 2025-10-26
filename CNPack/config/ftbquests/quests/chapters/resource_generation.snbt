@@ -632,7 +632,7 @@
 				item: {
 					components: {
 						"ftbfiltersystem:filter": "or(item(chicken_roost:red_egg)item(chicken_roost:orange_egg)item(chicken_roost:yellow_egg)item(chicken_roost:green_egg)item(chicken_roost:lime_egg)item(chicken_roost:cyan_egg)item(chicken_roost:blue_egg)item(chicken_roost:light_blue_egg)item(chicken_roost:magenta_egg)item(chicken_roost:purple_egg)item(chicken_roost:brown_egg)item(chicken_roost:pink_egg)item(chicken_roost:white_egg)item(chicken_roost:light_gray_egg)item(chicken_roost:gray_egg)item(chicken_roost:black_egg))"
-						"minecraft:custom_name": "\"Rainbawk Connection\""
+						"minecraft:custom_name": "“彩虹鸡”"
 					}
 					count: 1
 					id: "ftbfiltersystem:smart_filter"

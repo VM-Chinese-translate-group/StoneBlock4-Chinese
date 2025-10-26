@@ -3,7 +3,7 @@
   "ftbpackcompanion.home": "Home",
   "ftbpackcompanion.key.category": "Pack Companion",
   "ftbpackcompanion.key.open_action_pad": "打开操作板",
-  "ftbpackcompanion.shaders_notice.no_shaders.description": "此整合包中装载了光影，但默认情况下是禁用的。你想启用光影吗？光影可能会占用大量性能，导致某些模组出现问题，且可能与你的硬件不兼容。",
+  "ftbpackcompanion.shaders_notice.no_shaders.description": "此整合包中已包含光影，但默认情况下是禁用的。你想启用光影吗？光影可能会占用大量性能，或导致某些模组出现问题，且可能与你的硬件不兼容。",
   "ftbpackcompanion.shaders_notice.no_shaders.title": "无光影",
   "ftbpackcompanion.shaders_notice.shaders.description": "如果想要光影，你可以在这里启用它，体验更加生动美丽的游戏画面。如果遇到了任何问题，可以稍后在视频设置中将其禁用。",
   "ftbpackcompanion.shaders_notice.shaders.title": "光影",

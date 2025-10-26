@@ -13,7 +13,7 @@
 	chapter.39E1055DAEF9F36E.title: "阶段3：破晓"
 	chapter.3B99F85218D37371.title: "实用物品和小贴士"
 	chapter.41A8FE9D26EFA401.title: "开始"
-	chapter.446E3CE6936F2CAE.title: "科技模组"
+	chapter.446E3CE6936F2CAE.title: "General Tech"
 	chapter.4F0F16931654DF58.title: "悬赏板"
 	chapter.5653350BC99D4290.title: "物流与自动化"
 	chapter.5BBD28643F4FD3B6.title: "龙之进化"
@@ -75,15 +75,15 @@
 		"安装该组件后，你就可以燃烧各种物品发电了，比如煤炭或者木头，具体能烧什么取决于该熔炉的种类。比如说，你可以给这个发电机安装&a强化组件：高炉&r，这样它就可以烧铁或者钻石之类的矿物，发更多的电了。"
 	]
 	quest.011DBD2652E49B97.quest_desc: [
-		"&6神化&r模组添加了一个全新的&b世界层级&r系统，默认可以通过“CTRL + T”查看。"
+		"&6神化&r模组添加了一个全新的&b世界层级&r系统，默认可以通过“CTRL+T”查看。"
 		""
-		"[\"捡起第一个\", {\"text\": \"词缀物品\", \"color\": \"#55FF55\"}, \"时，你就会进入\", {\"text\": \"居所\", \"color\": \"#7E7E7E\"}, \"层级，随着你推进模组的内容，将会解锁更多的层级。\"]"
+		"[\"捡起第一个\", {\"text\": \"词缀物品\", \"color\": \"#55FF55\"}, \"时，你就会进入\", {\"text\": \"居所\", \"color\": \"#7E7E7E\"}, \"层级。随着模组进程的推进，你会解锁更多的层级。\"]"
 		""
-		"随着层级升高，所有维度的怪物强度和奖励将会增加。这些变化可以在层级菜单（“CTRL+T”）中查看。"
+		"随着层级升高，所有维度的难度和奖励都会增加，具体可在层级菜单（“CTRL+T”）中查看。"
 		""
-		"要提升你的&b世界层级&r，你可以按“L”（默认按键）来查看&6神化&r模组的进度，然后转到带有头颅的选项卡，它会指导你推进模组进度。"
+		"要提升你的&b世界层级&r，你可以按“L”（默认按键），然后点进带有头颅的选项卡，即可查看&6神化&r模组的进度，它会指导你推进。"
 		""
-		"你也可以查看此任务的下一页以查看解锁所有层级需求的条件。"
+		"你也可以在此任务的下一页中查看提升层级所需的条件。"
 		"{@pagebreak}"
 		"&b世界层级&r"
 		""
@@ -91,13 +91,13 @@
 		""
 		"[\"\", {\"text\": \"边境\", \"color\": \"#55FF55\"}, \" - 穿上一整套\", {\"text\": \"普通\", \"color\": \"#7E7E7E\"}, \"或更高级\", {\"text\": \"词缀\", \"color\": \"#55FFFF\"}, \"的装备。\"]"
 		""
-		"[\"\", {\"text\": \"攀升\", \"color\": \"#5454FC\"}, \" - 穿上一整套\", {\"text\": \"罕见\", \"color\": \"#55FF55\"}, \"或更高级\", {\"text\": \"词缀\", \"color\": \"#55FFFF\"}, \"的装备，并击杀一名\", {\"text\": \"神化\", \"color\": \"#FFAA00\"}, \"Boss。\"]"
+		"[\"\", {\"text\": \"攀升\", \"color\": \"#5454FC\"}, \" - 穿上一整套\", {\"text\": \"罕见\", \"color\": \"#55FF55\"}, \"或更高级\", {\"text\": \"词缀\", \"color\": \"#55FFFF\"}, \"的装备，并击杀一个\", {\"text\": \"神化\", \"color\": \"#FFAA00\"}, \"Boss。\"]"
 		""
-		"[\"\", {\"text\": \"高峰\", \"color\": \"#B900B9\"}, \" - 穿上一整套\", {\"text\": \"稀有\", \"color\": \"#5454FC\"}, \"或更高级\", {\"text\": \"词缀\", \"color\": \"#55FFFF\"}, \"的装备，并击杀凋灵\"]"
+		"[\"\", {\"text\": \"高峰\", \"color\": \"#B900B9\"}, \" - 穿上一整套\", {\"text\": \"稀有\", \"color\": \"#5454FC\"}, \"或更高级\", {\"text\": \"词缀\", \"color\": \"#55FFFF\"}, \"的装备，并击杀凋灵。\"]"
 		""
-		"[\"\", {\"text\": \"顶点\", \"color\": \"#EA6F14\"}, \" - 穿上一整套\", {\"text\": \"史诗\", \"color\": \"#B900B9\"}, \"或更高级\", {\"text\": \"词缀\", \"color\": \"#55FFFF\"}, \"的装备，并击杀威猛末影鸡\"]"
+		"[\"\", {\"text\": \"顶点\", \"color\": \"#EA6F14\"}, \" - 穿上一整套\", {\"text\": \"史诗\", \"color\": \"#B900B9\"}, \"或更高级\", {\"text\": \"词缀\", \"color\": \"#55FFFF\"}, \"的装备，并击杀末影鸡骑士。\"]"
 		""
-		"可以在&b世界层级&r菜单（默认为“CTRL+T”）中查看每个层级的变化。"
+		"你可以在&b世界层级&r菜单（默认为“CTRL+T”）中查看每个层级的变化。"
 	]
 	quest.011DBD2652E49B97.title: "&f神化世界层级"
 	quest.012AEBFDB1F1512E.quest_desc: ["&eJust Dire Things&r盔甲可以使用&a锻造模板&r进行升级，并且可以加装升级，因其作为盔甲来讲，其比下界合金更加合适。"]
@@ -382,9 +382,9 @@
 	]
 	quest.06EC32E6140E68C1.title: "&d量子自动合成"
 	quest.07062B805D9238C0.quest_desc: [
-		"作为本模组的核心设备，&a经验方尖碑&r将经验等级与名为&b认知&r的流体相互转换，实现无损存储和对经验等级的精准调控。"
+		"作为本模组的核心设备，&a经验方尖碑&r将经验等级与名为&b认知&r的流体相互转换，实现无损存储和对经验的精准调控。"
 		""
-		"其他认知设备可以通过这个模组的“扳手”——&a调试权杖&r连接到方尖碑，以启用或增强它们的能力。&a记忆石板&r可以链接到方尖碑来远程访问，这个链接对每个玩家独立生效。"
+		"其他认知设备可以通过这个模组的“扳手”——&a调试权杖&r连接到方尖碑，以启用或增强它们的能力。&a记忆石板&r链接到方尖碑后可实现远程访问，可供每名玩家使用。"
 		""
 		"&7&o它还能够自动捡起周围的经验球。"
 	]
@@ -465,7 +465,7 @@
 	quest.0A2DB5AFC89E852F.quest_desc: [
 		"&a焦炉&r是游戏前期的多方块结构。能将煤炭转化为&3焦煤&r和&7杂酚油&r。"
 		""
-		"&3焦煤&r是一种更加高效的燃料，而&a杂酚油&r则广泛应用于许多配方。"
+		"&3焦煤&r是一种更加高效的燃料，而&a杂酚油&r可用于许多配方。"
 		""
 		"要建造一座焦炉，你需要用&a焦炉砖&r摆成一个3x3x3的正方体，然后使用&b工程师锤&r右击任意一面中间的方块来完成这个多方块结构。"
 	]
@@ -1100,19 +1100,19 @@
 	quest.17DE59BAD714DE63.quest_desc: [
 		"很多烹饪配方中都需要用到&b奶&r。"
 		""
-		"所以很有必要做一个&6罐中牛&r。将其接入&b多方块厨房&r后，当有配方需要奶桶时，它就会为其提供。"
+		"所以，做一个&6罐中牛&r是很有必要的。将其接入&b多方块厨房&r后，它就会为需要奶的配方提供奶。"
 		""
-		"但怎么才能把牛塞进罐子里呢？首先，你要做一个&a奶罐&r，它能够储存奶，不过显然你想的是为你的厨房增添一个无限奶源。"
+		"但怎么才能把牛塞进罐子里呢？首先，你需要做一个&a奶罐&r，它也可以储存奶，不过，你大概更想给你的厨房装一个无限奶源。"
 		"{@pagebreak}"
-		"接着，你需要把奶罐放在一个洞底，这个洞要大到能够容纳一头牛。"
+		"然后，你需要把奶罐放在一个洞里，这个洞要大到能够容纳一头牛。"
 		""
-		"把一头牛吸引到洞里去，让它站在奶罐正上方，然后将一个铁砧砸进洞里，如此操作就牛就被挤到罐子里去了！"
+		"把一头牛吸引到洞里去，让它站在奶罐正上方，然后把一个铁砧砸进洞里，牛就进到罐子里了！"
 		""
-		"然后罐中牛就会缓慢产出奶，供你的厨房使用。"
+		"罐中牛会缓慢产出奶，供你的厨房使用。"
 		""
-		"&e注意&r：其他流体牛也可以这么做！"
+		"&e注意&r：这招对流体牛也有效！"
 	]
-	quest.17DE59BAD714DE63.title: "&f免费牛奶！"
+	quest.17DE59BAD714DE63.title: "&f牛奶自由！"
 	quest.188CEC9710C2F404.quest_desc: [
 		"&a更多箱子&r模组为普通的箱子添加了多种基础材料升级。"
 		""
@@ -1617,11 +1617,11 @@
 	]
 	quest.26CE741ECA36BBC5.title: "&eJust Dire Things&f工具"
 	quest.26D7C5298D95C69A.quest_desc: [
-		"在制作&b珠宝&r时，仅使用&a指环材料&r制成饰品就可以获得效果增益和/或数值加成。"
+		"仅使用&a环带材料&r制成的&b饰品&r也可以提供增益效果和/或数值加成。"
 		""
 		"不过，这些材料的主要用途是根据品质倍率加成来增幅&a宝石&r的效果。"
 	]
-	quest.26D7C5298D95C69A.title: "&a指环材料"
+	quest.26D7C5298D95C69A.title: "&a环带材料"
 	quest.26F18323EB6EFCA0.quest_desc: ["&b子沙&r方块很适合建造仙人掌或者甘蔗农场。给它输入红石信号还可以提高作物的生长速率。"]
 	quest.26F18323EB6EFCA0.title: "&f子沙"
 	quest.26F3ECD3CC9E7CDA.quest_desc: [
@@ -1888,9 +1888,9 @@
 	]
 	quest.2F15D918EF183051.title: "欢迎来到&6石头世界4&r！"
 	quest.2F2DC018DD6A2A23.quest_desc: [
-		"大多数&b珠宝&r的效果加成都来自其所镶嵌的&a宝石&r 。"
+		"大多数&b珠宝饰品&r的效果加成都来自其所镶嵌的&a宝石&r 。"
 		""
-		"同样的&a宝石&r镶嵌在不同的&b珠宝&r上会赋予其各不相同的属性与增益，因此在合成时，需要仔细查看。"
+		"同样的&a宝石&r镶嵌在不同的&b饰品&r上会赋予其不相同的属性与增益，因此在合成时还请仔细查看。"
 	]
 	quest.2F2DC018DD6A2A23.title: "&a宝石"
 	quest.2F8BB4724991B7C4.quest_desc: [
@@ -2085,7 +2085,7 @@
 		""
 		"&f选择空白的&c第四个槽位&r将完全禁用该套装单件——&n即使满足其激活条件，也不会施放任何术式&r。"
 	]
-	quest.32ACE9E47B8A6C87.quest_subtitle: "莱泽尔批准了！"
+	quest.32ACE9E47B8A6C87.quest_subtitle: "莱埃泽尔赞同！"
 	quest.32ACE9E47B8A6C87.title: "灵能盔甲！"
 	quest.32C6E1FD67863F50.quest_desc: [
 		"&d炼金锅&r算是升级了你那普通又老旧的酿造台。"
@@ -2342,9 +2342,9 @@
 	]
 	quest.38E2176886386133.title: "&f合金窑"
 	quest.3900E67C8B833980.quest_desc: [
-		"&a工匠卷轴&r可以在世界中探索获得，也可以在&z商店&r中购买。"
+		"&a工匠卷轴&r可以在战利品中获得，也可以在&z商店&r中购买。"
 		""
-		"手持&a工匠卷轴&r时，右击即可学习对应&b珠宝&r的制作方法。"
+		"手持&a工匠卷轴&r时，右击即可学习对应的&b珠宝饰品&r的制作方法。"
 	]
 	quest.3900E67C8B833980.title: "&a工匠卷轴"
 	quest.3917A0EC517F70E6.quest_desc: [
@@ -2546,9 +2546,9 @@
 		"{image:ftb:textures/quests/worldgen_rings.png width:300 height:300 align:center}"
 	]
 	quest.3CFDFFDCDC306A83.quest_desc: [
-		"这里还有一些附件可以升级你的&a多方块厨房&r。"
+		"这里还有一些附件可以升级你的&a多方块厨房&r！"
 		""
-		"&a架子&r可以为多方块厨房提供所需要的工具。"
+		"&a架子&r可以为多方块厨房提供所需的工具。"
 		""
 		"你也可以把水果储存在&a水果篮&r里。"
 	]
@@ -2569,7 +2569,7 @@
 		"能在&b暮色森林&r环的下层找到，你可以探寻&a九头蛇的宝库&r了。"
 	]
 	quest.3D0CE267A8FD95CD.title: "&f九头蛇巢穴"
-	quest.3D0DC34C36A173F5.quest_desc: ["&eOritech&r模组的&2外骨骼装甲&r在探索世界时有诸多增益效果，但当你在外遇到危险时，它提供不了任何保护。"]
+	quest.3D0DC34C36A173F5.quest_desc: ["&eOritech&r模组的&2外骨骼装甲&r可提供许多增益效果，在探索世界时十分有用。但当你在外遇到危险时，它提供不了任何保护。"]
 	quest.3D0DC34C36A173F5.title: "&2外骨骼装甲"
 	quest.3D220672224EDBD7.quest_desc: ["所有&6CAD设备&r都有一个空间用于安装&c五&r&2颜&r&9六&r&d色&r&e的&r&b附件&r。虽然纯粹是装饰性质，但肯定能让它们看起来更酷！"]
 	quest.3D220672224EDBD7.quest_subtitle: "Time to turn your CAD into a Gamer CAD."
@@ -2639,9 +2639,9 @@
 	]
 	quest.3E2C26828FF869F3.title: "&f你的第一次仪式"
 	quest.3E3A7F72F835E497.quest_desc: [
-		"为了让你吃多种多样的食物，你的血量会随着你品尝过的本整合包中的食物的种类而增加。"
+		"为了鼓励你多尝试各种各样的食物，在本整合包中，品尝新食物时有概率获得&6额外生命值&r！"
 		""
-		"想要了解你已经吃过的食物种类以及下一个烹饪里程碑，你可以查阅&a食物清单&r。"
+		"在&a食物清单&r中，你可以查看自己已食用过的食物，以便于制定之后的烹饪计划。"
 	]
 	quest.3E3A7F72F835E497.title: "&f饮食多样性"
 	quest.3E50C85AFC627BDC.quest_desc: [
@@ -2765,9 +2765,9 @@
 	]
 	quest.4111541EAEF0E4FC.title: "&d量子&f装甲"
 	quest.4119A43052DB5E3E.quest_desc: [
-		"&e遗物&r模组添加了25个新奇而独特的饰品，这些饰品每一个都可以升级，并为使用者提供独特而有用的能力。"
+		"&e遗物&r模组添加了25个新奇而独特的饰品，这些饰品每一个都可以升级，并为使用者提供独特的能力！"
 		""
-		"你可以在战利品中可以发现这些饰品，不过在商店里买也行！"
+		"你可以在战利品中获得饰品，不过在商店里也能买到！"
 	]
 	quest.4119A43052DB5E3E.title: "&z遗物"
 	quest.4126A470077923D2.quest_desc: [
@@ -2934,19 +2934,19 @@
 	quest.4498E3F4B2DC24FC.quest_desc: [
 		"如果你想制作出终极的&e神化&r装备，那就准备好周游世界大战怪物寻找&b宝石&r吧！"
 		""
-		"&b宝石&r是一种水晶，只要镶嵌在有&b词缀&r的物品上，就能为其带来强大加成。"
+		"&b宝石&r是一种水晶，将宝石镶嵌在带有&b词缀&r的物品上，就能为其带来强大加成。"
 		"{@pagebreak}"
-		"你需要把宝石和物品一起放在&a锻造台&r上，这样才能把&b宝石&r装到物品上。注意，加装宝石的物品必须要有&a镶孔&r才能安装宝石。"
+		"你需要用&a锻造台&r将&b宝石&r装到物品上。物品必须要有&a镶孔&r才能安装宝石。"
 		""
-		"装宝石的物品种类不同，宝石带来的加成也不同。在&a宝石切割台&r上可以升级宝石。"
+		"安装宝石的物品种类不同，宝石带来的加成也不同。&a宝石切割台&r可以升级宝石。"
 		""
-		"一件物品只能镶嵌一颗&c唯一宝石&r，别的宝石安装多个可以叠加效果。"
+		"一件物品只能镶嵌一颗&c唯一宝石&r，其他的宝石则可以安装多个来叠加效果。"
 		""
-		"&e神化&r模组的&b宝石&r种类繁多，杀怪或杀boss就能掉。"
+		"&e神化&r模组的&b宝石&r种类繁多，击杀怪物或boss就能掉落。"
 		"{@pagebreak}"
-		"&b宝石&r也可以用下落的铁砧砸碎，变为&a宝石粉&r。"
+		"用下落的铁砧砸碎&b宝石&r可获得&a宝石粉&r。"
 		""
-		"你可以用&a宝石粉&r做很多东西，不过你首先要做的是&a回收台&r！"
+		"&a宝石粉&r可以做很多东西，不过，你得先做一个&a回收台&r！"
 	]
 	quest.4498E3F4B2DC24FC.title: "&a宝石"
 	quest.44A61436D2FE34E9.quest_subtitle: "铁鸡"
@@ -3034,13 +3034,13 @@
 	]
 	quest.45E7D62C229F898C.title: "&aME合成终端"
 	quest.464AED8311A32476.quest_desc: [
-		"在深入游玩&e神化&r模组前，我们得先讲明白&b词缀&r究竟是什么！"
+		"在深入游玩&e神化&r模组前，我们得先弄明白&b词缀&r究竟是什么！"
 		""
-		"&b词缀&r是&e神化&r装备的力量来源。每个&b词缀&r的作用都和附魔非常相似，可以给附有该词缀的物品提供增幅。"
+		"&b词缀&r是&e神化&r装备的力量来源。&b词缀&r的作用与附魔非常相似，可以给附有该词缀的物品提供增益效果。"
 		"{@pagebreak}"
-		"你可以在探索世界的时候找到带有&b词缀&r的物品，而它们的属性加成高低主要由稀有度决定。一般情况下&e神化&rboss会掉这类物品，它们会出现在地底的洞穴，有时也会在晚上随机刷新。"
+		"你可以在探索世界的时候找到带有&b词缀&r的物品，它们的增益效果大小由稀有度决定。这些物品通常由&e神化&rboss掉落，它们会出现在地底的洞穴，偶尔也会在晚上随机刷新出来。"
 		""
-		"&b词缀&r有着不同的种类，一个词缀只会影响物品的一个特定部分，比如：属性、药水效果、耐久和&b宝石镶嵌槽数量&r，后者将会在&b宝石&r章节中进行介绍。"
+		"&b词缀&r有不同的种类，一种词缀只会影响物品的一个特定部分如：属性、药水效果、耐久和&b宝石镶孔&r，这在后面的&b宝石&r部分中会介绍到。"
 	]
 	quest.464AED8311A32476.title: "&f了解&a词缀&f物品"
 	quest.466E449BFD87E62F.quest_desc: ["&c远古战场&r会生成在&c下界&r环的上层。"]
@@ -3142,13 +3142,13 @@
 	]
 	quest.48C1A1BB346B7D07.title: "&z时间手杖"
 	quest.496903AB7E8A0A92.quest_desc: [
-		"&eIron的宝石与饰品&r模组可以将饰品材料与&b宝石&r组合在一起制成饰品，为玩家提供增益效果或属性加成。"
+		"&eIron的宝石与饰品&r模组可以将各种材料与&b宝石&r组合在一起制成饰品，为玩家提供增益效果或属性加成。"
 		""
-		"在制作&b珠宝&r之前，你需要先制作一个&a珠宝装配台&r。"
+		"在开始制作&b饰品&r之前，你需要先制作一个&a珠宝饰品工作台&r。"
 		""
-		"要想制作更高级的&b珠宝饰品&r，你需要从村民或&6商店&r处购买工匠卷轴。"
+		"要想制作更高级的&b饰品&r，你需要从村民或&6商店&r处购买工匠卷轴。"
 		""
-		"大多数的&b珠宝&r由&a饰品材料&r与&a宝石&r组成。"
+		"大多数的&b饰品&r由&a环带材料&r与&a宝石&r组成。"
 	]
 	quest.496903AB7E8A0A92.title: "&eIron的宝石与饰品&f！"
 	quest.49835EC10C5AE8D8.quest_desc: [
@@ -3242,7 +3242,7 @@
 	]
 	quest.4B6154D6F9B7C7BF.title: "&f合成站"
 	quest.4B7A9469150AF3A1.quest_desc: ["&6Psi金属工具&r的质量相当于&b钻石级&r，每次执行其预期动作时，都可以施展一个&b术式&r。"]
-	quest.4B7A9469150AF3A1.quest_subtitle: "Vlaakithy Approved!"
+	quest.4B7A9469150AF3A1.quest_subtitle: "维拉基斯赞同！"
 	quest.4B7A9469150AF3A1.title: "灵能工具！"
 	quest.4B92EBBA1F2BBFEA.quest_desc: ["领取此任务奖励将在&d回响&6档案馆&r入口处设置一个路径点。"]
 	quest.4B92EBBA1F2BBFEA.title: "&f定位到&d远古族裔的回响"
@@ -3394,7 +3394,7 @@
 		""
 		"这些符石可以在&z商店&r里购买！"
 	]
-	quest.4E0BAFDCADC617C5.title: "TF碎片"
+	quest.4E0BAFDCADC617C5.title: "TF Shards"
 	quest.4E4434B6CE1F2560.quest_desc: [
 		"&6核心&r是&aCAD中的关键部分&r，尽可能制作最好的吧——&a它们本质上是CAD的CPU&r。"
 		""
@@ -3660,9 +3660,9 @@
 	]
 	quest.562156281B8D0843.title: "&a电解分离器&r"
 	quest.5624865A6F796087.quest_desc: [
-		"The &aReplicator&r is the core working machine of your matter network."
+		"&a复制器&r是你物质网络的核心工作机器。"
 		""
-		"Once an item is set in a &dMemory Chip&r and requested from a &aReplication Terminal&r, the job is sent to available &aReplicators&r to be crafted using stored matter."
+		"一旦存储在&d存储芯片&r中的物品被&a复制终端&r请求，该任务将会派送给可用的&a复制器&r，来使用存储的物质进行复制。"
 	]
 	quest.56519A6A39FA9430.quest_desc: [
 		"在&d力场投影仪&r的矩阵槽安装模块，可以对力场区域进行调整。每个模块都可以安装多个，但大多数模块无法堆叠生效。"
@@ -3708,7 +3708,7 @@
 		"&6节拍器&r有数个输入和输出槽位，可以当作&d时间量子电池&r来使用，并且它可以与其相连的其他&6节拍器&r一起组成一个内部网络，还可以将一个节拍器网络设置为私有。"
 	]
 	quest.575A111D4418BFB6.title: "&6节拍器"
-	quest.5777C137BF472784.title: "末影碎片"
+	quest.5777C137BF472784.title: "End Shards"
 	quest.5778BAEC8F095B3D.quest_desc: [
 		"你可以用&eLaserIO&r的激光传输万物！"
 		""
@@ -3891,15 +3891,15 @@
 	]
 	quest.5A04F7A95366D15F.title: "&f充能钻石"
 	quest.5A284AE3AC14D070.title: "&f游玩1小时"
-	quest.5A7056F1FB256B5F.quest_desc: ["This chapter outlines most of the different ways to automate generating resources!"]
+	quest.5A7056F1FB256B5F.quest_desc: ["本章概述了自动化生成资源的绝大多数方法！"]
 	quest.5A793B307C82AB91.quest_desc: [
-		"The &2Geologist&r is a master of hard materials, and can work through &2Cobblestone&r, &7Gravel&r, &aSoul Sand&r, and &aCrushed Kivi&r. They require a &aSalvaging Table&r as a workstation."
+		"&2地质学家&r是硬质材料的大师，可以处理&2圆石&r，&7沙砾&r，&a灵魂沙&r和&a磊岩&r。他们需要&a回收台&r作为工作站。"
 		""
-		"This worker can be a great source for generating most ore chunks and gems depending on their level."
+		"根据他们的等级，这位工人可以成为大多数矿石和宝石的重要来源。"
 		""
-		"The &2Geologist&r is one of the only sources for generating items like &aXychorium Gems&r and &aBlack Quartz&r."
+		"&2地质学家&r是&aXy晶宝石&r和&a焦黑石英&r这类物品的唯一来源。"
 	]
-	quest.5A793B307C82AB91.title: "Geologist"
+	quest.5A793B307C82AB91.title: "地质学家"
 	quest.5AC7EEC3D69AF032.quest_desc: [
 		"&b苍穹晶&r是&6Just Dire Things&r模组下一等阶的工具制造材料。"
 		""
@@ -3916,13 +3916,13 @@
 		"&e注意&r：水的冷却效果还不太够。"
 	]
 	quest.5B7448EEC26FF0E3.quest_desc: [
-		"搭建厨房的第一步就是制作一个&a烹饪桌&r。"
+		"搭建厨房的第一步就是制造一个&a烹饪桌&r！"
 		""
-		"烹饪桌是制作食物的主要区域，并且它也是你的&a多方块厨房&r中的核心部分。基于你已储存的食物和多方块厨房中已连接的设备，你可以直接在烹饪桌的界面中看到所有你可以制作的食物。"
+		"烹饪桌是制作食物的主要区域，也是你&a多方块厨房&r的核心部分。基于你已储存的食物和多方块厨房中已连接的设备，你可以直接在烹饪桌的界面中看到所有你可以制作的食物。"
 		""
-		"可以通过增加&a厨柜&r或&a厨房橱柜&r的方式来扩展你的多方块厨房。"
+		"你可以增加&a厨柜&r或&a厨房橱柜&r来扩展你的厨房。"
 		""
-		"&e注意&r：部分模组的方块无法与烹饪桌接入交互，如&b农夫乐事的厨锅&r。烹饪前要在JEI里看清配方的合成站！"
+		"&e注意&r：部分模组的方块无法与烹饪桌接入交互，如&b农夫乐事的厨锅&r。烹饪前请在JEI里看清配方的合成站！"
 	]
 	quest.5B7448EEC26FF0E3.title: "&a多方块厨房&r"
 	quest.5BBA51F8FE4D6C3B.quest_desc: [
@@ -3994,7 +3994,7 @@
 		""
 		"右击发射一枚威力巨大的弹丸，在命中位置爆炸，破坏附近方块并伤害实体。"
 	]
-	quest.5D3ED71A2ADB7F8E.quest_subtitle: "Crafted with Netherite Chicken"
+	quest.5D3ED71A2ADB7F8E.quest_subtitle: "用下界合金鸡制作"
 	quest.5D7BABE1A37EC6D3.quest_desc: [
 		"如果你的&e恶念武器&r&o看起来&r有了一些自己的想法，用融合意识将它们升级成新武器将是你的不二之选。"
 		""
@@ -4126,21 +4126,21 @@
 	]
 	quest.609DF15D870AE2C0.title: "&eSoulplied Energistics"
 	quest.60BBE214131DF6EB.quest_desc: [
-		"Once you have a Data Model for a mob, you'll need to level it up to at least the &aBasic&r tier by killing that type of mob."
+		"一旦你获得了某个生物的数据模型，你就需要通过击杀该类型的生物，来将其至少提升到&a基础&r等级。"
 		""
-		"When provided with a &2Prediction Matrix&r and power, the &aSimulation Chamber&r will run simulations as if you were killing that specific mob."
+		"提供&2预测矩阵&r和能源后，&a模拟室&r将模拟你对该生物的击杀过程。"
 		""
-		"If the simulation fails, you'll get a &bGeneralized Prediction&r. If it succeds, you'll get that mob's &6Prediction&r."
+		"模拟失败时，会生成&b通用预测产物&r；模拟成功时，会生成对应生物的&6预测产物&r。"
 		""
-		"This &6Prediction&r can be ran through a &dLoot Fabricator&r to create loot!"
+		"&6预测产物&r可以在&d战利品制造器&r内运行以获取掉落物。"
 	]
-	quest.60BBE214131DF6EB.title: "Simulating Loot"
+	quest.60BBE214131DF6EB.title: "模拟掉落"
 	quest.60FDF616DEDE5E73.quest_desc: [
-		"&e神化&r模组通过打造类似于RPG游戏的体验，将原版的探索与战斗进行了大改。"
+		"&e神化&r模组大改了原版的探索与战斗，打造了更类似于RPG游戏的游戏体验。"
 		""
-		"无论是你在世界中探索得到的物品，还是偶然遭遇的怪物，都有可能带有一个特殊的&b词缀&r。词缀会让带有它的物品/生物更为强大，有时甚至还能带来特殊的能力，让你的探索充满乐趣。"
+		"无论是你在世界中探索获得的物品，还是偶然遭遇的怪物，都有可能带有一个特殊的&b词缀&r。词缀会让物品/生物大大增强，有时甚至还能带来特殊的能力，为你的探索旅程增添乐趣！"
 		""
-		"如果你感到不知所措的话，记得去查阅&a阴影编年史&r，那是本模组的指导书。"
+		"如果你感到不知所措的话，可以去看看本模组的教程书——&a阴影编年史&r。"
 	]
 	quest.60FDF616DEDE5E73.title: "&e神化宝石&f！"
 	quest.6120A9478D66C2F9.quest_desc: [
@@ -4220,9 +4220,9 @@
 	]
 	quest.61D79267453CA30C.title: "传输能量"
 	quest.620F29613800DC94.quest_desc: [
-		"&a铭刻符文之戒&r可以镶嵌来自&6Iron的法术与魔法书&r模组中的&d符文&r。"
+		"&a铭刻符文之戒&r可以镶嵌&6Iron的法术与魔法书&r模组中的&d符文&r。"
 		""
-		"这些&d符文&r会赋予戒指不同的力量，试试看！"
+		"这些&d符文&r会赋予戒指不同的力量，试试看吧！"
 		""
 		"&e注意&r：此工匠卷轴只能在&d附魔师的&r&z商店&r中购买。"
 	]
@@ -4410,15 +4410,15 @@
 	quest.6755CACD4957A4CB.title: "&a一阶&fCAD核心"
 	quest.67AA6621E5A00E37.title: "Twilight Check 1"
 	quest.67AD604F2C4E5CC9.quest_desc: [
-		"Not every &bFluid Cow&r can be made by breeding or using the &aClapple&r."
+		"并不是所有&b流体牛&r都可以由繁育或者&a粘土苹果&r得到。"
 		""
-		"There are a few other items that you can feed to a cow to create specific types of &bFluid Cows&r, like an &dEye of Ender&r that creates a &cMolten Ender&r cow."
+		"“还有一些其他的物品也可以喂给牛，用来创造特定类型的&b流体牛&r，比如&d末影之眼&r就可以创造出一只&c熔融末影珍珠&r牛。”"
 		""
-		"The &bLatex&r cow is also pretty nice."
+		"&b胶乳&r牛也十分不错。"
 	]
-	quest.67AD604F2C4E5CC9.title: "Special Fluid Cows"
+	quest.67AD604F2C4E5CC9.title: "特殊流体牛"
 	quest.67D1E0D81B2C5D8D.quest_desc: [
-		"&d利维坦&r可在&b水下溶洞&r结构中找到。"
+		"&d利维坦&r可在&b水渊之珠&r结构中找到。"
 		""
 		"该结构散布在&b海洋&r环周围。"
 		""
@@ -4501,11 +4501,11 @@
 	]
 	quest.6A4A2A2EFD552316.title: "&c能量单元&r"
 	quest.6A67A14C8770B8C5.quest_desc: [
-		"The &cLava&r and &bWater&r chickens are craftable Tier 2 chickens!"
+		"&c熔岩&r和&b水&r鸡是可制造的2级鸡！"
 		""
-		"These chickens can be used to get some &aTier 2 Souls&r, which means &2Tier 2 Seeds&r."
+		"这些鸡可以用来获取一些&a2级灵魂&r，这意味着你就可以得到&22级饲料&r。"
 	]
-	quest.6A67A14C8770B8C5.title: "&fCraftable Tier 2 Chickens"
+	quest.6A67A14C8770B8C5.title: "&f可制作的2级鸡"
 	quest.6B2F4AA722DAC535.quest_desc: ["消耗下界之星发电。"]
 	quest.6B31A5D836677A89.title: "Wyrmwright Check 3"
 	quest.6B387999FBEE2E9E.quest_desc: [
@@ -4659,21 +4659,21 @@
 	]
 	quest.6F4A4B4C261FF84B.quest_desc: ["燃烧可燃物发电。"]
 	quest.6F53C65C3131B68A.quest_desc: [
-		"The &2Archaeologist&r is a master of soft materials, and can work through &2Dirt&r, &eSand&r, &eDust&r, and &7Mud&r. They require a &aDecorated Pot&r as a workstation."
+		"&2考古学家&r是软质材料的大师，可以处理&2泥土&r、&e沙子&r、&e灰尘&r和&7泥巴&r。他们需要一个&a饰纹陶罐&r作为工作站。"
 		""
-		"This worker can be a great source for generating seeds, clay, and more unique ore chunks like &2Uranium&r."
+		"根据他们的等级，这位工人可以成为种子，粘土和更多稀有矿物碎块如&2铀矿&r的重要来源。"
 		""
-		"A level 4 &2Archaeologist&r is a great way to get &dArchwood Saplings&r!"
+		"四级&2考古学家&r是得到&d至高树苗&r的好办法！"
 	]
-	quest.6F53C65C3131B68A.title: "&fThe Archaeologist&r"
+	quest.6F53C65C3131B68A.title: "&f考古学家&r"
 	quest.6F91297C4FAA43FE.quest_desc: [
-		"The &dDimensionalist&r is a master of other-worldy materials, and can brush through &cNetherrack&r, &eEnd Stone&r, and &7Otherrock&r. They require a &aResonanz Engineering Block&r as a workstation."
+		"&d维度学家&r是异界材料的大师，可以刷&c下界岩&r、&e末地石&r和&7异界岩&r，需要一个&a共振工程块&r作为工作站。"
 		""
-		"This is an advanced worker that allows you to acquire some of the rarer materials like &aPlatinum&r and &bDimensional Shards&r."
+		"这是高级工人，允许你获得一些稀有材料，如&a铂&r和&b维度碎片&r。"
 		""
-		"A level 4 &dDimensionalist&r is required to get &aReplica Ore&r and &aDraconium Dust&r."
+		"四级&d维度学家&r是得到&a复制物质矿石&r和&a龙尘&r的必要条件。"
 	]
-	quest.6F91297C4FAA43FE.title: "Dimensionalist"
+	quest.6F91297C4FAA43FE.title: "维度学家"
 	quest.6FB2393F2348D59E.quest_desc: [
 		"&a生物捕捉工具&r是一种可重复使用的简易装置，它能捕捉生物，以便你将它们放置在任意地点。"
 		""
@@ -4687,11 +4687,11 @@
 	]
 	quest.700716B4ACCBD4F4.title: "&6神龙护胸"
 	quest.705E4FFB4FCADFD1.quest_desc: [
-		"You can extract matter from items using the &aDisintegrator&r."
+		"你可以使用&a分解器&r从物品中提取物品。"
 		""
-		"This matter will need to be stored into &aMatter Tanks&r for later use, and can be piped between machines and tanks using &eMatter Network Pipes&r."
+		"物质需要储存在&a物质储罐&r中以备后用，其可被&e物质网络管道&r在机器和储罐传输。"
 	]
-	quest.705E4FFB4FCADFD1.title: "Creating Matter"
+	quest.705E4FFB4FCADFD1.title: "制造物质"
 	quest.706E469302F9F383.title: "魔源"
 	quest.70753CD7045AE9E1.quest_desc: [
 		"&d恶念白镴&r是一种魔法材料，这种材料天生就对这充满了魔法和创造的世界抱有恶意。"
@@ -4721,16 +4721,16 @@
 	]
 	quest.70BB982228095E51.title: "&f加固框架"
 	quest.70C02FCA0C7B8777.quest_desc: [
-		"Chickens have &bTiers&r depending on the resource they can create. This &bTier&r determines what tier of seed that they will need to eat. These seeds require &dSouls&r to make."
+		"鸡拥有&b级别&r，这取决于它们可以制造的资源。&b级别&r决定了它们需要吃什么级别的饲料。这些饲料需要&d灵魂&r来制作。"
 		""
-		"You'll need to make a &dSoul Extractor&r to extract &btiered souls&r from chickens to make the seeds."
+		"你需要&d灵魂提取器&r来从鸡中提取&b各级别的灵魂&r来制造这些饲料。"
 		""
-		"Thankfully, you will only need one seed of each tier, then you can plant them and squat-grow them!"
+		"幸运的是，你每个阶段只需要一份饲料。之后你可以种植它们并蹲起来催熟。"
 		""
-		"&eNote&r: The &6World Engine&r can also craft soul upgrades."
+		"&e注意&r：&6世界引擎&r也可以制作灵魂升级。"
 	]
-	quest.70C02FCA0C7B8777.quest_subtitle: "Use the Chickens to Breed the Chickens"
-	quest.70C02FCA0C7B8777.title: "Soul Extracting and Seeds"
+	quest.70C02FCA0C7B8777.quest_subtitle: "用鸡喂鸡"
+	quest.70C02FCA0C7B8777.title: "灵魂提取与饲料"
 	quest.70D5BEA5CC437AB6.quest_desc: [
 		"一大堆带附魔的盔甲？用&d拆解宝典&r，你就可以将装备拆解并把想要的附魔提取出来。"
 		""
@@ -4892,7 +4892,7 @@
 	]
 	quest.727070B13B966DE1.title: "&f自动建造&3超立方体升级"
 	quest.72766EEF59130E19.title: "&f游玩&c25小时"
-	quest.72934B141A741423.quest_subtitle: "Yellow + Iron"
+	quest.72934B141A741423.quest_subtitle: "黄鸡 + 铁鸡"
 	quest.7312FFEDAD1A6F75.quest_desc: [
 		"&d虚空升级&r - 自动销毁超过数量上限的物品。"
 		""
@@ -4906,14 +4906,14 @@
 	]
 	quest.7312FFEDAD1A6F75.title: "实用升级"
 	quest.73268E8255CBB44A.quest_desc: [
-		"By making a &aSoul Vial&r, you can Sneak+Right-click on a mob to capture its soul."
+		"制作&a灵魂瓶&r后，你可以对着生物潜行+右击来提取它的灵魂"
 		""
-		"You can combine this soul with a &aBroken Spawner&r inside of a &dSoul Binder&r to infuse the spawner with that mob's soul."
+		"你可以将这个灵魂与&a破损的刷怪笼&r在&d灵魂绑定器&r内结合，来将这个生物的灵魂灌注到刷怪笼里面。"
 		""
-		"Crafting a &2Powered Spawner&r using that infused spawner will create your own powered version of a spawner!"
+		"使用注入灵魂的刷怪笼制作&2电动刷怪笼&r，会得到属于你自己的，需要能量的刷怪笼。"
 	]
-	quest.73268E8255CBB44A.quest_subtitle: "EnderIO"
-	quest.73268E8255CBB44A.title: "&fCustom Spawners"
+	quest.73268E8255CBB44A.quest_subtitle: "末影接口"
+	quest.73268E8255CBB44A.title: "&f自定义刷怪笼"
 	quest.73871351B8E5775B.quest_desc: [
 		"如果你准备精研法师之道并且想增强你的法术效果，&6铁魔法&r模组也有一些进阶套装可选。"
 		""
@@ -4949,15 +4949,15 @@
 	quest.749634B68269401A.title: "等价交换武器"
 	quest.74AD70F5C648DBDF.title: "能量存储方案"
 	quest.74CC5FF2097C0839.quest_desc: [
-		"&6Hostile Neural Networks&r (or &6HNN&r for short) allows you to collect data from a mob to harvest its drops in the form of &bPredictions&r."
+		"&6敌对神经网络（Hostile Neural Networks, &6HNN&r）&r允许你从生物中收集数据，以&b预测产物&r的形式获取掉落物。"
 		""
-		"To get started with the mod, start off by creating a &aModel Framework&r and right-clicking it on a mob to gather its &cData Model&r."
+		"该模组从制造&a空白数据模型&r开始，用其右击生物以收集&c数据模型&r。"
 		""
-		"Next, you'll want to craft a &2Deep Learner&r and place the &cData Model&r inside of it. Once inside, every kill for that mob will allow you to improve the &bData Model&r."
+		"接下来，你需要制作&2深度学习器&r并放入&c数据模型&r，数据模型放入后，击杀对应生物将优化&b数据模型&r。"
 		""
-		"&eNote&r: You will need the &bChroniton Glass&r &6World Engine Upgrade&r to use this mod."
+		"&e注意&r：要使用该mod，你需要先用&b时空粒子玻璃&r进行&6世界引擎升级&r。"
 	]
-	quest.74CC5FF2097C0839.title: "Server Friendly Mob Farming"
+	quest.74CC5FF2097C0839.title: "对服务器友好的刷怪塔"
 	quest.74E9653C810F045B.quest_desc: [
 		"如果你需要一种适合游戏前期的无线能量传输方案，那不妨看看&6Irregular Implements&r模组吧！"
 		""
@@ -5012,13 +5012,13 @@
 	quest.75D7595FD90E77E5.quest_desc: ["每装一个&d装配矩阵样板核心&r，就能给&6装配矩阵&r增加36个样板槽位。"]
 	quest.75D7595FD90E77E5.title: "&d装配矩阵样板核心"
 	quest.75DB0E723089281E.quest_desc: [
-		"这里还有一些可以添加到你的&a多方块厨房&r中的设备。"
+		"这里还有一些可以添加到你的&a多方块厨房&r中的设备！"
 		""
-		"&a水槽&r会为需要水的烹饪配方供水。水槽里的水并不是取之不尽的，你需要往其中添水。"
+		"&a水槽&r可为需要水的烹饪配方供水。水槽里的水并不是取之不尽的，你需要给它加水。"
 		""
-		"&a冰箱&r是冷藏食物的最佳容器，它可以为你的&d多方块厨房&r提供更多烹饪配方。"
+		"&a冰箱&r是冷藏食物的绝佳设备，升级后可为&b多方块厨房&r提供更多烹饪配方！"
 		""
-		"&a烤箱&r可以增加那些需要熔炉或烟熏炉的配方，当然，需要燃料才能运作。"
+		"&a烤箱&r可以给厨房添加需要熔炉或烟熏炉的配方。当然，它需要燃料才能运作。"
 	]
 	quest.75DB0E723089281E.title: "厨房设备"
 	quest.75F6827C1FB52C91.quest_desc: [
@@ -5030,11 +5030,11 @@
 	]
 	quest.75F6827C1FB52C91.title: "&f造石机&r"
 	quest.76482BDD2CD6CB8E.quest_desc: [
-		"&6Occultism&r has a &aLumberjack Foliot&r that you can summon to cut down trees for you."
+		"&6神秘学&r可以生成为你砍树的&a魔精伐木工&r。"
 		""
-		"This can be a very magical way of creating a simple tree farm!"
+		"这是创造一个简易树场的魔幻方法。"
 	]
-	quest.76482BDD2CD6CB8E.title: "Demon Tree Farming"
+	quest.76482BDD2CD6CB8E.title: "恶魔树场"
 	quest.765E218999FC00BD.quest_desc: [
 		"&6电池&r是&bCAD&r中的&d可选附件&r，可以在基础Psi能量耗尽时，提供&b额外的Psi能量&r。"
 		""
@@ -5445,11 +5445,11 @@
 	quest.7E685EAD7FB60B45.quest_desc: [
 		"&a回收台&r能将词缀物品分解为相应稀有度的材料："
 		""
-		"{\"text\": \"普通：神秘废金属\", \"color\": \"#7E7E7E\"}"
-		"{\"text\": \"罕见：陈旧布匹\", \"color\": \"#55FF55\"}"
-		"{\"text\": \"稀有：发光水晶碎片\", \"color\": \"#5454FC\"}"
-		"{\"text\": \"史诗：玄奥沙\", \"color\": \"#B900B9\"}"
-		"{\"text\": \"神话：神铸珍珠\", \"color\":\"#EA6F14\"}"
+		"{\"text\": \"普通 - 神秘废金属\", \"color\": \"#7E7E7E\"}"
+		"{\"text\": \"罕见 - 陈旧布匹\", \"color\": \"#55FF55\"}"
+		"{\"text\": \"稀有 - 发光水晶碎片\", \"color\": \"#5454FC\"}"
+		"{\"text\": \"史诗 - 玄奥沙\", \"color\": \"#B900B9\"}"
+		"{\"text\": \"神话 - 神铸珍珠\", \"color\":\"#EA6F14\"}"
 		""
 		"&a回收台&r可以从顶部和侧面自动输入物品并拆解，从底部输出。任何材料都不会被遗漏！"
 	]
@@ -5662,10 +5662,10 @@
 	task.0C13FA83021AE4C5.title: "&e击杀&f：&c下界合金巨兽"
 	task.0D2B50FDF033C966.title: "铁魔法盔甲"
 	task.0D88BFCD6CDC0266.title: "武器"
-	task.0D9BCEFBD92A6E7F.title: "Dimensionalist Brushing Blocks"
+	task.0D9BCEFBD92A6E7F.title: "维度学家可获取的方块"
 	task.0DCA427A0337668D.title: "冷却计时器"
-	task.0E023EF28D4D86F3.title: "&bRange Upgrades"
-	task.0E1BCAE9F0367A8B.title: "Geologist Brushing Blocks"
+	task.0E023EF28D4D86F3.title: "&b范围升级"
+	task.0E1BCAE9F0367A8B.title: "地质学家可获取的方块"
 	task.0E7B34D38F84AC11.title: "胸针"
 	task.0EFEB7A9C3BC6904.title: "冷却计时器"
 	task.0F2D2B75BBD3B74B.title: "&c能量立方&r"
@@ -5691,7 +5691,7 @@
 	task.16D5556D98667242.title: "核原铁盔甲"
 	task.16F92FFAF9B19572.title: "魔源通道"
 	task.171FAFE09103AB82.title: "鸡骑士北"
-	task.1726EF3A700E7F17.title: "Craftable Chickens"
+	task.1726EF3A700E7F17.title: "可合成的鸡"
 	task.180699485CD072B7.title: "简单村民"
 	task.18CB8C05E3A9150F.title: "村民信息"
 	task.18D6F8FAB2FA69F7.title: "虚空南"
@@ -5721,11 +5721,11 @@
 	task.24F9A4F56ECE9A55.title: "tf north"
 	task.251CDFF26C59DD32.title: "暗物质盔甲"
 	task.257444FAB277BA50.title: "冷却计时器"
-	task.25B4028ACF0AA25B.title: "Archaeologist Brush Blocks"
+	task.25B4028ACF0AA25B.title: "考古学家可获取的方块"
 	task.25EB772A7B06594D.title: "定位回响"
-	task.266AF5D6914A2BA5.title: "Chicken Soul"
+	task.266AF5D6914A2BA5.title: "鸡灵魂"
 	task.2672BC5E75CFBDEC.title: "升级下界书架"
-	task.268850BC9199AE77.title: "Observe A &bFluid Cow&r"
+	task.268850BC9199AE77.title: "观察一只&b流体牛&r"
 	task.2695E2029A6BC6A0.title: "&f与&d魔法师的回响&f对话"
 	task.275981DE51204FB4.title: "冷却计时器"
 	task.27B14942E7BE87E2.title: "ocean south"
@@ -5818,7 +5818,7 @@
 	task.4091B80117F5E02D.title: "冷却计时器"
 	task.411B145BAD8AA622.title: "工具"
 	task.41B203F8648421C8.title: "&e定位到&f：&6无尽"
-	task.41F4FCB0261015FB.title: "找到巨魔洞窟"
+	task.41F4FCB0261015FB.title: "找到巨魔洞穴"
 	task.42AEAD2BF6113D89.title: "雪怪宝库"
 	task.4309B43CD4447705.title: "建筑棒"
 	task.435C5B6B77C3D7B4.title: "重构材料"
@@ -5826,10 +5826,10 @@
 	task.44BC8362B01E30DC.title: "ocean north"
 	task.44F14FF1208B0B03.title: "全能工具"
 	task.45C3B788492E3C09.title: "&e观察&f：&2草方块"
-	task.45E16BAC26D921B8.title: "Special Fluid Cow Items"
+	task.45E16BAC26D921B8.title: "特殊流体牛物品"
 	task.45E18E3EE8C1D683.title: "&f与&d机械师的回响&f对话"
 	task.45E2610784D6C62D.title: "虚空西"
-	task.46201BC3BAE0D15A.title: "Mekanism Lasers"
+	task.46201BC3BAE0D15A.title: "通用机械激光"
 	task.47304646719F0174.title: "冷却计时器"
 	task.47CDD3AB69EDD87A.title: "巫妖宝库"
 	task.488B1E7E0EBA64D2.title: "冷却计时器"
@@ -5852,7 +5852,7 @@
 	task.4EF42C21DDEAAB6F.title: "冷却计时器"
 	task.4F171D8BC8C1C8F7.title: "任意&eJust Hammers&r模组的&b锤子"
 	task.4F37295B08FFCA81.title: "创建你的家园"
-	task.4F48BE06A8542822.title: "Items For Moving Mobs"
+	task.4F48BE06A8542822.title: "转移生物的物品"
 	task.4FC80BE367960541.title: "&e定位&f：&d远古族裔"
 	task.5034DC565C8B0377.title: "任意树叶方块"
 	task.5091E1D8C2C9437F.title: "冷却计时器"
@@ -5866,7 +5866,7 @@
 	task.5434F149E894EFA6.title: "欢迎"
 	task.546F475B57F686A3.title: "红物质盔甲"
 	task.54900CC98541771C.title: "任意PsiCAD着色器"
-	task.54C8C7E72F5D069E.title: "Generating Resources"
+	task.54C8C7E72F5D069E.title: "生成资源"
 	task.54E21F0B7510D638.title: "&e击杀&f: &c焰魔"
 	task.553E2E245BD16D6A.title: "冷却计时器"
 	task.55E36C96A2424F59.title: "&e击杀&f：&6远古遗魂"
@@ -5897,7 +5897,7 @@
 	task.5B82C7AEA857BED3.title: "&e击杀&f：&d末影守卫"
 	task.5C3A03650166A961.title: "&e找到&f：&bftb:water_orb"
 	task.5C5C0B0C6CC599E2.title: "找到&c远古战场&r"
-	task.5C6B2370E7B8E980.title: "Occultism Miners"
+	task.5C6B2370E7B8E980.title: "神秘学矿工"
 	task.5CCC981194E6AD26.title: "&e定位&f：&d飞龙匠人"
 	task.5CF322069EBE856C.title: "深板岩层东"
 	task.5D219927A5B4C985.title: "定位回响"
@@ -5916,7 +5916,7 @@
 	task.6064031AABA0D8D1.title: "&e击杀&f：&2药剂师"
 	task.6143E9BDB0C9D417.title: "传送门宝库"
 	task.615166F23D87249A.title: "定位回响"
-	task.6166C057F795A2CB.title: "Loads of Matter"
+	task.6166C057F795A2CB.title: "超多物质"
 	task.61C0F35123FBB85E.title: "&e击杀&f：&3监守者"
 	task.61D894B195259EFE.title: "下界合金盔甲"
 	task.61D984A3215E20D1.title: "&e击杀&f：冰雪女王"
