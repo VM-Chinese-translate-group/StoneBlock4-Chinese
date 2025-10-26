@@ -2,14 +2,14 @@
   "block.ftbpc.trigger_block": "Player Trigger",
   "ftbpackcompanion.home": "Home",
   "ftbpackcompanion.key.category": "Pack Companion",
-  "ftbpackcompanion.key.open_action_pad": "Open Action Pad",
-  "ftbpackcompanion.shaders_notice.no_shaders.description": "Shaders have been included in this pack but are disabled by default. Would you like to enable them? Shaders can be performance-intensive, cause issues with certain mods, and may not be compatible with your hardware.",
-  "ftbpackcompanion.shaders_notice.no_shaders.title": "No shaders",
-  "ftbpackcompanion.shaders_notice.shaders.description": "If you'd like shaders, you can enable them here to experience the pack with a vibrant look and feel. If you encounter any issues, you can always disable them later in the video settings.",
-  "ftbpackcompanion.shaders_notice.shaders.title": "Shaders",
-  "ftbpackcompanion.shaders_notice.shaders_btn.disable": "Disable shaders",
-  "ftbpackcompanion.shaders_notice.shaders_btn.enable": "Enable shaders",
-  "ftbpackcompanion.shaders_notice.title": "Would you like to use shaders?",
+  "ftbpackcompanion.key.open_action_pad": "打开操作板",
+  "ftbpackcompanion.shaders_notice.no_shaders.description": "此整合包中装载了光影，但默认情况下是禁用的。你想启用光影吗？光影可能会占用大量性能，导致某些模组出现问题，且可能与你的硬件不兼容。",
+  "ftbpackcompanion.shaders_notice.no_shaders.title": "无光影",
+  "ftbpackcompanion.shaders_notice.shaders.description": "如果想要光影，你可以在这里启用它，体验更加生动美丽的游戏画面。如果遇到了任何问题，可以稍后在视频设置中将其禁用。",
+  "ftbpackcompanion.shaders_notice.shaders.title": "光影",
+  "ftbpackcompanion.shaders_notice.shaders_btn.disable": "禁用光影",
+  "ftbpackcompanion.shaders_notice.shaders_btn.enable": "启用光影",
+  "ftbpackcompanion.shaders_notice.title": "你想要使用光影吗？",
   "ftbpackcompanion.spawn": "Spawn",
-  "item.ftbpc.action_pad": "Action Pad"
+  "item.ftbpc.action_pad": "操作板"
 }

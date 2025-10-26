@@ -436,7 +436,7 @@
 					item: {
 						components: {
 							"ftbfiltersystem:filter": "or(item(ars_nouveau:blue_archwood_sapling)item(ars_nouveau:red_archwood_sapling)item(ars_nouveau:purple_archwood_sapling)item(ars_nouveau:green_archwood_sapling))"
-							"minecraft:custom_name": "\"至高木树苗\""
+							"minecraft:custom_name": "“至高木树苗”"
 						}
 						count: 1
 						id: "ftbfiltersystem:smart_filter"
