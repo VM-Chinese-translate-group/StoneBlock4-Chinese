@@ -61,11 +61,11 @@
 			passive: 0
 		}
 		glow: 1b
-		item_name: "Random Lesser Exploration Relic"
+		item_name: "ftb.shop.title.loot_crate.explore_relic.lesser"
 		string_id: "random_lesser_exploration_relic"
 	}
 	loot_size: 1
-	order_index: 20
+	order_index: 19
 	rewards: [
 		{ id: "110522CF8687B498", item: { components: { "relics:data": { abilities: { abilities: { heat_resistance: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { } }, pace: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { time: { initialValue: 20.0d } } } } }, leveling: { experience: 0, level: 10, luck: 0, points: 0 } } }, count: 1, id: "relics:magma_walker" } }
 		{ id: "5BB1FD8FE2B1DA13", item: { components: { "relics:data": { abilities: { abilities: { teleport: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { cooldown: { initialValue: 120.0d }, distance: { initialValue: 500.0d } } } } }, leveling: { experience: 0, level: 10, luck: 0, points: 0 } } }, count: 1, id: "relics:magic_mirror" } }

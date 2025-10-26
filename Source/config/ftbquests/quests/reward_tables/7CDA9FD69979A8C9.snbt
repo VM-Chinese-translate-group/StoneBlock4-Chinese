@@ -11,11 +11,11 @@
 			passive: 0
 		}
 		glow: 1b
-		item_name: "Random Apotheosis Tome"
+		item_name: "ftb.shop.title.loot_crate.apoth_tomes"
 		string_id: "random_apotheosis_tome"
 	}
 	loot_size: 1
-	order_index: 7
+	order_index: 6
 	rewards: [
 		{
 			id: "45D4FC4E573FB3E2"

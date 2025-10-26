@@ -14,7 +14,7 @@
 			passive: 0
 		}
 		glow: 1b
-		item_name: "Random Data Model"
+		item_name: "ftb.shop.title.loot_crate.data_model"
 		string_id: "random_data_model"
 	}
 	loot_size: 1

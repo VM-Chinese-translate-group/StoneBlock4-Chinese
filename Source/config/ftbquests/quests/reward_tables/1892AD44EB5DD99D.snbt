@@ -11,11 +11,11 @@
 			passive: 0
 		}
 		glow: 1b
-		item_name: "Random Chaotic Draconic Gear"
+		item_name: "ftb.shop.title.loot_crate.chaotic_draconic"
 		string_id: "random_chaotic_draconic_gear"
 	}
 	loot_size: 1
-	order_index: 12
+	order_index: 11
 	rewards: [
 		{
 			command: "/give @s draconicevolution:chaotic_sword"

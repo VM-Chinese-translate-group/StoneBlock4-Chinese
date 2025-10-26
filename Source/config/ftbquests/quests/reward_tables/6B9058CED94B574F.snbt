@@ -4,7 +4,7 @@
 	}
 	id: "6B9058CED94B574F"
 	loot_size: 1
-	order_index: 23
+	order_index: 22
 	rewards: [
 		{
 			count: 8
@@ -133,14 +133,6 @@
 		{ id: "091576107A2F6592", item: { count: 1, id: "justdirethings:creaturecatcher" } }
 		{ id: "30BBFC9FACD65F21", item: { count: 1, id: "fluxnetworks:flux_controller" } }
 		{ id: "118FF12F35CB0DDC", item: { count: 1, id: "megacells:bulk_cell_component" } }
-		{
-			count: 12
-			id: "52C6153171627086"
-			item: {
-				count: 1
-				id: "create:railway_casing"
-			}
-		}
 	]
 	use_title: true
 }

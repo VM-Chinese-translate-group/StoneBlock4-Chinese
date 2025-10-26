@@ -1,7 +1,7 @@
 {
 	id: "6B1481D18D7F1F24"
 	loot_size: 1
-	order_index: 25
+	order_index: 24
 	rewards: [
 		{
 			auto: "no_toast"

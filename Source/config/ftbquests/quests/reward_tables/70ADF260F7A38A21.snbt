@@ -4,7 +4,7 @@
 	}
 	id: "70ADF260F7A38A21"
 	loot_size: 1
-	order_index: 24
+	order_index: 23
 	rewards: [
 		{ id: "28986BD450FDED92", item: { count: 1, id: "industrialforegoing:mycelial_reactor" } }
 		{ id: "307F4BD8097A1570", item: { count: 1, id: "industrialforegoing:mycelial_furnace" } }

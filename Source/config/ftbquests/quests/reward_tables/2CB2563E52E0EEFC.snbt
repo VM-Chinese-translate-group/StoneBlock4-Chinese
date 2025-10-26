@@ -71,11 +71,11 @@
 			passive: 0
 		}
 		glow: 1b
-		item_name: "Random Greater Combat Relic"
+		item_name: "ftb.shop.title.loot_crate.combat_relic.greater"
 		string_id: "random_greater_combat_relic"
 	}
 	loot_size: 1
-	order_index: 19
+	order_index: 18
 	rewards: [
 		{ id: "61B60B4FBF78D8AA", item: { components: { "relics:data": { abilities: { abilities: { infectious_bloom: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { chance: { initialValue: 0.1d }, damage: { initialValue: 0.75d }, drops: { initialValue: 2.0d }, max_attacks: { initialValue: 1.0d } } }, rage_consumption: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { amount_restored: { initialValue: 50.0d }, multiplier: { initialValue: 0.4d } } } } }, leveling: { experience: 0, level: 10, luck: 0, points: 0 } } }, count: 1, id: "reliquified_twilight_forest:parasite_116" } }
 		{ id: "0ADC34807E01DE72", item: { components: { "relics:data": { abilities: { abilities: { stasis: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { cooldown: { initialValue: 30.0d }, duration: { initialValue: 5.0d }, levitation: { initialValue: 2.0d } } } } }, leveling: { experience: 0, level: 10, luck: 0, points: 0 } } }, count: 1, id: "reliquified_ars_nouveau:quantum_bubble" } }

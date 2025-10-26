@@ -11,11 +11,11 @@
 			passive: 0
 		}
 		glow: 1b
-		item_name: "Random Chest Addon"
+		item_name: "ftb.shop.title.loot_crate.soph_addon"
 		string_id: "random_chest_addon"
 	}
 	loot_size: 1
-	order_index: 15
+	order_index: 14
 	rewards: [
 		{ id: "34677B1361405A8E", item: { count: 1, id: "sophisticatedstorage:pickup_upgrade" } }
 		{ id: "2E763582FE41EC25", item: { count: 1, id: "sophisticatedstorage:filter_upgrade" } }

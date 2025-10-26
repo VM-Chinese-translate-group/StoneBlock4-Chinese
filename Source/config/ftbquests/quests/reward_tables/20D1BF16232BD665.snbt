@@ -11,11 +11,11 @@
 			passive: 0
 		}
 		glow: 1b
-		item_name: "Random RF Source"
+		item_name: "ftb.shop.title.loot_crate.rf_source"
 		string_id: "random_rf_source"
 	}
 	loot_size: 1
-	order_index: 6
+	order_index: 5
 	rewards: [
 		{
 			count: 36

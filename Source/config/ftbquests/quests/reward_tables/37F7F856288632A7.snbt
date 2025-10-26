@@ -301,11 +301,11 @@
 			passive: 0
 		}
 		glow: 1b
-		item_name: "Random Supreme Combat Relic"
+		item_name: "ftb.shop.title.loot_crate.combat_relic.supreme"
 		string_id: "random_supreme_combat_relic"
 	}
 	loot_size: 1
-	order_index: 22
+	order_index: 21
 	rewards: [
 		{ id: "58236AD3AAC13DA8", item: { components: { "relics:data": { abilities: { abilities: { pyroclastic: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { chance: { initialValue: 0.1d }, count: { initialValue: 2.0d } } }, resistance: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { } } } }, leveling: { experience: 0, level: 10, luck: 0, points: 0 } } }, count: 1, id: "reliquified_ars_nouveau:flaming_bracer" } }
 		{ id: "7BF5B787C95A24BB", item: { components: { "relics:data": { abilities: { abilities: { oversized_grip: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { multiplier: { initialValue: 0.05d } } } } }, leveling: { experience: 0, level: 10, luck: 0, points: 0 } } }, count: 1, id: "reliquified_twilight_forest:giant_glove" } }

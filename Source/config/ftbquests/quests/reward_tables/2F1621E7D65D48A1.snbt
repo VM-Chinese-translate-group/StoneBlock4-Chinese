@@ -11,7 +11,7 @@
 			passive: 0
 		}
 		glow: 1b
-		item_name: "Random Basic Vanilla Resource"
+		item_name: "ftb.shop.title.loot_crate.basic_resource"
 		string_id: "random_resource"
 	}
 	loot_size: 1

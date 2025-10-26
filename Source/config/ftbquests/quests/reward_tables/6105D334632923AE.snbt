@@ -1,7 +1,7 @@
 {
 	id: "6105D334632923AE"
 	loot_size: 1
-	order_index: 30
+	order_index: 29
 	rewards: [
 		{
 			auto: "no_toast"

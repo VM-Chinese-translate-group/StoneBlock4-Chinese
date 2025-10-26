@@ -11,11 +11,11 @@
 			passive: 0
 		}
 		glow: 1b
-		item_name: "Random Awakened Draconic Gear"
+		item_name: "ftb.shop.title.loot_crate.awakened_draconic"
 		string_id: "random_awakened_draconic_gear"
 	}
 	loot_size: 1
-	order_index: 17
+	order_index: 16
 	rewards: [
 		{
 			id: "3C0CD90D5646E7B6"

@@ -15,7 +15,7 @@
 			passive: 0
 		}
 		glow: 1b
-		item_name: "Random Food"
+		item_name: "ftb.shop.title.loot_crate.grandma_treat"
 		string_id: "random_food"
 	}
 	loot_size: 1
