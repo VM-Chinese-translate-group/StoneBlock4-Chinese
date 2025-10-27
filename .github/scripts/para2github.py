@@ -47,7 +47,7 @@ def translate(file_id: int) -> tuple[list[str], list[str]]:
         original = item.get("original", "")
         # 优先使用翻译内容，缺失时根据 stage 使用原文
         values.append(
-            original if item["stage"] in [0, -1, 2] or not translation else translation
+            original if item["stage"] in [0, -1] or not translation else translation
         )
 
     return keys, values
