@@ -493,7 +493,7 @@
 				{
 					auto: "enabled"
 					command: "/ftbunearthed setlevel @s 5"
-					feedback_message: "你的挖掘技能已达到最高等级"
+					feedback_message: "你的发掘技能已达到最高等级"
 					icon: {
 						components: {
 							"ftbquests:icon": "relics:textures/gui/description/ability/upgrade_button_active_quick.png"

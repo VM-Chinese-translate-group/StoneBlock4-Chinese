@@ -1900,7 +1900,7 @@
 			min_width: 300
 			optional: true
 			rewards: [{
-				amount: 2
+				amount: 1
 				id: "0E595445A35797BB"
 				type: "currency"
 			}]

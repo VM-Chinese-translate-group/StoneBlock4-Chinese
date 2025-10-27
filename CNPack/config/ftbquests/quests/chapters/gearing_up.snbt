@@ -662,7 +662,7 @@
 					item: {
 						components: {
 							"ftbfiltersystem:filter": "or(item(apothic_enchanting:extraction_tome)item(apothic_enchanting:improved_scrap_tome)item(apothic_enchanting:scrap_tome))"
-							"minecraft:custom_name": "“提取宝典”"
+							"minecraft:custom_name": "\"提取宝典\""
 						}
 						count: 1
 						id: "ftbfiltersystem:smart_filter"
@@ -674,7 +674,7 @@
 					item: {
 						components: {
 							"ftbfiltersystem:filter": "or(item(apothic_enchanting:helmet_tome)item(apothic_enchanting:chestplate_tome)item(apothic_enchanting:leggings_tome)item(apothic_enchanting:boots_tome)item(apothic_enchanting:weapon_tome)item(apothic_enchanting:bow_tome)item(apothic_enchanting:pickaxe_tome)item(apothic_enchanting:fishing_tome)item(apothic_enchanting:other_tome))"
-							"minecraft:custom_name": "“附魔宝典”"
+							"minecraft:custom_name": "\"附魔宝典\""
 						}
 						count: 1
 						id: "ftbfiltersystem:smart_filter"
@@ -1415,7 +1415,7 @@
 					item: {
 						components: {
 							"ftbfiltersystem:filter": "or(item(cookingforblockheads:ice_unit)item(cookingforblockheads:heating_unit)item(cookingforblockheads:preservation_chamber))"
-							"minecraft:custom_name": "“厨房附件”"
+							"minecraft:custom_name": "\"厨房附件\""
 						}
 						count: 1
 						id: "ftbfiltersystem:smart_filter"
@@ -1525,7 +1525,7 @@
 				item: {
 					components: {
 						"ftbfiltersystem:filter": "or(item(cookingforblockheads:tool_rack)item(cookingforblockheads:spice_rack)item(cookingforblockheads:fruit_basket))"
-						"minecraft:custom_name": "“厨房附件”"
+						"minecraft:custom_name": "\"厨房附件\""
 					}
 					count: 1
 					id: "ftbfiltersystem:smart_filter"
@@ -1585,7 +1585,7 @@
 					item: {
 						components: {
 							"ftbfiltersystem:filter": "or(item(immersiveengineering:toolupgrade_railgun_scope)item(immersiveengineering:toolupgrade_revolver_bayonet)item(immersiveengineering:toolupgrade_revolver_magazine)item(immersiveengineering:toolupgrade_revolver_electro))"
-							"minecraft:custom_name": "“左轮手枪配件”"
+							"minecraft:custom_name": "\"左轮手枪配件\""
 						}
 						count: 1
 						id: "ftbfiltersystem:smart_filter"
@@ -2406,7 +2406,7 @@
 				item: {
 					components: {
 						"ftbfiltersystem:filter": "or(item(irons_jewelry:recipe)item(irons_jewelry:recipe)item(irons_jewelry:recipe)item(irons_jewelry:recipe)item(irons_jewelry:recipe)item(irons_jewelry:recipe)item(irons_jewelry:recipe)item(irons_jewelry:recipe)item(irons_jewelry:recipe)item(irons_jewelry:recipe)item(irons_jewelry:recipe)item(irons_jewelry:recipe))"
-						"minecraft:custom_name": "“工匠卷轴”"
+						"minecraft:custom_name": "\"工匠卷轴\""
 					}
 					count: 1
 					id: "ftbfiltersystem:smart_filter"
@@ -2540,7 +2540,7 @@
 					item: {
 						components: {
 							"ftbfiltersystem:filter": "or(item(oritech:simple_augment_station)item(oritech:advanced_augment_station)item(oritech:arcane_augment_station))"
-							"minecraft:custom_name": "“研究站”"
+							"minecraft:custom_name": "\"研究站\""
 						}
 						count: 1
 						id: "ftbfiltersystem:smart_filter"

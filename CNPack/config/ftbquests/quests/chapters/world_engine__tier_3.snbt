@@ -1091,11 +1091,19 @@
 				id: "cataclysm:ignitium_ingot"
 			}
 			id: "38124EBC1E14AB38"
-			rewards: [{
-				amount: 35
-				id: "258CFE11EB6B1178"
-				type: "currency"
-			}]
+			rewards: [
+				{
+					amount: 35
+					id: "258CFE11EB6B1178"
+					type: "currency"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4B7879F5FDEF8E54"
+					table_id: 7750792604136724303L
+					type: "loot"
+				}
+			]
 			shape: "square"
 			tasks: [
 				{

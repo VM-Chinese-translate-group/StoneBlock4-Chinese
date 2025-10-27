@@ -1,6 +1,6 @@
 {
-  "block.ftbpc.trigger_block": "Player Trigger",
-  "ftbpackcompanion.home": "Home",
+  "block.ftbpc.trigger_block": "玩家触发方块",
+  "ftbpackcompanion.home": "基地",
   "ftbpackcompanion.key.category": "Pack Companion",
   "ftbpackcompanion.key.open_action_pad": "打开操作板",
   "ftbpackcompanion.shaders_notice.no_shaders.description": "此整合包中已包含光影，但默认情况下是禁用的。你想启用光影吗？光影可能会占用大量性能，或导致某些模组出现问题，且可能与你的硬件不兼容。",
@@ -10,6 +10,6 @@
   "ftbpackcompanion.shaders_notice.shaders_btn.disable": "禁用光影",
   "ftbpackcompanion.shaders_notice.shaders_btn.enable": "启用光影",
   "ftbpackcompanion.shaders_notice.title": "你想要使用光影吗？",
-  "ftbpackcompanion.spawn": "Spawn",
+  "ftbpackcompanion.spawn": "出生点",
   "item.ftbpc.action_pad": "操作板"
 }
