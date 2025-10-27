@@ -1,19 +1,19 @@
 ---
 navigation:
-  title: Nitro Ender Cell
+  title: 下界末影单元
   position: 1
   parent: ftb:t3_upgrades.md
   icon: "powah:ender_cell_nitro"
 item_ids:
   - powah:ender_cell_nitro
 ---
-# Nitro Ender Cell Upgrade
+# 下界末影单元升级
 
 <ItemImage id="powah:ender_cell_nitro" scale="3" />
 
-The <Color id="red">Nitro Ender Cell</Color> is a major upgrade that unlocks a lot of great wireless power crafts in the <Color id="gold">World Engine</Color>, including <Color id="light_purple">Flux Networks</Color>!
+<Color id="red">下界末影单元</Color>主要升级，解锁了<Color id="gold">世界引擎</Color>中许多很棒的无线供电相关的合成配方，例如<Color id="light_purple">通量网络</Color>中的部分配方！
 
-## Recipe Unlocks
+## 解锁配方
 
 <ItemGrid>
   <ItemIcon id="fluxnetworks:flux_dust" />

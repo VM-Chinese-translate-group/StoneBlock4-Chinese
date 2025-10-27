@@ -1,21 +1,21 @@
 ---
 navigation:
-  title: Resonant Void
+  title: 共振虚空
   position: 3
   parent: ftb:t4_upgrades.md
   icon: "ftb:resonant_void"
 item_ids:
   - ftb:resonant_void
 ---
-# Resonant Void Upgrade
+# 共振虚空升级
 
 <ItemImage id="ftb:resonant_void" scale="3" />
 
-The <Color id="light_purple">Resonant Void</Color> is a major upgrade that unlocks a few OP items in the <Color id="gold">World Engine</Color>.
+<Color id="light_purple">共振虚空</Color>主要升级，该升级解锁了<Color id="gold">世界引擎</Color>中的一些OP物品的合成配方。
 
-This upgrade will also need the <Color id="red">Advanced Machine Block</Color> upgrade for its recipe unlocks.
+该升级需要<Color id="red">高级机器方块</Color>升级来解锁其合成配方。
 
-## Recipe Unlocks
+## 解锁配方
 
 <ItemGrid>
   <ItemIcon id="justdirethings:time_crystal" />

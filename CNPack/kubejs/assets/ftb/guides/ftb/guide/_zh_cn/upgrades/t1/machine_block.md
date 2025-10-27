@@ -1,21 +1,21 @@
 ---
 navigation:
-  title: Machine Block
+  title: 机器方块
   position: 1
   parent: ftb:t1_upgrades.md
   icon: "ftb:world_engine_machine_block"
 item_ids:
   - ftb:world_engine_machine_block
 ---
-# Basic Machine Block Upgrade
+# 基础机器方块升级
 
 <ItemImage id="ftb:world_engine_machine_block" scale="3" />
 
-The <Color id="green">World Engine Machine Block</Color> upgrade is the first major upgrade to the <Color id="gold">World Engine</Color>.
+<Color id="green">世界引擎机器方块</Color>升级是<Color id="gold">世界引擎</Color>的第一个主要升级。
 
-This upgrade unlocks a lot of the basic machinery you will need as you progress in the pack, including the start of <Color id="gold">AE2</Color>.
+该升级会解锁你推进整合包进度所需的大部分基础机器，例如<Color id="gold">应用能源 2</Color>相关的入门机器。
 
-## Recipe Unlocks
+## 解锁配方
 
 <ItemGrid>
   <ItemIcon id="pipez:item_pipe" />

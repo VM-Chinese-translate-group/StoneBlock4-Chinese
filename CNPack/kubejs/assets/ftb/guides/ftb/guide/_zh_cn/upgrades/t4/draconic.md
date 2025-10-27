@@ -1,23 +1,23 @@
 ---
 navigation:
-  title: Draconic
+  title: 神龙
   position: 1
   parent: ftb:t4_upgrades.md
   icon: "draconicevolution:energy_core_stabilizer"
 item_ids:
   - draconicevolution:energy_core_stabilizer
 ---
-# Resonant Void Upgrade
+# 神龙升级
 
 <ItemImage id="draconicevolution:energy_core_stabilizer" scale="3" />
 
-The <Color id="light_purple">Draconic Upgrade</Color> is a major upgrade that unlocks more advanced items like <Color id="gold">Awakened Draconium</Color> from <Color id="gold">World Engine</Color> crafts.
+<Color id="light_purple">神龙升级</Color>主要升级，该升级解锁了<Color id="gold">世界引擎</Color>中更为尖端的合成配方，例如<Color id="gold">觉醒龙锭</Color>。
 
-It is also required to craft the <Color id="light_purple">Resonant Void</Color> upgrade.
+它是合成<Color id="light_purple">共振虚空</Color>升级所必需的。
 
-This upgrade will need the <Color id="red">Advanced Machine Block</Color> upgrade for its recipe unlocks.
+该升级需要<Color id="red">高级机器方块</Color>升级来解锁其合成配方。
 
-## Recipe Unlocks
+## 解锁配方
 
 <ItemGrid>
   <ItemIcon id="apotheosis:mythic_material" />

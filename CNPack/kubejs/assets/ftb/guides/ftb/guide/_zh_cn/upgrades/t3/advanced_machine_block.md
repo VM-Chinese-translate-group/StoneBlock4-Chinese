@@ -1,23 +1,23 @@
 ---
 navigation:
-  title: Advanced Machine Block
+  title: 高级机器方块
   position: 3
   parent: ftb:t3_upgrades.md
   icon: "ftb:world_engine_advanced_machine_block"
 item_ids:
   - ftb:world_engine_advanced_machine_block
 ---
-# Advanced Machine Block Upgrade
+# 高级机器方块升级
 
 <ItemImage id="ftb:world_engine_advanced_machine_block" scale="3" />
 
-The <Color id="red">Advanced Machine Block</Color> is a major upgrade that is needed for a lot of advanced <Color id="gold">World Engine</Color> crafts.
+<Color id="red">高级机器方块</Color>主要升级是许多高级<Color id="gold">世界引擎</Color>机器所需的重要升级组件。
 
-There are several other upgrades that also require this major upgrade, and is a requirement for progression in Tier 4.
+有多项其他升级也依赖该主要升级，并且它是推进四阶段的前提。
 
-By itself, this upgrade only unlocks one recipe.
+就其本身而言，该升级只解锁一个配方。
 
-## Recipe Unlocks
+## 解锁配方
 
 <ItemGrid>
   <ItemIcon id="entangled:block" />

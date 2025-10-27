@@ -1,21 +1,21 @@
 ---
 navigation:
-  title: Shadow Casing
+  title: 暗影机壳
   position: 3
   parent: ftb:t1_upgrades.md
   icon: "create:shadow_steel_casing"
 item_ids:
   - create:shadow_steel_casing
 ---
-# Create Shadow Casing Upgrade
+# 机械动力暗影机壳升级
 
 <ItemImage id="create:shadow_steel_casing" scale="3" />
 
-The <Color id="green">Shadow Casing</Color> minor upgrade shows your basic knowledge of <Color id="gold">Create</Color>.
+<Color id="green">暗影机壳</Color>次要升级，表明你对<Color id="gold">机械动力</Color>有了一定的了解.
 
-This upgrade unlocks several advanced <Color id="gold">Create</Color> machines, as well as some helpful <Color id="gold">ProjectE</Color> machines.
+该升级解锁了一些<Color id="gold">机械动力</Color>的高级机器，以及一些比较有用的<Color id="gold">等价交换</Color>机器.
 
-## Recipe Unlocks
+## 解锁配方
 
 <ItemGrid>
   <ItemIcon id="createaddition:electric_motor" />

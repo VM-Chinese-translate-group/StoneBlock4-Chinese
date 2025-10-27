@@ -1,19 +1,19 @@
 ---
 navigation:
-  title: The World Engine
+  title: 世界引擎
   position: 1
   icon: "ftb:world_engine_machine_block"
   item_ids:
   - ftb:world_engine_machine_block
 ---
-# Getting Started
+# 开始
 
-The <Color id="gold">World Engine</Color> is the main crafting machine in <Color id="gold">Stoneblock 4</Color>. As you progress, you will unlock new recipes for the engine by installing <Color id="green">upgrades</Color>.
+<Color id="gold">世界引擎</Color>是<Color id="gold">石头世界 4</Color>中的主要合成机器。你可以通过安装<Color id="green">升级</Color>来解锁引擎的新配方。
 
-The <Color id="gold">World Engine</Color> has a ton of different upgrades!
+<Color id="gold">世界引擎</Color>有海量的不同升级！
 
-<Color id="gold">Major Upgrades</Color> are required for progression, and unlock crucial crafting recipes for your playthrough.
+<Color id="gold">主要升级</Color>是推进流程所必需的，它将为你解锁游戏进程中的关键合成配方。
 
-<Color id="green">Minor Upgrades</Color> aren't required, and allow you to make a choice on which mods of the pack you want to explore.
+<Color id="green">次要升级</Color>不是必需的，你可以自由探索整合包中的哪些模组。
 
 

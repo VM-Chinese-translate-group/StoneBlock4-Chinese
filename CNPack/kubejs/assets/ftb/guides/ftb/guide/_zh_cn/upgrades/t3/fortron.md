@@ -1,19 +1,19 @@
 ---
 navigation:
-  title: Fortron Infused Block
+  title: 力场子灌注块
   position: 5
   parent: ftb:t3_upgrades.md
   icon: "ftb:fortron_infused_block"
 item_ids:
   - ftb:fortron_infused_block
 ---
-# Fortron Infused Block Upgrade
+# 力场子灌注块升级
 
 <ItemImage id="ftb:fortron_infused_block" scale="3" />
 
-The <Color id="aqua">Fortron Infused Block</Color> is a minor upgrade that unlocks several automation machines as <Color id="gold">World Engine</Color> crafts. This includes autocrafting with <Color id="gold">AE2</Color> as well as a few teleporting blocks, like the <Color id="light_purple">Teleporter</Color> from <Color id="gold">Mekanism</Color>.
+<Color id="aqua">力场子灌注块</Color>次要升级，该升级解锁了一些<Color id="gold">世界引擎</Color>里面自动化相关机器的合成配方。例如<Color id="gold">应用能源 2</Color>的自动合成系统相关方块，以及一些传送设备，例如来自<Color id="gold">通用机械</Color>的<Color id="light_purple">传送器</Color>。
 
-## Recipe Unlocks
+## 解锁配方
 
 <ItemGrid>
   <ItemIcon id="justdirethings:portalgun_v2" />

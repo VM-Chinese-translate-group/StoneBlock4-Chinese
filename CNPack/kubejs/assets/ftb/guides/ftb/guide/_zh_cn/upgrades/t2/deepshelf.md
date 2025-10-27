@@ -1,23 +1,23 @@
 ---
 navigation:
-  title: Deepshelf Enchanting
+  title: 深暗附魔
   position: 5
   parent: ftb:t2_upgrades.md
   icon: "apothic_enchanting:echoing_deepshelf"
 item_ids:
   - apothic_enchanting:echoing_deepshelf
 ---
-# Deepshelf Enchanting Upgrade
+# 深暗附魔升级
 
 <ItemImage id="apothic_enchanting:echoing_deepshelf" scale="3" />
 
-The <Color id="green">Heater</Color> minor upgrade allows you to pump in heat into the <Color id="gold">World Engine Controller</Color>.
+<Color id="green">加热器</Color>次要升级允许你将热量导入<Color id="gold">世界引擎控制器</Color>中。
 
-It is suggested to use a <Color id="green">Resistive Heater</Color> so that you can set a specific amount of power to create enough heat for the controller.
+建议使用<Color id="green">电阻型加热器</Color>，这样你可以就通过设置一定的功率来为控制器产生足够的热量了。
 
-Although this is a minor upgrade, this upgrade unlocks the <Color id="gold">Energizing Orb</Color> to continue progressing in <Color id="gold">Powah</Color>
+尽管这是一个次要升级，但该升级解锁了<Color id="gold">充能台</Color>，以便你可以在<Color id="gold">Powah</Color>模组中继续推进。
 
-## Recipe Unlocks
+## 解锁配方
 
 <ItemGrid>
   <ItemIcon id="powah:energizing_orb" />

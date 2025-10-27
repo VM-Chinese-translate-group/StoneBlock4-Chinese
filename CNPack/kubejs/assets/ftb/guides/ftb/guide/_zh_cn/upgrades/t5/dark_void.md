@@ -1,20 +1,20 @@
 ---
 navigation:
-  title: Dark Void
+  title: 黑暗虚空
   position: 2
   parent: ftb:t5_upgrades.md
   icon: "xycraft_machines:void_container"
 item_ids:
   - xycraft_machines:void_container
 ---
-# Dark Void Upgrade
+# 黑暗虚空升级
 
 <ItemImage id="xycraft_machines:void_container" scale="3" />
 
-The <Color id="dark_purple">Dark Void Upgrade</Color> is a major upgrade that unlocks the <Color id="gold">Singularity</Color> crafts in the <Color id="gold">World Engine</Color>.
+<Color id="dark_purple">黑暗虚空</Color>主要升级，该升级解锁了<Color id="gold">世界引擎</Color>中一些<Color id="gold">奇点</Color>的合成配方。
 
 
-## Recipe Unlocks
+## 解锁配方
 
 <ItemGrid>
   <ItemIcon id="mekanism:ultimate_tier_installer" />
