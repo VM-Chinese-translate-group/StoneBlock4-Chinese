@@ -350,7 +350,7 @@
 					item: {
 						components: {
 							"ftbfiltersystem:filter": "or(item(draconicevolution:basic_io_crystal)item(draconicevolution:basic_relay_crystal)item(draconicevolution:basic_wireless_crystal))"
-							"minecraft:custom_name": "\"Basic Energy Transfer\""
+							"minecraft:custom_name": "\"基础能量传输\""
 						}
 						count: 1
 						id: "ftbfiltersystem:smart_filter"
@@ -362,7 +362,7 @@
 					item: {
 						components: {
 							"ftbfiltersystem:filter": "or(item(draconicevolution:wyvern_io_crystal)item(draconicevolution:wyvern_relay_crystal)item(draconicevolution:wyvern_wireless_crystal))"
-							"minecraft:custom_name": "\"Wyvern Energy Transfer\""
+							"minecraft:custom_name": "\"双足飞龙能量传输\""
 						}
 						count: 1
 						id: "ftbfiltersystem:smart_filter"
@@ -375,7 +375,7 @@
 					item: {
 						components: {
 							"ftbfiltersystem:filter": "or(item(draconicevolution:draconic_io_crystal)item(draconicevolution:draconic_relay_crystal)item(draconicevolution:draconic_wireless_crystal))"
-							"minecraft:custom_name": "\"Draconic Energy Transfer\""
+							"minecraft:custom_name": "\"神龙能量传输\""
 						}
 						count: 1
 						id: "ftbfiltersystem:smart_filter"

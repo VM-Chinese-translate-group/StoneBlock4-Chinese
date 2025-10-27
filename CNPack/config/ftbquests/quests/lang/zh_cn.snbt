@@ -37,11 +37,11 @@
 		""
 		"你需要特定生物的灵魂，这意味着你要扮演一名挥舞着&a镰刀&r的死神。"
 		""
-		"当生物被&a镰刀&r杀死时会释放精魂，意味着你需要击杀特定的怪物以获取它们的灵魂。"
+		"生物被&a镰刀&r杀死时会释放精魂，因此，你需要击杀特定的怪物来获取它们的灵魂。"
 		""
 		"&7&o下一页含剧透内容 ->"
 		"{@pagebreak}"
-		"僵尸和骷髅携带着制作任务目标所需的所有种类的灵魂。"
+		"僵尸和骷髅拥有此任务所需的所有种类的灵魂。"
 	]
 	quest.007F4A173D5CA51F.title: "&f收集灵魂"
 	quest.0089BFB911BD5E5B.quest_desc: [
@@ -369,7 +369,7 @@
 	quest.066342488E03F3B5.quest_desc: [
 		"&b钻石&r能够制作绝佳的工具，但这些工具往往质地易碎，容易损坏。"
 		""
-		"使用&a原子再构机&r，你可以加强它们的属性。"
+		"使用&a原子再构机&r可以加强其属性。"
 		""
 		"&a原子再构机&r需要一种特殊材料来制作。&2地质学家&r知道哪里能找到这种水晶。"
 	]
@@ -477,9 +477,9 @@
 		""
 		"那下面肯定没什么坏东西。悄悄溜进去，找几个&d回响碎片&r。"
 		""
-		"在获得这种碎片后，你应该去见见&d附魔师的回响&r。"
+		"获得这种碎片后，去见见&d附魔师的回响&r吧。"
 		""
-		"&e注意&r：&d附魔师&r提到，在完成&d寻路者&r的任务后，你可以在他的商店里找到一些回响碎片。"
+		"&e注意&r：&d附魔师&r提到，在完成&d寻路者&r的一些任务后，你也可以在他的商店里找到一些回响碎片。"
 	]
 	quest.0A3C1CD48C85E17D.title: "&f古城行窃"
 	quest.0A6E103A6945D11E.quest_desc: [
@@ -583,9 +583,9 @@
 	]
 	quest.0B65713A23351790.title: "&d双足飞龙&f武器"
 	quest.0B69B9E1209A9234.quest_desc: [
-		"虽然你的主要目标是用&c高级机械方块&r升级&b世界引擎&r，但你需要先升级它的供能系统。"
+		"虽然你的主要目标是用&c高级机器方块&r升级&b世界引擎&r，但在此之前，你需要先升级它的能量系统。"
 		""
-		"为其安装一个&c末影单元（下界）&r就能让它处理更复杂的配方了，比如制造与&e末地&r力量相关的物品。"
+		"为其安装一个&c末影单元（下界）&r，这样它就能处理与&e末地&r力量相关的更复杂的合成配方了。"
 		""
 		"当然，这至少需要一颗&d下界之星&r。"
 		""
@@ -645,7 +645,7 @@
 		"{image:curios:textures/gui/curios/button_small.png width:25 height:25 align:center}"
 		""
 		""
-		"You can look up a specific slot item in JEI by typing in 'Slot: ' before the slot name, for example: &aSlot: Head&r or &aSlot: Feet&r."
+		"你可以在JEI中搜索特定栏位的饰品，只需在栏位名字前输入“栏位: ”即可。例如： &a栏位: Head&r、&a栏位: Feet&r。"
 	]
 	quest.0CA6DA721A97542F.title: "&e饰品&r"
 	quest.0CA75E81F6824B22.quest_desc: [
@@ -749,17 +749,17 @@
 	quest.0E7AD6BCF9F8605F.quest_desc: [
 		"现在&6世界引擎&r已经能处理一些&d末影&r相关的配方了，你需要在不前往&e末地&r的情况下，获得一颗&d龙蛋&r。"
 		""
-		"在&e末地&r环中，你能找到一座非常特别的&3宝库&r，其中的战斗非常难缠，但也许能找到龙蛋。"
+		"在&e末地&r环中，你能找到一座非常特别的&3宝库&r，其中的战斗非常难缠，但那里也许能找到龙蛋。"
 		""
 		"你需要制作&d威猛末影鸡蛋&r，然后在环的中央使用它，即可召唤boss。"
 		""
 		"&7&o在距离宝库256格范围内潜行右击指南针，即可瞬间传送至宝库入口！&r"
 		"{@pagebreak}"
-		"在你拿到龙蛋后，&6世界引擎&r就能将其精髓提取成方块形态。"
+		"拿到龙蛋后，你可以用&6世界引擎&r将其精髓提取成方块形态。"
 		""
 		"再次回到&d精械师的回响&r处，他会教你如何升级你的&6世界引擎&r。"
 		""
-		"[\"\", {\"text\": \"注意\", \"color\": \"yellow\"}, \": 做一个\", {\"text\": \"提取机\", \"color\": \"green\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0EBA58B7FD2AF36D\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"前往提取机任务\"} }, \"以了解更多\", \"来量产\"{\"text\": \"龙蛋\", \"color\": \"light_purple\"}, \"还是很值得的，你也可以通过反复击杀boss获取。\" ]"
+		"[\"\", {\"text\": \"注意\", \"color\": \"yellow\"}, \"：做一个\", {\"text\": \"提取机\", \"color\": \"green\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0EBA58B7FD2AF36D\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"前往提取机任务\"} }, \"来量产\", {\"text\": \"龙蛋\", \"color\": \"light_purple\"}, \"还是很值得的。当然如果你愿意的话，也可以反复击杀boss来获取。\" ]"
 	]
 	quest.0E7AD6BCF9F8605F.quest_subtitle: "主要世界引擎升级"
 	quest.0E7AD6BCF9F8605F.title: "&f唾手可得"
@@ -804,14 +804,14 @@
 	quest.0F3EDB9AE592016B.title: "&f机器容量插件"
 	quest.0F48353EDD296510.quest_desc: ["当你制作出&d共振虚空&r后，与&d飞龙匠人&r交谈。他会教你如何安装这个&3世界引擎升级&r。"]
 	quest.0F7CB818AC0A9187.quest_desc: [
-		"You gain access to &zTiny Chaos Fragments&r after facing off against the &zMighty Ender Chicken&r."
+		"在与&z威猛末影鸡&r战斗后，你便能用某种方法获取&z微小混沌碎片&r。"
 		""
-		"You will need to use a &aFluid Laser&r to extract &zMolten Chaos&r, which can be turned into &6Tiny Chaos Fragments&r."
+		"你需要使用&a流体镭射钻&r来提取&z熔融混沌&r，这样就能制作出&6微小混沌碎片&r了。"
 		""
-		"[\"You can learn more about how to do this in the \", {\"text\": \"Bringing Home The Chicken quest\", \"color\": \"light_purple\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"4D7C7DE95E56C7B3\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Go to Quest\"}}, \" in the T5 chapter.\"]"
+		"[\"你可以查阅阶段5章节的 \", {\"text\": \"把鸡带回家\", \"color\": \"light_purple\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"4D7C7DE95E56C7B3\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Go to Quest\"}}, \"任务，了解更多相关信息。\"]"
 	]
-	quest.0F7CB818AC0A9187.title: "&zChaos Fragments"
-	quest.0FD446B7912E00CB.quest_desc: ["是时候将所有零件组装在一起，制作&c高级机械方块&r了。"]
+	quest.0F7CB818AC0A9187.title: "&z混沌碎片"
+	quest.0FD446B7912E00CB.quest_desc: ["是时候将所有零件组装在一起，制作&c高级机器方块&r了。"]
 	quest.0FD446B7912E00CB.quest_subtitle: "主要世界引擎升级"
 	quest.0FD446B7912E00CB.title: "&f高级机器升级"
 	quest.0FF5D73B3256F400.quest_desc: [
@@ -857,9 +857,9 @@
 	]
 	quest.11A35E8F97ACA240.title: "&6神龙&f工具"
 	quest.11BB3C62703E0B3E.quest_desc: [
-		"直接将这些精魂囚禁在方块中可能并非最人道的做法，但是&6世界引擎&r可以利用它的力量制作更强大的东西。"
+		"直接将这些精魂囚禁在方块中可能不太人道，但是&6世界引擎&r可以利用它们的力量制作更强大的东西。"
 		""
-		"带着它回到&d炼狱使者&r处，学习如何安装&3精魂方块升级&r。"
+		"带着这些东西回到&d炼狱使者&r处，学习如何安装&3精魂方块升级&r。"
 	]
 	quest.11C58E38DE9488BE.quest_desc: [
 		"来自&b刷怪塔实用设备&r的&a怪物捣碎机&r在被给予红石信号后，可以用于刷怪塔的杀戮处理流程。"
@@ -881,11 +881,11 @@
 		""
 		"这种水晶只能通过将能量直接射入&d紫水晶&r来制造。为此，你需要制作一个&c末影激光器&r和一个&b目标标识器&r。"
 		"{@pagebreak}"
-		"制作出&c末影激光器&r后，确保将它放置在能生长水晶的&d紫水晶母岩&r附近。"
+		"制作出&c末影激光器&r后，请将它放置在能生长水晶的&d紫水晶母岩&r附近。"
 		""
-		"使用&b目标标识器&r潜行右击&d紫水晶&r，就可以把它的坐标储存在标识器中。储存完成后，对着&c末影激光器&r潜行右击即可完成配置激光目标的操作。"
+		"使用&b目标标识器&r潜行右击&d紫水晶&r，就可以把它的坐标储存在标识器中。储存完成后，再潜行右击&c末影激光器&r即可完成配置激光目标的操作。"
 		""
-		"如果操作正确，激光就会发射出去，将水晶转化为&d辐水晶&r。"
+		"如果操作正确，激光就会发射，将紫水晶转化为&d辐水晶&r。"
 		""
 		"用这个来制作&d磁通门&r。"
 	]
@@ -1132,13 +1132,13 @@
 		"虽然这些很容易制作出来，但是当一只战利品蜜蜂撞到你后也可能获得一个。"
 	]
 	quest.18A36EA79A9355C4.quest_desc: [
-		"To upgrade to the &dWyvern Fusion Injectors&r, you will need at least 8 &dDraconium Injectors&r placed around the Core."
+		"要升级&d飞龙聚合注入器&r，你需要在核心附近放置至少8个&d聚合注入器&r。"
 		""
-		"You can right-click each item the injectos need to craft the upgrade. Each injector will also need power."
+		"你可以手持所需物品右击注入器，来制作此升级。每个注入器都需要能量。"
 		""
-		"With all items placed in the injectors, you can place the main item in the &aCore&r, and the craft should start once it has a redstone signal."
+		"将物品全部放置到注入器上后，你就可以把主要物品放入&a核心&r，并用红石信号启动合成。"
 	]
-	quest.18A36EA79A9355C4.title: "&dWyvern &fInfusion"
+	quest.18A36EA79A9355C4.title: "&d双足飞龙&f注入装置"
 	quest.18AF36E1C2375101.quest_desc: ["利用&7深板岩&r的潜在魔力，你可以制作一种书架，这能用来提高附魔台的上限。"]
 	quest.18AF36E1C2375101.quest_subtitle: "次要世界引擎升级"
 	quest.18AF36E1C2375101.title: "&f深暗魔法"
@@ -1166,7 +1166,7 @@
 	quest.19C9BB7952E89BA7.quest_desc: ["你已经将一个&z黑洞&r塞入容器中了，回到&6辐光&r身边，学习如何安装此升级。"]
 	quest.19C9BB7952E89BA7.title: "&f与&6辐光&f交谈"
 	quest.1A2D8034C07D988B.quest_desc: [
-		"&6Psi是&f一个为&2Minecraft&r带来有趣想法的模组——如果可以的话，&d编写魔法咒语&r并注入到&c子弹&r中会怎样？"
+		"&6Psi模组&f为&2Minecraft&r带来了一个有趣的想法——如果可以的话，&d编写魔法咒语&r并注入到&c子弹&r中会怎样？"
 		""
 		"- 只需制作一个&6CAD装配器&r和一个任意类型的&6基础CAD设备&r，就可以开始你的科技魔法之旅。&bCAD&r指的是&b“&o术式辅助演算机（Casting Assistant Device）&r”&r。"
 		""
@@ -1300,13 +1300,13 @@
 	quest.1CFD4CE2704F2ADE.title: "&a制作&r&d法术&r"
 	quest.1D52FC5D0EAD911B.title: "Guidance Check 2"
 	quest.1D87C5E9D52341C4.quest_desc: [
-		"To craft more advanced items in &eDraconic Evolution&r, you will need a special crafting setup called &dFusion Crafting&r."
+		"要制作&e龙之进化&r更高级的物品，你需要一种被称作&d聚合注入&r的特殊合成装置。"
 		""
-		"The &dFusion Crafting Core&r must be the middle of the setup, with &dDraconium Fusion Crafting Ejectors&r placed facing towards the Core 2 blocks apart."
+		"&d聚合核心&r必须位于装置中央，并在间隔2个方块处，面向核心放置&d聚合注入器&r。"
 		""
-		"The Core will also need a redstone signal to start."
+		"你需要用红石信号启动核心。"
 	]
-	quest.1D87C5E9D52341C4.title: "Fusion Crafting"
+	quest.1D87C5E9D52341C4.title: "聚合注入"
 	quest.1D8B2D2B03DF3256.quest_desc: ["据&d飞龙匠人&r所说，制作出这件物品后，她就能将龙族本质注入到一个&a时间量子电池&r中，你可以用它传送到她弟弟最后的已知点位，无论在哪。"]
 	quest.1D8B2D2B03DF3256.title: "&f找到&6飞升回响"
 	quest.1DA78BAB2A6E2C82.quest_desc: [
@@ -1362,19 +1362,19 @@
 	]
 	quest.1E6014F4B7CBE373.title: "&d三阶&fCAD电池"
 	quest.1E6E38DC6183463A.quest_desc: [
-		"The &eDE&r energy core is a tiered energy storage solution capable of storing a near-infinite quantity of power when fully upgraded."
+		"&e龙之进化&r的能量核心是一种分阶能量储存装置，升至满阶后，就能存储近乎无限的能量。"
 		""
-		"Its core components are the &aEnergy Core&r and the &2Energy Core Stabilizers&r, which can be placed in any direction up to 8 blocks away from the core."
+		"其核心部件是&a能量核心&r和&2能量核心稳定器&r，稳定器可以放置在核心的任意方位，至多距离8格方块。"
 		""
-		"To insert or extract power from the Core, you'll need to place down an &bEnergy Pylon&r within 10 blocks of the core, then place a glass block under or above it."
+		"若要实现核心内能量的输入输出，你需要在核心10格范围内放置一台&b能量塔&r，并在其上方或下方放置一块玻璃。"
 		"{@pagebreak}"
-		"To upgrade the core you'll need to surround the &aEnergy Core&r with more &dDraconium Blocks&r per tier. At tier 8, you'll also need to surround it with &6Awakened Draconium Blocks&r."
+		"若要升级核心，你需要在&a能量核心&r周围放置更多&d龙块&r以逐阶提升。升至8阶时，还需要在其周围放置&6觉醒龙块&r。"
 		""
-		"The energy core has a build guide within its interface when you interact with it that can automatically place the blocks in their position from your inventory."
+		"能量核心的界面中内置了搭建指导功能，与其交互便能自动将你物品栏中的方块放置到相应位置。"
 		""
-		"At tier 8, you will also need to upgrade your &2Stabilizers&r into a ring, requiring a total of 36 blocks (9 per ring)."
+		"升至8阶时，你还需要把&2稳定器&r升级为环型结构，共需要36个（每个环9个）。"
 	]
-	quest.1E6E38DC6183463A.title: "&eDE &fEnergy Core"
+	quest.1E6E38DC6183463A.title: "&e龙之进化&f能量核心"
 	quest.1EEC74B18B1BFBB5.quest_desc: [
 		"&a电池&r是很好的便携式能量容器。各种充能方式都可以给它充能，无论是有线的还是无线的。"
 		""
@@ -1390,7 +1390,7 @@
 	]
 	quest.1F0F37429F1177DF.title: "&f见到&d暮光族裔"
 	quest.1F1A15B6E079F31F.quest_desc: [
-		"为&c高级机械方块&r制作电路，仅凭稳定的双手可远远不够。"
+		"为&c高级机器方块&r制作电路，仅凭一双巧手可远远不够。"
 		""
 		"你需要一台高精密度的机器来制作它。&a装配器&r应该能胜任。"
 		""
@@ -1470,7 +1470,7 @@
 	]
 	quest.20D7DA6055C540FA.title: "任务计时器"
 	quest.20F9CC6590B8990C.quest_desc: [
-		"&6新生魔艺&r中有许多你可以召唤来帮助你完成日常任务的魔法生物，你可以使用&d支配之杖&r来控制这些生物！"
+		"在&6新生魔艺&r中，你可以召唤许多魔法生物来帮助你完成日常任务，并能使用&d支配之杖&r来控制它们！"
 		""
 		"要了解更多关于每个生物的作用，请查阅&a残破的宝典&r指南书。"
 	]
@@ -1513,7 +1513,7 @@
 		""
 		"&a绿心&r可以通过击杀&d监守者&r和&c焰魔&r获得。"
 		""
-		"&9Blue Hearts&r are dropped by &zMighty Ender Chicken&r, &6Leviathan&r, &6Tyros&r, and &cMaledictus&r."
+		"&9蓝心&r可以通过击杀&z威猛末影鸡&r、&6利维坦&r、&6提洛斯回响·原初受火者&r以及&c咒翼灵骸&r获得。"
 	]
 	quest.213FE1D19D589513.title: "&6心之容器"
 	quest.214D210F200CD11F.quest_desc: [
@@ -1672,7 +1672,7 @@
 	quest.26F18323EB6EFCA0.quest_desc: ["&b子沙&r方块很适合建造仙人掌或者甘蔗农场。给它输入红石信号还可以提高作物的生长速率。"]
 	quest.26F18323EB6EFCA0.title: "&f子沙"
 	quest.26F3ECD3CC9E7CDA.quest_desc: [
-		"&c高级机械方块&r是现代科技的一个奇迹。"
+		"&c高级机器方块&r是现代科技的奇迹。"
 		""
 		"带着这些东西回到&d精械师&r处，他会教你如何安装该&3世界引擎&r升级。"
 	]
@@ -1885,9 +1885,9 @@
 	quest.2CEF038B5DA1FF25.quest_desc: ["消耗烟花火箭发电。"]
 	quest.2D0E345C7C7B3AC0.title: "Quartermaster Meet"
 	quest.2D110AB9A38178C5.quest_desc: [
-		"&d炼狱使者&r提到一座埋藏在&c下界&r环中的&3宝库&r，它深藏在下界岩中， 栖息着极其危险的炽热之魂。"
+		"&d炼狱使者&r提到了一座埋藏在&c下界&r环中的&3宝库&r，它深藏在下界岩中， 栖息着极其危险的炽热之魂。"
 		""
-		"在&3宝库&r中，使用唱片机播放其最喜欢的歌曲，便会苏醒过来。"
+		"在&3宝库&r中使用唱片机播放它最喜欢的歌曲，它便会苏醒过来。"
 		""
 		"&e注意&r：这个宝库非常危险。请做好万全的战斗准备！"
 		""
@@ -1895,23 +1895,23 @@
 	]
 	quest.2D110AB9A38178C5.title: "&f炽热迪斯科"
 	quest.2D1B390B363E0F27.quest_desc: [
-		"&eDE &bEnergy Crystals&r can transfer RF power to linked blocks via an energy network with at least one &aI/O Crystal&r and one &2Wireless Crystal&r. "
+		"&e龙之进化&r的&b能量水晶&r能够通过能量网络，将RF传输到连接的方块，至少需要一个&a端口水晶&r和一个&2无线水晶&r。"
 		""
-		"Shift + Right-click your Wireless Crystal to start linking it to other blocks by Right-clicking."
+		"潜行右击无线水晶，再右击其他方块便能设立连接。"
 		""
-		"&aRelays&r can only connect to other Network components, so they are only used to extend the range of your network."
+		"&a中继水晶&r只能与能量网络中的其他部件连接，所以它只用于扩展你的网络范围。"
 		""
-		"&7&oCheck the next page for transfer rates ->"
+		"&7&o下一页为各等级水晶的传输速率->"
 		"{@pagebreak}"
-		"Each crystal tier can output a different amount of power per connection:"
+		"不同等级的水晶在连接时输出的能量值也不同："
 		""
-		"The &aBasic Tier&r can transfer up to 32,000 RF/t"
+		"&a基础等级&r至多传输32,000 RF/t"
 		""
-		"The &dWyvern Tier&r can transfer up to 128,000 RF/t"
+		"&d双足飞龙等级&r至多传输128,000 RF/t"
 		""
-		"The &6Draconic Tier&r can transfer up to 256,000 RF/t"
+		"&6神龙等级&r至多传输256,000 RF/t"
 	]
-	quest.2D1B390B363E0F27.title: "Draconic Energy Transfer"
+	quest.2D1B390B363E0F27.title: "龙之进化能量传输"
 	quest.2D20EDB447787183.quest_desc: [
 		"虽然你可以使用&e传送带&r作为自动人行道，或者用&e弹射置物台&r把自己弹出去，但要想用&6机械动力&r模组在基地各个区域之间移动，还有更高级的方法。那就是：&6超级管道&r！"
 		""
@@ -1922,13 +1922,13 @@
 	quest.2D20EDB447787183.title: "&6机械动力：超级管道"
 	quest.2D35AD2FDC93FA46.title: "TF South"
 	quest.2D95FEECCF48B088.quest_desc: [
-		"&aDraconic Capacitors&r are portable batteries that can store and provide power to other items within your inventory."
+		"&a通量容器&r是一种便携式能量电池，可以存储能量，并为你物品栏中的物品充能。"
 		""
-		"&eNote&f: Capacitors can also go in your Curio Slots."
+		"&e注意&f：通量容器也能放在你的饰品栏中。"
 		""
-		"[\"At this point you will also gain access to \", { \"text\": \"Wyvern Tools\", \"color\": \"light_purple\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"056990503617C147\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Go to Wyvern Tools Quest\"}}, \", \", { \"text\": \"Wyvern Weapons\", \"color\": \"light_purple\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0B65713A23351790\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Go to Wyvern Weapons Quest\"}}, \", and the \", {\"text\": \"Wyvern Chestpiece\", \"color\": \"light_purple\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2DF77DA2ED65FBAC\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Go to Wyvern Chestpiece Quest\"}}, \".\"]"
+		"[\"此时，你也可以制作\", { \"text\": \"双足飞龙工具\", \"color\": \"light_purple\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"056990503617C147\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"跳转到双足飞龙工具任务\"}}, \"、\", { \"text\": \"双足飞龙武器\", \"color\": \"light_purple\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0B65713A23351790\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"跳转到双足飞龙武器任务\"}}, \"和\", {\"text\": \"双足飞龙护胸\", \"color\": \"light_purple\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2DF77DA2ED65FBAC\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"跳转到双足飞龙护胸任务\"}}, \"。\"]"
 	]
-	quest.2D95FEECCF48B088.title: "&dDraconic &fCapacitors"
+	quest.2D95FEECCF48B088.title: "&d龙之进化&f通量容器"
 	quest.2D99F429A18BEED1.title: "Catalyst Check 2"
 	quest.2DF77DA2ED65FBAC.quest_desc: [
 		"&d双足飞龙护胸&r是一件由能量驱动的盔甲，它具有多个自定义选项。"
@@ -1988,7 +1988,7 @@
 		"将一个&a芯片存储器&r放置在&a鉴定室&r的顶部，当芯片存满后，它会自动将芯片输入到该存储器中。"
 	]
 	quest.2F9F60F308C42FB0.quest_desc: [
-		"现在你有了&bPsi金属CAD&r，还可能安装了一些&a附件&r，是时候制作另一个简单而又复杂的术式了，它叫做"
+		"你现在有了&bPsi金属CAD&r，可能还安装了一些&a附件&r。那么是时候制作另一个简单而又复杂的术式了，它叫做"
 		""
 		"► &6&l启动式：“高级灌注”&r"
 		""
@@ -2130,7 +2130,7 @@
 		""
 		"要建造反应堆，你的物品栏中需要有&a36个反应堆方块&r，右击放下它时，如果有足够的空间，这个3x4x3的多方块结构就会自动搭建出来。"
 		""
-		"&aNote&r: &6Uraninite&r is made in the &aEnergizing Orb&r, which requires the &cHeat&r &6World Engine&r upgrade."
+		"&e注意&r：制造&6晶质铀矿&r需要用到&a充能台&r，而制造&a充能台&r需要&6世界引擎&r&c加热器&r升级。"
 	]
 	quest.325826C9B71AD7E1.quest_desc: [
 		"&a黄铜&r是一种延展性良好、易于加工的合金，可用于制造一些基础的机壳。"
@@ -2259,7 +2259,7 @@
 	]
 	quest.34D191F76AA69707.title: "通量网络"
 	quest.34EC72BBCD9F197F.quest_desc: [
-		"你可以用&a初学者法术书&r施放&a一阶法术&r！之后你需要先学习基础法术知识（&b魔符&r）再构建法术！"
+		"This &aNovice Spellbook&r allows you to cast &aTier 1 Spells&r! It also comes with some basic spell knowledge (called &bGlyphs&r) already learned to help you craft your first spell."
 		""
 		"你需要使用&2抄写台&r来创造&b魔符&r，构建新的法术。"
 		""
@@ -2334,9 +2334,9 @@
 	quest.370B05FC62884456.quest_desc: [
 		"&a过热元件&r非常适合用作加热器的核心。"
 		""
-		"在制作加热器时。虽然看上去有两种选择，但&c固体燃料加热器&r只能通过煤或木材产生热量，这使它无法为你的&6世界引擎&r提供充足的热量。"
+		"制作加热器时，虽然看上去有两种选择，但&c固体燃料加热器&r只能通过煤或木材产热，这无法为你的&6世界引擎&r提供充足的热量。"
 		""
-		"然而，&c电阻型加热器&r能直接将电能转化为热能，还能精细调整转化的功率，并显著产生更多热量。"
+		"而&c电阻型加热器&r能直接将电能转化为热能，还能精细调节转化的功率，产生的热量也多得多。"
 	]
 	quest.370B05FC62884456.quest_subtitle: "主要世界引擎升级"
 	quest.370B05FC62884456.title: "&f加热物品"
@@ -2372,7 +2372,7 @@
 	quest.37F99696A47264FD.quest_desc: ["本章节旨在教你一些打造、强化、附魔装备的方式，以备探险使用！"]
 	quest.37F99696A47264FD.title: "&f穿戴整齐，出门探险！"
 	quest.38124EBC1E14AB38.quest_desc: [
-		"这个饱受折磨的灵魂握有另外一个&6世界引擎&r升级。"
+		"这个饱受折磨的灵魂掌握着另一个&6世界引擎&r升级的秘密。"
 		""
 		"击杀&3宝库&r的守卫者以获得腾炎锭。"
 	]
@@ -2537,11 +2537,11 @@
 	quest.3AB006907366227A.quest_desc: [
 		"这么说吧，把精魂灌注到任何东西里都不太……&o受欢迎&r。"
 		""
-		"[\"要开启这个仪式，你需要使用 \", {\"text\": \"精魂祭坛\", \"color\": \"green\"}, \"与精魂交流。你可以在\", { \"text\": \"奥术林地\", \"color\": \"light_purple\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"066B47D2AB72355C\" }, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Go to Arcane Grove Quest\"}}, \"中找到\", {\"text\": \"符文树\", \"color\": \"dark_green\"}, \"，准备好投身一场战斗中吧。\"]"
+		"[\"要开启这个仪式，你需要使用 \", {\"text\": \"精魂祭坛\", \"color\": \"green\"}, \"与精魂交流。你可以在\", { \"text\": \"奥术林地\", \"color\": \"light_purple\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"066B47D2AB72355C\" }, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"前往奥术林地任务\"}}, \"中找到\", {\"text\": \"符文树\", \"color\": \"dark_green\"}, \"，准备好投身战斗吧。\"]"
 		""
-		"在收集到一些&2符文木&r后，你还需要一块&d精制灵魂石&r来制造祭坛。"
+		"有了&2符文木&r，你还需要一块&d精制灵魂石&r来建造祭坛。"
 		""
-		"[\"而要获得灵魂石，要么将原矿扔进\", {\"text\": \"哭泣之井\", \"color\": \"blue\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"754ADB22C6B8041F\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"跳转至哭泣之井任务\"}}, \" ，要么就去找 \", {\"text\": \"魔法师\", \"color\": \"light_purple\"}, \" ，只要价格合适，他就能帮你解决这个问题。\"]"
+		"[\"而要获得灵魂石，要么需要将粗矿扔进\", {\"text\": \"哭泣之井\", \"color\": \"blue\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"754ADB22C6B8041F\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"前往哭泣之井任务\"}}, \"，要么就去找\", {\"text\": \"魔法师\", \"color\": \"light_purple\"}, \"，只要价格合适，他就能帮你解决这个问题。\"]"
 	]
 	quest.3AB006907366227A.title: "&f扰动精魂"
 	quest.3AC24F0B92156F55.quest_desc: [
@@ -2666,7 +2666,7 @@
 	quest.3D0CE267A8FD95CD.title: "&f九头蛇巢穴"
 	quest.3D0DC34C36A173F5.quest_desc: ["&eOritech&r模组的&2外骨骼装甲&r可提供许多增益效果，在探索世界时十分有用。但当你在外遇到危险时，它提供不了任何保护。"]
 	quest.3D0DC34C36A173F5.title: "&2外骨骼装甲"
-	quest.3D220672224EDBD7.quest_desc: ["所有&6CAD设备&r都有一个空间用于安装&c五&r&2颜&r&9六&r&d色&r&e的&r&b附件&r。虽然纯粹是装饰性质，但肯定能让它们看起来更酷！"]
+	quest.3D220672224EDBD7.quest_desc: ["在所有&6CAD设备&r上都有一个空位，可用于安装&c五&r&2颜&r&9六&r&d色&r&e的&r&b色彩附件&r。虽然纯粹是装饰，但肯定能让它们看起来更酷！"]
 	quest.3D220672224EDBD7.quest_subtitle: "Time to turn your CAD into a Gamer CAD."
 	quest.3D220672224EDBD7.title: "色彩的世界"
 	quest.3D239E5AD486D419.quest_desc: [
@@ -2688,9 +2688,9 @@
 	]
 	quest.3D767C3E2F0DE320.title: "&6量子计算机&f结构"
 	quest.3DCD6DC36B31EEF4.quest_desc: [
-		"在安装了这些&3世界引擎升级&r后，你终于感觉到自己开始掌握&6世界引擎&r了。"
+		"With these &3World Engine Upgrades&r installed, you feel as though you are finally starting to master the &6World Engine&r."
 		""
-		"回到&d指引者的回响&r处，看看之后要做什么，然后解锁更多&6档案&r！"
+		"回去找&d指引者的回响&r，查看后续任务，解锁更多&6档案&r！"
 	]
 	quest.3DCD6DC36B31EEF4.title: "&f解锁&d遗忘"
 	quest.3DF42A6D832C0492.quest_desc: [
@@ -2706,7 +2706,7 @@
 	quest.3E1DB27DAB197F6B.quest_desc: [
 		"随着更多&6档案&r被解锁，是时候探索大厅，寻找&d寻路者的回响&r了。"
 		""
-		"帮助这个&d回响&r，为你的&b世界引擎&r解锁&a时空粒子玻璃&r升级。"
+		"帮助这个&d回响&r解锁&b世界引擎&r的&a时空粒子玻璃&r升级。"
 		""
 		"&7&o与他见面后，你可以使用&e/echo wayfinder&7命令从大厅的任何地方直接传送到这个回响处。"
 	]
@@ -2791,11 +2791,11 @@
 	quest.3F81256B4E65076F.title: "&f魔法精华灌注"
 	quest.3F8D9684ADAC01E8.title: "Catalyst Check 3"
 	quest.3FA9D6A475E4D1C6.quest_desc: [
-		"&d寻路者&r知道关于穿行这个世界的一切知识。"
+		"&d寻路者&r通晓穿行于此世间的一切知识。"
 		""
 		"他提到，在&3深板岩&r环中有座&3宝库&r，那里隐藏着一种神秘力量。"
 		""
-		"&e注意&r：制作一个&a探险家指南针&r可能会对寻找&3宝库&r起到重要作用！"
+		"&e注意&r：制作一个&a探险家指南针&r可以帮助你寻找&3宝库&r！"
 		""
 		"如果你成功破解了这个&3宝库&r的谜题，那么&d时空粒子之星&r就可以任你取用。"
 		""
@@ -3081,7 +3081,7 @@
 		"&b反应堆冷却剂吸收器口&r需要放置在&d反应堆&r外壳的顶面上，其下方需要放上&b热量吸收器&r。"
 	]
 	quest.456030ECDFA9CE3B.title: "&b反应堆热量吸收器"
-	quest.456B067C9CC123AD.quest_desc: ["在制作出一台&c加热器&r后，你需要回到&d构件师&r处，学习如何将其与&6世界引擎&r一起使用。"]
+	quest.456B067C9CC123AD.quest_desc: ["制作出一台&c加热器&r后，你需要回到&d构件师&r处，学习如何将其与&6世界引擎&r协同使用。"]
 	quest.45A3E686E32AB95D.quest_desc: [
 		"能在&b暮色森林&r环中找到，&a暮光巫妖&r是你需要探寻的第一个暮色Boss。"
 		""
@@ -3232,11 +3232,11 @@
 		"&e注意&r：将鼠标放在燃料发电机上，按&aU&r键，即可查看可用燃料列表。"
 	]
 	quest.48935E2DFCA1E835.quest_desc: [
-		"By milking the &zMighty Ender Chicken&r, you can acquire &zMolten Chaos&r that can be solidified into &zChaos Shards&r used to upgrade your infusion setup and craft the most advanced &eDE&r items."
+		"通过榨取&z威猛末影鸡&r，你能从它身上获得&z熔融混沌&r并制成&z混沌碎片&r，这能用于升级你的融合注入装置，并制作最高级的&e龙之进化&r物品。"
 		""
-		"You can now upgrade your &6Draconic Gear&r to &zChaotic Tier&r."
+		"你现在能将你的&6神龙装备&r升级到&z混沌等级&r了。"
 	]
-	quest.48935E2DFCA1E835.title: "&zChaotic Infusion"
+	quest.48935E2DFCA1E835.title: "&z混沌注入"
 	quest.48B3D104BEFE1959.quest_desc: [
 		"使用&6机械动力&r的&a动力锯&r，你可以制作一个自动收获树木的动态结构"
 		""
@@ -3285,13 +3285,13 @@
 		"你可以直接把要存储的流体输入至抽屉，或者手持一桶流体右击直接设置存储类别。"
 	]
 	quest.4A1DBDE0963407E7.quest_desc: [
-		"&eDraconic Evolution&r (&eDE&r)is a mid-game to late-game mod focused around dragons, energy, and very overpowered equipment."
+		"&e龙之进化&r是围绕龙、能量与极强装备的游戏中后期模组。"
 		""
-		"To get started with &eDE&r, you'll first need to gather some &aDraconium Dust."
+		"要开始发展&e龙之进化&r，你需要获取一些&a龙尘&r。"
 		""
-		"[\"The main way to acquire this dust is to level up your \", {\"text\": \"Dimensionalist Unearther\", \"color\": \"light_purple\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6F91297C4FAA43FE\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Go to Dimensionalist Quest\"}}, \" at least tier 4, but you may also acquire it through other methods (check JEI).\"]"
+		"[\"获取这种粉尘的主要方式是将你的\", {\"text\": \"维度学家发掘室\", \"color\": \"light_purple\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6F91297C4FAA43FE\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"跳转到维度学家章节\"}}, \"至少升级到4阶，但你也能通过其他方法获得（查阅JEI）。\"]"
 		""
-		"You can also just manually brush &eEnd Stone&r once your &aUnearther Level&r is high enough."
+		"如果你的&a发掘等级&r足够高，你也可以选择手动刷扫&e末地石&r。"
 	]
 	quest.4A1DBDE0963407E7.title: "&f欢迎游玩&e龙之进化"
 	quest.4A2EB77748103124.quest_desc: ["此地牢会生成在&3石头&r与&7深板岩&r环中。"]
@@ -3329,11 +3329,11 @@
 	]
 	quest.4A8581D52BD1922B.title: "流体牛繁殖"
 	quest.4A87B0D25DE57F3F.quest_desc: [
-		"在完成&d附魔师&r的第一个任务之前，你需要找到一种更坚硬的石头。"
+		"在完成&d附魔师&r的第一个任务之前，你需要先找到一种更坚硬的石头。"
 		""
 		"向世界更深处挖掘，直至找到&7深板岩&r。"
 		""
-		"虽然它看起来没什么魔力，但其中残留的远古魔法仍然可以被利用，以发挥它的附魔之力。"
+		"虽然它看起来没什么魔力，但其中残留的远古魔法仍然可以被利用，发挥它附魔的潜力。"
 	]
 	quest.4A87B0D25DE57F3F.title: "&f深入挖掘"
 	quest.4AC8D1AEFCED24FD.quest_desc: ["这部分介绍了&a无线&r输送能量的不同方式。"]
@@ -3528,37 +3528,37 @@
 	]
 	quest.4E4434B6CE1F2560.title: "&b二阶&fCAD核心"
 	quest.4E474C940C683371.quest_desc: [
-		"The &6Draconic Reactor&r is the ultimate energy generator, capable of producing hundreds of millions of RF/t with the correct setup. &cThis Reactor can explode!&r"
+		"&6神龙反应堆&r是终极产能装置，正确搭建后，便能实现数以百万计的产能速率。&c这种反应堆会爆炸！&r"
 		""
-		"To start setting one, place the &6Reactor Core&r in the center with the &aStabilizers&r up to 5 blocks away from it each in a separate direction, and the &2Injector&r above or below it."
+		"若要开始搭建，首先需要在其中心位置放置&6反应堆核心&r，并在核心的四周放置&a稳定器&r，至多距离5格方块，然后在核心上方或下方放置&2反应堆能量注入器&r。"
 		""
-		"To fuel the Reactor, you must provide it with &6Awakened Draconium&r (max 8 blocks at a time) and a massive amount of energy: the more energy you provide, the more energy it'll produce."
+		"你需要为反应堆提供&6觉醒龙锭&r（一次最多8个块）和大量能量以激活它：你提供的能量越多，产出的能量就越多。"
 		""
-		"&7&oMore information on the next page ->"
+		"&7&o前往下一页查看更多信息->"
 		"{@pagebreak}"
 		"{image:ftb:textures/quests/draconic_evolution/reactor_ui_charge.png width:150 height:133 align:center}"
-		"Before you can power on your reactor, you'll be met with this interface, and you'll need to know what's what to avoid a Reactor meltdown that will nuke everything within 500 blocks."
+		"在开启反应堆前，你将先看到这个界面，你需要了解界面各部分的含义，以防止反应堆熔毁，那会摧毁500格范围内的所有东西。"
 		""
-		"We'll go over the interface, from left to right, on the next page ->"
+		"在下一页，我们将从左到右依次介绍此界面->"
 		"{@pagebreak}"
-		"- Core Temperature: Requires at least 2000°C to Activate the Reactor. A temperature of 8000°C or higher will begin heating up the core exponentially, increasing the chance of a meltdown occurring."
+		"—核心温度：激活反应堆需要至少2000°C。温度超过8000°C时，核心温度将指数级增长，提高其熔毁概率。"
 		""
-		"- Containment Field Strength: Controls the protection around the core. If this reaches 0 the Reactor will explode. The lower this value the more power you can make."
+		"—控制场强度：控制着核心周围的防护场。如果降至0，反应堆就会爆炸。但其值越低，产出的能量就越高。"
 		""
-		"- Energy Saturation: Increases as it absorbs more energy and reduces when you pull out energy. THe higher the saturation the lower the generation rate. Higher Saturation also increases temperature"
+		"—能量储量：吸收能量时会增加其值，输出能量时就会降低。储量越多，产能速率就越低，温度就越高。"
 		""
-		"- Fuel Conversion: How much fuel you have left and how much has been converted into energy (how much fuel is spent per tick to keep the reactor going). A perfectly balanced reactor burns nothing per tick. The Longer it stays balanced the longer it'll maintain its temperature."
+		"—燃料消耗进度：表示剩余燃料量和已转化为能量的燃料量（即维持反应堆运行时，每tick的燃料消耗）。每tick消耗0燃料时达到完美平衡，保持平衡的时间越久，控温时间就越久。"
 		""
-		"&7&oMore on the next page ->"
+		"&7&o前往下一页查看更多信息->"
 		"{@pagebreak}"
-		"Once everything is in place and you've provided fuel to your Reactor, you can sefely hit \"Charge\" to start the Reactor."
+		"准备好后，你就能为反应堆提供燃料，并安全地按下“充能”按钮开启反应堆。"
 		""
-		"First it'll change the Containment Field and Energy Saturation to 50%, then start heating up to 2kC. At this point it'll give you the option to Activate the reactor. If all goes well, nothing blows up."
+		"首先，它会将控制场强度和能量储量设置到50%，并升温至2000°C。此时，它会为你提供激活反应堆的选项。如果一切顺利，就不会发生爆炸。"
 		""
-		"Your \"Active\" interface should look something like this:"
+		"你的“激活”界面应该与下图类似："
 		"{image:ftb:textures/quests/draconic_evolution/reactor_ui_activate.png width:188 height:166 align:center}"
 	]
-	quest.4E474C940C683371.title: "&6The Draconic Reactor"
+	quest.4E474C940C683371.title: "&6神龙反应堆"
 	quest.4E623BAFD92591EE.quest_desc: [
 		"&a旅行权杖&r是一件非常有用的工具，手持时，潜行+右击能向前传送一小段距离。"
 		""
@@ -3613,7 +3613,7 @@
 	quest.500074C1D4EC9591.quest_desc: [
 		"随着更多&6档案&r被解锁，是时候探索大厅，寻找&d催化者的回响&r了。"
 		""
-		"与此&d回响&r合作，为你的&b世界引擎&r解锁多个&3升级&r，包括&c高级机器方块&r升级。"
+		"与此&d回响&r合作，为你的&b世界引擎&r解锁多个&3升级&r，包括&c高级机器方块&r升级！"
 		""
 		"&7&o与他见面后，你可以使用&e/echo catalyst&7命令从大厅的任何地方直接传送到这个回响处。"
 	]
@@ -3631,11 +3631,11 @@
 	]
 	quest.50B0E45705EDB5F2.title: "&f自动建造&3附魔升级"
 	quest.50B7A38F7E66139C.quest_desc: [
-		"虽然热量很容易产生，但在机器间传递时非常容易散失。"
+		"热量很容易产生，但在机器间传递时也很容易散失。"
 		""
-		"为了减少热量损失，要使用为此需求特制的线缆。"
+		"使用为此特制的线缆可以减少热量的损失。"
 		""
-		"合成一些&d终极热导线缆&r。这些应该能派上用场。"
+		"合成一些&d终极热导线缆&r。它们应该能派上用场。"
 	]
 	quest.50B7A38F7E66139C.title: "&f传递热量"
 	quest.50B7CA94F8BB6F58.quest_desc: [
@@ -3720,7 +3720,7 @@
 	]
 	quest.52ADC3D46CCB2659.title: "神化刷怪笼"
 	quest.52B46D49B5C4A7F2.quest_desc: ["&d燃气发电机&r可以燃烧&d乙烯&r，发电速率极高！每台满功率运行的燃气发电机产能速率约为8000RF/t。"]
-	quest.53060D307C063C25.quest_desc: ["The &aWyvern Core&r is an upgraded crafting component used for most &eDE&r recipes and items."]
+	quest.53060D307C063C25.quest_desc: ["&a龙芯&r是大多数&e龙之进化&r配方和物品的更高级合成材料。"]
 	quest.534F1C46873C1358.quest_desc: [
 		"这一排的发电机属于&a游戏中期发电机&r！"
 		""
@@ -3922,7 +3922,7 @@
 	]
 	quest.580866E99C53DB3E.title: "&a拾取升级"
 	quest.580CDFD2B7675485.quest_desc: [
-		"要制作&6龙之进化&r的物品，你需要一种特殊的合成装置：&d聚合装置&r"
+		"要制作&6龙之进化&r的物品，你需要一种被称作&d聚合注入&r的特殊合成装置。"
 		""
 		"&d聚合核心&r必须位于装置中央，并在间隔2个方块处，面向核心放置&d聚合注入器&r。"
 		""
@@ -4037,11 +4037,11 @@
 	]
 	quest.59E8FEC3758635DF.title: "&f村民，以及如何训练村民"
 	quest.5A04F7A95366D15F.quest_desc: [
-		"将钻石再构为&b钻石水晶&r只是制作&c高级机械方块&r核心的第一步。"
+		"将钻石再构为&b钻石水晶&r只是制作&c高级机器方块&r核心的第一步。"
 		""
-		"你需要让能量在核心内部正常流通，使用&b充能台装置&r，你可以为钻石充能以达到这个目的。"
+		"为了让能量在核心内部能够正常流通，你需要使用&b充能台装置&r给钻石水晶充能。"
 		""
-		"&e注意&r：要搭建这个装置，需要在中心放置一个被供能的&a充能台&r，并在其每侧两格远处，放置一个&2物品展示台&r（一共4个）。"
+		"&e注意&r：要搭建此装置，你需要在中心处放一个&a充能台&r，并给它供能，然后在它每侧的两格远处，放上一个&2物品展示台&r（一共4个）。"
 	]
 	quest.5A04F7A95366D15F.title: "&f充能钻石"
 	quest.5A284AE3AC14D070.title: "&f游玩1小时"
@@ -4086,11 +4086,11 @@
 		"当它处于非固体状态时，虽然生物不会主动穿行通过，但仍可以被推挤穿过或坠落穿过。"
 	]
 	quest.5BE257CE3FD1FDAC.quest_desc: [
-		"With &6Awakened Draconium&r, you can now upgrade your Infusion setup to craft more advanced items."
+		"有了&6觉醒龙锭&r，你就能升级你的聚合注入装置，并制作更高级的物品了。"
 		""
-		"You can now upgrade your &dWyvern Gear&r to &6Draconic Tier&r."
+		"你现在能将你的&d双足飞龙装备&r升级到&6神龙等级&r了。"
 	]
-	quest.5BE257CE3FD1FDAC.title: "&6Awakened Infusion"
+	quest.5BE257CE3FD1FDAC.title: "&6觉醒级聚合注入"
 	quest.5BF72200F151FF24.quest_desc: [
 		"&6Psi&r的材质升级过程相对简单，可以解锁更好的&bCAD&r组件，从而让你能够施展更多&d复杂&r和&3酷炫&r的术式。"
 		""
@@ -4116,9 +4116,9 @@
 	]
 	quest.5C8773D5561D7245.title: "&f自动建造&3觉醒核心升级"
 	quest.5CD461E6C3E8E7D1.quest_desc: [
-		"能在&3深板岩&r环中找到，这座宝库很容易让人迷路。"
+		"这座宝库位于&3深板岩&r环中，人们很容易在里面迷路。"
 		""
-		"&e注意&r：制作一个&a探险家指南针&r可能会对寻找宝库起到重要作用！"
+		"&e注意&r：制作一个&a探险家指南针&r可以帮助你寻找宝库！"
 		""
 		"&7&o在距离宝库256格范围内潜行右击指南针，即可瞬间传送至宝库入口！&r"
 	]
@@ -4472,7 +4472,7 @@
 	quest.6461D19F839957B6.quest_desc: [
 		"&c腾炎锭&r的热量足以让&b魂染钢锭&r中的精魂感受到家的温暖……"
 		""
-		"&6世界引擎&r可以将精魂封入方块中，这能用来安装&3世界引擎精魂升级&r。"
+		"&6世界引擎&r可以将这些精魂封入方块中，制成&3世界引擎精魂升级&r所需的材料。"
 	]
 	quest.6461D19F839957B6.quest_subtitle: "次要世界引擎升级"
 	quest.6461D19F839957B6.title: "&f精魂方块"
@@ -4557,7 +4557,7 @@
 	quest.6739E7A96309D0A8.quest_desc: [
 		"&a能源转换器&r会随着时间缓慢产生&b力场子&r。"
 		""
-		"&b力场子&r主要用于为你的&eMFFS&r机器供能，在你升级&6世界引擎&r后，就可以用它制作更多的&#41AA71力场子灌注锭&r。"
+		"&b力场子&r主要用于为你的&eMFFS&r机器供能。升级&6世界引擎&r后，你也可以用它制作更多的&#41AA71力场子灌注锭&r。"
 	]
 	quest.6739E7A96309D0A8.title: "&f创造力场子"
 	quest.6755CACD4957A4CB.quest_desc: [
@@ -4811,7 +4811,7 @@
 	]
 	quest.6D5A9E9E8B0D8AC2.title: "&f时间量子生成器"
 	quest.6D9862948E97E696.title: "End East"
-	quest.6E149F8E8B3F150B.quest_desc: ["在你制作出&2回响深暗书架&r后，回到&d附魔师的回响&r处，学习如何为&6世界引擎&r安装该升级。"]
+	quest.6E149F8E8B3F150B.quest_desc: ["制作出&2回响深暗书架&r后，请回到&d附魔师的回响&r处，学习如何为&6世界引擎&r安装该升级。"]
 	quest.6E24701C49A6114D.quest_desc: [
 		"以&z虚空&r之力升级&6世界引擎&r后，你就能制作&d中子态素压缩机&r来将物品压缩成&z奇点&r。"
 		""
@@ -4880,11 +4880,11 @@
 		"如果对末影人使用&a绑定卡&r，绑定卡就会变成&d跨维度绑定卡&r，这样玩家供电仪就可以跨维度工作了。"
 	]
 	quest.70BB982228095E51.quest_desc: [
-		"如果你要为&6世界引擎&r制作&c高级机械方块&r，那么你得先制造一种坚固的框架。"
+		"为了制作用于&6世界引擎&r的&c高级机器方块&r，你需要先制造一种坚固的框架。"
 		""
-		"制作这种框架需要用到&a塑料片&r。这能用于制作一种从怪物身上提取特定流体的机器。"
+		"制作这种框架需要用到&a塑料片&r。&a塑料片&r可用于制造一种机器，这种机器可以从怪物身上提取特定的流体。"
 		""
-		"[\"\", {\"text\": \"注意\", \"color\": \"yellow\"}, \": \", {\"text\": \"乳胶\", \"color\": \"green\"}, \" 也能通过 \", { \"text\": \"流体牛\", \"color\": \"dark_green\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"150BB4679DD2B4B5\" }, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"跳转到流体牛任务\"}}, \"获得！\" ]"
+		"[\"\", {\"text\": \"注意\", \"color\": \"yellow\"}, \": \", {\"text\": \"胶乳\", \"color\": \"green\"}, \"也可以通过\", { \"text\": \"流体牛\", \"color\": \"dark_green\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"150BB4679DD2B4B5\" }, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"前往流体牛任务\"}}, \"获得！\" ]"
 	]
 	quest.70BB982228095E51.title: "&f加固框架"
 	quest.70C02FCA0C7B8777.quest_desc: [
@@ -4979,7 +4979,7 @@
 		"你可以将自己投入&5哭泣之井&r来完成献祭；此外，在使用&6帷幔之锋&r杀死村民时，也有小概率获得此物。"
 	]
 	quest.718C72A43E57B75A.quest_desc: ["本&b章节&r将会介绍如何传输物品、能量、流体和其他东西！"]
-	quest.7191726ECAAFE40F.quest_desc: ["在你制作出足够的&2时空粒子玻璃&r后，回到&d寻路者的回响&r处，学习如何为&6世界引擎&r安装该升级。"]
+	quest.7191726ECAAFE40F.quest_desc: ["制作出足够的&2时空粒子玻璃&r后，请回到&d寻路者的回响&r处，学习如何为&6世界引擎&r安装该升级。"]
 	quest.71BDC5B453B8CAB4.quest_desc: [
 		"你发现自己正处在一个巨型黑洞的事件视界。探索这片区域并找到&6辐光&r。"
 		""
@@ -4988,9 +4988,9 @@
 	quest.71BDC5B453B8CAB4.title: "&f见到&6辐光"
 	quest.71EF740F3234EA08.title: "Mycelial Reactor"
 	quest.71F25B7D688EE182.quest_desc: [
-		"通关&b迷宫宝库&r将获得至少4个&b力场子灌注块&r"
+		"通关&b迷宫宝库&r可获得至少4个&b力场子灌注块&r。"
 		""
-		"这是一个&b次要&r&6世界引擎&r&b升级&r，将会解锁自动合成或使用&a提取机&r来生产资源等合成配方。"
+		"这是一个&b次要&r&6世界引擎&r&b升级&r，升级后可解锁自动合成、用&a提取机&r生产资源等操作。"
 		""
 		"回到&d折光师的回响&r处，他会教你如何安装该&3升级&r。 "
 	]
@@ -5059,7 +5059,7 @@
 	]
 	quest.727070B13B966DE1.title: "&f自动建造&3超立方体升级"
 	quest.72766EEF59130E19.title: "&f游玩&c25小时"
-	quest.7279FFED00B223D7.quest_desc: ["The &aDraconium Core&r is one of the main crafting components in &eDE&r and can be used in some basic recipes for items and &bModules&r used in Draconic Armor and Tools."]
+	quest.7279FFED00B223D7.quest_desc: ["&a龙芯&r是&e龙之进化&r的重要合成材料之一，它能用来制作基础物品和用于此模组护甲和工具的&b模块&r。"]
 	quest.72934B141A741423.quest_subtitle: "黄鸡 + 铁鸡"
 	quest.7312FFEDAD1A6F75.quest_desc: [
 		"&d虚空升级&r - 自动销毁超过数量上限的物品。"
@@ -5098,8 +5098,8 @@
 		"&e注意&r：蹲起催熟对母岩方块同样有效。"
 	]
 	quest.73EC5E7F2300B99D.title: "&b赛特斯石英&r"
-	quest.73FD015A3696ABFB.quest_desc: ["By infusing a &aDragon's Heart&r into your &dDraconium&r, you can acquire &6Awakened Draconium&r which you'll need if you wish to upgrade your existing &eDE&r setups."]
-	quest.73FD015A3696ABFB.title: "&6Awakened Draconium"
+	quest.73FD015A3696ABFB.quest_desc: ["通过将&a龙之心&r注入到&d龙锭&r中，你就能获得&6觉醒龙锭&r了，这是你升级已有&e龙之进化&r装置的必需材料。"]
+	quest.73FD015A3696ABFB.title: "&6觉醒龙锭"
 	quest.73FEE6C6149817E7.title: "Infernal Check 1"
 	quest.7408FB23D476F791.title: "Guidance Completed 1"
 	quest.740B9F63604944F3.title: "Ocean North"
@@ -5142,7 +5142,7 @@
 	quest.74EA9D857CB71A91.quest_desc: [
 		"使用&a化学溶解室&r，你就可以将&c下界合金锭&r和&#ffa5fc粉红黏液&r灌注到简易机器框架中。"
 		""
-		"这应该能制作出足够坚固的框架，用于制作&c高级机械方块&r，并为&6世界引擎&r安装升级了。"
+		"这样制得的框架应该足够坚固，可用于制作&6世界引擎&r升级所需的&c高级机器方块&r了。"
 	]
 	quest.74EA9D857CB71A91.title: "&f组装框架&r"
 	quest.754048401D3A6A7B.quest_desc: ["本章涵盖了大部分发电方法。"]
@@ -5876,7 +5876,7 @@
 	task.1C350F6D6B6C0656.title: "&b升级插件"
 	task.1C3B92648D279809.title: "&e发现&f：&d炼狱使者"
 	task.1C618817AA660A51.title: "冷却计时器"
-	task.1D40F0B8F9A522A0.title: "&e发现&f：&d构件师"
+	task.1D40F0B8F9A522A0.title: "&e定位&f：&d构件师"
 	task.1E31F492D8779AB6.title: "造石机"
 	task.1F45D65E053E1701.title: "采掘小帮手"
 	task.21F1C6036A37CED9.title: "&e发现&f：&d暮光族裔"
@@ -5924,7 +5924,7 @@
 	task.2D6AEF337BEAFA58.title: "坩埚增强"
 	task.2D717F3B3573B504.title: "&b升级插件"
 	task.2DD1C42797FC03F0.title: "&f与&d附魔师的回响&f对话"
-	task.2E08C0DD181858C1.title: "&e发现&f：&d寻路者"
+	task.2E08C0DD181858C1.title: "&e定位&f：&d寻路者"
 	task.2E6B8DF43B7A85E7.title: "任意基础CAD机体"
 	task.2EE249AC7D3DFA9A.title: "冷却计时器"
 	task.2F94FA9842248FA3.title: "冰雪女王宝库"
@@ -5951,7 +5951,7 @@
 	task.34F064BD38FE398C.title: "任意物质"
 	task.35458B29D8F8E353.title: "&f与&d远古族裔的回响&f对话"
 	task.35F9337A21031B7C.title: "任意三阶CAD核心"
-	task.3602BC5A7FA7DDB8.title: "Basic Energy Transfer"
+	task.3602BC5A7FA7DDB8.title: "基础能量传输"
 	task.368FF30FEFA57F73.title: "环的生成"
 	task.36D65F0F76F3F5E9.title: "连锁破坏须知"
 	task.36E4280D3F1F4D95.title: "&b苍穹晶盔甲"
@@ -6036,7 +6036,7 @@
 	task.53399AACBE5CBD31.title: "魂染装备"
 	task.53A4AB98C92B3D57.title: "任意二阶CAD弹夹"
 	task.5434F149E894EFA6.title: "欢迎"
-	task.54630C413BFC35E2.title: "Draconic Energy Transfer"
+	task.54630C413BFC35E2.title: "神龙能量传输"
 	task.546F475B57F686A3.title: "红物质盔甲"
 	task.54900CC98541771C.title: "任意PsiCAD着色器"
 	task.54C8C7E72F5D069E.title: "生成资源"
@@ -6104,7 +6104,7 @@
 	task.64439911825F80B2.title: "方块手杖"
 	task.64B290466E13BE30.title: "与&d飞龙匠人的回响&f交谈"
 	task.64E418FC4666C686.title: "找到&d异界&r地牢"
-	task.655EA10D763BC971.title: "&e发现&f：&d附魔师"
+	task.655EA10D763BC971.title: "&e定位&f：&d附魔师"
 	task.6686A02C1B8BCACB.title: "一个象牙白或乌金CAD"
 	task.66F6B411E884E391.title: "end east"
 	task.671339615BA68B10.title: "&e击杀&f：&b冰霜术士"
@@ -6175,7 +6175,7 @@
 	task.7C972E1F071C029A.title: "传送带控制用品"
 	task.7CA66CFB9AAC98BB.title: "下界南"
 	task.7CCE37FAC12528D7.title: "灵魂猎手装备"
-	task.7CD51F8C7BC7FF66.title: "Wyvern Energy Transfer"
+	task.7CD51F8C7BC7FF66.title: "双足飞龙能量传输"
 	task.7CECE0F1C53701B6.title: "魔法工具"
 	task.7D75B40EC4AF799A.title: "Just Dire Things的机器"
 	task.7D8611641B6611FB.title: "&f与&d指引者的回响&f对话"
