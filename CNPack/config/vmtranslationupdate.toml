@@ -1,10 +1,7 @@
-devMode = false
+testMode = false
 autoSwitchLanguage = true
 autoDownloadVMTranslationPack = false
+translationPackSource = "GITEE"
 checkModPackTranslationUpdate = true
-autoLoadExtraTranslationPack = true
-extraPackName = "VM Language Override"
-extraPackIndex = "TOP_OF_CFPA"
-extraPackCustomIndex = 0
 i18nUpdateModCheck = true
 vaultPatcherCheck = false
