@@ -565,7 +565,7 @@
 		"&b此模式&r忽略&2尺寸模块&r，且默认以选区的中心为原点。安装&d伪装模块&r将显示原本选区内的方块，而非力场方块。"
 	]
 	quest.0B1E459D12D11A0D.title: "&f敲定&b力场"
-	quest.0B25350118D515DF.quest_desc: ["&6世界引擎&r的最终阶升级需要方块形态的&z无尽&r之力。"]
+	quest.0B25350118D515DF.quest_desc: ["&6世界引擎&r的最终升级需要方块形态的&z无尽&r之力。"]
 	quest.0B25350118D515DF.quest_subtitle: "主要世界引擎升级"
 	quest.0B295CE75D367D59.quest_desc: [
 		"木材很重要，尤其是在这个石头构成的世界里。你得充分利用能获取到的所有东西！"
@@ -839,11 +839,11 @@
 	]
 	quest.107C26E8BF309BC1.title: "&f奥术战利品"
 	quest.1111B3ACEDDF5633.quest_desc: [
-		"你如果让&c红物质&r与&z反物质&r相撞，可能会摧毁整个世界。"
+		"让&c红物质&r与&z反物质&r相撞可能会摧毁整个世界。"
 		""
-		"也可能出现一个小小的完全无害的物品形态&z黑洞&r扑通一下被你捡起。"
+		"或者，也可能会出现一个无害的、物品形态的小&z黑洞&r。"
 		""
-		"让我们玩个猜谜游戏吧！"
+		"赌一把吧！"
 	]
 	quest.1111B3ACEDDF5633.title: "&z黑洞&r"
 	quest.11A35E8F97ACA240.quest_desc: [
@@ -1098,9 +1098,9 @@
 	]
 	quest.17AC5EBEBDC124E9.title: "&f愚者的令牌"
 	quest.17C23A586C708425.quest_desc: [
-		"当你有了&d钚球&r后，你就能制作&6中子态素收集器&r了。"
+		"有了&d钚球&r，你就能制作&6中子态素收集器&r了。"
 		""
-		"这种机器大约每6分钟就会生成一小撮&z中子素尘埃&r。除非你愿意等一会，不然还是值得多做几台的。"
+		"这个机器大约每6分钟就会生成一小撮&z中子素尘埃&r。建议多造几台，除非你有耐心多等一会儿。"
 	]
 	quest.17C23A586C708425.title: "&z中子素"
 	quest.17D5EB0E89BC10D7.quest_desc: [
@@ -1163,8 +1163,8 @@
 		"虽然这只是1阶的鸡，但它们是繁育更高阶鸡所必需的！"
 	]
 	quest.19C7CC772EC56E7B.title: "基础染色鸡"
-	quest.19C9BB7952E89BA7.quest_desc: ["你已经将一个&z黑洞&r塞入容器中了，回到&6辐光&r身边，学习如何安装此升级。"]
-	quest.19C9BB7952E89BA7.title: "&f与&6辐光&f交谈"
+	quest.19C9BB7952E89BA7.quest_desc: ["你已经将&z黑洞&r塞入容器中了，现在请回到&6辐光&r身边，学习如何安装此升级。"]
+	quest.19C9BB7952E89BA7.title: "&f与&6辐光&f对话"
 	quest.1A2D8034C07D988B.quest_desc: [
 		"&6Psi模组&f为&2Minecraft&r带来了一个有趣的想法——如果可以的话，&d编写魔法咒语&r并注入到&c子弹&r中会怎样？"
 		""
@@ -1307,7 +1307,7 @@
 		"你需要用红石信号启动核心。"
 	]
 	quest.1D87C5E9D52341C4.title: "聚合注入"
-	quest.1D8B2D2B03DF3256.quest_desc: ["据&d飞龙匠人&r所说，制作出这件物品后，她就能将龙族本质注入到一个&a时间量子电池&r中，你可以用它传送到她弟弟最后的已知点位，无论在哪。"]
+	quest.1D8B2D2B03DF3256.quest_desc: ["据&d飞龙匠人&r所说，制作出这件物品后，她就能将龙族精华注入&a时间量子电池&r中，你可以用它传送到她弟弟最后的已知点位，无论在哪。"]
 	quest.1D8B2D2B03DF3256.title: "&f找到&6飞升回响"
 	quest.1DA78BAB2A6E2C82.quest_desc: [
 		"对于模组老手，&e末影接口&r令人惊叹的管道给他们留下了诸多美好的回忆，这些管道被称为&d导管&r。"
@@ -1497,9 +1497,9 @@
 	quest.21322BAF061FE83F.quest_desc: [
 		"&6中子素&r是你迈出的第一步，但现在我们还需要激活它。&z中子活化器&r是一种多方块机器，它便拥有此功能。"
 		""
-		"这种机器需要热量来模拟这个石头世界缺失的太阳之力。"
+		"这种机器需要用热量来模拟这个石头世界缺失的太阳能。"
 		"{@pagebreak}"
-		"它能将&e核废料&r转变为&d钋&r，将&e锂&r转变为&a氚&r，只需要一撮&6中子素尘埃&r。"
+		"只需要一撮&6中子素尘埃&r作为能源，它就能将&e核废料&r转变为&d钋&r，将&e锂&r转变为&a氚&r。"
 		""
 		"&e注意&r：一台&6中子态素收集器&r足够保证两台&z中子活化器&r的持续运作。"
 	]
@@ -1724,9 +1724,9 @@
 	]
 	quest.28683BFE22FBCCFC.title: "&f木炭与你"
 	quest.28C1BB5C88F65CA0.quest_desc: [
-		"有了&d飞龙&r级别的注入器后，你就能制作&6觉醒龙锭&r了，但你还需要一颗&6龙之心&r，实际上是几颗。"
+		"有了&d飞龙&r级别的注入器后，你就能制作&6觉醒龙锭&r了，但你还需要一颗&6龙之心&r——实际上是几颗。"
 		""
-		"在之后，你需要大量&6觉醒龙锭&r，所以这种制作方法不是最有效的。"
+		"未来你会需要大量的&6觉醒龙锭&r，因此这种制作方法恐怕不是最好的。"
 	]
 	quest.28C1BB5C88F65CA0.title: "&6觉醒龙锭"
 	quest.28DB6A7095E20B2A.title: "Reactor"
@@ -2037,7 +2037,7 @@
 	]
 	quest.30902357747A64F1.title: "&f冰雪女王的宫殿"
 	quest.309D995CCCDB3AEE.quest_desc: ["&d飞龙匠人&r已经把&a时间量子电池&r给你了，你可以借助它进入&z破碎虚空&r。"]
-	quest.309D995CCCDB3AEE.title: "&f与&d飞龙匠人&f交谈"
+	quest.309D995CCCDB3AEE.title: "&f与&d飞龙匠人&f对话"
 	quest.30DC15C5BF42A9DE.title: "Ocean East"
 	quest.30EE07811728D901.quest_desc: [
 		"&6世界引擎&r的功能即将完全复原。最后一步是制造终极金属。"
@@ -2918,7 +2918,7 @@
 		""
 		"从&z威猛末影鸡&r身上挤出能制作&6微小混沌碎片&r的&z熔融混沌&r。"
 	]
-	quest.41ED404574094D5B.title: "压榨一只…鸡？"
+	quest.41ED404574094D5B.title: "给一只鸡……挤奶？"
 	quest.41F048EAE6949163.quest_desc: [
 		"&6新生魔艺&r中有多种魔法装备可供选择。"
 		""
@@ -3470,7 +3470,7 @@
 	quest.4D754E91D203A89A.quest_subtitle: "解锁第2阶段章节"
 	quest.4D754E91D203A89A.title: "&f需要进一步的指引"
 	quest.4D7C7DE95E56C7B3.quest_desc: [
-		"当你与&z威猛末影鸡&r战斗时，你也许注意到竞技场中有个&a传送符咒收纳器&r。现在，你该用它帮你榨鸡了。"
+		"你与&z威猛末影鸡&r战斗时，也许注意到了竞技场中有个&a传送符咒收纳器&r。现在，你该用它帮你榨鸡了。"
 		""
 		"首先为boss准备一个&a生物静滞室&r装置。也许&d压缩空间&r是个好地方。"
 		""
@@ -3710,7 +3710,7 @@
 	quest.51EBCDC63A047562.title: "&e灵灾&f盔甲"
 	quest.51F3F949B8426B43.title: "时空粒子世界引擎升级"
 	quest.527A754FEFC95F4C.quest_desc: ["现在你应该挤出了一些&z混沌&r，是时候返回&d混沌&r&6至高者&r身边了。"]
-	quest.527A754FEFC95F4C.title: "&f与&6混沌&f交谈"
+	quest.527A754FEFC95F4C.title: "&f与&6混沌&f对话"
 	quest.52ADC3D46CCB2659.quest_desc: [
 		"&a神化&r模组可以转移并升级&d刷怪笼&r，以搭建属于你的刷怪场。要移动刷怪笼，用附魔&b精准采集&r的镐子挖掉即可。"
 		""
@@ -3764,7 +3764,7 @@
 		""
 		"这样你就能使用&6超临界移相器&r制造&z反物质&r了。"
 		""
-		"[\"\", {\"text\": \"注意\", \"color\": \"yellow\"},  \"：如果你想了解更多关于搭建反应堆和转化核废料的信息，请查阅\", {\"text\": \"通用机械反应堆\", \"color\": \"light_purple\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"49B8310D0C7A6C55\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"跳转到反应堆任务\"}}, \"任务。\"]"
+		"[\"\", {\"text\": \"注意\", \"color\": \"yellow\"},  \"：如果你想了解更多关于搭建反应堆和转化核废料的信息，请查阅\", {\"text\": \"通用机械反应堆\", \"color\": \"light_purple\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"49B8310D0C7A6C55\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"前往反应堆任务\"}}, \"任务。\"]"
 		""
 		"此外，你所需的&a核废料&r数量仅为平时的一半。"
 	]
@@ -5813,7 +5813,7 @@
 	task.05300BCA326E091F.title: "冷却计时器"
 	task.053465F0FFC2E3BB.title: "幻影骑士宝库"
 	task.05FFCCEAC7E565FB.title: "无线供能方案"
-	task.061CA75E28BD6BF6.title: "与&d飞龙匠人的回响&r交谈"
+	task.061CA75E28BD6BF6.title: "与&d飞龙匠人的回响&r对话"
 	task.0645EC76DE0EB57B.title: "冷却计时器"
 	task.06483FBA8021FDEF.title: "转移生物"
 	task.0675F9CC003D7723.title: "慈悲竞技场"
@@ -5938,7 +5938,7 @@
 	task.31DBB76BB460AE1B.title: "机器核心"
 	task.322FFDB250990323.title: "能量存储"
 	task.327D6E2AE8863BC1.title: "&e击杀&f：&c炽焰术士"
-	task.32877EA200F47B95.title: "&f与&6辐光&f交谈"
+	task.32877EA200F47B95.title: "&f与&6辐光&f对话"
 	task.329BA2B5EB3185FC.title: "拆解获得的材料"
 	task.32FB115D88E24CD5.title: "tf west"
 	task.3384D1EE66D61464.title: "视界下界书架"
@@ -6058,7 +6058,7 @@
 	task.58DC7CD2A4F595DD.title: "&e击杀&f：&d高位唤魔者"
 	task.5926E51F4409C90C.title: "附加物"
 	task.59454DA41C1C27D5.title: "任意符文"
-	task.59521977C507A466.title: "与&d指引者的回响&r交谈"
+	task.59521977C507A466.title: "与&d指引者的回响&r对话"
 	task.5A060A616C635858.title: "&e击杀&f：荒野奇美拉"
 	task.5A0B7C6C05EEBEE2.title: "抽屉升级"
 	task.5A1A66486604C7B8.title: "冷却计时器"
@@ -6102,7 +6102,7 @@
 	task.63C4D2F3F7059C8E.title: "背包拾取升级"
 	task.6403B80C8DFFEB46.title: "&e击杀&f：暮光巫妖"
 	task.64439911825F80B2.title: "方块手杖"
-	task.64B290466E13BE30.title: "与&d飞龙匠人的回响&f交谈"
+	task.64B290466E13BE30.title: "与&d飞龙匠人的回响&r对话"
 	task.64E418FC4666C686.title: "找到&d异界&r地牢"
 	task.655EA10D763BC971.title: "&e定位&f：&d附魔师"
 	task.6686A02C1B8BCACB.title: "一个象牙白或乌金CAD"
@@ -6157,7 +6157,7 @@
 	task.76D42E59F98B63FA.title: "Reward Check"
 	task.7747C8ECA64D179D.title: "&f与&d指引者的回响&f对话"
 	task.77CB0065516AC9D6.title: "找到&b苦寒监牢&r"
-	task.77F88B2E5E3A0AE2.title: "&f与&6混沌的回响&f交谈"
+	task.77F88B2E5E3A0AE2.title: "&f与&6混沌&f对话"
 	task.7805089FB14CE3E1.title: "&f与&d炼狱使者的回响对话"
 	task.78780481BF9D2140.title: "找到冰霜蜘蛛巢"
 	task.78869974512F8AD0.title: "电梯"
