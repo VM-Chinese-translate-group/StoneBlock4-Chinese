@@ -4281,7 +4281,7 @@
 		""
 		"你可以慢慢等树长大，也可以通过&eSquat Grow&r模组来加速它们的生长。"
 		""
-		"[\"这可以通过快捷键切换使用 \", { \"keybind\": \"key.squatgrow.toggle\", \"color\": \"green\" }, \"。\"]"
+		"[\"可通过快捷键\", { \"keybind\": \"key.squatgrow.toggle\", \"color\": \"green\" }, \"开关。\"]"
 	]
 	quest.6089F3DC28FB69C0.title: "&f挖一挖泥土"
 	quest.609DF15D870AE2C0.quest_desc: [
