@@ -170,6 +170,12 @@
 		"This generator extracts free energy from the vibrations of the crystals within it to generate around 20 AE/t. These vibrations limit your system to only have one of these per AE network."
 	]
 	quest.0224277CBEC1375E.title: "&fPowering Your &bNetwork"
+	quest.02735F0443CA9727.quest_desc: [
+		"These compasses point to locations of &3Vaults."
+		""
+		"&7&oThe Compass can be Sneak + Right-clicked when at least 256 blocks from the vault to instantly teleport to the entrance!&r"
+	]
+	quest.02735F0443CA9727.title: "&fLocating The &3Vaults"
 	quest.027E1E97D874D0EB.title: "Infinity Meet"
 	quest.02BC8FCDB2D94F0E.quest_desc: [
 		"Submitting the blocks required for the &3Upgrade&f and claiming its rewards will automatically assemble your team's &6World Engine&r."
@@ -184,6 +190,12 @@
 		""
 		"It's worth automating the production of these as soon as possible!"
 	]
+	quest.0306C0D774144DAD.quest_desc: [
+		"This compass points to the location of a &3Vault."
+		""
+		"&7&oThe Compass can be Sneak + Right-clicked when at least 256 blocks from the vault to instantly teleport to the entrance!&r"
+	]
+	quest.0306C0D774144DAD.title: "&fLocating The &3Vault"
 	quest.030F1F8A4B0C1EBF.quest_desc: [
 		"&cReactor Heat Vents&r remove heat from the hottest neighboring component (&3Fuel Rods&r or &cHeat Pipes&r) and vent it out of the &dReactor&r."
 		""
@@ -247,7 +259,7 @@
 	quest.046FCE929A728A34.quest_desc: [
 		"The wonders of &zInfinity&r, compressed into the form of a block."
 		""
-		"Head back to &zInfinity&r &6Echoborne&r."
+		"Head back to &zInfinity&r to finalize your &6World Engine&r."
 	]
 	quest.0484D6030DF690BD.quest_desc: [
 		"With more &6Archives&r unlocked, it is time to explore the lobby to find the &dEcho of The Machinist&r."
@@ -668,12 +680,16 @@
 	]
 	quest.0CA75E81F6824B22.title: "&eIron's Spells 'n Spellbooks"
 	quest.0CAA799855644363.quest_subtitle: "Glass + Gold"
+	quest.0CE3C7A6DE787371.quest_desc: [
+		"This compass points to the location of a &3Vault."
+		""
+		"&7&oThe Compass can be Sneak + Right-clicked when at least 256 blocks from the vault to instantly teleport to the entrance!&r"
+	]
+	quest.0CE3C7A6DE787371.title: "&fLocating The &3Lich"
 	quest.0D159FD643581C18.quest_desc: [
 		"The &dMachinist&r mentioned a forgotten and potentially &cdangerous&r &3Vault&r that should contain the alloy needed to make the &6World Engine's &3Shadow Casing Upgrade&r."
 		""
 		"Dig throughout the &3Stone&r and &3Deepslate&r rings to locate the &3Vault&r using the compass provided by the &dMachinist&r."
-		""
-		"&7&oThe Compass can be Sneak + Right-clicked when at least 256 blocks from the vault to instantly teleport to the entrance!&r"
 	]
 	quest.0D159FD643581C18.title: "&fRemnants of The Past"
 	quest.0D38D67E3FD120CB.quest_desc: [
@@ -764,8 +780,6 @@
 		"Within the &eEnd&r ring, you'll be able to find a very special &3Vault&r with a dangerous fight inside. And maybe a Dragon Egg."
 		""
 		"You will need to craft the &dMighty Ender Chicken Egg&r and use it in the center of the ring to summon the boss."
-		""
-		"&7&oThe Compass given can be Sneak + Right-clicked when at least 256 blocks from the vault to instantly teleport to the entrance!&r"
 		"{@pagebreak}"
 		"Once you have your hands on one, the &6World Engine&r should be able to extract its essence into block form."
 		""
@@ -775,6 +789,12 @@
 	]
 	quest.0E7AD6BCF9F8605F.quest_subtitle: "Major World Engine Upgrade"
 	quest.0E7AD6BCF9F8605F.title: "&fLike Taking Candy From A Baby"
+	quest.0EAEEF79436FDFA7.quest_desc: [
+		"This compass points to the location of a &3Vault."
+		""
+		"&7&oThe Compass can be Sneak + Right-clicked when at least 256 blocks from the vault to instantly teleport to the entrance!&r"
+	]
+	quest.0EAEEF79436FDFA7.title: "&fLocating The &3Hydra"
 	quest.0EBA58B7FD2AF36D.quest_desc: [
 		"The &aExtractor&r from &bXycraft&r is a staple for easily generating niche resources like &dDragon Eggs&r or &7Sky Stone Dust&r."
 		""
@@ -961,6 +981,12 @@
 		"&eNote&f: &dTwilight&r and &dThe Ancient&r share the same &6Archive&r."
 	]
 	quest.13D1BC0C49543326.title: "&fLocating &dThe Ancient"
+	quest.13E0F74B9A1DAB58.quest_desc: [
+		"This compass points to the location of a &3Vault."
+		""
+		"&7&oThe Compass can be Sneak + Right-clicked when at least 256 blocks from the vault to instantly teleport to the entrance!&r"
+	]
+	quest.13E0F74B9A1DAB58.title: "&fLocating The &3Vault"
 	quest.13EC7C64DFBD1556.quest_desc: [
 		"The &aBasic Generator&r from &6Oritech&r is a starter generator that burns any type of furnace fuel to generate a small amount of power."
 		""
@@ -1179,7 +1205,9 @@
 	quest.18AF36E1C2375101.quest_subtitle: "Minor World Engine Upgrade"
 	quest.18AF36E1C2375101.title: "&fMagics of The Deep"
 	quest.18E10F15FD94258B.quest_desc: [
-		"Before you can create the casings used in for the &6World Engine&r, you'll need to have acquired &cLava&r and &dObsidian&r."
+		"Before you can create the casings used in for the &6World Engine&r, you'll need to have acquired &cLava&r and &dObsidian&r. "
+		""
+		"If you haven't already, make sure you go speak to &6The Machinist&r to get an &bEntropy Manipulator&r to create lava."
 		""
 		"&dObsidian&r is a strong enough material to support the strength of basic casings, but you'll need to press it into &aPlates&r first."
 	]
@@ -1345,7 +1373,7 @@
 	]
 	quest.1D87C5E9D52341C4.title: "Fusion Crafting"
 	quest.1D8B2D2B03DF3256.quest_desc: ["&dThe Wyrmwright&r says crafting this item will allow her to infuse her draconic essence into a &aChronon Battery&r, allowing it to teleport you to her brother's last known location, wherever that may be."]
-	quest.1D8B2D2B03DF3256.title: "&fFinding the &6Ascended Echos"
+	quest.1D8B2D2B03DF3256.title: "&fFinding the &6Ascended Echoes"
 	quest.1DA11C69EFDA19EC.quest_subtitle: "Unearther, Geologist"
 	quest.1DA78BAB2A6E2C82.quest_desc: [
 		"For modded veterans, &eEnderIO&r held great memories due to its amazing pipes, called &dConduits&r."
@@ -1372,11 +1400,7 @@
 		"This arena comes with its own boss fight!"
 	]
 	quest.1E061D2E5C560867.title: "Find the &cChesed Arena&r"
-	quest.1E077BC4B8832C98.quest_desc: [
-		"Found within the upper levels of the &bTwilight Forest&r ring, the vault of the &aYeti&r is the second Twilight boss to fight."
-		""
-		"&7&oThe Compass given can be Sneak + Right-clicked when at least 256 blocks from the vault to instantly teleport to the entrance!&r"
-	]
+	quest.1E077BC4B8832C98.quest_desc: ["Found within the upper levels of the &bTwilight Forest&r ring, the vault of the &aYeti&r is the second Twilight boss to fight."]
 	quest.1E077BC4B8832C98.title: "&fThe Yeti's Cave"
 	quest.1E2A91B73A752B3B.quest_desc: [
 		"The &aBiometric Identifier&r is a requirement for making the &dForcefield&r and the &eInterdiction Matrix&r function on an individual level, such as being able to sneak to walk through field blocks."
@@ -1951,8 +1975,6 @@
 		"The &3Vault&r comes alive once the jukebox is activated with its favorite song."
 		""
 		"&eNote&r: This vault is dangerous. Come prepared for a fight!"
-		""
-		"&7&oThe Compass given can be Sneak + Right-clicked when at least 256 blocks from the vault to instantly teleport to the entrance!&r"
 	]
 	quest.2D110AB9A38178C5.title: "&fFlame of the Disco"
 	quest.2D1B390B363E0F27.quest_desc: [
@@ -2096,11 +2118,9 @@
 		"With the &2Yeti&r defeated, you will have access to 2 new vaults to find."
 		""
 		"Found within the upper levels of the &bTwilight Forest&r ring, you can run into a vault of the &aSnow Queen's Castle&r."
-		""
-		"&7&oThe Compass given can be Sneak + Right-clicked when at least 256 blocks from the vault to instantly teleport to the entrance!&r"
 	]
 	quest.30902357747A64F1.title: "&fThe Snow Queen's Palace"
-	quest.309D995CCCDB3AEE.quest_desc: ["The &dWyrmwright&r has provided you with the &aChronon Battery&r, a tool capable of accessing &zThe Fractured Void&r."]
+	quest.309D995CCCDB3AEE.quest_desc: ["The &dWyrmwright&r has provided you with a &aChronon Battery&r infused with her powers, allowing this tool to access &zThe Fractured Void&r."]
 	quest.309D995CCCDB3AEE.title: "&fSpeak to &dThe Wyrmwright&f"
 	quest.30DC15C5BF42A9DE.title: "Ocean East"
 	quest.30EE07811728D901.quest_desc: [
@@ -2220,9 +2240,8 @@
 		"Once both the &aSnow Queen&r and the &2Hydra&r have been defeated, there is one final vault that unlocks."
 		""
 		"The vault of the &dKnight Phantoms&r will be your final puzzle and fight within the &bTwilight Forest&r ring."
-		""
-		"&7&oThe Compass given can be Sneak + Right-clicked when at least 256 blocks from the vault to instantly teleport to the entrance!&r"
 	]
+	quest.32653261B16850B3.quest_subtitle: "Minor World Engine Upgrade"
 	quest.32653261B16850B3.title: "&fThe Final Twilight Vault"
 	quest.32A6859ECF7E775F.title: "Enchanter Check 1"
 	quest.32ACE9E47B8A6C87.quest_desc: [
@@ -2279,7 +2298,7 @@
 		"It can also be used to craft 4 &2Processors&r at once!"
 	]
 	quest.3371E3F69A27D1E5.quest_desc: [
-		"There seems to have been an error locating the final &dEchos&r."
+		"There seems to have been an error locating the final &dEchoes&r."
 		""
 		"The system seems to refer to them differently to the ones you've met thus far."
 		""
@@ -2318,7 +2337,6 @@
 		"&bSponge Modules&r affect the &lentire&r space enclosed by a mode's field, evaporating all fluids present within."
 	]
 	quest.3435641A78B90D97.title: "&fAffecting the Area"
-	quest.34B2900863004CC2.title: "Pre-Knight compass give"
 	quest.34C8824842867F5D.quest_desc: ["The &zMighty Ender Chicken&r has a home on both the North and South parts of the map, specifically in &eEnd&r ring. Rumor has it, the chicken has an impenetrable shield. Perhaps a &bChicken Stick&r might help with that..."]
 	quest.34C8824842867F5D.title: "&eKill&f: &zMighty Ender Chicken"
 	quest.34D191F76AA69707.quest_desc: [
@@ -2413,7 +2431,7 @@
 		""
 		"The &cResistive Heater&r, however, specializes in converting power directly into heat. It allows for fine-tuning how much power is converted, and generates significantly more heat."
 	]
-	quest.370B05FC62884456.quest_subtitle: "Major World Engine Upgrade"
+	quest.370B05FC62884456.quest_subtitle: "Minor World Engine Upgrade"
 	quest.370B05FC62884456.title: "&fHeating Things Up"
 	quest.37104662F0BDDE66.quest_desc: [
 		"&eApplied Energistics&r (&eAE2&r) is a highly customizable &bdigital storage mod&r."
@@ -2740,8 +2758,6 @@
 		"With the &2Yeti&r defeated, you will have access to 2 new vaults to find."
 		""
 		"Found within the lower levels of the &bTwilight Forest&r ring, you can find the &aHydra's Lair Vault&r."
-		""
-		"&7&oThe Compass given can be Sneak + Right-clicked when at least 256 blocks from the vault to instantly teleport to the entrance!&r"
 	]
 	quest.3D0CE267A8FD95CD.title: "&fThe Hydra's Lair"
 	quest.3D0DC34C36A173F5.quest_desc: ["&eOritech's &2Exo Suit&r provides very useful effects for exploring the world, but provide no protection against the dangers of leaving your home."]
@@ -2778,7 +2794,7 @@
 		""
 		"[\"You can open the menu by using the item or with the keybind \", { \"keybind\": \"ftbpackcompanion.key.open_action_pad\", \"color\": \"green\" }, \".\"]"
 		""
-		"Many other teleportation options will appear as you meet the various &dEchos&r and progress through the pack."
+		"Many other teleportation options will appear as you meet the various &dEchoes&r and progress through the pack."
 		""
 		"If you ever lose your device you can claim a replacement in the questbook emergency items tab. "
 	]
@@ -2879,8 +2895,6 @@
 		"&eNote&r: It might be worth making an &aExplorer's Compass&r to help locate the &3Vault&r!"
 		""
 		"If you manage to find your way through this &3Vault's&r puzzles, the &dChroniton Star&r should be yours for the taking."
-		""
-		"&7&oThe Compass given can be Sneak + Right-clicked when at least 256 blocks from the vault to instantly teleport to the entrance!&r"
 	]
 	quest.3FA9D6A475E4D1C6.title: "&fFinding the &2Chroniton Star"
 	quest.3FD6F10BE6F06FFF.quest_desc: ["Each &dAssembler Matrix Craft Core&r can run up to 8 crafting jobs simultaneously."]
@@ -2929,6 +2943,12 @@
 	quest.4094F70F627F492C.quest_desc: ["The &6World Engine&r can actually use the &zBlack Hole&r as an upgrade, but will need a container for it."]
 	quest.4094F70F627F492C.quest_subtitle: "Major World Engine Upgrade"
 	quest.4094F70F627F492C.title: "Powering The &zVoid&r"
+	quest.40DDD27BA5E191FA.quest_desc: [
+		"This compass points to the location of a &3Vault."
+		""
+		"&7&oThe Compass can be Sneak + Right-clicked when at least 256 blocks from the vault to instantly teleport to the entrance!&r"
+	]
+	quest.40DDD27BA5E191FA.title: "&fLocating The &3Vault"
 	quest.4101E75F69C9909F.quest_desc: [
 		"The &dQuantum Item Orchestration&r (&dQIO&r) system is &eMekanism's&r wireless, power-free, and expandable digital storage solution."
 		""
@@ -3165,12 +3185,14 @@
 		"A &bReactor Coolant Port&r must be placed on the outer ceiling of the &dReactor&r, with &bHeat Absorbers&r beneath it."
 	]
 	quest.456030ECDFA9CE3B.title: "&bReactor Heat Absorbers"
-	quest.456B067C9CC123AD.quest_desc: ["Once you've crafted a &cHeater&r, you should return to the &dFabricator&r to learn how to use it with the &6World Engine&r."]
-	quest.45A3E686E32AB95D.quest_desc: [
-		"Found within the &bTwilight Forest&r ring, the vault of the &aLich&r is the first of five Twilight bosses you need to find."
+	quest.456904808D93A9E3.quest_desc: [
+		"This compass points to the location of a &3Vault."
 		""
-		"&7&oThe Compass given can be Sneak + Right-clicked when at least 256 blocks from the vault to instantly teleport to the entrance!&r"
+		"&7&oThe Compass can be Sneak + Right-clicked when at least 256 blocks from the vault to instantly teleport to the entrance!&r"
 	]
+	quest.456904808D93A9E3.title: "&fLocating The &3Vault"
+	quest.456B067C9CC123AD.quest_desc: ["Once you've crafted a &cHeater&r, you should return to the &dFabricator&r to learn how to use it with the &6World Engine&r."]
+	quest.45A3E686E32AB95D.quest_desc: ["Found within the &bTwilight Forest&r ring, the vault of the &aLich&r is the first of five Twilight bosses you need to find."]
 	quest.45A3E686E32AB95D.title: "&fThe Lair of the Lich"
 	quest.45B2C8BD2ACBA46D.quest_desc: [
 		"The &dReactor&r needs to be made of rectangular walls, where the frame is made of &aReactor Wall&r blocks. The max size of a Reactor is 64 blocks per direction. Its interior needs to be identical in the vertical (y) axis."
@@ -3915,11 +3937,6 @@
 		""
 		"Once an item is set in a &dMemory Chip&r and requested from a &aReplication Terminal&r, the job is sent to available &aReplicators&r to be crafted using stored matter."
 	]
-	quest.56279976861A0A95.quest_desc: [
-		"-Green: easy to access, easy to tell in JEI"
-		"-Yellow: requires deeper progression than others or harder to figure out"
-		"-Red: convoluted to access and/or view, or fully inaccessable"
-	]
 	quest.56519A6A39FA9430.quest_desc: [
 		"Via the &dField Projector's&r matrix slots, additional tweaks can be applied to the field's area. You can insert more than one of each, but most will not stack."
 		""
@@ -3956,6 +3973,12 @@
 		"An &bAnti-Spawn Module&r will prevent any and all mobs from spawning in the working radius of the &ematrix&r."
 	]
 	quest.56E9C123DD727E46.title: "&aMatrix Motivators"
+	quest.56FB1BC5711CC4F9.quest_desc: [
+		"This compass points to the location of a &3Vault."
+		""
+		"&7&oThe Compass can be Sneak + Right-clicked when at least 256 blocks from the vault to instantly teleport to the entrance!&r"
+	]
+	quest.56FB1BC5711CC4F9.title: "&fLocating The &3Vault"
 	quest.575A111D4418BFB6.quest_desc: [
 		"The &6Metronome&r is the ultimate &bChronon&r generation tool."
 		""
@@ -4223,13 +4246,7 @@
 		"&eNote&f: Any blocks placed where an upgrade should go will be voided."
 	]
 	quest.5C8773D5561D7245.title: "&fAuto-Build The &3Awakened Core Upgrade"
-	quest.5CD461E6C3E8E7D1.quest_desc: [
-		"Found within the &3Deepslate&r ring, this vault is easy to get lost in."
-		""
-		"&eNote&r: It might be worth making an &aExplorer's Compass&r to help locate the vault!"
-		""
-		"&7&oThe Compass given can be Sneak + Right-clicked when at least 256 blocks from the vault to instantly teleport to the entrance!&r"
-	]
+	quest.5CD461E6C3E8E7D1.quest_desc: ["Found within the &3Deepslate&r ring, this vault is easy to get lost in."]
 	quest.5CD461E6C3E8E7D1.title: "&3The Maze Vault"
 	quest.5CD7299E8709E7F6.quest_desc: [
 		"The &aWorker Token&r that the villager converted into was just an example of what the &aEcho Encoder&r can do."
@@ -4693,6 +4710,12 @@
 	]
 	quest.6755CACD4957A4CB.title: "&aTier 1&f CAD Core"
 	quest.67747675548AAC80.quest_subtitle: "Unearther, Archaeologist"
+	quest.6781D1A7A53A5F1D.quest_desc: [
+		"This compass points to the location of a &3Vault."
+		""
+		"&7&oThe Compass can be Sneak + Right-clicked when at least 256 blocks from the vault to instantly teleport to the entrance!&r"
+	]
+	quest.6781D1A7A53A5F1D.title: "&fLocating The &3Vault"
 	quest.67AA6621E5A00E37.title: "Twilight Check 1"
 	quest.67AD604F2C4E5CC9.quest_desc: [
 		"Not every &bFluid Cow&r can be made by breeding or using the &aClapple&r."
@@ -4804,6 +4827,8 @@
 		"This pack comes with random events that are disabled by default. To enable them, complete this quest!"
 		""
 		"&eNote&r: Some events might contain jump scares. You can toggle each event using the command &b/events toggle <event>&r."
+		""
+		"For example, if you want to disable the jump scare event, you can use the command &a/events toggle ftb:creeper&r. "
 	]
 	quest.6B387999FBEE2E9E.title: "&6FTB Events"
 	quest.6B391D0B32AF8529.quest_desc: ["After you've crafted enough &2Shadow Steel&r, you should return to the &dMachinist&r to learn where to place it in the &6World Engine&r."]
@@ -4895,6 +4920,8 @@
 		"These can be made once you've defeated the &dChicken Jockey&r and made &dShadowpulse Goo&r. "
 	]
 	quest.6C7F31673B12795D.title: "&dEclipse Alloy &fWeapons"
+	quest.6C94998689192C2E.quest_desc: ["If you don't want to take a chance on &aChance Cubes&r, you can always sell them here!"]
+	quest.6C94998689192C2E.title: "No Chance"
 	quest.6C974CC33C5BADD8.quest_desc: ["Generates power by consuming Liquid Meat and any ingot."]
 	quest.6D0C1811DA909BBD.quest_desc: [
 		"The &dAncient City Vault&r is filled with loot, but the most important item comes from the boss."
@@ -4957,6 +4984,12 @@
 		""
 		"These can also be bought from the &zShop&r!"
 	]
+	quest.6F258F4C7BE2EE44.quest_desc: [
+		"This compass points to the location of a &3Vault."
+		""
+		"&7&oThe Compass can be Sneak + Right-clicked when at least 256 blocks from the vault to instantly teleport to the entrance!&r"
+	]
+	quest.6F258F4C7BE2EE44.title: "&fLocating The &3Yeti"
 	quest.6F4A4B4C261FF84B.quest_desc: ["Generates power by consuming Furnace Fuels."]
 	quest.6F53C65C3131B68A.quest_desc: [
 		"The &2Archaeologist&r is a master of soft materials, and can work through &2Dirt&r, &eSand&r, &eDust&r, and &7Mud&r. They require a &aDecorated Pot&r as a workstation."
@@ -5337,6 +5370,8 @@
 		"The &aCobble Generators&r will generate cobblestone over time, with higher tiers generating more per tick."
 		""
 		"You can also create an &aAuto Hammer&r to break the cobble down into the different blocks needed for the &aUnearther&r!"
+		""
+		"&eNote&r: &cLava&r can easily be acquired by using the gift you get from meeting the &dEcho of the Machinist&r. You can also get it from the &cNether&r ring."
 	]
 	quest.75F6827C1FB52C91.title: "&fCobble Generators&r"
 	quest.7614FCF3E2012C48.title: "&dPsimetal Exosuit"
@@ -5683,8 +5718,14 @@
 		""
 		"To fuel it, open up the interface with Ender Pearls in your inventory, then click the + buttons at the bottom of the GUI to add them in as fuel."
 	]
-	quest.7C94432EFD49611F.quest_desc: ["The &dEcho of Infinity&r is basically a God."]
-	quest.7C94432EFD49611F.title: "&fMeet &6Infinity"
+	quest.7C94432EFD49611F.quest_desc: [
+		"&zInfinity&r is the sole being holding back the collapse of reality as you know it."
+		""
+		"Work with them to unlock the &3Infinity World Engine Upgrade&r."
+		""
+		"&7&oIt all comes down to this."
+	]
+	quest.7C94432EFD49611F.title: "&fMeet &zInfinity"
 	quest.7C9B4CE2A2F62096.quest_desc: [
 		"Using the &aPressurized Reaction Chamber&r, we can use Substrates to make &6HDPE Pellets&r. These advanced pellets are used to create many high tier items and machines!"
 		""
@@ -5710,7 +5751,7 @@
 	quest.7D1FB9A40B5CAE97.quest_desc: [
 		"&bCheck&f: Getting Worker Token"
 		""
-		"&bUnlocks&f: Doors to T1 Echos and Chapter 1"
+		"&bUnlocks&f: Doors to T1 Echoes and Chapter 1"
 	]
 	quest.7D1FB9A40B5CAE97.title: "Guidance 1.3 check"
 	quest.7D2A583FBDCE4FC7.quest_desc: [
@@ -5859,6 +5900,8 @@
 	reward.00D18DF325869C86.title: "Assemble The &3Dark Void Upgrade"
 	reward.00EC1162EB842D86.title: "Void South"
 	reward.042C6860A26F6057.title: "End West"
+	reward.0443CD112299BF32.title: "&3Infernal's Vault Compass"
+	reward.0491A1C974F9FE0A.title: "&3Catalyst's Southern Vault Compass"
 	reward.053BB94B773511FC.title: "{\"translate\": \"ftb.shop.notification\"}"
 	reward.07015FDD343B3E88.title: "Wyvern Bow"
 	reward.07FDE2A45E2F6200.title: "{\"translate\": \"ftb.shop.notification\"}"
@@ -5870,6 +5913,7 @@
 	reward.0D23EB824CB0A0C2.title: "Void East"
 	reward.0E91DBA45C7125BF.title: "&eUnlock&f: &6World Engine"
 	reward.0F2B93D49D8DA760.title: "Wyrmwright Archive Waypoint"
+	reward.0FF3057EB81C70D6.title: "&3Catalyst's Northern Vault Compass"
 	reward.11F46FD8EC5EE6C8.title: "Assemble The &3Euphonium Upgrade"
 	reward.1214107708FB3198.title: "Assemble The &3Quantum Tunnel Upgrade"
 	reward.12870B6226B417AF.title: "Assemble The &3Spirit Upgrade"
@@ -5899,6 +5943,7 @@
 	reward.266BE24BD00654A1.title: "Chaotic Bow"
 	reward.2730B9B9300AA75C.title: "&e+1 &3Unearther Level"
 	reward.27EBCAD2651AD138.title: "Void North"
+	reward.29048AE32290DDAB.title: "&3Wayfinder's Vault Compass"
 	reward.2A85D0C9269D0EE5.title: "Infernal Archive Waypoint"
 	reward.2AA4A91EF3A6EE48.title: "{\"translate\": \"ftb.shop.notification\"}"
 	reward.2B0BC74A9E61D881.title: "Draconic Capacitor"
@@ -5909,6 +5954,7 @@
 	reward.2F7B82DA30E186CA.title: "&e+1 &3Unearther Level"
 	reward.307426CA8BF12CAC.title: "&dWayfinder &fWaypoint"
 	reward.30A58719DB130EE9.title: "&dFabricator &fWaypoint"
+	reward.30CB65204A6F6DFE.title: "&3Yeit Vault Compass"
 	reward.31A55C1C7979AC74.title: "End East"
 	reward.31B152CBB7E9CDAD.title: "Nether West"
 	reward.31B318A2B60F4CC5.title: "Assemble The &3Shadow Casing Upgrade"
@@ -5921,14 +5967,17 @@
 	reward.3982DCDCE0A66B83.title: "{\"translate\": \"ftb.shop.notification\"}"
 	reward.39A9BA8313470A5D.title: "Catalyst Archive Waypoint"
 	reward.3C0E24CCC82A480D.title: "Assemble The &3Fortron Upgrade"
+	reward.3C14C643B8F3E2E6.title: "&3Knight Vault Compass"
 	reward.3CC21684802E95E5.title: "Wyvern Pickaxe"
 	reward.3E2DC10E8591B9CC.title: "Wyvern Capacitor"
 	reward.3E8E67868DA564D2.title: "&dLight Bender &fWaypoint"
+	reward.3F7CFC203230D314.title: "&3Hydra Vault Compass"
 	reward.3FBE85B391697AA3.title: "Ocean East"
 	reward.419A1C4D9279BF50.title: "Nether East"
 	reward.4348C140262F1176.title: "Assemble The &3Twilight Upgrade"
 	reward.437C0250BD2823D8.title: "Assemble The &3Resonant Void Upgrade"
 	reward.444D56BB0340167E.title: "Assemble The &3Ender Power Upgrade"
+	reward.4765C42AB1F8D1A6.title: "&3Machinist's Vault Compass"
 	reward.476F60C6DEB324A9.title: "Draconic Bow"
 	reward.495DF49EBBF0B77D.title: "Boon of the Earth 5"
 	reward.4A3B5AA97272B2D2.title: "Draconic Axe"
@@ -5974,6 +6023,7 @@
 	reward.6A9CBD374B41A598.title: "&dCatalyst &fWaypoint"
 	reward.6AA784677A036A36.title: "Draconic Pickaxe"
 	reward.6AE5675C3DAAB1D9.title: "Ocean North"
+	reward.6B56D274F5BC5918.title: "&3Light Bender's Vault Compass"
 	reward.6B6E3D9E6F38918E.title: "&dTier 3 Glyph"
 	reward.6E2831AAACB7E9AD.title: "Draconic Chestpiece"
 	reward.6E69E924D695FE30.title: "{\"translate\": \"ftb.shop.notification\"}"
@@ -5987,8 +6037,11 @@
 	reward.7834CF7F86C29EE0.title: "Twilight North"
 	reward.798A5012C244EC87.title: "Wayfinder Archive Waypoint"
 	reward.7AA9A619B211B53A.title: "Wyvern Chestpiece"
+	reward.7B2611299CAA750F.title: "&3Light Bender's Vault Compass"
 	reward.7DA1DB3A1F6C52A0.title: "{\"translate\": \"ftb.shop.notification\"}"
 	reward.7DB306ACACBC5FA3.title: "Twilight West"
+	reward.7FE6F3BEF5E57A43.title: "&3Lich Vault Compass"
+	reward.7FF100558F845196.title: "&3Snow Queen Vault Compass"
 	reward_table.01A8F0EB2209A24F.title: "Basic Draconic Gear"
 	reward_table.0C5DDA99EE8027D3.title: "Gifts of Stone"
 	reward_table.1320ECC4666318A7.title: "Glyphs"
@@ -6025,12 +6078,14 @@
 	task.00ABB62332FC4C09.title: "&fSpeak With The &dEcho of The Catalyst"
 	task.00F90C52CBAECEBB.title: "&dSpell &aInks"
 	task.0119636863DFB474.title: "Speak to Guidance"
+	task.011E0B1769C2E749.title: "Get Compass"
 	task.012649B3BEFFCA3E.title: "Geologist Brushing Blocks"
 	task.018BA3043844C4CB.title: "Block Interaction Machines"
 	task.01AB71CC57E2057D.title: "Any #minecraft:candles"
 	task.0269945CD49FAC4A.title: "Any #c:seeds/tiered"
 	task.0284D9E486F445FC.title: "&fLocate the Hydra Vault"
 	task.0287C11F3728514E.title: "World Engine Craft Unlocks"
+	task.02BDD5049712DA5A.title: "Cooldown Timer"
 	task.02CC4D7DB653D0B6.title: "Check"
 	task.02E900C9DF62699B.title: "Any #irons_spellbooks:add_to_lectern_and_bookshelf"
 	task.045D6D51D5A394B8.title: "Early Power"
@@ -6046,7 +6101,9 @@
 	task.061CA75E28BD6BF6.title: "Speak with the &dEcho of The Wyrmwright"
 	task.0645EC76DE0EB57B.title: "Cooldown Timer"
 	task.06483FBA8021FDEF.title: "Moving Mobs"
+	task.066A7BE3718D79B1.title: "Cooldown Timer"
 	task.0675F9CC003D7723.title: "Chesed Arena"
+	task.06AA7AE5C6C5D694.title: "Get Compass"
 	task.06F0C110F6DF4933.title: "Color Guide"
 	task.0707B05028ADBA69.title: "&eKill&f: &6The Harbinger"
 	task.075F7BA7175B340A.title: "Unearther Levels"
@@ -6093,6 +6150,7 @@
 	task.111E92A0F608B427.title: "Start of Foundation Chapter"
 	task.1159F04F98B724A1.title: "Burning Disco Vault"
 	task.115D12D9D3CB1F13.title: "Cooldown Timer"
+	task.1194939A262B7C67.title: "Cooldown Timer"
 	task.11B86810F19A15B9.title: "Runes"
 	task.11F49F841465DAAD.title: "Ferricore Weapons"
 	task.1211B7B1BC40225B.title: "Controllers"
@@ -6139,7 +6197,9 @@
 	task.1C3B92648D279809.title: "&eLocate&f: &dInfernal"
 	task.1C618817AA660A51.title: "Cooldown Timer"
 	task.1CFBFD68628474D1.title: "EchoLocation"
+	task.1D26E53A98EE8E4D.title: "Cooldown Timer"
 	task.1D40F0B8F9A522A0.title: "&eLocate&f: &dFabricator"
+	task.1DF6D23F11B7296E.title: "Get Compass"
 	task.1E31F492D8779AB6.title: "Cobble Generators"
 	task.1E4CCF6176F19AA2.title: "Get a compass for Healing Spring"
 	task.1E5E244A9DF5B9B8.title: "Level 1"
@@ -6157,6 +6217,7 @@
 	task.236F4615115C9D2E.title: "&fLocate the Knight Vault"
 	task.238BCDF15FC7E9CB.title: "Speak With The &dEcho of Guidance"
 	task.243CF5EB168426DC.title: "Check"
+	task.2448423EA50BA0ED.title: "Get Compass"
 	task.24555C39800B508A.title: "Cooldown Timer"
 	task.24B4FAC2831477B4.title: "&eLocate&f: &3Ancient City"
 	task.24F1AD47BF873ABE.title: "magician"
@@ -6212,13 +6273,17 @@
 	task.2D717F3B3573B504.title: "&bUpgraded Addons"
 	task.2DCE94139CB2078D.title: "Drawer Item Management"
 	task.2DD1C42797FC03F0.title: "&fSpeak With The &dEcho of The Enchanter"
+	task.2DF0651CE18A8870.title: "Get Compasses"
+	task.2E03E2C049C17CA4.title: "Cooldown Timer"
 	task.2E08C0DD181858C1.title: "&eLocate&f: &dWayfinder"
 	task.2E0D7FA5FBCAFA4D.title: "check"
 	task.2E42256C51193994.title: "wyrmright"
+	task.2E6525F818D07426.title: "Cooldown Timer"
 	task.2E6B8DF43B7A85E7.title: "Any Basic CAD Assembly"
 	task.2EE249AC7D3DFA9A.title: "Cooldown Timer"
 	task.2EFD3D6830A8480A.title: "&eLocate&f: &3Echoing Dread Vault"
 	task.2F3D8C75AD838DC1.title: "&6Echo Unlock Fortronist"
+	task.2F84191A75EBFBB0.title: "Get Compass"
 	task.2F94FA9842248FA3.title: "Snow Queen Vault"
 	task.2FF95590BE56EE26.title: "&fSpeak With The &dEcho of Twilight"
 	task.30B05842C5C7D548.title: "Powah Batteries"
@@ -6250,17 +6315,21 @@
 	task.35F9337A21031B7C.title: "Any Tier 3 CAD Core"
 	task.3602BC5A7FA7DDB8.title: "Basic Energy Transfer"
 	task.36114BC736C0EB31.title: "Unlocks Machinist"
+	task.367FD95D506DE27B.title: "Get Compass"
 	task.36851BEF447522C1.title: "fabricator"
 	task.368FF30FEFA57F73.title: "Ring Generation"
 	task.36D65F0F76F3F5E9.title: "Ultimine Notes"
 	task.36E4280D3F1F4D95.title: "&bCelestigem Armor"
+	task.37110580092A6E78.title: "Cooldown Timer"
 	task.376297FFB45E51A2.title: "end west"
 	task.379AF15FE59B449C.title: "All About Chronon"
 	task.37AD604DC3429E57.title: "Enderium WE Crafts"
 	task.37C9E3F65AE092C6.title: "end north"
 	task.37F6704E46F8E7BC.title: "Loot"
 	task.3806016FFDCF244F.title: "Cooldown Timer"
+	task.383794D054B8E0E1.title: "Get Compass"
 	task.387AEDAFD8378A6D.title: "Chicken Jockey South"
+	task.388714C70D55C2C0.title: "Get Compass"
 	task.38B484C5F2CD48C9.title: "EchoLocation"
 	task.38F70B93B01BA8DA.title: "&eKill&f: Phantom Knight"
 	task.398CB19DF3238318.title: "Non-Typed Storage Disks"
@@ -6310,11 +6379,13 @@
 	task.4309B43CD4447705.title: "Construction Sticks"
 	task.4321D68C7B5CA800.title: "Level 4"
 	task.435C5B6B77C3D7B4.title: "Reconstructed Materials"
+	task.4404D4CA07F1B536.title: "Get Compass"
 	task.4436C5870B83BA75.title: "nether east"
 	task.4483C09E6123BC4C.title: "Items Unlocked via World Craft"
 	task.4497434CDD9642C0.title: "Villager Trading"
 	task.44BC8362B01E30DC.title: "ocean north"
 	task.44F14FF1208B0B03.title: "AIOTs"
+	task.459AEFEC8F060222.title: "Get Compass"
 	task.45B09FA666AC50A6.title: "tier 2 echoes"
 	task.45B385C4A1E03540.title: "Dungeon Vault"
 	task.45C3B788492E3C09.title: "&eObserve&f: &2Grass Block"
@@ -6327,6 +6398,7 @@
 	task.478D81CA3E31709A.title: "EchoLocation"
 	task.47CDD3AB69EDD87A.title: "Lich Vault"
 	task.48521259017869AC.title: "Generation 4"
+	task.4885C6A872DD31E6.title: "Cooldown Timer"
 	task.488B1E7E0EBA64D2.title: "Cooldown Timer"
 	task.48DEF5D938C94BF6.title: "&fIndustrial Foregoing Options"
 	task.491E250D69066BBC.title: "&eKill&f: &7Wither"
@@ -6336,6 +6408,7 @@
 	task.49DF96867DE0BB9D.title: "Spirits"
 	task.49E3AB30A12DF498.title: "&6Echo Unlock Chaos"
 	task.4A252C67885BD891.title: "Level 2 Dirt Products"
+	task.4A3E583E141A73F5.title: "Get Compass"
 	task.4A5574B73D5286B1.title: "Runes"
 	task.4A84D885C313D512.title: "Stack Upgrades"
 	task.4AEB443222A345F9.title: "Echo-Location"
@@ -6379,6 +6452,7 @@
 	task.52E6F8489C66A549.title: "Soulstained Armor"
 	task.53399AACBE5CBD31.title: "Soulstained Gear"
 	task.53A4AB98C92B3D57.title: "Any Tier 2 CAD Socket"
+	task.53B81DDD6321D728.title: "Get Compass"
 	task.53DA98367BF86C09.title: "power check"
 	task.53DCB3C11B6D07C7.title: "Items Unlocked via World Craft"
 	task.54161E44D6EC0403.title: "ancient"
@@ -6411,6 +6485,7 @@
 	task.58BD6F9BD3D252EE.title: "World Engine Craft Unlocks"
 	task.58DC7CD2A4F595DD.title: "&eKill&f: &dArchevoker"
 	task.5926E51F4409C90C.title: "extras"
+	task.593AA0179354204B.title: "Get Compass"
 	task.59454DA41C1C27D5.title: "Any Rune"
 	task.59521977C507A466.title: "Speak to the &dEcho of Guidance"
 	task.598209AB20C523FC.title: "Inferno Vault"
@@ -6450,6 +6525,7 @@
 	task.5D6384EA6154EF7C.title: "Cooldown Timer"
 	task.5DB582096285438A.title: "&eLocate&f: &dQuartermaster"
 	task.5DEDD864CB2276F1.title: "&bEfficiency Upgrades"
+	task.5E1DA99A3C6FAB9B.title: "Get Compass"
 	task.5E3DB978C813B92A.title: "Controller Access Points"
 	task.5E4795D98A4F96E5.title: "Celestigem Tools"
 	task.5EA5666395E5AAEC.title: "&eLocate&f: &dMagician"
@@ -6474,12 +6550,14 @@
 	task.620B0BA6A6337A57.title: "tf south"
 	task.623C40B073B6326E.title: "Eclipse Alloy Armor"
 	task.62978C611C641A3D.title: "&fME Interface"
+	task.62B8DF25CDC4F6E7.title: "Get Compass"
 	task.62D52342AFC4B5B5.title: "Generation 5"
 	task.62DE6121CE506116.title: "Pipe Upgrades"
 	task.63405599D33D4D0A.title: "Mid Game Generators"
 	task.639A8E9CF51A8596.title: "Plant Farming"
 	task.63A8F38180C3FD30.title: "Tree Farming"
 	task.63C4D2F3F7059C8E.title: "Backpack Pickup Upgrades"
+	task.63FA6779F7687346.title: "Get Compass"
 	task.6403B80C8DFFEB46.title: "&eKill&f: Twilight Lich"
 	task.6405640824417BB2.title: "EchoLocation"
 	task.64439911825F80B2.title: "Block Wands"
@@ -6499,6 +6577,7 @@
 	task.66F6B411E884E391.title: "end east"
 	task.671339615BA68B10.title: "&eKill&f: &bCryomancer"
 	task.6751D267B2D7A52D.title: "Uncovering The Lost Echoes"
+	task.677EF48A90EB528C.title: "Cooldown Timer"
 	task.678E1BECB4BB8A9A.title: "Generation 2"
 	task.684A45E0379D0386.title: "vault"
 	task.68A1DE705F7F836C.title: "Click to Enable Events"
@@ -6537,6 +6616,7 @@
 	task.6FA17DE3B63BDA1A.title: "Compacting Drawers"
 	task.6FCBB412F4BBBAEB.title: "&aEcho Unlock Fabricator"
 	task.6FD8E3AAD2A0F9EC.title: "Cooldown Timer"
+	task.706A41E926E2B1A2.title: "Cooldown Timer"
 	task.70D4BC76C32CE0A3.title: "quartermaster"
 	task.70DC330B1BB5FE90.title: "&fSpeak With The &dEcho of The Wyrmwright"
 	task.716711D72FE69FF5.title: "Typed Storage Cells"
@@ -6597,6 +6677,7 @@
 	task.7D8611641B6611FB.title: "&fSpeak With The &dEcho of Guidance"
 	task.7D9038B9019EBFEC.title: "&eFind&f: &dcataclysm:ruined_citadel"
 	task.7D91A1EAA7FEC6BD.title: "Things the Guides Should Say"
+	task.7DD8D0EDE1FAF2DE.title: "Get Compass"
 	task.7E02151602B34E2A.title: "Dimensional Storage Stabilizer"
 	task.7E4EF12285852B6E.title: "Plant Harvesting Options"
 	task.7ECEEC776BBA8B53.title: "Speak With The &dEcho of Guidance"
