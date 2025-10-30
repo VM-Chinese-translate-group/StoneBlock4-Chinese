@@ -2480,7 +2480,7 @@
 	quest.39F6026AB205841A.quest_desc: [
 		"虽然该整合包包含&eFTB Ultimine&r模组，但它不能连锁挖掘&a石头&r！"
 		""
-		"[\"连锁破坏可以通过快捷键切换使用 \", { \"keybind\": \"key.ftbultimine\", \"color\": \"green\" }, \"。\"]"
+		"[\"按住\", { \"keybind\": \"key.ftbultimine\", \"color\": \"green\" }, \"来启用连锁破坏。\"]"
 		""
 		"同时需要手持工具才能生效。"
 	]
@@ -2696,7 +2696,7 @@
 	quest.3DF42A6D832C0492.quest_desc: [
 		"&d操作板&r堪称时代的奇迹。它可以执行许多常用的指令，例如home、spawn，也能使用此设备传送到世界引擎。"
 		""
-		"[\"你可以使用它或按快捷键来打开它的菜单\", { \"keybind\": \"ftbpackcompanion.key.open_action_pad\", \"color\": \"green\" }, \"。\"]"
+		"[\"手持此物品右击或按快捷键\", { \"keybind\": \"ftbpackcompanion.key.open_action_pad\", \"color\": \"green\" }, \"来打开它的菜单。\"]"
 		""
 		"随着游戏的推进，你见到的&d回响&r越来越多，操作板中的传送选项也会越来越多。"
 		""
@@ -3685,9 +3685,9 @@
 	quest.51804232265672A9.quest_desc: [
 		"&aTrash Slot&r模组在你的物品栏界面中添加了一个能丢掉无用物品的槽位。"
 		""
-		"[\"这个槽位可以通过快捷键切换使用\", { \"keybind\": \"key.trashslot.toggle\", \"color\": \"green\" }, \"。\"]"
+		"[\"该槽位可以通过快捷键\", { \"keybind\": \"key.trashslot.toggle\", \"color\": \"green\" }, \"来开关。\"]"
 		""
-		"[\"你也可以在槽位开启时，使用快捷键快速清理物品\", { \"keybind\": \"key.trashslot.delete\", \"color\": \"green\" }, \"。\"]"
+		"[\"你也可以在槽位开启时，使用快捷键\", { \"keybind\": \"key.trashslot.delete\", \"color\": \"green\" }, \"快速清理物品。\"]"
 		""
 		"同时，在你的物品栏左上方有一个&a垃圾桶&r图标，你能使用它进行相同操作，并可以通过&a/trashcan&r指令打开。"
 	]
