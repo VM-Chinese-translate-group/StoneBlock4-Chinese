@@ -1,0 +1,25 @@
+{
+  "packId": 1373378,
+  "packName": "FTB StoneBlock 4",
+  "versionPattern": "ftb-stoneblock-4-{version}",
+  "infoFilePath": "CNPack/modpackinfo.json",
+  "sourceDir": "Source",
+  "attentionList": {
+    "folders": [
+      {
+        "path": "config/ftbquests/quests",
+        "ignoreDeletions": false
+      }
+    ],
+    "filePatterns": [
+      {
+        "pattern": "kubejs/assets/*/lang/en_us.json",
+        "ignoreDeletions": true
+      }
+    ]
+  },
+  "exclusionPatterns": [
+    "**/lang/*.*",
+    "!**/lang/en_us.*"
+  ]
+}
