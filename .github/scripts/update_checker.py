@@ -166,10 +166,18 @@ def main():
         print("Already up to date. Exiting.")
         return
 
-    # Create a map of full_name -> id for finding the local version's ID
-    versions_map = { f['displayName'].removesuffix('.zip'): f['id'] for f in files_data }
-    local_version_id = versions_map.get(local_full_name)
+    def normalize_name(name):
+        return name.lower().replace(" ", "-").removesuffix('.zip')
 
+    versions_map = { normalize_name(f['displayName']): f['id'] for f in files_data }
+    
+    normalized_local_name = normalize_name(local_full_name)
+    local_version_id = versions_map.get(normalized_local_name)
+    
+    if not local_version_id:
+        fileName_map = { normalize_name(f['fileName']): f['id'] for f in files_data }
+        local_version_id = fileName_map.get(normalized_local_name)
+        
     if not local_version_id:
         print(f"Warning: Could not find version ID for local version '{local_full_name}'. Diff report will not be generated.")
     
