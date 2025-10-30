@@ -1208,5 +1208,50 @@
 			x: 6.0d
 			y: 10.0d
 		}
+		{
+			can_repeat: true
+			dependencies: [
+				"22B94BDDC08B3FA9"
+				"2646D51DBAD8AD42"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: {
+				id: "explorerscompass:explorerscompass"
+			}
+			id: "40DDD27BA5E191FA"
+			optional: true
+			rewards: [{
+				auto: "enabled"
+				command: "/compass locate ftb:vault/create"
+				feedback_message: "Machinist's Vault Compass Acquired"
+				icon: {
+					id: "explorerscompass:explorerscompass"
+				}
+				id: "4765C42AB1F8D1A6"
+				permission_level: 3
+				silent: true
+				type: "command"
+			}]
+			shape: "diamond"
+			size: 0.75d
+			tasks: [
+				{
+					id: "459AEFEC8F060222"
+					type: "checkmark"
+				}
+				{
+					disable_toast: true
+					icon: {
+						id: "minecraft:clock"
+					}
+					id: "2E6525F818D07426"
+					tags: ["hourly"]
+					type: "custom"
+				}
+			]
+			x: 6.75d
+			y: 3.75d
+		}
 	]
 }
