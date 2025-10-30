@@ -1,7 +1,7 @@
 {
   "packId": 1373378,
   "packName": "FTB StoneBlock 4",
-  "versionPattern": "ftb-stoneblock-4-{version}",
+  "versionPattern": "FTB StoneBlock 4 {version}",
   "infoFilePath": "CNPack/modpackinfo.json",
   "sourceDir": "Source",
   "attentionList": {
