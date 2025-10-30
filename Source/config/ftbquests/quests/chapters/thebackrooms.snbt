@@ -1676,18 +1676,6 @@
 			rewards: [
 				{
 					auto: "enabled"
-					command: "/compass locate ftb:vault/create"
-					feedback_message: "Machinist's Vault Compass Acquired"
-					icon: {
-						id: "explorerscompass:explorerscompass"
-					}
-					id: "6F1F22E04B99B609"
-					permission_level: 3
-					silent: true
-					type: "command"
-				}
-				{
-					auto: "enabled"
 					description: "ftb.shop.notification.machinist"
 					icon: {
 						components: {
@@ -1911,18 +1899,6 @@
 				"3E1DB27DAB197F6B"
 			]
 			id: "23DC842244086CB9"
-			rewards: [{
-				auto: "enabled"
-				command: "/compass locate ftb:vault/portal"
-				feedback_message: "Machinist's Vault Compass Acquired"
-				icon: {
-					id: "explorerscompass:explorerscompass"
-				}
-				id: "03FA3D36C0FFD9B9"
-				permission_level: 3
-				silent: true
-				type: "command"
-			}]
 			tasks: [{
 				id: "635354D4093EF3EC"
 				stage: "echo_wayfinder_meet"
@@ -2124,18 +2100,6 @@
 				"787BD711CFF837C6"
 			]
 			id: "5E2764E8DB1B789B"
-			rewards: [{
-				auto: "enabled"
-				command: "/compass locate ftb:vault/mffs"
-				feedback_message: "Light Bender's Vault Compass Acquired"
-				icon: {
-					id: "explorerscompass:explorerscompass"
-				}
-				id: "1715C1CD29212F91"
-				permission_level: 3
-				silent: true
-				type: "command"
-			}]
 			tasks: [{
 				id: "6FD68EA32BE21762"
 				stage: "echo_light_bender_meet"
@@ -2150,18 +2114,6 @@
 				"1D52FC5D0EAD911B"
 			]
 			id: "375DBC764A420D98"
-			rewards: [{
-				auto: "enabled"
-				command: "/compass locate ftb:vault/burning_disco"
-				feedback_message: "Infernal's Vault Compass Acquired"
-				icon: {
-					id: "explorerscompass:explorerscompass"
-				}
-				id: "6E3E85E46CE763A0"
-				permission_level: 3
-				silent: true
-				type: "command"
-			}]
 			tasks: [{
 				id: "79C3DBBB466E5818"
 				stage: "echo_infernal_meet"
@@ -2191,29 +2143,6 @@
 			]
 			id: "55DF810785A9B938"
 			rewards: [
-				{
-					command: "/compass locate ftb:vault/jockey_north"
-					feedback_message: "Catalyst's Northern Vault Compass Acquired"
-					icon: {
-						id: "explorerscompass:explorerscompass"
-					}
-					id: "1FAF33A11484C6CC"
-					permission_level: 3
-					silent: true
-					type: "command"
-				}
-				{
-					auto: "enabled"
-					command: "/compass locate ftb:vault/jockey_south"
-					feedback_message: "Catalyst's Southern Vault Compass Acquired"
-					icon: {
-						id: "explorerscompass:explorerscompass"
-					}
-					id: "2CA4F7C9612E9579"
-					permission_level: 3
-					silent: true
-					type: "command"
-				}
 				{
 					auto: "enabled"
 					description: "ftb.shop.notification.catalyst"
@@ -2453,18 +2382,6 @@
 				"1F0F37429F1177DF"
 			]
 			id: "0BD2630DFA958C65"
-			rewards: [{
-				auto: "enabled"
-				command: "/compass locate ftb:vault/twilight/lich"
-				feedback_message: "Twilight's Lich Vault Compass Acquired"
-				icon: {
-					id: "explorerscompass:explorerscompass"
-				}
-				id: "5B7F80ED3DC07AE6"
-				permission_level: 3
-				silent: true
-				type: "command"
-			}]
 			tasks: [{
 				id: "5F9A79E270AA0E85"
 				stage: "echo_twilight_meet"
@@ -2698,42 +2615,6 @@
 			}]
 			x: 7.0d
 			y: 4.5d
-		}
-		{
-			dependencies: [
-				"3D0CE267A8FD95CD"
-				"30902357747A64F1"
-			]
-			id: "34B2900863004CC2"
-			rewards: [{
-				auto: "invisible"
-				command: "/compass locate ftb:vault/twilight/knight"
-				feedback_message: "Twilight's Knight Vault Compass Acquired"
-				icon: {
-					id: "explorerscompass:explorerscompass"
-				}
-				id: "21C2ED21EB2DCFB8"
-				permission_level: 3
-				silent: true
-				team_reward: true
-				type: "command"
-			}]
-			tasks: [
-				{
-					entity: "twilightforest:hydra"
-					id: "4B667299BFCCA718"
-					type: "kill"
-					value: 1L
-				}
-				{
-					entity: "twilightforest:snow_queen"
-					id: "21C1624E174E9336"
-					type: "kill"
-					value: 1L
-				}
-			]
-			x: 2.5d
-			y: 6.5d
 		}
 		{
 			can_repeat: true
