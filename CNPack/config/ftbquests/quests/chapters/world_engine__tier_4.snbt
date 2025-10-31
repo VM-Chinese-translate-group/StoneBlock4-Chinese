@@ -14,32 +14,32 @@
 		{
 			alpha: 155
 			color: 0
-			height: 9.0d
+			height: 9.5d
 			image: "ftb:textures/quests/backgrounds/smallbgs/roundedbg.png"
 			rotation: 0.0d
 			width: 4.0d
 			x: 0.0d
-			y: 2.75d
+			y: 3.0d
 		}
 		{
 			alpha: 155
 			color: 0
-			height: 9.0d
+			height: 9.5d
 			image: "ftb:textures/quests/backgrounds/smallbgs/roundedbg.png"
 			rotation: 0.0d
 			width: 4.0d
 			x: -6.0d
-			y: 2.75d
+			y: 3.0d
 		}
 		{
 			alpha: 155
 			color: 0
-			height: 9.0d
+			height: 9.5d
 			image: "ftb:textures/quests/backgrounds/smallbgs/roundedbg.png"
 			rotation: 0.0d
 			width: 4.0d
 			x: 6.0d
-			y: 2.75d
+			y: 3.0d
 		}
 		{
 			dependency: "43A632369D0E2CE0"
@@ -49,7 +49,7 @@
 			rotation: 0.0d
 			width: 4.0d
 			x: 0.0d
-			y: 11.5d
+			y: 12.0d
 		}
 		{
 			dependency: "43A632369D0E2CE0"
@@ -58,7 +58,7 @@
 			rotation: 0.0d
 			width: 4.0d
 			x: 0.0d
-			y: 11.5d
+			y: 12.0d
 		}
 		{
 			dependency: "3DCD6DC36B31EEF4"
@@ -77,7 +77,7 @@
 			rotation: 0.0d
 			width: 2.0d
 			x: -6.0d
-			y: 7.5d
+			y: 8.0d
 		}
 		{
 			dependency: "012DF07A81C69AAA"
@@ -86,7 +86,7 @@
 			rotation: 0.0d
 			width: 2.0d
 			x: 0.0d
-			y: 7.5d
+			y: 8.0d
 		}
 		{
 			dependency: "32653261B16850B3"
@@ -95,7 +95,7 @@
 			rotation: 0.0d
 			width: 2.0d
 			x: 6.0d
-			y: 7.5d
+			y: 8.0d
 		}
 		{
 			dependency: "6D0C1811DA909BBD"
@@ -105,7 +105,7 @@
 			rotation: 0.0d
 			width: 1.5d
 			x: -6.0d
-			y: 7.5d
+			y: 8.0d
 		}
 		{
 			dependency: "012DF07A81C69AAA"
@@ -115,7 +115,7 @@
 			rotation: 0.0d
 			width: 1.5d
 			x: 0.0d
-			y: 7.5d
+			y: 8.0d
 		}
 		{
 			dependency: "32653261B16850B3"
@@ -125,7 +125,7 @@
 			rotation: 0.0d
 			width: 1.5d
 			x: 6.0d
-			y: 7.5d
+			y: 8.0d
 		}
 	]
 	order_index: 4
@@ -358,7 +358,7 @@
 				}
 			]
 			x: -6.0d
-			y: 5.0d
+			y: 6.0d
 		}
 		{
 			dependencies: [
@@ -419,7 +419,7 @@
 				}
 			]
 			x: 0.0d
-			y: 2.0d
+			y: 1.5d
 		}
 		{
 			dependencies: [
@@ -458,7 +458,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 5.0d
+			y: 6.0d
 		}
 		{
 			dependencies: [
@@ -550,7 +550,7 @@
 				}
 			]
 			x: -6.0d
-			y: 2.5d
+			y: 3.0d
 		}
 		{
 			dependencies: [
@@ -596,7 +596,7 @@
 				type: "gamestage"
 			}]
 			x: 0.0d
-			y: 11.5d
+			y: 12.0d
 		}
 		{
 			dependencies: ["6D0C1811DA909BBD"]
@@ -644,7 +644,7 @@
 				type: "gamestage"
 			}]
 			x: -6.0d
-			y: 7.5d
+			y: 8.0d
 		}
 		{
 			dependencies: ["012DF07A81C69AAA"]
@@ -670,7 +670,7 @@
 				type: "gamestage"
 			}]
 			x: 0.0d
-			y: 7.5d
+			y: 8.0d
 		}
 		{
 			dependencies: ["32653261B16850B3"]
@@ -731,7 +731,7 @@
 				type: "gamestage"
 			}]
 			x: 6.0d
-			y: 7.5d
+			y: 8.0d
 		}
 		{
 			dependencies: ["45A3E686E32AB95D"]
@@ -790,7 +790,7 @@
 				}
 			]
 			x: 6.0d
-			y: 2.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["1E077BC4B8832C98"]
@@ -823,7 +823,7 @@
 				}
 			]
 			x: 6.5d
-			y: 3.5d
+			y: 4.25d
 		}
 		{
 			dependencies: ["1E077BC4B8832C98"]
@@ -856,7 +856,7 @@
 				}
 			]
 			x: 5.5d
-			y: 3.5d
+			y: 4.25d
 		}
 		{
 			dependencies: [
@@ -920,7 +920,7 @@
 				}
 			]
 			x: 6.0d
-			y: 5.0d
+			y: 6.0d
 		}
 		{
 			can_repeat: true
@@ -1043,7 +1043,7 @@
 				type: "item"
 			}]
 			x: -6.0d
-			y: 9.0d
+			y: 9.5d
 		}
 		{
 			can_repeat: true
@@ -1079,7 +1079,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 9.0d
+			y: 9.5d
 		}
 		{
 			can_repeat: true
@@ -1152,7 +1152,7 @@
 				}
 			]
 			x: 6.0d
-			y: 9.0d
+			y: 9.5d
 		}
 		{
 			can_repeat: true
@@ -1212,7 +1212,7 @@
 					type: "item"
 				}
 			]
-			x: -1.5d
+			x: -1.0d
 			y: 2.0d
 		}
 		{
@@ -1245,7 +1245,7 @@
 					type: "item"
 				}
 			]
-			x: 1.0d
+			x: 0.75d
 			y: 3.5d
 		}
 		{
@@ -1278,8 +1278,224 @@
 					type: "item"
 				}
 			]
-			x: -1.0d
+			x: -0.75d
 			y: 3.5d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"1F0F37429F1177DF"
+				"0BD2630DFA958C65"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: {
+				id: "explorerscompass:explorerscompass"
+			}
+			id: "0CE3C7A6DE787371"
+			optional: true
+			rewards: [{
+				auto: "enabled"
+				command: "/compass locate ftb:vault/twilight/lich"
+				feedback_message: "已获得暮光巫妖宝库指南针"
+				icon: {
+					id: "explorerscompass:explorerscompass"
+				}
+				id: "7FE6F3BEF5E57A43"
+				permission_level: 3
+				silent: true
+				type: "command"
+			}]
+			shape: "diamond"
+			size: 0.75d
+			tasks: [
+				{
+					id: "62B8DF25CDC4F6E7"
+					type: "checkmark"
+				}
+				{
+					disable_toast: true
+					icon: {
+						id: "minecraft:clock"
+					}
+					id: "37110580092A6E78"
+					tags: ["hourly"]
+					type: "custom"
+				}
+			]
+			x: 6.75d
+			y: 0.85d
+		}
+		{
+			can_repeat: true
+			dependencies: ["45A3E686E32AB95D"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: {
+				id: "explorerscompass:explorerscompass"
+			}
+			id: "6F258F4C7BE2EE44"
+			optional: true
+			rewards: [{
+				auto: "enabled"
+				command: "/compass locate ftb:vault/twilight/yeti"
+				feedback_message: "已获得雪怪宝库指南针"
+				icon: {
+					id: "explorerscompass:explorerscompass"
+				}
+				id: "30CB65204A6F6DFE"
+				permission_level: 3
+				silent: true
+				type: "command"
+			}]
+			shape: "diamond"
+			size: 0.75d
+			tasks: [
+				{
+					id: "4404D4CA07F1B536"
+					type: "checkmark"
+				}
+				{
+					disable_toast: true
+					icon: {
+						id: "minecraft:clock"
+					}
+					id: "677EF48A90EB528C"
+					tags: ["hourly"]
+					type: "custom"
+				}
+			]
+			x: 6.75d
+			y: 2.25d
+		}
+		{
+			can_repeat: true
+			dependencies: ["1E077BC4B8832C98"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: {
+				id: "explorerscompass:explorerscompass"
+			}
+			id: "0EAEEF79436FDFA7"
+			optional: true
+			rewards: [{
+				auto: "enabled"
+				command: "/compass locate ftb:vault/twilight/hydra"
+				feedback_message: "已获得九头蛇宝库指南针"
+				icon: {
+					id: "explorerscompass:explorerscompass"
+				}
+				id: "3F7CFC203230D314"
+				permission_level: 3
+				silent: true
+				type: "command"
+			}]
+			shape: "diamond"
+			size: 0.75d
+			tasks: [
+				{
+					id: "63FA6779F7687346"
+					type: "checkmark"
+				}
+				{
+					disable_toast: true
+					icon: {
+						id: "minecraft:clock"
+					}
+					id: "706A41E926E2B1A2"
+					tags: ["hourly"]
+					type: "custom"
+				}
+			]
+			x: 5.25d
+			y: 3.375d
+		}
+		{
+			can_repeat: true
+			dependencies: ["1E077BC4B8832C98"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: {
+				id: "explorerscompass:explorerscompass"
+			}
+			id: "56FB1BC5711CC4F9"
+			optional: true
+			rewards: [{
+				auto: "enabled"
+				command: "/compass locate ftb:vault/twilight/snow_queen"
+				feedback_message: "已获得冰雪女王宝库指南针"
+				icon: {
+					id: "explorerscompass:explorerscompass"
+				}
+				id: "7FF100558F845196"
+				permission_level: 3
+				silent: true
+				type: "command"
+			}]
+			shape: "diamond"
+			size: 0.75d
+			tasks: [
+				{
+					id: "5E1DA99A3C6FAB9B"
+					type: "checkmark"
+				}
+				{
+					disable_toast: true
+					icon: {
+						id: "minecraft:clock"
+					}
+					id: "1D26E53A98EE8E4D"
+					tags: ["hourly"]
+					type: "custom"
+				}
+			]
+			x: 6.75d
+			y: 3.375d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"3D0CE267A8FD95CD"
+				"30902357747A64F1"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: {
+				id: "explorerscompass:explorerscompass"
+			}
+			id: "6781D1A7A53A5F1D"
+			optional: true
+			rewards: [{
+				auto: "enabled"
+				command: "/compass locate ftb:vault/twilight/knight"
+				feedback_message: "已获得骑士宝库指南针"
+				icon: {
+					id: "explorerscompass:explorerscompass"
+				}
+				id: "3C14C643B8F3E2E6"
+				permission_level: 3
+				silent: true
+				type: "command"
+			}]
+			shape: "diamond"
+			size: 0.75d
+			tasks: [
+				{
+					id: "383794D054B8E0E1"
+					type: "checkmark"
+				}
+				{
+					disable_toast: true
+					icon: {
+						id: "minecraft:clock"
+					}
+					id: "4885C6A872DD31E6"
+					tags: ["hourly"]
+					type: "custom"
+				}
+			]
+			x: 6.0d
+			y: 5.0d
 		}
 	]
 }

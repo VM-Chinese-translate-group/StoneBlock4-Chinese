@@ -166,6 +166,12 @@
 		"这个共振发生器会吸收水晶的震动能量，功率约为20AE/t。不过由于共振的原因，每个AE网络只允许安装一个。"
 	]
 	quest.0224277CBEC1375E.title: "&b组网&f供电"
+	quest.02735F0443CA9727.quest_desc: [
+		"这些指南针指向&3宝库。"
+		""
+		"&7&o在你位于宝库256格范围内时，潜行右击指南针便能立即传送到入口处！&r"
+	]
+	quest.02735F0443CA9727.title: "&f定位&3宝库"
 	quest.027E1E97D874D0EB.title: "Infinity Meet"
 	quest.02BC8FCDB2D94F0E.quest_desc: [
 		"提交&3升级&f所需的方块并领取奖励，即可自动为你团队的&6世界引擎&r组装该升级。"
@@ -180,6 +186,12 @@
 		""
 		"这三样物品的自动化非常重要，越早越好！"
 	]
+	quest.0306C0D774144DAD.quest_desc: [
+		"这个指南针指向了一座&3宝库&r。"
+		""
+		"&7&o在你位于宝库256格范围内时，潜行右击指南针便能立即传送到入口处！&r"
+	]
+	quest.0306C0D774144DAD.title: "&f定位&3宝库"
 	quest.030F1F8A4B0C1EBF.quest_desc: [
 		"&c反应堆散热口&r会吸收最热的相邻组件（&3燃料棒&r或&c热量管道&r）的热量，并排出&d反应堆&r。"
 		""
@@ -243,7 +255,7 @@
 	quest.046FCE929A728A34.quest_desc: [
 		"&z无尽&r之奥妙，凝于方块之中。"
 		""
-		"回到&z无尽&r&6回响至高者&r处。"
+		"回到&z无尽&r身边，完成&6世界引擎&r的最终升级。"
 	]
 	quest.0484D6030DF690BD.quest_desc: [
 		"随着更多&6档案&r被解锁，是时候探索大厅，去寻找&d机械师的回响&r了。"
@@ -520,9 +532,9 @@
 	quest.0ACCAD3AEF57F2E2.quest_desc: [
 		"比起用&2钩子&r在&7泥土&r里翻找，用&a粗制刷子&r能找到更小的物品，比如&2种子&r，然后你就可以开辟农场了！"
 		""
-		"草地或&d祈福之土&r也可以用来建造&a被动生物农场&r，它能为你提供稳定的食物与资源，特别是&b皮革&r。"
+		"草地或&d祈福之土&r也可以用来建造&a友好生物农场&r，它能为你提供稳定的食物与资源，特别是&b皮革&r。"
 		""
-		"&d指引者的回响&r也会出售一种包含被动生物的传送门。"
+		"&d指引者的回响&r也会出售一种包含友好生物的传送门。"
 	]
 	quest.0ACCAD3AEF57F2E2.title: "&f刷一刷泥土"
 	quest.0AD2F3DB33241628.quest_desc: [
@@ -657,12 +669,16 @@
 	]
 	quest.0CA75E81F6824B22.title: "&eIron的法术与魔法书"
 	quest.0CAA799855644363.quest_subtitle: "玻璃鸡+金鸡"
+	quest.0CE3C7A6DE787371.quest_desc: [
+		"这个指南针指向了一座&3宝库&r。"
+		""
+		"&7&o在你位于宝库256格范围内时，潜行右击指南针便能立即传送到入口处！&r"
+	]
+	quest.0CE3C7A6DE787371.title: "&f定位&3暮光巫妖"
 	quest.0D159FD643581C18.quest_desc: [
 		"&d机械师&r提到了一处被遗忘且可能暗藏&c危险&r的&3宝库&r，里面应该藏有&6世界引擎&3暗影机壳升级&r所需的合金。"
 		""
 		"跟着&d机械师&r给你的指南针，挖开层层叠叠的&3石头&r与&3深板岩&r环，去寻找那个&3宝库&r吧。"
-		""
-		"&7&o在距离宝库256格范围内潜行右击指南针，即可瞬间传送至宝库入口！&r"
 	]
 	quest.0D159FD643581C18.title: "&f往昔的遗迹"
 	quest.0D38D67E3FD120CB.quest_desc: [
@@ -752,17 +768,21 @@
 		"在&e末地&r环中，你能找到一座非常特别的&3宝库&r，其中的战斗非常难缠，但那里也许能找到龙蛋。"
 		""
 		"你需要制作&d威猛末影鸡蛋&r，然后在环的中央使用它，即可召唤boss。"
-		""
-		"&7&o在距离宝库256格范围内潜行右击指南针，即可瞬间传送至宝库入口！&r"
 		"{@pagebreak}"
 		"拿到龙蛋后，你可以用&6世界引擎&r将其精髓提取成方块形态。"
 		""
 		"再次回到&d精械师的回响&r处，他会教你如何升级你的&6世界引擎&r。"
 		""
-		"[\"\", {\"text\": \"注意\", \"color\": \"yellow\"}, \"：做一个\", {\"text\": \"提取机\", \"color\": \"green\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0EBA58B7FD2AF36D\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"前往提取机任务\"} }, \"来量产\", {\"text\": \"龙蛋\", \"color\": \"light_purple\"}, \"还是很值得的。当然如果你愿意的话，也可以反复击杀boss来获取。\" ]"
+		"[\"\", {\"text\": \"注意\", \"color\": \"yellow\"}, \"：建议使用\", {\"text\": \"提取机\", \"color\": \"green\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0EBA58B7FD2AF36D\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"跳转到提取机任务\"} }, \"来获取更多的\", {\"text\": \"龙蛋\", \"color\": \"light_purple\"}, \"，你也可以反复击杀boss获取。\" ]"
 	]
 	quest.0E7AD6BCF9F8605F.quest_subtitle: "主要世界引擎升级"
 	quest.0E7AD6BCF9F8605F.title: "&f唾手可得"
+	quest.0EAEEF79436FDFA7.quest_desc: [
+		"这个指南针指向了一座&3宝库&r。"
+		""
+		"&7&o在你位于宝库256格范围内时，潜行右击指南针便能立即传送到入口处！&r"
+	]
+	quest.0EAEEF79436FDFA7.title: "&f定位&3九头蛇"
 	quest.0EBA58B7FD2AF36D.quest_desc: [
 		"来自&bXycraft&r的&a提取机&r是轻松获得稀有资源，如&d龙蛋&r或&7陨石粉&r的好办法。"
 		""
@@ -843,7 +863,7 @@
 		""
 		"或者，也可能会出现一个无害的、物品形态的小&z黑洞&r。"
 		""
-		"赌一把吧！"
+		"买定离手噢！"
 	]
 	quest.1111B3ACEDDF5633.title: "&z黑洞&r"
 	quest.11A35E8F97ACA240.quest_desc: [
@@ -927,6 +947,12 @@
 		"如果加入特定物品的话，仪式就会被&a增强&r。首先你要放入&3仪式石板&r，然后对着仪式火盆一个一个地置入所需物品，直到满足增强要求为止。最后空手右击火盆即可激活仪式。"
 	]
 	quest.13C8B2286F5184C7.quest_desc: ["使用充能过的&3传送权杖&r会把你传送到光标处，最大传送距离为100格方块。"]
+	quest.13E0F74B9A1DAB58.quest_desc: [
+		"这个指南针指向了一座&3宝库&r。"
+		""
+		"&7&o在你位于宝库256格范围内时，潜行右击指南针便能立即传送到入口处！&r"
+	]
+	quest.13E0F74B9A1DAB58.title: "&f定位&3宝库"
 	quest.13EC7C64DFBD1556.quest_desc: [
 		"&6Oritech&r模组的&a基础发电机&r是一种入门级的发电机，可以消耗熔炉燃料发电，但效率较低。"
 		""
@@ -1051,7 +1077,7 @@
 	quest.166BA0D04A1686C7.quest_desc: [
 		"&3力场子&r可以从&a能源转换器&r或其他由&b力场子驱动的机器&r中提取。"
 		""
-		"任何其他模组的流体提取方式都可以提取Fortron。"
+		"任何其他模组的流体提取方式都可以提取力场子。"
 		""
 		"&7&o前往“物流”任务章节寻找管理流体的方式。"
 		""
@@ -1144,6 +1170,8 @@
 	quest.18AF36E1C2375101.title: "&f深暗魔法"
 	quest.18E10F15FD94258B.quest_desc: [
 		"在打造用于&6世界引擎&r的机壳之前，你得先获取&c熔岩&r和&d黑曜石&r。"
+		""
+		"如果你还不知道怎么获取，请去找&6机械师&r领取一个&b熵变机械臂&r，它可以帮你制造熔岩。"
 		""
 		"&d黑曜石&r足够坚硬，能够保证机壳的强度，但它需要被压成&a板&r才能使用。"
 	]
@@ -1308,7 +1336,7 @@
 	]
 	quest.1D87C5E9D52341C4.title: "聚合注入"
 	quest.1D8B2D2B03DF3256.quest_desc: ["据&d飞龙匠人&r所说，制作出这件物品后，她就能将龙族精华注入&a时间量子电池&r中，你可以用它传送到她弟弟最后的已知点位，无论在哪。"]
-	quest.1D8B2D2B03DF3256.title: "&f找到&6飞升回响"
+	quest.1D8B2D2B03DF3256.title: "&f找到&6飞升回响们"
 	quest.1DA78BAB2A6E2C82.quest_desc: [
 		"对于模组老手，&e末影接口&r令人惊叹的管道给他们留下了诸多美好的回忆，这些管道被称为&d导管&r。"
 		""
@@ -1324,11 +1352,7 @@
 		"该竞技场中有boss战！"
 	]
 	quest.1E061D2E5C560867.title: "找到&c慈悲竞技场&r"
-	quest.1E077BC4B8832C98.quest_desc: [
-		"&a雪怪&r宝库坐落于&b暮色森林&r环的上层，这是你要击败的第二个暮色Boss。"
-		""
-		"&7&o在距离宝库256格范围内潜行右击指南针，即可瞬间传送至宝库入口！&r"
-	]
+	quest.1E077BC4B8832C98.quest_desc: ["&a雪怪&r宝库坐落于&b暮色森林&r环的上层，这是你要击败的第二个暮色Boss。"]
 	quest.1E077BC4B8832C98.title: "&f雪怪洞穴"
 	quest.1E2A91B73A752B3B.quest_desc: [
 		"&a生物识别器&r为&d力场&r和&e结界矩阵&r提供了调整个体权限的功能，例如潜行穿过力场方块的权限。"
@@ -1890,8 +1914,6 @@
 		"在&3宝库&r中使用唱片机播放它最喜欢的歌曲，它便会苏醒过来。"
 		""
 		"&e注意&r：这个宝库非常危险。请做好万全的战斗准备！"
-		""
-		"&7&o在距离宝库256格范围内潜行右击指南针，即可瞬间传送至宝库入口！&r"
 	]
 	quest.2D110AB9A38178C5.title: "&f炽热迪斯科"
 	quest.2D1B390B363E0F27.quest_desc: [
@@ -1941,7 +1963,7 @@
 	quest.2E53319ED51DC7C8.quest_desc: ["说出来你可能不信，此地牢会生成在&e末地&r环中。"]
 	quest.2E53319ED51DC7C8.title: "找到&e末地&r地牢"
 	quest.2E619195856B3B9F.quest_desc: [
-		"&b通用机械&r的&a矿石生成器&r允许你用能量为&c激光&r充能，然后将激光导向该生成器来制造矿石。"
+		"有了来自&b通用机械&r的&a矿石生成器&r，你只需要给&c激光&r通电并对准生成器就能制造源源不断的矿物。"
 		""
 		"用&b力场子灌注块&r进行&6世界引擎升级&r后方可使用该机器。"
 	]
@@ -2032,11 +2054,9 @@
 		"击败&2雪怪首领&r后，将解锁2个新的宝库供你探寻。"
 		""
 		"&a冰雪女王宫殿&r宝库可在&b暮色森林&r环的上层找到。"
-		""
-		"&7&o在距离宝库256格范围内潜行右击指南针，即可瞬间传送至宝库入口！&r"
 	]
 	quest.30902357747A64F1.title: "&f冰雪女王的宫殿"
-	quest.309D995CCCDB3AEE.quest_desc: ["&d飞龙匠人&r已经把&a时间量子电池&r给你了，你可以借助它进入&z破碎虚空&r。"]
+	quest.309D995CCCDB3AEE.quest_desc: ["&d飞龙匠人&r已经把注入她力量的&a时间量子电池&r给你了，你可以借助它进入&z破碎虚空&r。"]
 	quest.309D995CCCDB3AEE.title: "&f与&d飞龙匠人&f对话"
 	quest.30DC15C5BF42A9DE.title: "Ocean East"
 	quest.30EE07811728D901.quest_desc: [
@@ -2150,9 +2170,8 @@
 		"击败&a冰雪女王&r和&2九头蛇&r后，最终的宝库将会解锁。"
 		""
 		"你的最后一道难关是&d幻影骑士&r宝库，它同样位于&b暮色森林&r环中。"
-		""
-		"&7&o在距离宝库256格范围内潜行右击指南针，即可瞬间传送至宝库入口！&r"
 	]
+	quest.32653261B16850B3.quest_subtitle: "次要世界引擎升级"
 	quest.32653261B16850B3.title: "&f最终的暮色宝库"
 	quest.32A6859ECF7E775F.title: "Enchanter Check 1"
 	quest.32ACE9E47B8A6C87.quest_desc: [
@@ -2247,7 +2266,6 @@
 		"&b海绵模块&r可以影响&l整个&r力场笼罩的区域，蒸发其中所有的流体。"
 	]
 	quest.3435641A78B90D97.title: "&f改天换地"
-	quest.34B2900863004CC2.title: "Pre-Knight compass give"
 	quest.34C8824842867F5D.quest_desc: ["&z威猛末影鸡&r的栖息地分布在地图的北部与南部区域，具体位于&e末地&r环中。传闻中，这只鸡拥有一面无法穿透的护盾。也许一根&b鸡调试棒&r会有帮助……"]
 	quest.34C8824842867F5D.title: "&e击杀&f：&z威猛末影鸡"
 	quest.34D191F76AA69707.quest_desc: [
@@ -2338,7 +2356,7 @@
 		""
 		"而&c电阻型加热器&r能直接将电能转化为热能，还能精细调节转化的功率，产生的热量也多得多。"
 	]
-	quest.370B05FC62884456.quest_subtitle: "主要世界引擎升级"
+	quest.370B05FC62884456.quest_subtitle: "次要世界引擎升级"
 	quest.370B05FC62884456.title: "&f加热物品"
 	quest.37104662F0BDDE66.quest_desc: [
 		"&e应用能源&r（&eAE2&r）是一款高度定制化的&b数字存储模组&r。"
@@ -2660,8 +2678,6 @@
 		"击败&2雪怪首领&r后，将解锁2个新的宝库供你探寻。"
 		""
 		"&a九头蛇巢穴宝库&r可在&b暮色森林&r环的下层找到。"
-		""
-		"&7&o在距离宝库256格范围内潜行右击指南针，即可瞬间传送至宝库入口！&r"
 	]
 	quest.3D0CE267A8FD95CD.title: "&f九头蛇巢穴"
 	quest.3D0DC34C36A173F5.quest_desc: ["&eOritech&r模组的&2外骨骼装甲&r可提供许多增益效果，在探索世界时十分有用。但当你在外遇到危险时，它提供不了任何保护。"]
@@ -2798,8 +2814,6 @@
 		"&e注意&r：制作一个&a探险家指南针&r可以帮助你寻找&3宝库&r！"
 		""
 		"如果你成功破解了这个&3宝库&r的谜题，那么&d时空粒子之星&r就可以任你取用。"
-		""
-		"&7&o在距离宝库256格范围内潜行右击指南针，即可瞬间传送至宝库入口！&r"
 	]
 	quest.3FA9D6A475E4D1C6.title: "&f找到&2时空粒子之星"
 	quest.3FD6F10BE6F06FFF.quest_desc: ["每个&d装配矩阵合成核心&r都能让矩阵同时处理最多8个合成任务。"]
@@ -2848,6 +2862,12 @@
 	quest.4094F70F627F492C.quest_desc: ["&6世界引擎&r能借助&z黑洞&r升阶，但需要先为黑洞准备一个容器。"]
 	quest.4094F70F627F492C.quest_subtitle: "主要世界引擎升级"
 	quest.4094F70F627F492C.title: "驱动&z虚空&r"
+	quest.40DDD27BA5E191FA.quest_desc: [
+		"这个指南针指向了一座&3宝库。"
+		""
+		"&7&o在你位于宝库256格范围内时，潜行右击指南针便能立即传送到入口处！&r"
+	]
+	quest.40DDD27BA5E191FA.title: "&f定位&3宝库"
 	quest.4101E75F69C9909F.quest_desc: [
 		"&d量子物品编排&r（&dQIO&r）系统是&e通用机械&r的无线、无需电力且可扩展的数字存储解决方案"
 		""
@@ -3081,12 +3101,14 @@
 		"&b反应堆冷却剂吸收器口&r需要放置在&d反应堆&r外壳的顶面上，其下方需要放上&b热量吸收器&r。"
 	]
 	quest.456030ECDFA9CE3B.title: "&b反应堆热量吸收器"
-	quest.456B067C9CC123AD.quest_desc: ["制作出一台&c加热器&r后，你需要回到&d构件师&r处，学习如何将其与&6世界引擎&r协同使用。"]
-	quest.45A3E686E32AB95D.quest_desc: [
-		"&a暮光巫妖&r宝库位于&b暮色森林&r环，它将是与你交手的第一个暮色Boss。"
+	quest.456904808D93A9E3.quest_desc: [
+		"这个指南针指向了一座&3宝库&r。"
 		""
-		"&7&o在距离宝库256格范围内潜行右击指南针，即可瞬间传送至宝库入口！&r"
+		"&7&o在你位于宝库256格范围内时，潜行右击指南针便能立即传送到入口处！&r"
 	]
+	quest.456904808D93A9E3.title: "&f定位&3宝库"
+	quest.456B067C9CC123AD.quest_desc: ["制作出一台&c加热器&r后，你需要回到&d构件师&r处，学习如何将其与&6世界引擎&r协同使用。"]
+	quest.45A3E686E32AB95D.quest_desc: ["&a暮光巫妖&r宝库位于&b暮色森林&r环，它将是与你交手的第一个暮色Boss。"]
 	quest.45A3E686E32AB95D.title: "&f暮光巫妖的居所"
 	quest.45B2C8BD2ACBA46D.quest_desc: [
 		"&d反应堆&r必须是一个长方体结构，其框架必须由&a反应堆墙&r方块构成。反应堆的最大尺寸为64x64x64。其内部每一层（Y轴方向）的布局都必须完全相同。"
@@ -3362,7 +3384,7 @@
 	quest.4B7A9469150AF3A1.quest_subtitle: "维拉基斯赞同！"
 	quest.4B7A9469150AF3A1.title: "灵能工具！"
 	quest.4B92EBBA1F2BBFEA.quest_desc: ["领取此任务奖励将在&d回响&6档案室&r入口处设置一个路径点。"]
-	quest.4B92EBBA1F2BBFEA.title: "&f定位&d远古族裔的回响"
+	quest.4B92EBBA1F2BBFEA.title: "&f定位&d远古族裔"
 	quest.4BA8E435EDA995AC.quest_desc: [
 		"你可能已经厌倦了拾取 成 吨 的 圆 石 。为何不做个&a虚空升级&r把它们处理掉呢？"
 		""
@@ -3586,7 +3608,7 @@
 	]
 	quest.4F27342D2DA7C605.title: "&f像牙签一样的镐子"
 	quest.4F2B35E4E3729560.quest_desc: [
-		"正确安装最终升级之后，&6世界引擎&r完全复原了其功能。"
+		"正确安装最终升级之后，&6世界引擎&r的功能完全复原了。"
 		""
 		"你通关了&6石头世界4&r！"
 	]
@@ -3854,6 +3876,12 @@
 		"&b反生成模块&r将阻止所有生物在&e矩阵&r的覆盖范围内生成。"
 	]
 	quest.56E9C123DD727E46.title: "&a矩阵增强"
+	quest.56FB1BC5711CC4F9.quest_desc: [
+		"这个指南针指向了一座&3宝库&r。"
+		""
+		"&7&o在你位于宝库256格范围内时，潜行右击指南针便能立即传送到入口处！&r"
+	]
+	quest.56FB1BC5711CC4F9.title: "&f定位&3宝库"
 	quest.575A111D4418BFB6.quest_desc: [
 		"&6节拍器&r是&b时间量子&r的终极生产设备。"
 		""
@@ -3988,7 +4016,7 @@
 	]
 	quest.5868F616B3756FF3.title: "&f别忘了用脚踩"
 	quest.586C935010D2FE74.quest_desc: ["领取此任务奖励将在&d回响&6档案室&r入口处设置一个路径点。"]
-	quest.586C935010D2FE74.title: "&f定位&d暮光族裔的回响"
+	quest.586C935010D2FE74.title: "&f定位&d暮光族裔"
 	quest.58BC57B1119204CA.title: "Magician Meet"
 	quest.58DDBF43D54AF67F.quest_desc: ["&e灵灾&r武器通常具有特殊的能力，与此模组的其他特性或机制协同可造成大量伤害。"]
 	quest.58DDBF43D54AF67F.title: "&e灵灾&f武器"
@@ -4115,13 +4143,7 @@
 		"&e注意&f：任何放置在升级组装处的方块将被替换。"
 	]
 	quest.5C8773D5561D7245.title: "&f自动建造&3觉醒核心升级"
-	quest.5CD461E6C3E8E7D1.quest_desc: [
-		"这座宝库位于&3深板岩&r环中，人们很容易在里面迷路。"
-		""
-		"&e注意&r：制作一个&a探险家指南针&r可以帮助你寻找宝库！"
-		""
-		"&7&o在距离宝库256格范围内潜行右击指南针，即可瞬间传送至宝库入口！&r"
-	]
+	quest.5CD461E6C3E8E7D1.quest_desc: ["这座宝库位于&3深板岩&r环中，人们很容易在里面迷路。"]
 	quest.5CD461E6C3E8E7D1.title: "&3迷宫宝库"
 	quest.5CD7299E8709E7F6.quest_desc: [
 		"把村民变成&a劳工令牌&r只是&a回响编码器&r的一个小功能。"
@@ -4575,6 +4597,12 @@
 		"► &3映射&r：1"
 	]
 	quest.6755CACD4957A4CB.title: "&a一阶&fCAD核心"
+	quest.6781D1A7A53A5F1D.quest_desc: [
+		"这个指南针指向了一座&3宝库&r。"
+		""
+		"&7&o在你位于宝库256格范围内时，潜行右击指南针便能立即传送到入口处！&r"
+	]
+	quest.6781D1A7A53A5F1D.title: "&f定位&3宝库"
 	quest.67AA6621E5A00E37.title: "Twilight Check 1"
 	quest.67AD604F2C4E5CC9.quest_desc: [
 		"并不是所有&b流体牛&r都可以由繁育或者&a粘土苹果&r得到。"
@@ -4679,6 +4707,8 @@
 		"这个整合包里有各种各样的随机事件，但它们在默认情况下是不会发生的。完成这个任务，就可以启用它们！"
 		""
 		"&e注意&r：有些随机事件包含跳杀元素。你可以通过&b/events toggle <事件名>&r这个指令来启用或禁用各种事件。"
+		""
+		"例如，你可以使用命令&a/events toggle ftb:creeper&r来禁用跳杀事件。"
 	]
 	quest.6B387999FBEE2E9E.title: "&6FTB事件"
 	quest.6B391D0B32AF8529.quest_desc: ["制作出足够的&2暗影钢&r后，请回到&d机械师&r处，他会告诉你这些东西需要装在&6世界引擎&r的什么位置上。"]
@@ -4769,6 +4799,8 @@
 		"等你击败&d威猛鸡骑士&r，制作出&d暗影脉凝胶&r之后，就可以制作蚀空合金了。"
 	]
 	quest.6C7F31673B12795D.title: "&d蚀空合金&f武器"
+	quest.6C94998689192C2E.quest_desc: ["如果你不想冒&a机会方块&r的险，可以选择在这里把它卖掉！"]
+	quest.6C94998689192C2E.title: "无机之谈"
 	quest.6C974CC33C5BADD8.quest_desc: ["消耗肉汤与任意锭发电。"]
 	quest.6D0C1811DA909BBD.quest_desc: [
 		"&d远古城市宝库&r中充满了各种各样的战利品，但最重要的东西还是来源于那里的Boss。"
@@ -4824,6 +4856,12 @@
 		""
 		"你可以在&z商店&r里购买这些符石！"
 	]
+	quest.6F258F4C7BE2EE44.quest_desc: [
+		"这个指南针指向了一座&3宝库&r。"
+		""
+		"&7&o在你位于宝库256格范围内时，潜行右击指南针便能立即传送到入口处！&r"
+	]
+	quest.6F258F4C7BE2EE44.title: "&f定位&3雪怪首领"
 	quest.6F4A4B4C261FF84B.quest_desc: ["燃烧可燃物发电。"]
 	quest.6F53C65C3131B68A.quest_desc: [
 		"&2考古学家&r是软质材料的大师，可以处理&2泥土&r、&e沙子&r、&e灰尘&r和&7泥巴&r。他们需要一个&a饰纹陶罐&r作为工作站。"
@@ -5068,7 +5106,7 @@
 		""
 		"&a抽入升级&r - 抽屉可以从周边存储方块中自动抽取物品。"
 		""
-		"&aPusher Upgrade&r - Allows the drawer to push to adjacent inventories."
+		"&a推出升级&r - 抽屉可以向周边存储方块自动输出物品。"
 		""
 		"安装在抽屉里后，右击升级就可以配置它们。"
 	]
@@ -5198,6 +5236,8 @@
 		"&a造石机&r会持续生产圆石，越高级的造石机每tick造的石越多。"
 		""
 		"你还可以做一个&a自动锤&r，帮你自动粉碎圆石，生产&a发掘室&r所需的各种方块！"
+		""
+		"&e注意&r：&d机械师的回响&r给你的礼物可以帮你轻松获取&c熔岩&r。&c下界&r环中也有熔岩。"
 	]
 	quest.75F6827C1FB52C91.title: "&f造石机&r"
 	quest.76482BDD2CD6CB8E.quest_desc: [
@@ -5438,7 +5478,7 @@
 		""
 		"衰朽仪式会&d缓慢地伤害&r附近的敌对生物，直到它们生命值见底，而它的升级版则会在它们生命值较低时&d收割它们&r的躯体和灵魂，并在产出普通掉落物时附上它们的&b精魂&r。"
 		""
-		"&7这种共鸣同样存在于被动生物与某些仪式之间……"
+		"&7这种共鸣同样存在于友好生物与某些仪式之间……"
 	]
 	quest.7A62B07AD0BCCCEA.title: "自动收获精魂"
 	quest.7A6F14DB74189B67.quest_desc: ["在我们的&6商店&r里，你应该能够&b购买预编程术式&r，有些比其他的更复杂，你可以用它们的基本用途，或者用来学习如何做新花样:p"]
@@ -5536,8 +5576,14 @@
 		""
 		"要为其添加燃料，需要右击打开其界面（请确保物品栏中有末影珍珠），然后点击右下角的“+”按钮，即可将末影珍珠填入燃料槽。"
 	]
-	quest.7C94432EFD49611F.quest_desc: ["&d无尽的回响&r堪比神明。"]
-	quest.7C94432EFD49611F.title: "&f见到&6无尽"
+	quest.7C94432EFD49611F.quest_desc: [
+		"&z无尽&r是你所知的阻止现实崩溃的唯一存在。"
+		""
+		"与他合作以解锁&3世界引擎无尽升级&r。"
+		""
+		"&7&o一切以此为终点。"
+	]
+	quest.7C94432EFD49611F.title: "&f见到&z无尽"
 	quest.7C9B4CE2A2F62096.quest_desc: [
 		"你可以将基片放进&a加压反应室&r内，以制取&6高密度聚乙烯球&r。高密度聚乙烯球是用于制作高阶物品和机器的重要原材料！"
 		""
@@ -5563,7 +5609,7 @@
 	quest.7D1FB9A40B5CAE97.quest_desc: [
 		"&bCheck&f: Getting Worker Token"
 		""
-		"&bUnlocks&f: Doors to T1 Echos and Chapter 1"
+		"&bUnlocks&f: Doors to T1 Echoes and Chapter 1"
 	]
 	quest.7D1FB9A40B5CAE97.title: "Guidance 1.3 check"
 	quest.7D2A583FBDCE4FC7.quest_desc: [
@@ -5709,11 +5755,14 @@
 	quest.7FCCB25011D69673.title: "&a富集仓&r"
 	quest.7FEDD82D9B47EFCD.quest_desc: ["&a生物质能发电机&r可消耗生物质产生能量，加装&b插件&r可提升发电效率。"]
 	reward.00D18DF325869C86.title: "组装&3黑暗虚空升级"
+	reward.0443CD112299BF32.title: "&3炼狱宝库指南针"
+	reward.0491A1C974F9FE0A.title: "&3精械师南部宝库指南针"
 	reward.07FDE2A45E2F6200.title: "{\"translate\": \"ftb.shop.notification\"}"
 	reward.08D775729B3EAF3E.title: "&d军需官&f路径点"
 	reward.09DF4A8DBF01CD61.title: "&e+1&3发掘等级"
 	reward.0C0AB23B4929400B.title: "{\"translate\": \"ftb.shop.notification\"}"
 	reward.0E91DBA45C7125BF.title: "&e解锁&f：&6世界引擎"
+	reward.0FF3057EB81C70D6.title: "&3精械师北部宝库"
 	reward.11F46FD8EC5EE6C8.title: "组装&3低吟金属升级"
 	reward.1214107708FB3198.title: "组装&3量子隧道升级"
 	reward.12870B6226B417AF.title: "组装&3精魂升级"
@@ -5730,21 +5779,26 @@
 	reward.235AF7EB3F88D642.title: "{\"translate\": \"ftb.shop.notification\"}"
 	reward.2392A43EE7851C85.title: "{\"translate\": \"ftb.shop.notification\"}"
 	reward.2730B9B9300AA75C.title: "&e+1&3发掘等级"
+	reward.29048AE32290DDAB.title: "&3寻路者宝库指南针"
 	reward.2AA4A91EF3A6EE48.title: "{\"translate\": \"ftb.shop.notification\"}"
 	reward.2C24A3F46426B257.title: "组装&3机器方块升级"
 	reward.2D7E2A69C45D8ABD.title: "{\"translate\": \"ftb.shop.notification\"}"
 	reward.2F7B82DA30E186CA.title: "&e+1&3发掘等级"
 	reward.307426CA8BF12CAC.title: "&d寻路者&f路径点"
 	reward.30A58719DB130EE9.title: "&d构件师&f路径点"
+	reward.30CB65204A6F6DFE.title: "&3雪怪宝库指南针"
 	reward.31B318A2B60F4CC5.title: "组装&3暗影机壳升级"
 	reward.35FBC3A2C111904A.title: "{\"translate\": \"ftb.shop.notification\"}"
 	reward.37F1C940A746F48C.title: "石头世界4官方NFT"
 	reward.3982DCDCE0A66B83.title: "{\"translate\": \"ftb.shop.notification\"}"
 	reward.3C0E24CCC82A480D.title: "组装&3力场子升级"
+	reward.3C14C643B8F3E2E6.title: "&3骑士宝库指南针"
 	reward.3E8E67868DA564D2.title: "&d折光师&f路径点"
+	reward.3F7CFC203230D314.title: "&3九头蛇宝库指南针"
 	reward.4348C140262F1176.title: "组装&3暮色升级"
 	reward.437C0250BD2823D8.title: "组装&3共振虚空升级"
 	reward.444D56BB0340167E.title: "组装&3末影能量升级"
+	reward.4765C42AB1F8D1A6.title: "&3机械师宝库指南针"
 	reward.4AE89E9586399F31.title: "{\"translate\": \"ftb.shop.notification\"}"
 	reward.4BA4CA2B38D5C1F3.title: "组装&3觉醒核心升级"
 	reward.4C092C94E484A165.title: "{\"translate\": \"ftb.shop.notification\"}"
@@ -5769,7 +5823,10 @@
 	reward.6E69E924D695FE30.title: "{\"translate\": \"ftb.shop.notification\"}"
 	reward.7459FD34B6687F30.title: "任意门指南书"
 	reward.75028F17C07E02D0.title: "{\"translate\": \"ftb.shop.notification\"}"
+	reward.7B2611299CAA750F.title: "&3折光者宝库指南针"
 	reward.7DA1DB3A1F6C52A0.title: "{\"translate\": \"ftb.shop.notification\"}"
+	reward.7FE6F3BEF5E57A43.title: "&3暮光巫妖宝库指南针"
+	reward.7FF100558F845196.title: "&3冰雪女王宝库指南针"
 	reward_table.01A8F0EB2209A24F.title: "龙之进化基础装备"
 	reward_table.0C5DDA99EE8027D3.title: "石头的礼物"
 	reward_table.1320ECC4666318A7.title: "魔符"
@@ -5806,6 +5863,7 @@
 	task.00F90C52CBAECEBB.title: "&d法术&a墨水"
 	task.01AB71CC57E2057D.title: "任意#minecraft:candles"
 	task.0284D9E486F445FC.title: "&f找到九头蛇宝库"
+	task.02BDD5049712DA5A.title: "冷却计时器"
 	task.02CC4D7DB653D0B6.title: "Check"
 	task.04CBB64F2C10DB0E.title: "冷却计时器"
 	task.04FA10D12C67E713.title: "原版下界合金工具"
@@ -5816,6 +5874,7 @@
 	task.061CA75E28BD6BF6.title: "与&d飞龙匠人的回响&r对话"
 	task.0645EC76DE0EB57B.title: "冷却计时器"
 	task.06483FBA8021FDEF.title: "转移生物"
+	task.066A7BE3718D79B1.title: "冷却计时器"
 	task.0675F9CC003D7723.title: "慈悲竞技场"
 	task.0707B05028ADBA69.title: "&e击杀&f：&6先驱者"
 	task.075F7BA7175B340A.title: "发掘等级"
@@ -5848,6 +5907,7 @@
 	task.11193E0681204B33.title: "幽灵线圈"
 	task.1159F04F98B724A1.title: "Burning Disco Vault"
 	task.115D12D9D3CB1F13.title: "冷却计时器"
+	task.1194939A262B7C67.title: "冷却计时器"
 	task.11F49F841465DAAD.title: "核源铁武器"
 	task.1211B7B1BC40225B.title: "控制器"
 	task.12C03EE6A8238B47.title: "ocean west"
@@ -5874,12 +5934,13 @@
 	task.1B8D2EA3B6BC97C1.title: "&e发现&f：ftb:dungeons/nether"
 	task.1BB73680D1CA700A.title: "定位回响"
 	task.1C350F6D6B6C0656.title: "&b升级插件"
-	task.1C3B92648D279809.title: "&e定位&f：&d炼狱使者"
+	task.1C3B92648D279809.title: "&e发现&f：&d炼狱使者"
 	task.1C618817AA660A51.title: "冷却计时器"
-	task.1D40F0B8F9A522A0.title: "&e定位&f：&d构件师"
+	task.1D26E53A98EE8E4D.title: "冷却计时器"
+	task.1D40F0B8F9A522A0.title: "&e发现&f：&d构件师"
 	task.1E31F492D8779AB6.title: "造石机"
 	task.1F45D65E053E1701.title: "采掘小帮手"
-	task.21F1C6036A37CED9.title: "&e定位&f：&d暮光族裔"
+	task.21F1C6036A37CED9.title: "&e发现&f：&d暮光族裔"
 	task.220AEB0F13353108.title: "&f可制作的法术书升级"
 	task.224C16DC19629B4B.title: "入门发电机"
 	task.226AB3512612624B.title: "&e找到&f：&6cataclysm:ancient_factory"
@@ -5924,9 +5985,13 @@
 	task.2D6AEF337BEAFA58.title: "坩埚增强"
 	task.2D717F3B3573B504.title: "&b升级插件"
 	task.2DD1C42797FC03F0.title: "&f与&d附魔师的回响&f对话"
-	task.2E08C0DD181858C1.title: "&e定位&f：&d寻路者"
+	task.2DF0651CE18A8870.title: "获得指南针"
+	task.2E03E2C049C17CA4.title: "冷却计时器"
+	task.2E08C0DD181858C1.title: "&e发现&f：&d寻路者"
+	task.2E6525F818D07426.title: "冷却计时器"
 	task.2E6B8DF43B7A85E7.title: "任意基础CAD机体"
 	task.2EE249AC7D3DFA9A.title: "冷却计时器"
+	task.2F84191A75EBFBB0.title: "获得指南针"
 	task.2F94FA9842248FA3.title: "冰雪女王宝库"
 	task.2FF95590BE56EE26.title: "&f与&d暮光族裔的回响&f对话"
 	task.30F1965A2A29E58A.title: "点击我！"
@@ -5955,11 +6020,13 @@
 	task.368FF30FEFA57F73.title: "环的生成"
 	task.36D65F0F76F3F5E9.title: "连锁破坏须知"
 	task.36E4280D3F1F4D95.title: "&b苍穹晶盔甲"
+	task.37110580092A6E78.title: "冷却计时器"
 	task.376297FFB45E51A2.title: "end west"
 	task.379AF15FE59B449C.title: "有关时间量子的一切"
 	task.37C9E3F65AE092C6.title: "end north"
 	task.37F6704E46F8E7BC.title: "战利品"
 	task.3806016FFDCF244F.title: "冷却计时器"
+	task.383794D054B8E0E1.title: "获得指南针"
 	task.387AEDAFD8378A6D.title: "鸡骑士南"
 	task.38F70B93B01BA8DA.title: "&e击杀&f：幻影骑士"
 	task.398CB19DF3238318.title: "无种类上限的磁盘驱动器"
@@ -5994,9 +6061,11 @@
 	task.42AEAD2BF6113D89.title: "雪怪宝库"
 	task.4309B43CD4447705.title: "建筑棒"
 	task.435C5B6B77C3D7B4.title: "重构材料"
+	task.4404D4CA07F1B536.title: "获得指南针"
 	task.4436C5870B83BA75.title: "下界东"
 	task.44BC8362B01E30DC.title: "ocean north"
 	task.44F14FF1208B0B03.title: "全能工具"
+	task.459AEFEC8F060222.title: "获得指南针"
 	task.45C3B788492E3C09.title: "&e观察&f：&2草方块"
 	task.45E16BAC26D921B8.title: "特殊流体牛物品"
 	task.45E18E3EE8C1D683.title: "&f与&d机械师的回响&f对话"
@@ -6004,15 +6073,17 @@
 	task.46201BC3BAE0D15A.title: "通用机械激光"
 	task.47304646719F0174.title: "冷却计时器"
 	task.47CDD3AB69EDD87A.title: "暮光巫妖宝库"
+	task.4885C6A872DD31E6.title: "冷却计时器"
 	task.488B1E7E0EBA64D2.title: "冷却计时器"
 	task.491E250D69066BBC.title: "&e击杀&f：&7凋灵"
 	task.49801B19B9E8E368.title: "冷却计时器"
 	task.49DF96867DE0BB9D.title: "精魂"
+	task.4A3E583E141A73F5.title: "获得指南针"
 	task.4A5574B73D5286B1.title: "符文"
 	task.4A84D885C313D512.title: "堆叠升级"
 	task.4AEB443222A345F9.title: "定位回响"
 	task.4B20B5C5E0F87281.title: "冷却计时器"
-	task.4B2BAB2FC31AEA4D.title: "&e定位&f：&d折光师"
+	task.4B2BAB2FC31AEA4D.title: "&e发现&f：&d折光师"
 	task.4B65088186551D3C.title: "&f虚空升级&r"
 	task.4B7C315189CC7D79.title: "经典管道"
 	task.4C0AA56C3F1425DC.title: "灌注书架"
@@ -6025,7 +6096,7 @@
 	task.4F171D8BC8C1C8F7.title: "任意&eJust Hammers&r模组的&b锤子"
 	task.4F37295B08FFCA81.title: "创建你的家园"
 	task.4F48BE06A8542822.title: "转移生物的物品"
-	task.4FC80BE367960541.title: "&e定位&f：&d远古族裔"
+	task.4FC80BE367960541.title: "&e发现&f：&d远古族裔"
 	task.5034DC565C8B0377.title: "任意树叶方块"
 	task.5091E1D8C2C9437F.title: "冷却计时器"
 	task.510157E7876C7332.title: "冷却计时器"
@@ -6072,13 +6143,14 @@
 	task.5C3A03650166A961.title: "&e找到&f：&bftb:water_orb"
 	task.5C5C0B0C6CC599E2.title: "找到&c远古战场&r"
 	task.5C6B2370E7B8E980.title: "神秘学矿工"
-	task.5CCC981194E6AD26.title: "&e定位&f：&d飞龙匠人"
+	task.5CCC981194E6AD26.title: "&e发现&f：&d飞龙匠人"
 	task.5CF322069EBE856C.title: "深板岩层东"
 	task.5D219927A5B4C985.title: "定位回响"
 	task.5D44C1D4945AB04C.title: "&e发现&f：地下泉水"
 	task.5D6384EA6154EF7C.title: "冷却计时器"
 	task.5DB582096285438A.title: "&e发现&f：&d军需官"
 	task.5DEDD864CB2276F1.title: "&b效率升级"
+	task.5E1DA99A3C6FAB9B.title: "获得指南针"
 	task.5E3DB978C813B92A.title: "控制器扩展器"
 	task.5E4795D98A4F96E5.title: "苍穹晶工具"
 	task.5EA5666395E5AAEC.title: "&e发现&f：&d魔法师"
@@ -6097,17 +6169,20 @@
 	task.62017C4AEF15B756.title: "寻找传送门宝库"
 	task.620B0BA6A6337A57.title: "tf south"
 	task.623C40B073B6326E.title: "蚀空合金盔甲"
+	task.62B8DF25CDC4F6E7.title: "获得指南针"
 	task.62DE6121CE506116.title: "管道升级"
 	task.63405599D33D4D0A.title: "游戏中期发电机"
 	task.63C4D2F3F7059C8E.title: "背包拾取升级"
+	task.63FA6779F7687346.title: "获得指南针"
 	task.6403B80C8DFFEB46.title: "&e击杀&f：暮光巫妖"
 	task.64439911825F80B2.title: "方块手杖"
 	task.64B290466E13BE30.title: "与&d飞龙匠人的回响&r对话"
 	task.64E418FC4666C686.title: "找到&d异界&r地牢"
-	task.655EA10D763BC971.title: "&e定位&f：&d附魔师"
+	task.655EA10D763BC971.title: "&e发现&f：&d附魔师"
 	task.6686A02C1B8BCACB.title: "一个象牙白或乌金CAD"
 	task.66F6B411E884E391.title: "end east"
 	task.671339615BA68B10.title: "&e击杀&f：&b冰霜术士"
+	task.677EF48A90EB528C.title: "冷却计时器"
 	task.68A1DE705F7F836C.title: "点击启用事件"
 	task.696DC87210410650.title: "Oritech管道"
 	task.6976A5FDA39CFA13.title: "冷却计时器"
@@ -6115,7 +6190,7 @@
 	task.69AAE2EC36ADE0C3.title: "恶念要塞盔甲"
 	task.69C17D93099B4E1D.title: "流浪法师套装"
 	task.6A0F7469DEB4D145.title: "任意二阶CAD核心"
-	task.6A32E04F83997A6D.title: "&e定位&f：&d精械师"
+	task.6A32E04F83997A6D.title: "&e发现&f：&d精械师"
 	task.6A3AABB86967A8C4.title: "定位回响"
 	task.6A3B0E8AFAFEFD67.title: "找到哭泣之井"
 	task.6A6EB35F2D0397D5.title: "&f与&d寻路者的回响&f对话"
@@ -6134,6 +6209,7 @@
 	task.6F63CD417D16DE7F.title: "&e观察&r：&6世界引擎方块"
 	task.6FA17DE3B63BDA1A.title: "压缩抽屉"
 	task.6FD8E3AAD2A0F9EC.title: "冷却计时器"
+	task.706A41E926E2B1A2.title: "冷却计时器"
 	task.70DC330B1BB5FE90.title: "&f与&d飞龙匠人的回响&f对话"
 	task.716711D72FE69FF5.title: "各类型存储元件"
 	task.71EF7138E44BDF05.title: "定位回响"
@@ -6180,6 +6256,7 @@
 	task.7D75B40EC4AF799A.title: "Just Dire Things的机器"
 	task.7D8611641B6611FB.title: "&f与&d指引者的回响&f对话"
 	task.7D9038B9019EBFEC.title: "&e找到&f：&dcataclysm:ruined_citadel"
+	task.7DD8D0EDE1FAF2DE.title: "获得指南针"
 	task.7E02151602B34E2A.title: "维度存储稳定器"
 	task.7ECEEC776BBA8B53.title: "与&d指引者的回响&r对话"
 	task.7F73108709C402C8.title: "游戏后期发电机"

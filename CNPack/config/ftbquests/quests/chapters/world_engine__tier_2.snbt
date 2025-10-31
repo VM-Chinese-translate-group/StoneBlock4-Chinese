@@ -463,7 +463,7 @@
 				}
 				type: "item"
 			}]
-			x: -7.0d
+			x: -6.75d
 			y: 2.5d
 		}
 		{
@@ -531,6 +531,9 @@
 		}
 		{
 			dependencies: ["30689B890F5E7A03"]
+			icon: {
+				id: "apothic_enchanting:deepshelf"
+			}
 			id: "18AF36E1C2375101"
 			rewards: [
 				{
@@ -586,6 +589,7 @@
 				id: "ftb:fortron_star"
 			}
 			id: "3FA9D6A475E4D1C6"
+			min_width: 350
 			rewards: [
 				{
 					amount: 50
@@ -702,7 +706,7 @@
 				}
 				type: "item"
 			}]
-			x: -5.0d
+			x: -5.25d
 			y: 2.5d
 		}
 		{
@@ -996,6 +1000,51 @@
 			}]
 			x: 6.0d
 			y: 9.5d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"3E1DB27DAB197F6B"
+				"23DC842244086CB9"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: {
+				id: "explorerscompass:explorerscompass"
+			}
+			id: "456904808D93A9E3"
+			optional: true
+			rewards: [{
+				auto: "enabled"
+				command: "/compass locate ftb:vault/portal"
+				feedback_message: "已获得寻路者宝库指南针"
+				icon: {
+					id: "explorerscompass:explorerscompass"
+				}
+				id: "29048AE32290DDAB"
+				permission_level: 3
+				silent: true
+				type: "command"
+			}]
+			shape: "diamond"
+			size: 0.75d
+			tasks: [
+				{
+					id: "2F84191A75EBFBB0"
+					type: "checkmark"
+				}
+				{
+					disable_toast: true
+					icon: {
+						id: "minecraft:clock"
+					}
+					id: "1194939A262B7C67"
+					tags: ["hourly"]
+					type: "custom"
+				}
+			]
+			x: 6.75d
+			y: 1.125d
 		}
 	]
 }
