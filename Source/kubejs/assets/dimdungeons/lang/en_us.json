@@ -4,7 +4,7 @@
 	"biome.dimdungeons.biome_dungeon": "Dungeon",
 	"dimension.dimdungeons.dimension_dungeon": "Dungeon Dimension",
 
-	"dimdungeons:activate_key": "Key Activation", // JEI
+	"dimdungeons:activate_key": "Key Activation",
 
     "block.dimdungeons.block_gilded_portal": "Ensouled Portal Block",
     "block.dimdungeons.block_gold_portal": "Dungeon Portal",
