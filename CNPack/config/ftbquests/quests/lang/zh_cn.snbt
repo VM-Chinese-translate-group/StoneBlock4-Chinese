@@ -1420,7 +1420,7 @@
 		""
 		"&e注意&r：要组装这台机器，你需要3个任意等级的&a机器核心&r。"
 		""
-		"[{\"text\": \"\", \"color\": \"gray\", \"italic\": true}, \"如果你想了解更多关于Oritech模组的信息，请参阅\", { \"text\": \"Oritech章节\", \"color\": \"gray\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6EA5652195DB5FE3\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"前往Oritech任务章节\"} }, \"。\"]"
+		"[{\"text\": \"\", \"color\": \"gray\", \"italic\": true}, \"如果你想了解更多关于Oritech模组的信息，请参阅\", { \"text\": \"Oritech章节\", \"color\": \"gray\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1FD2F304ADC237D0\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"前往Oritech任务章节\"} }, \"。\"]"
 	]
 	quest.1F1A15B6E079F31F.title: "&f更高级的工作台"
 	quest.1F1C11D77667DEB4.quest_desc: [
@@ -2355,6 +2355,8 @@
 		"制作加热器时，虽然看上去有两种选择，但&c固体燃料加热器&r只能通过煤或木材产热，这无法为你的&6世界引擎&r提供充足的热量。"
 		""
 		"而&c电阻型加热器&r能直接将电能转化为热能，还能精细调节转化的功率，产生的热量也多得多。"
+		""
+		"&e注意&r：达到约350°C的理想能量功率为2K RF/t。"
 	]
 	quest.370B05FC62884456.quest_subtitle: "次要世界引擎升级"
 	quest.370B05FC62884456.title: "&f加热物品"
@@ -3132,6 +3134,8 @@
 		"&3远古城市&r坐落于深板岩环的下层，其中有一个巨大的传送门，现在你终于可以激活它了。"
 		""
 		"激活后，进入&3宝库&r并击败其中的Boss。"
+		""
+		"&e注意&r：你需要击杀生物来装满&d灵魂之笼&r。这会治愈你的失明效果，接着在初始房间找到电梯。你需要装满灵魂的&d灵魂之笼&r来召唤Boss。"
 	]
 	quest.45BA73F16B7AE681.title: "&3远古传送门"
 	quest.45CB3F325010A5AD.quest_desc: [
@@ -3479,8 +3483,6 @@
 	quest.4D6D066B0855586D.quest_desc: [
 		"在海洋环中，有一种被虚空侵染的生物。"
 		""
-		"要召唤它，你需要制作&d深渊祭品&r，并向祭坛献上它。"
-		""
 		"祝你好运。"
 	]
 	quest.4D6D066B0855586D.title: "&d深渊祭品&r"
@@ -3633,7 +3635,7 @@
 	]
 	quest.4FE945C26EDB2A53.title: "&3灵魂镭射钻基座"
 	quest.500074C1D4EC9591.quest_desc: [
-		"随着更多&6档案&r被解锁，是时候探索大厅，寻找&d催化者的回响&r了。"
+		"随着更多&6档案&r被解锁，是时候探索大厅，寻找&d精械师的回响&r了。"
 		""
 		"与此&d回响&r合作，为你的&b世界引擎&r解锁多个&3升级&r，包括&c高级机器方块&r升级！"
 		""
@@ -4799,8 +4801,6 @@
 		"等你击败&d威猛鸡骑士&r，制作出&d暗影脉凝胶&r之后，就可以制作蚀空合金了。"
 	]
 	quest.6C7F31673B12795D.title: "&d蚀空合金&f武器"
-	quest.6C94998689192C2E.quest_desc: ["如果你不想冒&a机会方块&r的险，可以选择在这里把它卖掉！"]
-	quest.6C94998689192C2E.title: "无机之谈"
 	quest.6C974CC33C5BADD8.quest_desc: ["消耗肉汤与任意锭发电。"]
 	quest.6D0C1811DA909BBD.quest_desc: [
 		"&d远古城市宝库&r中充满了各种各样的战利品，但最重要的东西还是来源于那里的Boss。"
