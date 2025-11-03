@@ -5373,7 +5373,7 @@
 		""
 		"这个结构散发着低语、心跳和哭泣的声音，它那黑暗的引力正向外界索取着某些物品。它…有想要的东西。试着把你的&e奥术全典&r交给它，或者给它一些粗矿，看看你会得到什么回报。"
 		""
-		"[\"你可以在\", { \"text\": \"奥术林地\", \"color\": \"light_purple\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"066B47D2AB72355C\" }, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"前往奥术林地任务\"}}, \"中找到\", {\"text\": \"符文木树\", \"color\": \"dark_green\"}, \",准备好战斗吧。\"]"
+		"[\"你可以在\", { \"text\": \"奥术林地\", \"color\": \"light_purple\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"066B47D2AB72355C\" }, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"前往奥术林地任务\"}}, \"中找到\", {\"text\": \"符文木树\", \"color\": \"dark_green\"}, \"，准备好战斗吧。\"]"
 		""
 		"&e注意&r：某些合成配方只有跳入哭泣之井后才会显示。"
 	]
@@ -5440,7 +5440,7 @@
 		""
 		"&bQIO红石适配器&r可以根据物品数量在设定的频率下发出红石信号，非常适合用于自动化系统，同时避免存储系统被大量物品淹没。"
 	]
-	quest.79873815DEB7A086.title: "&dQIO &a输入&r与&a输出"
+	quest.79873815DEB7A086.title: "&dQIO&a输入&r与&a输出"
 	quest.79E5C4E3958DA8DD.quest_desc: [
 		"&2恩特罗水晶&r要从母岩上采集，就和赛特斯石英水晶一样！"
 		""
