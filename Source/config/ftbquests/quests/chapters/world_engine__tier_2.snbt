@@ -887,9 +887,7 @@
 			id: "50B0E45705EDB5F2"
 			rewards: [{
 				auto: "disabled"
-				command: "/worldengine enchanting_upgrade"
 				exclude_from_claim_all: true
-				feedback_message: "ftb.echo.upgrade.assembling"
 				icon: {
 					components: {
 						"custommachinery:machine": "ftb:world_engine"
@@ -897,9 +895,9 @@
 					id: "custommachinery:custom_machine_item"
 				}
 				id: "1FC841321A5BA9AB"
-				permission_level: 3
+				tags: ["enchanting_upgrade"]
 				team_reward: true
-				type: "command"
+				type: "custom"
 			}]
 			tasks: [
 				{
@@ -929,9 +927,7 @@
 			id: "101B8D9769D835AB"
 			rewards: [{
 				auto: "disabled"
-				command: "/worldengine chroniton_upgrade"
 				exclude_from_claim_all: true
-				feedback_message: "ftb.echo.upgrade.assembling"
 				icon: {
 					components: {
 						"custommachinery:machine": "ftb:world_engine"
@@ -939,9 +935,9 @@
 					id: "custommachinery:custom_machine_item"
 				}
 				id: "174EEA65827DF6EA"
-				permission_level: 3
+				tags: ["chroniton_upgrade"]
 				team_reward: true
-				type: "command"
+				type: "custom"
 			}]
 			tasks: [{
 				consume_items: true
