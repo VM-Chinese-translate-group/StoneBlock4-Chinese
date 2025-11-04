@@ -467,11 +467,13 @@
 				{
 					id: "0AAA6FAB20E74E5F"
 					item: { components: { "ftbfiltersystem:filter": "or(item(apothic_enchanting:blazing_hellshelf)item(apothic_enchanting:glowing_hellshelf))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "2672BC5E75CFBDEC"
 					item: { components: { "ftbfiltersystem:filter": "or(item(apothic_enchanting:crystal_seashelf)item(apothic_enchanting:heart_seashelf))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					optional_task: true
 					type: "item"
 				}
 			]
@@ -699,6 +701,7 @@
 				id: "apotheosis:salvaging_table"
 			}
 			id: "7E685EAD7FB60B45"
+			min_width: 300
 			rewards: [
 				{
 					amount: 3
@@ -725,7 +728,7 @@
 				}
 				{
 					id: "329BA2B5EB3185FC"
-					item: { components: { "ftbfiltersystem:filter": "or(item(apotheosis:common_material)item(apotheosis:uncommon_material)item(apotheosis:rare_material)item(apotheosis:epic_material)item(apotheosis:mythic_material))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					item: { components: { "ftbfiltersystem:filter": "or(item(apotheosis:common_material)item(apotheosis:uncommon_material)item(apotheosis:rare_material)item(apotheosis:epic_material))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 					type: "item"
 				}
 			]

@@ -470,6 +470,13 @@
 					team_reward: true
 					type: "command"
 				}
+				{
+					auto: "invisible"
+					id: "0848277C23AC8A51"
+					ignore_reward_blocking: true
+					stage: "tf_unlock_yeti"
+					type: "gamestage"
+				}
 			]
 			shape: "square"
 			tasks: [
@@ -751,6 +758,18 @@
 					team_reward: true
 					type: "command"
 				}
+				{
+					auto: "invisible"
+					id: "3E36C30665B59439"
+					stage: "tf_unlock_snow"
+					type: "gamestage"
+				}
+				{
+					auto: "invisible"
+					id: "64B881CEAB018CF5"
+					stage: "tf_unlock_hydra"
+					type: "gamestage"
+				}
 			]
 			shape: "square"
 			tasks: [
@@ -988,9 +1007,7 @@
 			id: "14537A63D3BDC09B"
 			rewards: [{
 				auto: "disabled"
-				command: "/worldengine euphonium_upgrade"
 				exclude_from_claim_all: true
-				feedback_message: "ftb.echo.upgrade.assembling"
 				icon: {
 					components: {
 						"custommachinery:machine": "ftb:world_engine"
@@ -998,9 +1015,9 @@
 					id: "custommachinery:custom_machine_item"
 				}
 				id: "11F46FD8EC5EE6C8"
-				permission_level: 3
+				tags: ["euphonium_upgrade"]
 				team_reward: true
-				type: "command"
+				type: "custom"
 			}]
 			tasks: [{
 				consume_items: true
@@ -1021,9 +1038,7 @@
 			id: "5FDB9EC42FE936C6"
 			rewards: [{
 				auto: "disabled"
-				command: "/worldengine resonant_void_upgrade"
 				exclude_from_claim_all: true
-				feedback_message: "ftb.echo.upgrade.assembling"
 				icon: {
 					components: {
 						"custommachinery:machine": "ftb:world_engine"
@@ -1031,9 +1046,9 @@
 					id: "custommachinery:custom_machine_item"
 				}
 				id: "437C0250BD2823D8"
-				permission_level: 3
+				tags: ["resonant_void_upgrade"]
 				team_reward: true
-				type: "command"
+				type: "custom"
 			}]
 			tasks: [{
 				consume_items: true
@@ -1054,9 +1069,7 @@
 			id: "383DAD591823C746"
 			rewards: [{
 				auto: "disabled"
-				command: "/worldengine twilight_upgrade"
 				exclude_from_claim_all: true
-				feedback_message: "ftb.echo.upgrade.assembling"
 				icon: {
 					components: {
 						"custommachinery:machine": "ftb:world_engine"
@@ -1064,9 +1077,9 @@
 					id: "custommachinery:custom_machine_item"
 				}
 				id: "4348C140262F1176"
-				permission_level: 3
+				tags: ["twilight_upgrade"]
 				team_reward: true
-				type: "command"
+				type: "custom"
 			}]
 			tasks: [
 				{
@@ -1116,9 +1129,7 @@
 			id: "51B3EF0BCEB804A4"
 			rewards: [{
 				auto: "disabled"
-				command: "/worldengine draconic_upgrade"
 				exclude_from_claim_all: true
-				feedback_message: "ftb.echo.upgrade.assembling"
 				icon: {
 					components: {
 						"custommachinery:machine": "ftb:world_engine"
@@ -1126,9 +1137,9 @@
 					id: "custommachinery:custom_machine_item"
 				}
 				id: "12E34C33B113C643"
-				permission_level: 3
+				tags: ["draconic_upgrade"]
 				team_reward: true
-				type: "command"
+				type: "custom"
 			}]
 			tasks: [
 				{
@@ -1167,11 +1178,24 @@
 				type: "currency"
 			}]
 			shape: "rsquare"
-			tasks: [{
-				id: "1E174A9691D90A87"
-				item: { count: 1, id: "cataclysm:abyssal_egg" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "35D8CC5A159D2A2B"
+					item: { count: 1, id: "cataclysm:abyssal_sacrifice" }
+					type: "item"
+				}
+				{
+					id: "1E174A9691D90A87"
+					item: { count: 1, id: "cataclysm:abyssal_egg" }
+					type: "item"
+				}
+				{
+					id: "12D60496E6A55CB5"
+					item: { components: { "gateways:gateway": "gateways:coralssus" }, count: 1, id: "gateways:gate_pearl" }
+					match_components: "strict"
+					type: "item"
+				}
+			]
 			x: 0.75d
 			y: 3.5d
 		}

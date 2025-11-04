@@ -1110,9 +1110,7 @@
 			id: "3917A0EC517F70E6"
 			rewards: [{
 				auto: "disabled"
-				command: "/worldengine source_upgrade"
 				exclude_from_claim_all: true
-				feedback_message: "ftb.echo.upgrade.assembling"
 				icon: {
 					components: {
 						"custommachinery:machine": "ftb:world_engine"
@@ -1120,9 +1118,9 @@
 					id: "custommachinery:custom_machine_item"
 				}
 				id: "676EC71A125D6E04"
-				permission_level: 3
+				tags: ["source_upgrade"]
 				team_reward: true
-				type: "command"
+				type: "custom"
 			}]
 			tasks: [{
 				consume_items: true
@@ -1143,9 +1141,7 @@
 			id: "76673B8374630924"
 			rewards: [{
 				auto: "disabled"
-				command: "/worldengine machine_block_upgrade"
 				exclude_from_claim_all: true
-				feedback_message: "ftb.echo.upgrade.assembling"
 				icon: {
 					components: {
 						"custommachinery:machine": "ftb:world_engine"
@@ -1153,9 +1149,9 @@
 					id: "custommachinery:custom_machine_item"
 				}
 				id: "2C24A3F46426B257"
-				permission_level: 3
+				tags: ["machine_block_upgrade"]
 				team_reward: true
-				type: "command"
+				type: "custom"
 			}]
 			tasks: [{
 				consume_items: true
@@ -1176,9 +1172,7 @@
 			id: "04E68DA90DC83B45"
 			rewards: [{
 				auto: "disabled"
-				command: "/worldengine shadow_casing_upgrade"
 				exclude_from_claim_all: true
-				feedback_message: "ftb.echo.upgrade.assembling"
 				icon: {
 					components: {
 						"custommachinery:machine": "ftb:world_engine"
@@ -1186,9 +1180,9 @@
 					id: "custommachinery:custom_machine_item"
 				}
 				id: "31B318A2B60F4CC5"
-				permission_level: 3
+				tags: ["shadow_casing_upgrade"]
 				team_reward: true
-				type: "command"
+				type: "custom"
 			}]
 			tasks: [
 				{
