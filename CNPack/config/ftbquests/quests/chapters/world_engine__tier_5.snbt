@@ -867,110 +867,6 @@
 			shape: "square"
 			tasks: [
 				{
-					count: 25L
-					id: "0AAE84D354789D9A"
-					item: {
-						count: 1
-						id: "immersiveengineering:steel_scaffolding_standard"
-					}
-					type: "item"
-				}
-				{
-					count: 30L
-					id: "10B6069C03EEA3AF"
-					item: {
-						count: 1
-						id: "oritech:machine_core_4"
-					}
-					type: "item"
-				}
-				{
-					count: 3L
-					id: "08C1502F5A3E5D59"
-					item: {
-						count: 1
-						id: "immersiveengineering:steel_scaffolding_grate_top"
-					}
-					type: "item"
-				}
-				{
-					count: 3L
-					id: "3B930EE04231C2FD"
-					item: {
-						count: 1
-						id: "immersiveengineering:steel_catwalk_stairs"
-					}
-					type: "item"
-				}
-				{
-					count: 25L
-					id: "01310C5E2FEF0998"
-					item: {
-						count: 1
-						id: "immersiveengineering:steel_fence"
-					}
-					type: "item"
-				}
-				{
-					count: 24L
-					id: "4C729F2B11B4417B"
-					item: {
-						count: 1
-						id: "mekanismgenerators:fission_reactor_casing"
-					}
-					type: "item"
-				}
-				{
-					id: "1274626876CAAC70"
-					item: {
-						count: 1
-						id: "avaritia:neutronium_block"
-					}
-					type: "item"
-				}
-				{
-					count: 7L
-					id: "57EC4C52FA12FEC6"
-					item: {
-						count: 1
-						id: "mekanismgenerators:reactor_glass"
-					}
-					type: "item"
-				}
-				{
-					id: "3F1285738225C066"
-					item: {
-						count: 1
-						id: "oritech:item_pipe_duct_block"
-					}
-					type: "item"
-				}
-				{
-					count: 2L
-					id: "7AB6989299A80B36"
-					item: {
-						count: 1
-						id: "oritech:framed_item_pipe"
-					}
-					type: "item"
-				}
-				{
-					id: "02F33EBD5348BEF0"
-					item: {
-						count: 1
-						id: "mekanism_lasers:elite_toggleable_laser"
-					}
-					type: "item"
-				}
-				{
-					id: "19F40FB98E16A963"
-					item: {
-						count: 1
-						id: "mekanism:elite_induction_provider"
-					}
-					type: "item"
-				}
-				{
 					id: "5F2164052B261E2F"
 					item: {
 						components: {
@@ -978,6 +874,48 @@
 						}
 						count: 1
 						id: "custommachinery:custom_machine_item"
+					}
+					type: "item"
+				}
+				{
+					count: 24L
+					id: "282982EE5DD96934"
+					item: {
+						count: 1
+						id: "oritech:carbon_plating_block"
+					}
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "7AC9AAE1AA3C711C"
+					item: {
+						count: 1
+						id: "cognition:whisperglass"
+					}
+					type: "item"
+				}
+				{
+					id: "385776987D507322"
+					item: {
+						count: 1
+						id: "actuallyadditions:empowered_void_crystal_block"
+					}
+					type: "item"
+				}
+				{
+					id: "6EA9EA6CE1339B14"
+					item: {
+						count: 1
+						id: "oritech:reactor_reflector"
+					}
+					type: "item"
+				}
+				{
+					id: "474C0BC3659F3A26"
+					item: {
+						count: 1
+						id: "oritech:reactor_vent"
 					}
 					type: "item"
 				}
@@ -1103,9 +1041,7 @@
 			id: "5C8773D5561D7245"
 			rewards: [{
 				auto: "disabled"
-				command: "/worldengine awakened_core_upgrade"
 				exclude_from_claim_all: true
-				feedback_message: "ftb.echo.upgrade.assembling"
 				icon: {
 					components: {
 						"custommachinery:machine": "ftb:world_engine"
@@ -1113,9 +1049,9 @@
 					id: "custommachinery:custom_machine_item"
 				}
 				id: "4BA4CA2B38D5C1F3"
-				permission_level: 3
+				tags: ["awakened_core_upgrade"]
 				team_reward: true
-				type: "command"
+				type: "custom"
 			}]
 			tasks: [
 				{
@@ -1151,9 +1087,7 @@
 			id: "65B10C46C1AE5026"
 			rewards: [{
 				auto: "disabled"
-				command: "/worldengine dark_void_upgrade"
 				exclude_from_claim_all: true
-				feedback_message: "ftb.echo.upgrade.assembling"
 				icon: {
 					components: {
 						"custommachinery:machine": "ftb:world_engine"
@@ -1161,9 +1095,9 @@
 					id: "custommachinery:custom_machine_item"
 				}
 				id: "00D18DF325869C86"
-				permission_level: 3
+				tags: ["dark_void_upgrade"]
 				team_reward: true
-				type: "command"
+				type: "custom"
 			}]
 			tasks: [
 				{
@@ -1197,9 +1131,7 @@
 			id: "5804356B2AFCF14A"
 			rewards: [{
 				auto: "disabled"
-				command: "/worldengine infinity_upgrade"
 				exclude_from_claim_all: true
-				feedback_message: "ftb.echo.upgrade.assembling"
 				icon: {
 					components: {
 						"custommachinery:machine": "ftb:world_engine"
@@ -1207,9 +1139,9 @@
 					id: "custommachinery:custom_machine_item"
 				}
 				id: "1317DCA026D9DFBC"
-				permission_level: 3
+				tags: ["infinity_upgrade"]
 				team_reward: true
-				type: "command"
+				type: "custom"
 			}]
 			tasks: [
 				{
@@ -1338,6 +1270,29 @@
 				}
 			]
 			x: -2.75d
+			y: 3.5d
+		}
+		{
+			dependencies: ["21322BAF061FE83F"]
+			icon: {
+				components: {
+					"ftbquests:icon": "jei:textures/jei/atlas/gui/icons/info.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "3CFC372F57CF6B82"
+			rewards: [{
+				amount: 1
+				id: "16A295C812371EF6"
+				type: "currency"
+			}]
+			shape: "diamond"
+			size: 0.75d
+			tasks: [{
+				id: "5B1EDE30C0E98068"
+				type: "checkmark"
+			}]
+			x: 3.0d
 			y: 3.5d
 		}
 	]

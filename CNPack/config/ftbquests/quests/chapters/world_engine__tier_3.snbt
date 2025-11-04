@@ -1305,9 +1305,7 @@
 			id: "7EEBD17F0EA6EE0C"
 			rewards: [{
 				auto: "disabled"
-				command: "/worldengine ender_power_upgrade"
 				exclude_from_claim_all: true
-				feedback_message: "ftb.echo.upgrade.assembling"
 				icon: {
 					components: {
 						"custommachinery:machine": "ftb:world_engine"
@@ -1315,9 +1313,9 @@
 					id: "custommachinery:custom_machine_item"
 				}
 				id: "444D56BB0340167E"
-				permission_level: 3
+				tags: ["ender_power_upgrade"]
 				team_reward: true
-				type: "command"
+				type: "custom"
 			}]
 			tasks: [{
 				consume_items: true
@@ -1344,9 +1342,7 @@
 			id: "2EA7D8A9632F845F"
 			rewards: [{
 				auto: "disabled"
-				command: "/worldengine enderium_upgrade"
 				exclude_from_claim_all: true
-				feedback_message: "ftb.echo.upgrade.assembling"
 				icon: {
 					components: {
 						"custommachinery:machine": "ftb:world_engine"
@@ -1354,9 +1350,9 @@
 					id: "custommachinery:custom_machine_item"
 				}
 				id: "689FE9894FCB03FA"
-				permission_level: 3
+				tags: ["enderium_upgrade"]
 				team_reward: true
-				type: "command"
+				type: "custom"
 			}]
 			tasks: [{
 				consume_items: true
@@ -1380,9 +1376,7 @@
 			id: "0FF5D73B3256F400"
 			rewards: [{
 				auto: "disabled"
-				command: "/worldengine spirit_upgrade"
 				exclude_from_claim_all: true
-				feedback_message: "ftb.echo.upgrade.assembling"
 				icon: {
 					components: {
 						"custommachinery:machine": "ftb:world_engine"
@@ -1390,9 +1384,9 @@
 					id: "custommachinery:custom_machine_item"
 				}
 				id: "12870B6226B417AF"
-				permission_level: 3
+				tags: ["spirit_upgrade"]
 				team_reward: true
-				type: "command"
+				type: "custom"
 			}]
 			tasks: [{
 				consume_items: true
@@ -1417,9 +1411,7 @@
 			id: "21E1A72027DBF236"
 			rewards: [{
 				auto: "disabled"
-				command: "/worldengine advanced_machine_upgrade"
 				exclude_from_claim_all: true
-				feedback_message: "ftb.echo.upgrade.assembling"
 				icon: {
 					components: {
 						"custommachinery:machine": "ftb:world_engine"
@@ -1427,9 +1419,9 @@
 					id: "custommachinery:custom_machine_item"
 				}
 				id: "5A9E657EB27180C7"
-				permission_level: 3
+				tags: ["advanced_machine_upgrade"]
 				team_reward: true
-				type: "command"
+				type: "custom"
 			}]
 			tasks: [{
 				consume_items: true
@@ -1453,9 +1445,7 @@
 			id: "02BC8FCDB2D94F0E"
 			rewards: [{
 				auto: "disabled"
-				command: "/worldengine quantum_tunnel_upgrade"
 				exclude_from_claim_all: true
-				feedback_message: "ftb.echo.upgrade.assembling"
 				icon: {
 					components: {
 						"custommachinery:machine": "ftb:world_engine"
@@ -1463,9 +1453,9 @@
 					id: "custommachinery:custom_machine_item"
 				}
 				id: "1214107708FB3198"
-				permission_level: 3
+				tags: ["quantum_tunnel_upgrade"]
 				team_reward: true
-				type: "command"
+				type: "custom"
 			}]
 			tasks: [
 				{
@@ -1504,9 +1494,7 @@
 			id: "55D17BDE3E9C81CC"
 			rewards: [{
 				auto: "disabled"
-				command: "/worldengine fortron_upgrade"
 				exclude_from_claim_all: true
-				feedback_message: "ftb.echo.upgrade.assembling"
 				icon: {
 					components: {
 						"custommachinery:machine": "ftb:world_engine"
@@ -1514,9 +1502,9 @@
 					id: "custommachinery:custom_machine_item"
 				}
 				id: "3C0E24CCC82A480D"
-				permission_level: 3
+				tags: ["fortron_upgrade"]
 				team_reward: true
-				type: "command"
+				type: "custom"
 			}]
 			tasks: [{
 				consume_items: true
@@ -1546,9 +1534,7 @@
 			optional: true
 			rewards: [{
 				auto: "disabled"
-				command: "/worldengine tesseract_upgrade"
 				exclude_from_claim_all: true
-				feedback_message: "ftb.echo.upgrade.assembling"
 				icon: {
 					components: {
 						"custommachinery:machine": "ftb:world_engine"
@@ -1556,9 +1542,9 @@
 					id: "custommachinery:custom_machine_item"
 				}
 				id: "69E35BEC6CB9A014"
-				permission_level: 3
+				tags: ["tesseract_upgrade"]
 				team_reward: true
-				type: "command"
+				type: "custom"
 			}]
 			tasks: [{
 				consume_items: true

@@ -497,6 +497,7 @@
 						count: 1
 						id: "ftbfiltersystem:smart_filter"
 					}
+					optional_task: true
 					type: "item"
 				}
 				{
@@ -508,6 +509,7 @@
 						count: 1
 						id: "ftbfiltersystem:smart_filter"
 					}
+					optional_task: true
 					type: "item"
 				}
 			]
@@ -776,6 +778,7 @@
 				id: "apotheosis:salvaging_table"
 			}
 			id: "7E685EAD7FB60B45"
+			min_width: 300
 			rewards: [
 				{
 					amount: 3
@@ -807,7 +810,7 @@
 					id: "329BA2B5EB3185FC"
 					item: {
 						components: {
-							"ftbfiltersystem:filter": "or(item(apotheosis:common_material)item(apotheosis:uncommon_material)item(apotheosis:rare_material)item(apotheosis:epic_material)item(apotheosis:mythic_material))"
+							"ftbfiltersystem:filter": "or(item(apotheosis:common_material)item(apotheosis:uncommon_material)item(apotheosis:rare_material)item(apotheosis:epic_material))"
 						}
 						count: 1
 						id: "ftbfiltersystem:smart_filter"

@@ -46,7 +46,7 @@
 		}
 		{
 			height: 2.0d
-			image: "advanced_ae:block/crafting/quantum_structure_powered"
+			image: "advanced_ae:block/crafting/quantum_internal_powered_animation_tb"
 			rotation: 45.0d
 			width: 2.0d
 			x: 8.5d
@@ -209,7 +209,7 @@
 			rotation: 0.0d
 			width: 30.0d
 			x: 0.0d
-			y: 13.0d
+			y: 13.25d
 		}
 		{
 			alpha: 55
@@ -230,6 +230,15 @@
 			width: 3.0d
 			x: 3.5d
 			y: -0.5d
+		}
+		{
+			height: 2.25d
+			image: "advanced_ae:block/quantum_crafter_bottom"
+			order: -1
+			rotation: 45.0d
+			width: 2.25d
+			x: 8.5d
+			y: 11.0d
 		}
 	]
 	order_index: 7
@@ -378,10 +387,13 @@
 			shape: "rsquare"
 			tasks: [
 				{
-					id: "7C326E4170117C9F"
+					id: "279D9C7BF6F11D8E"
 					item: {
+						components: {
+							"custommachinery:machine": "ftb:circuit_fabricator"
+						}
 						count: 1
-						id: "ae2:mysterious_cube"
+						id: "custommachinery:custom_machine_item"
 					}
 					type: "item"
 				}
@@ -404,13 +416,10 @@
 					type: "item"
 				}
 				{
-					id: "279D9C7BF6F11D8E"
+					id: "7C326E4170117C9F"
 					item: {
-						components: {
-							"custommachinery:machine": "ftb:circuit_fabricator"
-						}
 						count: 1
-						id: "custommachinery:custom_machine_item"
+						id: "ae2:mysterious_cube"
 					}
 					type: "item"
 				}
@@ -2974,6 +2983,29 @@
 			}]
 			x: -6.0d
 			y: 5.5d
+		}
+		{
+			dependencies: ["663460DE8AF7E464"]
+			icon: {
+				components: {
+					"ftbquests:icon": "jei:textures/jei/atlas/gui/icons/info.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "2690BF30D8119E77"
+			rewards: [{
+				amount: 1
+				id: "37A7786BB8EF508D"
+				type: "currency"
+			}]
+			shape: "diamond"
+			size: 0.75d
+			tasks: [{
+				id: "1918A324D7CB282A"
+				type: "checkmark"
+			}]
+			x: -5.5d
+			y: 10.0d
 		}
 	]
 }
