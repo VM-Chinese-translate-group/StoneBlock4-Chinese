@@ -293,6 +293,7 @@
 		{
 			alpha: 80
 			color: 0
+			dependency: "7F7C0B1523AA28C4"
 			height: 2.0d
 			image: "ftbquests:textures/shapes/square/shape.png"
 			order: -1
@@ -304,8 +305,10 @@
 		{
 			alpha: 55
 			color: 0
+			dependency: "7F7C0B1523AA28C4"
 			height: 11.0d
 			image: "ftbquests:textures/shapes/square/shape.png"
+			order: -3
 			rotation: 0.0d
 			width: 8.0d
 			x: -12.5d
@@ -358,6 +361,7 @@
 			y: -1.0d
 		}
 		{
+			dependency: "7F7C0B1523AA28C4"
 			height: 1.5d
 			image: "ars_nouveau:block/warp_portal"
 			order: -1
@@ -367,6 +371,7 @@
 			y: -1.0d
 		}
 		{
+			dependency: "7F7C0B1523AA28C4"
 			height: 1.5d
 			image: "ars_affinity:textures/gui/perk_tree_frame.png"
 			order: -1

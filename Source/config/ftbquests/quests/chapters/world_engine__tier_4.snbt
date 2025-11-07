@@ -507,6 +507,7 @@
 			}
 			icon_scale: 1.5d
 			id: "45BA73F16B7AE681"
+			min_width: 300
 			rewards: [{
 				amount: 50
 				id: "726E8CB33DEA6B24"
@@ -1167,7 +1168,10 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["15DE76B303680F79"]
+			dependencies: [
+				"15DE76B303680F79"
+				"67181BD1F2434E2C"
+			]
 			icon: {
 				id: "cataclysm:abyssal_egg"
 			}
@@ -1180,6 +1184,12 @@
 			shape: "rsquare"
 			tasks: [
 				{
+					id: "12D60496E6A55CB5"
+					item: { components: { "gateways:gateway": "gateways:coralssus" }, count: 1, id: "gateways:gate_pearl" }
+					match_components: "strict"
+					type: "item"
+				}
+				{
 					id: "35D8CC5A159D2A2B"
 					item: { count: 1, id: "cataclysm:abyssal_sacrifice" }
 					type: "item"
@@ -1189,18 +1199,15 @@
 					item: { count: 1, id: "cataclysm:abyssal_egg" }
 					type: "item"
 				}
-				{
-					id: "12D60496E6A55CB5"
-					item: { components: { "gateways:gateway": "gateways:coralssus" }, count: 1, id: "gateways:gate_pearl" }
-					match_components: "strict"
-					type: "item"
-				}
 			]
 			x: 0.75d
 			y: 3.5d
 		}
 		{
-			dependencies: ["15DE76B303680F79"]
+			dependencies: [
+				"15DE76B303680F79"
+				"67181BD1F2434E2C"
+			]
 			icon: {
 				id: "oritech:prometheum_ingot"
 			}
@@ -1441,6 +1448,35 @@
 			]
 			x: 6.0d
 			y: 5.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["15DE76B303680F79"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: {
+				id: "explorerscompass:explorerscompass"
+			}
+			id: "77DE3D57E5B58948"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				icon: {
+					id: "simpleteleporters:ender_shard"
+				}
+				id: "32A31D445DC7FF87"
+				table_id: 4611501721502039447L
+				team_reward: true
+				type: "all_table"
+			}]
+			shape: "diamond"
+			size: 0.75d
+			tasks: [{
+				id: "3CF00732C185A0FB"
+				type: "checkmark"
+			}]
+			x: 1.125d
+			y: 1.875d
 		}
 	]
 }
