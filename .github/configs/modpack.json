@@ -20,6 +20,7 @@
   },
   "exclusionPatterns": [
     "**/lang/*.*",
+    "**/dimdungeons/lang/*.*",
     "!**/lang/en_us.*"
   ]
 }
