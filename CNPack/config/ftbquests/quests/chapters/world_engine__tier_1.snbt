@@ -1344,5 +1344,30 @@
 			x: 6.75d
 			y: 3.75d
 		}
+		{
+			can_repeat: true
+			dependencies: ["615D1A52ED3A9C78"]
+			disable_toast: true
+			icon: {
+				components: {
+					"custommachinery:machine": "ftb:world_engine"
+				}
+				id: "custommachinery:custom_machine_item"
+			}
+			id: "10DEA5CE1800F935"
+			optional: true
+			rewards: [{
+				auto: "invisible"
+				id: "39BDE32B4BEF479B"
+				tags: ["reset_world_engine_machine"]
+				type: "custom"
+			}]
+			tasks: [{
+				id: "6865F20C1E218901"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
 	]
 }

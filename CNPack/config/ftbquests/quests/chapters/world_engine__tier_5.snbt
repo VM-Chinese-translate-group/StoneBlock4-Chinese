@@ -394,11 +394,11 @@
 					type: "item"
 				}
 			]
-			x: -1.25d
-			y: 2.0d
+			x: -2.0d
+			y: 2.5d
 		}
 		{
-			dependencies: ["0415C8A3274EF9D1"]
+			dependencies: ["71BDC5B453B8CAB4"]
 			icon: {
 				id: "ftb:mighty_chicken_egg"
 			}
@@ -435,8 +435,8 @@
 					type: "item"
 				}
 			]
-			x: -2.75d
-			y: 2.0d
+			x: 1.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["6E24701C49A6114D"]
@@ -525,11 +525,11 @@
 					type: "item"
 				}
 			]
-			x: 2.0d
+			x: 2.5d
 			y: 2.5d
 		}
 		{
-			dependencies: ["38D2CAF4BD36DED8"]
+			dependencies: ["28C1BB5C88F65CA0"]
 			icon: {
 				id: "draconicevolution:awakened_draconium_block"
 			}
@@ -754,7 +754,10 @@
 			y: 25.0d
 		}
 		{
-			dependencies: ["543C6917A16F266C"]
+			dependencies: [
+				"543C6917A16F266C"
+				"4D17FE7D41FEEC95"
+			]
 			id: "1111B3ACEDDF5633"
 			rewards: [{
 				amount: 100
@@ -814,7 +817,7 @@
 					type: "item"
 				}
 			]
-			x: 2.0d
+			x: 2.5d
 			y: 1.5d
 		}
 		{
@@ -847,7 +850,7 @@
 					type: "item"
 				}
 			]
-			x: 2.0d
+			x: 2.5d
 			y: 4.5d
 		}
 		{
@@ -920,7 +923,7 @@
 					type: "item"
 				}
 			]
-			x: 2.0d
+			x: 2.5d
 			y: 3.5d
 		}
 		{
@@ -1169,43 +1172,6 @@
 			y: 22.5d
 		}
 		{
-			dependencies: [
-				"28C1BB5C88F65CA0"
-				"41ED404574094D5B"
-			]
-			icon: {
-				id: "chicken_roost:c_awakeneddraconium"
-			}
-			id: "38D2CAF4BD36DED8"
-			rewards: [{
-				amount: 75
-				id: "6023CF7B2EA26623"
-				type: "currency"
-			}]
-			shape: "square"
-			tasks: [
-				{
-					count: 12L
-					id: "2785DC7304240E15"
-					item: {
-						count: 1
-						id: "draconicevolution:chaotic_crafting_injector"
-					}
-					type: "item"
-				}
-				{
-					id: "3B9E7C4046CE4BCD"
-					item: {
-						count: 1
-						id: "chicken_roost:c_awakeneddraconium"
-					}
-					type: "item"
-				}
-			]
-			x: -2.0d
-			y: 5.0d
-		}
-		{
 			dependencies: ["580CDFD2B7675485"]
 			icon: {
 				id: "draconicevolution:dragon_heart"
@@ -1236,8 +1202,8 @@
 					type: "item"
 				}
 			]
-			x: -1.25d
-			y: 3.5d
+			x: -2.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["4D7C7DE95E56C7B3"]
@@ -1269,8 +1235,8 @@
 					type: "item"
 				}
 			]
-			x: -2.75d
-			y: 3.5d
+			x: 1.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["21322BAF061FE83F"]
@@ -1292,8 +1258,28 @@
 				id: "5B1EDE30C0E98068"
 				type: "checkmark"
 			}]
-			x: 3.0d
+			x: 3.5d
 			y: 3.5d
+		}
+		{
+			dependencies: ["41ED404574094D5B"]
+			id: "4D17FE7D41FEEC95"
+			rewards: [{
+				amount: 75
+				id: "1197F6DEE79D64C9"
+				type: "currency"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "100ED594AD8FB9CA"
+				item: {
+					count: 1
+					id: "draconicevolution:chaos_shard"
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 4.5d
 		}
 	]
 }
