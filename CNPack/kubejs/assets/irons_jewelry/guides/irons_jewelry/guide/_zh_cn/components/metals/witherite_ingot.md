@@ -1,17 +1,17 @@
 ---
 navigation:
-  title: Witherite Ingot
+  title: 凋灵合金锭
   position: 23
   icon: "cataclysm:witherite_ingot"
   parent: irons_jewelry:metals.md
 item_ids:
   - cataclysm:witherite_ingot
 ---
-# Witherite Ingot
+# 凋灵合金锭
 
 <ItemImage id="cataclysm:witherite_ingot" scale="3" />
 
-This item can be used as a <Color id="green">Metal</Color> for Iron's Jewelry.
+此物品可作为Iron珠宝的<Color id="green">金属</Color>。
 
-### Attribute
-- Adds Fire Damage++ (Flat)
+### 属性
+- 增加火焰伤害++（固定值）

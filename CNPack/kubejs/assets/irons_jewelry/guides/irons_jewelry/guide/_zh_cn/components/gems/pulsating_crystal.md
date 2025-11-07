@@ -1,17 +1,17 @@
 ---
 navigation:
-  title: Pulsating Crystal
+  title: 脉冲水晶
   position: 16
   icon: "enderio:pulsating_crystal"
   parent: irons_jewelry:gems.md
 item_ids:
   - enderio:pulsating_crystal
 ---
-# Pulsating Crystal
+# 脉冲水晶
 
 <ItemImage id="enderio:pulsating_crystal" scale="3" />
 
-This item can be used as a <Color id="light_purple">Gem</Color> for Iron's Jewelry.
+此物品可作为Iron珠宝的<Color id="light_purple">宝石</Color>。
 
-### Attribute
-- Adds Ars Nouveau Spell Crit (Percentage)
+### 属性
+- 增加新生魔艺法术暴击（百分比）

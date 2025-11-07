@@ -1,17 +1,17 @@
 ---
 navigation:
-  title: Enderium Ingot
+  title: 末影锭
   position: 8
   icon: "chicken_roost:ingot_enderium"
   parent: irons_jewelry:metals.md
 item_ids:
   - chicken_roost:ingot_enderium
 ---
-# Enderium Ingot
+# 末影锭
 
 <ItemImage id="chicken_roost:ingot_enderium" scale="3" />
 
-This item can be used as a <Color id="green">Metal</Color> for Iron's Jewelry.
+此物品可作为Iron珠宝的<Color id="green">金属</Color>。
 
-### Attribute
-- Adds Crit Chance+ (Percentage)
+### 属性
+- 增加暴击率+（百分比）

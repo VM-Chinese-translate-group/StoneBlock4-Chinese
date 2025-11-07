@@ -1,17 +1,17 @@
 ---
 navigation:
-  title: Dark Steel Ingot
+  title: 玄钢锭
   position: 4
   icon: "enderio:dark_steel_ingot"
   parent: irons_jewelry:metals.md
 item_ids:
   - enderio:dark_steel_ingot
 ---
-# Dark Steel Ingot
+# 玄钢锭
 
 <ItemImage id="enderio:dark_steel_ingot" scale="3" />
 
-This item can be used as a <Color id="green">Metal</Color> for Iron's Jewelry.
+此物品可作为Iron珠宝的<Color id="green">金属</Color>。
 
-### Attribute
-- Adds Mining Efficiency (Percentage)
+### 属性
+- 增加采掘效率（百分比）

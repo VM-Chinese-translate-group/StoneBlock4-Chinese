@@ -1,11 +1,11 @@
 ---
 navigation:
-  title: Materials
+  title: 材料
   position: 3
   icon: "minecraft:iron_ingot"
 ---
-# Gems
+# 宝石
 
-<Color id="green">Metals</Color> are the main components used when creating Jewelry. These are required for every craft.
+<Color id="green">金属</Color>是制作饰品时使用的主要材料。这些材料是每次合成所必需的。
 
 

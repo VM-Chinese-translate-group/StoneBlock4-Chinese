@@ -1,17 +1,17 @@
 ---
 navigation:
-  title: Fused Consciousness
+  title: 融合意识
   position: 9
   icon: "malum:fused_consciousness"
   parent: irons_jewelry:gems.md
 item_ids:
   - malum:fused_consciousness
 ---
-# Fused Consciousness
+# 融合意识
 
 <ItemImage id="malum:fused_consciousness" scale="3" />
 
-This item can be used as a <Color id="light_purple">Gem</Color> for Iron's Jewelry.
+此物品可作为Iron珠宝的<Color id="light_purple">宝石</Color>。
 
-### Attribute
-- Adds Max Health+ (Flat)
+### 属性
+- 增加最大生命值+（固定值）

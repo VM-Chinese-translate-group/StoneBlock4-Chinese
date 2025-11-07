@@ -1,23 +1,23 @@
 ---
 navigation:
-  title: Black Quartz
+  title: 焦黑石英
   position: 2
   icon: "actuallyadditions:black_quartz"
   parent: irons_jewelry:gems.md
 item_ids:
   - actuallyadditions:black_quartz
 ---
-# Black Quartz
+# 焦黑石英
 
 <ItemImage id="actuallyadditions:black_quartz" scale="3" />
 
-This item can be used as a <Color id="light_purple">Gem</Color> for Iron's Jewelry.
+此物品可作为Iron珠宝的<Color id="light_purple">宝石</Color>。
 
-### Attribute
-- Increases Cold Damage
+### 属性
+- 增加寒冷伤害
 
-### Positive Effect
-- Grants Jump Boost
+### 正面效果
+- 赋予跳跃提升
 
-### Action Effect
-- Applies Thorn Damage
+### 动作效果
+- 施加荆棘伤害

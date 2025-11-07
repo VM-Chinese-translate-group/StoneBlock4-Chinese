@@ -1,19 +1,19 @@
 ---
 navigation:
-  title: Infinity Ingot
+  title: 无尽之锭
   position: 12
   icon: "avaritia:infinity_ingot"
   parent: irons_jewelry:metals.md
 item_ids:
   - avaritia:infinity_ingot
 ---
-# Infinity Ingot
+# 无尽之锭
 
 <ItemImage id="avaritia:infinity_ingot" scale="3" />
 
-This item can be used as a <Color id="green">Metal</Color> for Iron's Jewelry.
+此物品可作为Iron珠宝的<Color id="green">金属</Color>。
 
-This also has an insane quality multiplier of <Color id="light_purple">100</Color>.
+它也具有疯狂的<Color id="light_purple">100</Color>倍品质效果加成。
 
-### Attribute
-- Adds Creative Flight
+### 属性
+- 增加创造飞行

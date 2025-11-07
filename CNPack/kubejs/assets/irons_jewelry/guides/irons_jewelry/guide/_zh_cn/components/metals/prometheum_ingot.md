@@ -1,17 +1,17 @@
 ---
 navigation:
-  title: Prometheum Ingot
+  title: 钷
   position: 15
   icon: "oritech:prometheum_ingot"
   parent: irons_jewelry:metals.md
 item_ids:
   - oritech:prometheum_ingot
 ---
-# Prometheum Ingot
+# 钷
 
 <ItemImage id="oritech:prometheum_ingot" scale="3" />
 
-This item can be used as a <Color id="green">Metal</Color> for Iron's Jewelry.
+此物品可作为Iron珠宝的<Color id="green">金属</Color>。
 
-### Attribute
-- Adds Attack Damage (Percentage)
+### 属性
+- 增加攻击伤害（百分比）
