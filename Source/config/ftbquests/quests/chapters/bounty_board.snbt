@@ -47,14 +47,20 @@
 			shape: "square"
 			tasks: [
 				{
-					id: "1B4D85928A33FFE4"
-					item: { count: 1, id: "cataclysm:abyssal_sacrifice" }
-					type: "item"
-				}
-				{
 					id: "5C3A03650166A961"
 					structure: "ftb:water_orb"
 					type: "structure"
+				}
+				{
+					id: "6DC46AB9CA4D40C2"
+					item: { components: { "gateways:gateway": "gateways:coralssus" }, count: 1, id: "gateways:gate_pearl" }
+					match_components: "strict"
+					type: "item"
+				}
+				{
+					id: "1B4D85928A33FFE4"
+					item: { count: 1, id: "cataclysm:abyssal_sacrifice" }
+					type: "item"
 				}
 				{
 					entity: "cataclysm:the_leviathan"
@@ -1136,11 +1142,22 @@
 				id: "trophymanager:trophy"
 			}
 			id: "34C8824842867F5D"
-			rewards: [{
-				amount: 30
-				id: "31864C0FB4427893"
-				type: "currency"
-			}]
+			rewards: [
+				{
+					amount: 30
+					id: "31864C0FB4427893"
+					type: "currency"
+				}
+				{
+					id: "7CC2C4E73D5DED4F"
+					item: {
+						count: 1
+						id: "minecraft:dragon_egg"
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
 			shape: "hexagon"
 			size: 2.0d
 			tasks: [
@@ -1200,7 +1217,7 @@
 				}
 			]
 			x: -2.0d
-			y: 9.0d
+			y: 8.0d
 		}
 		{
 			can_repeat: true
@@ -1233,7 +1250,7 @@
 				}
 			]
 			x: -1.0d
-			y: 9.0d
+			y: 8.0d
 		}
 		{
 			can_repeat: true
@@ -1267,7 +1284,7 @@
 				}
 			]
 			x: 0.0d
-			y: 9.0d
+			y: 8.0d
 		}
 		{
 			can_repeat: true
@@ -1300,7 +1317,7 @@
 				}
 			]
 			x: -0.5d
-			y: 10.0d
+			y: 9.0d
 		}
 		{
 			can_repeat: true
@@ -1333,7 +1350,7 @@
 				}
 			]
 			x: 0.5d
-			y: 10.0d
+			y: 9.0d
 		}
 		{
 			icon: {
@@ -1388,7 +1405,7 @@
 				}
 			]
 			x: 2.0d
-			y: 9.0d
+			y: 8.0d
 		}
 		{
 			can_repeat: true
@@ -1435,7 +1452,7 @@
 				}
 			]
 			x: 1.0d
-			y: 9.0d
+			y: 8.0d
 		}
 		{
 			can_repeat: true
@@ -1467,7 +1484,7 @@
 				}
 			]
 			x: -1.5d
-			y: 10.0d
+			y: 9.0d
 		}
 		{
 			can_repeat: true
@@ -1500,7 +1517,7 @@
 				}
 			]
 			x: 0.5d
-			y: 12.0d
+			y: 11.0d
 		}
 		{
 			can_repeat: true
@@ -1533,7 +1550,7 @@
 				}
 			]
 			x: 0.0d
-			y: 13.0d
+			y: 12.0d
 		}
 		{
 			can_repeat: true
@@ -1566,7 +1583,7 @@
 				}
 			]
 			x: 1.5d
-			y: 10.0d
+			y: 9.0d
 		}
 		{
 			can_repeat: true
@@ -1637,7 +1654,7 @@
 				}
 			]
 			x: 0.0d
-			y: 11.0d
+			y: 10.0d
 		}
 		{
 			can_repeat: true
@@ -1670,7 +1687,7 @@
 				}
 			]
 			x: -1.0d
-			y: 11.0d
+			y: 10.0d
 		}
 		{
 			can_repeat: true
@@ -1703,7 +1720,7 @@
 				}
 			]
 			x: 1.0d
-			y: 11.0d
+			y: 10.0d
 		}
 		{
 			can_repeat: true
@@ -1736,7 +1753,7 @@
 				}
 			]
 			x: -0.5d
-			y: 12.0d
+			y: 11.0d
 		}
 		{
 			id: "5A284AE3AC14D070"

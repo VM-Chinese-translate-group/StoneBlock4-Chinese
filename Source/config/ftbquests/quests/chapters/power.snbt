@@ -71,7 +71,7 @@
 		{
 			alpha: 55
 			height: 3.0d
-			image: "advanced_ae:block/crafting/quantum_structure_powered"
+			image: "advanced_ae:block/crafting/quantum_structure"
 			rotation: 45.0d
 			width: 3.0d
 			x: 0.0d

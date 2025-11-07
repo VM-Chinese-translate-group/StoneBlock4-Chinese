@@ -2911,19 +2911,5 @@
 			x: 4.0d
 			y: 7.0d
 		}
-		{
-			id: "10DEA5CE1800F935"
-			rewards: [{
-				id: "39BDE32B4BEF479B"
-				tags: ["reset_world_engine_machine"]
-				type: "custom"
-			}]
-			tasks: [{
-				id: "6865F20C1E218901"
-				type: "checkmark"
-			}]
-			x: -11.5d
-			y: 7.5d
-		}
 	]
 }
