@@ -14,4 +14,4 @@ item_ids:
 此物品可作为Iron珠宝的<Color id="green">金属</Color>。
 
 ### 属性
-- Adds Overheal (Percentage)
+- 增加过量治疗（百分比）
