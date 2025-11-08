@@ -418,7 +418,7 @@
 		""
 		"小鸡等级越高，每个饲料可产出的资源越多。"
 		""
-		"&eNote&f: You can rename your &2Roosts&r to keep things more organized, especially when using the &aRoost Collector&r."
+		"&e注意&f：你可以重命名&2鸡舍&r使你的养鸡场更有条理，尤其是在使用&a鸡舍收集器（Roost Collector）&r时。"
 	]
 	quest.081EA35CCBDF793F.title: "Roost Ultimate"
 	quest.08204AA5ACCC914E.quest_desc: ["&a背包&r可以染色！这样一来，无论是用颜色来区分不同的背包，还是单纯想背着黑色背包耍酷，两者皆可。"]
@@ -861,11 +861,11 @@
 	]
 	quest.107C26E8BF309BC1.title: "&f奥术战利品"
 	quest.10DEA5CE1800F935.quest_desc: [
-		"&7&o做事就会出现错误，而Minecraft没有“撤销”按钮，所以我们为你添加了一个。"
+		"&7&o意外是难免的，而MC没有“撤销”按钮，所以我们为你增加了一个。"
 		""
 		"如果你不小心破坏了你的&6世界引擎&r机器方块，点击此按钮将为你替换它。"
 		""
-		"请注意，这将清除&6世界引擎&r中的所有现有设置和物品。"
+		"这会清除&6世界引擎&r中所有已调整的配置和已放置的物品，千万别忘了。"
 	]
 	quest.1111B3ACEDDF5633.quest_desc: [
 		"让&c红物质&r与&z反物质&r相撞可能会摧毁整个世界。"
@@ -1084,13 +1084,13 @@
 	]
 	quest.165A1B6F56051FA6.title: "&6任意门&r模组"
 	quest.1666835CA3297C7D.quest_desc: [
-		"There are 2 special &aArtisan Scrolls&r that will teach you how to craft &6Duality&r jewelry."
+		"有2种特殊的&a工匠卷轴&r，能让你解锁如何制作&6双层种类&r珠宝。"
 		""
-		"This jewelry takes both the attributes from the &eMetal&r and the &dGem&r, and has a higher quality overall."
+		"这种珠宝同时拥有&e金属&r和&d宝石&r的属性，并且总体品质更高。"
 		""
-		"&eNote&r: Both of these recipes need the &dEnchanting&r &6World Engine Upgrade&r."
+		"&e注意&r：这两种配方都需要&6世界引擎&r&d附魔升级&r。"
 	]
-	quest.1666835CA3297C7D.title: "&6Duality&r &aJewelry&r"
+	quest.1666835CA3297C7D.title: "&6双层&r&a珠宝&r"
 	quest.166BA0D04A1686C7.quest_desc: [
 		"&3力场子&r可以从&a能源转换器&r或其他由&b力场子驱动的机器&r中提取。"
 		""
@@ -1724,7 +1724,7 @@
 		""
 		"不过，这些材料的主要用途是放大&a宝石&r的效果，放大倍率由材料的品质效果加成决定。"
 		""
-		"While most vanilla gems will work, you can also search for &ajewelry_metal&r in JEI for a list."
+		"即使大多数原版宝石都能奏效，但你仍能在JEI中搜索&ajewelry_metal&r来查看可用列表。"
 	]
 	quest.26D7C5298D95C69A.title: "&a环带材料"
 	quest.26F18323EB6EFCA0.quest_desc: ["&b子沙&r方块很适合建造仙人掌或者甘蔗农场。给它输入红石信号还可以提高作物的生长速率。"]
@@ -2031,11 +2031,11 @@
 	]
 	quest.2F15D918EF183051.title: "欢迎来到&6石头世界4&r！"
 	quest.2F2DC018DD6A2A23.quest_desc: [
-		"&aGems&r are the part of most &bJewelry&r that grants effects or attributes."
+		"大多数&b珠宝饰品&r的效果加成和属性都来自其所镶嵌的&a宝石&r 。"
 		""
 		"同样的&a宝石&r镶嵌在不同的&b饰品&r上会赋予其不相同的属性与增益，因此在合成时还请仔细查看。"
 		""
-		"While most vanilla gems will work, you can also search for &ajewelry_gem&r in JEI for a list."
+		"即使大多数原版宝石都能奏效，但你仍能在JEI中搜索&ajewelry_gem&r来查看可用列表。"
 	]
 	quest.2F2DC018DD6A2A23.title: "&a宝石"
 	quest.2F8BB4724991B7C4.quest_desc: [
@@ -2307,15 +2307,15 @@
 	]
 	quest.3435641A78B90D97.title: "&f改天换地"
 	quest.34A2BA2C754CE27A.quest_desc: [
-		"The &2Roost Feeder&r and &aRoost Collector&r can deliver seeds and pick up items from any nearby Roost up to 30 blocks away. This range can be configured inside the interface by clicking the '+' and '-' buttons."
+		"&2喂食器（Roost Feeder）&r和&a鸡舍收集器（Roost Collector）&r能向周围至多30格范围的鸡舍传输种子并收集其产物。你可以在它们的界面中点击‘+’和‘-’按钮配置范围。"
 		""
-		"The &2Roost Feeder&r allows you to filter which seeds can be fed to which roost by draggin a seed item from your inventory or JEI to the right-side filter slot of each roost within the &2Feeder's&r interface."
+		"&2喂食器（Roost Feeder）&r界面右侧是每个鸡舍的过滤槽，你可以将物品栏或JEI中的鸡饲料拖拽过去，以单独设置鸡饲料的去向。"
 		""
-		"For either block to function, you must also select a Roost to collect resources from by clicking the `[ ]` on the left to show `[x]`."
+		"而收集器则需你在界面中逐个选中要收集产物的鸡舍，使其名称前面的`[ ]`变为`[x]`。"
 		""
-		"&eNote&f: Renaming your &2Roosts&r will display their name on these interfaces."
+		"&e注意&f：被重命名的&2鸡舍&r会在界面中显示其名字。"
 	]
-	quest.34A2BA2C754CE27A.title: "Wireless Chickens"
+	quest.34A2BA2C754CE27A.title: "无线养鸡"
 	quest.34C8824842867F5D.quest_desc: ["&z威猛末影鸡&r的栖息地分布在地图的北部与南部区域，具体位于&e末地&r环中。传闻中，这只鸡拥有一面无法穿透的护盾。也许一根&b鸡调试棒&r会有帮助……"]
 	quest.34C8824842867F5D.title: "&e击杀&f：&z威猛末影鸡"
 	quest.34D191F76AA69707.quest_desc: [
@@ -3186,15 +3186,15 @@
 	]
 	quest.45B2C8BD2ACBA46D.title: "设计反应堆"
 	quest.45BA73F16B7AE681.quest_desc: [
-		"Found within lower deepslate, the &3Ancient City&r holds a giant portal that can finally be activated, allowing you to defeat the boss within."
+		"&3远古城市&r坐落于深板岩环的下层，其中有一个巨大的传送门，现在你终于可以激活它，并击杀其中的boss了。"
 		""
-		"Upon entering the portal you will receive a blindness effect that can only be cured by filling your &dSoul Cage&r with mob souls dropped from killing strengthened enemies inside the &3Vault&r."
+		"进入传送门后，你将获得一个失明效果。击杀&3宝库&r中被强化的怪物，你的&d灵魂之笼&r便能吸收它们的灵魂并治愈你的失明。"
 		""
-		"&cYou must hold the &dSoul Cage &cin your offhand to charge it!"
+		"&c你必须在副手持有&d灵魂之笼&c才能为其充能！"
 		""
-		"Once you have filled your &dSoul Cage&r, you may start the boss fight by taking the elevator in the starting room."
+		"当你充满&d灵魂之笼&r后，你就能乘坐初始房间的电梯与boss对战了。"
 		""
-		"&eNote&r: Killing mobs with the &6Reaper&r enchantment will fill your Cage quicker (+1 per Level)"
+		"&e注意&r：使用附魔了&6收割者&r的武器击杀怪物能更快地填充灵魂之笼（每级+1）"
 	]
 	quest.45BA73F16B7AE681.title: "&3远古传送门"
 	quest.45CB3F325010A5AD.quest_desc: [
@@ -3341,7 +3341,7 @@
 		""
 		"要想制作更高级的&b饰品&r，你需要从村民或&6商店&r处购买工匠卷轴。"
 		""
-		"Most &bJewelry&r consists of a &aBand Metal&r and a &aGem&r."
+		"大多数的&b饰品&r由&a环带金属&r与&a宝石&r组成。"
 	]
 	quest.496903AB7E8A0A92.title: "&eIron的宝石与饰品&f！"
 	quest.49835EC10C5AE8D8.quest_desc: [
@@ -3510,7 +3510,7 @@
 		""
 		"一旦将其安装到&a复制器&r上，你就可以调节它的速度。你最快可以调至加速20％，但是会增加复制失败的概率。"
 	]
-	quest.4D17FE7D41FEEC95.title: "&zA Whole Lotta Chaos"
+	quest.4D17FE7D41FEEC95.title: "&z满目混沌"
 	quest.4D1EBD92C674531E.quest_desc: [
 		"用5个奥术精魂做一个图腾柱并激活它，它会展开&b释缚仪式&r。"
 		""
@@ -3562,13 +3562,13 @@
 		""
 		"你的目标是将&z威猛末影鸡&r传送到&a生物静滞室&r上方，这样你就能使用&6流体镭射钻&r从它身上获取资源了。"
 		""
-		"&eNote&r: The chicken will teleport back if it is in the same dimension. You should set this up in a &aCompact Machine&r!"
+		"&e注意&r：如果鸡与传送点在同一维度，则会被自动拉回。你需要在&a压缩机器&r中为其设置陷阱！"
 		"{@pagebreak}"
-		"The &aLaser Base&r needs to be placed depending on the size of the chicken that you warp over."
+		"你需要根据鸡的大小来放置&a镭射站基座&r。"
 		""
-		"The goal should be to place the Base directly above the chicken's head, which if tiny, will be one block above it."
+		"基座需要放置在鸡的头部正上方，如果鸡的尺寸很小，那么只需向上一格高度放置。"
 		""
-		"To achieve a tiny chicken, as soon as you summon it, place in the &dDislocator&r to immediately open the portal."
+		"如果要获得一只迷你体型的鸡，当你召唤它时，应立即放置&d传送符咒&r来打开传送门。"
 	]
 	quest.4D7C7DE95E56C7B3.title: "把鸡带回家"
 	quest.4DABDC2484C732AC.quest_desc: [
@@ -4328,7 +4328,7 @@
 	]
 	quest.5ED10C54AE06DB40.title: "&z无尽套装"
 	quest.5FBD41923B66C239.quest_desc: [
-		"普通抽屉只能以基础存储上限存储东西，但是你可以升级它的存储上限！"
+		"默认状态下，抽屉的存储上限由其种类决定，但是你可以升级它的存储上限！"
 		""
 		"举个例子：基础抽屉只能储存一个物品，基础储存量为&a2,000&r个物品。你加装的每个升级都会翻倍储存量，而且升级可以累加。大部分抽屉都可以加装4个任何等级的&a存储容量升级&r。"
 		""
@@ -4388,11 +4388,11 @@
 	]
 	quest.609DF15D870AE2C0.title: "&eSoulplied Energistics"
 	quest.60B8D5DAA4BA7DC4.quest_desc: [
-		"&eReplication: Matter Overflow&f allows you to craft &aOverflow Tanks&r that will automatically void excess matter of its set type."
+		"&eReplication: Matter Overflow&f模组的&a物质储罐&r能自动销毁特定种类的过量物质。"
 		""
-		"You should make one for each matter type and lock them so that excess matter always has somewhere to go and won't overflow into other tanks in your network."
+		"你需要为每种物质都制作一个储罐并将其锁定，这样过量的物质就不会造成堵塞，也不会流入网络中的其他储罐。"
 	]
-	quest.60B8D5DAA4BA7DC4.title: "Too Much Matter"
+	quest.60B8D5DAA4BA7DC4.title: "太多物质了"
 	quest.60BBE214131DF6EB.quest_desc: [
 		"一旦你获得了某个生物的数据模型，你就需要通过击杀该类型的生物，来将其至少提升到&a基础&r等级。"
 		""
@@ -5405,11 +5405,11 @@
 	]
 	quest.7791DA964DA2A80D.title: "&f如何搭建加速器？"
 	quest.77DE3D57E5B58948.quest_desc: [
-		"No &eCompass &rthis time!"
+		"这次没有&e指南针&r了！"
 		""
-		"Head out to the Ocean Ring and use your &bExplorer's Compass&r to find the Water Orb arena where you can summon the &dLeviathan&r!"
+		"前往海洋环，使用&b探险家指南针&r找到水渊之珠，你能在那召唤&d利维坦&r！"
 	]
-	quest.77DE3D57E5B58948.title: "&fLocating The &3Leviathan"
+	quest.77DE3D57E5B58948.title: "&f找到&3利维坦"
 	quest.77F8CCE971B9B186.quest_desc: [
 		"&e神秘学的&r可升级的存储系统能让你在单独的&9异界&r维度储存物品。"
 		""
@@ -5871,7 +5871,7 @@
 	reward.30A58719DB130EE9.title: "&d构件师&f路径点"
 	reward.30CB65204A6F6DFE.title: "&3雪怪宝库指南针"
 	reward.31B318A2B60F4CC5.title: "组装&3暗影机壳升级"
-	reward.32A31D445DC7FF87.title: "&3Ocean Shards"
+	reward.32A31D445DC7FF87.title: "&3海洋碎片"
 	reward.35FBC3A2C111904A.title: "{\"translate\": \"ftb.shop.notification\"}"
 	reward.37F1C940A746F48C.title: "石头世界4官方NFT"
 	reward.3982DCDCE0A66B83.title: "{\"translate\": \"ftb.shop.notification\"}"
@@ -6188,7 +6188,7 @@
 	task.5034DC565C8B0377.title: "任意树叶方块"
 	task.5091E1D8C2C9437F.title: "冷却计时器"
 	task.510157E7876C7332.title: "冷却计时器"
-	task.5123D0CFBA53F360.title: "Added Metals"
+	task.5123D0CFBA53F360.title: "已添加的金属"
 	task.519E1F80092719D1.title: "bug报告"
 	task.51E0FB26781697CB.title: "背包等级升级"
 	task.5290130556504104.title: "&a更多箱子&r"
@@ -6330,7 +6330,7 @@
 	task.78780481BF9D2140.title: "&e找到&f：冰霜蜘蛛巢"
 	task.78869974512F8AD0.title: "电梯"
 	task.78AD19380F54B22A.title: "Just Dire Things模组的煤炭"
-	task.78F8128005EE1240.title: "Added Gems"
+	task.78F8128005EE1240.title: "已添加的宝石"
 	task.7921E8D54B0095CE.title: "暗物质工具"
 	task.794B10BF050056EB.title: "更好的附魔书架"
 	task.79B0BA2223437C7E.title: "混沌工具"
