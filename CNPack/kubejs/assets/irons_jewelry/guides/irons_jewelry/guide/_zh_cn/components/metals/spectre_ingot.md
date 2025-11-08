@@ -1,17 +1,17 @@
 ---
 navigation:
-  title: Spectre Ingot
+  title: 通灵锭
   position: 21
   icon: "irregular_implements:spectre_ingot"
   parent: irons_jewelry:metals.md
 item_ids:
   - irregular_implements:spectre_ingot
 ---
-# Spectre Ingot
+# 通灵锭
 
 <ItemImage id="irregular_implements:spectre_ingot" scale="3" />
 
-This item can be used as a <Color id="green">Metal</Color> for Iron's Jewelry.
+此物品可作为Iron珠宝的<Color id="green">金属</Color>。
 
-### Attribute
-- Adds Arrow Velocity+ (Percentage)
+### 属性
+- 增加箭矢速度+（百分比）

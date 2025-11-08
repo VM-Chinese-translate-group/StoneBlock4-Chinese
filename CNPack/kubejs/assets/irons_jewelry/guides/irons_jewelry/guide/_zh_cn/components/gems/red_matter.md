@@ -1,17 +1,17 @@
 ---
 navigation:
-  title: Red Matter
+  title: 红物质
   position: 17
   icon: "projecte:red_matter"
   parent: irons_jewelry:gems.md
 item_ids:
   - projecte:red_matter
 ---
-# Red Matter
+# 红物质
 
 <ItemImage id="projecte:red_matter" scale="3" />
 
-This item can be used as a <Color id="light_purple">Gem</Color> for Iron's Jewelry.
+此物品可作为Iron珠宝的<Color id="light_purple">宝石</Color>。
 
-### Attribute
-- Adds Max Health+++ (Percentage)
+### 属性
+- 增加最大生命值+++（百分比）

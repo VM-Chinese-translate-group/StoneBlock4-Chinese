@@ -1,17 +1,17 @@
 ---
 navigation:
-  title: Psimetal Ingot
+  title: Psi金属锭
   position: 16
   icon: "psi:psimetal"
   parent: irons_jewelry:metals.md
 item_ids:
   - psi:psimetal
 ---
-# Psimetal Ingot
+# Psi金属锭
 
 <ItemImage id="psi:psimetal" scale="3" />
 
-This item can be used as a <Color id="green">Metal</Color> for Iron's Jewelry.
+此物品可作为Iron珠宝的<Color id="green">金属</Color>。
 
-### Attribute
-- Adds Ars Nouveau Mana Discount (Percentage)
+### 属性
+- 增加新生魔艺的魔力减免（百分比）

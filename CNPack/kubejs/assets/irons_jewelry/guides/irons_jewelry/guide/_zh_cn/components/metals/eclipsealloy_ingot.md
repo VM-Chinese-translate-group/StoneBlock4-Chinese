@@ -1,17 +1,17 @@
 ---
 navigation:
-  title: Eclipsealloy Ingot
+  title: 蚀空合金锭
   position: 7
   icon: "justdirethings:eclipsealloy_ingot"
   parent: irons_jewelry:metals.md
 item_ids:
   - justdirethings:eclipsealloy_ingot
 ---
-# Eclipsealloy Ingot
+# 蚀空合金锭
 
 <ItemImage id="justdirethings:eclipsealloy_ingot" scale="3" />
 
-This item can be used as a <Color id="green">Metal</Color> for Iron's Jewelry.
+此物品可作为Iron珠宝的<Color id="green">金属</Color>。
 
-### Attribute
-- Adds Life Steal (Percentage)
+### 属性
+- 增加生命偷取（百分比）

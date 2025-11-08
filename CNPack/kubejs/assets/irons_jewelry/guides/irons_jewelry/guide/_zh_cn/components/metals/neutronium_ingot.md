@@ -1,17 +1,17 @@
 ---
 navigation:
-  title: Neutronium Ingot
+  title: 中子锭
   position: 14
   icon: "avaritia:neutronium_ingot"
   parent: irons_jewelry:metals.md
 item_ids:
   - avaritia:neutronium_ingot
 ---
-# Neutronium Ingot
+# 中子锭
 
 <ItemImage id="avaritia:neutronium_ingot" scale="3" />
 
-This item can be used as a <Color id="green">Metal</Color> for Iron's Jewelry.
+此物品可作为Iron珠宝的<Color id="green">金属</Color>。
 
-### Attribute
-- Adds Armor Toughness++ (Flat)
+### 属性
+- 增加盔甲韧性++（固定值）

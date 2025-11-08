@@ -12,6 +12,6 @@ item_ids:
 ---
 # 宝石
 
-<Color id="light_purple">宝石</Color>可以提供多种效果， and depending on the recipe for the jewelry, can add a large bonus to attributes.
+<Color id="light_purple">宝石</Color>具有多种特殊效果，根据珠宝的配方不同，可大幅提升属性。
 
 

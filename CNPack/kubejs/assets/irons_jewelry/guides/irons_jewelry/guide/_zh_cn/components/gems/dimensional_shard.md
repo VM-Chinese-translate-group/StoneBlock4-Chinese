@@ -1,17 +1,17 @@
 ---
 navigation:
-  title: Dimensional Shard
+  title: 维度碎片
   position: 6
   icon: "ftbmaterials:dimensional_shard_gem"
   parent: irons_jewelry:gems.md
 item_ids:
   - ftbmaterials:dimensional_shard_gem
 ---
-# Dimensional Shard
+# 维度碎片
 
 <ItemImage id="ftbmaterials:dimensional_shard_gem" scale="3" />
 
-This item can be used as a <Color id="light_purple">Gem</Color> for Iron's Jewelry.
+此物品可作为Iron珠宝的<Color id="light_purple">宝石</Color>。
 
-### Attribute
-- Adds Draw Speed (Percentage)
+### 属性
+- 增加拉弓速度（百分比）

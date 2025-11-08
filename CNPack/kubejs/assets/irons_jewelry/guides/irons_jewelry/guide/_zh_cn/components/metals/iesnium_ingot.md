@@ -1,17 +1,17 @@
 ---
 navigation:
-  title: Iesnium Ingot
+  title: 艾瑟金属锭
   position: 11
   icon: "occultism:iesnium_ingot"
   parent: irons_jewelry:metals.md
 item_ids:
   - occultism:iesnium_ingot
 ---
-# Iesnium Ingot
+# 艾瑟金属锭
 
 <ItemImage id="occultism:iesnium_ingot" scale="3" />
 
-This item can be used as a <Color id="green">Metal</Color> for Iron's Jewelry.
+此物品可作为Iron珠宝的<Color id="green">金属</Color>。
 
-### Attribute
-- Adds Dodge Change (Percentage)
+### 属性
+- 增加闪避率（百分比）
