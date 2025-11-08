@@ -4,7 +4,7 @@ navigation:
   position: 3
   icon: "minecraft:iron_ingot"
 ---
-# 宝石
+# 金属
 
 <Color id="green">金属</Color>是制作饰品时使用的主要材料。这些材料是每次合成所必需的。
 
