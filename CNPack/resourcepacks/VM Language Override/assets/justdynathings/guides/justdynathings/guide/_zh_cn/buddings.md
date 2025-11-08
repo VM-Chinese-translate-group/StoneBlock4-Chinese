@@ -7,7 +7,7 @@ navigation:
 
 # 培育母岩有关资源的新方法
 
-这些母岩只需要**时间流体**和**能量**就可长出晶簇。
+这些水晶母岩只需要**时间流体**和**能量**就可长出晶簇。
 
 <GameScene zoom="2" interactive={true}>
   <Block id="justdynathings:echoing_budding_time" p:alive="true"/>
@@ -30,4 +30,4 @@ navigation:
 模组支持：
 
 - <ItemLink id="justdynathings:echoing_budding_certus"/>（应用能源2，Applied Energistics 2）
-- <ItemLink id="justdynathings:echoing_budding_entro"/> （AE2扩展，Extended AE
+- <ItemLink id="justdynathings:echoing_budding_entro"/> （AE2扩展，Extended AE）

@@ -2,7 +2,7 @@
 navigation:
   title: 创造凝胶
   icon: "justdynathings:creative_goo"
-  parent: other.md
+  parent: goo.md
   position: 99
 categories:
   - goo

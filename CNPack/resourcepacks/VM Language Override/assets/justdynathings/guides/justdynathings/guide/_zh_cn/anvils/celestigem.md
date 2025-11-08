@@ -13,3 +13,5 @@ item_ids:
 使用Forge能量（Forge Energy，FE）修复物品的砧。
 
 <BlockImage id="justdynathings:celestigem_anvil" scale="4.0"/>
+
+此物品可从<Color id="light_purple">暮光族裔的回响</Color>处购买。

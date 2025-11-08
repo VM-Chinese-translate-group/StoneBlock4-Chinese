@@ -1,13 +1,13 @@
 ---
 navigation:
-  title: Dry Ice
+  title: 干冰
   parent: materials/index.md
   icon: powah:dry_ice
   position: 1
 ---
 
-# Dry Ice
+# 干冰
 
 <ItemImage id="powah:dry_ice" scale="3" />
 
-Dry Ice used mainly to cool down reactors. It can be crafted in the Energizing Orb.
+干冰主要用于降低反应堆的温度。可以在充能台中合成。
