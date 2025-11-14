@@ -25,6 +25,7 @@ jobs:
       pack_id: ${{ steps.read_config.outputs.pack_id }}
       pack_name: ${{ steps.checker.outputs.pack_name }}
       new_version: ${{ steps.checker.outputs.new_version }}
+      update_method: ${{ steps.read_config.outputs.update_method }}
 
     steps:
       - name: Checkout repository
@@ -43,11 +44,20 @@ jobs:
       - name: Install Python dependencies
         run: pip install requests
 
-      - name: Read Pack ID from config
+      - name: Read Config
         id: read_config
         run: |
           PACK_ID=$(jq -r '.packId' .github/configs/modpack.json)
           echo "pack_id=$PACK_ID" >> $GITHUB_OUTPUT
+          UPDATE_METHOD=$(jq -r '.updateMethod // "api"' .github/configs/modpack.json)
+          echo "update_method=$UPDATE_METHOD" >> $GITHUB_OUTPUT
+
+      - name: Download CurseTheBeast
+        if: steps.read_config.outputs.update_method == 'cursethebeast'
+        run: |
+          curl -L -o CurseTheBeast https://github.com/maxinglo/curse-the-beast/releases/download/v0.7.1/CurseTheBeast
+          chmod +x ./CurseTheBeast
+          echo "$(pwd)" >> $GITHUB_PATH
 
       - name: Clean up temporary directories
         run: |
@@ -108,33 +118,49 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: '3'
+      
+      - name: Download CurseTheBeast
+        if: needs.update-and-create-pr.outputs.update_method == 'cursethebeast'
+        run: |
+          curl -L -o CurseTheBeast https://github.com/maxinglo/curse-the-beast/releases/download/v0.7.1/CurseTheBeast
+          chmod +x ./CurseTheBeast
+          echo "$(pwd)" >> $GITHUB_PATH
 
-      - name: Download old and new archives using CurseForge API
+      - name: Download old and new archives
         env:
-          # IMPORTANT: Store your CurseForge API Key in repository secrets
           CF_API_KEY: ${{ secrets.CF_API_KEY }}
         run: |
           PACK_ID="${{ needs.update-and-create-pr.outputs.pack_id }}"
           LOCAL_ID="${{ needs.update-and-create-pr.outputs.local_version_id }}"
           NEW_ID="${{ needs.update-and-create-pr.outputs.new_version_id }}"
+          UPDATE_METHOD="${{ needs.update-and-create-pr.outputs.update_method }}"
           
-          echo "Fetching download URL for old version (ID: $LOCAL_ID)..."
-          OLD_DL_URL=$(curl -s -H "x-api-key: $CF_API_KEY" "https://api.curseforge.com/v1/mods/$PACK_ID/files/$LOCAL_ID" | jq -r .data.downloadUrl)
-          if [ -z "$OLD_DL_URL" ] || [ "$OLD_DL_URL" == "null" ]; then
-            echo "::error::Failed to get download URL for old version ID $LOCAL_ID"
-            exit 1
+          if [ "$UPDATE_METHOD" == "cursethebeast" ]; then
+            echo "::group::Downloading archives using CurseTheBeast"
+            ./CurseTheBeast download "$PACK_ID" "$LOCAL_ID" --output ./old_version.zip
+            ./CurseTheBeast download "$PACK_ID" "$NEW_ID" --output ./new_version.zip
+            echo "::endgroup::"
+          else
+            echo "::group::Downloading archives using CurseForge API"
+            echo "Fetching download URL for old version (ID: $LOCAL_ID)..."
+            OLD_DL_URL=$(curl -s -H "x-api-key: $CF_API_KEY" "https://api.curseforge.com/v1/mods/$PACK_ID/files/$LOCAL_ID" | jq -r .data.downloadUrl)
+            if [ -z "$OLD_DL_URL" ] || [ "$OLD_DL_URL" == "null" ]; then
+              echo "::error::Failed to get download URL for old version ID $LOCAL_ID"
+              exit 1
+            fi
+            echo "Downloading old version..."
+            curl -L -o ./old_version.zip "$OLD_DL_URL"
+            
+            echo "Fetching download URL for new version (ID: $NEW_ID)..."
+            NEW_DL_URL=$(curl -s -H "x-api-key: $CF_API_KEY" "https://api.curseforge.com/v1/mods/$PACK_ID/files/$NEW_ID" | jq -r .data.downloadUrl)
+            if [ -z "$NEW_DL_URL" ] || [ "$NEW_DL_URL" == "null" ]; then
+              echo "::error::Failed to get download URL for new version ID $NEW_ID"
+              exit 1
+            fi
+            echo "Downloading new version..."
+            curl -L -o ./new_version.zip "$NEW_DL_URL"
+            echo "::endgroup::"
           fi
-          echo "Downloading old version..."
-          curl -L -o ./old_version.zip "$OLD_DL_URL"
-          
-          echo "Fetching download URL for new version (ID: $NEW_ID)..."
-          NEW_DL_URL=$(curl -s -H "x-api-key: $CF_API_KEY" "https://api.curseforge.com/v1/mods/$PACK_ID/files/$NEW_ID" | jq -r .data.downloadUrl)
-           if [ -z "$NEW_DL_URL" ] || [ "$NEW_DL_URL" == "null" ]; then
-            echo "::error::Failed to get download URL for new version ID $NEW_ID"
-            exit 1
-          fi
-          echo "Downloading new version..."
-          curl -L -o ./new_version.zip "$NEW_DL_URL"
 
       - name: Generate Diff Report
         run: |

@@ -8,6 +8,7 @@ import shutil
 import filecmp
 import requests
 import re
+import subprocess
 from pathlib import Path
 
 
@@ -19,6 +20,20 @@ def set_github_output(name, value):
     else:
         # Fallback for local testing
         print(f"::set-output name={name}::{value}")
+
+def run_command(command):
+    """Runs a shell command and returns its stdout, raising an error on failure."""
+    print(f"Running command: {' '.join(command)}")
+    try:
+        result = subprocess.run(command, capture_output=True, text=True, check=True, encoding='utf-8')
+        print(result.stdout)
+        if result.stderr:
+            print(f"Stderr: {result.stderr}", file=sys.stderr)
+        return result.stdout
+    except FileNotFoundError:
+        raise RuntimeError(f"Command not found: {command[0]}. Is CurseTheBeast installed and in the PATH?")
+    except subprocess.CalledProcessError as e:
+        raise RuntimeError(f"Command failed with exit code {e.returncode}:\nStdout: {e.stdout}\nStderr: {e.stderr}")
 
 
 def get_file_hash(filepath):
@@ -118,8 +133,6 @@ def apply_exclusion_rules(file_set, exclusion_patterns, root_path):
 def main():
     # --- Configuration and Setup ---
     api_key = os.getenv('CF_API_KEY')
-    if not api_key:
-        sys.exit("Error: CurseForge API key (CF_API_KEY) not found in environment variables.")
         
     repo_root = Path('.')
     config_path = repo_root / '.github' / 'configs' / 'modpack.json'
@@ -127,6 +140,7 @@ def main():
         config = json.load(f)
 
     pack_id, pack_name = config['packId'], config['packName']
+    update_method = config.get('updateMethod', 'api')
     version_pattern = config.get('versionPattern')
     info_file_path = repo_root / config['infoFilePath']
     source_dir = repo_root / config['sourceDir']
@@ -137,66 +151,102 @@ def main():
         local_clean_version = json.load(f)['modpack']['version']
 
     print(f"Checking updates for: {pack_name} (ID: {pack_id})\nLocal version: {local_clean_version}")
+    print(f"Using update method: {update_method}")
 
-    # --- API Call to get version info ---
-    headers = {'x-api-key': api_key}
-    api_url = f'https://api.curseforge.com/v1/mods/{pack_id}/files?pageSize=50' 
-    try:
-        response = requests.get(api_url, headers=headers)
-        response.raise_for_status()
-        files_data = response.json()['data']
-    except requests.exceptions.RequestException as e:
-        sys.exit(f"Error fetching data from CurseForge API: {e}")
-    except (KeyError, IndexError):
-        sys.exit(f"Error: Unexpected API response format. Response: {response.text}")
+    latest_clean_version = None
+    local_version_id = None
+    latest_version_id = None
+    latest_download_url = None # Specific to 'api' method
 
-    if not files_data:
-        sys.exit("Error: API returned no files for this modpack.")
-    
-    # --- Process API data and compare versions ---
-    # Reconstruct the full name of the local version to match API data
-    local_full_name = reconstruct_full_name(local_clean_version, version_pattern)
-
-    latest_file_info = files_data[0]
-    latest_full_name = latest_file_info['displayName'].removesuffix('.zip')
-    latest_version_id = latest_file_info['id']
-    latest_download_url = latest_file_info['downloadUrl']
-
-    if local_full_name == latest_full_name:
-        print("Already up to date. Exiting.")
-        return
-
-    def normalize_name(name):
-        return name.lower().replace(" ", "-").removesuffix('.zip')
-
-    versions_map = { normalize_name(f['displayName']): f['id'] for f in files_data }
-    
-    normalized_local_name = normalize_name(local_full_name)
-    local_version_id = versions_map.get(normalized_local_name)
-    
-    if not local_version_id:
-        fileName_map = { normalize_name(f['fileName']): f['id'] for f in files_data }
-        local_version_id = fileName_map.get(normalized_local_name)
+    if update_method == 'cursethebeast':
+        inspect_output = run_command(['./CurseTheBeast', 'inspect', str(pack_id)])
+        versions_map = {}
+        for line in inspect_output.splitlines():
+            if 'release' in line and line.count('│') > 2:
+                parts = [p.strip() for p in line.split('│')]
+                if len(parts) > 3 and parts[1] != "ID": # Skip header
+                    version_id, version_name = parts[1], parts[2]
+                    versions_map[version_name] = version_id
         
-    if not local_version_id:
-        print(f"Warning: Could not find version ID for local version '{local_full_name}'. Diff report will not be generated.")
-    
-    # Extract the clean version from the new version for display and storage
-    latest_clean_version = extract_clean_version(latest_full_name, version_pattern)
+        if not versions_map:
+            sys.exit("Error: Could not parse any release versions from CurseTheBeast inspect output.")
+        
+        latest_clean_version = next(iter(versions_map))
+        latest_version_id = versions_map[latest_clean_version]
 
-    print(f"New version found: {latest_clean_version} (Full name: {latest_full_name}, ID: {latest_version_id})")
-    print(f"Old version: {local_clean_version} (Full name: {local_full_name}, ID: {local_version_id})")
+        if local_clean_version == latest_clean_version:
+            print("Already up to date. Exiting.")
+            return
+
+        local_version_id = versions_map.get(local_clean_version)
+        if not local_version_id:
+            print(f"Warning: Could not find version ID for local version '{local_clean_version}'. Diff report will not be generated.")
+        
+        print(f"New version found: {latest_clean_version} (ID: {latest_version_id})")
+        print(f"Old version: {local_clean_version} (ID: {local_version_id})")
+
+    else: # Default to 'api' method
+        if not api_key:
+            sys.exit("Error: CurseForge API key (CF_API_KEY) not found. Required for 'api' update method.")
+        
+        headers = {'x-api-key': api_key}
+        api_url = f'https://api.curseforge.com/v1/mods/{pack_id}/files?pageSize=50' 
+        try:
+            response = requests.get(api_url, headers=headers)
+            response.raise_for_status()
+            files_data = response.json()['data']
+        except requests.exceptions.RequestException as e:
+            sys.exit(f"Error fetching data from CurseForge API: {e}")
+        except (KeyError, IndexError):
+            sys.exit(f"Error: Unexpected API response format. Response: {response.text}")
+
+        if not files_data:
+            sys.exit("Error: API returned no files for this modpack.")
+        
+        local_full_name = reconstruct_full_name(local_clean_version, version_pattern)
+
+        latest_file_info = files_data[0]
+        latest_full_name = latest_file_info['displayName'].removesuffix('.zip')
+        latest_version_id = latest_file_info['id']
+        latest_download_url = latest_file_info['downloadUrl']
+
+        if local_full_name == latest_full_name:
+            print("Already up to date. Exiting.")
+            return
+
+        def normalize_name(name):
+            return name.lower().replace(" ", "-").removesuffix('.zip')
+
+        versions_map = { normalize_name(f['displayName']): f['id'] for f in files_data }
+        normalized_local_name = normalize_name(local_full_name)
+        local_version_id = versions_map.get(normalized_local_name)
+        
+        if not local_version_id:
+            fileName_map = { normalize_name(f['fileName']): f['id'] for f in files_data }
+            local_version_id = fileName_map.get(normalized_local_name)
+            
+        if not local_version_id:
+            print(f"Warning: Could not find version ID for local version '{local_full_name}'. Diff report will not be generated.")
+        
+        latest_clean_version = extract_clean_version(latest_full_name, version_pattern)
+        print(f"New version found: {latest_clean_version} (Full name: {latest_full_name}, ID: {latest_version_id})")
+        print(f"Old version: {local_clean_version} (Full name: {local_full_name}, ID: {local_version_id})")
+
 
     # --- Download and Extract New Version ---
-    print(f"Downloading LATEST version ({latest_full_name})...")
     temp_root = repo_root / 'temp_update'
     shutil.rmtree(temp_root, ignore_errors=True)
     extract_dir = temp_root / 'extracted'
     os.makedirs(extract_dir, exist_ok=True)
-    
     zip_path = temp_root / f"{pack_id}.zip"
-    download_file(latest_download_url, zip_path)
     
+    if update_method == 'cursethebeast':
+        print(f"Downloading LATEST version ({latest_clean_version}) using CurseTheBeast...")
+        run_command(['./CurseTheBeast', 'download', str(pack_id), str(latest_version_id), '--output', str(zip_path)])
+    else: # api
+        print(f"Downloading LATEST version ({latest_clean_version})...")
+        download_file(latest_download_url, zip_path)
+
     with zipfile.ZipFile(zip_path, 'r') as z:
         z.extractall(extract_dir)
     new_source_root = extract_dir / 'overrides'
