@@ -132,14 +132,24 @@
 		}
 	]
 	order_index: 5
-	quest_links: [{
-		id: "2FF8519B05B7395D"
-		linked_quest: "3371E3F69A27D1E5"
-		shape: "diamond"
-		size: 1.75d
-		x: 0.0d
-		y: -7.0d
-	}]
+	quest_links: [
+		{
+			id: "2FF8519B05B7395D"
+			linked_quest: "3371E3F69A27D1E5"
+			shape: "diamond"
+			size: 1.75d
+			x: 0.0d
+			y: -7.0d
+		}
+		{
+			id: "0940B358A54DC48A"
+			linked_quest: "25CCA572C4D5CEA0"
+			shape: "square"
+			size: 3.0d
+			x: 0.0d
+			y: 29.0d
+		}
+	]
 	quests: [
 		{
 			dependencies: ["309D995CCCDB3AEE"]
@@ -293,11 +303,18 @@
 			]
 			shape: "gear"
 			size: 1.5d
-			tasks: [{
-				id: "6D46F9063CC557A6"
-				item: { count: 1, id: "xycraft_machines:void_container" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "6D46F9063CC557A6"
+					item: { count: 1, id: "xycraft_machines:void_container" }
+					type: "item"
+				}
+				{
+					id: "3E3C871CC705C6FA"
+					item: { count: 1, id: "projecte:dark_matter_block" }
+					type: "item"
+				}
+			]
 			x: 2.0d
 			y: 7.0d
 		}
@@ -321,9 +338,9 @@
 				}
 				{
 					exclude_from_claim_all: true
-					id: "27D30628897B7393"
+					id: "6AC142078F502773"
 					table_id: 891108655955453907L
-					type: "loot"
+					type: "all_table"
 				}
 			]
 			shape: "hexagon"
@@ -952,6 +969,7 @@
 				id: "create:empty_schematic"
 			}
 			id: "5C8773D5561D7245"
+			optional: true
 			rewards: [{
 				auto: "disabled"
 				exclude_from_claim_all: true
@@ -981,6 +999,12 @@
 					item: { count: 1, id: "draconicevolution:draconium_block" }
 					type: "item"
 				}
+				{
+					count: 32L
+					id: "0C593E67E9892721"
+					item: { count: 1, id: "draconicevolution:energy_core_stabilizer" }
+					type: "item"
+				}
 			]
 			x: -3.5d
 			y: 9.5d
@@ -992,6 +1016,7 @@
 				id: "create:empty_schematic"
 			}
 			id: "65B10C46C1AE5026"
+			optional: true
 			rewards: [{
 				auto: "disabled"
 				exclude_from_claim_all: true
@@ -1030,6 +1055,7 @@
 				id: "create:empty_schematic"
 			}
 			id: "5804356B2AFCF14A"
+			optional: true
 			rewards: [{
 				auto: "disabled"
 				exclude_from_claim_all: true
@@ -1047,7 +1073,6 @@
 			tasks: [
 				{
 					consume_items: true
-					count: 2L
 					id: "332424C66F7BE170"
 					item: { count: 1, id: "avaritia:infinity_block" }
 					type: "item"
@@ -1151,8 +1176,8 @@
 			}]
 			shape: "square"
 			tasks: [{
-				id: "100ED594AD8FB9CA"
-				item: { count: 1, id: "draconicevolution:chaos_shard" }
+				id: "7AFBBBDAAECC564C"
+				item: { count: 1, id: "draconicevolution:medium_chaos_frag" }
 				type: "item"
 			}]
 			x: 1.5d
