@@ -1,6 +1,6 @@
 ---
 navigation:
-  title: 材料
+  title: 指环材料
   position: 3
   icon: "minecraft:iron_ingot"
 ---

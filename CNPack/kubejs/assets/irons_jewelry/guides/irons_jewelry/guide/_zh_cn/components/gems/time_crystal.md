@@ -1,7 +1,7 @@
 ---
 navigation:
   title: 时间水晶
-  position: 20
+  position: 21
   icon: "justdirethings:time_crystal"
   parent: irons_jewelry:gems.md
 item_ids:

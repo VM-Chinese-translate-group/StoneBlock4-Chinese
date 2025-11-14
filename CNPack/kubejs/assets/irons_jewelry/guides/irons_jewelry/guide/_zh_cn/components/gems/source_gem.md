@@ -1,7 +1,7 @@
 ---
 navigation:
   title: 魔源宝石
-  position: 13
+  position: 20
   icon: "ars_nouveau:source_gem"
   parent: irons_jewelry:gems.md
 item_ids:

@@ -1,7 +1,7 @@
 ---
 navigation:
   title: Psi宝石
-  position: 12
+  position: 16
   icon: "psi:psigem"
   parent: irons_jewelry:gems.md
 item_ids:

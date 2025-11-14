@@ -1,7 +1,7 @@
 ---
 navigation:
   title: 脉冲水晶
-  position: 16
+  position: 17
   icon: "enderio:pulsating_crystal"
   parent: irons_jewelry:gems.md
 item_ids:

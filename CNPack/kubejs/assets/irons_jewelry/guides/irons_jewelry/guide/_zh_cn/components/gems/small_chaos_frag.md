@@ -1,7 +1,7 @@
 ---
 navigation:
   title: 微小混沌残片
-  position: 14
+  position: 19
   icon: "draconicevolution:small_chaos_frag"
   parent: irons_jewelry:gems.md
 item_ids:
