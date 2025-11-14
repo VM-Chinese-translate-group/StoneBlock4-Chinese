@@ -15,6 +15,7 @@ jobs:
   # JOB 1: Check for updates, update files in repo, create the PR
   update-and-create-pr:
     runs-on: ubuntu-latest
+    environment: PARATRANZ_ENV
     permissions:
       contents: write
       pull-requests: write
@@ -105,6 +106,7 @@ jobs:
   # JOB 2: Generate diff report and post it as a comment
   build-report:
     runs-on: ubuntu-latest
+    environment: PARATRANZ_ENV
     needs: update-and-create-pr
     permissions:
       pull-requests: write # Needed for posting the comment
