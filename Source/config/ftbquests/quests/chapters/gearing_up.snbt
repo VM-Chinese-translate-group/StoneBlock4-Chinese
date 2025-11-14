@@ -361,6 +361,7 @@
 				{
 					id: "07D4EE7733B205CD"
 					item: { count: 1, id: "apothic_enchanting:hellshelf" }
+					optional_task: true
 					type: "item"
 				}
 				{
@@ -416,6 +417,7 @@
 				{
 					id: "3D2D95906C1AD982"
 					item: { count: 1, id: "apothic_enchanting:infused_hellshelf" }
+					optional_task: true
 					type: "item"
 				}
 				{
@@ -516,11 +518,13 @@
 				{
 					id: "41D6AB095212B2BB"
 					item: { count: 1, id: "apothic_enchanting:deepshelf" }
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "33877DBF6AC0BF78"
 					item: { components: { "ftbfiltersystem:filter": "or(item(apothic_enchanting:soul_touched_deepshelf)item(apothic_enchanting:treasure_shelf)item(apothic_enchanting:echoing_sculkshelf)item(apothic_enchanting:echoing_deepshelf))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					optional_task: true
 					type: "item"
 				}
 			]
@@ -562,6 +566,7 @@
 				{
 					id: "4C11CF5409FED271"
 					item: { count: 1, id: "apothic_enchanting:draconic_endshelf" }
+					optional_task: true
 					type: "item"
 				}
 				{

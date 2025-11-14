@@ -1006,6 +1006,7 @@
 				id: "create:empty_schematic"
 			}
 			id: "14537A63D3BDC09B"
+			optional: true
 			rewards: [{
 				auto: "disabled"
 				exclude_from_claim_all: true
@@ -1037,6 +1038,7 @@
 				id: "create:empty_schematic"
 			}
 			id: "5FDB9EC42FE936C6"
+			optional: true
 			rewards: [{
 				auto: "disabled"
 				exclude_from_claim_all: true
@@ -1068,6 +1070,7 @@
 				id: "create:empty_schematic"
 			}
 			id: "383DAD591823C746"
+			optional: true
 			rewards: [{
 				auto: "disabled"
 				exclude_from_claim_all: true
@@ -1246,6 +1249,7 @@
 			}
 			id: "0CE3C7A6DE787371"
 			optional: true
+			repeat_cooldown: 3600
 			rewards: [{
 				auto: "enabled"
 				command: "/compass locate ftb:vault/twilight/lich"
@@ -1260,21 +1264,10 @@
 			}]
 			shape: "diamond"
 			size: 0.75d
-			tasks: [
-				{
-					id: "62B8DF25CDC4F6E7"
-					type: "checkmark"
-				}
-				{
-					disable_toast: true
-					icon: {
-						id: "minecraft:clock"
-					}
-					id: "37110580092A6E78"
-					tags: ["hourly"]
-					type: "custom"
-				}
-			]
+			tasks: [{
+				id: "62B8DF25CDC4F6E7"
+				type: "checkmark"
+			}]
 			x: 6.75d
 			y: 0.85d
 		}
@@ -1288,6 +1281,7 @@
 			}
 			id: "6F258F4C7BE2EE44"
 			optional: true
+			repeat_cooldown: 3600
 			rewards: [{
 				auto: "enabled"
 				command: "/compass locate ftb:vault/twilight/yeti"
@@ -1302,21 +1296,10 @@
 			}]
 			shape: "diamond"
 			size: 0.75d
-			tasks: [
-				{
-					id: "4404D4CA07F1B536"
-					type: "checkmark"
-				}
-				{
-					disable_toast: true
-					icon: {
-						id: "minecraft:clock"
-					}
-					id: "677EF48A90EB528C"
-					tags: ["hourly"]
-					type: "custom"
-				}
-			]
+			tasks: [{
+				id: "4404D4CA07F1B536"
+				type: "checkmark"
+			}]
 			x: 6.75d
 			y: 2.25d
 		}
@@ -1330,6 +1313,7 @@
 			}
 			id: "0EAEEF79436FDFA7"
 			optional: true
+			repeat_cooldown: 3600
 			rewards: [{
 				auto: "enabled"
 				command: "/compass locate ftb:vault/twilight/hydra"
@@ -1344,21 +1328,10 @@
 			}]
 			shape: "diamond"
 			size: 0.75d
-			tasks: [
-				{
-					id: "63FA6779F7687346"
-					type: "checkmark"
-				}
-				{
-					disable_toast: true
-					icon: {
-						id: "minecraft:clock"
-					}
-					id: "706A41E926E2B1A2"
-					tags: ["hourly"]
-					type: "custom"
-				}
-			]
+			tasks: [{
+				id: "63FA6779F7687346"
+				type: "checkmark"
+			}]
 			x: 5.25d
 			y: 3.375d
 		}
@@ -1372,6 +1345,7 @@
 			}
 			id: "56FB1BC5711CC4F9"
 			optional: true
+			repeat_cooldown: 3600
 			rewards: [{
 				auto: "enabled"
 				command: "/compass locate ftb:vault/twilight/snow_queen"
@@ -1386,21 +1360,10 @@
 			}]
 			shape: "diamond"
 			size: 0.75d
-			tasks: [
-				{
-					id: "5E1DA99A3C6FAB9B"
-					type: "checkmark"
-				}
-				{
-					disable_toast: true
-					icon: {
-						id: "minecraft:clock"
-					}
-					id: "1D26E53A98EE8E4D"
-					tags: ["hourly"]
-					type: "custom"
-				}
-			]
+			tasks: [{
+				id: "5E1DA99A3C6FAB9B"
+				type: "checkmark"
+			}]
 			x: 6.75d
 			y: 3.375d
 		}
@@ -1417,6 +1380,7 @@
 			}
 			id: "6781D1A7A53A5F1D"
 			optional: true
+			repeat_cooldown: 3600
 			rewards: [{
 				auto: "enabled"
 				command: "/compass locate ftb:vault/twilight/knight"
@@ -1431,26 +1395,15 @@
 			}]
 			shape: "diamond"
 			size: 0.75d
-			tasks: [
-				{
-					id: "383794D054B8E0E1"
-					type: "checkmark"
-				}
-				{
-					disable_toast: true
-					icon: {
-						id: "minecraft:clock"
-					}
-					id: "4885C6A872DD31E6"
-					tags: ["hourly"]
-					type: "custom"
-				}
-			]
+			tasks: [{
+				id: "383794D054B8E0E1"
+				type: "checkmark"
+			}]
 			x: 6.0d
 			y: 5.0d
 		}
 		{
-			can_repeat: true
+			can_repeat: false
 			dependencies: ["15DE76B303680F79"]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
