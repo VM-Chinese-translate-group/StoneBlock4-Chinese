@@ -367,6 +367,7 @@
 						count: 1
 						id: "apothic_enchanting:hellshelf"
 					}
+					optional_task: true
 					type: "item"
 				}
 				{
@@ -434,6 +435,7 @@
 						count: 1
 						id: "apothic_enchanting:infused_hellshelf"
 					}
+					optional_task: true
 					type: "item"
 				}
 				{
@@ -558,6 +560,7 @@
 						count: 1
 						id: "apothic_enchanting:deepshelf"
 					}
+					optional_task: true
 					type: "item"
 				}
 				{
@@ -569,6 +572,7 @@
 						count: 1
 						id: "ftbfiltersystem:smart_filter"
 					}
+					optional_task: true
 					type: "item"
 				}
 			]
@@ -616,6 +620,7 @@
 						count: 1
 						id: "apothic_enchanting:draconic_endshelf"
 					}
+					optional_task: true
 					type: "item"
 				}
 				{

@@ -1303,6 +1303,7 @@
 				id: "create:empty_schematic"
 			}
 			id: "7EEBD17F0EA6EE0C"
+			optional: true
 			rewards: [{
 				auto: "disabled"
 				exclude_from_claim_all: true
@@ -1340,6 +1341,7 @@
 				id: "create:empty_schematic"
 			}
 			id: "2EA7D8A9632F845F"
+			optional: true
 			rewards: [{
 				auto: "disabled"
 				exclude_from_claim_all: true
@@ -1374,6 +1376,7 @@
 				id: "create:empty_schematic"
 			}
 			id: "0FF5D73B3256F400"
+			optional: true
 			rewards: [{
 				auto: "disabled"
 				exclude_from_claim_all: true
@@ -1409,6 +1412,7 @@
 				id: "create:empty_schematic"
 			}
 			id: "21E1A72027DBF236"
+			optional: true
 			rewards: [{
 				auto: "disabled"
 				exclude_from_claim_all: true
@@ -1443,6 +1447,7 @@
 				id: "create:empty_schematic"
 			}
 			id: "02BC8FCDB2D94F0E"
+			optional: true
 			rewards: [{
 				auto: "disabled"
 				exclude_from_claim_all: true
@@ -1492,6 +1497,7 @@
 				id: "create:empty_schematic"
 			}
 			id: "55D17BDE3E9C81CC"
+			optional: true
 			rewards: [{
 				auto: "disabled"
 				exclude_from_claim_all: true
@@ -1571,6 +1577,7 @@
 			}
 			id: "0306C0D774144DAD"
 			optional: true
+			repeat_cooldown: 3600
 			rewards: [{
 				auto: "enabled"
 				command: "/compass locate ftb:vault/burning_disco"
@@ -1585,21 +1592,10 @@
 			}]
 			shape: "diamond"
 			size: 0.75d
-			tasks: [
-				{
-					id: "7DD8D0EDE1FAF2DE"
-					type: "checkmark"
-				}
-				{
-					disable_toast: true
-					icon: {
-						id: "minecraft:clock"
-					}
-					id: "02BDD5049712DA5A"
-					tags: ["hourly"]
-					type: "custom"
-				}
-			]
+			tasks: [{
+				id: "7DD8D0EDE1FAF2DE"
+				type: "checkmark"
+			}]
 			x: -6.75d
 			y: 1.0d
 		}
@@ -1615,6 +1611,7 @@
 			}
 			id: "02735F0443CA9727"
 			optional: true
+			repeat_cooldown: 3600
 			rewards: [
 				{
 					auto: "enabled"
@@ -1629,6 +1626,7 @@
 					type: "command"
 				}
 				{
+					auto: "enabled"
 					command: "/compass locate ftb:vault/jockey_south"
 					feedback_message: "已获得精械师南部宝库指南针"
 					icon: {
@@ -1642,21 +1640,10 @@
 			]
 			shape: "diamond"
 			size: 0.75d
-			tasks: [
-				{
-					id: "2DF0651CE18A8870"
-					type: "checkmark"
-				}
-				{
-					disable_toast: true
-					icon: {
-						id: "minecraft:clock"
-					}
-					id: "066A7BE3718D79B1"
-					tags: ["hourly"]
-					type: "custom"
-				}
-			]
+			tasks: [{
+				id: "2DF0651CE18A8870"
+				type: "checkmark"
+			}]
 			x: 0.5d
 			y: 2.15d
 		}
@@ -1673,6 +1660,7 @@
 			}
 			id: "13E0F74B9A1DAB58"
 			optional: true
+			repeat_cooldown: 3600
 			rewards: [{
 				auto: "enabled"
 				command: "/compass locate ftb:vault/mffs"
@@ -1687,23 +1675,42 @@
 			}]
 			shape: "diamond"
 			size: 0.75d
-			tasks: [
-				{
-					id: "4A3E583E141A73F5"
-					type: "checkmark"
-				}
-				{
-					disable_toast: true
-					icon: {
-						id: "minecraft:clock"
-					}
-					id: "2E03E2C049C17CA4"
-					tags: ["hourly"]
-					type: "custom"
-				}
-			]
+			tasks: [{
+				id: "4A3E583E141A73F5"
+				type: "checkmark"
+			}]
 			x: 6.75d
 			y: 1.125d
+		}
+		{
+			dependencies: ["2D110AB9A38178C5"]
+			id: "7AB7D06E0DD24F7A"
+			optional: true
+			rewards: [{
+				id: "5980AFC3A5BAA318"
+				item: {
+					components: {
+						"minecraft:potion_contents": {
+							potion: "minecraft:long_fire_resistance"
+						}
+					}
+					count: 1
+					id: "minecraft:potion"
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 0.75d
+			tasks: [{
+				id: "6D37CA87E464DE4C"
+				item: {
+					count: 1
+					id: "cataclysm:music_disc_ignis"
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: 3.25d
 		}
 	]
 }

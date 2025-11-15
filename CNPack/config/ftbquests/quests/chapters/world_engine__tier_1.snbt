@@ -1193,6 +1193,7 @@
 				id: "create:empty_schematic"
 			}
 			id: "3917A0EC517F70E6"
+			optional: true
 			rewards: [{
 				auto: "disabled"
 				exclude_from_claim_all: true
@@ -1227,6 +1228,7 @@
 				id: "create:empty_schematic"
 			}
 			id: "76673B8374630924"
+			optional: true
 			rewards: [{
 				auto: "disabled"
 				exclude_from_claim_all: true
@@ -1261,6 +1263,7 @@
 				id: "create:empty_schematic"
 			}
 			id: "04E68DA90DC83B45"
+			optional: true
 			rewards: [{
 				auto: "disabled"
 				exclude_from_claim_all: true
@@ -1312,6 +1315,7 @@
 			}
 			id: "40DDD27BA5E191FA"
 			optional: true
+			repeat_cooldown: 3600
 			rewards: [{
 				auto: "enabled"
 				command: "/compass locate ftb:vault/create"
@@ -1326,21 +1330,10 @@
 			}]
 			shape: "diamond"
 			size: 0.75d
-			tasks: [
-				{
-					id: "459AEFEC8F060222"
-					type: "checkmark"
-				}
-				{
-					disable_toast: true
-					icon: {
-						id: "minecraft:clock"
-					}
-					id: "2E6525F818D07426"
-					tags: ["hourly"]
-					type: "custom"
-				}
-			]
+			tasks: [{
+				id: "459AEFEC8F060222"
+				type: "checkmark"
+			}]
 			x: 6.75d
 			y: 3.75d
 		}
@@ -1357,7 +1350,13 @@
 			id: "10DEA5CE1800F935"
 			optional: true
 			rewards: [{
-				auto: "invisible"
+				auto: "disabled"
+				icon: {
+					components: {
+						"custommachinery:machine": "ftb:world_engine"
+					}
+					id: "custommachinery:custom_machine_item"
+				}
 				id: "39BDE32B4BEF479B"
 				tags: ["reset_world_engine_machine"]
 				type: "custom"
