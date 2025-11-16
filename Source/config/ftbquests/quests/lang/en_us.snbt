@@ -68,7 +68,7 @@
 	quest.00A7DEFCF07BC63A.quest_desc: [
 		"The &zRed Katar&r is the ultimate weapon from &6ProjectE&r."
 		""
-		"It does 1,000 damage each swing."
+		"Set a keybind to ProjectE's Extra Function and it will deal 25 damage to everything around you with each activation."
 	]
 	quest.00A7DEFCF07BC63A.title: "&cRed Katar"
 	quest.00EF9BD860108718.quest_desc: [
@@ -1774,7 +1774,7 @@
 	quest.25C6F433BD3128C4.quest_desc: ["This ranged 6-shot revolver from &eImmersive Engineering&r can be loaded up with different types of bullets and addons."]
 	quest.25C6F433BD3128C4.title: "&eI.E &fRevolver"
 	quest.25CCA572C4D5CEA0.quest_desc: [
-		"The first step of &zAscension&r is to become a godlike."
+		"The first step of &zAscension&r is to become godlike."
 		""
 		"Equip yourself with the strongest weapon and armor known in this dimension."
 		""
@@ -2092,7 +2092,7 @@
 	]
 	quest.2CB37185A7FAF348.title: "&aSystem Frequency"
 	quest.2CB418AE76610E8F.quest_desc: [
-		"The &aWrench&r can be used to rotate network devices or dismantle them when used while crounching."
+		"The &aWrench&r can be used to rotate network devices or dismantle them when used while crouching."
 		""
 		"Dismantling a network device retains all its current settings, upgrades, and patterns."
 	]
@@ -2470,7 +2470,7 @@
 		"To get started, you'll need some &aRaw Nickel&r as this is the main crafting material for the mod."
 	]
 	quest.33E4C81B762892B2.title: "&fWelcome To &eOritech&f!"
-	quest.33EDFB2DC1BEA7F0.quest_desc: ["The &3Autocrafting Monitor&r allows you to see the status of all activate crafting requests."]
+	quest.33EDFB2DC1BEA7F0.quest_desc: ["The &3Autocrafting Monitor&r allows you to see the status of all active crafting requests."]
 	quest.33EDFB2DC1BEA7F0.title: "Autocraft Monitor"
 	quest.33FEE29B3EF5A420.quest_subtitle: "Unearther, Otherstone"
 	quest.340D7F25B5EB0D33.quest_desc: [
@@ -3056,7 +3056,7 @@
 	quest.3F5480E01ABA887B.quest_desc: [
 		"The &aAutocrafter&r accepts up to 9 configured recipe &aPatterns&r and 4 &aSpeed Upgrades&r."
 		""
-		"If the &aAutocrafter&r is pointing at a machine or chest, it will attempt to push the process' recipe items into that block, otherwise it will attempt to perfom a crafting recipe."
+		"If the &aAutocrafter&r is pointing at a machine or chest, it will attempt to push the process' recipe items into that block, otherwise it will attempt to perform a crafting recipe."
 		""
 		"&7&oAutocrafters will place down facing the block you are looking at."
 	]
@@ -4168,6 +4168,7 @@
 	quest.5535D64E2B05005E.quest_desc: [""]
 	quest.5535D64E2B05005E.quest_subtitle: "Increases working area size of Destroyer Blocks and Enderic Lasers"
 	quest.555BB3F7C11CD6F9.title: "Radiance Check 1"
+	quest.558A4BBC3BDB853D.quest_desc: ["Kill &6Malkuth&r located in the &6Malkuth Arena&r in the &dVoid&r ring and &csubmit its trophy&r to claim your bounty."]
 	quest.55D17BDE3E9C81CC.quest_desc: [
 		"Submitting the blocks required for the &3Upgrade&f and claiming its rewards will automatically assemble your team's &6World Engine&r."
 		""
@@ -5022,9 +5023,11 @@
 	quest.67AD604F2C4E5CC9.quest_desc: [
 		"Not every &bFluid Cow&r can be made by breeding or using the &aClapple&r."
 		""
-		"There are a few other items that you can feed to a cow to create specific types of &bFluid Cows&r, like an &dEye of Ender&r that creates a &cMolten Ender&r cow."
+		"There are a few other items that you can feed to a cow to create specific types of &bFluid Cows&r, like an &dEye of Ender&r that creates a &cMolten Ender&r cow, a &dBlaze Rod&r creates a &cLava&r cow..."
 		""
 		"The &bLatex&r cow is also pretty nice."
+		""
+		"Feeding a fluid cow a &bBucket of Milk&r will reset them to a normal cow."
 	]
 	quest.67AD604F2C4E5CC9.title: "Special Fluid Cows"
 	quest.67D1E0D81B2C5D8D.quest_desc: [
@@ -5131,7 +5134,7 @@
 		""
 		"&bStorage Disks&r can be upgraded directly into the next tier by crafting the upgraded part with the existing &bStorage Disk&r, returning your old one in the process while keeping all of your items stored."
 		""
-		"&bStorage Disks&r can be separated from their housing by shift right-clicking when it has no items stored inside it."
+		"&bStorage Disks&r can be separated from their housing by Shift + Right-clicking when it has no items stored inside it."
 	]
 	quest.6AA51581B0CA5271.title: "Virtual Storage Drives"
 	quest.6B2F4AA722DAC535.quest_desc: ["Generates power by consuming Nether Stars."]
@@ -5158,7 +5161,7 @@
 	quest.6B6C60BFE1D378D0.quest_desc: [
 		"These are all of the blocks you'll need to complete a typical high-end &dAssembler Matrix &rsetup focusing on pattern storage, speed, and processing power."
 		""
-		"&7&oThis will be a 7x7x7 structure."
+		"&7&oThis will build a 7x7x7 structure."
 	]
 	quest.6B6C60BFE1D378D0.title: "&6Max Size Assembler Matrix"
 	quest.6B971FA156A96BD5.quest_desc: [
@@ -5480,7 +5483,7 @@
 	quest.71F17C85D540C559.quest_desc: [
 		"&aCables&r are used to connect network devices with each other."
 		""
-		"Full blocks will connect to any adjecent block regardless of their color, while &aCable&r blocks will only connect to those of the same color."
+		"Full blocks will connect to any adjacent block regardless of their color, while &aCable&r blocks will only connect to those of the same color."
 	]
 	quest.71F17C85D540C559.title: "Connecting Your Network"
 	quest.71F25B7D688EE182.quest_desc: [
@@ -5662,7 +5665,7 @@
 		""
 		"Though you can have more &6256M&r storage units within, 1 unit should be more than enough to handle all your crafting needs in this pack."
 		""
-		"&7&oThis will be a 7x7x7 structure."
+		"&7&oThis will build a 7x7x7 structure."
 	]
 	quest.75A7DDE0D617B5E6.title: "&fMaximum Size &6Quantum Computer"
 	quest.75CAB7B10BA85935.title: "Fusion Crafting"
@@ -5978,7 +5981,7 @@
 	quest.7AB7D06E0DD24F7A.quest_desc: [
 		"If you're struggling with the &3Vault&r, or killing &cIgnis&r, you may use this music disc in your offhand to &6Light Your Inner Fire&r."
 		""
-		"This will generate 10x more heat for killing blazes and doing the dance puzzle, while also eliminate any penalty for missing colors."
+		"This will generate 10x more heat for killing blazes and doing the dance puzzle, while also eliminating any penalty for missing colors."
 		""
 		"It will also let you deal triple damage with all of your attacks against &cIgnis&r."
 	]
@@ -6217,7 +6220,7 @@
 	quest.7EF7546FF007EF36.title: "&2Bio Fuel"
 	quest.7F022A9289CCBF5D.title: "End South"
 	quest.7F27B48C280FA27F.title: "Storing Items"
-	quest.7F42E2C4AAC3D131.quest_subtitle: "Unlimited Rotational Force"
+	quest.7F42E2C4AAC3D131.quest_desc: ["&7&oUnlimited Rotational Force"]
 	quest.7F42E2C4AAC3D131.title: "Creative Motor"
 	quest.7F4E7C687E7D8707.quest_desc: [
 		"There are several ways to keep items from piling up on the ground from your farms!"
@@ -6536,6 +6539,7 @@
 	task.145E372410535D17.title: "Spell Casting"
 	task.1464DA1D0A45EF99.title: "Wizard Armor"
 	task.149EDD07DA46D40F.title: "&eObserve&r: &2Villager&r"
+	task.14E50AE68E2967C5.title: "Cow Catalyst"
 	task.154C17C5C905CDB8.title: "Draconic WE Upgrade Crafts"
 	task.157A4FF7FF3C6F6A.title: "deepslate north"
 	task.159400992FB94254.title: "&eObserve&f: Deepslate"
@@ -6648,7 +6652,6 @@
 	task.2E2CF42092AA43D8.title: "Tiered &aDisk Interfaces"
 	task.2E42256C51193994.title: "wyrmright"
 	task.2E6B8DF43B7A85E7.title: "Any Basic CAD Assembly"
-	task.2EA8AAC21E19C202.title: "T1"
 	task.2EFD3D6830A8480A.title: "&eLocate&f: &3Echoing Dread Vault"
 	task.2F3D8C75AD838DC1.title: "&6Echo Unlock Fortronist"
 	task.2F84191A75EBFBB0.title: "Get Compass"
@@ -6754,7 +6757,6 @@
 	task.45B09FA666AC50A6.title: "tier 2 echoes"
 	task.45B385C4A1E03540.title: "Dungeon Vault"
 	task.45C3B788492E3C09.title: "&eObserve&f: &2Grass Block"
-	task.45E16BAC26D921B8.title: "Special Fluid Cow Items"
 	task.45E18E3EE8C1D683.title: "&fSpeak With The &dEcho of The Machinist"
 	task.45E2610784D6C62D.title: "void west"
 	task.46201BC3BAE0D15A.title: "Mekanism Lasers"
