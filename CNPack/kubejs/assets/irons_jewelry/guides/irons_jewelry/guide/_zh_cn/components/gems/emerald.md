@@ -1,26 +1,26 @@
 ---
 navigation:
-  title: Emerald
+  title: 绿宝石
   position: 8
   icon: "minecraft:emerald"
   parent: irons_jewelry:gems.md
 ---
-# Emerald
+# 绿宝石
 
 <ItemImage id="minecraft:emerald" scale="3" />
 
-This item can be used as a <Color id="light_purple">Gem</Color> for Iron's Jewelry.
+此物品可作为Iron珠宝的<Color id="light_purple">宝石</Color>。
 
-- <Color id="gray">Quality Multiplier:</Color> 1.5
+- <Color id="gray">品质效果加成：</Color>1.5
 
-### Attribute
-- Adds Movement Speed (Percentage)
+### 属性
+- 增加移动速度（百分比）
 
-### Positive Effect
-- Speed
+### 正面效果
+- 迅捷
 
-### Immunity Effect
-- Infested
+### 免疫效果
+- 寄生
 
-### Action Effect
-- Create Emeralds on attack
+### 动作效果
+- 进行有效攻击后，制造绿宝石

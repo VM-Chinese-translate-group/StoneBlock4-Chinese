@@ -1,26 +1,26 @@
 ---
 navigation:
-  title: Iron Ingot
+  title: 铁锭
   position: 13
   icon: "minecraft:iron_ingot"
   parent: irons_jewelry:metals.md
 ---
-# Iron Ingot
+# 铁锭
 
 <ItemImage id="minecraft:iron_ingot" scale="3" />
 
-This item can be used as a <Color id="green">Band Material</Color> for Iron's Jewelry.
+此物品可作为Iron珠宝的<Color id="green">指环金属</Color>。
 
-- <Color id="gray">Quality Multiplier:</Color> 0.75
+- <Color id="gray">品质效果加成：</Color>0.75
 
-### Attribute
-- Adds Armor (Flat)
+### 属性
+- 增加护甲值（固定值）
 
-### Positive Effect
-- Resistance
+### 正面效果
+- 抗性提升
 
-### Immunity Effect
-- Slowness
+### 免疫效果
+- 缓慢
 
-### Action Effect
-- Knocks back on Attack
+### 动作效果
+- 进行有效攻击后，造成击退

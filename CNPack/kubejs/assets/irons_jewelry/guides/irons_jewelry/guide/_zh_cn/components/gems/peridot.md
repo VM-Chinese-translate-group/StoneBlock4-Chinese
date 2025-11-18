@@ -1,28 +1,28 @@
 ---
 navigation:
-  title: Peridot
+  title: 橄榄石
   position: 15
   icon: "irons_jewelry:peridot"
   parent: irons_jewelry:gems.md
 item_ids:
   - irons_jewelry:peridot
 ---
-# Peridot
+# 橄榄石
 
 <ItemImage id="irons_jewelry:peridot" scale="3" />
 
-This item can be used as a <Color id="light_purple">Gem</Color> for Iron's Jewelry.
+此物品可作为Iron珠宝的<Color id="light_purple">宝石</Color>。
 
-- <Color id="gray">Quality Multiplier:</Color> 2
+- <Color id="gray">品质效果加成：</Color>2
 
-### Attribute
-- Adds Mining Speed (Percentage)
+### 属性
+- 增加采掘速度（百分比·）
 
-### Positive Effect
-- Haste
+### 正面效果
+- 急迫
 
-### Immunity Effect
-- Poison
+### 免疫效果
+- 中毒
 
-### Action Effect
-- Knockback on Attack
+### 动作效果
+- 进行有效攻击后，造成击退

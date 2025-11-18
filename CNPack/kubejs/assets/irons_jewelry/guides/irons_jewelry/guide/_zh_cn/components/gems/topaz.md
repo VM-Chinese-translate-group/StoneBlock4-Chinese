@@ -1,25 +1,25 @@
 ---
 navigation:
-  title: Topaz
+  title: 黄玉
   position: 22
   icon: "irons_jewelry:topaz"
   parent: irons_jewelry:gems.md
 item_ids:
   - irons_jewelry:topaz
 ---
-# Topaz
+# 黄玉
 
 <ItemImage id="irons_jewelry:topaz" scale="3" />
 
-This item can be used as a <Color id="light_purple">Gem</Color> for Iron's Jewelry.
+此物品可作为Iron珠宝的<Color id="light_purple">宝石</Color>。
 
-- <Color id="gray">Quality Multiplier:</Color> 2
+- <Color id="gray">品质效果加成：</Color>2
 
-### Attribute
-- Adds Armor Toughness (Flat)
+### 属性
+- 增加盔甲韧性（固定值）
 
-### Immunity Effect
-- Levitation
+### 免疫效果
+- 失重
 
-### Action Effect
-- Self-Knockback on Attack
+### 动作效果
+- 进行有效攻击后，击退自己

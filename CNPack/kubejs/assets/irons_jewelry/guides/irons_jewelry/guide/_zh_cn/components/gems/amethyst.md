@@ -1,26 +1,26 @@
 ---
 navigation:
-  title: Amethyst
+  title: 紫水晶
   position: 2
   icon: "minecraft:amethyst_shard"
   parent: irons_jewelry:gems.md
 ---
-# Amethyst
+# 紫水晶
 
 <ItemImage id="minecraft:amethyst_shard" scale="3" />
 
-This item can be used as a <Color id="light_purple">Gem</Color> for Iron's Jewelry.
+此物品可作为Iron珠宝的<Color id="light_purple">宝石</Color>。
 
-- <Color id="gray">Quality Multiplier:</Color> 1
+- <Color id="gray">品质效果加成：</Color>1
 
-### Attribute
-- Adds Armor Piercing
+### 属性
+- 增加盔甲穿透
 
-### Positive Effect
-- Regeneration
+### 正面效果
+- 生命恢复
 
-### Immunity Effect
-- Poison
+### 免疫效果
+- 中毒
 
-### Action Effect
-- Applies Throns
+### 动作效果
+- 施加荆棘

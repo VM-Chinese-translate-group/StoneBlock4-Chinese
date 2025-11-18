@@ -1,25 +1,25 @@
 ---
 navigation:
-  title: Ruby Gem
+  title: 红宝石
   position: 18
   icon: "ftbmaterials:ruby_gem"
   parent: irons_jewelry:gems.md
 item_ids:
   - ftbmaterials:ruby_gem
 ---
-# Red Matter
+# 红宝石
 
 <ItemImage id="ftbmaterials:ruby_gem" scale="3" />
 
-This item can be used as a <Color id="light_purple">Gem</Color> for Iron's Jewelry.
+此物品可作为Iron珠宝的<Color id="light_purple">宝石</Color>。
 
-- <Color id="gray">Quality Multiplier:</Color> 2
+- <Color id="gray">品质效果加成：</Color>2
 
-### Attribute
-- Adds Max Health+ (Flat)
+### 属性
+- 增加最大生命值+（固定值）
 
-### Immunity Effect
-- Hunger
+### 免疫效果
+- 饥饿
 
-### Action Effect
-- Applies Ignition
+### 动作效果
+- 施加点燃

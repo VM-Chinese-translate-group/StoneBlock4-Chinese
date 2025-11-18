@@ -1,23 +1,23 @@
 ---
 navigation:
-  title: Silver Ingot
+  title: 银锭
   position: 20
   icon: "ftbmaterials:silver_ingot"
   parent: irons_jewelry:metals.md
 ---
-# Silver Ingot
+# 银锭
 
 <ItemImage id="ftbmaterials:silver_ingot" scale="3" />
 
-This item can be used as a <Color id="green">Band Material</Color> for Iron's Jewelry.
+此物品可作为Iron珠宝的<Color id="green">指环金属</Color>。
 
-- <Color id="gray">Quality Multiplier:</Color> 1
+- <Color id="gray">品质效果加成：</Color>1
 
-### Attribute
-- Adds Movement Speed (Percentage)
+### 属性
+- 增加移动速度（百分比）
 
-### Immunity Effect
-- Bad Omen
+### 免疫效果
+- 不祥之兆
 
-### Action Effect
-- Creates Explosion
+### 动作效果
+- 制造爆炸

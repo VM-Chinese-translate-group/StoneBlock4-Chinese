@@ -1,17 +1,17 @@
 ---
 navigation:
-  title: Brass Ingot
+  title: 黄铜锭
   position: 4
   icon: "ftbmaterials:brass_ingot"
   parent: irons_jewelry:metals.md
 ---
-# Brass Ingot
+# 黄铜锭
 
 <ItemImage id="ftbmaterials:brass_ingot" scale="3" />
 
-This item can be used as a <Color id="green">Band Material</Color> for Iron's Jewelry.
+此物品可作为Iron珠宝的<Color id="green">指环金属</Color>。
 
-- <Color id="gray">Quality Multiplier:</Color> 0.75
+- <Color id="gray">品质效果加成：</Color>0.75
 
-### Attribute
-- Adds Knockback Resistance (Flat)
+### 属性
+- 增加击退抗性（固定值）

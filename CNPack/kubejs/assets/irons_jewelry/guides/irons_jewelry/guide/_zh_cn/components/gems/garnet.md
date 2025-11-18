@@ -1,25 +1,25 @@
 ---
 navigation:
-  title: Garnet
+  title: 石榴石
   position: 10
   icon: "irons_jewelry:garnet"
   parent: irons_jewelry:gems.md
 item_ids:
   - irons_jewelry:garnet
 ---
-# Garnet
+# 石榴石
 
 <ItemImage id="irons_jewelry:garnet" scale="3" />
 
-This item can be used as a <Color id="light_purple">Gem</Color> for Iron's Jewelry.
+此物品可作为Iron珠宝的<Color id="light_purple">宝石</Color>。
 
-- <Color id="gray">Quality Multiplier:</Color> 2
+- <Color id="gray">品质效果加成：</Color>2
 
-### Attribute
-- Adds Attack Damage (Percentage)
+### 属性
+- 增加攻击伤害（百分比）
 
-### Immunity Effect
-- Wither
+### 免疫效果
+- 凋零
 
-### Action Effect
-- Resistance on Attack
+### 动作效果
+- 进行有效攻击后，获得抗性提升

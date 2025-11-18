@@ -1,26 +1,26 @@
 ---
 navigation:
-  title: Gold Ingot
+  title: 金锭
   position: 10
   icon: "minecraft:gold_ingot"
   parent: irons_jewelry:metals.md
 ---
-# Gold Ingot
+# 金锭
 
 <ItemImage id="minecraft:gold_ingot" scale="3" />
 
-This item can be used as a <Color id="green">Band Material</Color> for Iron's Jewelry.
+此物品可作为Iron珠宝的<Color id="green">指环金属</Color>。
 
-- <Color id="gray">Quality Multiplier:</Color> 1.5
+- <Color id="gray">品质效果加成：</Color>1.5
 
-### Attribute
-- Adds Mining Speed+ (Percentage)
+### 属性
+- 增加采掘速度+（百分比）
 
-### Positive Effect
-- Resistance
+### 正面效果
+- 抗性提升
 
-### Immunity Effect
-- Poison
+### 免疫效果
+- 中毒
 
-### Action Effect
-- Ignites
+### 动作效果
+- 点燃

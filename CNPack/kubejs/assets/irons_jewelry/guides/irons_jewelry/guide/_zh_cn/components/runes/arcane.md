@@ -13,7 +13,7 @@ item_ids:
 
 This item can be used as a <Color id="aqua">Rune</Color> for Iron's Jewelry.
 
-- <Color id="gray">Quality Multiplier:</Color> 1.5
+- <Color id="gray">品质效果加成：</Color>1.5
 
-### Attribute
+### 属性
 - Adds Iron's Spells Max Mana (Flat)

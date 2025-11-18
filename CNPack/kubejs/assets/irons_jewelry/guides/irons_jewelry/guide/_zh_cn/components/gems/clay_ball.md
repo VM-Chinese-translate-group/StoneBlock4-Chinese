@@ -13,6 +13,8 @@ item_ids:
 
 此物品可作为Iron珠宝的<Color id="light_purple">宝石</Color>。
 
+- <Color id="gray">品质效果加成：</Color>0.1
+
 ### 属性
 - 增加寒冷伤害
 

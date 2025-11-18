@@ -1,19 +1,19 @@
 ---
 navigation:
-  title: Lead Ingot
+  title: 铅锭
   position: 13
   icon: "ftbmaterials:lead_ingot"
   parent: irons_jewelry:metals.md
 item_ids:
   - ftbmaterials:lead_ingot
 ---
-# Lead Ingot
+# 铅锭
 
 <ItemImage id="ftbmaterials:lead_ingot" scale="3" />
 
-This item can be used as a <Color id="green">Band Material</Color> for Iron's Jewelry.
+此物品可作为Iron珠宝的<Color id="green">指环金属</Color>。
 
-- <Color id="gray">Quality Multiplier:</Color> 0.75
+- <Color id="gray">品质效果加成：</Color>0.75
 
-### Attribute
-- Adds Underwater Mining Speed (Flat)
+### 属性
+- 增加水下采掘速度（固定值）

@@ -1,19 +1,19 @@
 ---
 navigation:
-  title: Draconium Ingot
+  title: 龙锭
   position: 5
   icon: "draconicevolution:draconium_ingot"
   parent: irons_jewelry:metals.md
 item_ids:
   - draconicevolution:draconium_ingot
 ---
-# Draconium Ingot
+# 龙锭
 
 <ItemImage id="draconicevolution:draconium_ingot" scale="3" />
 
-This item can be used as a <Color id="green">Band Material</Color> for Iron's Jewelry.
+此物品可作为Iron珠宝的<Color id="green">指环金属</Color>。
 
-- <Color id="gray">Quality Multiplier:</Color> 3
+- <Color id="gray">品质效果加成：</Color>3
 
-### Attribute
-- Adds Armor Pierce (Percentage)
+### 属性
+- 增加盔甲穿透（百分比）

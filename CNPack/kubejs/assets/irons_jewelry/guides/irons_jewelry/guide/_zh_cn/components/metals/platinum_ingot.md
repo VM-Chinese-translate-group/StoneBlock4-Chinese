@@ -1,26 +1,26 @@
 ---
 navigation:
-  title: Platinum Ingot
+  title: 铂锭
   position: 15
   icon: "ftbmaterials:platinum_ingot"
   parent: irons_jewelry:metals.md
 ---
-# Platinum Ingot
+# 铂锭
 
 <ItemImage id="ftbmaterials:platinum_ingot" scale="3" />
 
-This item can be used as a <Color id="green">Band Material</Color> for Iron's Jewelry.
+此物品可作为Iron珠宝的<Color id="green">指环金属</Color>。
 
-- <Color id="gray">Quality Multiplier:</Color> 2.5
+- <Color id="gray">品质效果加成：</Color>2.5
 
-### Attribute
-- Adds Armor Pierce (Percentage)
+### 属性
+- 增加盔甲穿透（百分比）
 
-### Positive Effect
-- Resistance
+### 正面效果
+- 抗性提升
 
-### Immunity Effect
-- Weakness
+### 免疫效果
+- 虚弱
 
-### Action Effect
-- Knocks back
+### 动作效果
+- 击退

@@ -11,9 +11,9 @@ item_ids:
 
 <ItemImage id="avaritia:infinity_ingot" scale="3" />
 
-此物品可作为Iron珠宝的<Color id="green">金属</Color>。
+此物品可作为Iron珠宝的<Color id="green">指环金属</Color>。
 
-它也具有疯狂的<Color id="light_purple">100</Color>倍品质效果加成。
+- <Color id="gray">品质效果加成</Color>100
 
 ### 属性
 - 增加创造飞行

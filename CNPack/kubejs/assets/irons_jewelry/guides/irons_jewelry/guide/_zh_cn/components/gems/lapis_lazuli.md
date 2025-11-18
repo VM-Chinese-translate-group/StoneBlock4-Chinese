@@ -1,23 +1,23 @@
 ---
 navigation:
-  title: Lapis Lazuli
+  title: 青金石
   position: 11
   icon: "minecraft:lapis_lazuli"
   parent: irons_jewelry:gems.md
 ---
-# Lapis Lazuli
+# 青金石
 
 <ItemImage id="minecraft:lapis_lazuli" scale="3" />
 
-This item can be used as a <Color id="light_purple">Gem</Color> for Iron's Jewelry.
+此物品可作为Iron珠宝的<Color id="light_purple">宝石</Color>。
 
-- <Color id="gray">Quality Multiplier:</Color> 1
+- <Color id="gray">品质效果加成：</Color>1
 
-### Attribute
-- Adds Experience Gained (Percentage)
+### 属性
+- 增加经验获取（百分比）
 
-### Immunity Effect
-- Blindness
+### 免疫效果
+- 失明
 
-### Action Effect
-- Slows on Attack
+### 动作效果
+- 进行有效攻击后，获得缓慢

@@ -11,7 +11,9 @@ item_ids:
 
 <ItemImage id="irons_spellbooks:pyrium_ingot" scale="3" />
 
-此物品可作为Iron珠宝的<Color id="green">金属</Color>。
+此物品可作为Iron珠宝的<Color id="green">指环金属</Color>。
+
+- <Color id="gray">品质效果加成</Color>3
 
 ### 属性
 - 增加火焰伤害+++（百分比）
