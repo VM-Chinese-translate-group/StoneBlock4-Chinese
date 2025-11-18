@@ -67,7 +67,7 @@
 	quest.00A7DEFCF07BC63A.quest_desc: [
 		"&z红物质拳剑&r是&6等价交换&r模组的终极武器。"
 		""
-		"每次挥舞都能造成1000点伤害。"
+		"为等价交换的额外功能（Extra Function）设置一个快捷键以使用，每次使用时会对附近的任何生物造成25点伤害。"
 	]
 	quest.00A7DEFCF07BC63A.title: "&c红物质拳剑"
 	quest.00EF9BD860108718.quest_desc: [
@@ -898,7 +898,7 @@
 	quest.107C26E8BF309BC1.quest_desc: [
 		"你冒险的时候，也许会搜刮到很多&d奥术&r战利品。"
 		""
-		"最常见的战利品就是&d奥术源质&r，它可以用来制作&d奥术布匹&r、酿造&b法力药水&r等等！"
+		"最常见的战利品就是&d奥术源质&r，它可以用来制作&d奥术布匹&r、酿造&b魔力药水&r等等！"
 		"{@pagebreak}"
 		"也许你还会找到一些&a空白符文&r，用它可以合成各种&2符文&r。符文可以制造该模组最强大的装备。杀死巫师类敌怪后，你也有概率得到&a符文&r。"
 		""
@@ -4054,6 +4054,7 @@
 	quest.5535D64E2B05005E.quest_desc: [""]
 	quest.5535D64E2B05005E.quest_subtitle: "增加方块破坏器和末影激光器的工作范围"
 	quest.555BB3F7C11CD6F9.title: "Radiance Check 1"
+	quest.558A4BBC3BDB853D.quest_desc: ["击杀&6王国&r，它位于&d虚空&r环中的&6王国竞技场&r，然后&c提交它的战利品&r来领取赏金。"]
 	quest.55D17BDE3E9C81CC.quest_desc: [
 		"提交&3升级&f所需的方块并领取奖励，即可自动为你团队的&6世界引擎&r组装该升级。"
 		""
@@ -4883,9 +4884,11 @@
 	quest.67AD604F2C4E5CC9.quest_desc: [
 		"并不是所有&b流体牛&r都可以由繁育或者&a粘土苹果&r得到。"
 		""
-		"“还有一些其他的物品也可以喂给牛，用来创造特定类型的&b流体牛&r，比如&d末影之眼&r就可以创造出一只&c熔融末影珍珠&r牛。”"
+		"还有一些其他的物品也可以喂给牛，用来创造特定类型的&b流体牛&r，比如&d末影之眼&r就可以创造出一只&c熔融末影珍珠&r牛，&d烈焰棒&r创造出一只&c熔岩&r牛……"
 		""
 		"&b胶乳&r牛也十分不错。"
+		""
+		"给流体牛喂&b奶桶&r就会将它重置为普通牛。"
 	]
 	quest.67AD604F2C4E5CC9.title: "特殊流体牛"
 	quest.67D1E0D81B2C5D8D.quest_desc: [
@@ -5012,7 +5015,7 @@
 	quest.6B6C60BFE1D378D0.quest_desc: [
 		"如果你想搭建一个兼顾样板容量、合成速度和并发处理能力的顶配&d装配矩阵&r，这里列出的就是你所需要的全部方块。"
 		""
-		"&7&o成品为7x7x7的多方块结构"
+		"&7&o这将搭建一个尺寸为7x7x7的多方块结构"
 	]
 	quest.6B6C60BFE1D378D0.title: "&6完全体装配矩阵"
 	quest.6B971FA156A96BD5.quest_desc: [
@@ -5503,7 +5506,7 @@
 		""
 		"虽然理论上你可以往里面放更多的&6256M&r存储单元，但其实只要1个就完全足够应对这个整合包里所有的合成了。"
 		""
-		"&7&o成品为7x7x7的多方块结构"
+		"&7&o这将搭建一个尺寸为7x7x7的多方块结构"
 	]
 	quest.75A7DDE0D617B5E6.title: "&f满配&6量子计算机"
 	quest.75D124AF83D637A8.quest_desc: [
@@ -6037,7 +6040,7 @@
 	quest.7EF7546FF007EF36.title: "&2生物燃料&r"
 	quest.7F022A9289CCBF5D.title: "End South"
 	quest.7F27B48C280FA27F.title: "存储物品"
-	quest.7F42E2C4AAC3D131.quest_subtitle: "无限旋转力"
+	quest.7F42E2C4AAC3D131.quest_desc: ["&7&o无限旋转力"]
 	quest.7F42E2C4AAC3D131.title: "创造马达"
 	quest.7F4E7C687E7D8707.quest_desc: [
 		"这里有几种方法可以防止你的农场物品堆积在地上！"
@@ -6246,6 +6249,7 @@
 	task.12E5C6B08FAC5523.title: "&e发现&f：&3迷宫宝库"
 	task.1464DA1D0A45EF99.title: "巫师套装"
 	task.149EDD07DA46D40F.title: "&e观察&r：&2村民&r"
+	task.14E50AE68E2967C5.title: "牛的催化"
 	task.157A4FF7FF3C6F6A.title: "深板岩层北"
 	task.159400992FB94254.title: "&e观察&f：深板岩"
 	task.15F2F7C36099DE85.title: "输出器"
@@ -6317,7 +6321,6 @@
 	task.2E08C0DD181858C1.title: "&e发现&f：&d寻路者"
 	task.2E2CF42092AA43D8.title: "各等级&a磁盘接口"
 	task.2E6B8DF43B7A85E7.title: "任意基础CAD机体"
-	task.2EA8AAC21E19C202.title: "T1"
 	task.2F84191A75EBFBB0.title: "获得指南针"
 	task.2F94FA9842248FA3.title: "冰雪女王宝库"
 	task.2FB8AB5ADB1F8D26.title: "&e击杀&f：&c提洛斯回响·原初受火者"
@@ -6327,7 +6330,6 @@
 	task.31D5BD1ADD14C2BB.title: "&f找到暮光巫妖的宝库"
 	task.31DBB76BB460AE1B.title: "机器核心"
 	task.322FFDB250990323.title: "能量存储"
-	task.32463C2AE2B4F13B.title: "击杀&6王国&r"
 	task.327D6E2AE8863BC1.title: "&e击杀&f：&c炽焰术士"
 	task.32877EA200F47B95.title: "&f与&6辐光&f对话"
 	task.329BA2B5EB3185FC.title: "拆解获得的材料"
@@ -6391,7 +6393,6 @@
 	task.44F14FF1208B0B03.title: "全能工具"
 	task.459AEFEC8F060222.title: "获得指南针"
 	task.45C3B788492E3C09.title: "&e观察&f：&2草方块"
-	task.45E16BAC26D921B8.title: "特殊流体牛物品"
 	task.45E18E3EE8C1D683.title: "&f与&d机械师的回响&f对话"
 	task.45E2610784D6C62D.title: "虚空西"
 	task.46201BC3BAE0D15A.title: "通用机械激光"
