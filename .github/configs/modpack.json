@@ -21,7 +21,8 @@
   },
   "exclusionPatterns": [
     "**/lang/*.*",
-    "**/dimdungeons/lang/*.*",
-    "!**/lang/en_us.*"
+    "!**/lang/en_us.*",
+    "**/dimdungeons/lang/en_us.json",
+    "**/irons_spellbooks/lang/en_us.json"
   ]
 }
