@@ -518,6 +518,13 @@
 					id: "2FE6B3DDF4FA4641"
 					type: "currency"
 				}
+				{
+					auto: "invisible"
+					id: "42C4C224766D7A9E"
+					ignore_reward_blocking: true
+					stage: "creative_motor_unlock"
+					type: "gamestage"
+				}
 			]
 			shape: "diamond"
 			tasks: [
