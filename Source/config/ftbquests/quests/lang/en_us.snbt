@@ -33,7 +33,7 @@
 	]
 	quest.0065DA4214B7B303.title: "Kill The &6Ancient Remnant&r"
 	quest.0071ADE2804C1B24.title: "Light Bender Check 2"
-	quest.007CD364F96C2912.quest_desc: ["&aFree Runner&r boots provide little protection, but significantly boost your movement speed and prevent fall damage."]
+	quest.007CD364F96C2912.quest_desc: ["&aFree Runner&r boots provide little protection, but prevent all fall damage."]
 	quest.007F4A173D5CA51F.quest_desc: [
 		"\"Commune\" was probably a stretch."
 		""
@@ -1123,6 +1123,7 @@
 		"- Redstone"
 		"- Carbon"
 		"- Slime"
+		"- Osmium"
 	]
 	quest.150BB4679DD2B4B5.title: "Fluid Cows"
 	quest.1520491A7804E08E.quest_desc: [
@@ -1653,8 +1654,6 @@
 		"This machine requires heat to simulate the power of the sun that is obviously missing in this stone world."
 		"{@pagebreak}"
 		"It can convert &eNuclear Waste&r into &dPolonium&r, and &eLithium&r into &aTritium&r when powered with a single &6Neutron Pile&r."
-		""
-		"&eNote&r: A single &6Neutron Collector&r should be enough to power 2 &zNeutron Activators&r infinitely."
 	]
 	quest.21322BAF061FE83F.title: "&zNeutron Activator&r"
 	quest.213FE1D19D589513.quest_desc: [
@@ -4236,6 +4235,8 @@
 		"You must provide it with about &b2000 Chronon&r to kickstart its production."
 		""
 		"The &6Metronome&r has input and output slots that make it function as a &dChronon Battery&r, and it can link to other &6Metronomes&r on an internal network, which can also be set to private."
+		""
+		"&eNote&f: The &6Metronome&r is &cNOT&f a reliable chronon storage for teleporting via the &aAction Pad&r."
 	]
 	quest.575A111D4418BFB6.title: "&6Metronome"
 	quest.5777C137BF472784.title: "End Shards"
@@ -5744,9 +5745,11 @@
 		"These charges replenish over time (seen on the hotbar), and can be increased or regained through various enchantments or trinkets."
 	]
 	quest.7713D75A36D0A23D.quest_desc: [
-		"Setting up a Quantum Link in its designated spot and linking it to the main &6World Engine&r machine block using a pattern provider, your ME System will have a direct link to the &6World Engine&r, allowing you to directly request crafting recipes and processes from the &6World Engine&r."
+		"Setting up a &aQuantum Link&r in its designated spot and linking it to the main &6World Engine&r machine block using a pattern provider, your ME System will have a direct link to the &6World Engine&r, allowing you to directly request crafting recipes and processes from the &6World Engine&r."
 		""
 		"&dThe Light Bender&r seems convinced that this relatively simple upgrade will change the way you interface with the &6World Engine&r."
+		""
+		"&eNote&f: Each side of the &6World Engine&r must be configured individually for input and output."
 	]
 	quest.7713D75A36D0A23D.quest_subtitle: "Minor World Engine Upgrade"
 	quest.7713D75A36D0A23D.title: "&fThe Start of Automation"
@@ -6147,6 +6150,8 @@
 		"It also allows you to manually add new locations via current coordinates, and has several configuration options. Pinned locations can be teleported to via keybinds."
 		""
 		"&aLocation Cards&r can also be used in the Tempad interface to register or copy locations."
+		""
+		"&eNote&f: The &6Tempad&r does &cNOT&f function as a chronon storage for teleporting via the &aAction Pad&r."
 	]
 	quest.7DE9A4C7979AC1FA.title: "&6Tempad"
 	quest.7E062B48AD37EAF1.quest_desc: [
@@ -6762,6 +6767,7 @@
 	task.46201BC3BAE0D15A.title: "Mekanism Lasers"
 	task.46EC7CBCB208552B.title: "&aEcho Unlock Enchanter"
 	task.478D81CA3E31709A.title: "Echo-Location"
+	task.47B3519E9BAE88EB.title: "Runewood Saplings"
 	task.47CDD3AB69EDD87A.title: "Lich Vault"
 	task.48521259017869AC.title: "Generation 4"
 	task.48DEF5D938C94BF6.title: "&fIndustrial Foregoing Options"
