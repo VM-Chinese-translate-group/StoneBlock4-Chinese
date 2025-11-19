@@ -2220,15 +2220,15 @@
 			size: 1.5d
 			tasks: [
 				{
-					icon: {
-						id: "malum:void_depot"
+					id: "47B3519E9BAE88EB"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(malum:azure_runewood_sapling)item(malum:runewood_sapling))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
 					}
-					id: "58BEE5F1435F017A"
-					observe_type: 0
-					optional_task: true
-					timer: 0L
-					to_observe: "malum:void_conduit"
-					type: "observation"
+					type: "item"
 				}
 				{
 					id: "6FF2B7DB98E63996"
@@ -2239,12 +2239,15 @@
 					type: "item"
 				}
 				{
-					id: "35CCA9A1F02BC50A"
-					item: {
-						count: 1
-						id: "malum:runewood_sapling"
+					icon: {
+						id: "malum:void_depot"
 					}
-					type: "item"
+					id: "58BEE5F1435F017A"
+					observe_type: 0
+					optional_task: true
+					timer: 0L
+					to_observe: "malum:void_conduit"
+					type: "observation"
 				}
 			]
 			x: 10.0d

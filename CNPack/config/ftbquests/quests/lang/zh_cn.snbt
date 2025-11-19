@@ -32,7 +32,7 @@
 	]
 	quest.0065DA4214B7B303.title: "击杀&6远古遗魂&r"
 	quest.0071ADE2804C1B24.title: "Light Bender Check 2"
-	quest.007CD364F96C2912.quest_desc: ["&a自由助跑器&r只能提供一点点防御能力，但可以显著提高你的移动速度，并防止摔落伤害。"]
+	quest.007CD364F96C2912.quest_desc: ["&aFree Runner&r boots provide little protection, but prevent all fall damage."]
 	quest.007F4A173D5CA51F.quest_desc: [
 		"说是“交流”的话，或许有些牵强了。"
 		""
@@ -1081,6 +1081,7 @@
 		"- 红石"
 		"- 碳"
 		"- 史莱姆"
+		"- Osmium"
 	]
 	quest.150BB4679DD2B4B5.title: "流体牛"
 	quest.1520491A7804E08E.quest_desc: [
@@ -1597,8 +1598,6 @@
 		"这种机器需要用热量来模拟这个石头世界缺失的太阳能。"
 		"{@pagebreak}"
 		"只需要一撮&6中子素尘埃&r作为能源，它就能将&e核废料&r转变为&d钋&r，将&e锂&r转变为&a氚&r。"
-		""
-		"&e注意&r：一台&6中子态素收集器&r足够保证两台&z中子活化器&r的持续运作。"
 	]
 	quest.21322BAF061FE83F.title: "&z中子活化器&r"
 	quest.213FE1D19D589513.quest_desc: [
@@ -4121,6 +4120,8 @@
 		"你必须先提供&b2000时元&r才可以将它启动。"
 		""
 		"&6节律器&r有数个输入和输出槽位，可以当作&d时元电池&r来使用，并且它可以与其相连的其他&6节律器&r一起组成一个内部网络，还可以将一个节律器网络设置为私有。"
+		""
+		"&eNote&f: The &6Metronome&r is &cNOT&f a reliable chronon storage for teleporting via the &aAction Pad&r."
 	]
 	quest.575A111D4418BFB6.title: "&6节拍器"
 	quest.5777C137BF472784.title: "末地碎片"
@@ -5583,9 +5584,11 @@
 		"充能会随时间自动恢复（详见饱食度上的状态条），还可以被附魔和饰品强化充能上限或加快恢复速度。"
 	]
 	quest.7713D75A36D0A23D.quest_desc: [
-		"在指定的位置设立量子链接，并通过样板供应器将其连接到&6世界引擎&r的主体机器方块，你的ME系统即可直接与&6世界引擎&r建立连接，这样你就能直接向&6世界引擎&r发送配方制作请求了。"
+		"Setting up a &aQuantum Link&r in its designated spot and linking it to the main &6World Engine&r machine block using a pattern provider, your ME System will have a direct link to the &6World Engine&r, allowing you to directly request crafting recipes and processes from the &6World Engine&r."
 		""
 		"&d折光师&r似乎十分确信，这个相对简单的升级能改变你与&6世界引擎&r交互的方式。"
+		""
+		"&eNote&f: Each side of the &6World Engine&r must be configured individually for input and output."
 	]
 	quest.7713D75A36D0A23D.quest_subtitle: "次要世界引擎升级"
 	quest.7713D75A36D0A23D.title: "&f自动化的开端"
@@ -5979,6 +5982,8 @@
 		"你也可以手动将当前坐标添加为新的标记点，添加时有多个选项可供配置。可以使用快捷键快速打开置顶标记点的传送门。"
 		""
 		"&a定位卡&r也可以在时域仪的界面中用于注册和复制标记点。"
+		""
+		"&eNote&f: The &6Tempad&r does &cNOT&f function as a chronon storage for teleporting via the &aAction Pad&r."
 	]
 	quest.7DE9A4C7979AC1FA.title: "&6时域仪"
 	quest.7E1A18D82B74B6CC.title: "Enchanter Check 2"
@@ -6396,6 +6401,7 @@
 	task.45E18E3EE8C1D683.title: "&f与&d机械师的回响&f对话"
 	task.45E2610784D6C62D.title: "虚空西"
 	task.46201BC3BAE0D15A.title: "通用机械激光"
+	task.47B3519E9BAE88EB.title: "Runewood Saplings"
 	task.47CDD3AB69EDD87A.title: "暮光巫妖宝库"
 	task.491E250D69066BBC.title: "&e击杀&f：&7凋灵"
 	task.49DF96867DE0BB9D.title: "精魂"
