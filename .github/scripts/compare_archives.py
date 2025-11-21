@@ -10,6 +10,7 @@ import tarfile
 import tempfile
 import zipfile
 import json
+from collections import deque
 from html import escape
 
 CSS_STYLES = """
@@ -43,8 +44,13 @@ CSS_STYLES = """
     body { margin: 0; font-family: var(--font-sans); background: var(--c-bg); height: 100vh; display: flex; flex-direction: column; color: var(--c-text); overflow: hidden; }
 
     /* --- Header --- */
-    header { height: 50px; background: #fff; border-bottom: 1px solid var(--c-border); display: flex; align-items: center; padding: 0 20px; flex-shrink: 0; justify-content: space-between; z-index: 10; }
-    header h1 { font-size: 14px; font-weight: 600; color: var(--c-text); display: flex; gap: 8px; align-items: center; }
+    header { height: 56px; background: #fff; border-bottom: 1px solid var(--c-border); display: flex; align-items: center; padding: 0 20px; flex-shrink: 0; justify-content: space-between; z-index: 10; }
+    header h1 { font-size: 15px; font-weight: 600; color: var(--c-text); display: flex; gap: 8px; align-items: center; }
+    .header-left { display: flex; align-items: center; gap: 16px; flex-wrap: wrap; }
+    .archive-meta { display: flex; gap: 8px; flex-wrap: wrap; }
+    .archive-pill { padding: 4px 12px; border: 1px solid var(--c-border); border-radius: 6px; background: var(--c-sidebar); display: flex; flex-direction: column; min-width: 180px; }
+    .archive-pill .pill-label { font-size: 11px; color: var(--c-text-muted); text-transform: uppercase; letter-spacing: 0.04em; }
+    .archive-pill .pill-value { font-size: 13px; font-weight: 600; color: var(--c-text); }
 
     .view-toggle { 
         display: flex; background: #f3f4f6; padding: 2px; border-radius: 6px; 
@@ -160,6 +166,9 @@ CSS_STYLES = """
     .empty-cell { background: #fafafa; border: none; }
     .binary-msg { margin: 80px auto; text-align: center; padding: 30px; border: 1px dashed #e5e7eb; border-radius: 8px; background: #f9fafb; }
 
+    .inline-add { background: rgba(16, 185, 129, 0.25); border-radius: 3px; }
+    .inline-del { background: rgba(244, 63, 94, 0.25); border-radius: 3px; }
+
     .hljs { background: transparent; padding: 0; font-family: inherit; font-size: inherit; }
 </style>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
@@ -168,8 +177,9 @@ CSS_STYLES = """
 JS_SCRIPT = """
 <script>
     const state = {
-        files: [], tree: {}, currentFileId: null, 
-        filterType: 'all', showBinary: true, viewMode: 'inline', searchQuery: ''
+        files: [], tree: {}, currentFileId: null,
+        filterType: 'all', showBinary: true, viewMode: 'inline', searchQuery: '',
+        meta: { old_label: 'Archive 1', new_label: 'Archive 2' }
     };
 
     const LANG_MAP = { 'py': 'python', 'js': 'javascript', 'json': 'json', 'html': 'xml', 'css': 'css', 'java': 'java', 'c': 'c', 'cpp': 'cpp', 'h': 'c', 'rs': 'rust', 'go': 'go', 'ts': 'typescript', 'sh': 'bash', 'yaml': 'yaml', 'yml': 'yaml', 'md': 'markdown', 'xml': 'xml', 'sql': 'sql', 'toml': 'ini', 'ini': 'ini' };
@@ -177,7 +187,10 @@ JS_SCRIPT = """
     document.addEventListener('DOMContentLoaded', () => {
         const payload = document.getElementById('data-payload');
         if (payload) {
-            state.files = JSON.parse(payload.textContent).files;
+            const parsed = JSON.parse(payload.textContent);
+            state.files = parsed.files;
+            state.meta = parsed.meta || state.meta;
+            updateArchiveLabels();
             buildTree();
             calculateFolderStats(state.tree); // Pre-calc recursion
             renderTree();
@@ -205,10 +218,24 @@ JS_SCRIPT = """
         });
     });
 
+    function updateArchiveLabels() {
+        const oldEl = document.getElementById('archiveOldLabel');
+        const newEl = document.getElementById('archiveNewLabel');
+        if (oldEl) oldEl.textContent = state.meta.old_label || '—';
+        if (newEl) newEl.textContent = state.meta.new_label || '—';
+    }
+
     function highlightLine(code, filename) {
         if (!code) return '';
         const ext = filename.includes('.') ? filename.split('.').pop().toLowerCase() : '';
         try { return (LANG_MAP[ext] && hljs.getLanguage(LANG_MAP[ext])) ? hljs.highlight(code, { language: LANG_MAP[ext] }).value : escape(code); } catch (e) { return escape(code); }
+    }
+
+    function getLineHtml(block, filename) {
+        if (block.inline_html) {
+            return block.inline_html;
+        }
+        return highlightLine(block.content, filename);
     }
 
     function buildTree() {
@@ -402,10 +429,11 @@ JS_SCRIPT = """
                 html += `<tr><td class="diff-hunk" colspan="3">${escape(b.content)}</td></tr>`;
             } else {
                 const cls = b.type === 'add' ? 'diff-add' : (b.type === 'del' ? 'diff-del' : '');
+                const codeHtml = getLineHtml(b, file.name);
                 html += `<tr class="${cls}">
                     <td class="line-num">${b.old_lineno || ''}</td>
                     <td class="line-num">${b.new_lineno || ''}</td>
-                    <td>${highlightLine(b.content, file.name)}</td>
+                    <td>${codeHtml}</td>
                 </tr>`;
             }
         });
@@ -418,7 +446,7 @@ JS_SCRIPT = """
             if (b.type === 'hunk') {
                 html += `<tr><td class="diff-hunk" colspan="4" style="text-align:center">${escape(b.content)}</td></tr>`;
             } else {
-                const code = highlightLine(b.content, file.name);
+                const code = getLineHtml(b, file.name);
                 if (b.type === 'add') {
                     html += `<tr class="diff-add"><td class="empty-cell"></td><td class="line-num"></td><td class="line-num">${b.new_lineno}</td><td>${code}</td></tr>`;
                 } else if (b.type === 'del') {
@@ -448,7 +476,19 @@ HTML_SHELL = """
 </head>
 <body>
     <header>
-        <h1>📂 档案对比分析</h1>
+        <div class="header-left">
+            <h1>📂 档案对比分析</h1>
+            <div class="archive-meta">
+                <div class="archive-pill">
+                    <span class="pill-label">旧版本</span>
+                    <span class="pill-value" id="archiveOldLabel">—</span>
+                </div>
+                <div class="archive-pill">
+                    <span class="pill-label">新版本</span>
+                    <span class="pill-value" id="archiveNewLabel">—</span>
+                </div>
+            </div>
+        </div>
         <div class="header-controls">
              <div class="view-toggle" data-active="inline">
                 <div class="toggle-bg"></div>
@@ -492,11 +532,13 @@ HTML_SHELL = """
 
 
 class ArchiveComparator:
-    def __init__(self, archive1, archive2, output_path):
+    def __init__(self, archive1, archive2, output_path, old_label=None, new_label=None):
         self.archive1 = archive1
         self.archive2 = archive2
         self.output_path = output_path
         self.files_data = []
+        self.old_label = old_label or pathlib.Path(archive1).name
+        self.new_label = new_label or pathlib.Path(archive2).name
 
     def _try_convert_binary_to_text(self, file_path, original_ext):
         return None, False
@@ -527,6 +569,24 @@ class ArchiveComparator:
             unit = u
         return f"{'+' if diff > 0 else ''}{abs_diff:.1f} {unit}"
 
+    def build_inline_diff(self, old_text, new_text):
+        matcher = difflib.SequenceMatcher(None, old_text, new_text)
+        old_parts, new_parts = [], []
+        for tag, i1, i2, j1, j2 in matcher.get_opcodes():
+            old_seg = escape(old_text[i1:i2])
+            new_seg = escape(new_text[j1:j2])
+            if tag == 'equal':
+                if old_seg: old_parts.append(old_seg)
+                if new_seg: new_parts.append(new_seg)
+            elif tag == 'delete':
+                if old_seg: old_parts.append(f"<span class='inline-del'>{old_seg}</span>")
+            elif tag == 'insert':
+                if new_seg: new_parts.append(f"<span class='inline-add'>{new_seg}</span>")
+            elif tag == 'replace':
+                if old_seg: old_parts.append(f"<span class='inline-del'>{old_seg}</span>")
+                if new_seg: new_parts.append(f"<span class='inline-add'>{new_seg}</span>")
+        return ''.join(old_parts) or escape(old_text), ''.join(new_parts) or escape(new_text)
+
     def generate_diff_blocks(self, lines1, lines2):
         blocks = []
         add_count, del_count = 0, 0
@@ -539,8 +599,10 @@ class ArchiveComparator:
             pass
 
         old_line, new_line = 0, 0
+        pending_deletions = deque()
         for line in diff_gen:
             if line.startswith('@@'):
+                pending_deletions.clear()
                 blocks.append({'type': 'hunk', 'content': line})
                 try:
                     parts = line.split(' ')
@@ -551,12 +613,21 @@ class ArchiveComparator:
             elif line.startswith('+'):
                 new_line += 1;
                 add_count += 1
-                blocks.append({'type': 'add', 'content': line[1:], 'new_lineno': new_line})
+                entry = {'type': 'add', 'content': line[1:], 'new_lineno': new_line}
+                if pending_deletions:
+                    partner = pending_deletions.popleft()
+                    old_html, new_html = self.build_inline_diff(partner['content'], entry['content'])
+                    partner['inline_html'] = old_html
+                    entry['inline_html'] = new_html
+                blocks.append(entry)
             elif line.startswith('-'):
                 old_line += 1;
                 del_count += 1
-                blocks.append({'type': 'del', 'content': line[1:], 'old_lineno': old_line})
+                entry = {'type': 'del', 'content': line[1:], 'old_lineno': old_line}
+                blocks.append(entry)
+                pending_deletions.append(entry)
             else:
+                pending_deletions.clear()
                 old_line += 1;
                 new_line += 1
                 blocks.append({'type': 'eq', 'content': line[1:], 'old_lineno': old_line, 'new_lineno': new_line})
@@ -624,7 +695,14 @@ class ArchiveComparator:
             self.files_data.append(item)
 
     def _write(self):
-        data = json.dumps({"files": self.files_data}, ensure_ascii=False)
+        payload = {
+            "files": self.files_data,
+            "meta": {
+                "old_label": self.old_label,
+                "new_label": self.new_label
+            }
+        }
+        data = json.dumps(payload, ensure_ascii=False)
         html = HTML_SHELL.format(css=CSS_STYLES, js=JS_SCRIPT, json_data=data)
         with open(self.output_path, 'w', encoding='utf-8') as f: f.write(html)
         print(f"Report generated: {os.path.abspath(self.output_path)}")
@@ -635,9 +713,17 @@ if __name__ == "__main__":
     parser.add_argument("old_file")
     parser.add_argument("new_file")
     parser.add_argument("-o", "--output", default="diff_report.html")
+    parser.add_argument("--old-label", dest="old_label")
+    parser.add_argument("--new-label", dest="new_label")
     args = parser.parse_args()
 
     if os.path.exists(args.old_file) and os.path.exists(args.new_file):
-        ArchiveComparator(args.old_file, args.new_file, args.output).process()
+        ArchiveComparator(
+            args.old_file,
+            args.new_file,
+            args.output,
+            old_label=args.old_label,
+            new_label=args.new_label
+        ).process()
     else:
         print("Files not found.")
