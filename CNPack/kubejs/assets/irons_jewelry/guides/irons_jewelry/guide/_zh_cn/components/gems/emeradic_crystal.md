@@ -13,7 +13,7 @@ item_ids:
 
 此物品可作为Iron珠宝的<Color id="light_purple">宝石</Color>。
 
-- <Color id="gray">品质效果加成</Color>1.5
+- <Color id="gray">品质效果加成：</Color>1.5
 
 ### 属性
 - 增加经验获取（百分比）

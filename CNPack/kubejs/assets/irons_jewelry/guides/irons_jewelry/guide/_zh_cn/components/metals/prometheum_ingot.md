@@ -13,7 +13,7 @@ item_ids:
 
 此物品可作为Iron珠宝的<Color id="green">指环金属</Color>。
 
-- <Color id="gray">品质效果加成</Color>3.5
+- <Color id="gray">品质效果加成：</Color>3.5
 
 ### 属性
 - 增加攻击伤害（百分比）
