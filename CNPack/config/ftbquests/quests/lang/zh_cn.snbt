@@ -5004,7 +5004,7 @@
 	quest.6B387999FBEE2E9E.title: "&6FTB事件"
 	quest.6B391D0B32AF8529.quest_desc: ["制作出足够的&2暗影钢&r后，请回到&d机械师&r处，他会告诉你这些东西需要装在&6世界引擎&r的什么位置上。"]
 	quest.6B584FB6F2EEBCD0.quest_desc: [
-		"制作&6铁魔法&r模组中的早期法师盔甲的时候，&d奥术源质&r非常有用。"
+		"制作&6Iron的法术&r模组中的早期法师盔甲的时候，&d奥术源质&r非常有用。"
 		""
 		"把它和皮革盔甲合成后，就会产出属于&a流浪法师套装&r的盔甲。"
 		""
@@ -5012,7 +5012,7 @@
 		""
 		"这两套盔甲都很适合施展法术的人穿戴。"
 	]
-	quest.6B584FB6F2EEBCD0.title: "&e铁魔法&f模组的基础护甲"
+	quest.6B584FB6F2EEBCD0.title: "&eIron的法术&f中的基础护甲"
 	quest.6B6C60BFE1D378D0.quest_desc: [
 		"如果你想搭建一个兼顾样板容量、合成速度和并发处理能力的顶配&d装配矩阵&r，这里列出的就是你所需要的全部方块。"
 		""
@@ -5428,11 +5428,11 @@
 	quest.73268E8255CBB44A.title: "&f自定义刷怪笼"
 	quest.735CB0E29FB372C1.title: "&d反物质球&f交易"
 	quest.73871351B8E5775B.quest_desc: [
-		"如果你准备精研法师之道并且想增强你的法术效果，&6铁魔法&r模组也有一些进阶套装可选。"
+		"如果你准备精研法师之道并且想增强你的法术效果，&6Iron的法术&r模组也有一些进阶套装可选。"
 		""
 		"一种盔甲套装会给特定属性的法术带来增强效果。"
 	]
-	quest.73871351B8E5775B.title: "&e铁魔法&f模组中的元素盔甲"
+	quest.73871351B8E5775B.title: "&eIron的法术&f中的元素盔甲"
 	quest.73EC5E7F2300B99D.quest_desc: [
 		"&a赛特斯石英母岩&r的机制与紫水晶类似，会随着时间的推移长出水晶。"
 		""
@@ -6180,7 +6180,7 @@
 	reward_table.16E7488E801B3DAA.title: "龙之进化飞龙装备"
 	reward_table.1892AD44EB5DD99D.title: "龙之进化混沌装备"
 	reward_table.1D31E6EC121FF83B.title: "龙之进化神龙装备"
-	reward_table.1DA364008CA08643.title: "铁魔法装备"
+	reward_table.1DA364008CA08643.title: "Iron的装备"
 	reward_table.20D1BF16232BD665.title: "RF能量源"
 	reward_table.21A38B78E82935CD.title: "数据模型"
 	reward_table.28714053C75776A5.title: "顶级探索遗物"
@@ -6234,7 +6234,7 @@
 	task.0AAA6FAB20E74E5F.title: "升级下界书架"
 	task.0AFBB94C24406DAD.title: "心容器"
 	task.0C13FA83021AE4C5.title: "&e击杀&f：&c下界合金巨兽"
-	task.0D2B50FDF033C966.title: "铁魔法盔甲"
+	task.0D2B50FDF033C966.title: "Iron的盔甲"
 	task.0D88BFCD6CDC0266.title: "武器"
 	task.0D9BCEFBD92A6E7F.title: "维度学家可获取的方块"
 	task.0E023EF28D4D86F3.title: "&b范围升级"
