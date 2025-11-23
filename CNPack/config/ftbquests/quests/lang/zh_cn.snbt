@@ -4123,7 +4123,7 @@
 		""
 		"&eNote&f: The &6Metronome&r is &cNOT&f a reliable chronon storage for teleporting via the &aAction Pad&r."
 	]
-	quest.575A111D4418BFB6.title: "&6节拍器"
+	quest.575A111D4418BFB6.title: "&6节律器"
 	quest.5777C137BF472784.title: "末地碎片"
 	quest.5778BAEC8F095B3D.quest_desc: [
 		"你可以用&eLaserIO&r的激光传输万物！"
@@ -5106,7 +5106,7 @@
 	quest.6D0C1811DA909BBD.quest_subtitle: "次要世界引擎升级"
 	quest.6D0C1811DA909BBD.title: "&d低吟金属"
 	quest.6D28E1AFBB33C43E.quest_desc: [
-		"&e时间钢&r可用于升级你的现存设备，也可以合成一些有用的东西。"
+		"&e时钢&r可用于升级你的现存设备，也可以合成一些有用的东西。"
 		""
 		"&d时元电池&r是你应当合成的第一个升级。"
 		""
@@ -5114,7 +5114,7 @@
 		""
 		"&e注意&r：要合成此物，需要先用&e时空粒子玻璃&r与&a机器方块&r进行&6世界引擎升级&r。"
 	]
-	quest.6D28E1AFBB33C43E.title: "&e时间钢&r"
+	quest.6D28E1AFBB33C43E.title: "&e时钢&r"
 	quest.6D2B6421B1115667.quest_desc: [
 		"你没必要再把铁粒、铁锭、铁块分开装三个抽屉了，都丢进&a压缩抽屉&r就行。"
 		""
