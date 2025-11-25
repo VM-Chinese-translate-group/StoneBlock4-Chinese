@@ -312,6 +312,7 @@
 			y: -0.5d
 		}
 		{
+			can_repeat: true
 			dependencies: ["25CCA572C4D5CEA0"]
 			icon: {
 				id: "replication:creative_memory_chip"
@@ -389,6 +390,7 @@
 			y: 3.0d
 		}
 		{
+			can_repeat: true
 			dependencies: ["25CCA572C4D5CEA0"]
 			icon: {
 				id: "chancecubes:creative_pendant"
@@ -616,6 +618,7 @@
 			y: 2.0d
 		}
 		{
+			can_repeat: true
 			dependencies: ["25CCA572C4D5CEA0"]
 			icon: {
 				id: "mekanism_lasers:creative_toggleable_laser"
@@ -649,7 +652,6 @@
 					consume_items: true
 					id: "087CD6A49C1DDD56"
 					item: { components: { "mekanism:energy": { energy_containers: [L;256000000L] } }, count: 1, id: "mekanism:ultimate_energy_cube" }
-					match_components: "fuzzy"
 					task_screen_only: true
 					type: "item"
 				}
@@ -682,6 +684,7 @@
 			y: 3.5d
 		}
 		{
+			can_repeat: true
 			dependencies: ["25CCA572C4D5CEA0"]
 			icon: {
 				id: "universalgrid:creative_wireless_universal_grid"
@@ -733,6 +736,7 @@
 			y: 2.5d
 		}
 		{
+			can_repeat: true
 			dependencies: ["25CCA572C4D5CEA0"]
 			icon: {
 				id: "cabletiers:creative_disk_interface"
@@ -785,6 +789,7 @@
 			y: 2.5d
 		}
 		{
+			can_repeat: true
 			dependencies: ["25CCA572C4D5CEA0"]
 			icon: {
 				id: "tempad:creative_chronometer"
@@ -865,7 +870,6 @@
 				id: "mffs:infinite_power_card"
 			}
 			id: "0A1243F0A9541645"
-			optional: true
 			rewards: [
 				{
 					id: "44987B534F0C7DC8"
@@ -914,11 +918,9 @@
 					type: "item"
 				}
 				{
-					consume_items: true
 					count: 64L
-					id: "1FF219F06DBA63C3"
-					item: { count: 1, id: "ftbmaterials:electrum_gear" }
-					task_screen_only: true
+					id: "407F20781F2F0E3F"
+					item: { count: 1, id: "immersiveengineering:wirecoil_electrum_ins" }
 					type: "item"
 				}
 				{
