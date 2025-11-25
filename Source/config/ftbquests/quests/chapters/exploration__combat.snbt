@@ -861,12 +861,12 @@
 			}]
 			shape: "square"
 			tasks: [{
+				biome: "dimdungeons:biome_dungeon"
 				icon: {
 					id: "cataclysm:void_stone"
 				}
-				id: "64E418FC4666C686"
-				structure: "minecraft:mineshaft"
-				type: "structure"
+				id: "11F622D03AF39A5C"
+				type: "biome"
 			}]
 			x: 3.0d
 			y: -3.0d
