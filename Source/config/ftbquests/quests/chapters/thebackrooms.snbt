@@ -2938,8 +2938,9 @@
 				type: "custom"
 			}]
 			tasks: [{
-				id: "4BE041C92CB3B159"
-				type: "checkmark"
+				id: "3E7EECA6B72DE78D"
+				stage: "dev_debug_only"
+				type: "gamestage"
 			}]
 			x: 1.5d
 			y: 0.0d
