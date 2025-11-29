@@ -906,7 +906,7 @@
   "ftb.shop.title.temporal_pouch_thousand_hours": "时间之袋增加1000小时",
   "ftb.shop.title.temporal_pouch_two_half_hours": "时间之袋增加2.5小时",
   "ftb.shop.player_upgrade.limit_reached": "已达%2$s的上限%1$d",
-  "ftb.shop.player_upgrade.no_item": "请主手手持玩家升级",
+  "ftb.shop.player_upgrade.no_item": "请在主手手持玩家升级",
   "ftb.shop.player_upgrade.refund": "已退还+%d",
   "ftb.shop.player_upgrade.no_shop_error": "%2$s中不存在名为%1$s的商店，\n请向FTB报告此问题",
   "ftb.structure.arcane_grove": "奥术林地",
