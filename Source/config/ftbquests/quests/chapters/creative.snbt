@@ -918,9 +918,11 @@
 					type: "item"
 				}
 				{
+					consume_items: true
 					count: 64L
 					id: "407F20781F2F0E3F"
 					item: { count: 1, id: "immersiveengineering:wirecoil_electrum_ins" }
+					task_screen_only: true
 					type: "item"
 				}
 				{
@@ -1411,7 +1413,9 @@
 				"5D1DD9EA59C3078D"
 				"308135F2F191443E"
 				"7CC7824471E1B45F"
+				"25CCA572C4D5CEA0"
 			]
+			dependency_requirement: "one_completed"
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			icon: {
@@ -1430,7 +1434,6 @@
 			}
 			icon_scale: 1.5d
 			id: "09D15AF118F0C8D8"
-			min_required_dependencies: 4
 			shape: "rsquare"
 			size: 1.5d
 			tasks: [

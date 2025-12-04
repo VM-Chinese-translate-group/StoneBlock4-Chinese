@@ -424,7 +424,7 @@
 			tasks: [
 				{
 					id: "19893A74AF61880F"
-					item: { components: { "ftbfiltersystem:filter": "or(item(ars_nouveau:blue_archwood_sapling)item(ars_nouveau:red_archwood_sapling)item(ars_nouveau:purple_archwood_sapling)item(ars_nouveau:green_archwood_sapling))", "minecraft:custom_name": "\"Archwood Saplings\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					item: { components: { "ftbfiltersystem:filter": "or(item(ars_nouveau:blue_archwood_sapling)item(ars_nouveau:red_archwood_sapling)item(ars_nouveau:purple_archwood_sapling)item(ars_nouveau:green_archwood_sapling)item(ars_elemental:yellow_archwood_sapling))", "minecraft:custom_name": "\"Archwood Saplings\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 					type: "item"
 				}
 				{
