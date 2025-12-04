@@ -1113,8 +1113,6 @@
 		""
 		"List of &bFluid Cows&r that can be made using the &aClapple&r ->"
 		"{@pagebreak}"
-		"- Water"
-		"- Lava"
 		"- Copper"
 		"- Iron"
 		"- Tin"
@@ -1140,7 +1138,7 @@
 		""
 		"- &2Geologist&r: Can brush Gravel, Soul Sand, and Crushed Kivi. Uses a &2Salvaging Table&r for the workstation."
 		""
-		"- &dDimensionalist&r: Can brush Netherrack, End Stone, and Otherstone. Uses the &dResonanz Engineering Block&r for the workstation."
+		"- &dDimensionalist&r: Can brush Netherrack, End Stone, and Otherrock. Uses the &dResonanz Engineering Block&r for the workstation."
 	]
 	quest.1520491A7804E08E.title: "&fUnearthing Villagers"
 	quest.159DE084D82C6A1C.quest_desc: [
@@ -2590,6 +2588,7 @@
 		""
 		"&aRange Upgrades&r will increase the effective range of certain machines, like &aMob Crushers&r."
 	]
+	quest.36DD75256D280C4A.title: "&bMachine Addons"
 	quest.36E0D875AA8E2F66.quest_desc: [
 		"The final tier of Goo is called &5Shadowpulse Goo&r."
 		""
@@ -4139,7 +4138,7 @@
 		""
 		"[\"\", {\"text\": \"Note\", \"color\": \"yellow\"},  \": Take a look at the \", {\"text\": \"Mekanism Reactor\", \"color\": \"light_purple\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"49B8310D0C7A6C55\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Go to Reactor Quest\"}}, \" quest if you want to learn more about creating Reactors and converting Nuclear Waste.\"]"
 		""
-		"Also, you will only need half of the normal amount of &aNuclear Waste&r as normal."
+		"Also, you will only need half the normal amount of &aNuclear Waste&r compared to other packs."
 	]
 	quest.543C6917A16F266C.title: "&zAntimatter&r"
 	quest.54404B81EAC760E8.quest_subtitle: "(Sold by Echo)"
@@ -5759,7 +5758,7 @@
 		"&eNote&f: Each side of the &6World Engine&r must be configured individually for input and output."
 	]
 	quest.7713D75A36D0A23D.quest_subtitle: "Minor World Engine Upgrade"
-	quest.7713D75A36D0A23D.title: "&fThe Start of Automation"
+	quest.7713D75A36D0A23D.title: "The Start of Automation"
 	quest.775BE99DF402AF0D.quest_desc: [
 		"Speak to &dThe Ancient&r once you have returned from the &3Vault&r."
 		""
@@ -6636,6 +6635,7 @@
 	task.293421D07539E14B.title: "Any wizard armor"
 	task.2988CAF299690CDB.title: "Useful Commands"
 	task.29B29381709E8E09.title: "Passive Mob Farms"
+	task.29F0C3330016EDCF.title: "&fThe Start of Automation - RS2"
 	task.2A0C5609613F2557.title: "Kitchen Cabinets"
 	task.2A8090973C51366E.title: "&eLocate&f: &2Trial Chamber&r"
 	task.2AF40F8B8B4E480D.title: "&aGems&r"
