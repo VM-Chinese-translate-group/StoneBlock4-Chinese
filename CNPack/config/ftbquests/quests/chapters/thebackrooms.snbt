@@ -2626,13 +2626,14 @@
 			y: -1.5d
 		}
 		{
+			can_repeat: true
 			icon: {
 				id: "industrialforegoing:mycelial_reactor"
 			}
 			id: "71EF740F3234EA08"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "01A656B76F5708E9"
+				id: "2BE2C94E9E81AEFB"
 				table_id: 8119412201504344609L
 				type: "all_table"
 			}]
@@ -2944,8 +2945,8 @@
 				type: "custom"
 			}]
 			tasks: [{
-				id: "3E7EECA6B72DE78D"
-				stage: "dev_debug_only"
+				id: "520D23A6FBA0E76B"
+				stage: "dev_debug"
 				type: "gamestage"
 			}]
 			x: 1.5d

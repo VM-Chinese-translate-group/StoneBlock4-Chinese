@@ -277,6 +277,7 @@
 						count: 1
 						id: "draconicevolution:wyvern_capacitor"
 					}
+					match_components: "fuzzy"
 					optional_task: true
 					type: "item"
 				}
@@ -286,6 +287,7 @@
 						count: 1
 						id: "draconicevolution:draconic_capacitor"
 					}
+					match_components: "fuzzy"
 					optional_task: true
 					type: "item"
 				}
@@ -295,6 +297,7 @@
 						count: 1
 						id: "draconicevolution:chaotic_capacitor"
 					}
+					match_components: "fuzzy"
 					optional_task: true
 					type: "item"
 				}
