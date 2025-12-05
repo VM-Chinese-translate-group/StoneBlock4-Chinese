@@ -1071,8 +1071,6 @@
 		""
 		"下列&b流体牛&r可被&a粘土苹果&r转化而来 ->"
 		"{@pagebreak}"
-		"- 水"
-		"- 熔岩"
 		"- 铜"
 		"- 铁"
 		"- 锡"
@@ -1087,7 +1085,7 @@
 		"- 紫水晶"
 		"- 红石"
 		"- 碳"
-		"- 史莱姆"
+		"- 黏液"
 		"- 锇"
 	]
 	quest.150BB4679DD2B4B5.title: "流体牛"
@@ -2498,6 +2496,7 @@
 		""
 		"&a范围升级&r能增加个别机器的工作范围，例如&a生物粉碎机&r。"
 	]
+	quest.36DD75256D280C4A.title: "&b机器插件"
 	quest.36E0D875AA8E2F66.quest_desc: [
 		"&5暗影脉凝胶&r是最高阶的凝胶。"
 		""
@@ -4026,7 +4025,7 @@
 		""
 		"[\"\", {\"text\": \"注意\", \"color\": \"yellow\"},  \"：如果你想了解更多关于搭建反应堆和转化核废料的信息，请查阅\", {\"text\": \"通用机械反应堆\", \"color\": \"light_purple\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"49B8310D0C7A6C55\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"前往反应堆任务\"}}, \"任务。\"]"
 		""
-		"此外，你所需的&a核废料&r数量仅为平时的一半。"
+		"此外，你所需的&a核废料&r数量仅为其他包的一半。"
 	]
 	quest.543C6917A16F266C.title: "&z反物质&r"
 	quest.5455CF5D3C37ECA9.quest_desc: [
@@ -5598,7 +5597,7 @@
 		"&e注意&f：&6世界引擎&r的每一个面都需要单独配置输入和输出。"
 	]
 	quest.7713D75A36D0A23D.quest_subtitle: "次要世界引擎升级"
-	quest.7713D75A36D0A23D.title: "&f自动化的开端"
+	quest.7713D75A36D0A23D.title: "自动化的开端"
 	quest.775BE99DF402AF0D.quest_desc: [
 		"从&3宝库&r回来后，请与&d远古族裔&r交谈。"
 		""
