@@ -722,7 +722,7 @@
   "ftb.portal.spawn": "出生点",
   "ftb.portal.t5_zone_locked": "装置中发出§6访问被拒绝§r的提示…",
   "ftb.portal.too_far": "§c稳定时门时发生错误。\n看起来是因为离基地太远？\n（范围限制为128格方块）",
-  "ftb.portal.vault_too_far": "§c稳时门时发生错误。\n请靠近%1$s格（最大范围为%2$s）。",
+  "ftb.portal.vault_too_far": "§c稳定时门时发生错误。\n请靠近%1$s格（最大范围为%2$s）。",
   "ftb.portal.world_engine": "§6世界引擎§f…",
   "ftb.portal.world_engine_locked": "你还没有解锁§6世界引擎§f！",
   "ftb.portal.wrong_dimension": "§c时域仪似乎无法识别这个维度。",
