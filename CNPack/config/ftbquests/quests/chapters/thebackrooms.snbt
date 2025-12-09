@@ -27,7 +27,7 @@
 						"psi:spell": {
 							modsRequired: [{
 								modName: "psi"
-								modVersion: "2.0.0"
+								modVersion: "1.21.1-107"
 							}]
 							spellList: {
 								spellList: [
@@ -303,8 +303,8 @@
 				id: "6C4F6F7CCB752E40"
 				type: "checkmark"
 			}]
-			x: 0.0d
-			y: 9.0d
+			x: -2.0d
+			y: 7.5d
 		}
 		{
 			can_repeat: true
@@ -318,7 +318,7 @@
 						"psi:spell": {
 							modsRequired: [{
 								modName: "psi"
-								modVersion: "2.0.0"
+								modVersion: "1.21.1-107"
 							}]
 							spellList: {
 								spellList: [
@@ -553,8 +553,8 @@
 				id: "790E980439FC4650"
 				type: "checkmark"
 			}]
-			x: -2.0d
-			y: 9.0d
+			x: -4.0d
+			y: 7.5d
 		}
 		{
 			can_repeat: true
@@ -568,7 +568,7 @@
 						"psi:spell": {
 							modsRequired: [{
 								modName: "psi"
-								modVersion: "2.0.0"
+								modVersion: "1.21.1-107"
 							}]
 							spellList: {
 								spellList: [
@@ -742,8 +742,8 @@
 				id: "6F1C143FA5B837E0"
 				type: "checkmark"
 			}]
-			x: -1.0d
-			y: 9.0d
+			x: -3.0d
+			y: 7.5d
 		}
 		{
 			can_repeat: true
@@ -757,7 +757,7 @@
 						"psi:spell": {
 							modsRequired: [{
 								modName: "psi"
-								modVersion: "2.0.0"
+								modVersion: "1.21.1-107"
 							}]
 							spellList: {
 								spellList: [
@@ -883,8 +883,8 @@
 				id: "78918E2B71F9DBDC"
 				type: "checkmark"
 			}]
-			x: -2.0d
-			y: 10.0d
+			x: -4.0d
+			y: 8.5d
 		}
 		{
 			can_repeat: true
@@ -898,7 +898,7 @@
 						"psi:spell": {
 							modsRequired: [{
 								modName: "psi"
-								modVersion: "2.0.0"
+								modVersion: "1.21.1-107"
 							}]
 							spellList: {
 								spellList: [
@@ -1047,8 +1047,8 @@
 				id: "7FD699B15DB9BFF3"
 				type: "checkmark"
 			}]
-			x: -1.0d
-			y: 10.0d
+			x: -3.0d
+			y: 8.5d
 		}
 		{
 			can_repeat: true
@@ -1062,7 +1062,7 @@
 						"psi:spell": {
 							modsRequired: [{
 								modName: "psi"
-								modVersion: "2.0.0"
+								modVersion: "1.21.1-107"
 							}]
 							spellList: {
 								spellList: [
@@ -1304,8 +1304,8 @@
 				id: "122C939DA69AC47A"
 				type: "checkmark"
 			}]
-			x: 0.0d
-			y: 10.0d
+			x: -2.0d
+			y: 8.5d
 		}
 		{
 			can_repeat: true
@@ -1381,8 +1381,8 @@
 				id: "76D42E59F98B63FA"
 				type: "checkmark"
 			}]
-			x: -5.5d
-			y: 9.0d
+			x: -7.5d
+			y: 7.5d
 		}
 		{
 			id: "78610F56E29472F7"
@@ -2933,7 +2933,7 @@
 					type: "item"
 				}
 			]
-			x: 4.0d
+			x: 3.0d
 			y: 7.0d
 		}
 		{
@@ -2969,8 +2969,120 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 3.0d
+			x: 2.0d
 			y: 7.0d
+		}
+		{
+			dependencies: ["25CCA572C4D5CEA0"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: {
+				components: {
+					"minecraft:custom_data": {
+						BaseBlock: "air"
+						OffsetY: 0.0d
+						Scale: 2.0d
+						TrophyItem: {
+							id: "avaritia:infinity_singularity"
+						}
+						TrophyType: "item"
+					}
+				}
+				id: "trophymanager:trophy"
+			}
+			icon_scale: 1.5d
+			id: "1EDA30A2DF0D64CC"
+			rewards: [{
+				auto: "enabled"
+				command: "/ftbquests change_progress @s complete 09D15AF118F0C8D8"
+				id: "3B7DD41F08617414"
+				permission_level: 3
+				silent: true
+				type: "command"
+			}]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [
+				{
+					id: "263B9F804E4A2F28"
+					item: {
+						count: 1
+						id: "ars_nouveau:creative_source_jar"
+					}
+					type: "item"
+				}
+				{
+					id: "1059E839E2704E90"
+					item: {
+						components: {
+							"hostilenetworks:data": 6
+							"hostilenetworks:data_model": "hostilenetworks:ender_dragon"
+						}
+						count: 1
+						id: "hostilenetworks:data_model"
+					}
+					type: "item"
+				}
+				{
+					id: "18995AB0C6133CB8"
+					item: {
+						count: 1
+						id: "create:creative_motor"
+					}
+					type: "item"
+				}
+				{
+					id: "267AD273F633FEA9"
+					item: {
+						count: 1
+						id: "mffs:infinite_power_card"
+					}
+					type: "item"
+				}
+				{
+					id: "32234D6A7EA6A6BD"
+					item: {
+						count: 1
+						id: "tempad:creative_chronometer"
+					}
+					type: "item"
+				}
+				{
+					id: "4B63BF069D25BAC1"
+					item: {
+						count: 1
+						id: "justdynathings:creative_goo"
+					}
+					type: "item"
+				}
+				{
+					id: "48A6BBD6FDBC789D"
+					item: {
+						count: 1
+						id: "chancecubes:creative_pendant"
+					}
+					type: "item"
+				}
+				{
+					id: "786B89139F85C614"
+					item: {
+						count: 1
+						id: "replication:creative_memory_chip"
+					}
+					type: "item"
+				}
+				{
+					id: "21D8C983B33E88F6"
+					item: {
+						count: 1
+						id: "mekanism_lasers:creative_toggleable_laser"
+					}
+					match_components: "fuzzy"
+					type: "item"
+				}
+			]
+			x: 18.0d
+			y: 4.5d
 		}
 	]
 }

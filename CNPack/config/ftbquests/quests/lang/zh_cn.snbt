@@ -391,6 +391,7 @@
 	]
 	quest.066342488E03F3B5.title: "&f再构矿物"
 	quest.066B47D2AB72355C.quest_desc: ["此地牢生成在x:512，z:512左右。"]
+	quest.066B47D2AB72355C.title: "Finding an &dArcane Grove"
 	quest.068C117DD3DD10C2.title: "Guidance Check 3"
 	quest.06C9E9DBE25887D9.quest_desc: ["&6Oritech&r模组的&a熔岩发电机&r可消耗熔岩产生RF，加装&b插件&r可提升发电效率。"]
 	quest.06D54A3D73AB7DE8.title: "存储气体"
@@ -464,6 +465,7 @@
 	]
 	quest.091F82E2770F3011.title: "Ancient Check 1"
 	quest.094A534C72917405.quest_desc: ["此地牢会生成在&b海洋&r环的下层。"]
+	quest.094A534C72917405.title: "Finding an &bIce Spider Den"
 	quest.099481C1F0718B67.quest_desc: ["&#FCD205牧师&r可在&d一则传说——一位知道了太多的牧师&r传送门中找到。"]
 	quest.099481C1F0718B67.title: "击杀&#FCD205牧师"
 	quest.099594F0A383C280.quest_desc: [
@@ -1429,7 +1431,7 @@
 		""
 		"该竞技场中有boss战！"
 	]
-	quest.1E061D2E5C560867.title: "&e找到&f：&c慈悲竞技场&r"
+	quest.1E061D2E5C560867.title: "Finding a &cChesed Arena"
 	quest.1E077BC4B8832C98.quest_desc: ["&a雪怪&r宝库坐落于&b暮色森林&r环的上层，这是你要击败的第二个暮色Boss。"]
 	quest.1E077BC4B8832C98.title: "&f雪怪洞穴"
 	quest.1E2A91B73A752B3B.quest_desc: [
@@ -2081,7 +2083,7 @@
 	]
 	quest.2DF77DA2ED65FBAC.title: "&d双足飞龙&f护胸"
 	quest.2E53319ED51DC7C8.quest_desc: ["说出来你可能不信，此地牢会生成在&e末地&r环中。"]
-	quest.2E53319ED51DC7C8.title: "找到末地地牢"
+	quest.2E53319ED51DC7C8.title: "Finding an &dEnd Dungeon"
 	quest.2E619195856B3B9F.quest_desc: [
 		"有了来自&b通用机械&r的&a矿石生成器&r，你只需要给&c激光&r通电并对准生成器就能制造源源不断的矿物。"
 		""
@@ -2819,7 +2821,7 @@
 		"4. &e末地环&r"
 		"5. &d暮色森林环&r（迷宫石）"
 		"6. &b海洋环&r（苔石）"
-		"7. &d虚空裂隙环&r（异界岩，顶层部分为陨石）"
+		"7. &zVoid Chasms&r (Otherrock, with Skystone in the upper layer)"
 		"{@pagebreak}"
 		""
 		"{image:ftb:textures/quests/worldgen_rings.png width:300 height:300 align:center}"
@@ -3226,6 +3228,7 @@
 	quest.43A632369D0E2CE0.title: "Guidance Completed 4.1"
 	quest.43B92A87F280211F.title: "TF West"
 	quest.4402F6855A75B7F6.quest_desc: ["此地牢会生成在&2暮色森林&r环的下层。"]
+	quest.4402F6855A75B7F6.title: "Finding a &2Troll Cave"
 	quest.4426687CCCDD759A.title: "Magician Check 2"
 	quest.4445906BD04FC37D.quest_desc: [
 		"你的&3发掘&r水平更加精进了，应该能轻松从方块中刷出更好的材料了吧。"
@@ -3530,6 +3533,7 @@
 	]
 	quest.4A1DBDE0963407E7.title: "&f欢迎游玩&e龙之进化"
 	quest.4A2EB77748103124.quest_desc: ["此地牢会生成在&3石头&r与&7深板岩&r环中。"]
+	quest.4A2EB77748103124.title: "Finding a &2Trial Chamber"
 	quest.4A5FD3641E0A566E.quest_desc: [
 		"&2反应堆能量端口&r用于输出&d反应堆&r生成的能量，需要放置在反应堆的外壳上。"
 		""
@@ -3614,7 +3618,7 @@
 	]
 	quest.4BAD7359CF074014.title: "制作&6钷&r"
 	quest.4BB5ADD98F958712.quest_desc: ["此地牢会生成在&7石头&r与&7深板岩&r环中。"]
-	quest.4BB5ADD98F958712.title: "找到石头地牢"
+	quest.4BB5ADD98F958712.title: "Finding a &7Stone Dungeon"
 	quest.4BB6832FE4685131.quest_desc: ["要使用&3灵魂&r，请将&a灵魂促速器&r指向你想要加速的方块，并使用&a灵魂管道&r将其连接到&d灵魂镭射钻&r。"]
 	quest.4BB6832FE4685131.title: "&3传输灵魂"
 	quest.4BCA8A5C3F80D375.quest_desc: [
@@ -3849,6 +3853,12 @@
 		"这些机器的用法简单，你还可以在机器的GUI里轻松配置机器。"
 	]
 	quest.4FCD78F6E1712BD8.title: "Guidance Check 1"
+	quest.4FE01499D831CACC.quest_desc: [
+		"As you unlock more &6World Engine&r recipes, you will notice that some of them will require fluids."
+		""
+		"Make sure the fluid inside the &6World Engine&r is placed in the correct tank shown in JEI, otherwise the recipe will not function properly."
+	]
+	quest.4FE01499D831CACC.title: "&6World Engine&f Fluids"
 	quest.4FE945C26EDB2A53.quest_desc: [
 		"你可以使用&3灵魂&r加速几乎所有机器，每个&3灵魂&r可加速15秒。"
 		""
@@ -4035,6 +4045,7 @@
 	]
 	quest.5455CF5D3C37ECA9.title: "击杀&c下界合金巨兽&r"
 	quest.54A1D7A1D89C1A04.quest_desc: ["&b苦寒监牢&r会生成在&b海洋&r环的上层。"]
+	quest.54A1D7A1D89C1A04.title: "Finding a &bFrosted Prison"
 	quest.54A433FAF8A65CC0.quest_desc: [
 		"治愈一名&a村民&r后，&d指引者的回响&r告诉你，你可以制造一种能掌握他们的技能的工具，以供未来使用。制造这个工具需要用到&6世界引擎&r。"
 		""
@@ -4459,8 +4470,6 @@
 		"&6粉碎工厂&r是个高级多方块结构，其可以&b将矿物粉碎&r并处理，极大地提升单个矿物产出。"
 		""
 		"后续可以安装&b流体处理插件&r来分离流体，或与&6粉碎工厂&r搭配， 进行自动化矿物处理。"
-		""
-		"用它来获取&d辐水晶&r是种不错的方法！"
 	]
 	quest.5DF92F096DB91299.quest_desc: ["&dMeka工具&r由能量驱动，可在&a改造站&r中安装各种&b模块&r进行升级。"]
 	quest.5DF92F096DB91299.title: "&dMeka工具"
@@ -4674,6 +4683,7 @@
 	]
 	quest.61B948F3E526ADF9.title: "魂缚条约"
 	quest.61D55FA7CEA6F414.quest_desc: ["此地牢会生成在&d虚空裂隙&r环中。"]
+	quest.61D55FA7CEA6F414.title: "Finding an &dOtherworld Dungeon"
 	quest.61D79267453CA30C.quest_desc: [
 		"&a通量网络输入点&r是放在发电机或能量存储器上的，它就像一个&c能量阀门&r，告诉你的网络从哪里能提取能量。"
 		""
@@ -4728,7 +4738,7 @@
 		""
 		"该竞技场中有boss战！"
 	]
-	quest.634884134E2786B2.title: "找到&d王国竞技场&r"
+	quest.634884134E2786B2.title: "Finding a &dMalkuth Arena&r"
 	quest.637CDD290456F2B2.quest_desc: [
 		"&a化学溶解室&r是工业先锋的主要合成机器，它可以将&2胶乳&r等流体与物品组合，从而制作新的物品。"
 		""
@@ -4943,6 +4953,7 @@
 	quest.68668718B414B6E4.title: "&6熔铸炉&f排液孔"
 	quest.68778308CBAB4AE3.quest_desc: ["&a外部存储&r可直接访问网络外部的存储容器，如箱子、抽屉、储罐等。"]
 	quest.689F96B63A0455D9.title: "工具"
+	quest.6910347C765AE7C6.title: "Finding an &bOcean Dungeon"
 	quest.695B2CCD18E5DDFE.quest_desc: [
 		"随着更多&6档案&r被解锁，是时候探索大厅，寻找&d炼狱使者的回响&r了。"
 		""
@@ -5070,7 +5081,7 @@
 		"{@pagebreak}"
 		"需要在任意一个面上放上&a热力蒸馏控制器&r，这个多方块结构才可以被交互。"
 		""
-		"&c阀门&r用来和蒸馏塔的流体交互。如果你想制作&e盐水&r的话，就得向塔内供水，用&a水槽&r和运输管道就能完美解决。"
+		"Each &cValve&r is used to pump liquids in and out of the Tower. To make &eBrine&r, you'll need to give it water which can be done by pumping water into the Valve using Mechanical Pipes from a water source."
 		""
 		"第二个阀门是用来输出盐水的，第三个阀门则是用来给蒸馏塔供热的。可以做个&a固体燃料加热器&r或&c电阻型加热器&r来给它供热，固体燃料加热器需要消耗煤炭之类的燃料才能发热，而电阻型加热器则消耗的是能量。顶配蒸馏塔则要2k的温度！"
 		""
@@ -5146,7 +5157,7 @@
 	quest.6D5A9E9E8B0D8AC2.title: "&f时元发生器"
 	quest.6D9862948E97E696.title: "End East"
 	quest.6DC738A434C5B02F.title: "击杀末影人"
-	quest.6DD9A75EE8C97710.title: "击杀&7亡灵术士"
+	quest.6DD9A75EE8C97710.title: "Kill The &7Necromancer"
 	quest.6E149F8E8B3F150B.quest_desc: ["制作出&2回响深暗书架&r后，请回到&d附魔师的回响&r处，学习如何为&6世界引擎&r安装该升级。"]
 	quest.6E24701C49A6114D.quest_desc: [
 		"以&z虚空&r之力升级&6世界引擎&r后，你就能制作&d中子态素压缩机&r来将物品压缩成&z奇点&r。"
@@ -5507,6 +5518,7 @@
 		""
 		"&e注意&r：在&d奥术林地&r中也存在&a哭泣之井&r。"
 	]
+	quest.754ADB22C6B8041F.title: "Finding a &5Weeping Well"
 	quest.7552BF792403EF44.quest_desc: ["&3魔咒线索&r可以增加附魔时的描述，让你能更清楚地知道将要附到书或物品上的是什么魔咒。"]
 	quest.75A7DDE0D617B5E6.quest_desc: [
 		"这里列出的就是你搭建一台性能最顶尖的&6量子计算机&r所需要的全部方块。"
@@ -5812,7 +5824,7 @@
 		"Cx：-1"
 		"Cz：185"
 	]
-	quest.7A8669713BE28E8F.quest_desc: ["&d监守者&r生活在&3深板岩&r层的&d远古城市&r中。"]
+	quest.7A8669713BE28E8F.quest_desc: ["The &dWarden&r lives in the &dAncient City&r, which you can find in the bottom layer of the &3Deepslate&r ring."]
 	quest.7A8669713BE28E8F.title: "&e击杀&f：&3监守者"
 	quest.7A8D31482AB1FCAA.quest_desc: [
 		"&6压缩空间&r能让你在压缩维度中创建自己的房间！"
@@ -6255,7 +6267,6 @@
 	task.11193E0681204B33.title: "幽灵线圈"
 	task.1159F04F98B724A1.title: "Burning Disco Vault"
 	task.11F49F841465DAAD.title: "核源铁武器"
-	task.11F622D03AF39A5C.title: "&e发现&f：&d异界地牢"
 	task.1211B7B1BC40225B.title: "控制器"
 	task.12C03EE6A8238B47.title: "ocean west"
 	task.12E5C6B08FAC5523.title: "&e发现&f：&3迷宫宝库"
@@ -6272,6 +6283,7 @@
 	task.1726EF3A700E7F17.title: "可合成的鸡"
 	task.17FA3A67B903103F.title: "输入器"
 	task.180699485CD072B7.title: "简单村民"
+	task.187D3A2680948DF2.title: "&6World Engine&f Fluids"
 	task.18CB8C05E3A9150F.title: "村民信息"
 	task.18D6F8FAB2FA69F7.title: "虚空南"
 	task.1918A324D7CB282A.title: "组装电路加工机"
@@ -6282,7 +6294,7 @@
 	task.1A4A5A59FFF815E2.title: "加热器"
 	task.1A946F253A4AB3D2.title: "烈焰金工具"
 	task.1B441EA3D74396D8.title: "神龙工具"
-	task.1B8D2EA3B6BC97C1.title: "&e发现&f：ftb:dungeons/nether"
+	task.1B724AA2EDADE92A.title: "&eKill&f: &7Necromancer"
 	task.1BB73680D1CA700A.title: "定位回响"
 	task.1C350F6D6B6C0656.title: "&b升级插件"
 	task.1C3B92648D279809.title: "&e发现&f：&d炼狱使者"
@@ -6292,7 +6304,6 @@
 	task.21F1C6036A37CED9.title: "&e发现&f：&d暮光族裔"
 	task.220AEB0F13353108.title: "&f可制作的法术书升级"
 	task.224C16DC19629B4B.title: "入门发电机"
-	task.226AB3512612624B.title: "&e发现&f：&6cataclysm:ancient_factory"
 	task.22DC2FE65941A0AB.title: "升级插件"
 	task.236F4615115C9D2E.title: "&f找到骑士宝库"
 	task.238BCDF15FC7E9CB.title: "与&d指引者的回响&r对话"
@@ -6307,21 +6318,18 @@
 	task.268F689AFA620C03.title: "&e击杀&f：骷髅x20"
 	task.2695E2029A6BC6A0.title: "&f与&d魔法师的回响&f对话"
 	task.27B14942E7BE87E2.title: "ocean south"
-	task.27B5B3E2F6360E5F.title: "&e发现&f：&ccataclysm:soul_black_smith"
 	task.27D0428BD5B59E54.title: "蚀空合金工具"
 	task.27F04FD03BB1682C.title: "充能水晶"
 	task.27F8AF789DE14145.title: "成品处理器"
 	task.287D976A94ACDE7C.title: "烈焰金武器"
 	task.2988CAF299690CDB.title: "实用命令"
 	task.2A0C5609613F2557.title: "厨房橱柜"
-	task.2A8090973C51366E.title: "&e找到&f：&2试炼密室&r"
 	task.2AF40F8B8B4E480D.title: "&a宝石&r"
 	task.2B4824CA0A798240.title: "定位回响"
 	task.2B4A71FE904A1A6D.title: "与&d指引者的回响&r对话"
 	task.2BAEE4414B32E48E.title: "&e观察&f：&7魔精&f碎矿者"
 	task.2BE7F102A41BB55E.title: "游戏前期发电机"
 	task.2C1D58B8E7565119.title: "早期发电方案"
-	task.2C540B93320B1588.title: "&e发现&f：&aftb:dungeons/otherworld"
 	task.2CB20E4080C1B6CC.title: "传送器"
 	task.2CBD12BA944BB6A7.title: "无线红石"
 	task.2CD07B6CF24F7460.title: "&b升级插件"
@@ -6372,7 +6380,6 @@
 	task.3B13BCC752215E0A.title: "灵魂存储部件"
 	task.3B60BAD2A4BEA950.title: "Check"
 	task.3B68713C93B4FAA8.title: "&a拾取升级"
-	task.3BB5F35F98A0D252.title: "&e找到&f：&d末地地牢"
 	task.3C26A988187EEF02.title: "下界西"
 	task.3C30835D105E888F.title: "流体抽屉"
 	task.3C532F10AE78D105.title: "&e发现&f：&d机械师"
@@ -6394,7 +6401,6 @@
 	task.4087591E474FC477.title: "&e击杀&f：末影人x10"
 	task.411B145BAD8AA622.title: "工具"
 	task.41B203F8648421C8.title: "&e发现&f：&6无尽"
-	task.41F4FCB0261015FB.title: "&e找到&f：巨魔洞穴"
 	task.42AEAD2BF6113D89.title: "雪怪宝库"
 	task.4309B43CD4447705.title: "建筑棒"
 	task.435C5B6B77C3D7B4.title: "重构材料"
@@ -6450,7 +6456,6 @@
 	task.5707D25BF97D42CD.title: "&f找到雪怪首领宝库"
 	task.57168CEC7F6AA1CC.title: "抽屉实用升级"
 	task.574A44FBE14704F6.title: "红物质工具"
-	task.5769474181C5126B.title: "&e找到&f：&d奥术林地"
 	task.576C3A4D28B4D076.title: "模块"
 	task.576F9DD2957EB18A.title: "经验存储器"
 	task.57A5CC881C60B69D.title: "时间手杖"
@@ -6472,8 +6477,6 @@
 	task.5B51C00265B54937.title: "科技章节"
 	task.5B82C7AEA857BED3.title: "&e击杀&f：&d末影守卫"
 	task.5B97CEFB80FF361B.title: "&e击杀&f：潜影贝x10"
-	task.5C3A03650166A961.title: "&e发现&f：&bftb:water_orb"
-	task.5C5C0B0C6CC599E2.title: "&e找到&f：&c远古战场&r"
 	task.5C6B2370E7B8E980.title: "神秘学矿工"
 	task.5CCC981194E6AD26.title: "&e发现&f：&d飞龙匠人"
 	task.5CF322069EBE856C.title: "深板岩层东"
@@ -6519,11 +6522,9 @@
 	task.6A0F7469DEB4D145.title: "任意二阶CAD核心"
 	task.6A32E04F83997A6D.title: "&e发现&f：&d精械师"
 	task.6A3AABB86967A8C4.title: "定位回响"
-	task.6A3B0E8AFAFEFD67.title: "&e找到&f：&5哭泣之井"
 	task.6A6EB35F2D0397D5.title: "&f与&d寻路者的回响&f对话"
 	task.6AD228A3A433DD1F.title: "MFFS宝库"
 	task.6B46A4D5E6915E1B.title: "&f与&d构件师的回响&f对话"
-	task.6B957BA447FEB4F1.title: "&e发现&f：&cirons_spellbooks:citadel"
 	task.6B9EDB6F4966725F.title: "建筑小帮手"
 	task.6BF1B3F7E85C5E17.title: "&b升级插件"
 	task.6C730129357A78D0.title: "&e击杀&f：僵尸猪灵"
@@ -6548,17 +6549,14 @@
 	task.7586948F032C6048.title: "九头蛇宝库"
 	task.75A4019E3778367A.title: "&6独特武器"
 	task.7618036DBF5EE196.title: "机械动力宝库"
-	task.76343612084D1122.title: "&e找到&f：&b海洋&r地牢"
 	task.766D48135EA53798.title: "弹药"
 	task.7695C5FDA30F4196.title: "烈焰金盔甲"
 	task.769744CFA9DB671F.title: "定位回响"
 	task.76987C0F742A8A14.title: "&f与&6无尽的回响&f对话"
 	task.76D42E59F98B63FA.title: "Reward Check"
 	task.7747C8ECA64D179D.title: "&f与&d指引者的回响&f对话"
-	task.77CB0065516AC9D6.title: "&e找到&r：&b苦寒监牢&r"
 	task.77F88B2E5E3A0AE2.title: "&f与&6混沌&f对话"
 	task.7805089FB14CE3E1.title: "&f与&d炼狱使者的回响对话"
-	task.78780481BF9D2140.title: "&e找到&f：冰霜蜘蛛巢"
 	task.78869974512F8AD0.title: "电梯"
 	task.78AD19380F54B22A.title: "Just Dire Things模组的煤炭"
 	task.78F8128005EE1240.title: "已添加的宝石"
@@ -6582,7 +6580,6 @@
 	task.7CECE0F1C53701B6.title: "魔法工具"
 	task.7D75B40EC4AF799A.title: "Just Dire Things的机器"
 	task.7D8611641B6611FB.title: "&f与&d指引者的回响&f对话"
-	task.7D9038B9019EBFEC.title: "&e发现&f：&dcataclysm:ruined_citadel"
 	task.7DD8D0EDE1FAF2DE.title: "获得指南针"
 	task.7E02151602B34E2A.title: "维度存储稳定器"
 	task.7ECEEC776BBA8B53.title: "与&d指引者的回响&r对话"
