@@ -1440,46 +1440,55 @@
 				{
 					id: "4479AA390569F520"
 					item: { count: 1, id: "ars_nouveau:creative_source_jar" }
+					match_components: "fuzzy"
 					type: "item"
 				}
 				{
 					id: "10A8A0586024145E"
 					item: { components: { "hostilenetworks:data": 6, "hostilenetworks:data_model": "hostilenetworks:ender_dragon" }, count: 1, id: "hostilenetworks:data_model" }
+					match_components: "fuzzy"
 					type: "item"
 				}
 				{
 					id: "0A53706C4182658C"
 					item: { count: 1, id: "create:creative_motor" }
+					match_components: "fuzzy"
 					type: "item"
 				}
 				{
 					id: "23D64D597CD3979A"
 					item: { count: 1, id: "mffs:infinite_power_card" }
+					match_components: "fuzzy"
 					type: "item"
 				}
 				{
 					id: "07C3D0C838A6485B"
 					item: { count: 1, id: "tempad:creative_chronometer" }
+					match_components: "fuzzy"
 					type: "item"
 				}
 				{
 					id: "6BE96AC115E95591"
 					item: { count: 1, id: "justdynathings:creative_goo" }
+					match_components: "fuzzy"
 					type: "item"
 				}
 				{
 					id: "2EA509EA29681CD3"
 					item: { count: 1, id: "chancecubes:creative_pendant" }
+					match_components: "fuzzy"
 					type: "item"
 				}
 				{
 					id: "3D3135FDC098C7ED"
 					item: { count: 1, id: "replication:creative_memory_chip" }
+					match_components: "fuzzy"
 					type: "item"
 				}
 				{
 					id: "63EC45D8C4F995A9"
 					item: { count: 1, id: "mekanism_lasers:creative_toggleable_laser" }
+					match_components: "fuzzy"
 					type: "item"
 				}
 			]
