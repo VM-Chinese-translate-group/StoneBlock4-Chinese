@@ -1,16 +1,16 @@
 ---
 navigation:
-  title: Particle Accelerator Overview
+  title: 粒子加速器概览
   position: 1
   icon: "oritech:accelerator_controller"
 item_ids:
   - oritech:accelerator_controller
 
 ---
-# Particle Accelerator Overview
+# 粒子加速器概览
 
 <Column alignItems="center" fullWidth={true}>
-### <ItemImage id="oritech:accelerator_controller" scale="0.75" /> <Color id="aqua">The Particle Accelerator</Color><ItemImage id="oritech:accelerator_controller" scale="0.75" />
+### <ItemImage id="oritech:accelerator_controller" scale="0.75" /> <Color id="aqua">粒子加速器</Color><ItemImage id="oritech:accelerator_controller" scale="0.75" />
 
 ---
 
@@ -20,17 +20,17 @@ item_ids:
   <RemoveBlocks id="minecraft:stone" />
   <IsometricCamera yaw="225" pitch="30" />
 </GameScene>
-#### *Example Particle Accelerator Setup Used To Hit 15,000J*
+#### *能级达15,000J的加速器搭建示例*
 </Column>
 
 ---
 
-The <Color id="aqua">Particle Accelerator</Color> is an advanced setup used to accelerate an item until it collides into another item. The speed at which the <Color id="gold">collision</Color> happens determines the success of creating a new item.
+<Color id="aqua">粒子加速器</Color>是一种用于将物品加速并与另一物品发生撞击的高级装置。新物品的合成成功率取决于<Color id="gold">碰撞</Color>时的速度。
 
-While the <Color id="aqua">Particle Accelerator</Color> can be used for several crafts, it is most notably used in creating the <Color id="gold">Black Hole</Color> by having a <Color id="light_purple">Small Chaos Fragment</Color> collide into a <Color id="light_purple">Antimatter Pellet</Color> at a minimum of <Color id="aqua">15,000J</Color>.
+虽然<Color id="aqua">粒子加速器</Color>可用于多种合成配方，但其核心用途是制造<Color id="gold">黑洞</Color>：需将<Color id="light_purple">小的混沌碎片</Color>加速撞击<Color id="light_purple">反物质球</Color>，且能量需至少达到<Color id="aqua">15,000J</Color>。
 
 <Column alignItems="center" fullWidth={true}>
-## [Learn The Basics](oritech:items/the_basics.md)
+## [了解基础知识](oritech:items/the_basics.md)
 </Column>
 
 
