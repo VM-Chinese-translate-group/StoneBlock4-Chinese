@@ -3854,11 +3854,11 @@
 	]
 	quest.4FCD78F6E1712BD8.title: "Guidance Check 1"
 	quest.4FE01499D831CACC.quest_desc: [
-		"As you unlock more &6World Engine&r recipes, you will notice that some of them will require fluids."
+		"随着更多&6世界引擎&r配方的解锁，你会发现部分配方需消耗流体。"
 		""
-		"Make sure the fluid inside the &6World Engine&r is placed in the correct tank shown in JEI, otherwise the recipe will not function properly."
+		"请务必参考JEI，将流体注入&6世界引擎&r中对应的储罐，否则配方将无法运作。"
 	]
-	quest.4FE01499D831CACC.title: "&6World Engine&f Fluids"
+	quest.4FE01499D831CACC.title: "&6世界引擎&f流体"
 	quest.4FE945C26EDB2A53.quest_desc: [
 		"你可以使用&3灵魂&r加速几乎所有机器，每个&3灵魂&r可加速15秒。"
 		""
@@ -5081,7 +5081,7 @@
 		"{@pagebreak}"
 		"需要在任意一个面上放上&a热力蒸馏控制器&r，这个多方块结构才可以被交互。"
 		""
-		"Each &cValve&r is used to pump liquids in and out of the Tower. To make &eBrine&r, you'll need to give it water which can be done by pumping water into the Valve using Mechanical Pipes from a water source."
+		"每个&c阀门&r均用于向塔内输入或从中输出液体。若需生产&e盐水&r，则需向其供水，这可以通过机械管道从水源将水泵入阀门来实现。"
 		""
 		"第二个阀门是用来输出盐水的，第三个阀门则是用来给蒸馏塔供热的。可以做个&a固体燃料加热器&r或&c电阻型加热器&r来给它供热，固体燃料加热器需要消耗煤炭之类的燃料才能发热，而电阻型加热器则消耗的是能量。顶配蒸馏塔则要2k的温度！"
 		""
@@ -6283,7 +6283,7 @@
 	task.1726EF3A700E7F17.title: "可合成的鸡"
 	task.17FA3A67B903103F.title: "输入器"
 	task.180699485CD072B7.title: "简单村民"
-	task.187D3A2680948DF2.title: "&6World Engine&f Fluids"
+	task.187D3A2680948DF2.title: "&6世界引擎&f流体"
 	task.18CB8C05E3A9150F.title: "村民信息"
 	task.18D6F8FAB2FA69F7.title: "虚空南"
 	task.1918A324D7CB282A.title: "组装电路加工机"
