@@ -13,7 +13,13 @@ item_ids:
 
 此物品可作为Iron珠宝的<Color id="green">指环金属</Color>。
 
-- <Color id="gray">品质效果加成：</Color>3.2
+- <Color id="gray">品质效果加成：</Color>3
 
 ### 属性
 - 增加Iron法术的法术强度+（百分比）
+
+### 免疫效果
+- 破甲
+
+### 积极效果
+- 超负荷
