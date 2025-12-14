@@ -12,6 +12,8 @@
   "ftbunearthed.gui.no_food.2": "Insert some food in the top-left slot",
   "ftbunearthed.gui.speed_boost": "Speed Boost: %s%%",
   "ftbunearthed.message.item_too_damaged": "%s has no charges left!",
+  "ftbunearthed.message.obstructed_block": "Obstructed by block! Need 3x3x3 area",
+  "ftbunearthed.message.obstructed_entity": "Obstructed by entity! Need 3x3x3 area",
   "ftbunearthed.message.unearther_level": "Unearther Level: %s (%s)",
   "ftbunearthed.message.unearther_level.player": "Unearther Level for '%s': %s (%s)",
   "ftbunearthed.tooltip.echo_encoder_charges": "Charges remaining: %s",
