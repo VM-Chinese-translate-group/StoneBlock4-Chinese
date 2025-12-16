@@ -174,7 +174,7 @@
 	quest.02735F0443CA9727.quest_desc: [
 		"These compasses point to locations of &3Vaults."
 		""
-		"&7&oThe Compass can be Sneak + Right-clicked when at least 256 blocks from the vault to instantly teleport to the entrance!&r"
+		"&7&oThe Compass can be Sneak + Right-clicked when within 256 blocks from the vault to instantly teleport to the entrance!&r"
 	]
 	quest.02735F0443CA9727.title: "&fLocating The &3Vaults"
 	quest.027E1E97D874D0EB.title: "Infinity Meet"
@@ -195,7 +195,7 @@
 	quest.0306C0D774144DAD.quest_desc: [
 		"This compass points to the location of a &3Vault."
 		""
-		"&7&oThe Compass can be Sneak + Right-clicked when at least 256 blocks from the vault to instantly teleport to the entrance!&r"
+		"&7&oThe Compass can be Sneak + Right-clicked when within 256 blocks from the vault to instantly teleport to the entrance!&r"
 	]
 	quest.0306C0D774144DAD.title: "&fLocating The &3Vault"
 	quest.030F1F8A4B0C1EBF.quest_desc: [
@@ -723,7 +723,7 @@
 	quest.0CE3C7A6DE787371.quest_desc: [
 		"This compass points to the location of a &3Vault."
 		""
-		"&7&oThe Compass can be Sneak + Right-clicked when at least 256 blocks from the vault to instantly teleport to the entrance!&r"
+		"&7&oThe Compass can be Sneak + Right-clicked when within 256 blocks from the vault to instantly teleport to the entrance!&r"
 	]
 	quest.0CE3C7A6DE787371.title: "&fLocating The &3Lich"
 	quest.0D159FD643581C18.quest_desc: [
@@ -843,7 +843,7 @@
 	quest.0EAEEF79436FDFA7.quest_desc: [
 		"This compass points to the location of a &3Vault."
 		""
-		"&7&oThe Compass can be Sneak + Right-clicked when at least 256 blocks from the vault to instantly teleport to the entrance!&r"
+		"&7&oThe Compass can be Sneak + Right-clicked when within 256 blocks from the vault to instantly teleport to the entrance!&r"
 	]
 	quest.0EAEEF79436FDFA7.title: "&fLocating The &3Hydra"
 	quest.0EBA58B7FD2AF36D.quest_desc: [
@@ -1051,7 +1051,7 @@
 	quest.13E0F74B9A1DAB58.quest_desc: [
 		"This compass points to the location of a &3Vault."
 		""
-		"&7&oThe Compass can be Sneak + Right-clicked when at least 256 blocks from the vault to instantly teleport to the entrance!&r"
+		"&7&oThe Compass can be Sneak + Right-clicked when within 256 blocks from the vault to instantly teleport to the entrance!&r"
 	]
 	quest.13E0F74B9A1DAB58.title: "&fLocating The &3Vault"
 	quest.13EC7C64DFBD1556.quest_desc: [
@@ -3161,7 +3161,7 @@
 	quest.40DDD27BA5E191FA.quest_desc: [
 		"This compass points to the location of a &3Vault."
 		""
-		"&7&oThe Compass can be Sneak + Right-clicked when at least 256 blocks from the vault to instantly teleport to the entrance!&r"
+		"&7&oThe Compass can be Sneak + Right-clicked when within 256 blocks from the vault to instantly teleport to the entrance!&r"
 	]
 	quest.40DDD27BA5E191FA.title: "&fLocating The &3Vault"
 	quest.4101E75F69C9909F.quest_desc: [
@@ -3407,7 +3407,7 @@
 	quest.456904808D93A9E3.quest_desc: [
 		"This compass points to the location of a &3Vault."
 		""
-		"&7&oThe Compass can be Sneak + Right-clicked when at least 256 blocks from the vault to instantly teleport to the entrance!&r"
+		"&7&oThe Compass can be Sneak + Right-clicked when within 256 blocks from the vault to instantly teleport to the entrance!&r"
 	]
 	quest.456904808D93A9E3.title: "&fLocating The &3Vault"
 	quest.456B067C9CC123AD.quest_desc: ["Once you've crafted a &cHeater&r, you should return to the &dFabricator&r to learn how to use it with the &6World Engine&r."]
@@ -4243,7 +4243,7 @@
 	quest.56FB1BC5711CC4F9.quest_desc: [
 		"This compass points to the location of a &3Vault."
 		""
-		"&7&oThe Compass can be Sneak + Right-clicked when at least 256 blocks from the vault to instantly teleport to the entrance!&r"
+		"&7&oThe Compass can be Sneak + Right-clicked when within 256 blocks from the vault to instantly teleport to the entrance!&r"
 	]
 	quest.56FB1BC5711CC4F9.title: "&fLocating The &3Vault"
 	quest.575A111D4418BFB6.quest_desc: [
@@ -5033,7 +5033,7 @@
 	quest.6781D1A7A53A5F1D.quest_desc: [
 		"This compass points to the location of a &3Vault."
 		""
-		"&7&oThe Compass can be Sneak + Right-clicked when at least 256 blocks from the vault to instantly teleport to the entrance!&r"
+		"&7&oThe Compass can be Sneak + Right-clicked when within 256 blocks from the vault to instantly teleport to the entrance!&r"
 	]
 	quest.6781D1A7A53A5F1D.title: "&fLocating The &3Vault"
 	quest.67AA6621E5A00E37.title: "Twilight Check 1"
@@ -5328,7 +5328,7 @@
 	quest.6F258F4C7BE2EE44.quest_desc: [
 		"This compass points to the location of a &3Vault."
 		""
-		"&7&oThe Compass can be Sneak + Right-clicked when at least 256 blocks from the vault to instantly teleport to the entrance!&r"
+		"&7&oThe Compass can be Sneak + Right-clicked when within 256 blocks from the vault to instantly teleport to the entrance!&r"
 	]
 	quest.6F258F4C7BE2EE44.title: "&fLocating The &3Yeti"
 	quest.6F4A4B4C261FF84B.quest_desc: ["Generates power by consuming Furnace Fuels."]
@@ -5485,9 +5485,11 @@
 	]
 	quest.715F30D0A9B79DD7.title: "&fFinding Your Way"
 	quest.7169587C7DC4C8C0.quest_desc: [
-		"&5Umbral Spirits&r can be acquired from sacrificing souls of the living."
+		"&5Umbral Spirits&r are used to craft the most powerful and mysterious equipment from the &eMalum&r and &eGaze&r mods."
 		""
-		"This may be done by throwing yourself into the &5Weeping Well&r. It can also be dropped rarely by slaying villagers with the &6Veil's Edge&r."
+		"It can only be bought from the &dEcho of The Infernal&r."
+		""
+		"It is recommended to craft the &5Encyclopedia Unveiled&r, as it shows you new &eGaze&r mechanics."
 	]
 	quest.718C72A43E57B75A.quest_desc: ["In this &bChapter&r, you'll find most of the ways to handle transferring items, energy, fluids, and more!"]
 	quest.7191726ECAAFE40F.quest_desc: ["Once you've crafted enough &2Chroniton Glass&r, head back to the &dEcho of the Wayfinder&r to learn how to install it into the &6World Engine&r as an upgrade."]
@@ -6024,7 +6026,7 @@
 		""
 		"This means that you will most likely need to return to an &dEcho&r to complete their task, or see if they have something new for you."
 	]
-	quest.7B2044D285C9F1E3.title: "Gear Quests!"
+	quest.7B2044D285C9F1E3.title: "Gear-Shaped Quests!"
 	quest.7B496376BC7B399A.quest_desc: ["&aThe Ender&r is a diamond-tier sword that specializes in beheading your enemies."]
 	quest.7B496376BC7B399A.title: "&fThe Ender"
 	quest.7B579D0762DB9F33.quest_desc: [
