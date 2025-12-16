@@ -626,7 +626,7 @@
 			id: "308135F2F191443E"
 			rewards: [
 				{
-					id: "7C5E0E41A706E1C5"
+					id: "17A237E609AFB3A6"
 					item: {
 						count: 1
 						id: "mekanism_lasers:creative_toggleable_laser"
@@ -994,7 +994,7 @@
 					consume_items: true
 					count: 16L
 					id: "34036373B717A7CE"
-					item: { components: { "avaritia:singularity_id": "fortron_infused_singularity" }, count: 1, id: "avaritia:json_singularity" }
+					item: { components: { "avaritia:singularity_id": "energite_singularity" }, count: 1, id: "avaritia:json_singularity" }
 					task_screen_only: true
 					type: "item"
 				}
@@ -1378,7 +1378,8 @@
 					consume_items: true
 					count: 16L
 					id: "4627130DB81CB216"
-					item: { components: { "draconicevolution:config_properties": [ [ { "": "BOOLEAN" }, { default_value: 0b, formatter: "true_false", name: "charge_held_item", show_on_hud: 1b, value: 0b } ], [ { "": "BOOLEAN" }, { default_value: 0b, formatter: "true_false", name: "charge_armor", show_on_hud: 1b, value: 0b } ], [ { "": "BOOLEAN" }, { default_value: 0b, formatter: "true_false", name: "charge_hot_bar", show_on_hud: 1b, value: 0b } ], [ { "": "BOOLEAN" }, { default_value: 0b, formatter: "true_false", name: "charge_main", show_on_hud: 1b, value: 0b } ], [ { "": "BOOLEAN" }, { default_value: 0b, formatter: "true_false", name: "charge_curios", show_on_hud: 1b, value: 0b } ] ], "draconicevolution:module_entities": [ ], "draconicevolution:provider_identity": [I; 803266230, 905528751, -1204635490, -96207276 ] }, count: 1, id: "draconicevolution:chaotic_capacitor" }
+					item: { count: 1, id: "draconicevolution:chaotic_capacitor" }
+					match_components: "fuzzy"
 					task_screen_only: true
 					type: "item"
 				}
@@ -1486,9 +1487,8 @@
 					type: "item"
 				}
 				{
-					id: "63EC45D8C4F995A9"
+					id: "4E9D3C9234867C2E"
 					item: { count: 1, id: "mekanism_lasers:creative_toggleable_laser" }
-					match_components: "fuzzy"
 					type: "item"
 				}
 			]
