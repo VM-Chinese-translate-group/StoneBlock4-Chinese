@@ -5329,9 +5329,11 @@
 	]
 	quest.715F30D0A9B79DD7.title: "&f寻路"
 	quest.7169587C7DC4C8C0.quest_desc: [
-		"若想获得&5幽影精魂&r，需以生命的灵魂作为祭品。"
+		"&5Umbral Spirits&r are used to craft the most powerful and mysterious equipment from the &eMalum&r and &eGaze&r mods."
 		""
-		"你可以将自己投入&5哭泣之井&r来完成献祭；此外，在使用&6帷幔之锋&r杀死村民时，也有小概率获得此物。"
+		"It can only be bought from the &dEcho of The Infernal&r."
+		""
+		"It is recommended to craft the &5Encyclopedia Unveiled&r, as it shows you new &eGaze&r mechanics."
 	]
 	quest.718C72A43E57B75A.quest_desc: ["本&b章节&r将会介绍如何传输物品、能量、流体和其他东西！"]
 	quest.7191726ECAAFE40F.quest_desc: ["制作出足够的&2时空粒子玻璃&r后，请回到&d寻路者的回响&r处，学习如何为&6世界引擎&r安装该升级。"]

@@ -2993,7 +2993,7 @@
 			icon_scale: 1.5d
 			id: "1EDA30A2DF0D64CC"
 			rewards: [{
-				auto: "enabled"
+				auto: "invisible"
 				command: "/ftbquests change_progress @s complete 09D15AF118F0C8D8"
 				id: "3B7DD41F08617414"
 				permission_level: 3
@@ -3072,12 +3072,11 @@
 					type: "item"
 				}
 				{
-					id: "21D8C983B33E88F6"
+					id: "6B673A2CF8E9A806"
 					item: {
 						count: 1
 						id: "mekanism_lasers:creative_toggleable_laser"
 					}
-					match_components: "fuzzy"
 					type: "item"
 				}
 			]
