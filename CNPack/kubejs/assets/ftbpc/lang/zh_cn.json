@@ -1,6 +1,6 @@
 {
   "block.ftbpc.trigger_block": "玩家触发方块",
-  "ftbpackcompanion.actionpad.tpa.request_sent": "TP request sent to",
+  "ftbpackcompanion.actionpad.tpa.request_sent": "已发送传送请求至",
   "ftbpackcompanion.home": "基地",
   "ftbpackcompanion.key.category": "Pack Companion",
   "ftbpackcompanion.key.open_action_pad": "打开操作板",
@@ -12,6 +12,6 @@
   "ftbpackcompanion.shaders_notice.shaders_btn.enable": "启用光影",
   "ftbpackcompanion.shaders_notice.title": "你想要使用光影吗？",
   "ftbpackcompanion.spawn": "出生点",
-  "ftbpackcompanion.tpa": "Request Teleport",
+  "ftbpackcompanion.tpa": "请求传送",
   "item.ftbpc.action_pad": "操作板"
 }
