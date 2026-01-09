@@ -1675,6 +1675,28 @@
 		"&9Blue Hearts&r are dropped by &zMighty Ender Chicken&r, &6Leviathan&r, &6Tyros&r, and &cMaledictus&r."
 	]
 	quest.213FE1D19D589513.title: "&6Baubley Heart Crystals"
+	quest.2140EAC255C3EA09.quest_desc: [
+		"The &aMultiblock Printer&f and &aMultiblock Validator&f are two tools that can help you build new structures and validate broken multiblocks."
+		""
+		"The following pages will teach you how to use each item."
+		"{@pagebreak}"
+		"The &aMultiblock Printer&f supports only certain structures, which you can find in &eJEI&r by searching “&aMultiblock Printer&r” and checking for the \"&aⓘ&f Compatible\" tag. "
+		""
+		"Once you've gatherered the required blocks and cleared enough space for the multiblock, place down the &bController&r and Right-click it with the &aMultiblock Printer&r."
+		""
+		"It will place blocks automatically using items from your inventory. "
+		""
+		"If something blocks block placement or an item can’t be found in your inventory, the &aMultiblock Printer&f stops working and shows an error explaining the issue."
+		"{@pagebreak}"
+		"The &aMultiblock Validator&f helps diagnose and maintain &eCustom Machinery&r multiblocks. "
+		""
+		"Using it on a &bCustom Machinery Controller&r shows all &aInstalled Multiblock Modules&f. "
+		""
+		"It can also re-align the World Engine automatically. "
+		""
+		"You can also reset all multiblock cores. This action will &c&n&lNOT&r&c&n refund any lost items&r to errored cores, meaning any items in those cores will be effectively voided."
+	]
+	quest.2140EAC255C3EA09.title: "Multiblock Tools"
 	quest.214D210F200CD11F.quest_desc: [
 		"The &dTime Twister&r records important events such as deaths or changing dimensions on a timeline. You can then teleport to the exact location of these timeline events, provided you have enough &bChronon&r."
 		""
