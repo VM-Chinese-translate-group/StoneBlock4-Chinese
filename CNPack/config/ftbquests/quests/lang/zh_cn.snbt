@@ -1619,6 +1619,28 @@
 		"&9蓝心&r可以通过击杀&z威猛末影鸡&r、&6利维坦&r、&6提洛斯回响·原初受火者&r以及&c咒翼灵骸&r获得。"
 	]
 	quest.213FE1D19D589513.title: "&6心之容器"
+	quest.2140EAC255C3EA09.quest_desc: [
+		"The &aMultiblock Printer&f and &aMultiblock Validator&f are two tools that can help you build new structures and validate broken multiblocks."
+		""
+		"The following pages will teach you how to use each item."
+		"{@pagebreak}"
+		"The &aMultiblock Printer&f supports only certain structures, which you can find in &eJEI&r by searching “&aMultiblock Printer&r” and checking for the \"&aⓘ&f Compatible\" tag. "
+		""
+		"Once you've gatherered the required blocks and cleared enough space for the multiblock, place down the &bController&r and Right-click it with the &aMultiblock Printer&r."
+		""
+		"It will place blocks automatically using items from your inventory. "
+		""
+		"If something blocks block placement or an item can’t be found in your inventory, the &aMultiblock Printer&f stops working and shows an error explaining the issue."
+		"{@pagebreak}"
+		"The &aMultiblock Validator&f helps diagnose and maintain &eCustom Machinery&r multiblocks. "
+		""
+		"Using it on a &bCustom Machinery Controller&r shows all &aInstalled Multiblock Modules&f. "
+		""
+		"It can also re-align the World Engine automatically. "
+		""
+		"You can also reset all multiblock cores. This action will &c&n&lNOT&r&c&n refund any lost items&r to errored cores, meaning any items in those cores will be effectively voided."
+	]
+	quest.2140EAC255C3EA09.title: "多方块工具"
 	quest.214D210F200CD11F.quest_desc: [
 		"&d时间扭曲器&r能够在时间线上记录重要的事件，比如死亡或者进/出维度。只要你有足够的&b时元&r，你就可以传送到时间线事件发生的准确位置。"
 		""
