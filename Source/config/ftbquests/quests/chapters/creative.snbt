@@ -269,11 +269,20 @@
 				id: "trophymanager:trophy"
 			}
 			id: "25CCA572C4D5CEA0"
-			rewards: [{
-				amount: 100
-				id: "14DA10C8742CAA9A"
-				type: "currency"
-			}]
+			rewards: [
+				{
+					amount: 100
+					id: "14DA10C8742CAA9A"
+					type: "currency"
+				}
+				{
+					auto: "invisible"
+					id: "38059CA15A969EF6"
+					ignore_reward_blocking: true
+					stage: "creative_unlock"
+					type: "gamestage"
+				}
+			]
 			shape: "diamond"
 			size: 1.5d
 			tasks: [
@@ -519,13 +528,6 @@
 					amount: 250
 					id: "2FE6B3DDF4FA4641"
 					type: "currency"
-				}
-				{
-					auto: "invisible"
-					id: "42C4C224766D7A9E"
-					ignore_reward_blocking: true
-					stage: "creative_motor_unlock"
-					type: "gamestage"
 				}
 			]
 			shape: "diamond"

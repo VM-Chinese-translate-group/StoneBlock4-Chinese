@@ -23,6 +23,7 @@
     "**/lang/*.*",
     "!**/lang/en_us.*",
     "**/dimdungeons/lang/en_us.json",
-    "**/irons_spellbooks/lang/en_us.json"
+    "**/irons_spellbooks/lang/en_us.json",
+    "**/draconicevolution/lang/en_us.json"
   ]
 }

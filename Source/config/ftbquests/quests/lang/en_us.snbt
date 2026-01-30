@@ -1209,6 +1209,8 @@
 		""
 		"For example, you can set up autosmelting for recipes by placing a &2Furnace&r in front of the &aProvider&r, and then encoding the appropriate smelting recipes onto patterns to be placed into the &aProviders&r."
 		""
+		"&aPattern Providers&r can also be renamed by using a &cCutting Knife&r on them, which can help you find them easier in your Pattern Terminals!"
+		"{@pagebreak}"
 		"For more information about how to make the &aPattern Providers&r and &3Assemblers&r work faster, check out the AE2 Guide!"
 	]
 	quest.16B60BCB8240F808.title: "&fStoring Patterns"
@@ -1409,7 +1411,7 @@
 	quest.1C6508B8B2C94CAF.quest_desc: [
 		"These power-consuming tools can be upgraded within a &aModification Table&r."
 		""
-		"Upgrades can be installed to lower its energy consumption, increase digging reach, or apply silk-touch or fortune."
+		"Upgrades can be installed to increase mining reach and speed, or apply silk-touch or fortune."
 	]
 	quest.1C6508B8B2C94CAF.title: "&eMining Gadgets"
 	quest.1CA7E96F42B75C2F.quest_desc: [
@@ -4584,6 +4586,8 @@
 	quest.5CFC04F4F9A4B01D.title: "Oritech Pipes"
 	quest.5D1DD9EA59C3078D.title: "Ender Dragon Data Model"
 	quest.5D20790BCDE45CF9.quest_desc: [
+		"This item is currently disabled while a bug is being fixed, sorry for the inconvenience"
+		"{@pagebreak}"
 		"The &dEnderic Railgun&r from &6Oritech&r is a powerful ranged weapon that fires a high-speed projectile, dealing significant damage to enemies and breaking blocks at a distance."
 		""
 		"Left mouse button can fire a continuous beam that damages any entities in its path and can also mine the first block in line. Energy will be transferred to an energy containing block instead of breaking it. It can also transform mined blocks, similar to the &aEnderic Laser&r."
@@ -6254,6 +6258,8 @@
 	quest.7EEBD17F0EA6EE0C.quest_desc: [
 		"Submitting the blocks required for the &3Upgrade&f and claiming its rewards will automatically assemble your team's &6World Engine&r."
 		""
+		"&cIMPORTANT&f: This upgrade will not affect anything in your &6World Engine&r except unlocking new recipes. Make sure you submit a freshly-crafted &aEnder Cell&r, as any upgrades applied to it will &cNOT&f be carried over."
+		""
 		"&eNote&f: Any blocks placed where an upgrade should go will be voided."
 	]
 	quest.7EEBD17F0EA6EE0C.title: "&fAuto-Build The &3Ender Power Upgrade"
@@ -6899,7 +6905,6 @@
 	task.598955C607984551.title: "Starter Gens"
 	task.5996778F5388841D.title: "An Ivory or Ebony CAD Assembly"
 	task.59A9F44F40AF2E55.title: "Echo-Location"
-	task.5A060A616C635858.title: "&eKill&f: Wilden Chimera"
 	task.5A0B7C6C05EEBEE2.title: "Drawer Upgrades"
 	task.5A43BF69F5EE7A51.title: "End Game Options"
 	task.5A652535811A2B66.title: "Quantum Armor"
