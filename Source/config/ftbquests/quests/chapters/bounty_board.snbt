@@ -1275,13 +1275,9 @@
 			}]
 			shape: "octagon"
 			tasks: [{
-				entity: "ars_nouveau:wilden_boss"
-				icon: {
-					id: "ars_nouveau:wilden_tribute"
-				}
-				id: "5A060A616C635858"
-				type: "kill"
-				value: 1L
+				id: "623FE2CE704DC5E3"
+				item: { count: 1, id: "ars_nouveau:wilden_tribute" }
+				type: "item"
 			}]
 			x: 1.0d
 			y: 8.0d
