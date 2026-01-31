@@ -1166,9 +1166,9 @@
 		""
 		"比如：把&2熔炉&r放在&a供应器&r边上，之后只需要把写好的熔炼样板放入&a样板供应器&r即可自动进行熔炼配方。"
 		""
-		"&aPattern Providers&r can also be renamed by using a &cCutting Knife&r on them, which can help you find them easier in your Pattern Terminals!"
+		"使用&c切割刀&r将&a样板供应器&r重命名，可便于在样板终端中快速查找。"
 		"{@pagebreak}"
-		"For more information about how to make the &aPattern Providers&r and &3Assemblers&r work faster, check out the AE2 Guide!"
+		"想了解如何提升&a样板供应器&r与&3装配室&r的运作效率，请查阅AE2指南！"
 	]
 	quest.16B60BCB8240F808.title: "&f储存你的样板"
 	quest.16C312C27F9805DB.title: "世界之&z神&r"
@@ -1367,7 +1367,7 @@
 	quest.1C6508B8B2C94CAF.quest_desc: [
 		"这些由能量驱动的小工具可以在&a改装台&r上升级。"
 		""
-		"Upgrades can be installed to increase mining reach and speed, or apply silk-touch or fortune."
+		"安装升级可以增加挖掘范围和速度，或是添加精准采集/时运效果。"
 	]
 	quest.1C6508B8B2C94CAF.title: "&e采掘小帮手"
 	quest.1CA7E96F42B75C2F.quest_desc: [
@@ -4457,15 +4457,15 @@
 	quest.5CFC04F4F9A4B01D.title: "Oritech管道"
 	quest.5D1DD9EA59C3078D.title: "末影龙数据模型"
 	quest.5D20790BCDE45CF9.quest_desc: [
-		"This item is currently disabled while a bug is being fixed, sorry for the inconvenience"
+		"因修复漏洞，此物品暂被禁用，对此造成的不便深表歉意。"
 		"{@pagebreak}"
-		"The &dEnderic Railgun&r from &6Oritech&r is a powerful ranged weapon that fires a high-speed projectile, dealing significant damage to enemies and breaking blocks at a distance."
+		"&6Oritech&r模组的&d末影电磁炮&r是一个强力的远程武器，它可以发射高速弹射物，对敌人造成大量伤害，且可以远程破坏方块。"
 		""
-		"Left mouse button can fire a continuous beam that damages any entities in its path and can also mine the first block in line. Energy will be transferred to an energy containing block instead of breaking it. It can also transform mined blocks, similar to the &aEnderic Laser&r."
+		"按住鼠标左键可发射连续光束，对路径上的实体造成伤害，并破坏命中的方块。若命中的方块为能量容器，则不会破坏它，而是会将能量传输进去。它还能像&a末影激光器&r一样转换被挖掘的方块。"
 		"{@pagebreak}"
-		"Mining-Mode can be toggled by Sneak + Right-Clicking with the item in hand."
+		"手持此物时潜行右击可以切换挖掘模式。"
 		""
-		"Using the right mouse button fires a powerful projectile that explodes at the target location, destroying nearby blocks and entities."
+		"右击可发射一枚威力巨大的弹丸，在命中位置爆炸，破坏附近的方块并伤害实体。"
 	]
 	quest.5D2936B7F8D0F8FA.title: "腾炎块交易"
 	quest.5D3ED71A2ADB7F8E.quest_subtitle: "用下界合金鸡制作"
@@ -6078,9 +6078,9 @@
 	quest.7EEBD17F0EA6EE0C.quest_desc: [
 		"提交&3升级&f所需的方块并领取奖励，即可自动为你团队的&6世界引擎&r组装该升级。"
 		""
-		"&cIMPORTANT&f: This upgrade will not affect anything in your &6World Engine&r except unlocking new recipes. Make sure you submit a freshly-crafted &aEnder Cell&r, as any upgrades applied to it will &cNOT&f be carried over."
+		"&c重要提示&f：此升级仅用于解锁新配方，不影响&6世界引擎&r的其他功能。请务必提交新合成的 &a末影单元&r，其原有的升级效果将&c无法&f继承。"
 		""
-		"&eNote&f: Any blocks placed where an upgrade should go will be voided."
+		"&e注意&f：任何放置在升级组装处的方块将被替换。"
 	]
 	quest.7EEBD17F0EA6EE0C.title: "&f自动建造&3末影能量升级"
 	quest.7EF7546FF007EF36.quest_desc: [
