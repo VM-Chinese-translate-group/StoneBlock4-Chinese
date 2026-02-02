@@ -5108,7 +5108,7 @@
 	]
 	quest.68583162106594A8.title: "&fMoving Chests"
 	quest.68668718B414B6E4.quest_desc: [
-		"The &6Foundry &aDrain&r with a &aFoundry Tap&r on it can extract the molten metals you create onto a &2Casting Table&r."
+		"A &aFoundry Drain&r (or most other modded &2Tanks&f) with a &aFoundry Tap&r on it can extract the molten metals you create onto a &2Casting Table&r."
 		""
 		"The molten metals will need some type of &bCast&r before they can be poured out onto the table."
 		""
