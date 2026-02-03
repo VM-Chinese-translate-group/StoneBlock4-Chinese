@@ -4968,7 +4968,7 @@
 	]
 	quest.68583162106594A8.title: "&f移动箱子"
 	quest.68668718B414B6E4.quest_desc: [
-		"装有&a熔铸炉浇注口&r的&6熔铸炉&a排液孔&r可以将熔融金属排出到&2铸件台&r上。"
+		"A &aFoundry Drain&r (or most other modded &2Tanks&f) with a &aFoundry Tap&r on it can extract the molten metals you create onto a &2Casting Table&r."
 		""
 		"在排出熔融金属前，铸件台上需要放好&b铸模&r。"
 		""
