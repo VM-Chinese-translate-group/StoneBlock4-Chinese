@@ -1854,6 +1854,13 @@
 		"{image:ftb:textures/quests/ae2/circuit_fabricator_full.png width:180 height:150 align:center}"
 	]
 	quest.2690BF30D8119E77.title: "Assembling The Circuit Fabricator"
+	quest.269DC26776DD377D.quest_desc: [
+		"The &dAdvanced Empowerer&f is an improved multiblock version of the &2Empowerer&f."
+		""
+		"It can take up to a stack of &eMekanism &aSpeed Upgrades&r to process recipes at tick-speed, making it ideal for late-game recipes."
+		""
+		"&e&nNote&r: Some recipes differ from the standard &2Empowerer&r, so be sure to check your automation."
+	]
 	quest.269EE6FF35CA9857.quest_desc: [
 		"Most of &6Oritech's&r generators can accept the &aSteam Boiler Addon&r. This allows you to pump water into the addon, which will convert the power output of the generator into &bSteam."
 		""
@@ -4474,7 +4481,7 @@
 		""
 		"This core needs to allow power to flow through it properly. Using an &bEmpowering Setup&r, you should be able to empower diamonds for this exact purpose."
 		""
-		"&eNote&r: The setup requires an &aEmpowerer&r connected to power as the center of the setup, with 4 &2Display Stands&r two blocks away from each side of the &aEmpowerer&r."
+		"&eNote&r: The setup requires an &aEmpowerer&r as the center of the setup, with 4 &2Display Stands&r connected to power, two blocks away from each side of the &aEmpowerer&r."
 	]
 	quest.5A04F7A95366D15F.title: "&fEmpowering Diamonds"
 	quest.5A284AE3AC14D070.title: "&fPlay For 1 Hour"
