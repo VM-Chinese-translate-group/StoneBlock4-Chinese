@@ -1793,11 +1793,11 @@
 	]
 	quest.2690BF30D8119E77.title: "组装电路加工机"
 	quest.269DC26776DD377D.quest_desc: [
-		"The &dAdvanced Empowerer&f is an improved multiblock version of the &2Empowerer&f."
+		"&d高级充能台&f是&2充能台&f的强化多方块版本。"
 		""
-		"It can take up to a stack of &eMekanism &aSpeed Upgrades&r to process recipes at tick-speed, making it ideal for late-game recipes."
+		"其可安装多达一组&e通用机械&a速度升级&r以实现极速合成，是后期配方的理想之选。"
 		""
-		"&e&nNote&r: Some recipes differ from the standard &2Empowerer&r, so be sure to check your automation."
+		"&e&n注意&r：部分配方与标准版&2充能台&r有所不同，请务必核对自动化设置。"
 	]
 	quest.269EE6FF35CA9857.quest_desc: [
 		"大部分&6Oritech&r模组的发电机都可以加装&a蒸汽锅炉插件&r。你可以将水泵入该插件，从而将机器产生的能量转化为&b蒸汽。"
@@ -4357,7 +4357,7 @@
 		""
 		"为了让能量在核心内部能够正常流通，你需要使用&b充能台装置&r给钻石水晶充能。"
 		""
-		"&eNote&r: The setup requires an &aEmpowerer&r as the center of the setup, with 4 &2Display Stands&r connected to power, two blocks away from each side of the &aEmpowerer&r."
+		"&e注意&r：要搭建此装置，你需要在中心处放一个&a充能台&r，然后在它每侧的两格远处，放上一个&2物品展示台&r（一共4个）并给它供能。"
 	]
 	quest.5A04F7A95366D15F.title: "&f充能钻石"
 	quest.5A284AE3AC14D070.title: "&f游玩1小时"
