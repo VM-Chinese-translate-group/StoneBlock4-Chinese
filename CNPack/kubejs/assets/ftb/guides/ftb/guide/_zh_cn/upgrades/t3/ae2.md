@@ -24,5 +24,4 @@ item_ids:
   <ItemIcon id="mekanism:elite_tier_installer" />
   <ItemIcon id="pipez:ultimate_upgrade" />
   <ItemIcon id="xp_synthesiser:xp_synthesiser" />
-
 </ItemGrid>

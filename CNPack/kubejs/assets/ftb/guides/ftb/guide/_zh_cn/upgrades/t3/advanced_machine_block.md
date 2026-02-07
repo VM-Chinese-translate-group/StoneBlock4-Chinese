@@ -21,5 +21,4 @@ item_ids:
 
 <ItemGrid>
   <ItemIcon id="entangled:block" />
-
 </ItemGrid>
