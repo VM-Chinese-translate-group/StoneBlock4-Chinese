@@ -1,12 +1,12 @@
 {
   "modpack": {
     "name": "石头世界4",
-    "version": "1.7.3",
+    "version": "1.8.0",
     "translation": {
       "id": "sb4",
       "url": "https://vmct-cn.top/modpacks/sb4/",
       "language": "zh_cn",
-      "version": "1.7.3",
+      "version": "1.8.0",
       "resourcePackName": "VM汉化组模组汉化包1.19及以上"
     }
   }

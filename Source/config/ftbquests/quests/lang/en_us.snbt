@@ -1753,6 +1753,12 @@
 		""
 		"&eNote&r: Reactors from &6Oritech&r have been massively buffed."
 	]
+	quest.23562C59CEDE9879.quest_desc: [
+		"&eDeus Ex Machina&f empowers you when fighting off against countless monsters within this stone world."
+		""
+		"Each death against the same boss grants you damage resistance and increased damage dealt against your killer."
+	]
+	quest.23562C59CEDE9879.title: "&6Deus Ex Machina"
 	quest.238137090A4F8FD6.title: "Minor WE Upgrade Check"
 	quest.23DC842244086CB9.title: "Wayfinder Meet"
 	quest.24401E59D87AC23A.quest_desc: [
@@ -3401,6 +3407,7 @@
 	quest.4498E3F4B2DC24FC.title: "&aGems"
 	quest.44A61436D2FE34E9.quest_subtitle: "Iron Chicken"
 	quest.44A61436D2FE34E9.title: "A Good Starting Point"
+	quest.44B2831C7225AB4B.quest_desc: ["&7&oLook up \"@refinedtypes FE\" in JEI to extract power."]
 	quest.44B2831C7225AB4B.title: "Energy Storage Parts"
 	quest.44C341DE3BCD64CC.quest_desc: [
 		"This upgraded version of the &dEnchantment Library&r can store enchantments values up to level 31."
@@ -5350,6 +5357,8 @@
 		"With the &6World Engine&r upgraded with the power of the &zVoid&r, you can create the &dNeutronium Compressor&r to compact items down into &zSingularities&r."
 		""
 		"Use these to create the &zInfinity Singularity&r."
+		""
+		"&eNote&f: You'll need to install some &3Draconic Energy Cores&r in your &6World Engine&f to increase its energy buffer."
 	]
 	quest.6E24701C49A6114D.title: "&zSingularities&r"
 	quest.6E458E2978B64C77.title: "Basic Plating Trade"
@@ -6646,6 +6655,7 @@
 	task.20FE0359B927FE66.title: "Ore Generation Options"
 	task.21F1C6036A37CED9.title: "&eLocate&f: &dTwilight"
 	task.220AEB0F13353108.title: "&fCraftable Spellbook Upgrades"
+	task.223A14462F14AFF6.title: "&6World Engine&f Energy Buffer Upgrades"
 	task.224C16DC19629B4B.title: "Starter Generators"
 	task.22DC2FE65941A0AB.title: "Appliance Addons"
 	task.22F4D12640FE8DE4.title: "Growing Resources"
