@@ -1696,6 +1696,12 @@
 		""
 		"&e注意&r：&6Oritech&r模组的反应堆被大大加强了。"
 	]
+	quest.23562C59CEDE9879.quest_desc: [
+		"&eDeus Ex Machina&f empowers you when fighting off against countless monsters within this stone world."
+		""
+		"Each death against the same boss grants you damage resistance and increased damage dealt against your killer."
+	]
+	quest.23562C59CEDE9879.title: "&6Deus Ex Machina"
 	quest.23DC842244086CB9.title: "Wayfinder Meet"
 	quest.24401E59D87AC23A.quest_desc: [
 		"&6聚变反应堆&r是&e通用机械的&r发电的最终解决方案。它消耗&a氘&r和&2氚&r或两者的混合物作为燃料，能够以相对较低的维护成本去生产大量的电力或热能。两种燃料成分都只需水和能量即可轻松生产！"
@@ -3301,6 +3307,7 @@
 	quest.4498E3F4B2DC24FC.title: "&a宝石"
 	quest.44A61436D2FE34E9.quest_subtitle: "铁鸡"
 	quest.44A61436D2FE34E9.title: "一个好开始"
+	quest.44B2831C7225AB4B.quest_desc: ["&7&oLook up \"@refinedtypes FE\" in JEI to extract power."]
 	quest.44B2831C7225AB4B.title: "能量存储部件"
 	quest.44C341DE3BCD64CC.quest_desc: [
 		"这是升级版的&d魔咒图书馆&r，可以存储最高31级的附魔等级。"
@@ -5196,6 +5203,8 @@
 		"以&z虚空&r之力升级&6世界引擎&r后，你就能制作&d中子态素压缩机&r来将物品压缩成&z奇点&r。"
 		""
 		"用这些奇点制作&z无尽奇点&r。"
+		""
+		"&eNote&f: You'll need to install some &3Draconic Energy Cores&r in your &6World Engine&f to increase its energy buffer."
 	]
 	quest.6E24701C49A6114D.title: "&z奇点&r"
 	quest.6E458E2978B64C77.title: "基础护板交易"
@@ -6340,6 +6349,7 @@
 	task.1F45D65E053E1701.title: "采掘小帮手"
 	task.21F1C6036A37CED9.title: "&e发现&f：&d暮光族裔"
 	task.220AEB0F13353108.title: "&f可制作的法术书升级"
+	task.223A14462F14AFF6.title: "&6World Engine&f Energy Buffer Upgrades"
 	task.224C16DC19629B4B.title: "入门发电机"
 	task.22DC2FE65941A0AB.title: "升级插件"
 	task.236F4615115C9D2E.title: "&f找到骑士宝库"

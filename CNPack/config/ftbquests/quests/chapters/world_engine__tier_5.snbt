@@ -511,6 +511,18 @@
 					}
 					type: "item"
 				}
+				{
+					id: "223A14462F14AFF6"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(draconicevolution:draconium_core)item(draconicevolution:awakened_core)item(draconicevolution:chaotic_core))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					optional_task: true
+					type: "item"
+				}
 			]
 			x: 0.0d
 			y: 14.5d
