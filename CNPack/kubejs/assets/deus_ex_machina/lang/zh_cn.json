@@ -1,0 +1,10 @@
+{
+  "item.deus_ex_machina.ambrosia": "仙馔密酒",
+  "effect.deus_ex_machina.deus_ex_machina_effect": "机械降神",
+  "effect.deus_ex_machina.deus_ex_machina_effect.desc": "极大增强自身抗性。每次死亡，都会让你变得愈发强大。",
+  "deus_ex_machina.death_screen.header": "机械降神对%s的加成：",
+  "deus_ex_machina.death_screen.resistance": "  抗性：+%d%% ",
+  "deus_ex_machina.death_screen.resistance.now": "（当前 %d%%）",
+  "deus_ex_machina.death_screen.attack": "  攻击提升：+%d%% ",
+  "deus_ex_machina.death_screen.attack.now": "（当前 %d%%）"
+}
