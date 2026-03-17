@@ -115,6 +115,8 @@
   "entity.chicken_roost.c_fluorite": "Fluorite Chicken",
   "entity.chicken_roost.c_neutron": "Neutronium Chicken",
   "entity.chicken_roost.c_skystone": "Skystone Chicken",
+  "entity.chicken_roost.c_quartz_enriched_iron": "Quartz Enriched Iron Chicken",
+  "entity.chicken_roost.c_quartz_enriched_copper": "Quartz Enriched Copper Chicken",
   "entity.chicken_roost.c_otherrock": "Otherrock Chicken",
   "entity.chicken_roost.c_time": "Timey Wimey Chicken",
   "entity.minecraft.villager.archaeologist": "Archaeologist",
@@ -658,6 +660,7 @@
   "ftb.lantern.find_boss": "Find the Boss Elevators at the starter room!",
   "ftb.lantern.summon_boss": "You have summoned the boss!",
   "ftb.machine.advanced_coke_oven": "Compact Coke Oven",
+  "ftb.machine.enderic_infuser": "Enderic Infuser",
   "ftb.machine.advanced_empowerer": "§dAdvanced Empowerer",
   "ftb.machine.circuit_fabricator": "Circuit Fabricator",
   "ftb.machine.steam_pressurizer": "Steam Pressurizer",
@@ -944,6 +947,7 @@
   "ftb.tooltip.fortron_star": "§aⓘ Can be obtained as a reward for completing the Portal Vault.§f",
   "ftb.tooltip.ftb.squat": "§aⓘ§f §2Spam Shift while holding to grow crops.§f",
   "ftb.tooltip.ftb.straw": "§aⓘ§f Break §6'Dry Leaves''§f with a §bknife§f to obtain.",
+  "ftb.tooltip.machine.advanced_coke_oven": "§aⓘ§f A §eMore Efficient§f and §dFast Alternative§f to Basic §6Coke Ovens§f.",
   "ftb.tooltip.machine.neutron_activator": "§aⓘ§f A Machine capable of §dActivating Neutrons§f present in §6Chemicals§f, requires the correct §ctemperature§f and little amounts of §bNeutrons§f.",
   "ftb.tooltip.mekanism.factory": "§aⓘ§f Use §6Tier Installers§f to obtain §bMekanism's Factories§f.",
   "ftb.tooltip.milk_bucket": "§aⓘ§f Use on a §bFluid Cow§f to revert to a normal §6Cow§f.",
@@ -1229,8 +1233,13 @@
   "item.chicken_roost.c_fluorite": "Fluorite Chicken",
   "item.chicken_roost.c_neutron": "Neutronium Chicken",
   "item.chicken_roost.c_skystone": "Skystone Chicken",
+  "item.chicken_roost.c_quartz_enriched_iron": "Quartz Enriched Iron Chicken",
+  "item.chicken_roost.c_quartz_enriched_copper": "Quartz Enriched Copper Chicken",
   "item.chicken_roost.c_otherrock": "Otherrock Chicken",
   "item.chicken_roost.c_time": "Timey Wimey Chicken",
+  "item.ftb.multiblock_printer": "Multiblock Printer",
+  "item.ftb.multiblock_validator": "Multiblock Validator",
+  "item.ftb.player_upgrade": "Player Upgrade",
   "item.ftb.andesite_pebble": "Andesite Pebble",
   "item.ftb.blank_slate": "Blank Slate",
   "item.ftb.molten_shibuichi_bucket": "Molten Shibuichi Bucket",
@@ -1354,6 +1363,8 @@
   "item.chicken.c_time": "Timey Wimey Crystal Chicken",
   "item.chicken.c_neutron": "Neutron Chicken",
   "item.chicken.c_skystone": "Skystone Chicken",
+  "item.chicken.c_quartz_enriched_iron": "Quartz Enriched Iron Chicken",
+  "item.chicken.c_quartz_enriched_copper": "Quartz Enriched Copper Chicken",
   "item.chicken.c_otherrock": "Otherrock Chicken",
   "item.chicken.c_antimatter": "Antimatter Chicken",
 
@@ -1427,5 +1438,16 @@
   "affix.irons_spellbooks:sword/attribute/mana_regen.suffix": "of the Iron's Mana-tapped",
   "advancements.avaritia.infinity_ingot.description": "Craft a infinity ingot",
   "jei.occultism.ingredient.spawn_egg.familiar_shub_niggurath.description": "The Shub Niggurath Familiar can be obtained by bringing a Goat Familiar to the Twilight Forest Ring and click the Goat first with any Black Dye, then Flint, and then an Eye of Ender. See §6Dictionary§r §6of§r §6Spirits§r for more information.",
-  "book.occultism.dictionary_of_spirits.familiar_rituals.familiar_shub_niggurath.ritual.text": "The [#](ad03fc)Shub Niggurath[#]() is not summoned directly. First, summon a [Chimera Familiar](entry://familiar_rituals/familiar_chimera) and feed it a [](item://minecraft:golden_apple) to detach the [#](ad03fc)Goat[#](). Bring the goat to the [#](ad03fc)Twilight Forest Ring[#](). Then click the goat with [any Black Dye](item://minecraft:black_dye), [](item://minecraft:flint) and [](item://minecraft:ender_eye) to summon the [#](ad03fc)Shub Niggurath[#]().\n"
+  "book.occultism.dictionary_of_spirits.familiar_rituals.familiar_shub_niggurath.ritual.text": "The [#](ad03fc)Shub Niggurath[#]() is not summoned directly. First, summon a [Chimera Familiar](entry://familiar_rituals/familiar_chimera) and feed it a [](item://minecraft:golden_apple) to detach the [#](ad03fc)Goat[#](). Bring the goat to the [#](ad03fc)Twilight Forest Ring[#](). Then click the goat with [any Black Dye](item://minecraft:black_dye), [](item://minecraft:flint) and [](item://minecraft:ender_eye) to summon the [#](ad03fc)Shub Niggurath[#]().\n",
+
+  "block.ftb.blaze_lamp": "Blaze Lamp",
+  "block.ftb.decorative_companion_cube": "Decorative Companion Cube",
+  "block.ftb.decorative_test_cube": "Decorative Test Cube",
+  "block.ftb.decorative_blue_core": "Decorative Blue Core",
+  "block.ftb.decorative_purple_core": "Decorative Purple Core",
+  "block.ftb.decorative_red_core": "Decorative Red Core",
+  "block.ftb.decorative_orange_core": "Decorative Orange Core",
+  
+  "curios.identifier.stick": "Stick"
+
 }
