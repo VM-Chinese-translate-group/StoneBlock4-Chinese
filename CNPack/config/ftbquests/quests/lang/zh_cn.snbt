@@ -1607,6 +1607,20 @@
 		"这种机器需要用热量来模拟这个石头世界缺失的太阳能。"
 		"{@pagebreak}"
 		"只需要一撮&6中子素尘埃&r作为能源，它就能将&e核废料&r转变为&d钋&r，将&e锂&r转变为&a氚&r。"
+		"{@pagebreak}"
+		"&eCustom Machinery&r has a built-in structure preview function that allows you to see where the blocks should be placed in the world."
+		""
+		"To access this feature, simply click the Recipe arrow inside of the UI, then click the structure block in JEI to see the block placements in the world."
+		""
+		"&7&oThe next page contains screenshots to help guide you, and the final page contains a screenshot of the fully-built structure. ->"
+		"{@pagebreak}"
+		"{image:ftb:textures/quests/neutron_activator/neutron_activator_ui.png width:200 height:90 align:center}"
+		""
+		"{image:ftb:textures/quests/neutron_activator/neutron_activator_jei.png width:180 height:150 align:center}"
+		"{@pagebreak}"
+		"The final structure should look like the picture below, with 2 Whisperglass on each of the four walls, the Reactor Reflector one up from the bottom-middle block, the Reactor Vent on top of that and the Empowered Void Block on the top-middle block."
+		""
+		"{image:ftb:textures/quests/neutron_activator/neutron_activator_build.png width:120 height:150 align:center}"
 	]
 	quest.21322BAF061FE83F.title: "&z中子活化器&r"
 	quest.213FE1D19D589513.quest_desc: [
@@ -1905,6 +1919,16 @@
 	quest.28E63B302DFCF6D9.title: "增加&d阿卡那&r的物品"
 	quest.28F636FAA3397479.quest_desc: ["&6RF工具&r模组的&a基础燃煤发电机&r是一种简单方便的发电机，它可以消耗熔炉燃料产能。"]
 	quest.28F636FAA3397479.title: "&f基础燃煤发电机"
+	quest.28F9C2B43B31DE16.quest_desc: [
+		"The &dAtomic Forge&f can now combine your &oEnchanted&r &5Trinity Gem&f with a pair of &oEnchanted&r &dNeutronium Ingots&f to create a &6Fortified Containment Device&f."
+		""
+		"&eNote&f: The &5Trinity Gem&f needs Unbreaking 112 and Blast Protection 10 and the &dNeutronium Ingots&f need Unbreaking 16!"
+		""
+		"Once you have obtained the &6Containment Device&f to capture the &dAntimatter&f, it is time to create some!"
+		""
+		"Smashing the &6Containment Device&f with a highly radioactive &2Plutonium Pellet&f at a high enough speed will generate plenty of &dAntimatter&f that the &6Containment Device&f can capture into an &dAntimatter Fragment&f before it dissipates."
+	]
+	quest.28F9C2B43B31DE16.title: "&zFortified Containment Device&r"
 	quest.294AB45D52BE342B.quest_desc: [
 		"&6机械动力&r有一种非常特殊的物品存储方式，并可以进行自动合成！"
 		""
@@ -2518,6 +2542,12 @@
 	quest.35791C02AC048594.quest_subtitle: "解锁/home"
 	quest.35791C02AC048594.title: "&f时元管理"
 	quest.35A0BC59FB62D5F9.title: "海洋碎片"
+	quest.35AB3E816F51A68E.quest_desc: [
+		"To mass produce the enchanted books for hyper-enchanting, you might consider the &aPrinter&r or &2Enchanter&r."
+		""
+		"A steady supply of &eLiquid XP&r and input items can create all the enchanted books you will need."
+	]
+	quest.35AB3E816F51A68E.title: "&zEnchanted Book Production"
 	quest.35E8F57E93106BFE.quest_desc: [
 		"&a样板&r能存储合成或处理等配方。可以在&3样板终端&r内进行编码，该终端一次最多可容纳一组&a样板&r。"
 		""
@@ -2634,6 +2664,16 @@
 	]
 	quest.38869642A2E6F8B6.quest_subtitle: "它们无所不能"
 	quest.38869642A2E6F8B6.title: "模块化路由器"
+	quest.38893C57D1D9A5DE.quest_desc: [
+		"There are two ways to get &3Souls&f for your &aArcane Catalyst&f. These need to be within a 16-block range of a &aCatalyst&f to harvest a &3Soul&f."
+		""
+		"1. Mob deaths will provide 1 soul each. Not all methods of killing mobs will produce souls. The Mob Crusher from Industrial Foregoing is a notable example of one that does not."
+		""
+		"2. Growing &nand&r Breaking &aSoul Flowers&r. A fully-grown &aSoul Flower&r will produce 1 soul. Many methods of harvesting will not produce a soul because they are not actually breaking the flower."
+		""
+		"&7&oYou will need about 350,000 soul per Antimatter Pellet."
+	]
+	quest.38893C57D1D9A5DE.title: "&zSoul Production"
 	quest.388FDE6183B26A5E.title: "双足飞龙核心交易"
 	quest.38E2176886386133.quest_desc: [
 		"&a合金窑&r是一个游戏早期的多方块结构，能够制作合金，如：康铜、殷钢、琥珀金和青铜。"
@@ -2829,21 +2869,6 @@
 		"&d机械手&r用于模拟玩家交互和处理物品配方。"
 		""
 		"&d机械手&r可以挤牛奶、剪羊毛、开垦农田、攻击怪物，还有更多功能。"
-	]
-	quest.3CFC372F57CF6B82.quest_desc: [
-		"&eCustom Machinery&r模组内置结构预览系统，能让你查看方块应放置在世界中的位置。"
-		""
-		"只需要点击界面中的配方箭头，然后在打开的JEI界面中点击结构方块，便能查看世界中的方块位置。"
-		""
-		"&7&o下一页包含截图以作操作引导，最后一页则是完整的结构截图。->"
-		"{@pagebreak}"
-		"{image:ftb:textures/quests/neutron_activator/neutron_activator_ui.png width:200 height:90 align:center}"
-		""
-		"{image:ftb:textures/quests/neutron_activator/neutron_activator_jei.png width:180 height:150 align:center}"
-		"{@pagebreak}"
-		"完整的结构应像下图所示，四面的墙上各有两个轻语玻璃，底部中心的方块上方一格处为反应堆反射器，其上方为反应堆散热口，顶部中心的方块则是充能煤晶块。"
-		""
-		"{image:ftb:textures/quests/neutron_activator/neutron_activator_build.png width:120 height:150 align:center}"
 	]
 	quest.3CFDFD0BA7D30118.quest_desc: [
 		"在&6石头世界4&r整合包中，整个世界都是按环生成的！"
@@ -3525,6 +3550,25 @@
 		"它消耗&6时间流体&r来加速所接触的方块，和时间之瓶或时间之袋之类的差不多。"
 	]
 	quest.48C1A1BB346B7D07.title: "&z时间手杖"
+	quest.48EEEEDA95AD9C67.quest_desc: [
+		"&oTired of &eMekanism&f having the only way to produce &dAntimatter&f?"
+		""
+		"Arcane scientists figured out that a particular arcane tool can capture &dAntimatter&r produced from particle collisions."
+		""
+		"You will first need to expand your arcane knowledge and get your hands on this magic containment vessel imbued with Otherworld energy."
+		"{@pagebreak}"
+		"The &6Trinity Gem&f will need some additional enhancements to survive the particle collision. A very high level of Unbreaking and some Blast Protection should do the trick."
+		""
+		"The &aArcane Catalyst&f can apply enchantments that go well beyond the normal enchantment level limits. To operate, it will require 3 things:"
+		""
+		"- A steady supply of souls collected from neary entities deaths, or from harvesting &3Soul Flowers&r nearby."
+		""
+		"- A steady supply of the max vanilla level &2Enchanted Books&r to apply (Unbreaking III or Blast Protection IV, in this case)"
+		""
+		"- Soul Stabilization for at least 2550 souls. This is done by directing speed-upgraded &dEnderic Lasers&r at the &aArcane Catalyst&r. Speed addons allow you to store more souls per Catalyst."
+	]
+	quest.48EEEEDA95AD9C67.quest_subtitle: "Time For Something New"
+	quest.48EEEEDA95AD9C67.title: "&6Mek Haters Unite"
 	quest.496903AB7E8A0A92.quest_desc: [
 		"&eIron的宝石与饰品&r模组可以将各种材料与&b宝石&r组合在一起制成饰品，为玩家提供增益效果或属性加成。"
 		""
@@ -4066,15 +4110,7 @@
 	]
 	quest.53E949B1A0D04290.title: "&6镕铸炉&f外部结构"
 	quest.5417C0BED57AE8DA.quest_desc: ["消耗下界菌类发电。"]
-	quest.543C6917A16F266C.quest_desc: [
-		"有了&z中子活化器&r，你就能使用太阳之力转化&a核废料&r了。"
-		""
-		"这样你就能使用&6超临界移相器&r制造&z反物质&r了。"
-		""
-		"[\"\", {\"text\": \"注意\", \"color\": \"yellow\"},  \"：如果你想了解更多关于搭建反应堆和转化核废料的信息，请查阅\", {\"text\": \"通用机械反应堆\", \"color\": \"light_purple\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"49B8310D0C7A6C55\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"前往反应堆任务\"}}, \"任务。\"]"
-		""
-		"此外，你所需的&a核废料&r数量仅为其他包的一半。"
-	]
+	quest.543C6917A16F266C.quest_desc: ["Regardless of which path you've taken, you should now have the ability to make the &dAntimatter&f needed to craft the &zBlack Hole&f."]
 	quest.543C6917A16F266C.title: "&z反物质&r"
 	quest.5455CF5D3C37ECA9.quest_desc: [
 		"&c下界合金巨兽&r可以在&3灵魂锻造厂&r中找到。"
@@ -4471,15 +4507,13 @@
 	quest.5CFC04F4F9A4B01D.title: "Oritech管道"
 	quest.5D1DD9EA59C3078D.title: "末影龙数据模型"
 	quest.5D20790BCDE45CF9.quest_desc: [
-		"因修复漏洞，此物品暂被禁用，对此造成的不便深表歉意。"
-		"{@pagebreak}"
-		"&6Oritech&r模组的&d末影电磁炮&r是一个强力的远程武器，它可以发射高速弹射物，对敌人造成大量伤害，且可以远程破坏方块。"
+		"The &dEnderic Railgun&r from &6Oritech&r is a powerful ranged weapon that fires a high-speed projectile, dealing significant damage to enemies and breaking blocks at a distance."
 		""
-		"按住鼠标左键可发射连续光束，对路径上的实体造成伤害，并破坏命中的方块。若命中的方块为能量容器，则不会破坏它，而是会将能量传输进去。它还能像&a末影激光器&r一样转换被挖掘的方块。"
+		"Left mouse button can fire a continuous beam that damages any entities in its path and can also mine the first block in line. Energy will be transferred to an energy containing block instead of breaking it. It can also transform mined blocks, similar to the &aEnderic Laser&r."
 		"{@pagebreak}"
-		"手持此物时潜行右击可以切换挖掘模式。"
+		"Mining-Mode can be toggled by Sneak + Right-Clicking with the item in hand."
 		""
-		"右击可发射一枚威力巨大的弹丸，在命中位置爆炸，破坏附近的方块并伤害实体。"
+		"Using the right mouse button fires a powerful projectile that explodes at the target location, destroying nearby blocks and entities."
 	]
 	quest.5D2936B7F8D0F8FA.title: "腾炎块交易"
 	quest.5D3ED71A2ADB7F8E.quest_subtitle: "用下界合金鸡制作"
@@ -4699,7 +4733,7 @@
 		""
 		"基础的木质管道可以用来传输物品和流体。"
 		""
-		"&a铁质&r版本则可以在通入红石信号后提取物品或流体。"
+		"&a铜质&r版本则可以在通入红石信号后提取物品或流体。"
 		""
 		"还有好几个不同等级的管道，各有各的用处，都去看看吧！"
 		""
@@ -6517,7 +6551,6 @@
 	task.5A652535811A2B66.title: "量子盔甲"
 	task.5A912A97A8A7DB47.title: "寻找&3机械动力宝库"
 	task.5AFEC71F18BD2D1B.title: "钻头升级"
-	task.5B1EDE30C0E98068.title: "组装中子活化器"
 	task.5B2F539FB8DF8B64.title: "&f自动锤"
 	task.5B3A2DEB3DFBA285.title: "与&d指引者的回响&r对话"
 	task.5B51C00265B54937.title: "科技章节"
