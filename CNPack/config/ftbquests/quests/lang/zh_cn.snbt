@@ -1608,17 +1608,17 @@
 		"{@pagebreak}"
 		"只需要一撮&6中子素尘埃&r作为能源，它就能将&e核废料&r转变为&d钋&r，将&e锂&r转变为&a氚&r。"
 		"{@pagebreak}"
-		"&eCustom Machinery&r has a built-in structure preview function that allows you to see where the blocks should be placed in the world."
+		"&eCustom Machinery&r模组内置结构预览系统，能让你查看方块应放置在世界中的位置。"
 		""
-		"To access this feature, simply click the Recipe arrow inside of the UI, then click the structure block in JEI to see the block placements in the world."
+		"只需要点击界面中的配方箭头，然后在打开的JEI界面中点击结构方块，便能查看世界中的方块位置。"
 		""
-		"&7&oThe next page contains screenshots to help guide you, and the final page contains a screenshot of the fully-built structure. ->"
+		"&7&o下一页包含截图以作操作引导，最后一页则是完整的结构截图。->"
 		"{@pagebreak}"
 		"{image:ftb:textures/quests/neutron_activator/neutron_activator_ui.png width:200 height:90 align:center}"
 		""
 		"{image:ftb:textures/quests/neutron_activator/neutron_activator_jei.png width:180 height:150 align:center}"
 		"{@pagebreak}"
-		"The final structure should look like the picture below, with 2 Whisperglass on each of the four walls, the Reactor Reflector one up from the bottom-middle block, the Reactor Vent on top of that and the Empowered Void Block on the top-middle block."
+		"完整的结构应像下图所示，四面各有2个轻语玻璃，底部中心方块上方为反应堆反射器，反射器上方为一个反应堆出入口，顶部中心则是充能煤晶块。"
 		""
 		"{image:ftb:textures/quests/neutron_activator/neutron_activator_build.png width:120 height:150 align:center}"
 	]
@@ -1920,15 +1920,15 @@
 	quest.28F636FAA3397479.quest_desc: ["&6RF工具&r模组的&a基础燃煤发电机&r是一种简单方便的发电机，它可以消耗熔炉燃料产能。"]
 	quest.28F636FAA3397479.title: "&f基础燃煤发电机"
 	quest.28F9C2B43B31DE16.quest_desc: [
-		"The &dAtomic Forge&f can now combine your &oEnchanted&r &5Trinity Gem&f with a pair of &oEnchanted&r &dNeutronium Ingots&f to create a &6Fortified Containment Device&f."
+		"&d原子锻造器&f现在能将&o附魔&r的&5三位一体宝石&f和两个&o附魔&r的&d中子锭&f制造为一个&6加固收容装置&f。"
 		""
-		"&eNote&f: The &5Trinity Gem&f needs Unbreaking 112 and Blast Protection 10 and the &dNeutronium Ingots&f need Unbreaking 16!"
+		"&e注意&f：&5三位一体宝石&f需要附魔耐久112和爆炸保护10，&d中子锭&f需要附魔耐久16！"
 		""
-		"Once you have obtained the &6Containment Device&f to capture the &dAntimatter&f, it is time to create some!"
+		"当你获得&6收容装置&f并存入&d反物质&f后，就能开始制造反物质了！"
 		""
-		"Smashing the &6Containment Device&f with a highly radioactive &2Plutonium Pellet&f at a high enough speed will generate plenty of &dAntimatter&f that the &6Containment Device&f can capture into an &dAntimatter Fragment&f before it dissipates."
+		"将&6收容装置&f与高放射性的&2钚球&f高速碰撞粉碎后，就能产出大量&d反物质&f，&6收容装置&f会在其消散之前将其捕获为&d反物质碎片&f。"
 	]
-	quest.28F9C2B43B31DE16.title: "&zFortified Containment Device&r"
+	quest.28F9C2B43B31DE16.title: "&z加固收容装置&r"
 	quest.294AB45D52BE342B.quest_desc: [
 		"&6机械动力&r有一种非常特殊的物品存储方式，并可以进行自动合成！"
 		""
@@ -2543,11 +2543,11 @@
 	quest.35791C02AC048594.title: "&f时元管理"
 	quest.35A0BC59FB62D5F9.title: "海洋碎片"
 	quest.35AB3E816F51A68E.quest_desc: [
-		"To mass produce the enchanted books for hyper-enchanting, you might consider the &aPrinter&r or &2Enchanter&r."
+		"如果要批量生产超高级别的附魔书，你得考虑制作&a打印机&r或&2附魔器&r。"
 		""
-		"A steady supply of &eLiquid XP&r and input items can create all the enchanted books you will need."
+		"一个稳定的&e液态经验&r来源，放入物品便能制作所有你需要的附魔书。"
 	]
-	quest.35AB3E816F51A68E.title: "&zEnchanted Book Production"
+	quest.35AB3E816F51A68E.title: "&z制作附魔书"
 	quest.35E8F57E93106BFE.quest_desc: [
 		"&a样板&r能存储合成或处理等配方。可以在&3样板终端&r内进行编码，该终端一次最多可容纳一组&a样板&r。"
 		""
@@ -2665,15 +2665,15 @@
 	quest.38869642A2E6F8B6.quest_subtitle: "它们无所不能"
 	quest.38869642A2E6F8B6.title: "模块化路由器"
 	quest.38893C57D1D9A5DE.quest_desc: [
-		"There are two ways to get &3Souls&f for your &aArcane Catalyst&f. These need to be within a 16-block range of a &aCatalyst&f to harvest a &3Soul&f."
+		"有两种方法来获得&a奥术触媒&f所需的&3灵魂&f。这些方法都需在&a触媒&f16格范围以内才可生效。"
 		""
-		"1. Mob deaths will provide 1 soul each. Not all methods of killing mobs will produce souls. The Mob Crusher from Industrial Foregoing is a notable example of one that does not."
+		"1.每个怪物死亡时会提供1点灵魂。但有些击杀怪物的方式不会产出灵魂，比如工业先锋的屠宰机就是个典型的例子。"
 		""
-		"2. Growing &nand&r Breaking &aSoul Flowers&r. A fully-grown &aSoul Flower&r will produce 1 soul. Many methods of harvesting will not produce a soul because they are not actually breaking the flower."
+		"2.种植&n并&r破坏&a灵魂之花&r。一株完全成熟的&a灵魂之花&r能够产出1点灵魂。但有许多收获方式不会产出灵魂，因为这些方式不算真正破坏灵魂之花。"
 		""
-		"&7&oYou will need about 350,000 soul per Antimatter Pellet."
+		"&7&o每个反物质球需要大约350000点灵魂。"
 	]
-	quest.38893C57D1D9A5DE.title: "&zSoul Production"
+	quest.38893C57D1D9A5DE.title: "&z获得灵魂"
 	quest.388FDE6183B26A5E.title: "双足飞龙核心交易"
 	quest.38E2176886386133.quest_desc: [
 		"&a合金窑&r是一个游戏早期的多方块结构，能够制作合金，如：康铜、殷钢、琥珀金和青铜。"
@@ -3551,24 +3551,24 @@
 	]
 	quest.48C1A1BB346B7D07.title: "&z时间手杖"
 	quest.48EEEEDA95AD9C67.quest_desc: [
-		"&oTired of &eMekanism&f having the only way to produce &dAntimatter&f?"
+		"&o不想再用&e通用机械（Mekanism）&f那唯一一种生产&d反物质&f的方法了？"
 		""
-		"Arcane scientists figured out that a particular arcane tool can capture &dAntimatter&r produced from particle collisions."
+		"奥术科学家发现，有一种特别的奥术工具能够捕获由粒子碰撞产出的&d反物质&r。"
 		""
-		"You will first need to expand your arcane knowledge and get your hands on this magic containment vessel imbued with Otherworld energy."
+		"首先，你需要扩充你的奥术知识，然后着手于这个充满异界能量的神奇收容装置。"
 		"{@pagebreak}"
-		"The &6Trinity Gem&f will need some additional enhancements to survive the particle collision. A very high level of Unbreaking and some Blast Protection should do the trick."
+		"&6三位一体宝石&f需要一些额外的附魔才能从粒子碰撞中保存下来。一个超高级别的耐久附魔和一些爆炸保护附魔应该能但此重任。"
 		""
-		"The &aArcane Catalyst&f can apply enchantments that go well beyond the normal enchantment level limits. To operate, it will require 3 things:"
+		"&a奥术触媒&f支持远超于普通附魔级别的附魔。要使用它，需要准备3件事："
 		""
-		"- A steady supply of souls collected from neary entities deaths, or from harvesting &3Soul Flowers&r nearby."
+		"-一个稳定的灵魂来源，可以通过击杀触媒附近的怪物，或在附近种植收割&3灵魂之花&r。"
 		""
-		"- A steady supply of the max vanilla level &2Enchanted Books&r to apply (Unbreaking III or Blast Protection IV, in this case)"
+		"-一个稳定的原版最高级&2附魔书&r来源以作为基础（这里需要耐久3或爆炸保护4）"
 		""
-		"- Soul Stabilization for at least 2550 souls. This is done by directing speed-upgraded &dEnderic Lasers&r at the &aArcane Catalyst&r. Speed addons allow you to store more souls per Catalyst."
+		"-灵魂需要维持在至少2550点。这能通过将&d末影激光器&r定向到&a奥术触媒&r实现。速度插件能让你在每个触媒中存储更多灵魂。"
 	]
-	quest.48EEEEDA95AD9C67.quest_subtitle: "Time For Something New"
-	quest.48EEEEDA95AD9C67.title: "&6Mek Haters Unite"
+	quest.48EEEEDA95AD9C67.quest_subtitle: "是时候玩些新东西了"
+	quest.48EEEEDA95AD9C67.title: "&6厌Mek玩家联合起来！"
 	quest.496903AB7E8A0A92.quest_desc: [
 		"&eIron的宝石与饰品&r模组可以将各种材料与&b宝石&r组合在一起制成饰品，为玩家提供增益效果或属性加成。"
 		""
@@ -4110,7 +4110,7 @@
 	]
 	quest.53E949B1A0D04290.title: "&6镕铸炉&f外部结构"
 	quest.5417C0BED57AE8DA.quest_desc: ["消耗下界菌类发电。"]
-	quest.543C6917A16F266C.quest_desc: ["Regardless of which path you've taken, you should now have the ability to make the &dAntimatter&f needed to craft the &zBlack Hole&f."]
+	quest.543C6917A16F266C.quest_desc: ["不管你走了哪条路，现在你都应该有能力制作&z黑洞&f所需的&d反物质&f了。"]
 	quest.543C6917A16F266C.title: "&z反物质&r"
 	quest.5455CF5D3C37ECA9.quest_desc: [
 		"&c下界合金巨兽&r可以在&3灵魂锻造厂&r中找到。"
@@ -4507,13 +4507,13 @@
 	quest.5CFC04F4F9A4B01D.title: "Oritech管道"
 	quest.5D1DD9EA59C3078D.title: "末影龙数据模型"
 	quest.5D20790BCDE45CF9.quest_desc: [
-		"The &dEnderic Railgun&r from &6Oritech&r is a powerful ranged weapon that fires a high-speed projectile, dealing significant damage to enemies and breaking blocks at a distance."
+		"&6Oritech&r模组的&d末影电磁炮&r是一种强大的远程武器，它能发射高速弹射物，对敌人造成可观的伤害，并能破坏一定距离的方块。"
 		""
-		"Left mouse button can fire a continuous beam that damages any entities in its path and can also mine the first block in line. Energy will be transferred to an energy containing block instead of breaking it. It can also transform mined blocks, similar to the &aEnderic Laser&r."
+		"按住鼠标左键可发射连续光束，对路径上的实体造成伤害，并破坏命中的方块。若命中的方块为能量容器，则不会破坏它，而是会将能量传输进去。它还能像&a末影激光器&r一样转换被挖掘的方块。"
 		"{@pagebreak}"
-		"Mining-Mode can be toggled by Sneak + Right-Clicking with the item in hand."
+		"手持物品潜行右击可以切换挖掘模式。"
 		""
-		"Using the right mouse button fires a powerful projectile that explodes at the target location, destroying nearby blocks and entities."
+		"右击发射一枚威力巨大的弹丸，在命中位置爆炸，破坏附近方块并伤害实体。"
 	]
 	quest.5D2936B7F8D0F8FA.title: "腾炎块交易"
 	quest.5D3ED71A2ADB7F8E.quest_subtitle: "用下界合金鸡制作"
