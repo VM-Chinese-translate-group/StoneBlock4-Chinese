@@ -1265,6 +1265,8 @@
   "item.ftb.world_engine": "§6世界引擎§f",
   "item.ftb.stable_antimatter": "稳定的反物质",
   "item.ftb.chronon_resonator": "时元谐振器",
+  "item.ftb.antimatter_fragments": "反物质碎片",
+  "item.ftb.fortified_containment_device": "加固收容装置",
   "ftb.boss.ender_chicken.phase.shielded_entry": "末影鸡被护盾包裹，快用你的鸡调试棒破坏它！",
   "ftb.boss.ender_chicken.phase.vulnerable_assault": "护盾被破坏了，趁现在！",
   "ftb.boss.ender_chicken.phase.shield_cycle": "末影鸡的护盾开始充能…",
