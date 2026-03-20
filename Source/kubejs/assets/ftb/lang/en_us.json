@@ -1265,6 +1265,8 @@
   "item.ftb.world_engine": "§6World Engine§f",
   "item.ftb.stable_antimatter": "Stable Antimatter",
   "item.ftb.chronon_resonator": "Chronon Resonator",
+  "item.ftb.antimatter_fragments": "Antimatter Fragments",
+  "item.ftb.fortified_containment_device": "Fortified Containment Device",
   "ftb.boss.ender_chicken.phase.shielded_entry": "The Ender Chicken has become shielded, use your chicken stick to break it!",
   "ftb.boss.ender_chicken.phase.vulnerable_assault": "The Shield has broken, attack now!",
   "ftb.boss.ender_chicken.phase.shield_cycle": "The Ender Chicken's Shield begins to recharge...",
