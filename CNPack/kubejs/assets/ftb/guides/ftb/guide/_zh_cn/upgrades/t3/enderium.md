@@ -7,7 +7,7 @@ navigation:
 item_ids:
   - ftb:enderium_block
 ---
-# 末影块升级
+# <Color id="gold">末影块升级</Color>
 
 <ItemImage id="ftb:enderium_block" scale="3" />
 
@@ -15,7 +15,7 @@ item_ids:
 
 这项升级是制作<Color id="gold">高级机器方块</Color>升级所必需的。
 
-## 解锁配方
+## <Color id="gold">解锁配方</Color>
 
 <ItemGrid>
   <ItemIcon id="projecte:collector_mk2" />

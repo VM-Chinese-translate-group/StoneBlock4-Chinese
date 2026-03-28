@@ -7,7 +7,7 @@ navigation:
 item_ids:
   - ae2:quantum_ring
 ---
-# 量子隧道升级
+# <Color id="green">量子隧道升级</Color>
 
 <ItemImage id="ae2:quantum_ring" scale="3" />
 
@@ -17,7 +17,7 @@ item_ids:
 
 该升级还需要<Color id="red">高级机器方块</Color>升级来解锁它的合成配方。
 
-## 解锁配方
+## <Color id="gold">解锁配方</Color>
 
 <ItemGrid>
   <ItemIcon id="advanced_ae:reaction_chamber" />

@@ -7,7 +7,7 @@ navigation:
 item_ids:
   - create:shadow_steel_casing
 ---
-# 机械动力暗影机壳升级
+# <Color id="green">机械动力暗影机壳升级</Color>
 
 <ItemImage id="create:shadow_steel_casing" scale="3" />
 
@@ -15,7 +15,7 @@ item_ids:
 
 该升级解锁了一些<Color id="gold">机械动力</Color>的高级机器，以及一些比较有用的<Color id="gold">等价交换</Color>机器.
 
-## 解锁配方
+## <Color id="gold">解锁配方</Color>
 
 <ItemGrid>
   <ItemIcon id="createaddition:electric_motor" />

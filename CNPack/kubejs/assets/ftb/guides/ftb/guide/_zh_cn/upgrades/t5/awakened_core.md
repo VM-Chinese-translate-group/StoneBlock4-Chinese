@@ -7,7 +7,7 @@ navigation:
 item_ids:
   - draconicevolution:awakened_draconium_block
 ---
-# 觉醒核心升级
+# <Color id="gold">觉醒核心升级</Color>
 
 <ItemImage id="draconicevolution:awakened_draconium_block" scale="3" />
 
@@ -16,7 +16,7 @@ item_ids:
 需要378个<Color id="gold">觉醒龙锭块</Color>和786个<Color id="light_purple">龙块</Color>来制成一个8阶能量核心。
 
 
-## 解锁配方
+## <Color id="gold">解锁配方</Color>
 
 <ItemGrid>
   <ItemIcon id="avaritia:infinity_sword" />

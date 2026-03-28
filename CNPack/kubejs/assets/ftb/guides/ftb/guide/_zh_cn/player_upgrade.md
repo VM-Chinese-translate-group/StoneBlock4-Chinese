@@ -10,11 +10,13 @@ item_ids:
 <Column alignItems="center" fullWidth={true}>
 <ItemImage id="ftb:player_upgrade" scale="2" />
 <Color id="light_purple">玩家升级</Color> 是一种饰品，可以通过<Color id="gold">商店购买</Color>以升级。
+</Column>
+
+***
 
 这些升级只能在手持<Color id="light_purple">玩家升级</Color>时购买。如果操作正确，它将把购买的属性升级添加到物品中，然后可以装备在特殊的<Color id="light_purple">玩家升级</Color>饰品槽中，以永久提升你的属性。
 
 <Color id="light_purple">玩家升级</Color>可拥有的每个属性都有上限。如果由于各种原因升级无法生效，您将获得购买的退款。
-</Column>
 
 ***
 
@@ -22,7 +24,6 @@ item_ids:
 ### <ItemImage id="ftb:player_upgrade" scale="0.75" /> <Color id="aqua">可在商店购买的升级列表</Color> <ItemImage id="ftb:player_upgrade" scale="0.75" />
 </Column>
 
-***
 
 ## <Color id="gold">指引者</Color>
 

@@ -6,12 +6,31 @@ navigation:
 item_ids:
   - irons_jewelry:jewelcrafting_station
 ---
-# Iron的宝石与饰品
 
-<Color id="gold">Iron的宝石与饰品</Color>模组专注于将<Color id="green">金属</Color>和<Color id="light_purple">宝石</Color>结合在一起，创造具有特殊属性和效果的饰品。
+<Column alignItems="center" fullWidth={true}>
 
-你需要制作一个<Color id="gold">珠宝饰品工作台</Color>以开始制作一些饰品。
+# <Color id="gold">Iron的珠宝</Color>
+<ItemImage id="irons_jewelry:jewelcrafting_station" scale="2" />
 
-要学习更多高级的饰品配方，你需要通过与村民交易、在<Color id="gold">世界引擎</Color>中合成，或者从<Color id="gold">商店</Color>购买它们以找到它们的蓝图。
+<Color id="gold">Iron的珠宝</Color>是一个专注于结合<Color id="green">金属</Color> 和 <Color id="light_purple">宝石</Color> 来创造具有特殊属性和效果的珠宝的模组。
+</Column>
 
+***
 
+<Column alignItems="center" fullWidth={true}>
+## <Color id="gold">入门指南</Color>
+</Column>
+
+你将需要合成一个<ItemLink id="irons_jewelry:jewelcrafting_station" />以开始制作珠宝。
+
+要学习更高级的珠宝配方，你需要通过与村民交易、在<Color id="gold">世界引擎</Color> 中合成，或从 <Color id="gold">商店</Color> 购买来找到它们的蓝图。
+
+***
+
+<Column alignItems="center" fullWidth={true}>
+## <Color id="gold">部件</Color>
+</Column>
+
+* <ItemImage id="minecraft:iron_ingot" scale="0.5" /> [指环材料](irons_jewelry:metals.md)
+* <ItemImage id="irons_jewelry:garnet" scale="0.5" /> [宝石](irons_jewelry:gems.md)
+* <ItemImage id="irons_spellbooks:blank_rune" scale="0.5" /> [符文](irons_jewelry:runes.md)

@@ -7,13 +7,13 @@ navigation:
 item_ids:
   - ftb:chroniton_glass
 ---
-# 时空粒子玻璃升级
+# <Color id="green">时空粒子玻璃升级</Color>
 
 <ItemImage id="ftb:chroniton_glass" scale="3" />
 
 <Color id="green">时空粒子玻璃</Color>次要升级，该升级解锁了一系列有用的<Color id="gold">世界引擎</Color>合成配方，例如生产EMC相关的物品。
 
-## 解锁配方
+## <Color id="gold">解锁配方</Color>
 
 <ItemGrid>
   <ItemIcon id="enderstorage:ender_chest" />

@@ -7,13 +7,13 @@ navigation:
 item_ids:
   - ftb:fortron_infused_block
 ---
-# 力场子灌注块升级
+# <Color id="green">力场子灌注块升级</Color>
 
 <ItemImage id="ftb:fortron_infused_block" scale="3" />
 
 <Color id="aqua">力场子灌注块</Color>次要升级，该升级解锁了一些<Color id="gold">世界引擎</Color>里面自动化相关机器的合成配方。例如<Color id="gold">应用能源 2</Color>的自动合成系统相关方块，以及一些传送设备，例如来自<Color id="gold">通用机械</Color>的<Color id="light_purple">传送器</Color>。
 
-## 解锁配方
+## <Color id="gold">解锁配方</Color>
 
 <ItemGrid>
   <ItemIcon id="justdirethings:portalgun_v2" />

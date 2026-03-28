@@ -7,7 +7,7 @@ navigation:
 item_ids:
   - mekanism:resistive_heater
 ---
-# 加热器升级
+# <Color id="gold">加热器升级</Color>
 
 <ItemImage id="mekanism:resistive_heater" scale="3" />
 
@@ -17,7 +17,7 @@ item_ids:
 
 该升级解锁了<Color id="gold">充能台</Color>，以便你在<Color id="gold">Powah</Color>模组中可以继续推进。
 
-## 解锁配方
+## <Color id="gold">解锁配方</Color>
 
 <ItemGrid>
   <ItemIcon id="powah:energizing_orb" />

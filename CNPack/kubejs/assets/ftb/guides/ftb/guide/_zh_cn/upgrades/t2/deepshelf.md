@@ -8,7 +8,7 @@ item_ids:
   - apothic_enchanting:echoing_deepshelf
   - apothic_enchanting:deepshelf
 ---
-# 深暗书架附魔升级
+# <Color id="green">深暗书架附魔升级</Color>
 
 <ItemImage id="apothic_enchanting:echoing_deepshelf" scale="3" />
 
@@ -18,7 +18,7 @@ item_ids:
 
 此升级还能让你能合成以下几种魔咒，还可以合成Iron的宝石与饰品模组的<Color id="gold">双层饰品</Color>。
 
-## 解锁配方
+## <Color id="gold">解锁配方</Color>
 
 <ItemGrid>
   <ItemIcon id="minecraft:enchanted_book" />
@@ -27,7 +27,7 @@ item_ids:
   <ItemIcon id="irons_spellbooks:villager_spell_book" />
 </ItemGrid>
 
-## 可合成的魔咒
+## <Color id="gold">可合成的魔咒</Color>
 
 - 清道夫 III
 - 阅历 III

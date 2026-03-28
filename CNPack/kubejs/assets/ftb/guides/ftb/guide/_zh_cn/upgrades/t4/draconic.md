@@ -7,7 +7,7 @@ navigation:
 item_ids:
   - draconicevolution:energy_core_stabilizer
 ---
-# 神龙升级
+# <Color id="gold">神龙升级</Color>
 
 <ItemImage id="draconicevolution:energy_core_stabilizer" scale="3" />
 
@@ -17,7 +17,7 @@ item_ids:
 
 该升级需要<Color id="red">高级机器方块</Color>升级来解锁其合成配方。
 
-## 解锁配方
+## <Color id="gold">解锁配方</Color>
 
 <ItemGrid>
   <ItemIcon id="apotheosis:mythic_material" />

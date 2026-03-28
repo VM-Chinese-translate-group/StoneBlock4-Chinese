@@ -7,7 +7,7 @@ navigation:
 item_ids:
   - ftb:world_engine_machine_block
 ---
-# 基础机器方块升级
+# <Color id="gold">基础机器方块升级</Color>
 
 <ItemImage id="ftb:world_engine_machine_block" scale="3" />
 
@@ -15,7 +15,7 @@ item_ids:
 
 该升级会解锁你推进整合包进度所需的大部分基础机器，例如<Color id="gold">应用能源 2</Color>相关的入门机器。
 
-## 解锁配方
+## <Color id="gold">解锁配方</Color>
 
 <ItemGrid>
   <ItemIcon id="pipez:item_pipe" />

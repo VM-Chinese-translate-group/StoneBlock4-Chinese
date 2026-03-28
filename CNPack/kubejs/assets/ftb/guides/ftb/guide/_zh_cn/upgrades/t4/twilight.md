@@ -7,7 +7,7 @@ navigation:
 item_ids:
   - twilightforest:knight_phantom_trophy
 ---
-# 暮色升级
+# <Color id="green">暮色升级</Color>
 
 <ItemImage id="twilightforest:knight_phantom_trophy" scale="3" />
 
@@ -15,7 +15,7 @@ item_ids:
 
 这需要4个来自暮色森林Boss的奖杯。
 
-## 解锁配方
+## <Color id="gold">解锁配方</Color>
 
 <ItemGrid>
   <ItemIcon id="ars_nouveau:warp_scroll" />

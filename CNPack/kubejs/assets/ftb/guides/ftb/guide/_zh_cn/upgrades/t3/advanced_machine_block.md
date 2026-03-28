@@ -7,7 +7,7 @@ navigation:
 item_ids:
   - ftb:world_engine_advanced_machine_block
 ---
-# 高级机器方块升级
+# <Color id="gold">高级机器方块升级</Color>
 
 <ItemImage id="ftb:world_engine_advanced_machine_block" scale="3" />
 
@@ -17,7 +17,7 @@ item_ids:
 
 就其本身而言，该升级只解锁一个配方。
 
-## 解锁配方
+## <Color id="gold">解锁配方</Color>
 
 <ItemGrid>
   <ItemIcon id="entangled:block" />
