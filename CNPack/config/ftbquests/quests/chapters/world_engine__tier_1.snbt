@@ -902,7 +902,7 @@
 				{
 					auto: "disabled"
 					command: "/ftbunearthed setlevel @s 4"
-					feedback_message: "你的发掘技能升级了！"
+					feedback_message: "feedback_message.ftb.unearthing_level_up"
 					icon: {
 						components: {
 							"ftbquests:icon": "relics:textures/gui/description/ability/upgrade_button_active.png"
@@ -1115,7 +1115,7 @@
 			optional: true
 			rewards: [{
 				command: "/ftbchunks waypoint add \"The Machinist\" -40 2 13 minecraft:overworld light_purple true"
-				feedback_message: "路径点已激活"
+				feedback_message: "feedback_message.ftb.waypoint_claimed"
 				icon: {
 					id: "minecraft:compass"
 				}
@@ -1144,7 +1144,7 @@
 			optional: true
 			rewards: [{
 				command: "ftbchunks waypoint add \"The Quartermaster\" -28 2 -15 minecraft:overworld light_purple true"
-				feedback_message: "路径点已激活"
+				feedback_message: "feedback_message.ftb.waypoint_claimable"
 				icon: {
 					id: "minecraft:compass"
 				}
@@ -1173,7 +1173,7 @@
 			optional: true
 			rewards: [{
 				command: "/ftbchunks waypoint add \"The Magician\" -43 2 -5 minecraft:overworld light_purple true"
-				feedback_message: "路径点已激活"
+				feedback_message: "feedback_message.ftb.waypoint_claimed"
 				icon: {
 					id: "minecraft:compass"
 				}
@@ -1324,7 +1324,7 @@
 			rewards: [{
 				auto: "enabled"
 				command: "/compass locate ftb:vault/create"
-				feedback_message: "已获得机械师宝库指南针"
+				feedback_message: "feedback_message.ftb.locator_machinist_vault"
 				icon: {
 					id: "explorerscompass:explorerscompass"
 				}

@@ -1978,6 +1978,8 @@
 		"发现某些东西无法正常运作？"
 		""
 		"[\"我们很想知道，以便于修复它！您可以前往\", {\"text\": \"Discord\", \"color\": \"aqua\", \"underlined\": true, \"clickEvent\": {\"action\": \"open_url\", \"value\": \"https://discord.com/invite/X5UGvBs\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": [\"打开Discord邀请（需要科技）\"]} }, \"反馈给我们，或者前往\", {\"text\": \"GitHub\", \"color\": \"light_purple\", \"underlined\": true, \"clickEvent\": {\"action\": \"open_url\", \"value\": \"https://github.com/FTBTeam/FTB-Modpack-Issues/issues\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": [\"打开GitHub链接\"]} }, \"反馈bug。\"]"
+		""
+		"除非受到&aFTB团队&f成员的指示，否则请&c不要&r在编辑模式下强制完成任务，因为这可能会完全破坏你的游戏进度。"
 	]
 	quest.2B02D9425E19F560.title: "&f发现了bug？"
 	quest.2B21D8D19E0413AC.quest_desc: ["&c死者之王&r可在&a地下墓穴&r中的&3石头&r层和&7深板岩&r层中找到。"]

@@ -505,7 +505,7 @@
 				{
 					auto: "disabled"
 					command: "/ftbunearthed setlevel @s 3"
-					feedback_message: "你的发掘技能升级了"
+					feedback_message: "feedback_message.ftb.unearthing_level_up"
 					icon: {
 						components: {
 							"ftbquests:icon": "relics:textures/gui/description/ability/upgrade_button_active.png"
@@ -763,7 +763,7 @@
 				{
 					auto: "enabled"
 					command: "/ftbunearthed setlevel @s 2"
-					feedback_message: "你的发掘技能升级了！"
+					feedback_message: "feedback_message.ftb.unearthing_level_up"
 					icon: {
 						components: {
 							"ftbquests:icon": "relics:textures/gui/description/ability/upgrade_button_active.png"
@@ -1229,7 +1229,7 @@
 			rewards: [{
 				auto: "disabled"
 				command: "/compass locate ftb:healing_spring"
-				feedback_message: "获取治愈之泉定位器"
+				feedback_message: "feedback_message.ftb.locator_healing_spring"
 				icon: {
 					id: "minecraft:compass"
 				}
