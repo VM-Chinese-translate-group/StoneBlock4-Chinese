@@ -2042,6 +2042,8 @@
 		"Found something that doesn't work like it should?"
 		""
 		"[\"We'd love to know so we can fix it! You can stop by to let us know on \", {\"text\": \"Discord\", \"color\": \"aqua\", \"underlined\": true, \"clickEvent\": {\"action\": \"open_url\", \"value\": \"https://discord.com/invite/X5UGvBs\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": [\"Open the Discord invite\"]} }, \" or by making a bug report on \", {\"text\": \"GitHub\", \"color\": \"light_purple\", \"underlined\": true, \"clickEvent\": {\"action\": \"open_url\", \"value\": \"https://github.com/FTBTeam/FTB-Modpack-Issues/issues\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": [\"Open the GitHub link\"]} }, \".\"]"
+		""
+		"Please &cdo not&r Force Complete quests in Editing Mode unless instructed to by a member of the &aFTB Team&f as it can completely break your pack progression."
 	]
 	quest.2B02D9425E19F560.title: "&fFound A Bug?"
 	quest.2B21D8D19E0413AC.quest_desc: ["The &cDead King&r can be found in the &aCatacombs&r with the &3Stone&r and &7Deepslate&r layers."]
