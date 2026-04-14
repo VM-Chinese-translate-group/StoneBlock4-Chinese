@@ -12,4 +12,4 @@ extraPackCustomIndex = 0
 [modInstallCheck]
 i18nUpdateMod = true
 vaultPatcher = false
-textureLocaleRedirector = true
+textureLocaleRedirector = false
