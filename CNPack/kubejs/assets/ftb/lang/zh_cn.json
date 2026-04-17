@@ -1053,7 +1053,7 @@
   "ftb.vaults.create_vault.final_chest": "宝库战利品箱",
   "ftb.vaults.create_vault.kill_skeleton": "击败凋灵骷髅\n以获取它的剑",
   "ftb.vaults.create_vault.note_block": "点击这个音符盒\n就能关闭鼓风机，\n以开启简单模式",
-  "ftb.vaults.create_vault.parkour_zone_invisible": "记住方块\n的放置位置。\n准备好后按下我",
+  "ftb.vaults.create_vault.parkour_zone_invisible": "Memorize the Stone\nBlocks to the left.\nPress me when ready",
   "ftb.vaults.create_vault.parkour_zone_snowball": "眼见不一定为实…\n使用雪球辨别真相",
   "ftb.vaults.create_vault.parkour_zone_wrench": "扳手也能\n让你固定在\n锁链传动轮上",
   "ftb.vaults.create_vault.reward_skip_button": "§7按下即可开门，但会跳过额外奖励",
