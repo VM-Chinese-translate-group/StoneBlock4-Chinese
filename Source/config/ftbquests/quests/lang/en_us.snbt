@@ -1376,7 +1376,9 @@
 		""
 		"Start by crafting some &cFire Clay&r and then smelting that into &4Fire Bricks&r. These will be used to build the structure of our &6Foundry&r."
 		""
-		"The &eBig Book of Metallurgy&r can show you how to set up a &6Foundry&r."
+		"The &aBig Book of Metallurgy&r can show you how to set up a &6Foundry&r."
+		""
+		"&eNote&r: The foundry has a maximum volume capacity of 200 blocks."
 	]
 	quest.1B8BB733ADF897FE.title: "&eProductive Metalworks &6Foundry"
 	quest.1BC994881BC225ED.quest_desc: [
