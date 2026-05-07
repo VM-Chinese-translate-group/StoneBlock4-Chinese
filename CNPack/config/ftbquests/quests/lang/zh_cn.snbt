@@ -1333,7 +1333,9 @@
 		""
 		"首先制作一些&c耐火粘土&r，然后将其冶炼成&4耐火砖块&r来搭建&6熔铸炉&r结构。"
 		""
-		"阅读这本&e冶金学百科全书&r，你可以大概知晓如何建造一个合格的&6熔铸炉&r。"
+		"阅读这本&a冶金学百科全书&r，你可以大概知晓如何建造一个合格的&6熔铸炉&r。"
+		""
+		"&eNote&r: The foundry has a maximum volume capacity of 200 blocks."
 	]
 	quest.1B8BB733ADF897FE.title: "&eProductive Metalworks&6熔铸炉"
 	quest.1BC994881BC225ED.quest_desc: [
