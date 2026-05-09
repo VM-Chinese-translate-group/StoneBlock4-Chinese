@@ -1335,7 +1335,7 @@
 		""
 		"阅读这本&a冶金学百科全书&r，你可以大概知晓如何建造一个合格的&6熔铸炉&r。"
 		""
-		"&eNote&r: The foundry has a maximum volume capacity of 200 blocks."
+		"&e注意&r：熔铸炉的最大容量为200个方块。"
 	]
 	quest.1B8BB733ADF897FE.title: "&eProductive Metalworks&6熔铸炉"
 	quest.1BC994881BC225ED.quest_desc: [
@@ -1352,7 +1352,7 @@
 	]
 	quest.1BF77D602FFDF292.title: "维度范围升级"
 	quest.1BFDE3507411C116.quest_desc: [
-		"你的&6熔铸炉需要一个&a控制器&r和一个&2储罐&r来控制熔铸炉和储存熔融的金属。"
+		"你的&6熔铸炉&r需要一个&a控制器&r和一个&2储罐&r来控制熔铸炉和储存熔融的金属。"
 		""
 		"当然，你还需要一个足够耐热的储罐来存放能够熔化金属的高温液体。"
 		""
