@@ -128,7 +128,7 @@
 			item: {
 				components: {
 					"apotheosis:affixes": { }
-					"minecraft:custom_name": "\"Slowpoke's Ultimate Balance\""
+					"minecraft:custom_name": "{\"translate\":\"item.ftb.slowpoke\"}"
 					"minecraft:enchantments": {
 						levels: {
 							"apothic_enchanting:knowledge_of_the_ages": 3
@@ -397,7 +397,7 @@
 			id: "1A2FC890065A2191"
 			item: {
 				components: {
-					"minecraft:custom_name": "\"The World Breaker\""
+					"minecraft:custom_name": "{\"translate\":\"item.ftb.the_world_breaker\"}"
 					"minecraft:enchantments": {
 						levels: {
 							"minecraft:efficiency": 5
