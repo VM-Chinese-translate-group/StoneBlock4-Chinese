@@ -1477,7 +1477,7 @@
 					id: "6249EC37A840C6A5"
 					item: {
 						components: {
-							"minecraft:custom_name": "\"磨损的末影拴绳\""
+							"minecraft:custom_name": "{\"translate\":\"item.ftb.worn_out_ender_lead\"}"
 							"minecraft:damage": 48
 						}
 						count: 1

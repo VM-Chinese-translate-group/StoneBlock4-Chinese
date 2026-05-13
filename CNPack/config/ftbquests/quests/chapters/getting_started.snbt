@@ -693,7 +693,7 @@
 					id: "568A955FED6B97A7"
 					item: {
 						components: {
-							"minecraft:custom_name": "\"失落的回响电芯\""
+							"minecraft:custom_name": "{\"translate\":\"item.ftb.lost_cell\"}"
 						}
 						count: 1
 						id: "tempad:chronon_cell"
