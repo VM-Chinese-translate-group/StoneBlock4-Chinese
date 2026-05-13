@@ -636,7 +636,7 @@
 					id: "568A955FED6B97A7"
 					item: {
 						components: {
-							"minecraft:custom_name": "\"Lost Cell of the Echoes\""
+							"minecraft:custom_name": "{\"translate\":\"item.ftb.lost_cell\"}"
 						}
 						count: 1
 						id: "tempad:chronon_cell"
