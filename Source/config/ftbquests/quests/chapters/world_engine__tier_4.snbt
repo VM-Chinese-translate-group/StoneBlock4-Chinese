@@ -168,6 +168,12 @@
 				}
 				{
 					auto: "invisible"
+					id: "3F66A8861E4C10F4"
+					stage: "echo_wyrmwright_meet"
+					type: "gamestage"
+				}
+				{
+					auto: "invisible"
 					command: "/ftbechoes progress player @s ftbechoes:t4_echo_wyrmwright set_stage 1"
 					id: "209BB23FBB66BFB5"
 					permission_level: 4
@@ -221,6 +227,12 @@
 					ignore_reward_blocking: true
 					stage: "echo_twilight_meet"
 					team_reward: true
+					type: "gamestage"
+				}
+				{
+					auto: "invisible"
+					id: "34A91A2E3B0E2900"
+					stage: "echo_twilight_meet"
 					type: "gamestage"
 				}
 				{
@@ -282,6 +294,12 @@
 				}
 				{
 					auto: "invisible"
+					id: "347166293B9217A9"
+					stage: "echo_ancient_meet"
+					type: "gamestage"
+				}
+				{
+					auto: "invisible"
 					command: "/ftbechoes progress player @s ftbechoes:t4_echo_ancient set_stage 1"
 					id: "3EB9BA0B8FCC800A"
 					permission_level: 4
@@ -336,6 +354,12 @@
 					team_reward: true
 					type: "gamestage"
 				}
+				{
+					auto: "invisible"
+					id: "68B9A2C1493C507C"
+					stage: "echo_ancient_stage4_task1_completed"
+					type: "gamestage"
+				}
 			]
 			shape: "gear"
 			size: 1.5d
@@ -375,6 +399,12 @@
 					id: "4944B155B00A45EB"
 					stage: "echo_wyrmwright_stage4_task1_completed"
 					team_reward: true
+					type: "gamestage"
+				}
+				{
+					auto: "invisible"
+					id: "50F5FA1C459ED5E6"
+					stage: "echo_wyrmwright_stage4_task1_completed"
 					type: "gamestage"
 				}
 				{
@@ -433,6 +463,12 @@
 					team_reward: true
 					type: "gamestage"
 				}
+				{
+					auto: "invisible"
+					id: "4257ECB9B7879E13"
+					stage: "echo_wyrmwright_stage4_task2_completed"
+					type: "gamestage"
+				}
 			]
 			shape: "gear"
 			size: 1.5d
@@ -479,6 +515,12 @@
 					ignore_reward_blocking: true
 					stage: "tf_unlock_yeti"
 					team_reward: true
+					type: "gamestage"
+				}
+				{
+					auto: "invisible"
+					id: "014354DE5651DB42"
+					stage: "tf_unlock_yeti"
 					type: "gamestage"
 				}
 			]
@@ -573,6 +615,12 @@
 					id: "7E30AAA334E6F012"
 					stage: "echo_wyrmwright_stage5_task1_completed"
 					team_reward: true
+					type: "gamestage"
+				}
+				{
+					auto: "invisible"
+					id: "7395A20F8D790AC9"
+					stage: "echo_wyrmwright_stage5_task1_completed"
 					type: "gamestage"
 				}
 			]
@@ -777,9 +825,21 @@
 				}
 				{
 					auto: "invisible"
+					id: "5C185D714CBC4E03"
+					stage: "tf_unlock_snow"
+					type: "gamestage"
+				}
+				{
+					auto: "invisible"
 					id: "64B881CEAB018CF5"
 					stage: "tf_unlock_hydra"
 					team_reward: true
+					type: "gamestage"
+				}
+				{
+					auto: "invisible"
+					id: "735E93D981FC4AD9"
+					stage: "tf_unlock_hydra"
 					type: "gamestage"
 				}
 			]
@@ -888,6 +948,12 @@
 					id: "64330F5382A0CDD0"
 					stage: "echo_twilight_stage4_task1_completed"
 					team_reward: true
+					type: "gamestage"
+				}
+				{
+					auto: "invisible"
+					id: "280452FD037A8940"
+					stage: "echo_twilight_stage4_task1_completed"
 					type: "gamestage"
 				}
 				{
