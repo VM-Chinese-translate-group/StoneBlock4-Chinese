@@ -525,6 +525,12 @@
 					team_reward: true
 					type: "gamestage"
 				}
+				{
+					auto: "invisible"
+					id: "088FED300153B019"
+					stage: "echo_guidance_stage1_task3_completed"
+					type: "gamestage"
+				}
 			]
 			shape: "gear"
 			size: 1.5d
@@ -725,10 +731,22 @@
 				}
 				{
 					auto: "invisible"
+					id: "4D51838BBD20CB44"
+					stage: "home_unlocked"
+					type: "gamestage"
+				}
+				{
+					auto: "invisible"
 					id: "2EE0369071462EAC"
 					ignore_reward_blocking: true
 					stage: "echo_guidance_stage1_task2_completed"
 					team_reward: true
+					type: "gamestage"
+				}
+				{
+					auto: "invisible"
+					id: "044FB94ADA3273DB"
+					stage: "echo_guidance_stage1_task2_completed"
 					type: "gamestage"
 				}
 			]
@@ -1070,6 +1088,12 @@
 					ignore_reward_blocking: true
 					stage: "echo_guidance_stage1_task1_completed"
 					team_reward: true
+					type: "gamestage"
+				}
+				{
+					auto: "invisible"
+					id: "5E257F916005847B"
+					stage: "echo_guidance_stage1_task1_completed"
 					type: "gamestage"
 				}
 			]

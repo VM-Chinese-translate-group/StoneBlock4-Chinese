@@ -1397,10 +1397,22 @@
 				}
 				{
 					auto: "invisible"
+					id: "03D10D0BDF16813B"
+					stage: "echo_guidance_interact"
+					type: "gamestage"
+				}
+				{
+					auto: "invisible"
 					id: "4C656BD1CB90E7CF"
 					ignore_reward_blocking: true
 					stage: "parkour_vault"
 					team_reward: true
+					type: "gamestage"
+				}
+				{
+					auto: "invisible"
+					id: "4D852A05CED287CC"
+					stage: "parkour_vault"
 					type: "gamestage"
 				}
 			]
@@ -1564,6 +1576,14 @@
 				}
 				{
 					auto: "invisible"
+					id: "610F850F99E196E5"
+					ignore_reward_blocking: true
+					stage: "echo_guidance_stage1_task3_check"
+					team_reward: true
+					type: "gamestage"
+				}
+				{
+					auto: "invisible"
 					id: "54AB85D51F44A456"
 					type: "xp"
 					xp: 1
@@ -1576,10 +1596,20 @@
 				}
 				{
 					auto: "invisible"
-					id: "610F850F99E196E5"
-					ignore_reward_blocking: true
-					stage: "echo_guidance_stage1_task3_check"
-					team_reward: true
+					id: "0A852D7266C90944"
+					stage: "echo_quartermaster_unlock"
+					type: "gamestage"
+				}
+				{
+					auto: "invisible"
+					id: "4021F1772DA0BE20"
+					stage: "echo_magician_unlock"
+					type: "gamestage"
+				}
+				{
+					auto: "invisible"
+					id: "4C2D9D6166BC69B1"
+					stage: "echo_machinist_unlock"
 					type: "gamestage"
 				}
 			]
@@ -1724,6 +1754,20 @@
 					silent: true
 					type: "command"
 				}
+				{
+					auto: "invisible"
+					id: "10EADE7823B96F74"
+					stage: "echo_machinist_stage1_task1_check"
+					type: "gamestage"
+				}
+				{
+					auto: "invisible"
+					id: "3CF1FDC306CA20E6"
+					ignore_reward_blocking: true
+					stage: "echo_machinist_stage1_task1_check"
+					team_reward: true
+					type: "gamestage"
+				}
 			]
 			tasks: [{
 				id: "3D0D830FB254A606"
@@ -1741,6 +1785,22 @@
 			]
 			disable_toast: true
 			id: "78D488A506FD3EB8"
+			rewards: [
+				{
+					auto: "invisible"
+					id: "102B3C558011FB56"
+					stage: "echo_machinist_stage1_task2_check"
+					type: "gamestage"
+				}
+				{
+					auto: "invisible"
+					id: "31156E8180313859"
+					ignore_reward_blocking: true
+					stage: "echo_machinist_stage1_task2_check"
+					team_reward: true
+					type: "gamestage"
+				}
+			]
 			tasks: [{
 				id: "3AB95366D8408D00"
 				stage: "echo_machinist_stage1_task2_check"
@@ -1944,6 +2004,20 @@
 					auto: "invisible"
 					id: "32A6EFE53A3C286C"
 					stage: "echo_wayfinder_unlock"
+					type: "gamestage"
+				}
+				{
+					auto: "invisible"
+					id: "3A27D1EC73536296"
+					stage: "echo_guidance_stage1_final_check"
+					type: "gamestage"
+				}
+				{
+					auto: "invisible"
+					id: "7FF47F673DF955EF"
+					ignore_reward_blocking: true
+					stage: "echo_guidance_stage1_final_check"
+					team_reward: true
 					type: "gamestage"
 				}
 			]
@@ -2194,6 +2268,20 @@
 					auto: "invisible"
 					id: "293342AC2E581278"
 					stage: "echo_light_bender_unlock"
+					type: "gamestage"
+				}
+				{
+					auto: "invisible"
+					id: "28C6536C75C3FE17"
+					stage: "echo_guidance_stage2_task1_check"
+					type: "gamestage"
+				}
+				{
+					auto: "invisible"
+					id: "7FA690B1D091507B"
+					ignore_reward_blocking: true
+					stage: "echo_guidance_stage2_task1_check"
+					team_reward: true
 					type: "gamestage"
 				}
 			]
@@ -2688,14 +2776,22 @@
 				"2AB07DEF9E14C784"
 			]
 			id: "106A9E7AD6051D8C"
-			rewards: [{
-				auto: "invisible"
-				id: "615C1FD5DD4A9ED7"
-				ignore_reward_blocking: true
-				stage: "echo_guidance_stage3_task1_completed"
-				team_reward: true
-				type: "gamestage"
-			}]
+			rewards: [
+				{
+					auto: "invisible"
+					id: "615C1FD5DD4A9ED7"
+					ignore_reward_blocking: true
+					stage: "echo_guidance_stage3_task1_completed"
+					team_reward: true
+					type: "gamestage"
+				}
+				{
+					auto: "invisible"
+					id: "369AF7A4FADB24C5"
+					stage: "echo_guidance_stage3_task1_completed"
+					type: "gamestage"
+				}
+			]
 			tasks: [
 				{
 					id: "75E2655468661DCB"
@@ -2852,6 +2948,20 @@
 					auto: "invisible"
 					id: "7DF859CAD7FB01F2"
 					stage: "echo_twilight_ancients_unlock"
+					type: "gamestage"
+				}
+				{
+					auto: "invisible"
+					id: "35FEA80FFCD47F7D"
+					stage: "echo_guidance_stage3_task1_check"
+					type: "gamestage"
+				}
+				{
+					auto: "invisible"
+					id: "20E39D831A94BCC5"
+					ignore_reward_blocking: true
+					stage: "echo_guidance_stage3_task1_check"
+					team_reward: true
 					type: "gamestage"
 				}
 			]
@@ -3758,13 +3868,22 @@
 		}
 		{
 			id: "278020FDAF7E0E21"
-			rewards: [{
-				auto: "invisible"
-				id: "210EF0F44F7C23E4"
-				stage: "tf_unlock_knight"
-				team_reward: true
-				type: "gamestage"
-			}]
+			rewards: [
+				{
+					auto: "invisible"
+					id: "210EF0F44F7C23E4"
+					ignore_reward_blocking: true
+					stage: "tf_unlock_knight"
+					team_reward: true
+					type: "gamestage"
+				}
+				{
+					auto: "invisible"
+					id: "33B1ADA33ADD4ECE"
+					stage: "tf_unlock_knight"
+					type: "gamestage"
+				}
+			]
 			tasks: [
 				{
 					id: "5E655D1BC55E3C2A"

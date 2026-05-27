@@ -176,6 +176,12 @@
 					team_reward: true
 					type: "gamestage"
 				}
+				{
+					auto: "invisible"
+					id: "6A7BA16914796859"
+					stage: "echo_chaos_meet"
+					type: "gamestage"
+				}
 			]
 			shape: "gear"
 			size: 1.5d
@@ -214,6 +220,12 @@
 					ignore_reward_blocking: true
 					stage: "echo_radiance_meet"
 					team_reward: true
+					type: "gamestage"
+				}
+				{
+					auto: "invisible"
+					id: "6709908F916AC8C6"
+					stage: "echo_radiance_meet"
 					type: "gamestage"
 				}
 			]
@@ -261,6 +273,12 @@
 					team_reward: true
 					type: "gamestage"
 				}
+				{
+					auto: "invisible"
+					id: "21DDB60B3ABF350C"
+					stage: "echo_infinity_meet"
+					type: "gamestage"
+				}
 			]
 			shape: "gear"
 			size: 1.5d
@@ -300,6 +318,12 @@
 					id: "46773D44807FE793"
 					stage: "echo_radiance_stage5_task1_completed"
 					team_reward: true
+					type: "gamestage"
+				}
+				{
+					auto: "invisible"
+					id: "2638BEFF007BEA37"
+					stage: "echo_radiance_stage5_task1_completed"
 					type: "gamestage"
 				}
 				{
@@ -349,6 +373,12 @@
 					id: "526B386362F93EAF"
 					stage: "echo_infinity_stage5_task1_completed"
 					team_reward: true
+					type: "gamestage"
+				}
+				{
+					auto: "invisible"
+					id: "1784B379F544F9C9"
+					stage: "echo_infinity_stage5_task1_completed"
 					type: "gamestage"
 				}
 				{
@@ -586,6 +616,12 @@
 					id: "54FFDFFA1DE48481"
 					stage: "echo_chaos_stage5_task1_completed"
 					team_reward: true
+					type: "gamestage"
+				}
+				{
+					auto: "invisible"
+					id: "16E8A6090AF77144"
+					stage: "echo_chaos_stage5_task1_completed"
 					type: "gamestage"
 				}
 				{
@@ -1008,6 +1044,12 @@
 					team_reward: true
 					type: "gamestage"
 				}
+				{
+					auto: "invisible"
+					id: "167A7B221643CD8D"
+					stage: "echo_wyrmwright_stage5_task2_completed"
+					type: "gamestage"
+				}
 			]
 			shape: "hexagon"
 			size: 1.5d
@@ -1053,9 +1095,21 @@
 				}
 				{
 					auto: "invisible"
+					id: "0B8E87450A4AA687"
+					stage: "echo_guidance_stage4_task2_completed"
+					type: "gamestage"
+				}
+				{
+					auto: "invisible"
 					id: "113498AAC7D77969"
 					stage: "t5_zone_unlocked"
 					team_reward: true
+					type: "gamestage"
+				}
+				{
+					auto: "invisible"
+					id: "1B7A4AA1CAC99432"
+					stage: "t5_zone_unlocked"
 					type: "gamestage"
 				}
 			]

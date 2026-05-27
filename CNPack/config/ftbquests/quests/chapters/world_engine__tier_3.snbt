@@ -164,6 +164,12 @@
 				}
 				{
 					auto: "invisible"
+					id: "223F0B8AB824E5E8"
+					stage: "echo_infernal_meet"
+					type: "gamestage"
+				}
+				{
+					auto: "invisible"
 					command: "/ftbechoes progress player @s ftbechoes:t3_echo_infernal set_stage 1"
 					id: "3434D88DFDA76769"
 					permission_level: 4
@@ -214,6 +220,12 @@
 					ignore_reward_blocking: true
 					stage: "echo_catalyst_meet"
 					team_reward: true
+					type: "gamestage"
+				}
+				{
+					auto: "invisible"
+					id: "67B07E14ECE7A6E2"
+					stage: "echo_catalyst_meet"
 					type: "gamestage"
 				}
 				{
@@ -275,6 +287,12 @@
 				}
 				{
 					auto: "invisible"
+					id: "615289BF5CD247EC"
+					stage: "echo_light_bender_meet"
+					type: "gamestage"
+				}
+				{
+					auto: "invisible"
 					command: "/ftbechoes progress player @s ftbechoes:t3_echo_light_bender set_stage 1"
 					id: "71217703AD796663"
 					permission_level: 4
@@ -318,6 +336,12 @@
 					ignore_reward_blocking: true
 					stage: "echo_light_bender_stage3_task1_completed"
 					team_reward: true
+					type: "gamestage"
+				}
+				{
+					auto: "invisible"
+					id: "4B053ADA08C9431E"
+					stage: "echo_light_bender_stage3_task1_completed"
 					type: "gamestage"
 				}
 				{
@@ -365,6 +389,12 @@
 					ignore_reward_blocking: true
 					stage: "echo_infernal_stage3_task1_completed"
 					team_reward: true
+					type: "gamestage"
+				}
+				{
+					auto: "invisible"
+					id: "57BFEADDB855A700"
+					stage: "echo_infernal_stage3_task1_completed"
 					type: "gamestage"
 				}
 			]
@@ -417,6 +447,12 @@
 					ignore_reward_blocking: true
 					stage: "echo_catalyst_stage3_task2_completed"
 					team_reward: true
+					type: "gamestage"
+				}
+				{
+					auto: "invisible"
+					id: "6270A39084D3FD5E"
+					stage: "echo_catalyst_stage3_task2_completed"
 					type: "gamestage"
 				}
 			]
@@ -550,6 +586,12 @@
 					team_reward: true
 					type: "gamestage"
 				}
+				{
+					auto: "invisible"
+					id: "075BC070906454EB"
+					stage: "echo_catalyst_stage3_task3_completed"
+					type: "gamestage"
+				}
 			]
 			shape: "gear"
 			size: 1.5d
@@ -577,10 +619,7 @@
 			hide_dependent_lines: true
 			hide_until_deps_complete: true
 			icon: {
-				components: {
-					"ftbquests:icon": "ftb:block/engine/resonant_void"
-				}
-				id: "ftbquests:custom_icon"
+				id: "ftb:resonant_void"
 			}
 			id: "3DCD6DC36B31EEF4"
 			min_required_dependencies: 3
@@ -733,6 +772,12 @@
 					ignore_reward_blocking: true
 					stage: "echo_catalyst_stage3_task1_completed"
 					team_reward: true
+					type: "gamestage"
+				}
+				{
+					auto: "invisible"
+					id: "5728449780B74202"
+					stage: "echo_catalyst_stage3_task1_completed"
 					type: "gamestage"
 				}
 				{
@@ -1161,6 +1206,12 @@
 					ignore_reward_blocking: true
 					stage: "echo_light_bender_stage3_task2_completed"
 					team_reward: true
+					type: "gamestage"
+				}
+				{
+					auto: "invisible"
+					id: "4128EEE4A47D6B04"
+					stage: "echo_light_bender_stage3_task2_completed"
 					type: "gamestage"
 				}
 			]
