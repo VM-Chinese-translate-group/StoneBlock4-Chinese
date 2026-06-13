@@ -478,6 +478,7 @@
 					id: "ftbquests:custom_icon"
 				}
 				id: "149EDD07DA46D40F"
+				observation_type: "entity_type"
 				observe_type: 5
 				timer: 0L
 				to_observe: "minecraft:villager"
@@ -601,6 +602,7 @@
 						id: "custommachinery:custom_machine_item"
 					}
 					id: "6F63CD417D16DE7F"
+					observation_type: "block"
 					observe_type: 0
 					timer: 0L
 					to_observe: "custommachinery:custom_machine_block"
@@ -656,6 +658,7 @@
 						id: "minecraft:grass_block"
 					}
 					id: "45C3B788492E3C09"
+					observation_type: "block"
 					observe_type: 0
 					timer: 0L
 					to_observe: "minecraft:grass_block"

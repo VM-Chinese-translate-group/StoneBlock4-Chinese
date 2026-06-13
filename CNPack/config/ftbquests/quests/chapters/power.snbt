@@ -722,6 +722,7 @@
 						id: "immersiveengineering:diesel_generator"
 					}
 					id: "4C37818287E9D1ED"
+					observation_type: "block"
 					observe_type: 0
 					timer: 0L
 					to_observe: "immersiveengineering:diesel_generator"

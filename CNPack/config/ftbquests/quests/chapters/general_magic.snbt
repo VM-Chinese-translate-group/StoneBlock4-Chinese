@@ -799,6 +799,7 @@
 						id: "occultism:spirit_fire"
 					}
 					id: "430EE5142BF4D3CF"
+					observation_type: "block"
 					observe_type: 0
 					timer: 0L
 					to_observe: "occultism:spirit_fire"
@@ -2243,6 +2244,7 @@
 						id: "malum:void_depot"
 					}
 					id: "58BEE5F1435F017A"
+					observation_type: "block"
 					observe_type: 0
 					optional_task: true
 					timer: 0L
@@ -2433,6 +2435,7 @@
 						id: "ftbquests:custom_icon"
 					}
 					id: "2BAEE4414B32E48E"
+					observation_type: "entity_type"
 					observe_type: 5
 					timer: 0L
 					to_observe: "occultism:foliot"
