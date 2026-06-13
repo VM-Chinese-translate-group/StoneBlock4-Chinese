@@ -466,6 +466,7 @@
 						id: "immersiveengineering:coke_oven"
 					}
 					id: "616ED86B19DC0FFB"
+					observation_type: "block"
 					observe_type: 0
 					timer: 0L
 					to_observe: "immersiveengineering:coke_oven"
@@ -1429,6 +1430,7 @@
 						id: "immersiveengineering:alloy_smelter"
 					}
 					id: "01C396395A09E9AD"
+					observation_type: "block"
 					observe_type: 0
 					optional_task: true
 					timer: 0L
@@ -1458,6 +1460,7 @@
 						id: "immersiveengineering:crusher"
 					}
 					id: "4750B6095A6DC2F2"
+					observation_type: "block"
 					observe_type: 0
 					timer: 0L
 					to_observe: "immersiveengineering:crusher"
@@ -1527,6 +1530,7 @@
 						id: "immersiveengineering:arc_furnace"
 					}
 					id: "4A0037264C36EBE1"
+					observation_type: "block"
 					observe_type: 0
 					timer: 0L
 					to_observe: "immersiveengineering:arc_furnace"
@@ -2030,6 +2034,7 @@
 						id: "cognition:infected_bookshelf"
 					}
 					id: "1359EB00772FEB8A"
+					observation_type: "block"
 					observe_type: 0
 					timer: 0L
 					to_observe: "cognition:infected_bookshelf"

@@ -465,6 +465,7 @@
 					id: "minecraft:deepslate"
 				}
 				id: "159400992FB94254"
+				observation_type: "block"
 				observe_type: 0
 				timer: 0L
 				to_observe: "minecraft:deepslate"
