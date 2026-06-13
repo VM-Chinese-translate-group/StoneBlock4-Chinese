@@ -533,6 +533,7 @@
 						id: "ftbquests:custom_icon"
 					}
 					id: "268850BC9199AE77"
+					observation_type: "entity_type"
 					observe_type: 5
 					timer: 0L
 					to_observe: "moofluids:fluid_cow"
