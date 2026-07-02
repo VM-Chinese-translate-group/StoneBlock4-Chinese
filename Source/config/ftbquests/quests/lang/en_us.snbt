@@ -577,11 +577,6 @@
 	quest.0ADBBF7BA99D2811.quest_desc: ["&eActually Additions' &aAll-In-One-Tools&r are handy additions to save you hotbar space, as they act as every tool at once!"]
 	quest.0ADBBF7BA99D2811.title: "&fAll In One Tools"
 	quest.0AFA74FA77E9056B.title: "Ocean South"
-	quest.0AFF8E28FC51B123.quest_desc: [
-		"Need to swap two simple blocks with as little hassle as possible? Try the &cSwapper Wand&r!"
-		""
-		"Need to grab a block and place it somewhere else with as little hassle as possible? Try the Picker Wand!"
-	]
 	quest.0B02B72259362345.quest_desc: ["Claiming this quest reward will set a waypoint at the &dEcho's &6Archive&r entrance."]
 	quest.0B02B72259362345.title: "&fLocating &dThe Fabricator"
 	quest.0B1E459D12D11A0D.quest_desc: [
@@ -2713,6 +2708,17 @@
 	quest.376227602F2E3DA4.title: "&zTime Crystals&r"
 	quest.37A6FBA47B056D57.title: "Shadow Casing Trade"
 	quest.37CC00D0136EFDAE.title: "Guidance Check 4.1"
+	quest.37F6FA6FD524AB9F.quest_desc: [
+		"The &6Data Center&f multiblock is a 7x7x7 structure that runs up to 25 &zSelf Aware&r data models at the same time."
+		""
+		"The multiblock is built with a 7x7 &dObsidian&r platform at the bottom and &aBlack Stained Glass&r walls, leaving the interior hollow. Then, the &6Data Center&r block and 3 &bIO Ports&r must be placed on the outer bottom layer, each configured to a different mode: Energy, Inputs, Outputs."
+		""
+		"You can optionally add a fourth Port confiured to Models for automatic input of data models, but this is not required."
+		""
+		"If built correctly, a blue outline will display around the multiblock, otherwise you can clikc the main &6Data Model&f block for more details."
+		""
+		"[\"You can also check out the \", {\"text\": \"Data Center GuideMe\", \"underlined\": true, \"color\": \"aqua\", \"clickEvent\": {\"action\": \"run_command\", \"value\": \"/guidemec hostilenetworks:guide open\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Open Data Center GuideMe\"}}, \", for an example structure.\"]"
+	]
 	quest.37F99696A47264FD.quest_desc: ["This chapter is all about teaching you some of the different ways to craft, enhance, and enchant any gear you might need on your adventures!"]
 	quest.37F99696A47264FD.title: "&fGearing Up For Adventure!"
 	quest.38124EBC1E14AB38.quest_desc: [
@@ -4801,7 +4807,13 @@
 		""
 		"If the simulation fails, you'll get a &bGeneralized Prediction&r. If it succeeds, you'll get that mob's &6Prediction&r."
 		""
+		"{@pagebreak}"
+		""
+		"The &aSimulation Chamber&f has two modes: &2Training Mode&f runs simulations that upgrade the model's data and &dInference Mode&r produces predictions, but doesn't upgrade the model."
+		""
 		"This &6Prediction&r can be run through a &dLoot Fabricator&r to create loot!"
+		""
+		"You can also switch the &dLoot Fabricator&f to &2Queue Mode&r, which lets you cycle through a list of outputs instead of producing only one fixed drop."
 	]
 	quest.60BBE214131DF6EB.title: "Simulating Loot"
 	quest.60C650264AA5525D.quest_desc: [
@@ -7023,7 +7035,6 @@
 	task.63C4D2F3F7059C8E.title: "Backpack Pickup Upgrades"
 	task.63FA6779F7687346.title: "Get Compass"
 	task.6405640824417BB2.title: "Echo-Location"
-	task.64439911825F80B2.title: "Block Wands"
 	task.64AB5234ED7B0BDC.title: "Portal Vault"
 	task.64B290466E13BE30.title: "Speak with the &dEcho of The Wyrmwright"
 	task.651313A5A837BB13.title: "&7Echo Unlock Magician"
