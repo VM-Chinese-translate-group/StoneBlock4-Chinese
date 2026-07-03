@@ -1550,7 +1550,7 @@
 					type: "item"
 				}
 			]
-			x: -4.5d
+			x: -5.5d
 			y: -3.5d
 		}
 		{
@@ -1738,6 +1738,60 @@
 			}]
 			x: 7.0d
 			y: 5.0d
+		}
+		{
+			dependencies: ["60BBE214131DF6EB"]
+			icon: {
+				id: "hostilenetworks:data_center_io_port"
+			}
+			id: "37F6FA6FD524AB9F"
+			min_width: 350
+			rewards: [{
+				amount: 50
+				id: "7CFF9F35DC1CF6BF"
+				type: "currency"
+			}]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [
+				{
+					id: "060DC4E1800FCD4B"
+					item: {
+						count: 1
+						id: "hostilenetworks:data_center"
+					}
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "734B721E2353C71F"
+					item: {
+						count: 1
+						id: "hostilenetworks:data_center_io_port"
+					}
+					type: "item"
+				}
+				{
+					count: 49L
+					id: "121C175C0254F82B"
+					item: {
+						count: 1
+						id: "minecraft:obsidian"
+					}
+					type: "item"
+				}
+				{
+					count: 165L
+					id: "50CEE67B4607C3E7"
+					item: {
+						count: 1
+						id: "minecraft:black_stained_glass"
+					}
+					type: "item"
+				}
+			]
+			x: -4.5d
+			y: -3.5d
 		}
 	]
 }

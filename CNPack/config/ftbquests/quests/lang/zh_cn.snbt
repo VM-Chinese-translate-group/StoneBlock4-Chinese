@@ -560,11 +560,6 @@
 	quest.0ADBBF7BA99D2811.quest_desc: ["&e实用拓展&r模组的&a全能工具&r拥有所有种类工具的功能，可以大大节省你快捷栏的空间！"]
 	quest.0ADBBF7BA99D2811.title: "&f全能工具"
 	quest.0AFA74FA77E9056B.title: "Ocean South"
-	quest.0AFF8E28FC51B123.quest_desc: [
-		"想要轻松省事地交换两个普通方块吗？快来试试&c替换手杖&r吧！"
-		""
-		"想要轻松省事地将一个方块从一处搬到另一处吗？快来试试&c拾取手杖&r吧！"
-	]
 	quest.0B02B72259362345.quest_desc: ["领取此任务奖励将在&d回响&6档案室&r入口处设置一个路径点。"]
 	quest.0B02B72259362345.title: "&f定位&d构件师"
 	quest.0B1E459D12D11A0D.quest_desc: [
@@ -2621,6 +2616,17 @@
 	quest.376227602F2E3DA4.title: "&z时间水晶&r"
 	quest.37A6FBA47B056D57.title: "暗影机壳交易"
 	quest.37CC00D0136EFDAE.title: "Guidance Check 4.1"
+	quest.37F6FA6FD524AB9F.quest_desc: [
+		"The &6Data Center&f multiblock is a 7x7x7 structure that runs up to 25 &zSelf Aware&r data models at the same time."
+		""
+		"The multiblock is built with a 7x7 &dObsidian&r platform at the bottom and &aBlack Stained Glass&r walls, leaving the interior hollow. Then, the &6Data Center&r block and 3 &bIO Ports&r must be placed on the outer bottom layer, each configured to a different mode: Energy, Inputs, Outputs."
+		""
+		"You can optionally add a fourth Port confiured to Models for automatic input of data models, but this is not required."
+		""
+		"If built correctly, a blue outline will display around the multiblock, otherwise you can clikc the main &6Data Model&f block for more details."
+		""
+		"[\"You can also check out the \", {\"text\": \"Data Center GuideMe\", \"underlined\": true, \"color\": \"aqua\", \"clickEvent\": {\"action\": \"run_command\", \"value\": \"/guidemec hostilenetworks:guide open\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Open Data Center GuideMe\"}}, \", for an example structure.\"]"
+	]
 	quest.37F99696A47264FD.quest_desc: ["本章节旨在教你一些打造、强化、附魔装备的方式，以备探险使用！"]
 	quest.37F99696A47264FD.title: "&f穿戴整齐，出门探险！"
 	quest.38124EBC1E14AB38.quest_desc: [
@@ -4671,7 +4677,13 @@
 		""
 		"如果模拟失败，你就会获得&b通用预测产物&r；而模拟成功时，就能获得对应生物的&6预测产物&r。"
 		""
-		"&6预测产物&r可以在&d战利品制造器&r内运行以获取掉落物。"
+		"{@pagebreak}"
+		""
+		"The &aSimulation Chamber&f has two modes: &2Training Mode&f runs simulations that upgrade the model's data and &dInference Mode&r produces predictions, but doesn't upgrade the model."
+		""
+		"This &6Prediction&r can be run through a &dLoot Fabricator&r to create loot!"
+		""
+		"You can also switch the &dLoot Fabricator&f to &2Queue Mode&r, which lets you cycle through a list of outputs instead of producing only one fixed drop."
 	]
 	quest.60BBE214131DF6EB.title: "模拟掉落"
 	quest.60C650264AA5525D.quest_desc: [
@@ -6590,7 +6602,6 @@
 	task.6347BBAD2ED20F25.title: "&e击杀&f：僵尸x20"
 	task.63C4D2F3F7059C8E.title: "背包拾取升级"
 	task.63FA6779F7687346.title: "获得指南针"
-	task.64439911825F80B2.title: "方块手杖"
 	task.64B290466E13BE30.title: "与&d飞龙匠人的回响&r对话"
 	task.655EA10D763BC971.title: "&e发现&f：&d附魔师"
 	task.6686A02C1B8BCACB.title: "一个象牙白或乌金CAD"
