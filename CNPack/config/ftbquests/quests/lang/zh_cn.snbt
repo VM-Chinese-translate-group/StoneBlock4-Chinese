@@ -2617,15 +2617,15 @@
 	quest.37A6FBA47B056D57.title: "暗影机壳交易"
 	quest.37CC00D0136EFDAE.title: "Guidance Check 4.1"
 	quest.37F6FA6FD524AB9F.quest_desc: [
-		"The &6Data Center&f multiblock is a 7x7x7 structure that runs up to 25 &zSelf Aware&r data models at the same time."
+		"&6数据中心&f多方块结构尺寸为7x7x7，最多可同时运行25个&z自我意识&r级数据模型。"
 		""
-		"The multiblock is built with a 7x7 &dObsidian&r platform at the bottom and &aBlack Stained Glass&r walls, leaving the interior hollow. Then, the &6Data Center&r block and 3 &bIO Ports&r must be placed on the outer bottom layer, each configured to a different mode: Energy, Inputs, Outputs."
+		"结构底部由7x7的&d黑曜石&r平台构成，墙体使用&a黑色染色玻璃&r搭建，内部需保持中空。随后，必须在底部最外层放置&6数据中心&r方块和3个&bIO端口&r，且分别配置为不同的模式：能量、输入、输出。"
 		""
-		"You can optionally add a fourth Port confiured to Models for automatic input of data models, but this is not required."
+		"你还可以自行选择添加第4个配置为模型模式的端口，以便自动输入数据模型，但这并非必需。"
 		""
-		"If built correctly, a blue outline will display around the multiblock, otherwise you can clikc the main &6Data Model&f block for more details."
+		"如果搭建正确，多方块结构周围会显示出蓝色轮廓；否则，你可以点击&6数据模型&f主方块来查看详细信息。"
 		""
-		"[\"You can also check out the \", {\"text\": \"Data Center GuideMe\", \"underlined\": true, \"color\": \"aqua\", \"clickEvent\": {\"action\": \"run_command\", \"value\": \"/guidemec hostilenetworks:guide open\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Open Data Center GuideMe\"}}, \", for an example structure.\"]"
+		"[\"你也可以查看\", {\"text\": \"数据中心GuideMe指南\", \"underlined\": true, \"color\": \"aqua\", \"clickEvent\": {\"action\": \"run_command\", \"value\": \"/guidemec hostilenetworks:guide open\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"打开数据中心GuideMe指南\"}}, \"来参考搭建示例。\"]"
 	]
 	quest.37F99696A47264FD.quest_desc: ["本章节旨在教你一些打造、强化、附魔装备的方式，以备探险使用！"]
 	quest.37F99696A47264FD.title: "&f穿戴整齐，出门探险！"
@@ -2704,7 +2704,7 @@
 	]
 	quest.3917A0EC517F70E6.title: "&f自动建造&3魔源升级"
 	quest.39751E377C0F22EE.quest_desc: [
-		"&a复制终端&r允许你请求被复制的物品。"
+		"&a复制终端&r让你能请求被复制的物品。"
 		""
 		"终端将会显示你在网络中&d存储芯片&r储存的物品，同时也会在右侧显示&a物质储罐&r中储存的物质总量。"
 	]
@@ -4679,11 +4679,11 @@
 		""
 		"{@pagebreak}"
 		""
-		"The &aSimulation Chamber&f has two modes: &2Training Mode&f runs simulations that upgrade the model's data and &dInference Mode&r produces predictions, but doesn't upgrade the model."
+		"&a模拟室&f有两种工作模式：&2训练模式&f通过运行模拟来升级数据模型，而&d推理模式&r仅产出预测产物，在此模式下无法升级模型。"
 		""
-		"This &6Prediction&r can be run through a &dLoot Fabricator&r to create loot!"
+		"这种&6预测产物&r可送入&d战利品制造器&r中，用以制造出各种战利品！"
 		""
-		"You can also switch the &dLoot Fabricator&f to &2Queue Mode&r, which lets you cycle through a list of outputs instead of producing only one fixed drop."
+		"你还可以将&d战利品制造器&f切换至&2队列模式&r，这样就能轮流循环生产一系列不同的产物，而不再局限于只产出单一的固定掉落物。"
 	]
 	quest.60BBE214131DF6EB.title: "模拟掉落"
 	quest.60C650264AA5525D.quest_desc: [
