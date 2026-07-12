@@ -31,6 +31,7 @@ item_ids:
 
 <Column alignItems="center" fullWidth={true}>
 ## [了解基础知识](oritech:items/the_basics.md)
+## [自动化配方](oritech:items/automating_recipes.md)
 </Column>
 
 
