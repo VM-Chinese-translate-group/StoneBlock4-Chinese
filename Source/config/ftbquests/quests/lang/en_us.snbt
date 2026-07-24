@@ -59,7 +59,7 @@
 	quest.00A7C1FE54F86429.quest_desc: [
 		"&eApotheosis&r overhauls the vanilla enchanting system with three new values, allowing for high-level enchants with upgradable progression. You will want to manage these values as you progress through upgrading your enchanting setup:"
 		""
-		"&aEterna&r: The power of the enchanting table, capped based on the tier of your bookshelves. This stat determines the maximum level of enchants."
+		"[\"\", {\"text\": \"Eterna\", \"color\": \"green\"}, \": The power of the enchanting table, capped based on the tier of your bookshelves as well as your \", { \"text\": \"World Tier\", \"color\": \"aqua\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"011DBD2652E49B97\" }, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Go to World Tiers Quest\"} }, \". This stat determines the maximum level of enchants.\" ]"
 		""
 		"&cQuanta&r: The chaos inherent when enchanting at higher power. This determines the randomness of enchants."
 		""
@@ -77,29 +77,11 @@
 		"By itself, this allows you to burn items like coal or wood to generate power depending on the tier of furnace you have. You can couple this generator with a &aBlasting Augment&r to allow you to burn metals like Iron or Diamond for even more power."
 	]
 	quest.011DBD2652E49B97.quest_desc: [
-		"&6Apotheosis&r has a new &bWorld Tier&r system that can be accessed using \"CTRL + T\" by default."
+		"[\"\", {\"text\": \"Apotheosis\", \"color\": \"yellow\"}, \" has a \", {\"text\": \"World Tier\", \"color\": \"aqua\"}, \" system that can be accessed by pressing \", {\"keybind\": \"key.apotheosis.open_world_tier_select\", \"color\": \"yellow\", \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Default: CTRL + T\"}}, \".\" ]"
 		""
 		"[\"You start at \", {\"text\": \"Haven\", \"color\": \"#7E7E7E\"}, \" upon acquiring your first \", {\"text\": \"Affix Item\", \"color\": \"#55FF55\"}, \", and unlock more tiers as you advance in the mod.\"]"
 		""
-		"Higher tiers increase the difficulty and rewards across all dimensions. These rewards can be checked in the Tiers menu (\"CTRL + T\")."
-		""
-		"In order to progress your &bWorld Tier&r, you can check the &6Apotheosis&r advancements using \"L\" by default, and going to the tab with a skull to guide you through the progression."
-		""
-		"You can also check the next page on this quest for all of the requirements."
-		"{@pagebreak}"
-		"&bWorld Tiers&r"
-		""
-		"[\"\", {\"text\": \"Haven\", \"color\": \"#7E7E7E\"}, \" - Acquire your first \", {\"text\": \"Affix\", \"color\": \"#55FFFF\"}, \" gear.\"]"
-		""
-		"[\"\", {\"text\": \"Frontier\", \"color\": \"#55FF55\"}, \" - Equip a full set of \", {\"text\": \"Common\", \"color\": \"#7E7E7E\"}, \" or higher \", {\"text\": \"Affix\", \"color\": \"#55FFFF\"}, \" gear.\"]"
-		""
-		"[\"\", {\"text\": \"Ascent\", \"color\": \"#5454FC\"}, \" - Equip a full set of \", {\"text\": \"Uncommon\", \"color\": \"#55FF55\"}, \" or higher \", {\"text\": \"Affix\", \"color\": \"#55FFFF\"}, \" gear and slay an \", {\"text\": \"Apotheosis\", \"color\": \"#FFAA00\"}, \" boss monster.\"]"
-		""
-		"[\"\", {\"text\": \"Summit\", \"color\": \"#B900B9\"}, \" - Equip a full set of \", {\"text\": \"Rare\", \"color\": \"#5454FC\"}, \" or higher \", {\"text\": \"Affix\", \"color\": \"#55FFFF\"}, \" gear and slay the Wither\"]"
-		""
-		"[\"\", {\"text\": \"Pinnacle\", \"color\": \"#EA6F14\"}, \" - Equip a full set of \", {\"text\": \"Epic\", \"color\": \"#B900B9\"}, \" or higher \", {\"text\": \"Affix\", \"color\": \"#55FFFF\"}, \" gear and slay the Chicken Jockey Boss\"]"
-		""
-		"Changes for each tier can be checked in the &bWorld Tiers&r menu (\"CTRL + T\" by default)."
+		"Higher tiers increase mob stats and rewards across all dimensions, and reduce your max &aEterna&f cap. These can be viewed in the Tiers menu."
 	]
 	quest.011DBD2652E49B97.title: "&fApothic World Tiers"
 	quest.012AEBFDB1F1512E.quest_desc: ["&eJust Dire Things&r armor can be tiered up via &aSmithing Templates&r and accept more &2Upgrades&r as they rank up to armor better than netherite."]
@@ -130,11 +112,11 @@
 	]
 	quest.01C338263242935F.title: "TF East"
 	quest.01D2CEAF59872C33.quest_desc: [
-		"The &aGem Cutting Table&r is used to upgrade &bGems&r."
+		"The &dGem Case&f is used to store and upgrade &bGems&r. "
 		""
-		"Upgrading a &bGem&r costs &aGem Dust&r, rarity materials, and a second &bGem&r of the same rarity. The material and dust cost of upgrading a &bGem&r increases with its rarity."
+		"It's a direct upgrade to the &aGem Cutting Table&f, which is only used to upgrade gems."
 		""
-		"The exact upgrade costs will be shown in the table's interface."
+		"Upgrading a &bGem&r costs &aGem Dust&r, rarity materials, and a second &bGem&r of the same rarity. The material and dust cost of upgrading a &bGem&r increases with its rarity. The exact upgrade costs will be shown in the interface."
 	]
 	quest.01D2CEAF59872C33.title: "&aGem Cutting Table"
 	quest.01DB719967817220.quest_desc: [
@@ -1449,6 +1431,12 @@
 		"Pro Tip: Trading with Piglins is an easy way to get &dCrying Obsidian&r, but there are other methods too!"
 	]
 	quest.1CFD4CE2704F2ADE.title: "&aCrafting &dSpells"
+	quest.1D464EAED6D9BE28.quest_desc: [
+		"Once you've maximized your &aEterna&f, you'll want to craft the &zEnchanting Table of the Raven&f."
+		""
+		"This enchantment table allows you to manually configure your &aEterna&f, &cQuanta&f, and &dArcana&f values without requiring any nearby bookshelves."
+	]
+	quest.1D464EAED6D9BE28.title: "&zEnchanting Table of the Raven"
 	quest.1D52FC5D0EAD911B.title: "Guidance Check 2"
 	quest.1D87C5E9D52341C4.quest_desc: [
 		"To craft more advanced items in &eDraconic Evolution&r, you will need a special crafting setup called &dFusion Crafting&r."
@@ -1831,6 +1819,14 @@
 	]
 	quest.25CCA572C4D5CEA0.title: "Ascension Tier 1 - Ethereal"
 	quest.25E0E97D705F3514.quest_subtitle: "needs removing for IronJs"
+	quest.261B2184A4839741.quest_desc: [
+		"If you're playing with friends and want to be in the same starting base, FTB Teams makes that very easy."
+		""
+		"When joining a world for the first time a team is automatically created for you, so you'll need to type &a/ftbteams party leave&f in chat, then once more to confirm it."
+		""
+		"After that is done, the party leader can invite new players by typing &a/ftbteams party invite <username>&f, and a message will show up in chat prompting the new party member to accept or decline the invite."
+	]
+	quest.261B2184A4839741.title: "Creating and Joining a team"
 	quest.2646D51DBAD8AD42.quest_desc: [
 		"&bCheck&f: Getting Shadow Casing"
 		""
@@ -1849,7 +1845,7 @@
 	quest.268CC540E5B605A9.quest_desc: [
 		"The final tier of bookshelves is locked behind the infusion of &dDragon's Breath&r."
 		""
-		"To do this, you will need &a80&r &6Eterna&r, between &a15&r to &a30&r &cQuanta&r, and at least &a60&r &dArcana&r."
+		"To do this, you will need &a80&r &6Eterna&r, between &a15&r to &a30&r &cQuanta&r, and at least &a60&r &dArcana&r. "
 		""
 		"If you don't have enough &dArcana,&r you can use candles, which provide a small boost."
 		""
@@ -2407,11 +2403,7 @@
 		"{@pagebreak}"
 		"Reforging Tables have three input slots:"
 		""
-		"- The center slot holds the item you wish to reforge;"
-		""
-		"- The top-left slot holds the rarity materials for the rarity you would like to reforge with;"
-		""
-		"- The bottom-right slot holds &aSigils of Rebirth&r, which are used as fuel during reforging."
+		"The center slot holds the item you wish to reforge, the top-left slot holds the rarity materials for the rarity you would like to reforge with, and the bottom-right slot holds &aSigils of Rebirth&r, which are used as fuel during reforging."
 		""
 		"There is a base cost of experience, sigils, and materials for reforges of each rarity, which can be doubled or tripled if choosing the other two options."
 	]
@@ -2603,7 +2595,7 @@
 	]
 	quest.3506242698EDF435.title: "&fStack Upgrades"
 	quest.353F6C94B5D5FF0B.quest_desc: [
-		"To push your &6Eterna&r even higher, you will need to create and infuse &3Deepshelves&r."
+		"To push your &6Eterna&r even higher, you will need to create and infuse &3Deepshelves&r and also reach the &6Summit &bWorld Tier&f."
 		""
 		"These shelves can push your &6Eterna&r to a max of &a75&r. "
 		""
@@ -2879,7 +2871,7 @@
 	quest.3A59D1773EBD3B8A.quest_subtitle: "Minor World Engine Upgrade"
 	quest.3A59D1773EBD3B8A.title: "&6Quantum Network Bridges"
 	quest.3A7774F5F0FD174E.quest_desc: [
-		"To get to the next upgrade, you want to get your &6Eterna&r to &a45&r. This can be done with upgraded shelves."
+		"To get to the next upgrade, you want to get your &6Eterna&r to &a45&r by reaching the &aFrontier &6World Tier&f. This can be done with upgraded shelves."
 		""
 		"The &cHellshelf&r is easier to craft, and focuses on boosting &cQuanta&r."
 		""
@@ -3423,12 +3415,12 @@
 	quest.4468BC270F100F27.title: "&aEnderIO"
 	quest.44842AC8247EFDF4.quest_subtitle: "Unearther, Geologist"
 	quest.4498E3F4B2DC24FC.quest_desc: [
-		"To get started on getting your ultimate &eApotheosis&r gear, you'll need to fight monsters and explore the world for &bGems&r!"
+		"To get started on getting your ultimate &eApotheosis&r gear, you'll need to fight monsters or explore the world for &bGems&r!"
 		""
 		"&bGems&r are crystals that provide powerful bonuses when applied to &bAffix&r items."
-		"{@pagebreak}"
-		"To apply a &bGem&r to an item, you must combine it with the item in a &aSmithing Table&r. The item must have an open &aGem Socket&r for this to work."
 		""
+		"To apply a &bGem&r to an item, you must combine it with the item in a &2Smithing Table&r. The item must have an open &aGem Socket&r for this to work."
+		"{@pagebreak}"
 		"Gems give different bonuses when slotted in different item types, and can be upgraded in the &aGem Cutting Table&r."
 		""
 		"&cUnique Gems&r can only be socketed once per item, while most other gems can be socketed multiple times for stacking bonuses."
@@ -4178,11 +4170,13 @@
 	quest.527A754FEFC95F4C.quest_desc: ["Now that you've literally milked some &zChaos&r, it's time for you to return to the &dChaos&r &6Echoborne&r."]
 	quest.527A754FEFC95F4C.title: "&fSpeak With &6Chaos"
 	quest.52ADC3D46CCB2659.quest_desc: [
-		"&aApotheosis&r provides the ability to relocate and upgrade &dMob Spawners&r that can be great for making your own mob farms. To move a spawner, break it with a pickaxe that has &bsilk touch&r on it."
+		"&aApothic Spawners&r provides the ability to relocate and upgrade &dMob Spawners&r to make your own mob farms. To move the spawner, break it with a pickaxe that has &bsilk touch&r on it."
 		""
-		"Mob spawners can be changed by using a &aMob Egg&r on them, allowing you to create your own custom spawners. Using specific items on the spawners will also upgrade them to be faster, ignore spawning rules, and more!"
+		"Mob spawners can be changed by using a &aMob Egg&r of the monster you wish to change them to, creating custom, non-vanilla spawners."
 		""
-		"To learn more about which items to use, check the recipes in JEI for a spawner."
+		"[ \"Exploding a spawner will drop \", {\"text\": \"Spawner Chains\", \"color\": \"dark_green\"}, \" which are used to craft upgrades that can be applied to your spawners, improving their abilities. You'll require a more \", { \"text\": \"Advanced Enchantment Setup\", \"color\": \"aqua\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"00A7C1FE54F86429\" }, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Go to Apothic Enchanting Quest\"} }, \" to make more advanced spawner upgrades.\" ]"
+		""
+		"To learn more about which items to use, check the recipes in &eJEI&f for a spawner."
 	]
 	quest.52ADC3D46CCB2659.title: "Apotheosis Spawners"
 	quest.52B46D49B5C4A7F2.quest_desc: ["The &dGas-Burning Generator&r can burn &dEthene&r to produce power at a very high rate! You can expect each full generator to produce ~8k RF/t."]
@@ -4508,7 +4502,7 @@
 	]
 	quest.59A6D7B544F1AE06.title: "&fElevators"
 	quest.59C71582F19E8554.title: "Kill Zombies"
-	quest.59CBFA5583139A3B.quest_desc: ["The &dReforging Table&r is an improved version of the &aSimple Reforging Table&r, allowing you to reforge items of all rarities, including &zMythic&r items."]
+	quest.59CBFA5583139A3B.quest_desc: ["[\"The \", {\"text\": \"Reforging Table\", \"color\": \"#B900B9\"}, \" is an improved version of the \", {\"text\": \"Simple Reforging Table\", \"color\":\"#55FF55\"}, \", allowing you reforge items of all rarities including \", {\"text\": \"Mythic\", \"color\":\"#EA6F14\"}, \" items.\"]"]
 	quest.59CBFA5583139A3B.title: "&dReforging Table&r"
 	quest.59D007531CD064D9.quest_subtitle: "needs removing for IronJs"
 	quest.59E8FEC3758635DF.quest_desc: [
@@ -4827,7 +4821,7 @@
 		""
 		"Items and mobs you can find in the world can have special &bAffixes&r on them, making them much stronger, and sometimes giving them special abilities to make things even more fun!"
 		""
-		"If you feel lost, you can always refer to the &aChronicle of Shadows&r, which is the guidebook for the mod."
+		"If you feel lost, you can always refer to the &aChronicle of Shadows&r, which is the guide book for the mod."
 	]
 	quest.60FDF616DEDE5E73.title: "&eApothic Gems&f!"
 	quest.6120A9478D66C2F9.quest_desc: [
@@ -5608,7 +5602,7 @@
 	quest.71F25B7D688EE182.quest_subtitle: "Minor World Engine Upgrade"
 	quest.71F25B7D688EE182.title: "&fThe Power of Fortron"
 	quest.722901B4259D8AEC.quest_desc: [
-		"The next goal will be to hit &a60&r &6Eterna&r, &a40&r &cQuanta&r, and &a40&r &dArcana&r."
+		"The next goal will be to hit &a60&r &6Eterna&r, &a40&r &cQuanta&r, and &a40&r &dArcana&r. You'll need to reach &5Ascent &bWorld Tier&f for this."
 		""
 		"This will require upgrading the &dInfused Bookshelves&r. "
 	]
@@ -6296,6 +6290,7 @@
 		"{\"text\": \"Uncommon - Timeworn Fabric\", \"color\": \"#55FF55\"}"
 		"{\"text\": \"Rare - Luminous Crystal Shard\", \"color\": \"#5454FC\"}"
 		"{\"text\": \"Epic - Arcane Sands\", \"color\": \"#B900B9\"}"
+		"{\"text\": \"Mythic - Godforged Pearls\", \"color\":\"#EA6F14\"}"
 		""
 		"The &aSalvaging Table&r can be automated by sending items in from the top or sides, and extracting them from the bottom of the table. Don't lose any items!"
 		""
@@ -6308,9 +6303,15 @@
 		"Speak to &dThe Light Bender&r so they can show you where to install this &3World Engine Upgrade&r."
 	]
 	quest.7E88C7654F281E43.quest_desc: [
-		"The &#EA6F14Augmenting Table&r is an end-game crafting station used to augment the individual affixes on an item."
+		"[\"The \", {\"text\": \"Augmenting Table\", \"color\": \"#EA6F14\"}, \" is an end-game crafting station used to augment the individual \", {\"text\": \"Affixes\", \"color\": \"#55FFFF\"}, \" of an item.\"]"
 		""
-		"It can upgrade an existing Affix at the cost of two &#EA6F14Sigils of Enhancement&r, or can reroll affixes at the cost of 1 &#EA6F14Sigil of Enhancement&r."
+		"It has two different uses:"
+		""
+		"[\"Firstly, it can upgrade an existing \", {\"text\": \"Affix\", \"color\": \"#55FFFF\"}, \", costing two \", {\"text\": \"Sigils of Enhancement\", \"color\": \"#EA6F14\"}, \" to upgrade the \", {\"text\": \"Affix\", \"color\": \"#55FFFF\"}, \" by 25%. How much of a boost this provides varies per \", {\"text\": \"Affix\", \"color\": \"#55FFFF\"}, \".\"]"
+		"{@pagebreak}"
+		"[\"Secondly, it can reroll an \", {\"text\": \"Affix\", \"color\": \"#55FFFF\"}, \", costing one \", {\"text\": \"Sigil of Enhancement\", \"color\": \"#EA6F14\"}, \" to swap out a selected \", {\"text\": \"Affix\", \"color\": \"#55FFFF\"}, \" for another of the same type. The alternative options will be shown on the left.\"]"
+		""
+		"[\"The \", {\"text\": \"Augmenting Table\", \"color\": \"#EA6F14\"}, \" has two input slots. The upper slot holds the item you wish to \", {\"text\": \"Augment\", \"color\": \"#FF55FF\"}, \", which must be an \", {\"text\": \"Affix\", \"color\": \"#55FFFF\"}, \" item. The lower slot holds the \", {\"text\": \"Sigils of Enhancement\", \"color\": \"#EA6F14\"}, \" used for \", {\"text\": \"Augmenting\", \"color\": \"#FF55FF\"}, \".\"]"
 	]
 	quest.7E88C7654F281E43.title: "The &#EA6F14Augmenting Table"
 	quest.7E8C48A1F0A2F37A.title: "&zInfinity Block &fTrade"
