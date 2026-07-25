@@ -411,7 +411,7 @@
 				}
 				type: "item"
 			}]
-			x: 11.0d
+			x: 12.0d
 			y: -1.0d
 		}
 		{
@@ -852,7 +852,7 @@
 				id: "05E47B149DB70754"
 				item: {
 					count: 1
-					id: "apotheosis:gem_cutting_table"
+					id: "apotheosis:gem_case"
 				}
 				type: "item"
 			}]
@@ -1153,7 +1153,7 @@
 				type: "item"
 			}]
 			x: 19.5d
-			y: 0.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["3A53BB7A6B708966"]
@@ -1180,7 +1180,7 @@
 				}
 				type: "item"
 			}]
-			x: 11.0d
+			x: 12.0d
 			y: 1.0d
 		}
 		{
@@ -2397,9 +2397,9 @@
 			hide_dependent_lines: true
 			icon: {
 				components: {
-					"ftbquests:icon": "irons_jewelry:item/scroll"
+					"irons_jewelry:stored_pattern": "irons_jewelry:tearstone_ring"
 				}
-				id: "ftbquests:custom_icon"
+				id: "irons_jewelry:recipe"
 			}
 			id: "3900E67C8B833980"
 			optional: true
@@ -3973,6 +3973,41 @@
 			}]
 			x: 0.0d
 			y: 2.5d
+		}
+		{
+			dependencies: ["2722C0E2E8993658"]
+			icon: {
+				id: "apothic_enchanting:raven_enchanting_table"
+			}
+			id: "1D464EAED6D9BE28"
+			optional: true
+			rewards: [{
+				amount: 50
+				id: "38E1BC1A5DBD938B"
+				type: "currency"
+			}]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					id: "6AA05CD3A9C54ACC"
+					item: {
+						count: 1
+						id: "apotheosis:god_fused_pearl"
+					}
+					type: "item"
+				}
+				{
+					id: "0C5F13BA74F08D84"
+					item: {
+						count: 1
+						id: "apothic_enchanting:raven_enchanting_table"
+					}
+					type: "item"
+				}
+			]
+			x: 19.5d
+			y: -1.0d
 		}
 	]
 }

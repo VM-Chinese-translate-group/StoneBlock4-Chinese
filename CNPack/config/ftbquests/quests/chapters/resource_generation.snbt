@@ -1555,6 +1555,7 @@
 		}
 		{
 			id: "52ADC3D46CCB2659"
+			min_width: 300
 			optional: true
 			rewards: [{
 				amount: 5
@@ -1562,14 +1563,24 @@
 				type: "currency"
 			}]
 			shape: "square"
-			tasks: [{
-				id: "65CFB3F37186832F"
-				item: {
-					count: 1
-					id: "minecraft:spawner"
+			tasks: [
+				{
+					id: "2512E1046DDBE28F"
+					item: {
+						count: 1
+						id: "apotheosis:spawner_chain"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "65CFB3F37186832F"
+					item: {
+						count: 1
+						id: "minecraft:spawner"
+					}
+					type: "item"
+				}
+			]
 			x: -6.5d
 			y: -5.5d
 		}

@@ -39,8 +39,8 @@
 			image: "ftbpc:textures/gui/discord.png"
 			rotation: 0.0d
 			width: 1.0d
-			x: -2.5d
-			y: 0.5d
+			x: -3.0d
+			y: 2.5d
 		}
 		{
 			click: "https://github.com/FTBTeam/FTB-Modpack-Issues/issues"
@@ -49,8 +49,8 @@
 			image: "ftbquests:textures/gui/alert.png"
 			rotation: 0.0d
 			width: 1.0d
-			x: -0.5d
-			y: 0.5d
+			x: 0.0d
+			y: 2.5d
 		}
 		{
 			height: 5.0d
@@ -116,7 +116,7 @@
 				type: "checkmark"
 			}]
 			x: -3.5d
-			y: -1.0d
+			y: 0.0d
 		}
 		{
 			icon: {
@@ -137,7 +137,29 @@
 				type: "checkmark"
 			}]
 			x: 0.5d
-			y: -1.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "ftbteams:textures/teams.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "261B2184A4839741"
+			rewards: [{
+				id: "613A44B867ED7006"
+				team_reward: false
+				type: "xp"
+				xp: 5
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "035C4884AAC6C3AB"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: 1.0d
 		}
 	]
 }

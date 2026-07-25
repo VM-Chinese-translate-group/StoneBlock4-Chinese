@@ -58,7 +58,7 @@
 	quest.00A7C1FE54F86429.quest_desc: [
 		"&e神化&r模组大幅修改了原版的附魔系统，增加了三种新属性，玩家可以在升级过的附魔设施中进行更高阶的附魔。升级附魔设施时，你需要合理安排这三个属性的数值："
 		""
-		"&a位阶&r：这是附魔台的力量源泉，其最大值取决于你的书架等级。这个属性决定了附魔的最高等级。"
+		"[\"\", {\"text\": \"Eterna\", \"color\": \"green\"}, \": The power of the enchanting table, capped based on the tier of your bookshelves as well as your \", { \"text\": \"World Tier\", \"color\": \"aqua\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"011DBD2652E49B97\" }, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Go to World Tiers Quest\"} }, \". This stat determines the maximum level of enchants.\" ]"
 		""
 		"&c量子化&r：这是进行高阶附魔时必然产生的混沌。这个属性决定了附魔的随机性。"
 		""
@@ -76,29 +76,11 @@
 		"安装该组件后，你就可以燃烧各种物品发电了，比如煤炭或者木头，具体能烧什么取决于该熔炉的种类。比如说，你可以给这个发电机安装&a强化组件：高炉&r，这样它就可以烧铁或者钻石之类的矿物，发更多的电了。"
 	]
 	quest.011DBD2652E49B97.quest_desc: [
-		"&6神化&r模组添加了一个全新的&b世界层级&r系统，默认可以通过“CTRL+T”查看。"
+		"[\"\", {\"text\": \"Apotheosis\", \"color\": \"yellow\"}, \" has a \", {\"text\": \"World Tier\", \"color\": \"aqua\"}, \" system that can be accessed by pressing \", {\"keybind\": \"key.apotheosis.open_world_tier_select\", \"color\": \"yellow\", \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Default: CTRL + T\"}}, \".\" ]"
 		""
 		"[\"获得第一个\", {\"text\": \"词缀物品\", \"color\": \"#55FF55\"}, \"后·，你就会进入\", {\"text\": \"居所\", \"color\": \"#7E7E7E\"}, \"层级。随着模组进程的推进，你会解锁更多的层级。\"]"
 		""
-		"随着层级升高，所有维度的难度和奖励都会增加，具体可在层级菜单（“CTRL+T”）中查看。"
-		""
-		"要提升你的&b世界层级&r，你可以按“L”（默认按键），然后点进带有头颅的选项卡，即可查看&6神化&r模组的进度，它会指导你推进。"
-		""
-		"你也可以在此任务的下一页中查看提升层级所需的条件。"
-		"{@pagebreak}"
-		"&b世界层级&r"
-		""
-		"[\"\", {\"text\": \"居所\", \"color\": \"#7E7E7E\"}, \" - 获得第一个\", {\"text\": \"词缀\", \"color\": \"#55FFFF\"}, \"装备。\"]"
-		""
-		"[\"\", {\"text\": \"边境\", \"color\": \"#55FF55\"}, \" - 穿上一整套\", {\"text\": \"普通\", \"color\": \"#7E7E7E\"}, \"或更高级\", {\"text\": \"词缀\", \"color\": \"#55FFFF\"}, \"的装备。\"]"
-		""
-		"[\"\", {\"text\": \"攀升\", \"color\": \"#5454FC\"}, \" - 穿上一整套\", {\"text\": \"罕见\", \"color\": \"#55FF55\"}, \"或更高级\", {\"text\": \"词缀\", \"color\": \"#55FFFF\"}, \"的装备，并击杀一个\", {\"text\": \"神化\", \"color\": \"#FFAA00\"}, \"Boss。\"]"
-		""
-		"[\"\", {\"text\": \"高峰\", \"color\": \"#B900B9\"}, \" - 穿上一整套\", {\"text\": \"稀有\", \"color\": \"#5454FC\"}, \"或更高级\", {\"text\": \"词缀\", \"color\": \"#55FFFF\"}, \"的装备，并击杀凋灵。\"]"
-		""
-		"[\"\", {\"text\": \"顶点\", \"color\": \"#EA6F14\"}, \" - 穿上一整套\", {\"text\": \"史诗\", \"color\": \"#B900B9\"}, \"或更高级\", {\"text\": \"词缀\", \"color\": \"#55FFFF\"}, \"的装备，并击杀末影鸡骑士。\"]"
-		""
-		"你可以在&b世界层级&r菜单（默认为“CTRL+T”）中查看每个层级的变化。"
+		"Higher tiers increase mob stats and rewards across all dimensions, and reduce your max &aEterna&f cap. These can be viewed in the Tiers menu."
 	]
 	quest.011DBD2652E49B97.title: "&f神化世界层级"
 	quest.012AEBFDB1F1512E.quest_desc: ["&eJust Dire Things&r模组的盔甲可以使用&a模板&r来升阶，且盔甲的等阶越高，可以加装的&2升级&r就越多，最终可以打造出比下界合金更强大的盔甲。"]
@@ -126,11 +108,11 @@
 	]
 	quest.01C338263242935F.title: "TF East"
 	quest.01D2CEAF59872C33.quest_desc: [
-		"&a宝石切割台&r可以升级&b宝石&r。"
+		"The &dGem Case&f is used to store and upgrade &bGems&r. "
 		""
-		"升级&b宝石&r需要消耗&a宝石粉&r、对应稀有度的材料以及另一枚同稀有度的&b宝石&r。&b宝石&r的稀有度越高，升级消耗的材料就越多。"
+		"It's a direct upgrade to the &aGem Cutting Table&f, which is only used to upgrade gems."
 		""
-		"具体的升级花费会在切割台的UI中显示。"
+		"Upgrading a &bGem&r costs &aGem Dust&r, rarity materials, and a second &bGem&r of the same rarity. The material and dust cost of upgrading a &bGem&r increases with its rarity. The exact upgrade costs will be shown in the interface."
 	]
 	quest.01D2CEAF59872C33.title: "&a宝石切割台"
 	quest.01DB719967817220.quest_desc: [
@@ -1405,6 +1387,12 @@
 		"专业提示：和猪灵交易可以很轻松地获得&d哭泣黑曜石&r，但也有其他方法！"
 	]
 	quest.1CFD4CE2704F2ADE.title: "&a制作&r&d法术&r"
+	quest.1D464EAED6D9BE28.quest_desc: [
+		"Once you've maximized your &aEterna&f, you'll want to craft the &zEnchanting Table of the Raven&f."
+		""
+		"This enchantment table allows you to manually configure your &aEterna&f, &cQuanta&f, and &dArcana&f values without requiring any nearby bookshelves."
+	]
+	quest.1D464EAED6D9BE28.title: "&zEnchanting Table of the Raven"
 	quest.1D52FC5D0EAD911B.title: "Guidance Check 2"
 	quest.1D87C5E9D52341C4.quest_desc: [
 		"要制作&e龙之进化&r更高级的物品，你需要一种被称作&d聚合注入&r的特殊合成装置。"
@@ -1769,6 +1757,14 @@
 		"&e注意&r：本章节的所有任务必须使用&n&6目标显示器&r完成。"
 	]
 	quest.25CCA572C4D5CEA0.title: "飞升阶段1 - 玄穹"
+	quest.261B2184A4839741.quest_desc: [
+		"If you're playing with friends and want to be in the same starting base, FTB Teams makes that very easy."
+		""
+		"When joining a world for the first time a team is automatically created for you, so you'll need to type &a/ftbteams party leave&f in chat, then once more to confirm it."
+		""
+		"After that is done, the party leader can invite new players by typing &a/ftbteams party invite <username>&f, and a message will show up in chat prompting the new party member to accept or decline the invite."
+	]
+	quest.261B2184A4839741.title: "Creating and Joining a team"
 	quest.2646D51DBAD8AD42.quest_desc: [
 		"&bCheck&f: Getting Shadow Casing"
 		""
@@ -1787,7 +1783,7 @@
 	quest.268CC540E5B605A9.quest_desc: [
 		"制作终级的书架需要用到灌注&d龙息&r。"
 		""
-		"想要进行龙息的灌注，你需要达到&a80&r的&6位阶&r、&a15&r到&a30&r的&c量子化&r，以及至少&a60&r的&d阿卡那&r。"
+		"To do this, you will need &a80&r &6Eterna&r, between &a15&r to &a30&r &cQuanta&r, and at least &a60&r &dArcana&r. "
 		""
 		"如果&d阿卡那&r不太够，你可以多放点蜡烛，蜡烛可以提供少量的阿卡那。"
 		""
@@ -2320,13 +2316,9 @@
 		"{@pagebreak}"
 		"重铸台有三个输入槽："
 		""
-		"—中间的槽位放你想要重铸的物品；"
+		"The center slot holds the item you wish to reforge, the top-left slot holds the rarity materials for the rarity you would like to reforge with, and the bottom-right slot holds &aSigils of Rebirth&r, which are used as fuel during reforging."
 		""
-		"—左上角的槽位放对应稀有度的材料；"
-		""
-		"—右下角的槽位存放&a新生符石&r，它是重铸过程中的耗材。"
-		""
-		"重铸会消耗一定的经验、新生符石和重铸等级对应的材料，如果选择较高级的两个重铸选项，则消耗的数量会增长至两倍甚至三倍。"
+		"There is a base cost of experience, sigils, and materials for reforges of each rarity, which can be doubled or tripled if choosing the other two options."
 	]
 	quest.3208AF90091D1B6B.title: "&a简易重铸台"
 	quest.322B81D896CBDF16.quest_desc: [
@@ -2515,7 +2507,7 @@
 	]
 	quest.3506242698EDF435.title: "&f堆叠升级"
 	quest.353F6C94B5D5FF0B.quest_desc: [
-		"为了进一步提高&6位阶&r，你需要制作并灌注&3深暗书架&r。"
+		"To push your &6Eterna&r even higher, you will need to create and infuse &3Deepshelves&r and also reach the &6Summit &bWorld Tier&f."
 		""
 		"它们可以将你的&6位阶&r增加到至多&a75&r。"
 		""
@@ -2784,7 +2776,7 @@
 	quest.3A59D1773EBD3B8A.quest_subtitle: "次要世界引擎升级"
 	quest.3A59D1773EBD3B8A.title: "&6量子桥"
 	quest.3A7774F5F0FD174E.quest_desc: [
-		"在进行下一次升级之前，你需要先把&6位阶&r提升到&a45&r。用这些升级版书架就行。"
+		"To get to the next upgrade, you want to get your &6Eterna&r to &a45&r by reaching the &aFrontier &6World Tier&f. This can be done with upgraded shelves."
 		""
 		"&c下界书架&r造起来比较简单，主要用于提升&c量子化&r。"
 		""
@@ -3323,12 +3315,12 @@
 	]
 	quest.4468BC270F100F27.title: "&a末影接口"
 	quest.4498E3F4B2DC24FC.quest_desc: [
-		"如果你想制作出终极的&e神化&r装备，那就准备好周游世界大战怪物寻找&b宝石&r吧！"
+		"To get started on getting your ultimate &eApotheosis&r gear, you'll need to fight monsters or explore the world for &bGems&r!"
 		""
 		"&b宝石&r是一种水晶，将宝石镶嵌在带有&b词缀&r的物品上，就能为其带来强大加成。"
-		"{@pagebreak}"
-		"你需要用&a锻造台&r将&b宝石&r装到物品上。物品必须要有&a镶孔&r才能安装宝石。"
 		""
+		"To apply a &bGem&r to an item, you must combine it with the item in a &2Smithing Table&r. The item must have an open &aGem Socket&r for this to work."
+		"{@pagebreak}"
 		"安装宝石的物品种类不同，宝石带来的加成也不同。&a宝石切割台&r可以升级宝石。"
 		""
 		"一件物品只能镶嵌一颗&c唯一宝石&r，其他的宝石则可以安装多个来叠加效果。"
@@ -4065,11 +4057,13 @@
 	quest.527A754FEFC95F4C.quest_desc: ["现在你应该挤出了一些&z混沌&r，是时候返回&d混沌&r&6至高者&r身边了。"]
 	quest.527A754FEFC95F4C.title: "&f与&6混沌&f对话"
 	quest.52ADC3D46CCB2659.quest_desc: [
-		"&a神化&r模组可以转移并升级&d刷怪笼&r，以搭建属于你的刷怪场。要移动刷怪笼，用附魔&b精准采集&r的镐子挖掉即可。"
+		"&aApothic Spawners&r provides the ability to relocate and upgrade &dMob Spawners&r to make your own mob farms. To move the spawner, break it with a pickaxe that has &bsilk touch&r on it."
 		""
-		"对刷怪笼使用&a刷怪蛋&r可以改变刷怪类型，你可以以此创建自己的自定义刷怪笼。对其使用某些特定物品可以让刷怪速度更快、无视刷怪限制等等！"
+		"Mob spawners can be changed by using a &aMob Egg&r of the monster you wish to change them to, creating custom, non-vanilla spawners."
 		""
-		"在JEI中查看刷怪笼的配方来查看可使用的物品。"
+		"[ \"Exploding a spawner will drop \", {\"text\": \"Spawner Chains\", \"color\": \"dark_green\"}, \" which are used to craft upgrades that can be applied to your spawners, improving their abilities. You'll require a more \", { \"text\": \"Advanced Enchantment Setup\", \"color\": \"aqua\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"00A7C1FE54F86429\" }, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Go to Apothic Enchanting Quest\"} }, \" to make more advanced spawner upgrades.\" ]"
+		""
+		"To learn more about which items to use, check the recipes in &eJEI&f for a spawner."
 	]
 	quest.52ADC3D46CCB2659.title: "神化刷怪笼"
 	quest.52B46D49B5C4A7F2.quest_desc: ["&d燃气发电机&r可以燃烧&d乙烯&r，发电速率极高！每台满功率运行的燃气发电机产能速率约为8000RF/t。"]
@@ -4385,7 +4379,7 @@
 	]
 	quest.59A6D7B544F1AE06.title: "&f电梯"
 	quest.59C71582F19E8554.title: "击杀僵尸"
-	quest.59CBFA5583139A3B.quest_desc: ["&d重铸台&r是&a简易重铸台&r的升级版，可以重铸所有稀有度的物品，包括&z神话&r物品。"]
+	quest.59CBFA5583139A3B.quest_desc: ["[\"The \", {\"text\": \"Reforging Table\", \"color\": \"#B900B9\"}, \" is an improved version of the \", {\"text\": \"Simple Reforging Table\", \"color\":\"#55FF55\"}, \", allowing you reforge items of all rarities including \", {\"text\": \"Mythic\", \"color\":\"#EA6F14\"}, \" items.\"]"]
 	quest.59CBFA5583139A3B.title: "&d重铸台&r"
 	quest.59E8FEC3758635DF.quest_desc: [
 		"听&d回响&r说，新治愈的这些村民技术太烂了，所以你需要先训练训练他们，提升他们的发掘等级！"
@@ -4697,7 +4691,7 @@
 		""
 		"无论是你在世界中探索获得的物品，还是偶然遭遇的怪物，都有可能带有一个特殊的&b词缀&r。词缀会让物品/生物大大增强，有时甚至还能带来特殊的能力，为你的探索旅程增添乐趣！"
 		""
-		"如果你感到不知所措的话，可以去看看本模组的教程书——&a阴影编年史&r。"
+		"If you feel lost, you can always refer to the &aChronicle of Shadows&r, which is the guide book for the mod."
 	]
 	quest.60FDF616DEDE5E73.title: "&e神化宝石&f！"
 	quest.6120A9478D66C2F9.quest_desc: [
@@ -5452,7 +5446,7 @@
 	quest.71F25B7D688EE182.quest_subtitle: "次要世界引擎升级"
 	quest.71F25B7D688EE182.title: "&f力场子之力"
 	quest.722901B4259D8AEC.quest_desc: [
-		"下一个目标是达到&a60&r&6位阶&r、 &a40&r&c量子化&r以及&a40&r&d阿卡那&r。"
+		"The next goal will be to hit &a60&r &6Eterna&r, &a40&r &cQuanta&r, and &a40&r &dArcana&r. You'll need to reach &5Ascent &bWorld Tier&f for this."
 		""
 		"你得继续升级&d灌注书架&r才能达到这个目标。"
 	]
@@ -6116,10 +6110,11 @@
 		"{\"text\": \"罕见 - 陈旧布匹\", \"color\": \"#55FF55\"}"
 		"{\"text\": \"稀有 - 发光水晶碎片\", \"color\": \"#5454FC\"}"
 		"{\"text\": \"史诗 - 玄奥沙\", \"color\": \"#B900B9\"}"
+		"{\"text\": \"Mythic - Godforged Pearls\", \"color\":\"#EA6F14\"}"
 		""
-		"&a回收台&r可以从顶部和侧面自动输入物品并拆解，从底部输出。任何材料都不会被遗漏！"
+		"The &aSalvaging Table&r can be automated by sending items in from the top or sides, and extracting them from the bottom of the table. Don't lose any items!"
 		""
-		"&e注意&f：&#EA6F14神铸珍珠&r在这个整合包中&c无法&r被拆解。你需要在解锁&3神龙升级&r后，使用&6世界引擎&r制作。"
+		"&eNote&f: &#EA6F14Godforged Pearls &cCANNOT&r be salvaged in this pack. You will have to craft them via the &6World Engine&r after unlocking the &3Draconic Upgrade&r."
 	]
 	quest.7E685EAD7FB60B45.title: "&a回收台"
 	quest.7E7745D3E460831F.quest_desc: [
@@ -6128,9 +6123,15 @@
 		"与&d折光师&r交谈，他会教你如何安装&3世界引擎升级&r。"
 	]
 	quest.7E88C7654F281E43.quest_desc: [
-		"&#EA6F14强化台&r是游戏后期的设备，可以强化物品的词缀。"
+		"[\"The \", {\"text\": \"Augmenting Table\", \"color\": \"#EA6F14\"}, \" is an end-game crafting station used to augment the individual \", {\"text\": \"Affixes\", \"color\": \"#55FFFF\"}, \" of an item.\"]"
 		""
-		"消耗两个&#EA6F14强化符石&r可增强一个已有的词缀，消耗一个&#EA6F14强化符石&r可刷新词缀。"
+		"It has two different uses:"
+		""
+		"[\"Firstly, it can upgrade an existing \", {\"text\": \"Affix\", \"color\": \"#55FFFF\"}, \", costing two \", {\"text\": \"Sigils of Enhancement\", \"color\": \"#EA6F14\"}, \" to upgrade the \", {\"text\": \"Affix\", \"color\": \"#55FFFF\"}, \" by 25%. How much of a boost this provides varies per \", {\"text\": \"Affix\", \"color\": \"#55FFFF\"}, \".\"]"
+		"{@pagebreak}"
+		"[\"Secondly, it can reroll an \", {\"text\": \"Affix\", \"color\": \"#55FFFF\"}, \", costing one \", {\"text\": \"Sigil of Enhancement\", \"color\": \"#EA6F14\"}, \" to swap out a selected \", {\"text\": \"Affix\", \"color\": \"#55FFFF\"}, \" for another of the same type. The alternative options will be shown on the left.\"]"
+		""
+		"[\"The \", {\"text\": \"Augmenting Table\", \"color\": \"#EA6F14\"}, \" has two input slots. The upper slot holds the item you wish to \", {\"text\": \"Augment\", \"color\": \"#FF55FF\"}, \", which must be an \", {\"text\": \"Affix\", \"color\": \"#55FFFF\"}, \" item. The lower slot holds the \", {\"text\": \"Sigils of Enhancement\", \"color\": \"#EA6F14\"}, \" used for \", {\"text\": \"Augmenting\", \"color\": \"#FF55FF\"}, \".\"]"
 	]
 	quest.7E88C7654F281E43.title: "&#EA6F14强化台"
 	quest.7E8C48A1F0A2F37A.title: "&z无尽之块&f交易"
