@@ -26,6 +26,7 @@
 			alpha: 50
 			color: 0
 			height: 2.5d
+			id: "57C8A8C176F876F5"
 			image: "ftbquests:textures/shapes/hexagon/shape.png"
 			rotation: 0.0d
 			width: 2.5d
@@ -33,9 +34,9 @@
 			y: -1.0d
 		}
 		{
-			click: "https://discord.com/invite/X5UGvBs"
+			click_action: "open_uri:https://discord.com/invite/X5UGvBs"
 			height: 1.0d
-			hover: ["ftb.hover.discord"]
+			id: "58FB752DEB6896EA"
 			image: "ftbpc:textures/gui/discord.png"
 			rotation: 0.0d
 			width: 1.0d
@@ -43,9 +44,9 @@
 			y: 2.5d
 		}
 		{
-			click: "https://github.com/FTBTeam/FTB-Modpack-Issues/issues"
+			click_action: "open_uri:https://github.com/FTBTeam/FTB-Modpack-Issues/issues"
 			height: 1.0d
-			hover: ["ftb.hover.bug"]
+			id: "1B8538AADE27E44F"
 			image: "ftbquests:textures/gui/alert.png"
 			rotation: 0.0d
 			width: 1.0d
@@ -54,6 +55,7 @@
 		}
 		{
 			height: 5.0d
+			id: "504BC077997FFBC8"
 			image: "ftb:textures/quests/other_titles_and_logos/sb4_logo.png"
 			rotation: 0.0d
 			width: 13.8d
