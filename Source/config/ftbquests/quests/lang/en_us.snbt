@@ -5588,6 +5588,16 @@
 		"Work with them to create and encase your very own &dBlack Hole&r and acquire the &3Dark Void Upgrade&r for your &6World Engine&r."
 	]
 	quest.71BDC5B453B8CAB4.title: "&fMeet &6Radiance"
+	quest.71C8BC0FFC1A3E58.quest_desc: [
+		"Dying to certain bosses while the &eDeus Ex Machina&r status effect is active will grant you stacking damage resistance and attack damage against that boss"
+		""
+		"Damage resistance and Attack Boost stacks up to 80%"
+		""
+		"Defeating a Boss will reset the &eDeus Ex Machina&r buff for that Boss Type"
+		""
+		"&eNote&f: Drinking a &aBottle of Ambrosia&r will toggle this mechanic (off by default) and clear any active buffs"
+	]
+	quest.71C8BC0FFC1A3E58.title: "Deus Ex Machina"
 	quest.71EF740F3234EA08.title: "Mycelial Reactor"
 	quest.71F17C85D540C559.quest_desc: [
 		"&aCables&r are used to connect network devices with each other."

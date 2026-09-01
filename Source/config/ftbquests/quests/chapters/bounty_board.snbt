@@ -1215,7 +1215,7 @@
 				id: "0DA7FD2807842E41"
 				type: "checkmark"
 			}]
-			x: 0.0d
+			x: -2.25d
 			y: -1.5d
 		}
 		{
@@ -1784,6 +1784,35 @@
 			}]
 			x: 0.0d
 			y: 7.0d
+		}
+		{
+			icon: {
+				id: "deus_ex_machina:ambrosia"
+			}
+			id: "71C8BC0FFC1A3E58"
+			rewards: [
+				{
+					id: "424512CB6872BEE3"
+					type: "xp"
+					xp: 5
+				}
+				{
+					id: "36BD9DE00ACE2C1D"
+					item: {
+						count: 1
+						id: "deus_ex_machina:ambrosia"
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "1E361FC265EB0DF1"
+				type: "checkmark"
+			}]
+			x: 2.25d
+			y: -1.5d
 		}
 	]
 }
