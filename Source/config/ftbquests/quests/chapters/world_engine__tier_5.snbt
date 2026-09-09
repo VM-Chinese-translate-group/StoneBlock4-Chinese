@@ -856,6 +856,7 @@
 				"01DB719967817220"
 				"28F9C2B43B31DE16"
 			]
+			dependency_requirement: "one_completed"
 			icon: {
 				id: "mekanism:pellet_antimatter"
 			}
