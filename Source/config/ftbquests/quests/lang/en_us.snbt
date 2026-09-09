@@ -2710,7 +2710,7 @@
 		""
 		"You can optionally add a fourth Port confiured to Models for automatic input of data models, but this is not required."
 		""
-		"If built correctly, a blue outline will display around the multiblock, otherwise you can clikc the main &6Data Model&f block for more details."
+		"If built correctly, a blue outline will display around the multiblock, otherwise you can click the main &6Data Model&f block for more details."
 		""
 		"[\"You can also check out the \", {\"text\": \"Data Center GuideMe\", \"underlined\": true, \"color\": \"aqua\", \"clickEvent\": {\"action\": \"run_command\", \"value\": \"/guidemec hostilenetworks:guide open\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Open Data Center GuideMe\"}}, \", for an example structure.\"]"
 	]
