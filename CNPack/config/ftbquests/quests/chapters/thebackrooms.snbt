@@ -28,7 +28,7 @@
 						"psi:spell": {
 							modsRequired: [{
 								modName: "psi"
-								modVersion: "1.21.1-108"
+								modVersion: "1.21.1-110"
 							}]
 							spellList: {
 								spellList: [
@@ -319,7 +319,7 @@
 						"psi:spell": {
 							modsRequired: [{
 								modName: "psi"
-								modVersion: "1.21.1-108"
+								modVersion: "1.21.1-110"
 							}]
 							spellList: {
 								spellList: [
@@ -569,7 +569,7 @@
 						"psi:spell": {
 							modsRequired: [{
 								modName: "psi"
-								modVersion: "1.21.1-108"
+								modVersion: "1.21.1-110"
 							}]
 							spellList: {
 								spellList: [
@@ -758,7 +758,7 @@
 						"psi:spell": {
 							modsRequired: [{
 								modName: "psi"
-								modVersion: "1.21.1-108"
+								modVersion: "1.21.1-110"
 							}]
 							spellList: {
 								spellList: [
@@ -899,7 +899,7 @@
 						"psi:spell": {
 							modsRequired: [{
 								modName: "psi"
-								modVersion: "1.21.1-108"
+								modVersion: "1.21.1-110"
 							}]
 							spellList: {
 								spellList: [
@@ -1063,7 +1063,7 @@
 						"psi:spell": {
 							modsRequired: [{
 								modName: "psi"
-								modVersion: "1.21.1-108"
+								modVersion: "1.21.1-110"
 							}]
 							spellList: {
 								spellList: [
