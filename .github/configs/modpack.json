@@ -1,10 +1,17 @@
 {
+  "configured": true,
   "packId": 130,
   "packName": "FTB StoneBlock 4",
   "versionPattern": "FTB StoneBlock 4 {version}",
+  "mcVersion": "1.21.1", 
+  "loader": "neoforge",
   "updateMethod": "cursethebeast",
   "infoFilePath": "CNPack/modpackinfo.json",
   "sourceDir": "Source",
+  "paratranz": {
+    "jsonSplits": [],
+    "pathRedirects": []
+  },
   "attentionList": {
     "folders": [
       {

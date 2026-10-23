@@ -1,0 +1,13 @@
+{
+  "formatVersion": 1,
+  "name": "石头世界4简中汉化",
+  "description": "石头世界4简体中文汉化，记得额外下载i18n模组",
+  "modpack": {
+    "name": "Stoneblock 4",
+    "versionRange": "[1.24.1,)"
+  },
+  "authors": [
+    "VM汉化组"
+  ],
+  "url": "https://vmct.top/modpacks/sb4/"
+}

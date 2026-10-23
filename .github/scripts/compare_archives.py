@@ -1,17 +1,15 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-
 import argparse
 import difflib
 import hashlib
 import os
 import pathlib
 import tarfile
+import json
 import tempfile
 import zipfile
-import json
 from collections import deque
 from html import escape
+from pathlib import PurePosixPath
 
 CSS_STYLES = """
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/github.min.css">
@@ -239,14 +237,14 @@ JS_SCRIPT = """
     }
 
     function buildTree() {
-        state.tree = { name: "root", children: {}, isFolder: true, path: "", expanded: true, stats: {a:0, m:0, r:0} };
+        state.tree = { name: "root", children: Object.create(null), isFolder: true, path: "", expanded: true, stats: {a:0, m:0, r:0} };
         state.files.forEach(f => {
             let current = state.tree;
             f.path.split('/').forEach((part, i, arr) => {
                 const isFile = i === arr.length - 1;
-                if (!current.children[part]) {
-                    current.children[part] = { 
-                        name: part, isFolder: !isFile, children: {}, expanded: false, fileData: isFile ? f : null, stats: {a:0, m:0, r:0}
+                if (!Object.hasOwn(current.children, part)) {
+                    current.children[part] = {
+                        name: part, isFolder: !isFile, children: Object.create(null), expanded: false, fileData: isFile ? f : null, stats: {a:0, m:0, r:0}
                     };
                 }
                 current = current.children[part];
@@ -355,7 +353,7 @@ JS_SCRIPT = """
             <div class="node-content ${statusClass} ${state.currentFileId === f.id ? 'active' : ''}" onclick="selectFile('${f.id}')">
                 <span class="node-indent" style="width:${depth*16}px"></span>
                 <span class="node-icon">${f.is_binary?'📦':'📄'}</span>
-                <span class="node-name">${node.name}</span>
+                <span class="node-name">${escape(node.name)}</span>
                 <div class="node-meta">${statsHtml}</div>
                 <div class="status-bar"></div>
             </div>`;
@@ -380,7 +378,7 @@ JS_SCRIPT = """
         content.innerHTML = `
             <span class="node-indent" style="width:${depth*16}px"></span>
             <span class="node-icon">${expanded?'📂':'📁'}</span> 
-            <span class="node-name" style="font-weight:600">${node.name}</span>
+            <span class="node-name" style="font-weight:600">${escape(node.name)}</span>
             <div class="node-meta">${statsHtml}</div>
             <div class="status-bar" style="background:transparent"></div>`;
 
@@ -404,8 +402,8 @@ JS_SCRIPT = """
         container.className = 'diff-container active';
 
         let html = `<div class="file-header">
-            <h2>${file.name}</h2>
-            <div class="file-path">${file.path}</div>
+            <h2>${escape(file.name)}</h2>
+            <div class="file-path">${escape(file.path)}</div>
         </div><div class="diff-scroll-area">`;
 
         if (file.is_binary) {
@@ -544,9 +542,10 @@ class ArchiveComparator:
         return None, False
 
     def _read_content(self, path):
-        if not path or not path.exists(): return [], False
+        if not path or not path.exists():
+            return [], False
         try:
-            with open(path, 'r', encoding='utf-8') as f:
+            with open(path, "r", encoding="utf-8") as f:
                 return f.read().splitlines(), True
         except UnicodeDecodeError:
             pass
@@ -560,14 +559,17 @@ class ArchiveComparator:
         s1 = p1.stat().st_size if p1 and p1.exists() else 0
         s2 = p2.stat().st_size if p2 and p2.exists() else 0
         diff = s2 - s1
-        if diff == 0: return "0 B"
+        if diff == 0:
+            return "0 B"
         abs_diff = abs(diff)
-        unit = "B"
-        for u in ["B", "KB", "MB"]:
-            if abs_diff < 1024: break
+        units = ["B", "KB", "MB", "GB", "TB"]
+        unit = units[0]
+        for unit in units:
+            if abs_diff < 1024 or unit == units[-1]:
+                break
             abs_diff /= 1024
-            unit = u
-        return f"{'+' if diff > 0 else ''}{abs_diff:.1f} {unit}"
+        sign = "+" if diff > 0 else "-"
+        return f"{sign}{abs_diff:.1f} {unit}"
 
     def build_inline_diff(self, old_text, new_text):
         matcher = difflib.SequenceMatcher(None, old_text, new_text)
@@ -575,25 +577,33 @@ class ArchiveComparator:
         for tag, i1, i2, j1, j2 in matcher.get_opcodes():
             old_seg = escape(old_text[i1:i2])
             new_seg = escape(new_text[j1:j2])
-            if tag == 'equal':
-                if old_seg: old_parts.append(old_seg)
-                if new_seg: new_parts.append(new_seg)
-            elif tag == 'delete':
-                if old_seg: old_parts.append(f"<span class='inline-del'>{old_seg}</span>")
-            elif tag == 'insert':
-                if new_seg: new_parts.append(f"<span class='inline-add'>{new_seg}</span>")
-            elif tag == 'replace':
-                if old_seg: old_parts.append(f"<span class='inline-del'>{old_seg}</span>")
-                if new_seg: new_parts.append(f"<span class='inline-add'>{new_seg}</span>")
-        return ''.join(old_parts) or escape(old_text), ''.join(new_parts) or escape(new_text)
+            if tag == "equal":
+                if old_seg:
+                    old_parts.append(old_seg)
+                if new_seg:
+                    new_parts.append(new_seg)
+            elif tag == "delete":
+                if old_seg:
+                    old_parts.append(f"<span class='inline-del'>{old_seg}</span>")
+            elif tag == "insert":
+                if new_seg:
+                    new_parts.append(f"<span class='inline-add'>{new_seg}</span>")
+            elif tag == "replace":
+                if old_seg:
+                    old_parts.append(f"<span class='inline-del'>{old_seg}</span>")
+                if new_seg:
+                    new_parts.append(f"<span class='inline-add'>{new_seg}</span>")
+        return "".join(old_parts) or escape(old_text), "".join(new_parts) or escape(
+            new_text
+        )
 
     def generate_diff_blocks(self, lines1, lines2):
         blocks = []
         add_count, del_count = 0, 0
 
-        diff_gen = difflib.unified_diff(lines1, lines2, n=3, lineterm='')
+        diff_gen = difflib.unified_diff(lines1, lines2, n=3, lineterm="")
         try:
-            next(diff_gen);
+            next(diff_gen)
             next(diff_gen)
         except StopIteration:
             pass
@@ -601,36 +611,45 @@ class ArchiveComparator:
         old_line, new_line = 0, 0
         pending_deletions = deque()
         for line in diff_gen:
-            if line.startswith('@@'):
+            if line.startswith("@@"):
                 pending_deletions.clear()
-                blocks.append({'type': 'hunk', 'content': line})
+                blocks.append({"type": "hunk", "content": line})
                 try:
-                    parts = line.split(' ')
-                    old_line = int(parts[1].split(',')[0].replace('-', '')) - 1
-                    new_line = int(parts[2].split(',')[0].replace('+', '')) - 1
-                except:
+                    parts = line.split(" ")
+                    old_line = int(parts[1].split(",")[0].replace("-", "")) - 1
+                    new_line = int(parts[2].split(",")[0].replace("+", "")) - 1
+                except (IndexError, ValueError):
                     pass
-            elif line.startswith('+'):
-                new_line += 1;
+            elif line.startswith("+"):
+                new_line += 1
                 add_count += 1
-                entry = {'type': 'add', 'content': line[1:], 'new_lineno': new_line}
+                entry = {"type": "add", "content": line[1:], "new_lineno": new_line}
                 if pending_deletions:
                     partner = pending_deletions.popleft()
-                    old_html, new_html = self.build_inline_diff(partner['content'], entry['content'])
-                    partner['inline_html'] = old_html
-                    entry['inline_html'] = new_html
+                    old_html, new_html = self.build_inline_diff(
+                        partner["content"], entry["content"]
+                    )
+                    partner["inline_html"] = old_html
+                    entry["inline_html"] = new_html
                 blocks.append(entry)
-            elif line.startswith('-'):
-                old_line += 1;
+            elif line.startswith("-"):
+                old_line += 1
                 del_count += 1
-                entry = {'type': 'del', 'content': line[1:], 'old_lineno': old_line}
+                entry = {"type": "del", "content": line[1:], "old_lineno": old_line}
                 blocks.append(entry)
                 pending_deletions.append(entry)
             else:
                 pending_deletions.clear()
-                old_line += 1;
+                old_line += 1
                 new_line += 1
-                blocks.append({'type': 'eq', 'content': line[1:], 'old_lineno': old_line, 'new_lineno': new_line})
+                blocks.append(
+                    {
+                        "type": "eq",
+                        "content": line[1:],
+                        "old_lineno": old_line,
+                        "new_lineno": new_line,
+                    }
+                )
         return blocks, add_count, del_count
 
     def process(self):
@@ -642,30 +661,49 @@ class ArchiveComparator:
             self._write()
 
     def _extract(self, arc, dest):
-        try:
-            if arc.endswith(('.zip', '.jar')):
-                with zipfile.ZipFile(arc, 'r') as z:
-                    z.extractall(dest)
-            elif arc.endswith(('.tar.gz', '.tar')):
-                with tarfile.open(arc, 'r:*') as t:
-                    t.extractall(dest)
-            else:
-                with zipfile.ZipFile(arc, 'r') as z:
-                    z.extractall(dest)
-        except Exception:
-            pass
+        destination = pathlib.Path(dest).resolve()
+        destination.mkdir(parents=True, exist_ok=True)
+
+        def validate_member(name):
+            member_path = PurePosixPath(name.replace("\\", "/"))
+            if member_path.is_absolute() or ".." in member_path.parts:
+                raise ValueError(f"Unsafe path in archive: {name}")
+            target = (destination / pathlib.Path(*member_path.parts)).resolve()
+            if not target.is_relative_to(destination):
+                raise ValueError(f"Unsafe path in archive: {name}")
+
+        lower_name = str(arc).lower()
+        if lower_name.endswith((".tar.gz", ".tar")):
+            with tarfile.open(arc, "r:*") as archive:
+                for member in archive.getmembers():
+                    validate_member(member.name)
+                    if member.issym() or member.islnk():
+                        raise ValueError(
+                            f"Archive links are not supported: {member.name}"
+                        )
+                archive.extractall(destination, filter="data")
+        else:
+            with zipfile.ZipFile(arc, "r") as archive:
+                for member in archive.infolist():
+                    validate_member(member.filename)
+                archive.extractall(destination)
 
     def _compare(self, d1, d2):
         p1, p2 = pathlib.Path(d1), pathlib.Path(d2)
-        files1 = {p.relative_to(p1) for p in p1.rglob('*') if p.is_file()}
-        files2 = {p.relative_to(p2) for p in p2.rglob('*') if p.is_file()}
+        files1 = {p.relative_to(p1) for p in p1.rglob("*") if p.is_file()}
+        files2 = {p.relative_to(p2) for p in p2.rglob("*") if p.is_file()}
 
         count = 0
         for rel in sorted(list(files1 | files2)):
             f1, f2 = p1 / rel, p2 / rel
             item = {
-                "id": f"f{count}", "path": rel.as_posix(), "name": rel.name,
-                "diff_blocks": [], "add_count": 0, "del_count": 0, "size_diff": ""
+                "id": f"f{count}",
+                "path": rel.as_posix(),
+                "name": rel.name,
+                "diff_blocks": [],
+                "add_count": 0,
+                "del_count": 0,
+                "size_diff": "",
             }
             count += 1
 
@@ -673,38 +711,44 @@ class ArchiveComparator:
             lines2, is_text2 = self._read_content(f2) if rel in files2 else ([], True)
 
             if rel in files1 and rel not in files2:
-                item['status'] = 'removed'
+                item["status"] = "removed"
                 is_text = is_text1
             elif rel not in files1 and rel in files2:
-                item['status'] = 'added'
+                item["status"] = "added"
                 is_text = is_text2
             else:
-                item['status'] = 'modified'
+                item["status"] = "modified"
                 is_text = is_text1 and is_text2
-                if hashlib.sha256(f1.read_bytes()).hexdigest() == hashlib.sha256(f2.read_bytes()).hexdigest():
+                if (
+                    hashlib.sha256(f1.read_bytes()).hexdigest()
+                    == hashlib.sha256(f2.read_bytes()).hexdigest()
+                ):
                     continue
 
-            item['is_binary'] = not is_text
+            item["is_binary"] = not is_text
 
             if is_text:
                 blocks, adds, dels = self.generate_diff_blocks(lines1, lines2)
-                item.update({'diff_blocks': blocks, 'add_count': adds, 'del_count': dels})
+                item.update(
+                    {"diff_blocks": blocks, "add_count": adds, "del_count": dels}
+                )
             else:
-                item['size_diff'] = self.get_size_diff(f1, f2)
+                item["size_diff"] = self.get_size_diff(f1, f2)
 
             self.files_data.append(item)
 
     def _write(self):
         payload = {
             "files": self.files_data,
-            "meta": {
-                "old_label": self.old_label,
-                "new_label": self.new_label
-            }
+            "meta": {"old_label": self.old_label, "new_label": self.new_label},
         }
         data = json.dumps(payload, ensure_ascii=False)
+        data = data.replace("&", "\\u0026").replace("<", "\\u003c").replace(
+            ">", "\\u003e"
+        )
         html = HTML_SHELL.format(css=CSS_STYLES, js=JS_SCRIPT, json_data=data)
-        with open(self.output_path, 'w', encoding='utf-8') as f: f.write(html)
+        with open(self.output_path, "w", encoding="utf-8") as f:
+            f.write(html)
         print(f"Report generated: {os.path.abspath(self.output_path)}")
 
 
@@ -723,7 +767,7 @@ if __name__ == "__main__":
             args.new_file,
             args.output,
             old_label=args.old_label,
-            new_label=args.new_label
+            new_label=args.new_label,
         ).process()
     else:
         print("Files not found.")

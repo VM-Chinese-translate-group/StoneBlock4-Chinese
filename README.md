@@ -4,12 +4,12 @@
 
 | CurseForge     | 加载器   | 整合包版本   | 汉化维护状态 |
 | :------------- | :------- | :----------- | :----------- |
-| [链接](https://www.curseforge.com/minecraft/modpacks/ftb-stoneblock-4) | Neoforge | 1.21.1 1.20.1 | 维护中       |
+| [链接](https://www.curseforge.com/minecraft/modpacks/ftb-stoneblock-4) | Neoforge | 1.21.1 1.24.1 | 维护中       |
 
 ### 📌 汉化相关
 
 - **汉化项目**：[Paratranz](https://paratranz.cn/projects/16650)
-- **汉化发布**：[VM 汉化组官网](https://vmct-cn.top/modpacks/sb4)
+- **汉化发布**：[VM 汉化组官网](https://vmct.top/modpacks/sb4)
 - **译者名单**：[贡献者排行榜](https://paratranz.cn/projects/16650/leaderboard)
 
 # 📖 整合包介绍
