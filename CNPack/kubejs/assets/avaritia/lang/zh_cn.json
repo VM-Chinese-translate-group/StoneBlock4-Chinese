@@ -1,0 +1,8 @@
+{
+  "tip.infinity": "无尽",
+  "avaritia.configuration.general": "常规",
+  "mapping.mapper.avaritia_emc": "无尽贪婪 EMC 映射器",
+  "mapping.mapper.extreme_crafting": "终极合成 EMC 映射器",
+  "mapping.mapper.neutronium_compressor": "中子素压缩机 EMC 映射器",
+  "tooltip.matter_cluster.counter": "%s / %s 个物品"
+}

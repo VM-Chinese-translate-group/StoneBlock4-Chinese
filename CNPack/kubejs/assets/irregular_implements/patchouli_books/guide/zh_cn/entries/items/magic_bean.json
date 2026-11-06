@@ -1,0 +1,21 @@
+{
+  "category": "irregular_implements:items",
+  "icon": "irregular_implements:magic_bean",
+  "name": "魔豆",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "irregular_implements:lesser_magic_bean",
+      "link_recipe": true,
+      "text": "种下$(d)次级魔豆$()后，会长出向上延伸的豆藤。$(br2)豆藤遇到方块便停止生长，也可以像梯子一样攀爬！",
+      "title": "次级魔豆"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "irregular_implements:magic_bean",
+      "link_recipe": true,
+      "text": "$(d)魔豆$()是威力更强的版本！无法合成，但可在地牢和$(l:blocks/nature_core)自然核心$(/l)的箱子中找到。$(br2)它生长更快，还能冲破大多数方块。长到世界顶部后，会结出一个豆茎。$(br2)打破豆茎即可收获珍稀战利品。",
+      "title": "魔豆"
+    }
+  ]
+}

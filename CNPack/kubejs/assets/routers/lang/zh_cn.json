@@ -1,0 +1,6 @@
+{
+  "item.routers.dimensional_upgrade": "跨维度升级",
+  "item.routers.reinforced_pressure_upgrade": "强化压力升级",
+  "tooltip.routers.dimensional_upgrade": "允许输出器向其他维度的输入器传输资源。",
+  "tooltip.routers.pressure_upgrade": "允许每次操作从输出器提取 %s 单位的 PneumaticCraft 压缩空气。"
+}

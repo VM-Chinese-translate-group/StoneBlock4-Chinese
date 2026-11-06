@@ -1,0 +1,18 @@
+{
+  "name": "计时器",
+  "icon": "rftoolsutility:timer",
+  "category": "rftoolsbase:category_rftoolsutility_logic",
+  "extra_recipe_mappings": {
+    "rftoolsutility:timer": 0
+  },
+  "pages": [
+    {
+      "type": "text",
+      "text": "计时器是一种会重复发出红石脉冲的简单逻辑门。延迟值可以自由填写，因此也适合很长的计时间隔。"
+    },
+    {
+      "type": "text",
+      "text": "它的特别之处是：输入端每收到一个红石脉冲，计时就会重新开始。因此，只要外部脉冲来得足够及时，它自身就永远不会输出脉冲。利用这一点，可以检测某项活动是否超时。"
+    }
+  ]
+}

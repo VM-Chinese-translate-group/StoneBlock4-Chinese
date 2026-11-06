@@ -1,0 +1,8 @@
+{
+  "custommachinerymekanism.gui.creation.components.chemical.radiations": "辐射",
+  "custommachinerymekanism.gui.creation.components.chemical.radiations.tooltip": "机器被破坏时，若内部存有放射性化学品，则释放辐射",
+  "custommachinerymekanism.gui.creation.gui.heat.min": "最小值",
+  "custommachinerymekanism.gui.creation.gui.heat.min.tooltip": "温度条显示的最低温度",
+  "custommachinerymekanism.gui.creation.gui.heat.max": "最大值",
+  "custommachinerymekanism.gui.creation.gui.heat.max.tooltip": "温度条显示的最高温度"
+}

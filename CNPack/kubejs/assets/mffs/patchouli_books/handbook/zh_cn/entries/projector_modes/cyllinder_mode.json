@@ -1,0 +1,32 @@
+{
+  "name": "圆柱模式",
+  "icon": "mffs:cylinder_mode",
+  "category": "mffs:projector_modes",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "mffs:cylinder_mode",
+      "link_recipe": true,
+      "text": "默认情况下，圆柱模式让投影仪生成厚度恰好为 1 格的圆柱体力场。每个 $(l:mffs:upgrade_modules/scale_module)尺寸模块$() 会使力场向目标方向延伸 1 格。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mffs:cylinder_mode",
+      "text": "制作$(2)圆柱模式$()。"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "调整力场",
+      "text": "把$(l:mffs:upgrade_modules/scale_module)$(5)尺寸模块$()放进方向槽位，只会使对应方向延伸 1 格。例如，将一个$(l:mffs:upgrade_modules/scale_module)$(5)尺寸模块$()放进界面左上或右上方向箭头对应的槽位，可让力场高度增加 1 格。"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "mffs:textures/gui/handbook/cylinder_mode.png"
+      ],
+      "border": true,
+      "title": "投影示例",
+      "text": "扩大后的$(2)圆柱模式$()力场。"
+    }
+  ]
+}

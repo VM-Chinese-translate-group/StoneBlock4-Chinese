@@ -1,0 +1,23 @@
+{
+  "name": "路由器",
+  "icon": "xnet:router",
+  "category": "rftoolsbase:category_xnet_network",
+  "extra_recipe_mappings": {
+    "xnet:router": 0
+  },
+  "sortnum": 10,
+  "pages": [
+    {
+      "type": "text",
+      "text": "路由器可连接多个 XNet 控制器网络。将它接入路由线缆网络，再发布或接入所连控制器的频道。"
+    },
+    {
+      "type": "text",
+      "text": "路由网络需要使用路由线缆和路由连接器。普通彩色线缆仍只属于各自的局部控制器网络。"
+    },
+    {
+      "type": "crafting",
+      "recipe": "xnet:router"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "name": "反敌对模块",
+  "icon": "mffs:anti_hostile_module",
+  "category": "mffs:interdiction_modules",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "mffs:anti_hostile_module",
+      "link_recipe": true,
+      "text": "反敌对模块是 $(l:mffs:machines/interdiction_matrix)结界矩阵$() 的可选模块。$(br2)安装后，矩阵会自动识别进入扫描范围的敌对生物，并几乎立即将其击杀。$(br2)玩家、村民、动物等非敌对实体不会受到伤害。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mffs:anti_hostile_module",
+      "text": "制作$(5)反敌对模块$()。"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "category": "irregular_implements:blocks",
+  "icon": "irregular_implements:igniter",
+  "name": "点火器",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(d)点火器$()收到红石信号时可以点燃前方。$(br2)界面中可循环选择 3 种工作模式。",
+      "title": "点火器"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "irregular_implements:igniter",
+      "link_recipe": true,
+      "text": "$(li)开关：通电时点火，断电时灭火。$(li)保持点燃：通电时维持火焰，断电时不操作。$(li)点火：通电时点火，断电时不操作。"
+    }
+  ]
+}

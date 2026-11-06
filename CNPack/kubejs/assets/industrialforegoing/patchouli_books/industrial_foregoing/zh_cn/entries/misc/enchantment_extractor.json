@@ -1,0 +1,17 @@
+{
+  "name": "魔咒提取机",
+  "icon": "industrialforegoing:enchantment_extractor",
+  "category": "industrialforegoing:misc",
+  "sortnum": 4,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "放入书后，这台机器能从物品上剥离附魔。$(br2)它有两种工作方式：将附魔提取到书上，或把移除的附魔转化为$(l:agr_hus/essence)精华液$()。"
+    },
+    {
+      "type": "crafting",
+      "recipe": "industrialforegoing:enchantment_extractor"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "category": "irregular_implements:items",
+  "icon": "irregular_implements:white_stone",
+  "name": "白石",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "充能后的$(d)白石$()能$(3)抵挡一次死亡$()，随后耗尽能量。$(br2)在$(3)满月月光下$()即可重新充能。满月升至最高处时，露天持有白石，或将其丢在地上，都能积蓄能量。",
+      "title": "白石"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "irregular_implements:white_stone",
+      "link_recipe": true,
+      "text": "白石在地牢箱子中较为罕见。"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "xp_synthesiser.configuration.general.tooltip": "设置",
+  "xp_synthesiser.configuration.general.button": "打开",
+  "item.xp_synthesiser.kill_recorder": "击杀记录器",
+  "block.xp_synthesiser.xp_synthesiser": "经验合成器",
+  "itemGroup.xp_synthesiser": "经验合成器",
+  "xp_synthesiser.configuration.general": "通用设置",
+  "xp_synthesiser.configuration.title": "经验合成器",
+  "xp_synthesiser.configuration.section.xp.synthesiser.server.toml": "经验合成器",
+  "xp_synthesiser.configuration.xpPointCost.tooltip": "每点经验消耗的能量",
+  "xp_synthesiser.configuration.requiresPower.tooltip": "需要能量",
+  "xp_synthesiser.configuration.section.xp.synthesiser.server.toml.title": "经验合成器",
+  "xp_synthesiser.configuration.requiresPower": "经验合成器需要能量",
+  "xp_synthesiser.configuration.xpPointCost": "每点经验的能量消耗",
+  "xp_synthesiser.configuration.xpScalingCost": "随经验量递增能耗",
+  "xp_synthesiser.configuration.xpScalingFactor": "能耗增长系数"
+}

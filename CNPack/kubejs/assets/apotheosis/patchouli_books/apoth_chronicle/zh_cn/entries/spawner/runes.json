@@ -1,0 +1,135 @@
+{
+  "name": "刷怪笼符文",
+  "icon": "apotheosis:spawner_rune",
+  "category": "apotheosis:spawner/spawner",
+  "flag": "apotheosis:spawner",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "读过$(l:apotheosis:spawner/stats)刷怪笼属性$()后，你可能会想：该怎么调整这些属性？$(p)答案就是$(9)刷怪笼符文$()。手持符文右击$(9)刷怪笼$()，即可应用效果。$(p)在 JEI 中查看刷怪笼的用途，可以找到每种符文及其作用。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "apotheosis:spawner_chain",
+      "title": "刷怪笼锁链",
+      "text": "符文以$(9)刷怪笼锁链$()锻造而成。用爆炸破坏刷怪笼，就能获得这些锁链。$(p)最初的爆炸会触发连锁反应：数秒后刷怪笼再次引爆，释放其中储存的生物，并在地上散落大量锁链。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "apotheosis:spawner_rune",
+      "title": "空白符文",
+      "text": "收集到锁链后，首先需要制作一些空白的$(9)刷怪笼符文$()。"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "升级符文",
+      "text": "核心升级符文共有四种，分别对应“居所”之上的四个世界层级。$(p)它们会调整核心属性：最小与最大生成间隔、单次生成数量、实体数量上限，以及激活范围。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "拓荒者符文",
+      "recipe": "apotheosis:frontier_spawner_upgrade_rune",
+      "text": "每个层级的升级符文，都需要以该层级对应的$(9)稀有度材料$()为核心制作。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "旅人符文",
+      "recipe": "apotheosis:ascent_spawner_upgrade_rune",
+      "text": "符文层级越高，对核心属性的提升就越强。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "登山者符文",
+      "recipe": "apotheosis:summit_spawner_upgrade_rune",
+      "text": "更高阶的符文需要使用$(9)灌注刷怪笼符文$()和更稀有的材料。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "雷霆符文",
+      "recipe": "apotheosis:pinnacle_spawner_upgrade_rune",
+      "text": "最终等级的符文能把刷怪笼变成源源不断制造生物的强力引擎。"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "属性符文",
+      "text": "调整其他非核心属性，需要使用对应的专用符文。每种属性各有一种符文，制作成本取决于效果的强弱。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "生成范围",
+      "recipe": "apotheosis:spawn_range_spawner_rune",
+      "text": "此符文可以调整刷怪笼生成生物的范围。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "控制",
+      "recipe": "apotheosis:redstone_control_spawner_rune",
+      "text": "此符文让刷怪笼受红石控制。没有红石信号时，刷怪笼不会工作。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "永恒暮光",
+      "recipe": "apotheosis:ignore_light_spawner_rune",
+      "text": "此符文让生物生成过程忽略光照等级。$(p)原本只在黑暗中生成的生物也能在亮处出现，反之亦然。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "安静！",
+      "recipe": "apotheosis:silent_spawner_rune",
+      "text": "此符文让生成的生物完全不发出声音。$(p)没有受伤声，没有环境叫声，什么声音都没有。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "青春之泉",
+      "recipe": "apotheosis:youthful_spawner_rune",
+      "text": "此符文会把生成的生物变为幼年形态。$(p)当然，前提是这种生物存在幼年形态；如果没有，就不会产生变化。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "统统烧起来！",
+      "recipe": "apotheosis:burning_spawner_rune",
+      "text": "此符文会点燃生成的生物。$(p)显然，这对免疫火焰的生物没有作用。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "apotheosis:infused_spawner_rune",
+      "title": "灌注符文",
+      "text": "更强的符文需要以$(9)灌注刷怪笼符文$()为基础，后者通过灌注附魔制成。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "愚钝无知",
+      "recipe": "apotheosis:no_ai_spawner_rune",
+      "text": "此灌注符文会移除生成生物的实体 AI。$(p)不过，它们与真正的无 AI 生物不同，仍然可以被推动。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "打破常规",
+      "recipe": "apotheosis:ignore_conditions_spawner_rune",
+      "text": "此灌注符文是$(9)永恒暮光符文$()的直接升级版。$(p)它会忽略包括光照在内的全部生成条件，但仍然需要足够的空闲空间。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "独处此世",
+      "recipe": "apotheosis:ignore_players_spawner_rune",
+      "text": "此灌注符文让刷怪笼在附近没有玩家时也能运行。$(p)里面的生物大概会有些寂寞吧。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "回响不绝",
+      "recipe": "apotheosis:echoing_spawner_rune",
+      "text": "此灌注符文赋予“回响”效果，让生成的生物额外掉落一份按其战利品表生成的物品。$(p)可以多次应用。"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "反转符文",
+      "text": "应用符文时，副手持有$(9)下界石英$()，即可反转符文的效果。$(p)石英不会被消耗。$(p)世界层级升级符文无法反转。"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "注意事项",
+      "text": "属性符文受 JEI 中显示的数值上下限限制，而层级升级符文会直接设定属性值。$(p)将鼠标悬停在刷怪笼物品上并按住 Shift，可查看其属性。"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "name": "弱自动化核心",
+  "icon": "advancedperipherals:weak_automata_core",
+  "category": "advancedperipherals:metaphysics",
+  "pages": [
+    {
+      "type": "spotlight",
+      "title": "弱自动化核心",
+      "item": "advancedperipherals:weak_automata_core",
+      "text": "弱自动化核心是一种海龟升级，能将海龟变成强大的自动机！"
+    },
+    {
+      "type": "crafting",
+      "recipe": "advancedperipherals:weak_automata_core"
+    },
+    {
+      "type": "link",
+      "text": "它为海龟提供多种能力。$(li)使用工具挖掘方块；$(li)持物品或空手点击方块；$(li)吸取周围的全部或指定物品；$(li)检测附近物品；$(li)检测视线方向上的方块或海龟；$(li)利用物品栏内的 RF 储能物品为海龟补充燃料。",
+      "url": "https://docs.advanced-peripherals.de/metaphysics/weak_automata/",
+      "link_text": "API documentation"
+    },
+    {
+      "type": "text",
+      "text": "弱核心只是形而上学研究的起点！这个空壳构装体已经准备好接纳生物的灵魂碎片。试着让其中的灵魂吞噬不同生物，或许就能获得更高级的形态。$(li)$(l:metaphysics/end_automata_core)末地自动化核心$(li)$(l:metaphysics/husbandry_automata_core)畜牧自动化核心"
+    }
+  ]
+}

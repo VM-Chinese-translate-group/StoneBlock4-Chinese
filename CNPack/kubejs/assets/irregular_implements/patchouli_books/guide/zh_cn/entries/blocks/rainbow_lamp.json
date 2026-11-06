@@ -1,0 +1,14 @@
+{
+  "category": "irregular_implements:blocks",
+  "icon": "irregular_implements:rainbow_lamp",
+  "name": "彩虹灯",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "irregular_implements:rainbow_lamp",
+      "link_recipe": true,
+      "text": "$(d)彩虹灯$()会根据输入红石信号的强度改变颜色。",
+      "title": "彩虹灯"
+    }
+  ]
+}

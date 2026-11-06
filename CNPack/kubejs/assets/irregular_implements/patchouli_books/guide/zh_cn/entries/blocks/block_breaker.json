@@ -1,0 +1,21 @@
+{
+  "category": "irregular_implements:blocks",
+  "icon": "irregular_implements:block_breaker",
+  "name": "方块破坏器",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "irregular_implements:block_breaker",
+      "link_recipe": true,
+      "text": "$(d)方块破坏器$()会挖掘正前方的方块，能力相当于铁镐。$(br2)掉落物会送入背后的容器；没有容器则掉在地上。$(br2)施加红石信号可暂停工作。",
+      "title": "方块破坏器"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "irregular_implements:diamond_breaker",
+      "link_recipe": true,
+      "text": "对方块破坏器使用$(d)钻石挖掘工具$()，可将其升级为钻石镐级别。$(br2)钻石挖掘工具也可附魔，附魔效果会在破坏器挖掘时生效！",
+      "title": "钻石挖掘工具"
+    }
+  ]
+}

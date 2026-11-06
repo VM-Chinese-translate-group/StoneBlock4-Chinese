@@ -1,0 +1,19 @@
+{
+  "category": "irregular_implements:blocks/redstone",
+  "icon": "irregular_implements:advanced_redstone_interface",
+  "name": "高级红石接口",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(d)高级红石接口$()会将自己收到的信号传递给最多 9 个绑定方块，强度保持不变。$(br2)插入已设置好的$(l:items/location_filter)位置过滤器$(/l)即可指定目标。",
+      "title": "高级红石接口"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "irregular_implements:advanced_redstone_interface",
+      "link_recipe": true,
+      "text": "手持$(l:items/redstone_tool)红石工具$(/l)，可看到它与各个绑定位置之间的连线。",
+      "title": " "
+    }
+  ]
+}

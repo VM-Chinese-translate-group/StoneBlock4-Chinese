@@ -1,0 +1,23 @@
+---
+title: 符文锻炉
+icon: simplyswords:runic_forge
+---
+
+符文锻炉是向独特武器添加或取出符文石板的唯一途径，也能让你安全地更换符文宝石和狱灵宝石。
+
+<CraftingRecipe
+slots={['obsidian', 'amethyst_shard', 'obsidian', 'amethyst_shard', 'smithing_table', 'amethyst_shard', 'obsidian', 'simplyswords:runic_tablet', 'obsidian']}
+result="simplyswords:runic_forge"
+/>
+
+## 使用锻炉
+
+1. 将支持的武器放入上方中央的槽位。
+2. 锻炉会将武器中的符文石板和已镶嵌宝石取出，放入对应的编辑槽位。
+3. 在锻炉与物品栏之间移动材料：最多可放入八块符文石板，以及每种宝石各一颗。
+4. 将鼠标悬停在武器槽位上，即可实时预览调整后的武器。
+5. 取出武器即可确认预览中的改动。关闭界面也会安全地确认当前显示的内容。
+
+下方八个槽位对应觉醒等级。两侧槽位分别容纳符文宝石与狱灵宝石。流动的通道动画和槽位高亮会提示正在应用的组件。
+
+通过 `additionalGemSocketItems` 配置加入的物品，即使不使用独特武器觉醒系统，也能在锻炉中管理宝石。

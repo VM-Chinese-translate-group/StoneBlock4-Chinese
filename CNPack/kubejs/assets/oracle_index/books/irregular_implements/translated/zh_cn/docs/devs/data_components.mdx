@@ -1,0 +1,18 @@
+
+# 实用数据组件
+
+下列数据组件可以添加到默认不具备相应能力的物品上，为其赋予额外功能。
+
+## 在流体上行走
+
+[水行靴](@irregular_implements:water_walking_boots)等物品并没有各自专用的特殊逻辑，而是使用 `irregular_implements:can_stand_on_fluids` 数据组件，其值为流体标签列表。
+
+模组会检查已穿戴的盔甲及饰品，汇总其中此组件指定的标签。实体站在符合任意标签的流体上方时，就会像站在实体地面上一样。
+
+例如，给马装备 `minecraft:diamond_horse_armor[irregular_implements:can_stand_on_fluids=["minecraft:water"]]`，就能让它在水面行走。
+
+## 占卜法杖
+
+[占卜法杖](@irregular_implements:divining_rod)使用 `irregular_implements:divine_blocks` 数据组件，其值为一个方块标签。主手或副手持有时，附近符合标签的方块会透过墙壁高亮显示。
+
+给其他任意物品添加该组件，也能赋予相同效果。

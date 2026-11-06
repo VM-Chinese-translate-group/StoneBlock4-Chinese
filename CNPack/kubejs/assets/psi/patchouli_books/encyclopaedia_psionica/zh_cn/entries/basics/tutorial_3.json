@@ -1,0 +1,66 @@
+{
+  "name": "psi.book.entry.tutorial3",
+  "category": "psi:basics",
+  "icon": "psi:textures/spell/operator_root.png",
+  "priority": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "psi.book.page.tutorial3.0",
+      "title": "类型与数值"
+    },
+    {
+      "type": "text",
+      "text": "psi.book.page.tutorial3.1"
+    },
+    {
+      "type": "text",
+      "text": "psi.book.page.tutorial3.2"
+    },
+    {
+      "type": "psi:spellpiece_spotlight",
+      "spellpiece": "psi:selector_caster",
+      "text": "psi.book.page.tutorial3.3"
+    },
+    {
+      "type": "text",
+      "text": "psi.book.page.tutorial3.4"
+    },
+    {
+      "type": "text",
+      "text": "psi.book.page.tutorial3.5"
+    },
+    {
+      "type": "text",
+      "text": "psi.book.page.tutorial3.6"
+    },
+    {
+      "type": "text",
+      "text": "psi.book.page.tutorial3.7"
+    },
+    {
+      "type": "text",
+      "text": "psi.book.page.tutorial3.8"
+    },
+    {
+      "type": "text",
+      "text": "psi.book.page.tutorial3.9"
+    },
+    {
+      "type": "text",
+      "text": "psi.book.page.tutorial3.10"
+    },
+    {
+      "type": "psi:spell_grid",
+      "spell": "{modsRequired:[{modName:\"psi\",modVersion:\"2.0.0\"}],spellList:[{data:{key:\"psi:trick_debug\",params:{_number:0,_target:4}},x:3,y:4},{data:{key:\"psi:connector\",params:{_target:4}},x:4,y:4},{data:{key:\"psi:selector_caster\"},x:5,y:4}],spellName:\"Bridge to Terabithia\",uuidLeast:-8344502881889052755L,uuidMost:8904817452787319960L,validSpell:1b}"
+    },
+    {
+      "type": "text",
+      "text": "psi.book.page.tutorial3.12"
+    },
+    {
+      "type": "psi:spell_grid",
+      "spell": "{modsRequired:[{modName:\"psi\",modVersion:\"2.0.0\"}],spellList:[{data:{key:\"psi:connector\",params:{_target:2}},x:2,y:3},{data:{constantValue:\"42\",key:\"psi:constant_number\"},x:2,y:4},{data:{key:\"psi:connector\",params:{_target:1}},x:2,y:5},{data:{key:\"psi:connector\",params:{_target:3}},x:3,y:3},{data:{key:\"psi:selector_caster\"},x:3,y:4},{data:{key:\"psi:connector\",params:{_target:3}},x:3,y:5},{data:{key:\"psi:connector\",params:{_target:3}},x:4,y:3},{data:{key:\"psi:connector\",params:{_target:3}},x:4,y:4},{data:{key:\"psi:connector\",params:{_target:3}},x:4,y:5},{data:{key:\"psi:connector\",params:{_target:3}},x:5,y:3},{data:{key:\"psi:trick_debug\",params:{_number:0,_target:3}},x:5,y:4},{data:{key:\"psi:connector\",params:{_target:3}},x:5,y:5},{data:{key:\"psi:connector\",params:{_target:3}},x:6,y:3},{data:{key:\"psi:trick_debug\",params:{_number:1,_target:2}},x:6,y:4},{data:{key:\"psi:connector\",params:{_target:3}},x:6,y:5}],spellName:\"The long way around\",uuidLeast:-8344502881889052755L,uuidMost:8904817452787319960L,validSpell:1b}"
+    }
+  ]
+}

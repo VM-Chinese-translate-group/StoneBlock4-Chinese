@@ -1,0 +1,9 @@
+{
+  "ctm.configuration.title": "CTM 配置",
+  "ctm.configuration.section.ctm.toml.title": "CTM 配置",
+  "ctm.configuration.section.ctm.toml": "CTM 配置",
+  "configuration.ctm.disable": "禁用 CTM",
+  "configuration.ctm.disable.tooltip": "完全禁用连接纹理。",
+  "configuration.ctm.connect_inside": "连接内侧转角纹理",
+  "configuration.ctm.connect_inside.tooltip": "决定 CTM 方块的内侧转角是否断开连接，示意图：https://imgur.com/eUywLZ4"
+}

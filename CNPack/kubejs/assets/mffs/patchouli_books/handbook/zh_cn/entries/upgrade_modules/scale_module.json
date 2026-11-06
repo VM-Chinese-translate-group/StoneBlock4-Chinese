@@ -1,0 +1,18 @@
+{
+  "name": "尺寸模块",
+  "icon": "mffs:scale_module",
+  "category": "mffs:upgrade_modules",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "mffs:scale_module",
+      "link_recipe": true,
+      "text": "尺寸模块可装入多种 MFFS 机器的升级槽，增强与距离、范围有关的性能。$(br2)具体效果取决于机器，常见用途包括：$(li)扩大力场尺寸。$(li)扩大结界矩阵的作用区域。$(li)增强 $(l:mffs:machines/coercion_deriver)能源转换器$() 的燃料增幅。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mffs:scale_module",
+      "text": "制作$(5)尺寸模块$()。"
+    }
+  ]
+}

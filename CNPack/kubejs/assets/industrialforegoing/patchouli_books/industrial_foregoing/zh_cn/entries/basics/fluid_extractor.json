@@ -1,0 +1,18 @@
+{
+  "name": "流体提取器",
+  "icon": "industrialforegoing:fluid_extractor",
+  "category": "industrialforegoing:basics",
+  "sortnum": 0,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "流体提取器会从正前方的木头中抽取$(l:basics/latex)胶乳$()。多台提取器可以同时对同一根原木工作。$(br2)抽取会逐渐消耗原木：首先剥去树皮，将其变成去皮原木；去皮原木被进一步耗尽后，便会消失。"
+    },
+    {
+      "type": "crafting",
+      "recipe": "industrialforegoing:fluid_extractor",
+      "text": "$(br2)$(6)不同原木的胶乳产量不同，具体速率请查看 JEI。$(6)供电并非必需，但提供能量可以加快机器工作速度。"
+    }
+  ]
+}

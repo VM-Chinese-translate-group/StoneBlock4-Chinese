@@ -1,0 +1,14 @@
+{
+  "gui.apply": "应用",
+  "gui.trophy.size": "大小：%s",
+  "gui.trophy.pose": "姿势：%s",
+  "gui.trophy.pose.standing": "站立",
+  "gui.trophy.pose.sitting": "坐着",
+  "gui.trophy.pose.flying": "飞行",
+  "block.trophymanager.trophy": "奖杯",
+  "trophymanager.trophy.name": "%s 奖杯",
+  "trophymanager.tooltip.trophy.scale": "缩放：%s",
+  "gui.trophy.offset": "Y 轴偏移：%s",
+  "gui.trophy.jei.item_trophy": "物品奖杯",
+  "gui.trophy.jei.any_item": "这里可以放入任何物品"
+}

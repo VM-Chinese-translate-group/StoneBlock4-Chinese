@@ -1,0 +1,19 @@
+{
+  "category": "irregular_implements:items",
+  "icon": "irregular_implements:weather_egg",
+  "name": "天气蛋",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "扔出$(d)天气蛋$()可以$(3)改变天气$()。$(br2)共有晴天、降雨和雷暴三种。$(br2)晴天蛋使天气放晴，降雨蛋带来雨水，雷暴蛋则引发雷雨。",
+      "title": "天气蛋"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "irregular_implements:weather_egg,irregular_implements:weather_egg[irregular_implements:weather=\"rainy\"],irregular_implements:weather_egg[irregular_implements:weather=\"stormy\"]",
+      "link_recipe": true,
+      "text": "若扔出的天气蛋与当前天气相同，则不会产生效果。",
+      "title": " "
+    }
+  ]
+}

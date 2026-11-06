@@ -1,0 +1,27 @@
+{
+  "name": "结界矩阵",
+  "icon": "mffs:interdiction_matrix",
+  "category": "mffs:machines",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "mffs:interdiction_matrix",
+      "link_recipe": true,
+      "text": "结界矩阵是 MFFS 的区域防御机器。$(br2)它可以限制周围玩家或实体的行为，例如自动击杀进入区域的生物与玩家，或阻止未授权玩家操作其他机器。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mffs:interdiction_matrix",
+      "text": "制作$(9)结界矩阵$()。"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "运行原理",
+      "text": "$(9)结界矩阵$()周围分为$(bold)作用区$()与$(bold)警告区$()。作用区半径等于安装的$(l:mffs:upgrade_modules/scale_module)$(5)尺寸模块$()数量；默认情况下，警告区是从作用区边缘向外再延伸 3 格的同心球壳。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "玩家进入$(l:mffs:machines/interdiction_matrix)结界矩阵$()的警告区时，会收到已进入扫描范围的提示。不想亲身测试矩阵装了什么模块，最好别再靠近。没有模块的$(l:mffs:machines/interdiction_matrix)结界矩阵$()基本不起作用；安装合适的$(l:mffs:interdiction_modules)$(5)模块$()后，它就能成为强大的防御系统。"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "name": "个人维度钥匙",
+  "icon": "dimdungeons:item_key_build",
+  "category": "dimdungeons:artifacts",
+  "sortnum": 40,
+  "advancement": "dimdungeons:dungeons/activate_basic_key",
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "dimdungeons:item_key_build",
+      "text": "你打造了一把通往$(bold)专属个人维度$()的钥匙！这片空间有 8×8 个区块，可以任你建造。你可以在这里修农场、搭建随身基地，或利用平坦地形制作地图画！"
+    },
+    {
+      "type": "text",
+      "text": "即使丢了个人维度钥匙也不用担心。由你激活的所有空白个人维度钥匙，都通往你的同一片空间。多人游戏中的其他玩家也各自遵循这个规则。"
+    }
+  ]
+}

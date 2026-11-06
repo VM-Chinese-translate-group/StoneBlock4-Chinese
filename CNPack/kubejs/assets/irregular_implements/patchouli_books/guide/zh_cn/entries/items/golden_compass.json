@@ -1,0 +1,18 @@
+{
+  "category": "irregular_implements:items",
+  "icon": "irregular_implements:golden_compass",
+  "name": "金指南针",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(d)金指南针$()可以绑定一个位置，并$(3)始终指向那里$()。$(br2)当然，目标必须与你处于同一维度。$(br2)这和磁石指南针是不是差不多？也许吧！",
+      "title": "金指南针"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "irregular_implements:golden_compass",
+      "link_recipe": true,
+      "text": "将指南针与已设置好的$(l:items/location_filter)位置过滤器$(/l)合成，即可绑定目标位置。"
+    }
+  ]
+}

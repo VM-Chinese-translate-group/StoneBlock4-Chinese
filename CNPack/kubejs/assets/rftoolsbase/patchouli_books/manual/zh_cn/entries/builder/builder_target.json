@@ -1,0 +1,20 @@
+{
+  "name": "选择目标区域",
+  "icon": "minecraft:compass",
+  "category": "rftoolsbase:category_rftoolsbuilder_builder",
+  "sortnum": 20,
+  "pages": [
+    {
+      "type": "text",
+      "text": "有多种方法可以设定建造机的工作区域。"
+    },
+    {
+      "type": "text",
+      "text": "可以直接在形状卡中输入尺寸与偏移量。$(br2)偏移量始终相对于建造机计算。设为 0,0,0 时，区域以建造机为中心。"
+    },
+    {
+      "type": "text",
+      "text": "也可以潜行右击建造机，开始选择区域；或先在形状卡中设置尺寸，再用界面中的锚点按钮调整偏移。"
+    }
+  ]
+}

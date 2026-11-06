@@ -1,0 +1,25 @@
+---
+title: 方块失稳器
+id: irregular_implements:block_destabilizer
+related_items: [irregular_implements:block_destabilizer]
+type: block
+---
+
+
+**方块失稳器**收到红石脉冲后，会让正前方的方块及与其相连的同类方块像沙子一样下落。
+
+可以在界面中切换各项设置。
+
+记忆模式会保存受影响方块的位置，即使这些位置后来换成其他方块，也会继续作用于它们。
+
+启用记忆模式后运行一次，即可记录本次失稳的所有位置，作为记忆形状。以后运行时只处理这些位置，不再区分方块类型。
+
+点击“显示记忆形状”可在所有已记录位置显示方框。
+
+<Callout variant="danger">
+这里使用的自定义渲染方式目前与 Sodium 不兼容。不会导致崩溃，但记忆形状标记将无法透过方块显示。
+</Callout>
+
+点击“清除记忆形状”即可删除已保存的位置。
+
+<PrefabObtaining/>

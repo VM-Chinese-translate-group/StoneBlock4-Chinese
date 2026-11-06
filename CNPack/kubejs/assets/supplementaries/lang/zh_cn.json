@@ -1,0 +1,21 @@
+{
+  "painting.supplementaries.bombs.title": "炸弹",
+  "supplementaries.virtual_resourcepack.description": "动态运行时资源",
+  "supplementaries.virtual_resourcepack.title": "虚拟资源包",
+  "item.supplementaries.pignata": "猪猪彩罐",
+  "entity.supplementaries.pignata": "猪猪彩罐",
+  "block.supplementaries.pignata_anchor": "猪猪彩罐挂钩",
+  "message.supplementaries.pignata.full": "这个猪猪彩罐已经装满了",
+  "painting.supplementaries.jar.title": "罐子",
+  "subtitles.supplementaries.pignata.burst": "猪猪彩罐爆开",
+  "subtitles.supplementaries.pignata.hit": "猪猪彩罐被击中",
+  "supplementaries.configuration.rope.lead_knots": "拴绳打结",
+  "supplementaries.configuration.rope.lead_knots.description": "允许将拴绳系在绳索上",
+  "supplementaries.configuration.notice_board.gui": "界面",
+  "supplementaries.configuration.building.pignata": "猪猪彩罐",
+  "supplementaries.configuration.blackboard.connected_gui": "相连黑板编辑界面",
+  "supplementaries.configuration.blackboard.connected_gui.description": "打开黑板界面时，同时显示相连黑板（最多 3×3），可一次在整片黑板上作画",
+  "supplementaries.configuration.pignata": "猪猪彩罐",
+  "supplementaries.configuration.pignata.heal_interval": "恢复间隔",
+  "supplementaries.configuration.pignata.heal_interval.description": "猪猪彩罐恢复一颗心所需的游戏刻数"
+}

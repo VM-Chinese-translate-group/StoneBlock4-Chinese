@@ -1,0 +1,14 @@
+{
+  "category": "irregular_implements:blocks/plates",
+  "icon": "irregular_implements:accelerator_plate",
+  "name": "加速板",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "irregular_implements:accelerator_plate",
+      "link_recipe": true,
+      "text": "$(bold)加速板$()会沿实体原有的运动方向为其加速，直到达到速度上限。",
+      "title": "加速板"
+    }
+  ]
+}

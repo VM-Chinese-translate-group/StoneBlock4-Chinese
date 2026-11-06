@@ -1,0 +1,6 @@
+{
+  "attribute.name.player.entity_interaction_range.desc": "可与实体交互的最远距离，单位为格。",
+  "attribute.name.generic.gravity.desc": "朝向地面的加速度，单位为格/秒²。",
+  "attribute.name.player.block_interaction_range.desc": "可与方块交互的最远距离，单位为格。",
+  "attribute.name.generic.step_height.desc": "无需跳跃就能直接迈上的方块高度。"
+}

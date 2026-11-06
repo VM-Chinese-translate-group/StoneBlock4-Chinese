@@ -1,0 +1,35 @@
+{
+  "name": "红树",
+  "icon": "minecraft:mangrove_propagule",
+  "category": "bonsaitrees4:minecraft",
+  "pages": [
+    {
+      "type": "bonsaitrees4:tree",
+      "tree_name": "红树",
+      "tree_sapling": "minecraft:mangrove_propagule"
+    },
+    {
+      "type": "patchouli:link",
+      "title": "游戏中的它",
+      "text": "红树生长在红树林沼泽，拥有宽大的树冠和露出地面的根系，既能长在水中，也能长在陆地上。其木材呈朱红色。",
+      "url": "https://minecraft.wiki/w/Mangrove",
+      "link_text": "Minecraft Wiki"
+    },
+    {
+      "type": "patchouli:link",
+      "title": "现实中的它",
+      "text": "红树是主要生长于沿海咸水或半咸水环境的灌木和乔木，常见于赤道气候地区的海岸与潮汐河流沿岸。它们具有获取额外氧气、排出盐分等特殊适应能力，因此能在多数植物无法生存的环境中扎根。",
+      "url": "https://en.wikipedia.org/wiki/Mangrove",
+      "link_text": "Wikipedia"
+    },
+    {
+      "type": "patchouli:image",
+      "border": true,
+      "images": [
+        "bonsaitrees4:textures/patchouli/mangrove_tree.png",
+        "bonsaitrees4:textures/patchouli/mangrove_roots.png",
+        "bonsaitrees4:textures/patchouli/mangrove_leaves.png"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "category": "irregular_implements:blocks/redstone",
+  "icon": "irregular_implements:block_detector",
+  "name": "方块探测器",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "irregular_implements:block_detector",
+      "link_recipe": true,
+      "text": "$(bold)方块探测器$()正前方的方块与内部保存的样本一致时，会输出红石信号。",
+      "title": "方块探测器"
+    }
+  ]
+}

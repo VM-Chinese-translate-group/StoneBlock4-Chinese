@@ -1,0 +1,13 @@
+{
+  "name": "以太气体（桶装）",
+  "icon": "industrialforegoing:ether_gas_bucket",
+  "category": "industrialforegoing:resource_production",
+  "sortnum": 13,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "将$(l:resource_production/fluid_laser_base)流体镭射钻基座$()放在凋灵的正上方，即可生产这种流体。"
+    }
+  ]
+}

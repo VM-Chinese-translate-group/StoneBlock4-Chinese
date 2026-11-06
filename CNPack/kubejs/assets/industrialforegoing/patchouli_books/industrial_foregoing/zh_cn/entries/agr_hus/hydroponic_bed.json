@@ -1,0 +1,17 @@
+{
+  "name": "水培床",
+  "icon": "industrialforegoing:hydroponic_bed",
+  "category": "industrialforegoing:agriculture_husbandry",
+  "sortnum": 16,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "为机器供电并提供$(6)水$()，就能适度加快作物生长；下界作物需要改用$(6)熔岩$()。$(br2)再供应少量$(l:resource_production/ether_gas)以太气体$()，作物生长就会大幅加速，并能自动补种。"
+    },
+    {
+      "type": "crafting",
+      "recipe": "industrialforegoing:hydroponic_bed"
+    }
+  ]
+}

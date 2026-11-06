@@ -1,0 +1,15 @@
+{
+  "name": "掌上电脑升级",
+  "icon": "computercraft:pocket_computer_advanced",
+  "category": "advancedperipherals:items",
+  "pages": [
+    {
+      "type": "text",
+      "text": "以下外设提供掌上电脑升级版本：$(li)$(9)$(l:peripherals/environment_detector)环境监测仪$(/l)$()$(li)$(9)$(l:peripherals/player_detector)玩家侦测器$(/l)$()$(li)$(9)$(l:peripherals/chat_box)聊天方块$(/l)$()$(p)完整文档请参阅$(9)$(l:https://docs.advanced-peripherals.de/items/pocket_computer/)官方 Wiki 页面$(/l)$()！"
+    },
+    {
+      "type": "text",
+      "text": "将这些外设与掌上电脑合成，即可为电脑添加对应功能。注意：掌上电脑升级无法使用对应的事件。"
+    }
+  ]
+}

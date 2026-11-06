@@ -1,7 +1,7 @@
 ---
 navigation:
   title: 四阶升级
-  icon: "ftb:world_engine_elite_machine_block"
+  icon: "draconicevolution:energy_core_stabilizer"
   position: 5
 ---
 

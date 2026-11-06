@@ -1,0 +1,14 @@
+{
+  "category": "irregular_implements:items",
+  "icon": "irregular_implements:bottle_of_air",
+  "name": "空气瓶",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "irregular_implements:bottle_of_air",
+      "link_recipe": true,
+      "text": "在水下“喝下”$(bold)空气瓶$()，可以补满氧气。$(br2)它只能在海底神殿的箱子中找到。",
+      "title": "空气瓶"
+    }
+  ]
+}

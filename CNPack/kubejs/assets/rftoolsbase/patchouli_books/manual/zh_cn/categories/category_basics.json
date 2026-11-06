@@ -1,0 +1,7 @@
+{
+  "name": "基础知识",
+  "description": "RFTools 的基础知识，包括世界生成相关信息。",
+  "parent": "rftoolsbase:category_rftoolsbase",
+  "icon": "rftoolsbase:dimensionalshard_overworld",
+  "sortnum": 10
+}

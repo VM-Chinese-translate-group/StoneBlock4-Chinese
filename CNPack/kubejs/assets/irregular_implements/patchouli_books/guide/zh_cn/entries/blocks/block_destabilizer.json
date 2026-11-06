@@ -1,0 +1,22 @@
+{
+  "category": "irregular_implements:blocks",
+  "icon": "irregular_implements:block_destabilizer",
+  "name": "方块失稳器",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(d)方块失稳器$()收到红石脉冲时，会让正前方及相连的同类方块$(3)像沙子一样下落$()。$(br2)界面中可调整记忆模式相关设置。",
+      "title": "方块失稳器"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "irregular_implements:block_destabilizer",
+      "link_recipe": true,
+      "text": "记忆模式会$(3)记录需要失稳的位置$()，即使之后换成其他方块也会继续处理。$(br2)尚未设置记忆形状时，会在首次以记忆模式运行时自动记录。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "点击$(3)显示记忆形状$()，可在已记录位置显示方框。$(br2)这一显示方式$(c)与 Sodium 兼容不佳$()，原本应该透过方块显示的标记可能被遮挡。$(br2)点击$(3)清除记忆形状$()即可删除已保存的形状。"
+    }
+  ]
+}

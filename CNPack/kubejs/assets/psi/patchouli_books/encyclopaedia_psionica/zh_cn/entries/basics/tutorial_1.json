@@ -1,0 +1,73 @@
+{
+  "name": "psi.book.entry.tutorial1",
+  "category": "psi:basics",
+  "icon": "psi:textures/spell/trick_debug.png",
+  "priority": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "psi.book.page.tutorial1.0",
+      "title": "编写魔法式"
+    },
+    {
+      "type": "text",
+      "text": "psi.book.page.tutorial1.1"
+    },
+    {
+      "type": "text",
+      "text": "psi.book.page.tutorial1.2"
+    },
+    {
+      "type": "text",
+      "text": "psi.book.page.tutorial1.3"
+    },
+    {
+      "type": "text",
+      "text": "psi.book.page.tutorial1.4"
+    },
+    {
+      "type": "text",
+      "text": "psi.book.page.tutorial1.5"
+    },
+    {
+      "type": "text",
+      "text": "psi.book.page.tutorial1.6"
+    },
+    {
+      "type": "text",
+      "text": "psi.book.page.tutorial1.7"
+    },
+    {
+      "type": "text",
+      "text": "psi.book.page.tutorial1.8"
+    },
+    {
+      "type": "text",
+      "text": "psi.book.page.tutorial1.9"
+    },
+    {
+      "type": "text",
+      "text": "psi.book.page.tutorial1.10"
+    },
+    {
+      "type": "text",
+      "text": "psi.book.page.tutorial1.11"
+    },
+    {
+      "type": "text",
+      "text": "psi.book.page.tutorial1.12"
+    },
+    {
+      "type": "psi:spell_grid",
+      "spell": "{modsRequired:[{modName:\"psi\",modVersion:\"2.0.0\"}],spellList:[{data:{key:\"psi:selector_caster\"},x:4,y:4},{data:{key:\"psi:trick_debug\",params:{_number:0,_target:3}},x:5,y:4}],spellName:\"Debug\",uuidLeast:-8344502881889052755L,uuidMost:8904817452787319960L,validSpell:1b}"
+    },
+    {
+      "type": "text",
+      "text": "psi.book.page.tutorial1.14"
+    },
+    {
+      "type": "text",
+      "text": "psi.book.page.tutorial1.15"
+    }
+  ]
+}

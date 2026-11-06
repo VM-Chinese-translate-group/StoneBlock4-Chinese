@@ -1,0 +1,18 @@
+{
+  "category": "irregular_implements:blocks/redstone",
+  "icon": "irregular_implements:entity_detector",
+  "name": "实体探测器",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "符合筛选条件的实体进入探测区域时，$(d)实体探测器$()会输出红石信号。$(br2)界面中可分别设置三个轴向的半径、是否反转输出，以及要探测的实体类型。",
+      "title": "实体探测器"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "irregular_implements:entity_detector",
+      "link_recipe": true,
+      "text": "可选择以下类型：$(li)所有实体$(li)生物$(li)动物$(li)怪物$(li)玩家$(li)掉落物$(li)自定义$(br2)自定义模式下，可插入$(l:items/entity_filter)实体过滤器$(/l)来指定探测目标。"
+    }
+  ]
+}

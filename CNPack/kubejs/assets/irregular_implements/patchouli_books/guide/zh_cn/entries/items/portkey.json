@@ -1,0 +1,18 @@
+{
+  "category": "irregular_implements:items",
+  "icon": "irregular_implements:portkey",
+  "name": "门钥匙",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(d)门钥匙$()被拾取时，会立即将玩家传送到指定位置。$(br2)先$(3)对地面使用门钥匙$()记录目标，此时它会发光。将其丢在地上，等待几秒后会停止发光并激活。$(br2)传送不能跨维度，门钥匙会在$(c)使用后消耗$()。",
+      "title": "门钥匙"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "irregular_implements:portkey",
+      "link_recipe": true,
+      "text": "还可$(3)将门钥匙与任意其他物品合成$()来伪装它。丢出的门钥匙会显示成伪装物品的样子。"
+    }
+  ]
+}

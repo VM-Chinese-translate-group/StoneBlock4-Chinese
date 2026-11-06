@@ -1,0 +1,7 @@
+{
+  "name": "机器",
+  "description": "各类机器介绍",
+  "parent": "rftoolsbase:category_rftoolsbase",
+  "icon": "rftoolsbase:machine_infuser",
+  "sortnum": 30
+}

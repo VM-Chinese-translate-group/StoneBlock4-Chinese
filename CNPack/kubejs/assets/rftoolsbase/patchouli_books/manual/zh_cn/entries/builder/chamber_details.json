@@ -1,0 +1,15 @@
+{
+  "name": "空间详情",
+  "icon": "rftoolsbuilder:space_chamber_controller",
+  "category": "rftoolsbase:category_rftoolsbuilder_builder",
+  "extra_recipe_mappings": {
+    "rftoolsbuilder:space_chamber_controller": 0
+  },
+  "sortnum": 30,
+  "pages": [
+    {
+      "type": "text",
+      "text": "空间详情界面会显示所选空间区域内的内容。$(br2)手持空间卡右击，可以查看该区域内当前所有方块和实体的概览。"
+    }
+  ]
+}

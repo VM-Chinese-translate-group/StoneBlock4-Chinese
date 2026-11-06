@@ -1,0 +1,7 @@
+{
+  "config.moreoverlays.lightoverlay.spawn_numbers": "使用数字叠加层",
+  "config.moreoverlays.lightoverlay.update_interval_frames": "更新间隔（帧）",
+  "config.moreoverlays.rendersettings.chunk_line_thick": "区块：粗线条",
+  "config.moreoverlays.rendersettings.spawn_number_scale": "刷怪范围：数字大小",
+  "config.moreoverlays.rendersettings.spawn_safe_color": "刷怪范围：安全区域颜色"
+}

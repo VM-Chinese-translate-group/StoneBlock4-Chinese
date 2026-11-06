@@ -1,0 +1,14 @@
+{
+  "category": "irregular_implements:blocks/plates",
+  "icon": "irregular_implements:corrector_plate",
+  "name": "校正板",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "irregular_implements:corrector_plate",
+      "link_recipe": true,
+      "text": "$(d)校正板$()会把经过的实体调整到方块中央路线。$(br2)实体只能沿穿过方块中心、分别平行于 X 和 Z 轴的十字形路径移动。",
+      "title": "校正板"
+    }
+  ]
+}

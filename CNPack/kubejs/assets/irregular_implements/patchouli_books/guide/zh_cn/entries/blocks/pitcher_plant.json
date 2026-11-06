@@ -1,0 +1,18 @@
+{
+  "category": "irregular_implements:blocks",
+  "icon": "irregular_implements:pitcher_plant",
+  "name": "猪笼草",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(d)猪笼草$()能够产水。$(br2)用桶或其他流体容器对其使用即可装水。$(br2)它也会定期填充相邻储罐，并支持管道抽水。",
+      "title": "猪笼草"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "irregular_implements:pitcher_plant",
+      "link_recipe": true,
+      "text": "猪笼草可在带有生物群系标签 $(3)c:is_wet/overworld$() 的群系中找到。"
+    }
+  ]
+}

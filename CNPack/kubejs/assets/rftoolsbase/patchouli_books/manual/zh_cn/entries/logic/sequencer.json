@@ -1,0 +1,18 @@
+{
+  "name": "音序器",
+  "icon": "rftoolsutility:sequencer",
+  "category": "rftoolsbase:category_rftoolsutility_logic",
+  "extra_recipe_mappings": {
+    "rftoolsutility:sequencer": 0
+  },
+  "pages": [
+    {
+      "type": "text",
+      "text": "音序器能根据红石输入产生指定的红石信号序列。你可以设置 64 个步骤的输出状态，序列运行时，方块会依次按这些设置输出信号。$(br2)它有 7 种工作模式："
+    },
+    {
+      "type": "text",
+      "text": "$(li)$(d)单次 1：$()运行一轮，结束前忽略其他信号。$(/li)$(li)$(d)单次 2：$()运行一轮，收到新信号时从头开始。$(/li)$(li)$(d)循环 1：$()持续循环，忽略红石信号。$(/li)$(li)$(d)循环 2：$()持续循环，收到信号时回到起点。$(/li)$(li)$(d)循环 3：$()启用时持续循环，禁用时停留在当前步骤。$(/li)$(li)$(d)循环 4：$()启用时持续循环，禁用时重置到起点。$(/li)$(li)$(d)步进：$()每收到一个信号，执行序列中的下一步。$(/li)"
+    }
+  ]
+}

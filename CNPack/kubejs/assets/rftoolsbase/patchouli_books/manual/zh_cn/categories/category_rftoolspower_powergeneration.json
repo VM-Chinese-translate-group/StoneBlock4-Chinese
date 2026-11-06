@@ -1,0 +1,7 @@
+{
+  "name": "能量生产",
+  "description": "能够产生能量的机器。",
+  "parent": "rftoolsbase:category_rftoolspower",
+  "icon": "rftoolspower:coalgenerator",
+  "sortnum": 10
+}

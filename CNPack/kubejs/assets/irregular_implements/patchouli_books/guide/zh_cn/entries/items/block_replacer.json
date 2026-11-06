@@ -1,0 +1,18 @@
+{
+  "category": "irregular_implements:items",
+  "icon": "irregular_implements:block_replacer",
+  "name": "方块替换器",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(d)方块替换器$()可用内部储存的方块快速替换世界中的方块。$(br2)像使用收纳袋一样，在物品栏中$(3)拿起方块并右击替换器$()即可存入。$(br2)拿起替换器并右击空槽位，即可取出内部方块。",
+      "title": "方块替换器"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "irregular_implements:block_replacer",
+      "link_recipe": true,
+      "text": "对世界中的方块使用，会破坏目标并从内部随机选一种方块放在原处。$(br2)带有方块标签 $(c)#irregular_implements:block_replacer_blacklist$() 的方块不能被替换。"
+    }
+  ]
+}

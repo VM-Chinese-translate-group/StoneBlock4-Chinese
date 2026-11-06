@@ -1,0 +1,59 @@
+{
+  "name": "psi.book.entry.spellBullet",
+  "category": "psi:items",
+  "icon": "minecraft:air",
+  "priority": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "psi.book.page.spellBullet.0"
+    },
+    {
+      "type": "relations",
+      "text": "psi.book.page.spellBullet.1",
+      "entries": [
+        "psi:items/spell_bullet",
+        "psi:items/projectile_bullet",
+        "psi:items/loopcast_bullet",
+        "psi:items/circle_bullet",
+        "psi:items/grenade_bullet",
+        "psi:items/charge_bullet",
+        "psi:items/mine_bullet"
+      ],
+      "title": "术式弹药的种类"
+    },
+    {
+      "type": "text",
+      "text": "psi.book.page.spellBullet.2"
+    },
+    {
+      "type": "text",
+      "text": "psi.book.page.spellBullet.3"
+    },
+    {
+      "type": "text",
+      "text": "psi.book.page.spellBullet.4"
+    },
+    {
+      "type": "text",
+      "text": "psi.book.page.spellBullet.5"
+    },
+    {
+      "type": "text",
+      "text": "psi.book.page.spellBullet.6"
+    },
+    {
+      "type": "text",
+      "text": "psi.book.page.spellBullet.7"
+    },
+    {
+      "type": "text",
+      "text": "psi.book.page.spellBullet.8",
+      "anchor": "focal_point"
+    },
+    {
+      "type": "text",
+      "text": "psi.book.page.spellBullet.9"
+    }
+  ]
+}

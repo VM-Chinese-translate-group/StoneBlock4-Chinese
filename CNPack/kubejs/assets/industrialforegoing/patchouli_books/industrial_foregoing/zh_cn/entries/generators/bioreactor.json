@@ -1,0 +1,17 @@
+{
+  "name": "生物反应器",
+  "icon": "industrialforegoing:bioreactor",
+  "category": "industrialforegoing:generators",
+  "sortnum": 2,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "为机器提供水和一些$(6)种子$()、$(6)树苗$()、$(6)染料$()，以及……$(6)头颅$()？？？它就能生产$(l:generators/biofuel)生物燃油$()。$(br2)反应器中的原料种类越丰富，每件原料能产出的燃油就越多。例如，只有 1 种原料时，每件仅产出 $(6)80$() mB；若同时放入 4 种不同原料，每件可产出 $(6)110$() mB，合计 $(6)440$() mB。"
+    },
+    {
+      "type": "crafting",
+      "recipe": "industrialforegoing:bioreactor"
+    }
+  ]
+}

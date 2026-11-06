@@ -1,0 +1,21 @@
+{
+  "name": "植物收割机",
+  "icon": "industrialforegoing:plant_gatherer",
+  "category": "industrialforegoing:agriculture_husbandry",
+  "sortnum": 1,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "用于$(6)砍伐$()树木和$(6)收获$()作物。每次操作都会产生少量$(l:agr_hus/sludge)污泥$()。$(br2)只要树木底部的原木位于工作范围内，植物收割机就会继续砍伐与这根原木相连的所有原木和树叶。"
+    },
+    {
+      "type": "text",
+      "text": "植物收割机通过破坏作物来收获，即使该作物本来支持右击收获也不例外。不过，只要持续供应少量以太气体，它就能自动补种。"
+    },
+    {
+      "type": "crafting",
+      "recipe": "industrialforegoing:plant_gatherer"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "机械诅咒之土",
+  "icon": "industrialforegoing:mechanical_dirt",
+  "category": "industrialforegoing:resource_production",
+  "sortnum": 1,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "这块方块蕴含未知科技，满足条件后能快速生成$(6)生物$()。$(br2)首先，每次工作需要 $(6)1000$() RF 和 $(6)20mB$() $(6)肉汤$()；其次，必须满足普通生物的生成条件：亮度等级为 $(6)7$() 或以下，且方块所在区块处于加载状态。$(br2)"
+    },
+    {
+      "type": "text",
+      "text": "只要向其中一块输入$(6)能量$()或$(6)肉汤$()，输入内容就会自动平均分配给所有相连的方块。"
+    },
+    {
+      "type": "industrialforegoing:dissolution",
+      "recipe": "industrialforegoing:dissolution_chamber/mechanical_dirt"
+    }
+  ]
+}

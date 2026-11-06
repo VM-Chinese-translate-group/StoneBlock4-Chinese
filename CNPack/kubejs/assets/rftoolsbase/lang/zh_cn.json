@@ -1,0 +1,4 @@
+{
+  "Technology Guide": "科技指南",
+  "This manual is your guide to all things McJty, from the RFTools Suite to xNet, Deep Resonance, and (probably) beyond! $(br)If you find a bug, please report it $(l:rftoolsbase:basics/bugs)here.$()": "本手册将带你了解 McJty 的各个模组：从 RFTools 系列，到 XNet、深度共振，以及未来（或许还会有）的更多作品！$(br)如果发现问题，请$(l:rftoolsbase:basics/bugs)在这里反馈。$()"
+}

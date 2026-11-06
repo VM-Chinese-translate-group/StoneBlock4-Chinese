@@ -1,0 +1,29 @@
+{
+  "name": "储罐",
+  "icon": "rftoolsutility:tank",
+  "category": "rftoolsbase:category_rftoolsutility_machines",
+  "extra_recipe_mappings": {
+    "rftoolsutility:tank": 0
+  },
+  "pages": [
+    {
+      "type": "text",
+      "text": "用于存放液体的容器，默认容量为 32 桶。将装有指定液体的桶放进过滤槽，可以限制储罐只接收该液体。"
+    },
+    {
+      "type": "crafting",
+      "heading": "Tank",
+      "recipe": "rftoolsutility:tank"
+    },
+    {
+      "type": "text",
+      "title": "使用方法",
+      "text": "手持桶或其他流体容器右击，可注入或抽出流体。管道也可以通过流体接口与储罐交互。"
+    },
+    {
+      "type": "text",
+      "title": "过滤",
+      "text": "在过滤槽中放入装满流体的桶，即可锁定允许存入的流体类型。取出过滤物品后，储罐便会重新接受任意流体。"
+    }
+  ]
+}

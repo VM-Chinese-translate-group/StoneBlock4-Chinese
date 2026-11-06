@@ -1,0 +1,18 @@
+{
+  "category": "irregular_implements:blocks",
+  "icon": "irregular_implements:imbuing_station",
+  "name": "灌注站",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(d)灌注站$()用于制作$(l:items/imbue_fire)灌注药水$(/l)。$(br2)周围材料可以任意排列，但中央材料必须放在中央槽。",
+      "title": "灌注站"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "irregular_implements:imbuing_station",
+      "link_recipe": true,
+      "text": "自动化时，顶部可访问中央材料槽，侧面可访问其他输入槽，底部可提取产物。"
+    }
+  ]
+}

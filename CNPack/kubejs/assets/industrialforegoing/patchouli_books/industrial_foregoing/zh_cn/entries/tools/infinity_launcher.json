@@ -1,0 +1,17 @@
+{
+  "name": "无限发射器 ",
+  "icon": "industrialforegoing:infinity_launcher",
+  "category": "industrialforegoing:tools",
+  "sortnum": 3,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "无限发射器可以远距离收容或释放生物捕捉工具中的实体。在界面中选择工作模式后发射，就会调用背包中的生物捕捉工具（MIT）来捕获或释放生物。"
+    },
+    {
+      "type": "industrialforegoing:dissolution",
+      "recipe": "industrialforegoing:dissolution_chamber/infinity_launcher"
+    }
+  ]
+}

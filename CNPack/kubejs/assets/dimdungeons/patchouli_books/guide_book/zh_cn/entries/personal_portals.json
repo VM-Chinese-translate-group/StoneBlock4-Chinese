@@ -1,0 +1,46 @@
+{
+  "name": "个人传送门",
+  "icon": "dimdungeons:item_key_build",
+  "category": "dimdungeons:portals",
+  "sortnum": 10,
+  "advancement": "dimdungeons:dungeons/enter_personal_space",
+  "pages": [
+    {
+      "type": "text",
+      "text": "在专属口袋维度中安顿下来后，该学着限制谁能跟随你穿过传送门了。进入个人维度后，对入口旁的金质传送门使用五种指定物品之一，就能配置访问权限，物品不会被消耗。接下来的五页会逐一介绍这些物品。"
+    },
+    {
+      "type": "spotlight",
+      "item": "minecraft:book",
+      "text": "对传送门使用书，会显示当前访客名单，以及名单目前采用白名单还是黑名单模式。"
+    },
+    {
+      "type": "spotlight",
+      "item": "minecraft:white_dye",
+      "text": "对传送门使用白色染料，会切换到白名单模式。名单中的玩家被视为好友，只有他们可以进入。"
+    },
+    {
+      "type": "spotlight",
+      "item": "minecraft:black_dye",
+      "text": "对传送门使用黑色染料，会切换到黑名单模式。名单中的玩家被禁止进入，其他玩家均可进入。"
+    },
+    {
+      "type": "spotlight",
+      "item": "minecraft:paper",
+      "text": "先在铁砧上把一张纸重命名为目标玩家的名字，再对传送门使用，就能将该玩家加入访客名单。再次使用同名纸张可将其移除。此名单既可用作白名单，也可用作黑名单。"
+    },
+    {
+      "type": "spotlight",
+      "item": "minecraft:grindstone",
+      "text": "对传送门使用砂轮，会清空已配置的全部玩家名单。"
+    },
+    {
+      "type": "text",
+      "text": "这套权限系统有一些限制。首先，它只控制进入权限，不提供建造权限保护；某些服务器可能另外实现这类保护。其次，不论传送门如何设置，以下情况都能绕过检查："
+    },
+    {
+      "type": "text",
+      "text": "$(li)维度拥有者始终可以进入。$(li)创造模式玩家始终可以进入。$(li)服务器管理员可在服务端配置中设置 disablePersonalDimSecurity= true。$(li)只有通过带传送门基石的普通传送门进入时才会检查权限，其他传送手段可以绕过检查。"
+    }
+  ]
+}

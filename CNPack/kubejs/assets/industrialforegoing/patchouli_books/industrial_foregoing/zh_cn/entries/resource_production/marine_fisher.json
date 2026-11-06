@@ -1,0 +1,17 @@
+{
+  "name": "钓鱼机",
+  "icon": "industrialforegoing:marine_fisher",
+  "category": "industrialforegoing:resource_production",
+  "sortnum": 3,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "猫咪的好伙伴 <3$(br2)将机器放在至少 $(6)3×3$()、深 $(6)1$() 格的$(6)水池$()上方，它就会开始$(6)钓鱼$()，把鱼（也可能是别的东西？）收进内部物品栏。每次操作消耗 $(6)5000$() RF。"
+    },
+    {
+      "type": "crafting",
+      "recipe": "industrialforegoing:marine_fisher"
+    }
+  ]
+}

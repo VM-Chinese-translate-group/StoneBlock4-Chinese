@@ -1,0 +1,18 @@
+{
+  "name": "电击模块",
+  "icon": "mffs:shock_module",
+  "category": "mffs:projector_modules",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "mffs:shock_module",
+      "link_recipe": true,
+      "text": "在$(l:mffs:machines/projector)力场投影仪$()中安装$(5)电击模块$()后，力场会带电。触碰力场的玩家和实体会受到电击伤害，每增加一个$(5)电击模块$()，伤害便增加半颗心。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mffs:shock_module",
+      "text": "制作$(5)电击模块$()。"
+    }
+  ]
+}

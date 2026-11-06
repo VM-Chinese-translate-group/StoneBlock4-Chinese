@@ -1,0 +1,19 @@
+{
+  "xnetgases.enum.connector_mode.ins": "输入",
+  "xnetgases.enum.connector_mode.ext": "提取",
+  "xnetgases.enum.channel_mode.priority": "优先级",
+  "xnetgases.enum.channel_mode.round_robin": "顺序循环",
+  "xnetgases.enum.sensor_mode.off.tooltip": "未使用",
+  "xnetgases.channel.chemical": "化学品",
+  "xnetgases.channel.chemical_logic": "化学品逻辑",
+  "xnetgases.require_insert_rate.label": "必须满足输入速率",
+  "xnetgases.chemical.rate.tooltip.formatted": "化学品%s速率|（最大 %d mB）",
+  "xnetgases.chemical.min_max.tooltip.formatted": "禁用%s：当化学品数量|过%s时",
+  "xnetgases.enum.connector_mode.ins.tooltip": "向连接的方块|输入化学品",
+  "xnetgases.enum.connector_mode.ext.tooltip": "从连接的方块|提取化学品",
+  "xnetgases.enum.channel_mode.priority.tooltip": "分配模式|当前：按优先级",
+  "xnetgases.enum.channel_mode.round_robin.tooltip": "分配模式|当前：轮流分配",
+  "xnetgases.enum.sensor_mode.off": "关闭",
+  "xnetgases.enum.sensor_mode.on": "开启",
+  "xnetgases.enum.sensor_mode.on.tooltip": "检测连接方块内|的化学品数量"
+}

@@ -1,0 +1,30 @@
+{
+  "name": "进阶",
+  "icon": "rftoolsbuilder:red_shield_template_block",
+  "category": "rftoolsbase:category_rftoolsbuilder_shield",
+  "extra_recipe_mappings": {
+    "rftoolsbuilder:blue_shield_template_block": 0,
+    "rftoolsbuilder:red_shield_template_block": 0,
+    "rftoolsbuilder:green_shield_template_block": 0,
+    "rftoolsbuilder:yellow_shield_template_block": 0
+  },
+  "sortnum": 20,
+  "pages": [
+    {
+      "type": "text",
+      "text": "护盾投射仪可以根据附近的护盾支架生成护盾，也能根据界面中插入的形状卡生成。使用形状卡时会忽略支架。"
+    },
+    {
+      "type": "text",
+      "text": "外观模式包括隐形、护盾、透明、实心和拟态。拟态模式会使用拟态槽中方块的材质作为护盾外观。"
+    },
+    {
+      "type": "text",
+      "text": "过滤规则决定实体接触护盾时会发生什么：放行、阻挡、伤害，或阻挡并伤害。过滤对象包括全部、友好生物、敌对生物、物品及玩家。"
+    },
+    {
+      "type": "text",
+      "text": "规则按顺序匹配。请把具体规则放在宽泛规则上方，让指定玩家或物品的规则先于“全部”规则生效。"
+    }
+  ]
+}

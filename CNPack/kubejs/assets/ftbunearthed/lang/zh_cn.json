@@ -36,5 +36,7 @@
   "item.ftbunearthed.echo_encoder": "回响编码器",
   "item.ftbunearthed.reinforced_brush": "强化刷子",
   "item.ftbunearthed.unbreakable_brush": "不毁刷子",
-  "item.ftbunearthed.worker_token": "劳工令牌"
+  "item.ftbunearthed.worker_token": "劳工令牌",
+  "ftbunearthed.tooltip.super_brush": "工人与玩家的工作速度提高 %s%%\n工人不再消耗食物\n工人始终按 5 级效率工作",
+  "item.ftbunearthed.super_brush": "⭑✸✰ 寰宇之刷 ✰✸⭑"
 }

@@ -1,0 +1,16 @@
+{
+  "name": "力场子",
+  "icon": "mffs:battery",
+  "category": "mffs:getting_started",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "力场子是 MFFS 机器使用的能源，由$(l:mffs:machines/coercion_deriver)能源转换器$()产生并暂存，再由$(l:mffs:machines/fortron_capacitor)力场子容器$()输送给其他机器。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "创造模式专用的$(5)无限能量卡$()也可提供力场子。将其放入$(l:mffs:machines/fortron_capacitor)力场子容器$()最左侧槽位，就能获得无限供应。力场子可以作为流体存在，可从容器中抽出，像水或熔岩一样输送和处理。"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "name": "空间区域",
+  "icon": "rftoolsbuilder:space_chamber_card",
+  "category": "rftoolsbase:category_rftoolsbuilder_builder",
+  "extra_recipe_mappings": {
+    "rftoolsbuilder:space_chamber": 1,
+    "rftoolsbuilder:space_chamber_controller": 2,
+    "rftoolsbuilder:space_chamber_card": 3
+  },
+  "sortnum": 25,
+  "pages": [
+    {
+      "type": "text",
+      "text": "空间区域用于标记一片可由建造机或载具建造机复制、移动的体积范围。使用空间方块及一个空间控制方块来界定区域。"
+    },
+    {
+      "type": "crafting",
+      "recipe": "rftoolsbuilder:space_chamber"
+    },
+    {
+      "type": "crafting",
+      "recipe": "rftoolsbuilder:space_chamber_controller"
+    },
+    {
+      "type": "text",
+      "text": "手持空间卡潜行右击控制方块，可记录该区域的频道。手持卡片对空气右击，可查看区域内容。"
+    },
+    {
+      "type": "crafting",
+      "recipe": "rftoolsbuilder:space_chamber_card"
+    },
+    {
+      "type": "text",
+      "text": "支撑方块是扫描与建造时使用的临时辅助方块。它们设计得十分轻量，不再需要时可以清除。"
+    }
+  ]
+}

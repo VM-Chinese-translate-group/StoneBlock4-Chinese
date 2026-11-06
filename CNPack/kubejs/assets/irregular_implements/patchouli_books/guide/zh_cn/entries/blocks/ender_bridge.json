@@ -1,0 +1,20 @@
+{
+  "category": "irregular_implements:blocks",
+  "icon": "irregular_implements:ender_bridge",
+  "name": "末影桥",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "irregular_implements:ender_bridge,irregular_implements:prismarine_ender_bridge",
+      "link_recipe": true,
+      "text": "$(d)末影桥$()通电后，会将站在上面的实体传送到它瞄准的$(d)末影锚$()。$(br2)传送可穿过方块且不限距离，但桥必须$(3)正对末影锚$()。",
+      "title": "末影桥"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "irregular_implements:ender_anchor",
+      "link_recipe": true,
+      "text": "通电后，末影桥会沿直线寻找末影锚。找到后按距离蓄力，再执行传送；找不到则发出失败提示音。$(br2)普通末影桥每隔 1 格需蓄力 1 刻，海晶石末影桥则只需 0.5 刻。"
+    }
+  ]
+}

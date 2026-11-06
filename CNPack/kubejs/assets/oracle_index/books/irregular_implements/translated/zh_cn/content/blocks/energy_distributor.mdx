@@ -1,0 +1,23 @@
+---
+title: 能量分配器
+id: irregular_implements:energy_distributor
+related_items: [irregular_implements:energy_distributor, irregular_implements:ender_energy_distributor]
+type: block
+---
+
+
+## 能量分配器
+
+**能量分配器**可将 FE 均匀分配给前方紧密相连、排成直线的一列机器。
+
+它会从正前方开始沿直线扫描，直到遇到不能储存 FE 的方块，并将途中可用的方块加入缓存。
+
+分配器对外表现为一个储能设备，实际容量来自缓存中所有机器的总和。输入的 FE 会送入这些机器，提取能量时也会从这些机器取出。
+
+<ProjectRecipe id="irregular_implements:energy_distributor"/>
+
+## 末影能量分配器
+
+**末影能量分配器**原理相同，但可用 8 个[位置过滤器](@irregular_implements:location_filter)指定目标机器，无需将机器排成直线。
+
+<ProjectRecipe id="irregular_implements:ender_energy_distributor"/>

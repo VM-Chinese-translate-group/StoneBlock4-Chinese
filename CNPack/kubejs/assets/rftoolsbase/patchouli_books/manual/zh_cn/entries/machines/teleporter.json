@@ -1,0 +1,37 @@
+{
+  "name": "充能传送器",
+  "icon": "rftoolsutility:charged_porter",
+  "category": "rftoolsbase:category_rftoolsutility_machines",
+  "extra_recipe_mappings": {
+    "rftoolsutility:charged_porter": 0,
+    "rftoolsutility:advanced_charged_porter": 0,
+    "rftoolsutility:teleport_probe": 0
+  },
+  "pages": [
+    {
+      "type": "text",
+      "text": "充能传送器是以$(l:rftoolsbase:machines/matter_receiver)物质接收器$(/l)为目的地的便携传送工具，使用前需要充入 FE。"
+    },
+    {
+      "type": "crafting",
+      "heading": "Porters",
+      "recipe": "rftoolsutility:charged_porter",
+      "recipe2": "rftoolsutility:advanced_charged_porter"
+    },
+    {
+      "type": "text",
+      "title": "目标位置",
+      "text": "手持传送器右击物质接收器，可记录目的地。基础传送器只能保存一个目标；高级传送器可以保存多个目标，并在它们之间切换。"
+    },
+    {
+      "type": "text",
+      "title": "使用",
+      "text": "使用已充能的传送器即可开始传送。目标接收器必须仍然存在且可用。经常往返多个基地的玩家更适合使用高级传送器。"
+    },
+    {
+      "type": "text",
+      "title": "传送探针",
+      "text": "传送探针可检查接收器信息及传送器目标，在排查大型传送网络问题时很有帮助。"
+    }
+  ]
+}

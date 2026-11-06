@@ -6,5 +6,16 @@
   "deus_ex_machina.death_screen.resistance": "  抗性：+%d%% ",
   "deus_ex_machina.death_screen.resistance.now": "（当前 %d%%）",
   "deus_ex_machina.death_screen.attack": "  攻击提升：+%d%% ",
-  "deus_ex_machina.death_screen.attack.now": "（当前 %d%%）"
+  "deus_ex_machina.death_screen.attack.now": "（当前 %d%%）",
+  "buff.deus_ex_machina.thorns": "荆棘",
+  "buff.deus_ex_machina.knockback": "击退",
+  "buff.deus_ex_machina.knockback_resistance": "击退抗性",
+  "buff.deus_ex_machina.resistance": "抗性提升",
+  "buff.deus_ex_machina.attack_boost": "攻击增强",
+  "buff.deus_ex_machina.life_leech": "生命汲取",
+  "buff.deus_ex_machina.evasion": "闪避",
+  "buff.deus_ex_machina.critical_chance": "暴击率",
+  "buff.deus_ex_machina.execute": "处决",
+  "buff.deus_ex_machina.berserker": "狂战士",
+  "buff.deus_ex_machina.momentum": "战斗势头"
 }

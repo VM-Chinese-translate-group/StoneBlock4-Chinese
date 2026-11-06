@@ -1,0 +1,17 @@
+{
+  "name": "动物饲育机",
+  "icon": "industrialforegoing:animal_feeder",
+  "category": "industrialforegoing:agriculture_husbandry",
+  "sortnum": 8,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "放入动物所需的食物后，这台机器会自动$(6)喂养$()动物，让它们繁殖幼崽。"
+    },
+    {
+      "type": "crafting",
+      "recipe": "industrialforegoing:animal_feeder"
+    }
+  ]
+}

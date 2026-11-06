@@ -1,0 +1,17 @@
+{
+  "name": "染料调色器",
+  "icon": "industrialforegoing:dye_mixer",
+  "category": "industrialforegoing:resource_production",
+  "sortnum": 12,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "这台机器混合三原色染料，调配出各种颜色。$(br2)例如，要制作$(6)白色染料$()，需要各 1 份$(4)红色$(0)、$(2)绿色$(0)和$(1)蓝色$(0)染料。$(br)工作时消耗 $(6)30$() RF/t。"
+    },
+    {
+      "type": "crafting",
+      "recipe": "industrialforegoing:dye_mixer"
+    }
+  ]
+}

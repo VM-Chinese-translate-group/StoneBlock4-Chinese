@@ -1,0 +1,13 @@
+{
+  "name": "污水（桶装）",
+  "icon": "industrialforegoing:sewage_bucket",
+  "category": "industrialforegoing:agriculture_husbandry",
+  "sortnum": 13,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "由$(l:agr_hus/sewer)下水道$()收集的流体。你大概不会想细究它的来源。"
+    }
+  ]
+}

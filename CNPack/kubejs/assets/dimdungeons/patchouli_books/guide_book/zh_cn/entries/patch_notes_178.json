@@ -1,0 +1,12 @@
+{
+  "name": "版本 178",
+  "icon": "minecraft:book",
+  "category": "dimdungeons:patch_notes",
+  "sortnum": 178,
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(li)房间大翻新！调整了 50 多间房间的功能和外观。$(li)新增可分别禁用各维度的配置。$(li)移除上一版本添加的上锁箱子。"
+    }
+  ]
+}

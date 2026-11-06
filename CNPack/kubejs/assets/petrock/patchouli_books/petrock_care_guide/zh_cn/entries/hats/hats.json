@@ -1,0 +1,71 @@
+{
+  "name": "石头宠物的帽子代表什么",
+  "icon": "petrock:petrockbox",
+  "category": "petrock:petrock_category",
+  "pages": [
+    {
+      "type": "image",
+      "images": [
+        "petrock:textures/patchouli/hatmode_birthday.png"
+      ],
+      "border": false,
+      "text": "生日帽"
+    },
+    {
+      "type": "image",
+      "images": [
+        "petrock:textures/patchouli/hatmode_aprilfools.png"
+      ],
+      "border": false,
+      "text": "愚人节帽"
+    },
+    {
+      "type": "image",
+      "images": [
+        "petrock:textures/patchouli/hatmode_easter.png"
+      ],
+      "border": false,
+      "text": "复活节帽"
+    },
+    {
+      "type": "image",
+      "images": [
+        "petrock:textures/patchouli/hatmode_halloween.png"
+      ],
+      "border": false,
+      "text": "万圣节帽"
+    },
+    {
+      "type": "image",
+      "images": [
+        "petrock:textures/patchouli/hatmode_christmas.png"
+      ],
+      "border": false,
+      "text": "圣诞节帽"
+    },
+    {
+      "type": "image",
+      "images": [
+        "petrock:textures/patchouli/hatmode_loneztar_birthday.png"
+      ],
+      "border": false,
+      "text": "Loneztar 生日帽"
+    },
+    {
+      "type": "image",
+      "images": [
+        "petrock:textures/patchouli/hatmode_slowpoke_birthday.png"
+      ],
+      "border": false,
+      "text": "Slowpoke 生日帽"
+    },
+    {
+      "type": "image",
+      "images": [
+        "petrock:textures/patchouli/hatmode_actuallybear_birthday.png"
+      ],
+      "border": false,
+      "text": "ActuallyBear 生日帽"
+    }
+  ]
+}

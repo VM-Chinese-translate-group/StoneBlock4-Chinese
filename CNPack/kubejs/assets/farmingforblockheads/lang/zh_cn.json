@@ -1,0 +1,10 @@
+{
+  "farmingforblockheads.configuration.enabledOptionalPresets": "启用的可选预设",
+  "farmingforblockheads.configuration.enabledOptionalPresets.tooltip": "要启用的可选预设列表。",
+  "farmingforblockheads.configuration.disabledDefaultPresets": "禁用的默认预设",
+  "farmingforblockheads.configuration.disabledDefaultPresets.tooltip": "要禁用的默认预设列表。",
+  "farmingforblockheads.configuration.excludedGroups": "排除的分组",
+  "farmingforblockheads.configuration.excludedGroups.tooltip": "要禁用的分组列表，优先级高于 includedGroups。例如 selling.seeds 会禁用市场中的所有种子。",
+  "farmingforblockheads.configuration.includedGroups": "启用的分组",
+  "farmingforblockheads.configuration.includedGroups.tooltip": "要启用的分组列表。default 代表内置默认分组：selling.seeds、selling.saplings 和 selling.fertilizers.minecraft。"
+}

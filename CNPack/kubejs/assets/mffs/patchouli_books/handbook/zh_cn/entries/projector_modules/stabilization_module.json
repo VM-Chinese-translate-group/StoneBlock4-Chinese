@@ -1,0 +1,49 @@
+{
+  "name": "固化模块",
+  "icon": "mffs:stabilization_module",
+  "category": "mffs:projector_modules",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "mffs:stabilization_module",
+      "link_recipe": true,
+      "text": "在$(l:mffs:machines/projector)力场投影仪$()中安装$(5)固化模块$()，可以把力场变成实体结构。投影仪不再生成断电后消失的能量屏障，而是用玩家提供的真实方块进行搭建。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(5)固化模块$()能够按力场图案建造完全相同的实体结构，即使关闭投影仪也会保留。结构的坚固程度取决于所用方块。只要能量和补充方块充足，投影仪就会持续修复结构中被破坏的部分。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "固化过程比普通投影更慢，也消耗更多$(l:mffs:getting_started/fortron)力场子$()，但与$(l:mffs:projector_modes/custom_mode)$(2)自定义模式$()配合便能实现丰富用途。例如，建造被$(2)苦力怕$()炸毁后自动修复的建筑。加入$(l:mffs:upgrade_modules/speed_module)$(5)速度模块$()可同时固化多个方块。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mffs:stabilization_module",
+      "text": "制作$(5)固化模块$()。"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "使用方法",
+      "text": "$(li)在$(l:mffs:machines/projector)力场投影仪$()任意一侧放置箱子，装入搭建结构所需的方块。$(li)将固化模块装进投影仪的矩阵槽，设置好力场，然后激活投影仪。$(li)投影仪会按槽位顺序取用相邻箱子里的方块。箱内混放多种方块时，建出的结构也会混用这些材料。"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "mffs:textures/gui/handbook/stabilization_module.png"
+      ],
+      "border": true,
+      "title": "投影示例",
+      "text": "力场投影仪利用$(5)固化模块$()建造一面墙。"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "自定义模式下的用法",
+      "text": "与$(l:mffs:machines/projector)力场投影仪$()的其他模式不同，$(l:mffs:projector_modes/custom_mode)$(2)自定义模式$()会记录每个方块的精确位置与类型。因此，$(l:mffs:projector_modes/custom_mode)$(2)自定义模式$()不会按箱内顺序随意取材，而是只取用与原结构相符的方块。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "每个方块都会按记录的类型与位置准确放置。若缺少复制结构所需的方块，投影仪会暂停，直到材料补齐。"
+    }
+  ]
+}

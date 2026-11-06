@@ -1,0 +1,32 @@
+{
+  "name": "管状模式",
+  "icon": "mffs:tube_mode",
+  "category": "mffs:projector_modes",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "mffs:tube_mode",
+      "link_recipe": true,
+      "text": "默认情况下，管状模式让投影仪生成厚度恰好为 1 格的方管状力场。管状力场由沿水平方向平行延伸的四面屏障组成，投影仪的前后方向对应管道两端的开口。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mffs:tube_mode",
+      "text": "制作$(2)管状模式$()。"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "调整力场",
+      "text": "把$(l:mffs:upgrade_modules/scale_module)$(5)尺寸模块$()放进方向槽位，只会使对应方向延伸 1 格。例如，将一个$(l:mffs:upgrade_modules/scale_module)$(5)尺寸模块$()放进界面左上或右上方向箭头对应的槽位，可让力场高度增加 1 格。"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "mffs:textures/gui/handbook/tube_mode.png"
+      ],
+      "border": true,
+      "title": "投影示例",
+      "text": "扩大后的$(2)管状模式$()力场。"
+    }
+  ]
+}

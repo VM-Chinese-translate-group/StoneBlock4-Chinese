@@ -1,0 +1,17 @@
+{
+  "name": "发酵站",
+  "icon": "industrialforegoing:fermentation_station",
+  "category": "industrialforegoing:resource_production",
+  "sortnum": 20,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "向机器提供矿石肉。储量达到设定水平后，机器会封存原料，并按照选定的生产方式进行发酵。"
+    },
+    {
+      "type": "crafting",
+      "recipe": "industrialforegoing:fermentation_station"
+    }
+  ]
+}

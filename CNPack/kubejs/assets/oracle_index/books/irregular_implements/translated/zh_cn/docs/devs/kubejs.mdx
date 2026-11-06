@@ -1,0 +1,66 @@
+
+# KubeJS 支持
+
+模组中的部分逻辑可以通过 KubeJS 调整。
+
+## 玩家接口
+
+[玩家接口](@irregular_implements:player_interface)可无线访问玩家物品栏，让外部设备像访问方块容器一样操作它。
+
+接口通过一个判断函数决定是否允许连接指定玩家。默认函数如下：
+
+```kt PlayerInterfaceBlockEntity.kt
+(Player, BlockEntity) -> Boolean = { _, _ -> true }
+```
+
+也就是说，默认始终允许连接。可通过 KubeJS 调用[这个方法](https://github.com/Berry-Club/Irregular-Implements/blob/main/src/main/kotlin/dev/aaronhowser/mods/irregular_implements/block/block_entity/PlayerInterfaceBlockEntity.kt#L156)来替换判断逻辑：
+
+```js example.js
+const $PlayerInterfaceBE = Java.loadClass('dev.aaronhowser.mods.irregular_implements.block_entity.PlayerInterfaceBlockEntity')
+
+$PlayerInterfaceBE.setPlayerPredicate((player, blockEntity) => player.level == blockEntity.level)
+```
+
+按此示例设置后，玩家接口只有与主人处于同一维度时才能连接。
+
+## 魔豆生长
+
+默认情况下，[魔豆藤](@irregular_implements:bean_pod)会不断向上生长，冲破途中方块，直到建筑高度上限，再在顶端生成豆茎。
+
+这一过程同样使用判断函数。函数返回 true 时，最顶端的豆藤会直接变成豆茎，不再继续向上生长。默认实现如下：
+
+```kt BeanStalkBlock.kt
+		private fun defaultStrongIsDonePredicate(level: Level, pos: BlockPos): Boolean {
+			// If it cannot grow above the current block without exceeding the build height, it's done
+			if (pos.y + 1 >= level.maxBuildHeight) {
+				return true
+			}
+
+			// If the block directly above it is indestructible, it cannot grow any farther
+			val posAbove = pos.above()
+			return level.getBlockState(posAbove).getDestroySpeed(level, posAbove) == -1.0f
+		}
+```
+
+可通过 KubeJS 调用[这个方法](https://github.com/Berry-Club/Irregular-Implements/blob/main/src/main/kotlin/dev/aaronhowser/mods/irregular_implements/block/BeanStalkBlock.kt#L148)，替换停止生长的条件：
+
+```js example.js
+const $BeanStalkBlock = Java.loadClass('dev.aaronhowser.mods.irregular_implements.block.BeanStalkBlock')
+
+$BeanStalkBlock.setMagicBeanStalkIsDoneGrowingPredicate((level, pos) => pos.y >= 100)
+```
+
+## 占卜法杖颜色
+
+[占卜法杖](@irregular_implements:divining_rod)支持所有带有 `#c:ores/` 开头标签的物品，但默认只有原版和 Mekanism 的矿石配置了颜色。
+
+颜色表将资源标识符映射到 RRGGBB 格式的颜色整数。可通过 KubeJS 与反射向表中添加条目：
+
+```js example.js
+const $DiviningRodItem = Java.loadClass('dev.aaronhowser.mods.irregular_implements.item.DiviningRodItem')
+const $ResourceLocation = Java.loadClass('net.minecraft.resources.ResourceLocation')
+
+$DiviningRodItem.COLORS_PER_TAG.put($ResourceLocation.fromNamespaceAndPath('c', 'ores/mythril'), 0xFF00FF)
+```
+
+这会将秘银占卜法杖的颜色设为 `0xFF00FF`，即品红色。

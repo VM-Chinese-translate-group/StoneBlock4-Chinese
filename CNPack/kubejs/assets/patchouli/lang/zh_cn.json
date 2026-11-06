@@ -1,0 +1,7 @@
+{
+  "item.patchouli.guide_book": "指南书",
+  "item.patchouli:intro_book.name": "帕秋莉手册",
+  "patchouli.gui.lexicon.button.toggle_mock_header": "切换模拟页头",
+  "patchouli.networking.open_book.failed": "打开书%s失败",
+  "patchouli.networking.reload_contents.failed": "重新加载内容失败：%S"
+}

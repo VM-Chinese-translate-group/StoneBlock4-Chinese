@@ -1,0 +1,17 @@
+{
+  "name": "生物燃油发电机",
+  "icon": "industrialforegoing:biofuel_generator",
+  "category": "industrialforegoing:generators",
+  "sortnum": 3,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "消耗$(l:generators/biofuel)生物燃油$()发电，输出为 $(6)160$() RF/t。$(br2)这台发电机能有效利用燃料；内部储能充满时，会停止消耗燃油。"
+    },
+    {
+      "type": "crafting",
+      "recipe": "industrialforegoing:biofuel_generator"
+    }
+  ]
+}

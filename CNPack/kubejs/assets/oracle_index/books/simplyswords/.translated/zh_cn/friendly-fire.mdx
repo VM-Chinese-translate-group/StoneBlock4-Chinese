@@ -1,0 +1,31 @@
+---
+title: 友军伤害
+icon: simplyswords:runic_tablet
+---
+
+## 怎样避免武器能力伤害朋友？
+简易刀剑兼容原版 Minecraft 的队伍系统。要避免武器能力误伤朋友，可通过以下命令加入同一队伍：
+```
+/team add teamname
+/team join teamname
+```
+
+如果安装了 Open Parties and Claims，也可以使用该模组提供的队伍关系。
+
+## 怎样避免武器能力伤害我的动物？
+
+通用配置中的 `abilityIgnoredEntities` 选项列出武器及宝石能力绝不会选中或伤害的实体。默认包含 `passive`、`minecraft:armor_stand` 和 `minecraft:villager`，因此无需额外设置就能保护农场里的动物。
+
+列表中的每一项可以采用以下三种形式之一：
+
+- 实体 ID，例如 `minecraft:cow`。
+- 以 `#` 开头的实体标签，例如 `#minecraft:skeletons`。
+- 类别关键词：`passive`、`animal`、`villager`、`hostile`、`water`、`ambient`、`golem`、`player` 或 `tameable`。
+
+`passive` 涵盖可繁殖以及会成长的生物，不包括鱿鱼、蝙蝠或傀儡。如果也想排除这些生物，请添加 `water`、`ambient` 或 `golem`。
+
+被忽略的实体仍能受到普通攻击。此设置只影响能力选取目标与能力伤害，因此你仍然可以直接攻击并杀死牛。
+
+## 怎样让武器能力为朋友提供增益或治疗？
+
+同样加入同一队伍或小队即可。友方效果判断盟友时，会使用与防止友军伤害相同的关系。关闭服务器的 PvP 也能阻止玩家的能力伤害其他玩家。

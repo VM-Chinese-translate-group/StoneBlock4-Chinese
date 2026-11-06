@@ -1,0 +1,35 @@
+{
+  "name": "深色橡树",
+  "icon": "minecraft:dark_oak_sapling",
+  "category": "bonsaitrees4:minecraft",
+  "pages": [
+    {
+      "type": "bonsaitrees4:tree",
+      "tree_name": "深色橡树",
+      "tree_sapling": "minecraft:dark_oak_sapling"
+    },
+    {
+      "type": "patchouli:link",
+      "title": "游戏中的它",
+      "text": "深色橡树是树皮和木材颜色更深的橡树变体，树干粗壮，生长于黑森林生物群系。",
+      "url": "https://minecraft.wiki/w/Dark_oak",
+      "link_text": "Minecraft Wiki"
+    },
+    {
+      "type": "patchouli:link",
+      "title": "现实中的它",
+      "text": "橡树是硬木林的重要组成部分，部分种类与杜鹃花科植物共同组成栎林与荒原植被群落。橡树化石可追溯至始新世中期。在文化中，橡树常象征力量，也被许多国家选作国树。",
+      "url": "https://en.wikipedia.org/wiki/Oak",
+      "link_text": "Wikipedia"
+    },
+    {
+      "type": "patchouli:image",
+      "border": true,
+      "images": [
+        "bonsaitrees4:textures/patchouli/dark_oak_tree.png",
+        "bonsaitrees4:textures/patchouli/dark_oak_leaves.png",
+        "bonsaitrees4:textures/patchouli/dark_oak_tree_2.png"
+      ]
+    }
+  ]
+}

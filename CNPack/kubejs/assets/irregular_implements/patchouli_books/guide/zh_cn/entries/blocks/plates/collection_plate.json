@@ -1,0 +1,14 @@
+{
+  "category": "irregular_implements:blocks/plates",
+  "icon": "irregular_implements:collection_plate",
+  "name": "收集板",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "irregular_implements:collection_plate",
+      "link_recipe": true,
+      "text": "掉落物接触$(bold)收集板$()后，会被送入能够接收它的相邻容器。$(br2)收集板会按固定顺序尝试相邻方向的容器，优先下方，最后尝试上方。",
+      "title": "收集板"
+    }
+  ]
+}

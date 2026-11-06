@@ -1,0 +1,30 @@
+{
+  "name": "ME 网关",
+  "icon": "advancedperipherals:me_bridge",
+  "category": "advancedperipherals:peripherals",
+  "pages": [
+    {
+      "type": "text",
+      "text": "ME 网关可以与应用能源 2 网络交互，用来提取物品、发起合成、获取全部物品列表等。ME 网关会占用一个频道。$(p)完整文档请参阅$(9)$(l:https://docs.advanced-peripherals.de/peripherals/me_bridge/)官方 Wiki 页面$(/l)$()！"
+    },
+    {
+      "type": "crafting",
+      "recipe": "advancedperipherals:me_bridge"
+    },
+    {
+      "type": "multiblock",
+      "multiblock": {
+        "mapping": {
+          "0": "computercraft:computer_advanced",
+          "P": "advancedperipherals:me_bridge"
+        },
+        "pattern": [
+          [
+            "0P"
+          ]
+        ]
+      },
+      "text": "将 ME 网关连接到电脑，即可使用！"
+    }
+  ]
+}

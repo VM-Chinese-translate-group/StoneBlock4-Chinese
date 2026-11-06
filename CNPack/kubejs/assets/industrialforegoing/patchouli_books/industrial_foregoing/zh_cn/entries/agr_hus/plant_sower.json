@@ -1,0 +1,17 @@
+{
+  "name": "植物播种机",
+  "icon": "industrialforegoing:plant_sower",
+  "category": "industrialforegoing:agriculture_husbandry",
+  "sortnum": 4,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "用于$(6)种植$()作物和树苗。$(br2)内部 9 个槽位带有$(6)颜色$()标记，对应机器顶面的同色区域。机器上方的工作范围也被划分为 9 个区域，每个区域只会种植对应槽位中的种子。"
+    },
+    {
+      "type": "crafting",
+      "recipe": "industrialforegoing:plant_sower"
+    }
+  ]
+}

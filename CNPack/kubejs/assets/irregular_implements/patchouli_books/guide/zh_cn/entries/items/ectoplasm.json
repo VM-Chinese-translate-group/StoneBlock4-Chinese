@@ -1,0 +1,18 @@
+{
+  "category": "irregular_implements:items",
+  "icon": "irregular_implements:ectoplasm",
+  "name": "灵胚",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(d)灵胚$()是击杀游魂后掉落的材料。$(br2)$(3)生物死亡时$()有概率生成游魂。越接近满月，概率越高；若服务器中曾有玩家击杀过末影龙，概率还会进一步提升。",
+      "title": "灵胚"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "irregular_implements:ectoplasm",
+      "link_recipe": true,
+      "text": "游魂$(c)只能受到魔法伤害$()。$(br2)喷溅药水、附魔武器以及$(l:items/spectre_sword)通灵剑$(/l)等特殊物品都能伤害它。"
+    }
+  ]
+}

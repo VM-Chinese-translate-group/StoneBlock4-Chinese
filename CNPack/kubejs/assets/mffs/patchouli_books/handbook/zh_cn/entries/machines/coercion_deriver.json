@@ -1,0 +1,37 @@
+{
+  "name": "能源转换器",
+  "icon": "mffs:coercion_deriver",
+  "category": "mffs:machines",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "mffs:coercion_deriver",
+      "link_recipe": true,
+      "text": "$(9)能源转换器$()属于 MFFS 机器，主要将 FE 转化为其他机器所需的$(l:mffs:getting_started/fortron)力场子$()。$(9)能源转换器$()通常配合$(l:mffs:machines/fortron_capacitor)力场子容器$()使用，为后者补充$(l:mffs:getting_started/fortron)力场子$()，再由容器把$(l:mffs:getting_started/fortron)力场子$()分配给其他机器。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mffs:coercion_deriver",
+      "text": "制作$(9)能源转换器$()。"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "使用方法",
+      "text": "要生成$(l:mffs:getting_started/fortron)力场子$()，先将$(9)能源转换器$()连接 FE 电源并用红石信号激活。$(9)能源转换器$()会由红变蓝，开始生成$(l:mffs:getting_started/fortron)力场子$()。把$(9)能源转换器$()的频率设为与$(l:mffs:machines/fortron_capacitor)力场子容器$()等目标机器相同，即可建立连接。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "设置频率有两种方法：$(li)右键转换器，在界面中输入所需频率。$(li)手持频率卡潜行右键转换器。$(p)可用$(2)青金石$()或$(2)下界石英$()增强$(9)能源转换器$()生成$(l:mffs:getting_started/fortron)力场子$()的能力。将它们放入箭头旁的槽位，可使$(l:mffs:getting_started/fortron)力场子$()产量达到原来的约 20 倍。"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "工作模式",
+      "text": "能源转换器有“转换”和“整合”两种模式。默认使用转换模式，持续将输入的 FE 转化为 $(l:mffs:getting_started/fortron)力场子$()。$(br2)点击界面中央的模式按钮可在两者之间切换。整合模式会反向运行，将现有的 力场子 转回 FE。"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "升级",
+      "text": "可安装下列模块来增强能源转换器：$(br2)$(li)$(l:mffs:upgrade_modules/speed_module)速度模块$()：提升使用青金石或下界石英时获得的增幅。$(li)$(l:mffs:upgrade_modules/capacity_module)电容模块$()：提高机器可储存的 $(l:mffs:getting_started/fortron)力场子$() 总量。"
+    }
+  ]
+}

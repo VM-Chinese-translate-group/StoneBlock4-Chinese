@@ -1,0 +1,23 @@
+{
+  "name": "伪装器",
+  "icon": "xnet:facade",
+  "category": "rftoolsbase:category_xnet_simple",
+  "extra_recipe_mappings": {
+    "xnet:facade": 0
+  },
+  "sortnum": 40,
+  "pages": [
+    {
+      "type": "text",
+      "text": "伪装器通过模仿其他方块来隐藏 XNet 线缆。先手持伪装器对目标方块使用以复制外观，再将它装在线缆上。"
+    },
+    {
+      "type": "text",
+      "text": "连接器也可以用伪装器隐藏。拆掉伪装器后，后面的线缆与连接结构会重新显露。"
+    },
+    {
+      "type": "crafting",
+      "recipe": "xnet:facade"
+    }
+  ]
+}

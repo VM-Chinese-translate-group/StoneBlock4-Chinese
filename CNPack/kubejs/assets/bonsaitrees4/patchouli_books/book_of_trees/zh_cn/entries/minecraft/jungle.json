@@ -1,0 +1,35 @@
+{
+  "name": "丛林树",
+  "icon": "minecraft:jungle_sapling",
+  "category": "bonsaitrees4:minecraft",
+  "pages": [
+    {
+      "type": "bonsaitrees4:tree",
+      "tree_name": "丛林树",
+      "tree_sapling": "minecraft:jungle_sapling"
+    },
+    {
+      "type": "patchouli:link",
+      "title": "游戏中的它",
+      "text": "丛林树既有低矮灌木状的形态，也有高达 31 格的巨树，木材呈浅棕色。",
+      "url": "https://minecraft.wiki/w/Jungle_tree",
+      "link_text": "Minecraft Wiki"
+    },
+    {
+      "type": "patchouli:link",
+      "title": "现实中的它",
+      "text": "现实中与之相似的龙脑香科主要由低地热带森林乔木组成，约有 16 属、695 个已知物种。其分布遍及热带，包括南美洲北部、非洲、塞舌尔、印度、中南半岛、印度尼西亚、马来西亚和菲律宾。",
+      "url": "https://en.wikipedia.org/wiki/Dipterocarpaceae",
+      "link_text": "Wikipedia"
+    },
+    {
+      "type": "patchouli:image",
+      "border": true,
+      "images": [
+        "bonsaitrees4:textures/patchouli/jungle_forest.png",
+        "bonsaitrees4:textures/patchouli/jungle_size.png",
+        "bonsaitrees4:textures/patchouli/jungle_climber.png"
+      ]
+    }
+  ]
+}

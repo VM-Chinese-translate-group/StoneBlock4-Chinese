@@ -1,0 +1,14 @@
+{
+  "category": "irregular_implements:blocks/redstone",
+  "icon": "irregular_implements:advanced_redstone_torch",
+  "name": "高级红石火把",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "irregular_implements:advanced_redstone_torch",
+      "link_recipe": true,
+      "text": "$(d)高级红石火把$()可分别设置通电和断电时的输出强度。$(br2)打开界面即可调整这两个数值。",
+      "title": "高级红石火把"
+    }
+  ]
+}

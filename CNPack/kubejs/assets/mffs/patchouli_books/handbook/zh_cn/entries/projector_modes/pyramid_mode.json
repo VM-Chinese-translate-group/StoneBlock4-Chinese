@@ -1,0 +1,36 @@
+{
+  "name": "锥体模式",
+  "icon": "mffs:pyramid_mode",
+  "category": "mffs:projector_modes",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "mffs:pyramid_mode",
+      "link_recipe": true,
+      "text": "默认情况下，锥体模式让投影仪生成金字塔状的力场，其厚度取决于整体大小。$(br2)每个 $(l:mffs:upgrade_modules/scale_module)尺寸模块$() 会使力场向所有方向扩大 1 格。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mffs:pyramid_mode",
+      "text": "制作$(2)锥体模式$()。"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "调整力场",
+      "text": "把$(l:mffs:upgrade_modules/scale_module)$(5)尺寸模块$()放入方向槽位时，效果有所不同：放在左、右、前、后任一槽位，都会同时使对应的一对相反方向各延伸 1 格；放在上、下槽位时，则只延伸指定方向。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "例如，要让力场高度增加 1 格，可将一个$(l:mffs:upgrade_modules/scale_module)$(5)尺寸模块$()放入界面左上或右上方向箭头对应的槽位。"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "mffs:textures/gui/handbook/pyramid_mode.png"
+      ],
+      "border": true,
+      "title": "投影示例",
+      "text": "扩大后的$(2)锥体模式$()力场。"
+    }
+  ]
+}

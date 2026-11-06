@@ -1,0 +1,18 @@
+{
+  "item.cataclysm.music_disc_netherite_monstrosity.desc": "Yuri_O - Spawn Of Hell",
+  "item.cataclysm.music_disc_ender_guardian.desc": "Yuri_O - Defender of the Outer Realm",
+  "item.cataclysm.music_disc_ignis.desc": "Yuri_O - Light My Fire",
+  "item.cataclysm.music_disc_the_harbinger.desc": "Yuri_O - Self-Destruction Sequence",
+  "item.cataclysm.music_disc_the_leviathan.desc": "Yuri_O - Predator of the Abyss",
+  "item.cataclysm.music_disc_ancient_remnant.desc": "Yuri_O - The Dryest Beast",
+  "effect.cataclysm.lightning_hex": "雷霆咒缚",
+  "effect.cataclysm.over_gravity": "超重力",
+  "effect.cataclysm.dragon_wound": "龙创伤",
+  "notice.qna": "对灾变模组的焰魔毛绒玩偶感兴趣吗？",
+  "notice.yes": "感兴趣",
+  "notice.link.check": "确认链接",
+  "notice.click": "前往 Makeship 网站",
+  "notice.no.more": "不再显示通知",
+  "notice.open.browser": "前往 Makeship 网站",
+  "notice.no.more.text": "通知已关闭，可随时在配置中重新开启。"
+}

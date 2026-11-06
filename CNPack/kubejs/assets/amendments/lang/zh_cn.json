@@ -1,0 +1,11 @@
+{
+  "amendments.configuration.connections": "连接数",
+  "amendments.configuration.connections.fences_to_walls_and_bars": "栅栏连接墙、玻璃板和铁栏杆",
+  "amendments.configuration.connections.fences_to_walls_and_bars.description": "让栅栏能够连接墙、玻璃板和铁栏杆。",
+  "amendments.configuration.connections.wooden_to_nether_fences": "木栅栏连接下界砖栅栏",
+  "amendments.configuration.connections.wooden_to_nether_fences.description": "让木栅栏能够连接下界砖栅栏。",
+  "amendments.configuration.connections.wall_signs": "墙上告示牌连接",
+  "amendments.configuration.connections.wall_signs.description": "让栅栏、墙、玻璃板和铁栏杆能够连接附着其上的墙上告示牌。",
+  "amendments.configuration.misc.hotbar_slot_animation_speed": "快捷栏选中框动画速度",
+  "amendments.configuration.misc.hotbar_slot_animation_speed.description": "让快捷栏选中框平滑滑向新位置。数值越大速度越快；设为 0 使用原版效果。"
+}

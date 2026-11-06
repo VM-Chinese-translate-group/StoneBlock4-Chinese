@@ -1,0 +1,17 @@
+{
+  "name": "流体筛分机",
+  "icon": "industrialforegoing:fluid_sieving_machine",
+  "category": "industrialforegoing:resource_production",
+  "sortnum": 21,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "向机器提供发酵矿石肉和沙子，即可将矿肉加工为最初制作它所用矿石的粉末。"
+    },
+    {
+      "type": "crafting",
+      "recipe": "industrialforegoing:fluid_sieving_machine"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "name": "伪装模块",
+  "icon": "mffs:camouflage_module",
+  "category": "mffs:projector_modules",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "mffs:camouflage_module",
+      "link_recipe": true,
+      "text": "在$(l:mffs:machines/projector)力场投影仪$()中安装$(5)伪装模块$()可改变力场外观。有了$(5)伪装模块$()，力场就能伪装成普通方块，例如一面石墙。$(5)伪装模块$()兼容所有投影模式。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mffs:camouflage_module",
+      "text": "制作$(5)伪装模块$()。"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "使用方法",
+      "text": "这项功能可以隐藏物品或掩饰秘密基地的入口。选好用于伪装的方块，将其放进投影仪左侧矩阵的另一个空槽，与伪装模块处在同一组槽位中，然后照常激活投影仪。"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "mffs:textures/gui/handbook/pyramid_camo.png"
+      ],
+      "border": true,
+      "title": "投影示例",
+      "text": "伪装成去皮橡木的锥体力场。"
+    }
+  ]
+}

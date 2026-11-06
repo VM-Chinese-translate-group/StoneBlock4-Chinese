@@ -1,0 +1,35 @@
+{
+  "name": "白桦",
+  "icon": "minecraft:birch_sapling",
+  "category": "bonsaitrees4:minecraft",
+  "pages": [
+    {
+      "type": "bonsaitrees4:tree",
+      "tree_name": "白桦",
+      "tree_sapling": "minecraft:birch_sapling"
+    },
+    {
+      "type": "patchouli:link",
+      "title": "游戏中的它",
+      "text": "白桦的高度和树冠与普通橡树相近，但树皮浅色，木材也更淡。在原始白桦林中，可以找到较罕见的高大变体。",
+      "url": "https://minecraft.wiki/w/Birch",
+      "link_text": "Minecraft Wiki"
+    },
+    {
+      "type": "patchouli:link",
+      "title": "现实中的它",
+      "text": "桦树是桦木科桦木属的阔叶硬木树，叶片较薄；桦木科还包括桤木、榛和鹅耳枥等。桦树通常是寿命较短的先锋树种，广泛分布于北半球，尤其常见于温带北部和寒温带。",
+      "url": "https://en.wikipedia.org/wiki/Birch",
+      "link_text": "Wikipedia"
+    },
+    {
+      "type": "patchouli:image",
+      "border": true,
+      "images": [
+        "bonsaitrees4:textures/patchouli/birch_forest.png",
+        "bonsaitrees4:textures/patchouli/birch_leaves.png",
+        "bonsaitrees4:textures/patchouli/birch_seeds.png"
+      ]
+    }
+  ]
+}

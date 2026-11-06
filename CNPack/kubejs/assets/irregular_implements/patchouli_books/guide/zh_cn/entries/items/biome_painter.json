@@ -1,0 +1,19 @@
+{
+  "category": "irregular_implements:items",
+  "icon": "irregular_implements:biome_painter",
+  "name": "生物群系画刷",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "irregular_implements:biome_capsule",
+      "link_recipe": true,
+      "text": "$(d)生物群系胶囊$()可以记录世界中的生物群系。$(br2)将空胶囊丢在地上，就会记录所在地的生物群系。$(br2)继续留在该群系内，胶囊便会积累点数。将鼠标移到物品上可查看当前点数。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "irregular_implements:biome_painter",
+      "link_recipe": true,
+      "text": "$(d)生物群系画刷$()可以改变选中方块周围的生物群系。$(br2)手持时，会标出附近与物品栏中第一个非空胶囊所存群系$(o)不同$()的位置。对这些方块使用画刷即可改变其群系。"
+    }
+  ]
+}

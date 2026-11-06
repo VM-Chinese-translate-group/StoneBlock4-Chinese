@@ -1,0 +1,39 @@
+---
+id: mffs:coercion_deriver
+type: block
+---
+
+
+# 能源转换器
+
+能源转换器属于 MFFS 机器，用于将 FE 能量转化为其他 MFFS 机器运行所需的 []($fortron)。它通常配合 [](@mffs:fortron_capacitor) 使用，为后者充入 []($fortron)。
+
+随后由[容器](@mffs:fortron_capacitor)向其他机器分配 []($fortron)。
+
+<PrefabObtaining />
+
+## 使用方法
+
+要生产 []($fortron)，请将能源转换器连接到 FE 电源，并用[红石](@redstone)信号激活。通电并激活后，机器会由红色变为蓝色，开始生成 []($fortron)。
+
+将频率设为相同数值，即可把能源转换器与 [](@mffs:fortron_capacitor) 等 MFFS 机器连接起来。
+
+设置频率有两种方法：
+
+- 右键能源转换器，在界面中输入所需频率。
+- 手持 [](@mffs:frequency_card)，潜行右键能源转换器。
+
+能源转换器生成 []($fortron) 的能力可以用[青金石](@lapis_lazuli)或[下界石英](@nether_quartz)增强。将它们放入箭头旁的槽位，可使 []($fortron) 产出提高到原来的约 20 倍。
+
+## 工作模式
+
+能源转换器有“转换”和“整合”两种模式。默认使用转换模式，持续将输入的 FE 转化为 []($fortron)。
+
+点击界面中央的模式按钮可在两者之间切换。整合模式会反向运行，将现有的 []($fortron) 转回 FE。
+
+## 升级
+
+可安装下列模块来增强能源转换器：
+
+- [](@mffs:speed_module)：提升使用[青金石](@lapis_lazuli)或[下界石英](@nether_quartz)时获得的增幅。
+- [](@mffs:capacity_module)：提高机器可储存的 []($fortron) 总量。

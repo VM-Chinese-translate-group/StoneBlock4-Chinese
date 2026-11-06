@@ -1,0 +1,14 @@
+{
+  "category": "irregular_implements:items",
+  "icon": "irregular_implements:lava_waders",
+  "name": "熔岩靴",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "irregular_implements:lava_waders",
+      "link_recipe": true,
+      "text": "$(d)熔岩靴$()结合了$(l:items/water_walking_boots)水行靴$(/l)和$(l:items/lava_charm)熔岩护符$(/l)的能力，让你可以$(3)在水面和熔岩表面行走$()！",
+      "title": "熔岩靴"
+    }
+  ]
+}

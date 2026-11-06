@@ -1,0 +1,17 @@
+{
+  "name": "无限充能站",
+  "icon": "industrialforegoing:infinity_charger",
+  "category": "industrialforegoing:misc",
+  "sortnum": 5,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "为可储能的物品充电，尤其擅长为$(6)无限$()系列物品高速充能。"
+    },
+    {
+      "type": "crafting",
+      "recipe": "industrialforegoing:infinity_charger"
+    }
+  ]
+}

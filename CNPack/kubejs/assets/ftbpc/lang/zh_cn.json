@@ -2,7 +2,7 @@
   "block.ftbpc.trigger_block": "玩家触发方块",
   "ftbpackcompanion.actionpad.tpa.request_sent": "已发送传送请求至",
   "ftbpackcompanion.home": "基地",
-  "ftbpackcompanion.key.category": "Pack Companion",
+  "ftbpackcompanion.key.category": "整合包助手",
   "ftbpackcompanion.key.open_action_pad": "打开操作板",
   "ftbpackcompanion.shaders_notice.no_shaders.description": "此整合包中已包含光影，但默认情况下是禁用的。你想启用光影吗？光影可能会占用大量性能，或导致某些模组出现问题，且可能与你的硬件不兼容。",
   "ftbpackcompanion.shaders_notice.no_shaders.title": "无光影",
@@ -13,5 +13,15 @@
   "ftbpackcompanion.shaders_notice.title": "你想要使用光影吗？",
   "ftbpackcompanion.spawn": "出生点",
   "ftbpackcompanion.tpa": "请求传送",
-  "item.ftbpc.action_pad": "操作板"
+  "item.ftbpc.action_pad": "操作板",
+  "ftbpackcompanion.command.bypass.added": "已将 %s 加入强制游戏模式的豁免名单。",
+  "ftbpackcompanion.command.bypass.no-players": "强制游戏模式的豁免名单中目前没有玩家。",
+  "ftbpackcompanion.command.bypass.removed": "已将 %s 移出强制游戏模式的豁免名单。",
+  "ftbpackcompanion.command.fixed": "已修正玩家 %s 的游戏模式。",
+  "ftbpc.fancymenu.hour.value.name": "小时（0–23）",
+  "ftbpc.fancymenu.hourgreater.description": "检查用户当前小时数是否大于指定值。\n指定值必须是 0 至 23 的整数，采用 24 小时制。",
+  "ftbpc.fancymenu.hourgreater.name": "当前小时数大于",
+  "ftbpc.fancymenu.hourless.description": "检查用户当前小时数是否小于指定值。\n指定值必须是 0 至 23 的整数，采用 24 小时制。",
+  "ftbpc.fancymenu.hourless.name": "当前小时数小于",
+  "item.ftbpc.structure_placer": "结构放置器"
 }

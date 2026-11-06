@@ -1,0 +1,13 @@
+{
+  "olympus.ui.back": "返回",
+  "olympus.ui.delete": "删除",
+  "olympus.ui.cancel": "取消",
+  "olympus.ui.refresh": "刷新",
+  "olympus.ui.loading": "正在加载……",
+  "olympus.ui.tristate.true": "是",
+  "olympus.ui.tristate.false": "否",
+  "olympus.ui.tristate.undefined": "未指定",
+  "olympus.color.preset.recents": "最近使用",
+  "olympus.color.preset.defaults": "默认",
+  "olympus.color.preset.mc_colors": "聊天颜色"
+}

@@ -1,0 +1,15 @@
+{
+  "name": "传运器",
+  "icon": "rftoolsbuilder:mover",
+  "category": "rftoolsbase:category_rftoolsbuilder_mover",
+  "extra_recipe_mappings": {
+    "rftoolsbuilder:mover": 0
+  },
+  "sortnum": 10,
+  "pages": [
+    {
+      "type": "text",
+      "text": "传运器用于标记载具可以抵达的位置。$(br2)使用$(l:rftoolsbase:mover/mover_controller)传运器控制器$(/l)查找并连接传运器，即可构成移动网络。"
+    }
+  ]
+}

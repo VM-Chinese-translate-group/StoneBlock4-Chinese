@@ -1,0 +1,18 @@
+{
+  "name": "静音模块",
+  "icon": "mffs:silence_module",
+  "category": "mffs:projector_modules",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "mffs:silence_module",
+      "link_recipe": true,
+      "text": "将$(5)静音模块$()放入$(l:mffs:machines/projector)力场投影仪$()的矩阵槽，可消除投影仪发出的声音。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mffs:silence_module",
+      "text": "制作$(5)静音模块$()。"
+    }
+  ]
+}

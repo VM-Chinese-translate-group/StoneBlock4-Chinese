@@ -1,0 +1,31 @@
+{
+  "name": "看懂石头宠物的表情",
+  "icon": "petrock:petrockbox",
+  "category": "petrock:petrock_category",
+  "pages": [
+    {
+      "type": "image",
+      "images": [
+        "petrock:textures/patchouli/untamed.png"
+      ],
+      "border": true,
+      "text": "尚未驯服的石头宠物"
+    },
+    {
+      "type": "image",
+      "images": [
+        "petrock:textures/patchouli/tamed.png"
+      ],
+      "border": true,
+      "text": "已经驯服的石头宠物"
+    },
+    {
+      "type": "image",
+      "images": [
+        "petrock:textures/patchouli/tamed_sit.png"
+      ],
+      "border": true,
+      "text": "已经驯服、正在坐下的石头宠物"
+    }
+  ]
+}

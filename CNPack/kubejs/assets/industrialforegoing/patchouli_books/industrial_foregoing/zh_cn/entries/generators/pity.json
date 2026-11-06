@@ -1,0 +1,17 @@
+{
+  "name": "缺陷发电机",
+  "icon": "industrialforegoing:pitiful_generator",
+  "category": "industrialforegoing:generators",
+  "sortnum": 0,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "效率很低的发电机，燃烧煤炭等可燃物发电。$(br2)它的效率低到什么程度呢？即使内部储能已满，也仍会继续消耗燃料。"
+    },
+    {
+      "type": "crafting",
+      "recipe": "industrialforegoing:pitiful_generator"
+    }
+  ]
+}

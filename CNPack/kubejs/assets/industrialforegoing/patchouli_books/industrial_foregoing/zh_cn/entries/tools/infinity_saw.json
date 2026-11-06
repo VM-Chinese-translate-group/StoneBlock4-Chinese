@@ -1,0 +1,17 @@
+{
+  "name": "无限电锯",
+  "icon": "industrialforegoing:infinity_saw",
+  "category": "industrialforegoing:tools",
+  "sortnum": 3,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "无限电锯可以高效砍伐树木。等级越高，同时砍伐的方块越多。砍大型树木时，持续破坏同一处方块即可。"
+    },
+    {
+      "type": "industrialforegoing:dissolution",
+      "recipe": "industrialforegoing:dissolution_chamber/infinity_saw"
+    }
+  ]
+}

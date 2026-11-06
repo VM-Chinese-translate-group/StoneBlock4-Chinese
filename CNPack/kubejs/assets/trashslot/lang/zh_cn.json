@@ -1,0 +1,15 @@
+{
+  "key.trashslot.toggle_lock": "锁定／解锁垃圾栏位",
+  "key.trashslot.delete_all": "删除所有同类型物品",
+  "trashslot.configuration.instantDeletion.tooltip": "这会使删除栏位立即删除物品，类似于创造模式。",
+  "trashslot.configuration.enableDeleteKeysInCreative": "在创造模式中启用删除键",
+  "trashslot.configuration.enableDeleteKeysInCreative.tooltip": "如果你希望删除键按键绑定也能在创造模式中运作，请设定为 true。注意：在创造模式中，物品将被永久删除，无论立即删除设定为何！",
+  "trashslot.configuration.enableHints": "启用提示",
+  "trashslot.configuration.enableHints.tooltip": "垃圾栏将在第一次关闭垃圾栏位或在支援的萤幕上启用时显示提示。设定为 false 以停用。",
+  "trashslot.configuration.allowDeletionWhileTrashSlotIsInvisible": "允许在垃圾栏隐藏时删除",
+  "trashslot.configuration.allowDeletionWhileTrashSlotIsInvisible.tooltip": "不建议，但这将允许你使用按键绑定来删除物品，即使垃圾栏位本身是隐藏的。",
+  "trashslot.configuration.deletionDenyList": "删除拒绝清单",
+  "trashslot.configuration.deletionDenyList.tooltip": "无法删除的物品清单，以「模组 ID：名称」的逗号分隔格式。",
+  "tooltip.trashslot.destroy_item": "销毁物品",
+  "tooltip.trashslot.trash_item": "丢弃物品"
+}

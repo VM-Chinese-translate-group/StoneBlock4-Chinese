@@ -1,0 +1,16 @@
+{
+  "text.rconfig.authme.option.methods.microsoft": "微软账号",
+  "text.rconfig.authme.option.methods.offline": "离线",
+  "gui.authme.method.button.microsoft.selectAccount": "Ctrl + 点一下以选取帐号",
+  "gui.authme.microsoft.warning.title": "警告！没有 Microsoft 验证的预设选项",
+  "gui.authme.microsoft.warning.body": "如果您没有进行此更改，这可能会泄露您的帐户令牌。您是否仍要继续？",
+  "gui.authme.microsoft.warning.accept": "我知道我在做什么",
+  "gui.authme.microsoft.warning.cancel": "回到安全",
+  "gui.authme.error.notPurchased": "此账户尚未购买 Minecraft！",
+  "gui.authme.method.button.mojang.unavailable": "不可用，点击了解详情",
+  "text.rconfig.authme.description": "在游戏内重新登录 Minecraft，恢复会话认证。",
+  "text.rconfig.authme.option.authButton.description": "设置多人游戏界面中认证按钮的行为。",
+  "text.rconfig.authme.option.methods.description": "设置可用登录方式的行为。",
+  "text.rconfig.authme.option.methods.microsoft.description": "设置微软账户登录方式的行为。",
+  "text.rconfig.authme.option.methods.offline.description": "设置离线登录方式的行为。"
+}

@@ -1,0 +1,14 @@
+{
+  "name": "物质传输器",
+  "icon": "rftoolsutility:matter_transmitter",
+  "category": "rftoolsbase:category_rftoolsutility_machines",
+  "extra_recipe_mappings": {
+    "rftoolsutility:matter_transmitter": 0
+  },
+  "pages": [
+    {
+      "type": "text",
+      "text": "物质传输器可将玩家送往任意$(l:rftoolsbase:machines/matter_receiver)物质接收器$(/l)。使用$(l:rftoolsbase:machines/dialing_device)传送控制器$(/l)建立传输器与接收器之间的连接。$(br2)为传输器$(5)注能$()可以降低耗电量，并加快传送。"
+    }
+  ]
+}

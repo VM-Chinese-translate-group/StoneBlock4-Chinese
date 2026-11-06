@@ -1,0 +1,14 @@
+{
+  "category": "irregular_implements:items",
+  "icon": "irregular_implements:golden_egg",
+  "name": "金蛋",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "irregular_implements:golden_egg",
+      "link_recipe": true,
+      "text": "扔出$(d)金蛋$()会生成一只$(3)产金锭$()而不产鸡蛋的金鸡。$(br2)金蛋可以在$(l:items/magic_bean)豆茎$(/l)中找到；种植$(l:items/magic_bean)魔豆$(/l)后，顶端会结出豆茎。",
+      "title": "金蛋"
+    }
+  ]
+}

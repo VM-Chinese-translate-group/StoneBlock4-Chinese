@@ -1,0 +1,18 @@
+{
+  "name": "简介",
+  "icon": "minecraft:experience_bottle",
+  "category": "rftoolsbase:category_rftoolsbuilder_shield",
+  "extra_recipe_mappings": {
+    "rftoolsbuilder:shield_block1": 0,
+    "rftoolsbuilder:shield_block2": 0,
+    "rftoolsbuilder:shield_block3": 0,
+    "rftoolsbuilder:shield_block4": 0
+  },
+  "sortnum": 10,
+  "pages": [
+    {
+      "type": "text",
+      "text": "护盾投射仪既能保护区域免受生物入侵，也能将生物关在指定区域内，还可以对其造成伤害。"
+    }
+  ]
+}

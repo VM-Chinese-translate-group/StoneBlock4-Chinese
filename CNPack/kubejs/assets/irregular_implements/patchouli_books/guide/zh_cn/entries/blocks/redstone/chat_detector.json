@@ -1,0 +1,21 @@
+{
+  "category": "irregular_implements:blocks/redstone",
+  "icon": "irregular_implements:chat_detector",
+  "name": "聊天探测器",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "irregular_implements:chat_detector",
+      "link_recipe": true,
+      "text": "放置$(d)聊天探测器$()的玩家在聊天中说出指定内容时，探测器会输出红石信号。$(br2)界面文本框支持$(o)正则表达式$()，可实现复杂的匹配规则。$(br2)还可以设置是否拦截匹配到的聊天消息。",
+      "title": "聊天探测器"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "irregular_implements:global_chat_detector",
+      "link_recipe": true,
+      "text": "$(d)全局聊天探测器$()原理相同，但监听所有玩家的消息，而不只监听主人。$(br2)不过，它仍然只能拦截自己主人的消息。",
+      "title": "全局聊天探测器"
+    }
+  ]
+}

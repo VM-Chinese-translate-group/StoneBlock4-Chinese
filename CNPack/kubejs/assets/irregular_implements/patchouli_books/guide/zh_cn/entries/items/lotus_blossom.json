@@ -1,0 +1,21 @@
+{
+  "category": "irregular_implements:items",
+  "icon": "irregular_implements:lotus_blossom",
+  "name": "莲花苞",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "irregular_implements:lotus_blossom",
+      "link_recipe": true,
+      "text": "吃下$(d)莲花苞$()可以获得少量经验。$(br2)潜行时食用，会一次吃掉整组。",
+      "title": "莲花苞"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "irregular_implements:lotus_seeds",
+      "link_recipe": true,
+      "text": "可以在泥土或草方块上种下$(d)莲子$()，栽培莲花苞。$(br2)自然生长的莲花分布于$(3)寒冷生物群系$()。",
+      "title": "莲子"
+    }
+  ]
+}

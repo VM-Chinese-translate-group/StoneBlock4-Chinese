@@ -1,0 +1,17 @@
+{
+  "name": "冷凝室",
+  "icon": "industrialforegoing:stasis_chamber",
+  "category": "industrialforegoing:misc",
+  "sortnum": 5,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "供电后，这台机器会$(6)定住$()工作范围内的实体，并为它们$(6)治疗$()。"
+    },
+    {
+      "type": "crafting",
+      "recipe": "industrialforegoing:stasis_chamber"
+    }
+  ]
+}

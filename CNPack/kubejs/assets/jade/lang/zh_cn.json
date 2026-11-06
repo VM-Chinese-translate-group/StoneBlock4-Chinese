@@ -1,0 +1,7 @@
+{
+  "modmenu.nameTranslation.jade": "翡翠色",
+  "config.jade.item_mod_name_extra_msg": "模组id",
+  "config.jade.overlay_pos_extra_msg": "顶部,底部,左侧,右侧,置中",
+  "config.jade.hide_from_tab_list_extra_msg": "Tab,玩家列表",
+  "config.jade.overlay_alpha_extra_msg": "透明,不透明度"
+}

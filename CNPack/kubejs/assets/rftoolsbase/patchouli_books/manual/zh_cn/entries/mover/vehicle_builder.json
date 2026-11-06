@@ -1,0 +1,15 @@
+{
+  "name": "载具建造机",
+  "icon": "rftoolsbuilder:vehicle_builder",
+  "category": "rftoolsbase:category_rftoolsbuilder_mover",
+  "extra_recipe_mappings": {
+    "rftoolsbuilder:vehicle_builder": 0
+  },
+  "sortnum": 30,
+  "pages": [
+    {
+      "type": "text",
+      "text": "载具建造机会把空间区域中的结构制成载具。$(br2)先搭建符合要求的空间区域，再用载具建造机将其中的结构转换为载具。"
+    }
+  ]
+}

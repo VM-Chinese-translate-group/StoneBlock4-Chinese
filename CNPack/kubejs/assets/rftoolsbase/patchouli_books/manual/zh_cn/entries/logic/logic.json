@@ -1,0 +1,24 @@
+{
+  "name": "逻辑门",
+  "icon": "rftoolsutility:logic",
+  "category": "rftoolsbase:category_rftoolsutility_logic",
+  "extra_recipe_mappings": {
+    "rftoolsutility:logic": 0
+  },
+  "pages": [
+    {
+      "type": "text",
+      "text": "此方块有三个红石输入端和一个输出端。界面允许你为三个输入的每种组合分别设置输出：关闭、开启或保持。“保持”表示切换到该输入组合后，沿用切换前的输出状态。"
+    },
+    {
+      "type": "text",
+      "title": "界面",
+      "text": "界面列出三个输入端的全部组合。每一行都可设为关闭、开启或保持；保持会保留之前的输出状态。"
+    },
+    {
+      "type": "crafting",
+      "heading": "Digit",
+      "recipe": "rftoolsutility:logic"
+    }
+  ]
+}

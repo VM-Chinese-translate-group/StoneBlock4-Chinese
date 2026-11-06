@@ -1,0 +1,14 @@
+{
+  "category": "irregular_implements:blocks/redstone",
+  "icon": "irregular_implements:analog_emitter",
+  "name": "模拟信号发生器",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "irregular_implements:analog_emitter",
+      "link_recipe": true,
+      "text": "$(bold)模拟信号发生器$()从正面收到红石信号后，会输出指定强度的信号。$(br2)右击可循环调整输出强度。",
+      "title": "模拟信号发生器"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "版本 190",
+  "icon": "minecraft:book",
+  "category": "dimdungeons:patch_notes",
+  "sortnum": 190,
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(li)更新战利品表，加入更多常用物品。$(li)每种主题的钥匙现在都有专属图标！$(li)新增阻止方块掉落物品的配置。$(li)新增 12 间房间！"
+    },
+    {
+      "type": "text",
+      "text": "$(li)为个人建造维度加入自然天光。$(li)还原地牢维度的环境光，房间现在会呈现设计中的幽暗氛围。$(li)更改个人维度钥匙的配方。"
+    }
+  ]
+}

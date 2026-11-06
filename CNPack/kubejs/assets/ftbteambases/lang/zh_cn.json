@@ -1,0 +1,7 @@
+{
+  "ftbteambases.message.stale_bases": "已归档 %s 个失效基地",
+  "ftbteambases.message.missing_team": "队伍 %s 似乎已经不存在！使用“/ftbteambases archive cleanup”将其基地归档。",
+  "ftbteambases.message.team_was_disbanded": "你离线期间所属队伍已被解散，正在将你送回大厅……",
+  "ftbteambases.message.party_creation": "▶ 组队时，先由一名玩家穿过大厅传送门，再邀请其他玩家加入队伍。\n▶ 只能邀请当前在线且尚未加入其他队伍的玩家。\n▶ 如果对方已经穿过传送门，需要先执行 %s，之后才能接受你的组队邀请。",
+  "ftbteambases.gui.search_hint": "搜索……"
+}

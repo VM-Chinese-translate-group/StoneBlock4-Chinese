@@ -1,0 +1,18 @@
+{
+  "category": "irregular_implements:items",
+  "icon": "irregular_implements:lava_charm",
+  "name": "熔岩护符",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(d)熔岩护符$()会提供短时熔岩护盾，状态显示在护甲条上方。$(br2)护盾充足时，你将$(a)完全免疫熔岩伤害$()，但它$(c)不能抵御火焰$()！$(br2)熔岩仍会让你着火，着火后照样受伤。不妨再配一个$(l:items/obsidian_skull)黑曜石头颅$(/l)？",
+      "title": "熔岩护符"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "irregular_implements:lava_charm",
+      "link_recipe": true,
+      "text": "$(3)地牢箱子$()中偶尔能找到熔岩护符，在$(3)下界要塞箱子$()中出现的概率更高。"
+    }
+  ]
+}

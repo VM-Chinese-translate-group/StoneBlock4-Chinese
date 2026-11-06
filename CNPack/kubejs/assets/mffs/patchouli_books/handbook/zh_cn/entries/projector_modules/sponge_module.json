@@ -1,0 +1,18 @@
+{
+  "name": "海绵模块",
+  "icon": "mffs:sponge_module",
+  "category": "mffs:projector_modules",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "mffs:sponge_module",
+      "link_recipe": true,
+      "text": "在$(l:mffs:machines/projector)力场投影仪$()中安装$(5)海绵模块$()后，机器会持续检测并清除力场内部的流体。加入$(l:mffs:upgrade_modules/speed_module)$(5)速度模块$()可加快清除速度；清除水等可无限再生的流体时，可能需要更高的速度。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mffs:sponge_module",
+      "text": "制作$(5)海绵模块$()。"
+    }
+  ]
+}

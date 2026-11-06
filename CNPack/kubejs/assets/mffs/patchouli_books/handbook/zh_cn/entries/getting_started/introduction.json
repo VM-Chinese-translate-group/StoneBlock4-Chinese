@@ -1,0 +1,29 @@
+{
+  "name": "入门",
+  "icon": "minecraft:lectern",
+  "category": "mffs:getting_started",
+  "sortnum": 0,
+  "priority": true,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(l)模块化力场系统$()（MFFS）为 Minecraft 加入了$(3)力场$()、$(5)高科技机器$()与$(6)区域防御手段$()。不想让爆炸摧毁家园，或想把不速之客挡在秘密基地之外？$(l)力场系统正能派上用场！$()"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "mffs:textures/gui/handbook/overview.png"
+      ],
+      "border": true,
+      "text": "MFFS 力场技术概览"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "力场的用途十分广泛：$(li)阻挡闯入家园的入侵者。$(li)建造结构。$(li)修建水下基地或气闸。$(li)消灭靠近的生物。$(li)用陷阱困住敌人。$(li)抵御弹道导弹。$(li)收缴玩家携带的物品。$()"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "MFFS 配置可$(3)取消对电能的依赖$()，因此既可用于接近原版的环境，也能与其他模组配合。它常用于$(2)多人$()世界，对$(2)单人$()世界同样大有帮助。"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "流体放置器",
+  "icon": "industrialforegoing:fluid_placer",
+  "category": "industrialforegoing:resource_production",
+  "sortnum": 4,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "将流体放置到世界中。$(br2)每次消耗 $(6)1000$() RF，将内部储罐中的流体放置到机器前方。"
+    },
+    {
+      "type": "crafting",
+      "recipe": "industrialforegoing:fluid_placer"
+    }
+  ]
+}

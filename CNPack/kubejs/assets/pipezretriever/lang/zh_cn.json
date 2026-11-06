@@ -1,0 +1,8 @@
+{
+  "tooltip.pipezretriever.mode": "模式：%s",
+  "tooltip.pipezretriever.mode.extract": "输出模式（推送到目标端）",
+  "tooltip.pipezretriever.mode.retrieve": "拉取模式（从目标端取回）",
+  "tooltip.pipezretriever.retrieve_button": "切换拉取模式",
+  "tooltip.pipezretriever.retrieve_button.description": "启用后，从连接的存储端拉取物品、流体或能量，送回源端。",
+  "tooltip.pipezretriever.requires_upgrade": "至少需要基础升级"
+}

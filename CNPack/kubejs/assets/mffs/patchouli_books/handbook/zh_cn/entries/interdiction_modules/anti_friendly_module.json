@@ -1,0 +1,18 @@
+{
+  "name": "反友好模块",
+  "icon": "mffs:anti_friendly_module",
+  "category": "mffs:interdiction_modules",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "mffs:anti_friendly_module",
+      "link_recipe": true,
+      "text": "$(5)反友好模块$()是$(l:mffs:machines/interdiction_matrix)结界矩阵$()的可选模块。安装后，矩阵会自动识别进入扫描范围的羊、牛、村民等友好生物，并几乎立即将其击杀。玩家与敌对生物不受影响。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mffs:anti_friendly_module",
+      "text": "制作$(5)反友好模块$()。"
+    }
+  ]
+}

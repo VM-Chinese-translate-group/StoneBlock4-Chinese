@@ -1,0 +1,10 @@
+{
+  "affix.irons_apothic:elemental/school_geo/attribute": "元素学派",
+  "item.apotheosis.gem.irons_apothic:external/quaking_jasper": "震地碧玉",
+  "affix.irons_apothic:elemental/school_geo/attribute.suffix": "汇流之",
+  "affix.irons_apothic:elemental/school_geo/geomancers": "地术师的",
+  "affix.irons_apothic:elemental/school_geo/geomancers.suffix": "唤地之",
+  "affix.irons_apothic:elemental/school_geo/mana_cost": "石化的",
+  "affix.irons_apothic:elemental/school_geo/mana_cost.suffix": "移山易土之",
+  "affix.irons_apothic:melee/spell/vein_ripper": "剜心的"
+}

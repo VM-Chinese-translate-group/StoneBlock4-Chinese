@@ -1,0 +1,18 @@
+{
+  "category": "irregular_implements:items",
+  "icon": "irregular_implements:emerald_compass",
+  "name": "绿宝石指南针",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(d)绿宝石指南针$()可绑定一位玩家，并$(3)始终指向对方$()。$(br2)对方必须在线，且与你处于同一维度。",
+      "title": "绿宝石指南针"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "irregular_implements:emerald_compass",
+      "link_recipe": true,
+      "text": "有两种绑定方法。$(br2)一是手持指南针对目标玩家右击。$(br2)二是将指南针与已设置好的$(l:items/player_filter)玩家过滤器$(/l)合成。"
+    }
+  ]
+}

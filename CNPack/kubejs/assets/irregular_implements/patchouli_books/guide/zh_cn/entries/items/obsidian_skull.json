@@ -1,0 +1,21 @@
+{
+  "category": "irregular_implements:items",
+  "icon": "irregular_implements:obsidian_skull",
+  "name": "黑曜石头颅",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "irregular_implements:obsidian_skull",
+      "link_recipe": true,
+      "text": "物品栏中的$(d)黑曜石头颅$()有概率$(3)免除火焰伤害$()。$(br2)原本伤害越高，免伤概率越大，公式为 $(4)(amount^3)/100$()，其中 amount 为本次伤害。",
+      "title": "黑曜石头颅"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "irregular_implements:obsidian_skull_ring",
+      "link_recipe": true,
+      "text": "还可以制作$(d)黑曜石头颅指环$()，将其装备在饰品戒指槽中！",
+      "title": "黑曜石头颅指环"
+    }
+  ]
+}

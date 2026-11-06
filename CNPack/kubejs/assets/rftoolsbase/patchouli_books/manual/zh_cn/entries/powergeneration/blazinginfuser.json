@@ -1,0 +1,27 @@
+{
+  "name": "烈焰注能器",
+  "icon": "rftoolspower:blazing_infuser",
+  "category": "rftoolsbase:category_rftoolspower_powergeneration",
+  "extra_recipe_mappings": {
+    "rftoolspower:blazing_infuser": 0
+  },
+  "sortnum": 26,
+  "pages": [
+    {
+      "type": "text",
+      "text": "烈焰注能器可以强化$(l:rftoolsbase:powergeneration/blazingagitator)烈焰激活器$(/l)制成的充能烈焰棒。它消耗催化材料，提升烈焰棒的输出功率、持续时间，或同时提升两者。"
+    },
+    {
+      "type": "crafting",
+      "recipe": "rftoolspower:blazing_infuser"
+    },
+    {
+      "type": "text",
+      "text": "注能后的充能烈焰棒不能再在激活器中用于强化其他烈焰棒。因此，先培养一组优质增效棒，再给打算作为燃料的烈焰棒注能。"
+    },
+    {
+      "type": "text",
+      "text": "处理整组烈焰棒时，不同催化材料各有侧重：红石提高功率，石英延长持续时间，荧石更偏重持续时间，维度碎片同时提升两者，恶魂之泪或下界之星则能提供大幅增益。"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "name": "红石信号发信器",
+  "icon": "rftoolsutility:redstone_transmitter",
+  "category": "rftoolsbase:category_rftoolsutility_logic",
+  "extra_recipe_mappings": {
+    "rftoolsutility:redstone_transmitter": 0
+  },
+  "pages": [
+    {
+      "type": "text",
+      "text": "收到红石信号时，这个方块会通过指定频道无线发出信号，需要搭配红石信号接收器使用。首次放置会创建一个频道；也可以手持它右击已有发信器或接收器，绑定到现有频道。"
+    },
+    {
+      "type": "text",
+      "text": "使用$(l:rftoolsbase:logic/redstone_receiver)红石信号接收器$(/l)接收信号。$(br2)在发信器界面中可以为频道命名，方便辨认。"
+    }
+  ]
+}

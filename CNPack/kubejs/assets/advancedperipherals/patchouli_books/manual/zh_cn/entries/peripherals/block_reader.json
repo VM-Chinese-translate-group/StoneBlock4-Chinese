@@ -1,0 +1,31 @@
+{
+  "name": "方块读取器",
+  "icon": "advancedperipherals:block_reader",
+  "category": "advancedperipherals:peripherals",
+  "pages": [
+    {
+      "type": "text",
+      "text": "方块读取器能够读取前方方块及方块实体的数据。$(p)完整文档请参阅$(9)$(l:https://docs.advanced-peripherals.de/peripherals/block_reader/)官方 Wiki 页面$(/l)$()！"
+    },
+    {
+      "type": "crafting",
+      "recipe": "advancedperipherals:block_reader"
+    },
+    {
+      "type": "multiblock",
+      "multiblock": {
+        "mapping": {
+          "0": "computercraft:computer_advanced",
+          "P": "advancedperipherals:block_reader",
+          "T": "minecraft:dirt"
+        },
+        "pattern": [
+          [
+            "0PT"
+          ]
+        ]
+      },
+      "text": "将方块读取器连接到电脑，并让它朝向目标方块，即可使用！"
+    }
+  ]
+}

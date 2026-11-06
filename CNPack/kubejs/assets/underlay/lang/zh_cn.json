@@ -1,0 +1,6 @@
+{
+  "commands.underlay.config.edit.success": "将%s设置为%s",
+  "block.underlay.overlay": "（覆盖层）",
+  "config.jade.plugin_underlay.overlay": "覆盖层",
+  "config.jade.plugin_underlay.overlay.tooltip": "显示 Underlay 覆盖层提示"
+}

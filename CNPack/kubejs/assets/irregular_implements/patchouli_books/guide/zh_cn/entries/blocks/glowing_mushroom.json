@@ -1,0 +1,14 @@
+{
+  "category": "irregular_implements:blocks",
+  "icon": "irregular_implements:glowing_mushroom",
+  "name": "发光蘑菇",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "irregular_implements:glowing_mushroom",
+      "link_recipe": true,
+      "text": "$(d)发光蘑菇$()偶尔能在洞穴中找到。$(br2)酿造配方中需要荧石粉的地方，都可以改用发光蘑菇。",
+      "title": "发光蘑菇"
+    }
+  ]
+}

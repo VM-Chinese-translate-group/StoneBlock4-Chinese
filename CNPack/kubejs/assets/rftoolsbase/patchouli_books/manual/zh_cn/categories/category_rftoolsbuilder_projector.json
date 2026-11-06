@@ -1,0 +1,7 @@
+{
+  "name": "扫描与投影",
+  "description": "用于扫描、组合和投影形状的方块。",
+  "parent": "rftoolsbase:category_rftoolsbuilder",
+  "icon": "rftoolsbuilder:scanner",
+  "sortnum": 40
+}

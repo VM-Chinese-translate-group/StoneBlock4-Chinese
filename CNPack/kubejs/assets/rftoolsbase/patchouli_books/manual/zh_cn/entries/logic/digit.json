@@ -1,0 +1,19 @@
+{
+  "name": "数码器",
+  "icon": "rftoolsutility:digit",
+  "category": "rftoolsbase:category_rftoolsutility_logic",
+  "extra_recipe_mappings": {
+    "rftoolsutility:digit": 0
+  },
+  "pages": [
+    {
+      "type": "text",
+      "text": "这个方块用 0 至 F 的十六进制数字显示输入红石信号的强度。"
+    },
+    {
+      "type": "crafting",
+      "heading": "Digit",
+      "recipe": "rftoolsutility:digit"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "版本 166",
+  "icon": "minecraft:book",
+  "category": "dimdungeons:patch_notes",
+  "sortnum": 166,
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(li)将所有管理命令统一到“/dimdungeons <cheats>”之下。$(li)新增命令：/dimdungeons givepersonal [recipient] [whose_key]。$(li)修复地牢生成过程中关闭服务器会导致生成不完整的问题。"
+    },
+    {
+      "type": "text",
+      "text": "$(li)修复玩家偶尔获得其他玩家个人维度钥匙的问题。$(li)修复地牢建造完成后，传送门基石继续更新时可能罕见出现的崩溃或传送门失效问题。"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "emi.category.industrialforegoing.dye_mixer": "染料调色器",
+  "emi.category.industrialforegoing.latex_processing_unit": "胶乳加工机",
+  "emi.category.industrialforegoing.sewage_composter": "污水堆肥机",
+  "emi.category.industrialforegoing.sludge_refiner": "污泥精炼机",
+  "emi.category.industrialforegoing.spores_recreator": "蘑菇孢子繁殖器",
+  "text.industrialforegoing.tooltip.tick_time": "10 游戏刻",
+  "text.industrialforegoing.tooltip.data": "所需数据",
+  "If you need to automate all the things! $(br2)You can become my patreon $(l:https://www.patreon.com/buuz135)here$().": "把一切都交给自动化！$(br2)你也可以$(l:https://www.patreon.com/buuz135)在这里$()通过 Patreon 赞助我。"
+}

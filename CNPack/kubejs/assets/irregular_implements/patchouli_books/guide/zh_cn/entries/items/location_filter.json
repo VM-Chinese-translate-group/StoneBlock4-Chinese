@@ -1,0 +1,18 @@
+{
+  "category": "irregular_implements:items",
+  "icon": "irregular_implements:location_filter",
+  "name": "位置过滤器",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(d)位置过滤器$()用于$(3)记录一个位置$()，供其他物品或方块读取。$(br2)对目标方块使用即可设置。",
+      "title": "位置过滤器"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "irregular_implements:location_filter",
+      "link_recipe": true,
+      "text": "还有其他记录方式，例如对$(l:blocks/biome_radar)生物群系雷达$(/l)使用，可记录雷达找到的群系位置。"
+    }
+  ]
+}

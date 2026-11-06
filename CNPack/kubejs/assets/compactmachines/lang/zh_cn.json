@@ -1,0 +1,12 @@
+{
+  "gamerule.compactmachines.allow_creative_oob": "允许创造模式玩家越界",
+  "gamerule.compactmachines.allow_creative_oob.description": "允许创造模式玩家离开房间边界。",
+  "gamerule.compactmachines.allow_spectator_oob": "允许旁观模式玩家越界",
+  "gamerule.compactmachines.allow_spectator_oob.description": "允许旁观者离开房间边界。",
+  "gamerule.compactmachines.allow_survival_oob": "允许生存模式玩家越界",
+  "gamerule.compactmachines.allow_survival_oob.description": "允许生存模式玩家离开房间边界。",
+  "gamerule.compactmachines.damage_oob": "伤害越界玩家",
+  "gamerule.compactmachines.damage_oob.description": "对离开房间边界的玩家造成伤害。",
+  "gamerule.compactmachines.damage_psd_on_exit": "离开房间时损耗缩小装置",
+  "gamerule.compactmachines.damage_psd_on_exit.description": "离开房间时消耗个人缩小装置的耐久度。"
+}

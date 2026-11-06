@@ -1,0 +1,18 @@
+{
+  "name": "速度模块",
+  "icon": "mffs:speed_module",
+  "category": "mffs:upgrade_modules",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "mffs:speed_module",
+      "link_recipe": true,
+      "text": "速度模块可装入多种 MFFS 机器的升级槽，以提升工作性能。$(br2)具体效果取决于机器，常见用途包括：$(br2)$(li)加快力场投影。$(li)提高 $(l:mffs:machines/fortron_capacitor)力场子容器$() 的$(l:mffs:getting_started/fortron)力场子$()传输上限。$(li)提高 $(l:mffs:machines/coercion_deriver)能源转换器$() 的效率。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mffs:speed_module",
+      "text": "制作$(5)速度模块$()。"
+    }
+  ]
+}

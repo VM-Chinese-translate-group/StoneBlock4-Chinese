@@ -1,0 +1,12 @@
+{
+  "name": "版本 1.11",
+  "icon": "minecraft:book",
+  "category": "dimdungeons:patch_notes",
+  "sortnum": 110,
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(li)为高级地牢加入新的超大房间。$(li)加入其他新房间。$(li)调整金质传送门和传送门冠饰方块的模型。"
+    }
+  ]
+}

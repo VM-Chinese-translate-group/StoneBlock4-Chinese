@@ -4,5 +4,11 @@
   "item.chicken.c_time": "时光水晶鸡",
   "item.chicken.c_neutron": "中子素鸡",
   "item.chicken.c_skystone": "陨石鸡",
-  "item.chicken.c_antimatter": "反物质鸡"
+  "item.chicken.c_antimatter": "反物质鸡",
+  "entity.chicken_roost.c_ghostchicken": "幽灵鸡（开发中）",
+  "item.chicken_roost.c_hottungstensteel": "开发中的鸡",
+  "item.chicken_roost.c_chickenosto": "奇肯诺斯托鸡",
+  "entity.chicken_roost.c_chickenosto": "奇肯诺斯托鸡",
+  "item.chicken_roost.c_tuff": "凝灰岩鸡",
+  "entity.chicken_roost.c_tuff": "凝灰岩鸡"
 }

@@ -1,0 +1,6 @@
+{
+  "replication.infinite": "无限",
+  "block.replication.creative_matter_tank": "创造模式物质储罐",
+  "tooltip.replication.tank.priority": "优先级：",
+  "tooltip.replication.tank.void_excess": "销毁溢出物质"
+}

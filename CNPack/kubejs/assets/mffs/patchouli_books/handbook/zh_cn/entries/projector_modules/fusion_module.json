@@ -1,0 +1,18 @@
+{
+  "name": "力场融合模块",
+  "icon": "mffs:fusion_module",
+  "category": "mffs:projector_modules",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "mffs:fusion_module",
+      "link_recipe": true,
+      "text": "将$(5)力场融合模块$()放入$(l:mffs:machines/projector)力场投影仪$()的矩阵槽，可将多个力场融合。它会去除与其他力场重叠的投影方块，使多个装有此模块的力场无缝合为一个整体。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mffs:fusion_module",
+      "text": "制作$(5)力场融合模块$()。"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "红石导线",
+  "icon": "rftoolsutility:wire",
+  "category": "rftoolsbase:category_rftoolsutility_logic",
+  "extra_recipe_mappings": {
+    "rftoolsutility:wire": 0
+  },
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(item)导线$()只是把$(thing)输入信号$()传到$(thing)输出端$()，简单直接，也不会产生延迟，不过只能沿直线延伸。$(br2)优点是它和其他用$(l:rftoolsbase:basics/machine_bases)机器基座$()制作的方块一样，可以安装在墙面或天花板上。"
+    },
+    {
+      "type": "crafting",
+      "heading": "Wire",
+      "recipe": "rftoolsutility:wire"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "红石信息",
+  "icon": "rftoolsutility:redstone_information",
+  "category": "rftoolsbase:category_rftoolsutility_logic",
+  "extra_recipe_mappings": {
+    "rftoolsutility:redstone_information": 0,
+    "rftoolsutility:tablet_redstone": 0
+  },
+  "pages": [
+    {
+      "type": "text",
+      "text": "这个物品可以记录多个红石频道：手持它对$(l:rftoolsbase:logic/redstone_transmitter)红石信号发信器$(/l)或$(l:rftoolsbase:logic/redstone_receiver)红石信号接收器$(/l)$(5)右击$()，即可添加频道。再将它装入$(l:rftoolsbase:tools/tablet)平板终端$(/l)，便能随时随地查看并调整红石信号。"
+    }
+  ]
+}

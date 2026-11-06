@@ -1,0 +1,17 @@
+{
+  "name": "动物排污器",
+  "icon": "industrialforegoing:sewer",
+  "category": "industrialforegoing:agriculture_husbandry",
+  "sortnum": 12,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "用于收集动物产生的$(l:agr_hus/sewage)污水$()，也能收集经验并将其转化为精华液。"
+    },
+    {
+      "type": "crafting",
+      "recipe": "industrialforegoing:sewer"
+    }
+  ]
+}

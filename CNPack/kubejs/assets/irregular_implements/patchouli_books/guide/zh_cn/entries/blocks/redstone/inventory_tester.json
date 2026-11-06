@@ -1,0 +1,18 @@
+{
+  "category": "irregular_implements:blocks/redstone",
+  "icon": "irregular_implements:inventory_tester",
+  "name": "容器测试器",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "将$(d)容器测试器$()贴在容器上，内部放入样本物品。$(br2)若容器能够接收该物品，就会输出红石信号。$(br2)测试会考虑它接触容器的$(o)哪一面$()。例如放在熔炉顶部时，只检查能否从顶部送入物品。",
+      "title": "容器测试器"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "irregular_implements:inventory_tester",
+      "link_recipe": true,
+      "text": "可配合容器再路由器，从其他位置访问容器指定侧面。$(br2)界面中还可反转判断，让容器无法接收物品时输出信号。"
+    }
+  ]
+}

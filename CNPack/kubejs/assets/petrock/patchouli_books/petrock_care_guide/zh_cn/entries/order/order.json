@@ -1,0 +1,17 @@
+{
+  "name": "订购单",
+  "icon": "petrock:orderform",
+  "category": "petrock:order_category",
+  "pages": [
+    {
+      "type": "text",
+      "title": "订购单",
+      "text": "用这张会自动填好的订购单，领取你的石头宠物！"
+    },
+    {
+      "type": "crafting",
+      "recipe": "petrock:orderform",
+      "text": "你会得到一只装在盒子里的石头宠物！"
+    }
+  ]
+}

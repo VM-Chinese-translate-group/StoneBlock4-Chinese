@@ -7,7 +7,6 @@
   "item.fdbosses.eye_of_malkuth": "王国之眼",
   "item.fdbosses.malkuth_fire_warrior_spawn_egg": "火焰王国战士刷怪蛋",
   "item.fdbosses.malkuth_ice_warrior_spawn_egg": "冰霜王国战士刷怪蛋",
-
   "death.attack.malkuth_cannons": "%s在火炮对决中败北",
   "death.attack.malkuth_chainpunch": "%s被一拳轰杀",
   "death.attack.malkuth_earthshatter": "%s与大地融为一体",
@@ -16,7 +15,6 @@
   "death.attack.malkuth_side_rocks": "%s的脸被巨石砸碎",
   "death.attack.malkuth_tsars_wrath": "%s未能幸免于堕落国王的怒火",
   "death.attack.malkuth_slashes": "%s发现自己被切成两半",
-
   "death.attack.chesed_roll_attack": "%s被大运碾过",
   "death.attack.chesed_attack": "%s被%s彻底粉碎",
   "death.attack.chesed_lor_attack": "%s被%s变成了一本书",
@@ -63,7 +61,7 @@
   "fdbosses.skills.chesed.espheres_description": "释放从「慈悲」的位置向外扩散的球状闪电。\n\n这些球状闪电无法被反弹。",
   "fdbosses.skills.chesed.monoliths": "慈悲巨柱",
   "fdbosses.skills.chesed.monoliths_description": "战斗开始后生成4根巨柱。\n\n巨柱在「慈悲」死亡后失效且无法再被攻击。\n\n第二阶段巨柱额外获得 {{(fdbosses:config_float) config=chesedConfig, value=additionalSecondPhaseMonolithHP}} 点生命值。",
-  "fdbosses.skills.chesed.roll": "滚雷", 
+  "fdbosses.skills.chesed.roll": "滚雷",
   "fdbosses.skills.chesed.roll_description": "环绕竞技场滚动，伤害并击退路径上的所有目标。\n\n第二阶段会在路径上留下火焰轨迹。",
   "fdbosses.skills.chesed.rockfall": "岩崩",
   "fdbosses.skills.chesed.rockfall_description": "向穹顶发射闪电束引发塌方，同时在参战者周围召唤闪电。\n\n第二阶段将提升闪电的数量与频率。",
@@ -176,5 +174,21 @@
   "fdbosses.word.not_updated": "数据尚未在网上更新，我会在后续更新中添加新订阅者。",
   "fdbosses.word.core_lose": "警告：你不能将两个及以上的不同核心结合在同一个物品上！",
   "fdbosses.core_ability.lightning_core": "可以与具有伤害属性的物品相结合。命中时召唤「慈悲」的闪电射线。",
-  "fdbosses.core_ability.fire_and_ice_core": "可以与具有伤害属性的物品相结合。使用时召唤「王国」的火球。"
+  "fdbosses.core_ability.fire_and_ice_core": "可以与具有伤害属性的物品相结合。使用时召唤「王国」的火球。",
+  "item.fdbosses.qliphothic_codex": "逆树法典",
+  "item.fdbosses.phase_sphere": "相位球",
+  "item.fdbosses.malkuth_fist": "冰焰拳套",
+  "item.fdbosses.divine_gear": "神圣齿轮",
+  "fdbosses.word.not_released": "此首领仍在开发中",
+  "fdbosses.boss_drop.fdbosses.chesed.fdbosses.phase_sphere.info": "使用后可高速穿过方块。\n\n§c警告！§r\n\n生物仍可对你造成伤害；你仅免疫卡在方块内导致的窒息伤害。",
+  "fdbosses.boss_drop.fdbosses.chesed.fdbosses.phase_sphere.stats": "穿透持续时间：\n{{(fdlib:image)path=fdbosses:boss_duration}}：{{(fdbosses:config_float) config=itemConfig, value=phaseSphereUseDuration}} 游戏刻。\n\n冷却时间：\n{{(fdlib:image)path=fdbosses:boss_duration}}：{{(fdbosses:config_float) config=itemConfig, value=phaseSphereCooldown}} 游戏刻。",
+  "fdbosses.boss_drop.fdbosses.malkuth.fdbosses.malkuth_fist.stats": "重砸伤害：\n{{(fdlib:image)path=fdbosses:boss_damage}}：{{(fdbosses:config_float) config=itemConfig, value=iceFireGauntletCrushDamage}}。\n\n冷却时间：\n{{(fdlib:image)path=fdbosses:boss_duration}}：{{(fdbosses:config_float) config=itemConfig, value=iceFireGauntletCooldown}} 游戏刻。",
+  "fdbosses.boss_drop.fdbosses.malkuth.fdbosses.malkuth_fist.info": "§6持于右手：§r\n\n作为方块抓钩使用，在钩住的位置施展“王国”的重砸攻击。\n站在地面向下使用时，会将使用者弹射到空中。\n\n§6持于左手：§r\n\n作为实体抓钩使用，使使用者自动攻击目标，再将使用者向后弹开。\n\n§6连招：§r\n\n先在左手使用，再移回右手，可重置冷却时间。",
+  "fdbosses.boss_drop.fdbosses.geburah.fdbosses.divine_gear.stats": "伤害：\n{{(fdlib:image)path=fdbosses:boss_damage}}：{{(fdbosses:config_float) config=itemConfig, value=divineGearDamage}}。\n\n攻击间隔：\n{{(fdlib:image)path=fdbosses:boss_duration}}：{{(fdbosses:config_float) config=itemConfig, value=divineGearAttackCooldown}} 游戏刻。\n\n持续时间：\n{{(fdlib:image)path=fdbosses:boss_duration}}：{{(fdbosses:config_float) config=itemConfig, value=divineGearLifetime}} 游戏刻。\n\n充能恢复时间：\n{{(fdlib:image)path=fdbosses:boss_duration}}：{{(fdbosses:config_float) config=itemConfig, value=divineGearChargeReplenishTime}} 游戏刻。\n\n攻击半径：\n{{(fdlib:image)path=fdbosses:boss_duration}}：{{(fdbosses:config_float) config=itemConfig, value=divineGearAttackRadius}} 格。",
+  "fdbosses.boss_drop.fdbosses.geburah.fdbosses.divine_gear.info": "放置一座炮塔，攻击周围§c所有§r生物。\n\n优先攻击你最近攻击过的实体。\n\n最多储存 {{(fdbosses:config_float) config=itemConfig, value=divineGearCharges}} 次充能。",
+  "fdbosses.word.set_special_respawn_point": "已设置特殊重生点",
+  "fdbosses.word.item_is_not_released_yet": "此物品尚未正式推出！",
+  "fdbosses.word.malkuth_fist_description": "右手使用时抓取方块，左手使用时抓取实体。先在左手使用，再移回右手，可重置冷却时间。",
+  "fdbosses.word.phase_sphere_description": "使用后可在一段时间内穿过方块。",
+  "fdbosses.word.divine_gear_description": "右击方块放置炮塔，攻击周围所有生物。"
 }

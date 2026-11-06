@@ -1,0 +1,17 @@
+{
+  "name": "方块破坏器",
+  "icon": "industrialforegoing:block_breaker",
+  "category": "industrialforegoing:resource_production",
+  "sortnum": 2,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "破坏正前方的方块，并将掉落物收进内部物品栏。每次操作消耗 $(6)1000$() RF。"
+    },
+    {
+      "type": "crafting",
+      "recipe": "industrialforegoing:block_breaker"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "morphtool.configuration.title": "标题",
+  "morphtool.configuration.blacklist_mods": "黑名单模组",
+  "morphtool.configuration.whitelist_items": "白名单物品",
+  "morphtool.configuration.whitelist_names": "白名单名称",
+  "morphtool.configuration.mod_aliasses": "模组别名",
+  "morphtool.misc.shift_for_info": "§7按住 §bSHIFT§7 查看更多信息",
+  "morphtool.configuration.offhand_morph.tooltip": "在副手中变换工具，而非主手。",
+  "morphtool.configuration.section.morphtool.common.toml.title": "变形工具配置",
+  "morphtool.configuration.offhand_morph": "副手变形",
+  "morphtool.configuration.allow_all_items": "允许所有物品"
+}

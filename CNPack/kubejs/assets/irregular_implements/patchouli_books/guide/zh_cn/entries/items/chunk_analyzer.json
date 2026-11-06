@@ -1,0 +1,14 @@
+{
+  "category": "irregular_implements:items",
+  "icon": "irregular_implements:chunk_analyzer",
+  "name": "区块分析器",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "irregular_implements:chunk_analyzer",
+      "link_recipe": true,
+      "text": "$(d)区块分析器$()用于分析你当前所在区块。$(br2)使用后可查看该区块中$(3)所有方块类型及其数量$()。",
+      "title": "区块分析器"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "entity.irons_spellbooks.magic_missile_projectile": "魔法飞弹",
+  "entity.irons_spellbooks.cone_of_cold_projectile": "刺骨寒风",
+  "entity.irons_spellbooks.blood_slash_projectile": "猩红斩击",
+  "entity.irons_spellbooks.electrocute_projectile": "电刑",
+  "entity.irons_spellbooks.firebolt_projectile": "火焰箭",
+  "entity.irons_spellbooks.icicle_projectile": "冰锥",
+  "entity.irons_spellbooks.fire_breath_projectile": "火焰吐息",
+  "entity.irons_spellbooks.dragon_breath_projectile": "龙息",
+  "entity.irons_spellbooks.lightning_lance_projectile": "雷鸣长枪",
+  "entity.irons_spellbooks.wither_skull_projectile": "凋灵之首",
+  "entity.irons_spellbooks.magic_arrow_projectile": "魔法箭",
+  "entity.irons_spellbooks.creeper_head_projectile": "苦力怕之首",
+  "entity.irons_spellbooks.large_fireball": "大火球",
+  "entity.irons_spellbooks.void_tentacle": "虚空之触",
+  "entity.irons_spellbooks.flame_strike": "烈焰轰击",
+  "tooltip.irons_spellbooks.spell_title": "%s [%d 级]",
+  "spell.irons_spellbooks.wololo": "皈依",
+  "entity.irons_spellbooks.spear": "长矛",
+  "Iron's Guidebook": "铁魔法指南",
+  "Iron's Spells 'n Spellbooks is an RPG-inspired spellcasting mod. You can fight dangerous wizards, raid structures, delve through dungeons, collect resources, and find powerful magical items. $(l:https://iron431.github.io/Irons-Spellbooks-Docs)External wiki here$(/l)": "铁魔法是一个受角色扮演游戏启发的施法模组。你可以迎战危险的巫师、探索遗迹与地牢、收集资源，并寻找强大的魔法物品。$(l:https://iron431.github.io/Irons-Spellbooks-Docs)点此访问外部维基$(/l)"
+}

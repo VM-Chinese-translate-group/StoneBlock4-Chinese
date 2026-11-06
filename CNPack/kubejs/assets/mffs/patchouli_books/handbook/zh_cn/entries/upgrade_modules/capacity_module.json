@@ -1,0 +1,18 @@
+{
+  "name": "电容模块",
+  "icon": "mffs:capacity_module",
+  "category": "mffs:upgrade_modules",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "mffs:capacity_module",
+      "link_recipe": true,
+      "text": "电容模块可装入多种 MFFS 机器的升级槽，提高它们储存 $(l:mffs:getting_started/fortron)力场子$() 的能力。具体效果取决于机器，通常都是增加设备的 力场子 容量。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mffs:capacity_module",
+      "text": "制作$(5)电容模块$()。"
+    }
+  ]
+}

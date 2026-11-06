@@ -1,0 +1,7 @@
+{
+  "name": "能量监测",
+  "description": "监测电力状态的各种方案。",
+  "parent": "rftoolsbase:category_rftoolspower",
+  "icon": "rftoolspower:power_monitor",
+  "sortnum": 30
+}

@@ -1,0 +1,6 @@
+{
+  "sauce.perk.spell_crit": "法术暴击率",
+  "sauce.perk.spell_crit.desc": "法术触发暴击的概率。",
+  "sauce.perk.spell_crit_damage": "法术暴击伤害加成",
+  "sauce.perk.spell_crit_damage.desc": "法术暴击时增加的伤害。"
+}

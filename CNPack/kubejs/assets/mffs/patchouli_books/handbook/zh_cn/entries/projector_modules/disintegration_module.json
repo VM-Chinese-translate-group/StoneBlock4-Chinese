@@ -1,0 +1,32 @@
+{
+  "name": "分解模块",
+  "icon": "mffs:disintegration_module",
+  "category": "mffs:projector_modules",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "mffs:disintegration_module",
+      "link_recipe": true,
+      "text": "在$(l:mffs:machines/projector)力场投影仪$()中安装$(5)分解模块$()，可以改变力场对周围方块的作用。将$(5)分解模块$()放入矩阵槽后，力场会破坏阻挡投影位置的方块，被破坏的方块会掉落为可拾取的物品。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mffs:disintegration_module",
+      "text": "制作$(5)分解模块$()。"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "使用方法",
+      "text": "分解模块兼容所有投影模式，其效果与 $(l:mffs:projector_modules/stabilization_module)固化模块$() 相反。加入$(l:mffs:upgrade_modules/speed_module)速度模块$()可同时分解多个方块；搭配 $(l:mffs:projector_modules/collection_module)收集模块$() 则能自动收集掉落物。"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "mffs:textures/gui/handbook/disintegration_module.png"
+      ],
+      "border": true,
+      "title": "投影示例",
+      "text": "力场投影仪利用$(5)分解模块$()拆除一面墙。"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "冷却与燃料",
+  "icon": "minecraft:coal",
+  "category": "advancedperipherals:metaphysics",
+  "advancement": "advancedperipherals:weak_automata_core",
+  "priority": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "所有改变世界的操作都会消耗海龟燃料，除非你在 CC:Tweaked 配置中禁用了燃料消耗。$(p)多数操作还存在冷却时间，编写程序时需要考虑。不过，你可以通过外设方法查询所有正在生效的冷却。"
+    },
+    {
+      "type": "text",
+      "text": "觉得冷却太久？这时就轮到燃料消耗倍率登场了！$(p)提高倍率可以缩短冷却，但也会消耗更多燃料。例如，一次点击原本消耗 1 点燃料、冷却 5 秒；将消耗倍率设为 2 后，就能每 2.5 秒点击一次，每次消耗 2 点燃料。"
+    },
+    {
+      "type": "text",
+      "text": "不过，燃料倍率并非简单地线性增长！每种自动化核心都有最大倍率限制，可通过 $(l)getConfiguration$() 方法查询。$(p)实际燃料消耗的增长快于冷却时间的缩短。倍率为 3 时会消耗 4 点燃料，倍率继续提高后，消耗还会进一步增加。"
+    }
+  ]
+}

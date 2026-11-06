@@ -1,0 +1,15 @@
+{
+  "name": "简介",
+  "icon": "minecraft:experience_bottle",
+  "category": "rftoolsbase:category_rftoolsbuilder_builder",
+  "extra_recipe_mappings": {
+    "rftoolsbuilder:builder": 0
+  },
+  "sortnum": 10,
+  "pages": [
+    {
+      "type": "text",
+      "text": "建造机功能丰富，可以采掘、建造、抽取流体、收集经验和物品等。安装相应的形状卡，即可指定它要执行的工作。"
+    }
+  ]
+}

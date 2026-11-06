@@ -1,0 +1,18 @@
+{
+  "category": "irregular_implements:blocks",
+  "icon": "irregular_implements:sakanade_spores",
+  "name": "逆抚孢子",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "穿过$(d)逆抚孢子$()会受到$(3)颠倒$()效果。$(br2)对玩家而言，移动方向和鼠标操作会反转。$(br2)对生物而言，寻路会受到干扰，移动变得混乱。",
+      "title": "逆抚孢子"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "irregular_implements:sakanade_spores",
+      "link_recipe": true,
+      "text": "逆抚孢子生长于巨型棕色蘑菇菌盖的底面。"
+    }
+  ]
+}

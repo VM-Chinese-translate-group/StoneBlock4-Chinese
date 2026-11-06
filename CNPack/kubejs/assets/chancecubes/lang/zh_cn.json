@@ -1,0 +1,8 @@
+{
+  "death.attack.digbuilddeath": "%1$s 的胳膊似乎断了。",
+  "advancements.chancecubes:giant_chance_cube": "轰——！！！",
+  "chancecubes.networking.trigger_d20.failed": "触发二十面骰失败：%s",
+  "chancecubes.networking.creative_pendant.failed": "触发创造模式吊坠失败：%s",
+  "chancecubes.networking.reward_selector.failed": "触发奖励选择器失败：%s",
+  "chancecubes.networking.cube_scan.failed": "触发方块扫描失败：%s"
+}

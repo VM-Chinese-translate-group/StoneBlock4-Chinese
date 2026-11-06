@@ -1,0 +1,18 @@
+{
+  "category": "irregular_implements:blocks",
+  "icon": "irregular_implements:spectre_energy_injector",
+  "name": "通灵能量注入器",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "每位玩家都有一个$(3)通灵储能空间$()，类似于$(3)用于存放 FE 的末影箱$()。$(br2)默认容量为 1,000,000 FE，可在服务器配置中调整。",
+      "title": "通灵能量注入器"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "irregular_implements:spectre_energy_injector",
+      "link_recipe": true,
+      "text": "$(d)通灵能量注入器$()可向主人的储能空间$(3)输入 FE$()，主人就是放置它的玩家。$(br2)$(c)注入器不能输出能量$()；需要用$(l:blocks/spectre_coil_basic)通灵线圈$(/l)或$(l:items/spectre_charger_basic)通灵充能器$(/l)提取。"
+    }
+  ]
+}

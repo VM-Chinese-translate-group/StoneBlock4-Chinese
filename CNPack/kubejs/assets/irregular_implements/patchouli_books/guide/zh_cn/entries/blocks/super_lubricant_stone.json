@@ -1,0 +1,14 @@
+{
+  "category": "irregular_implements:blocks",
+  "icon": "irregular_implements:super_lubricant_stone",
+  "name": "超级滑滑方块",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "tag:irregular_implements:super_lubricated",
+      "link_recipe": true,
+      "text": "$(d)超级滑滑方块$()完全没有摩擦力，让实体在表面移动时不会减速。$(br2)很适合运送物品，尤其适合配合$(l:blocks/plates)功能板$(/l)使用。",
+      "title": "超级滑滑方块"
+    }
+  ]
+}

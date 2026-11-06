@@ -1,0 +1,20 @@
+{
+  "name": "合成卡",
+  "icon": "rftoolsbase:crafting_card",
+  "category": "rftoolsbase:category_tools",
+  "extra_recipe_mappings": {
+    "rftoolsbase:crafting_card": 0
+  },
+  "pages": [
+    {
+      "type": "text",
+      "text": "合成卡可以保存一个配方，既支持普通的 3×3 配方，也支持更复杂的形状。多种机器都能使用这张卡。$(br2)卡上记录的内容不一定非得是有效配方，也可以将它当作一种通用的“输入与输出”记录方式。"
+    },
+    {
+      "type": "image",
+      "images": [
+        "rftoolsbase:textures/manual/image_craftingcard.png"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "message.rftoolsbuilder.composer.gold": "注能升级：降低能耗",
+  "block.rftoolsbuilder.composer": "形状组合器",
+  "block.rftoolsbuilder.projector": "投影仪",
+  "block.rftoolsbuilder.scanner": "扫描仪",
+  "message.rftoolsbuilder.composer.header": "此机器可将多个形状卡组合为一张组合卡，并对每个子形状进行旋转、翻转及布尔运算。"
+}

@@ -1,0 +1,18 @@
+{
+  "category": "irregular_implements:blocks",
+  "icon": "irregular_implements:ender_mailbox",
+  "name": "末影邮箱",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(d)末影邮箱$()用于与其他玩家收发$(l:items/ender_letter)末影邮件$(/l)。$(br2)对邮箱使用邮件，即可将它寄给收件人。",
+      "title": "末影邮箱"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "irregular_implements:ender_mailbox",
+      "link_recipe": true,
+      "text": "像末影箱一样，无论打开哪一个邮箱，看到的都是你自己的收件箱。"
+    }
+  ]
+}

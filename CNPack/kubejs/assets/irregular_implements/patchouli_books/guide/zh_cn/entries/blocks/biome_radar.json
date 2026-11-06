@@ -1,0 +1,62 @@
+{
+  "category": "irregular_implements:blocks",
+  "icon": "irregular_implements:biome_radar",
+  "name": "生物群系雷达",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "irregular_implements:biome_radar",
+      "link_recipe": true,
+      "text": "$(d)生物群系雷达$()是一种多方块结构，能$(3)帮助你寻找生物群系$()。$(br2)第一步当然是先把结构搭起来。",
+      "title": "生物群系雷达"
+    },
+    {
+      "type": "patchouli:multiblock",
+      "multiblock": {
+        "mapping": {
+          "0": "irregular_implements:biome_radar",
+          "A": "minecraft:iron_bars[north=true,south=true,east=true,west=true]",
+          "E": "minecraft:iron_bars[east=true]",
+          "I": "minecraft:iron_bars",
+          "N": "minecraft:iron_bars[north=true]",
+          "S": "minecraft:iron_bars[south=true]",
+          "W": "minecraft:iron_bars[west=true]"
+        },
+        "pattern": [
+          [
+            " I ",
+            "I I",
+            " I "
+          ],
+          [
+            " E ",
+            "SAN",
+            " W "
+          ],
+          [
+            "   ",
+            " I ",
+            "   "
+          ],
+          [
+            "   ",
+            " 0 ",
+            "   "
+          ]
+        ],
+        "symmetrical": true
+      },
+      "name": "生物群系雷达天线"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "irregular_implements:biome_crystal[irregular_implements:biome=\"minecraft:plains\"]",
+      "link_recipe": true,
+      "text": "$(d)生物群系水晶$()可在地牢箱子中找到，$(3)每种生物群系都有对应水晶$()。$(br2)将水晶插入雷达后，如果找到目标群系，雷达上的火焰就会向那个方向飘动。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "对雷达使用$(l:items/location_filter)位置过滤器$(/l)，可记录目标群系位置。$(br2)再与$(l:items/golden_compass)金指南针$(/l)合成，就能循着指引前往那里！"
+    }
+  ]
+}

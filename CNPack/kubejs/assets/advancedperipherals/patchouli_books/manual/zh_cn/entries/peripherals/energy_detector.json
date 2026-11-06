@@ -1,0 +1,30 @@
+{
+  "name": "能量侦测器",
+  "icon": "advancedperipherals:energy_detector",
+  "category": "advancedperipherals:peripherals",
+  "pages": [
+    {
+      "type": "text",
+      "text": "能量侦测器可以检测能量流量，也能限制能量传输速率。设置最大流量，就能让它起到限流器的作用。$(p)完整文档请参阅$(9)$(l:https://docs.advanced-peripherals.de/peripherals/energy_detector/)官方 Wiki 页面$(/l)$()！"
+    },
+    {
+      "type": "crafting",
+      "recipe": "advancedperipherals:energy_detector"
+    },
+    {
+      "type": "multiblock",
+      "multiblock": {
+        "mapping": {
+          "0": "computercraft:computer_advanced",
+          "P": "advancedperipherals:energy_detector"
+        },
+        "pattern": [
+          [
+            "0P"
+          ]
+        ]
+      },
+      "text": "将能量侦测器连接到电脑，即可使用！"
+    }
+  ]
+}

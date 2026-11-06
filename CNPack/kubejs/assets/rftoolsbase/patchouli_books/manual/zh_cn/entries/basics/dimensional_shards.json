@@ -1,0 +1,62 @@
+{
+  "name": "维度碎片",
+  "icon": "rftoolsbase:dimensionalshard",
+  "category": "rftoolsbase:category_basics",
+  "extra_recipe_mappings": {
+    "rftoolsbase:dimensionalshard": 0,
+    "rftoolsbase:dimensionalshard_overworld": 0,
+    "rftoolsbase:dimensionalshard_nether": 0,
+    "rftoolsbase:dimensionalshard_end": 0
+  },
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(item)维度碎片矿石$()以小矿簇的形式生成在多个维度的地下。采掘会掉落$(item)维度碎片$()，并受$(thing)时运$()影响。$(br2)维度碎片用于若干进阶配方，也可以用来$(l:rftoolsbase:machines/infusing)注能机器$()。"
+    },
+    {
+      "type": "image",
+      "images": [
+        "rftoolsbase:textures/manual/image_ore.png"
+      ],
+      "text": "主世界地下的维度碎片矿石。"
+    },
+    {
+      "type": "crafting",
+      "recipe": "rftoolsbase:infused_diamond",
+      "recipe2": "rftoolsbase:infused_enderpearl"
+    },
+    {
+      "type": "text",
+      "flag": "mod:rftoolsdim",
+      "text": "$(item)维度碎片$()还可以用来制作多种$(item)装饰方块$()。"
+    },
+    {
+      "type": "text",
+      "flag": "!mod:rftoolsdim",
+      "text": "如果安装了 RFTools Dimensions，就能制作一些很漂亮的装饰方块。可惜现在没有，那就先这样吧 :("
+    },
+    {
+      "type": "crafting",
+      "flag": "mod:rftoolsdim",
+      "recipe": "rftoolsdim:dimensional_blank_block",
+      "recipe2": "rftoolsdim:dimensional_block"
+    },
+    {
+      "type": "crafting",
+      "flag": "mod:rftoolsdim",
+      "recipe": "rftoolsdim:dimensional_small_blocks",
+      "recipe2": "rftoolsdim:dimensional_cross_block"
+    },
+    {
+      "type": "crafting",
+      "flag": "mod:rftoolsdim",
+      "recipe": "rftoolsdim:dimensional_pattern1_block",
+      "recipe2": "rftoolsdim:dimensional_pattern2_block"
+    },
+    {
+      "type": "crafting",
+      "flag": "mod:rftoolsdim",
+      "recipe": "rftoolsdim:dimensional_cross2_block"
+    }
+  ]
+}

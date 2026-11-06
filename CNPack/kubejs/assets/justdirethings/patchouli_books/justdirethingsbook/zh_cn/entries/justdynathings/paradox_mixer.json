@@ -1,0 +1,35 @@
+{
+  "name": "让悖论简化生活！",
+  "sortnum": 12,
+  "category": "justdirethings:justdynathings",
+  "icon": "justdynathings:paradox_mixer",
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "title": "悖论搅拌器",
+      "recipe": "justdynathings:paradox_mixer",
+      "text": "这个不稳定的方块可批量执行流体浸泡配方。$(br)至少需要一台通电的稳定器才能工作。$(br)$(br)$(italic)*Patchouli 的演示视图无法显示自定义渲染效果。*$()"
+    },
+    {
+      "type": "patchouli:multiblock",
+      "multiblock": {
+        "pattern": [
+          [
+            "G"
+          ],
+          [
+            "R"
+          ],
+          [
+            "0"
+          ]
+        ],
+        "mapping": {
+          "G": "justdynathings:paradox_mixer[alive=false]",
+          "R": "justdynathings:stabilizer[active=true,facing=down,goo_found=true,energized=true]"
+        }
+      },
+      "enable_visualize": false
+    }
+  ]
+}

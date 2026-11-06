@@ -1,0 +1,25 @@
+{
+  "category": "irregular_implements:items",
+  "icon": "irregular_implements:water_walking_boots",
+  "name": "水行靴",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "穿上$(d)水行靴$()即可$(3)在水面行走$()。$(br2)潜行或已经进入水中时不会生效。$(br2)注意，既然能$(o)站在$()水面上，也就可能$(c)摔在$()水面上并受到摔落伤害！",
+      "title": "水行靴"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "irregular_implements:water_walking_boots",
+      "link_recipe": true,
+      "text": "水行靴可以在海底神殿生成的$(3)水域箱子$()中找到。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "irregular_implements:obsidian_water_walking_boots",
+      "link_recipe": true,
+      "text": "$(d)黑曜石水行靴$()兼具水行靴和$(l:items/obsidian_skull)黑曜石头颅$(/l)的效果。$(br2)在铁砧中将两者结合即可获得。$(br2)它$(c)不能让你在熔岩上行走$()！需要这一能力，请升级成$(l:items/lava_waders)熔岩靴$(/l)。",
+      "title": "黑曜石水行靴"
+    }
+  ]
+}

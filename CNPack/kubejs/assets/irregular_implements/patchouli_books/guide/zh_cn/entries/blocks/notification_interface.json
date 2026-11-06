@@ -1,0 +1,18 @@
+{
+  "category": "irregular_implements:blocks",
+  "icon": "irregular_implements:notification_interface",
+  "name": "通知接口",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(d)通知接口$()通电后，会向放置它的玩家发送自定义通知。$(br2)可在界面中设置标题、正文和图标。",
+      "title": "通知接口"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "irregular_implements:notification_interface",
+      "link_recipe": true,
+      "text": "服务器管理员还可使用命令“/ii notify <player> <title> <body> <itemstack>”向玩家发送通知。"
+    }
+  ]
+}

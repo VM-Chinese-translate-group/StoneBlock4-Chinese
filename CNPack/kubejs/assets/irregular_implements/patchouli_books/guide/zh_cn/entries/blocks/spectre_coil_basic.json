@@ -1,0 +1,21 @@
+{
+  "category": "irregular_implements:blocks",
+  "icon": "irregular_implements:spectre_coil_basic",
+  "name": "通灵线圈",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "irregular_implements:spectre_coil_basic,irregular_implements:spectre_coil_redstone,irregular_implements:spectre_coil_ender",
+      "link_recipe": true,
+      "text": "$(d)通灵线圈$()可无线提取$(l:blocks/spectre_energy_injector)通灵储能空间$(/l)中的能量。$(br2)不同等级每刻可传输的 FE 数量不同。将线圈直接放到需要供能的机器上即可。",
+      "title": "通灵线圈"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "irregular_implements:spectre_coil_number,irregular_implements:spectre_coil_genesis",
+      "link_recipe": true,
+      "text": "另有两种特殊线圈会$(3)凭空生成 FE$()，无需消耗通灵储能空间。$(br2)第一种可在地牢箱子中找到，第二种只能通过命令或创造模式获得。",
+      "title": " "
+    }
+  ]
+}

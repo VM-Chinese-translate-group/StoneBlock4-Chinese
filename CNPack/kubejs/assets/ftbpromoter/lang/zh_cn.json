@@ -1,0 +1,5 @@
+{
+  "ftbpromoter.fancymenu.requirement.description": "检查接口是否提供可用的推广内容。",
+  "ftbpromoter.fancymenu.requirement.name": "FTB 推广内容是否可用",
+  "ftbpromoter.fancymenu.requirement.value.name": "推广内容 UUID"
+}

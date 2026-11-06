@@ -1,0 +1,17 @@
+{
+  "name": "附魔物品分拣机",
+  "icon": "industrialforegoing:enchantment_sorter",
+  "category": "industrialforegoing:misc",
+  "sortnum": 1,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "将带有附魔的物品与没有附魔的物品分开。"
+    },
+    {
+      "type": "crafting",
+      "recipe": "industrialforegoing:enchantment_sorter"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "版本 160",
+  "icon": "minecraft:book",
+  "category": "dimdungeons:patch_notes",
+  "sortnum": 160,
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(li)为整合包作者添加$(bold)空白高级钥匙$()和$(bold)空白主题钥匙$()！$(li)加入专用的 JEI 支持。$(li)修复大型房间屋顶生成错误。"
+    },
+    {
+      "type": "text",
+      "text": "$(li)破坏或放置方块时不再出现一帧闪烁。$(li)改进食用紫颂果时的处理。"
+    }
+  ]
+}

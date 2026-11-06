@@ -1,0 +1,12 @@
+{
+  "name": "版本 179",
+  "icon": "minecraft:book",
+  "category": "dimdungeons:patch_notes",
+  "sortnum": 179,
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(li)创造模式玩家现在可绕过方块保护。$(li)感谢 DoloC8，更新中文翻译！$(li)感谢 George-bruh，更新俄语翻译！$(li)继续修复房间问题。"
+    }
+  ]
+}

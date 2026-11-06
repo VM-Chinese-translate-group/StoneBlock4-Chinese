@@ -1,0 +1,18 @@
+{
+  "category": "irregular_implements:items",
+  "icon": "irregular_implements:summoning_pendulum",
+  "name": "召唤灵摆",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(d)召唤灵摆$()可$(3)暂存生物，稍后再释放$()。$(br2)对生物右击可将其收入灵摆，再对地面右击即可放出。",
+      "title": "召唤灵摆"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "irregular_implements:summoning_pendulum",
+      "link_recipe": true,
+      "text": "召唤灵摆最多可同时储存 5 个生物。$(br2)带有实体类型标签 $(c)#irregular_implements:summoning_pendulum_blacklist$() 的生物无法收取。"
+    }
+  ]
+}

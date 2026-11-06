@@ -1,0 +1,8 @@
+{
+  "message.structures_tweaker.no_elytra": "§c此结构内禁止使用鞘翅飞行",
+  "message.structures_tweaker.no_pearls": "§c此结构内禁止使用末影珍珠",
+  "message.structures_tweaker.no_riptide": "§c此结构内禁止使用激流",
+  "message.structures_tweaker.no_creative_flight": "§c此结构内禁止创造模式飞行",
+  "message.structures_tweaker.no_ender_teleportation": "§c此结构内禁止末影传送",
+  "message.structures_tweaker.item_blacklisted": "§c此结构内无法使用该物品"
+}

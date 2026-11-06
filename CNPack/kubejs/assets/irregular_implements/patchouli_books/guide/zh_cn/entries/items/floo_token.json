@@ -1,0 +1,14 @@
+{
+  "category": "irregular_implements:items",
+  "icon": "irregular_implements:floo_token",
+  "name": "飞路指示物",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "irregular_implements:floo_token",
+      "link_recipe": true,
+      "text": "$(d)飞路指示物$()让你能$(3)从世界任意位置前往任意已命名的$()$(l:items/floo_sign)飞路壁炉$(/l)。$(br2)丢在地上，等待火焰围成方框；站入框内，在聊天中说出目标壁炉的名字即可。",
+      "title": "飞路指示物"
+    }
+  ]
+}

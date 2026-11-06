@@ -1,0 +1,17 @@
+{
+  "name": "魔咒工厂",
+  "icon": "industrialforegoing:enchantment_factory",
+  "category": "industrialforegoing:misc",
+  "sortnum": 0,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "提供物品和大量$(l:agr_hus/essence)精华液$()后，这台机器会为物品进行一次 $(6)30$() 级附魔。"
+    },
+    {
+      "type": "crafting",
+      "recipe": "industrialforegoing:enchantment_factory"
+    }
+  ]
+}

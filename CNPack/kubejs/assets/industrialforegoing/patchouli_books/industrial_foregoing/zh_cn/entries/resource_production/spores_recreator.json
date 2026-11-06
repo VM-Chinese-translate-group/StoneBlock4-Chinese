@@ -1,0 +1,17 @@
+{
+  "name": "蘑菇孢子繁殖器",
+  "icon": "industrialforegoing:spores_recreator",
+  "category": "industrialforegoing:resource_production",
+  "sortnum": 8,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "用于复制$(6)菌类$()。$(br2)工作时需要 $(6)40$() RF/t 和$(6)水$()（每次消耗 $(6)100$() mB）。$(br2)复制下界菌类时，需要改用$(6)熔岩$()。"
+    },
+    {
+      "type": "crafting",
+      "recipe": "industrialforegoing:spores_recreator"
+    }
+  ]
+}

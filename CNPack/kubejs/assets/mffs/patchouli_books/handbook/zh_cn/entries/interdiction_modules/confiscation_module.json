@@ -1,0 +1,33 @@
+{
+  "name": "收缴模块",
+  "icon": "mffs:confiscation_module",
+  "category": "mffs:interdiction_modules",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "mffs:confiscation_module",
+      "link_recipe": true,
+      "text": "$(5)收缴模块$()是$(l:mffs:machines/interdiction_matrix)结界矩阵$()的可选模块，可自动收走玩家携带的物品。玩家进入作用区域后，矩阵会扫描其物品栏并收缴违禁物品。手持、穿戴和存放在物品栏中的物品都会受到检查。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mffs:confiscation_module",
+      "text": "制作$(5)收缴模块$()。"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "过滤模式",
+      "text": "$(l:mffs:machines/interdiction_matrix)结界矩阵$()界面底部的过滤模式按钮和 9 个槽位用于配置收缴规则。过滤模式分为“禁止”（默认）和“允许”。$(br2)被收缴的物品会送入结界矩阵相邻的容器。"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "禁止",
+      "text": "按钮显示“禁止”时，$(l:mffs:machines/interdiction_matrix)结界矩阵$()将 9 个红色槽位视为违禁物品名单，只收缴其中列出的物品，其他物品允许保留。若 9 个槽位全部为空，矩阵会收缴玩家的所有物品。"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "允许",
+      "text": "按钮显示“允许”时，9 个绿色槽位列出玩家可以保留的物品，名单之外的物品都会被收缴。若 9 个槽位全部为空，$(l:mffs:machines/interdiction_matrix)结界矩阵$()会允许所有物品，不进行收缴。"
+    }
+  ]
+}

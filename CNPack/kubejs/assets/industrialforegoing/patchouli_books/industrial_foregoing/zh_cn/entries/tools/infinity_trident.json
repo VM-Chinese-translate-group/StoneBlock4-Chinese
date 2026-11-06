@@ -1,0 +1,17 @@
+{
+  "name": "无限三叉戟",
+  "icon": "industrialforegoing:infinity_trident",
+  "category": "industrialforegoing:tools",
+  "sortnum": 3,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "无限三叉戟能释放三叉戟的真正威力。等级提高后，会解锁更高等级的$(6)忠诚$()、$(6)激流$()与$(6)引雷$()效果。$(br2)引雷和命中伤害都具有范围效果。"
+    },
+    {
+      "type": "industrialforegoing:dissolution",
+      "recipe": "industrialforegoing:dissolution_chamber/infinity_trident"
+    }
+  ]
+}

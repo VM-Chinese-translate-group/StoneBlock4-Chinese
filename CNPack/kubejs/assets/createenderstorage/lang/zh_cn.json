@@ -1,0 +1,5 @@
+{
+  "createenderstorage.ponder.mounted_ender_chest.header": "末影存储兼容",
+  "createenderstorage.ponder.mounted_ender_chest.text_1": "染色频率相同的末影箱共享同一个物品栏。",
+  "createenderstorage.ponder.mounted_ender_chest.text_2": "装在移动结构上的末影箱也会共享物品栏。移动结构中的工作部件可访问末影存储方块，实现自动化。"
+}

@@ -1,0 +1,25 @@
+---
+title: 聊天探测器
+id: irregular_implements:chat_detector
+related_items: [irregular_implements:chat_detector, irregular_implements:global_chat_detector]
+type: block
+---
+
+
+## 聊天探测器
+
+放置**聊天探测器**的玩家在聊天中说出指定内容时，探测器会输出红石脉冲。
+
+可在界面中设置要匹配的内容。输入框支持正则表达式，便于复杂筛选；只想匹配一句话时，直接输入原句即可。
+
+还可以设置是否拦截这条聊天消息，使其不再发送。
+
+<ProjectRecipe id="irregular_implements:chat_detector"/>
+
+## 全局聊天探测器
+
+**全局聊天探测器**原理相同，但会监听所有玩家的聊天，而非仅监听主人。
+
+不过，它仍然只能拦截自己主人的消息。
+
+<ProjectRecipe id="irregular_implements:global_chat_detector"/>

@@ -1,0 +1,29 @@
+{
+  "name": "屏幕链接",
+  "icon": "rftoolsutility:screen_link",
+  "category": "rftoolsbase:category_rftoolsutility_machines",
+  "extra_recipe_mappings": {
+    "rftoolsutility:screen_link": 0
+  },
+  "pages": [
+    {
+      "type": "text",
+      "text": "屏幕链接记录$(l:rftoolsbase:machines/screen)屏幕$(/l)的位置，让$(l:rftoolsbase:tools/tablet)平板终端$(/l)能够远程打开该屏幕。"
+    },
+    {
+      "type": "crafting",
+      "heading": "Screen Link",
+      "recipe": "rftoolsutility:screen_link"
+    },
+    {
+      "type": "text",
+      "title": "绑定",
+      "text": "手持屏幕链接右击屏幕可记录目标；右击非屏幕方块则会清除已保存的目标。"
+    },
+    {
+      "type": "text",
+      "title": "平板终端",
+      "text": "把链接器装入平板终端后，只要目标屏幕所在区块已加载，使用平板就能打开远程屏幕。潜行使用则打开平板自身的设置界面。"
+    }
+  ]
+}

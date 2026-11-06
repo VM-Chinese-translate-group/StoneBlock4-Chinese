@@ -1,0 +1,8 @@
+{
+  "text.autoconfig.woodenshears.option.DURABILITY": "木剪刀耐久度",
+  "text.autoconfig.woodenshears.option.DURABILITY.@Tooltip[0]": "§6§l木剪刀耐久度",
+  "text.autoconfig.woodenshears.option.DURABILITY.@Tooltip[1]": "设置木剪刀的最大耐久度。",
+  "text.autoconfig.woodenshears.option.DURABILITY.@Tooltip[2]": "§7§o0：不消耗耐久度",
+  "text.autoconfig.woodenshears.option.DURABILITY.@Tooltip[3]": "§7§o最小值：0；最大值：10000",
+  "text.autoconfig.woodenshears.option.DURABILITY.@Tooltip[4]": "§7§o默认值：50"
+}

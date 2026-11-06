@@ -1,0 +1,14 @@
+{
+  "accelerator_plate.mdx": "加速板",
+  "bouncy_plate.mdx": "弹跳板",
+  "collection_plate.mdx": "收集板",
+  "corrector_plate.mdx": "校正板",
+  "directional_accelerator_plate.mdx": "定向加速板",
+  "extraction_plate.mdx": "提取板",
+  "filtered_redirector_plate.mdx": "过滤重定向板",
+  "item_rejuvenator_plate.mdx": "物品复新板",
+  "item_sealer_plate.mdx": "物品封滞板",
+  "processing_plate.mdx": "处理板",
+  "redirector_plate.mdx": "重定向板",
+  "redstone_plate.mdx": "红石板"
+}

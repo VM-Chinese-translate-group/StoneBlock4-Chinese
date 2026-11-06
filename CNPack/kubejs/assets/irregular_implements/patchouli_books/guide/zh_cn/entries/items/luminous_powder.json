@@ -1,0 +1,18 @@
+{
+  "category": "irregular_implements:items",
+  "icon": "irregular_implements:luminous_powder",
+  "name": "荧光粉",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "将$(d)荧光粉$()与任意物品合成，即可让该物品在黑暗中保持明亮！",
+      "title": "荧光粉"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "irregular_implements:luminous_powder",
+      "link_recipe": true,
+      "text": "将处理后的物品$(3)与水桶合成$()，即可洗去荧光效果。"
+    }
+  ]
+}

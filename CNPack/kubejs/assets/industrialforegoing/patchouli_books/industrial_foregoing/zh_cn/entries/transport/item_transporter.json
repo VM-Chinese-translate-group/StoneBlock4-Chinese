@@ -1,0 +1,25 @@
+{
+  "name": "物品传输器",
+  "icon": "industrialforegoing:item_transporter_type",
+  "category": "industrialforegoing:transport",
+  "sortnum": 0,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "物品传输器可以在相隔 1 格的容器之间搬运物品，抽取端和输入端都需要安装传输器。$(br2)不同类型的传输器可以共处同一格。它们都有输入和抽取模式，右击中央区域即可切换。"
+    },
+    {
+      "type": "text",
+      "text": "在界面中可以设置黑名单或白名单，筛选传输内容。$(br2)潜行时右击传输器，可以拆下升级或传输器本体。$(br2)输入端启用调节模式后，可以指定目标容器中应保留的物品或流体数量。"
+    },
+    {
+      "type": "text",
+      "text": "手持速度升级插件右击传输器外圈，可以提高工作频率；使用效率升级插件，则可增加每次传输量。"
+    },
+    {
+      "type": "crafting",
+      "recipe": "industrialforegoing:item_transporter_type"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "name": "球体模式",
+  "icon": "mffs:sphere_mode",
+  "category": "mffs:projector_modes",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "mffs:sphere_mode",
+      "link_recipe": true,
+      "text": "默认情况下，球体模式让投影仪生成厚度恰好为 1 格的球形力场。$(br2)每个 $(l:mffs:upgrade_modules/scale_module)尺寸模块$() 会使力场扩大 1 格。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mffs:sphere_mode",
+      "text": "制作$(2)球体模式$()。"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "调整力场",
+      "text": "在带方向箭头的槽位中加入$(l:mffs:upgrade_modules/scale_module)尺寸模块$()，每个模块会进一步使力场半径增加 1 格。"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "mffs:textures/gui/handbook/sphere_mode.png"
+      ],
+      "border": true,
+      "title": "投影示例",
+      "text": "扩大后的$(2)球体模式$()力场。"
+    }
+  ]
+}

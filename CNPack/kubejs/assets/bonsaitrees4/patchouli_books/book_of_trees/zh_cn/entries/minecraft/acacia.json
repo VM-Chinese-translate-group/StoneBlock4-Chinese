@@ -1,0 +1,35 @@
+{
+  "name": "金合欢",
+  "icon": "minecraft:acacia_sapling",
+  "category": "bonsaitrees4:minecraft",
+  "pages": [
+    {
+      "type": "bonsaitrees4:tree",
+      "tree_name": "金合欢",
+      "tree_sapling": "minecraft:acacia_sapling"
+    },
+    {
+      "type": "patchouli:link",
+      "title": "游戏中的它",
+      "text": "金合欢生长于热带草原生物群系，树皮灰色，木材橙色，通常高约 8 格。它们的树干明显倾斜，往往具有多个树冠。",
+      "url": "https://minecraft.wiki/w/Acacia",
+      "link_text": "Minecraft Wiki"
+    },
+    {
+      "type": "patchouli:link",
+      "title": "现实中的它",
+      "text": "现实中的金合欢是一类豆科含羞草亚科的灌木或乔木，也常被称为相思树。过去金合欢属包含原产非洲、南美洲和澳大拉西亚的多种植物；分类调整后，该属主要保留了原产澳大利亚的物种。",
+      "url": "https://en.wikipedia.org/wiki/Acacia",
+      "link_text": "Wikipedia"
+    },
+    {
+      "type": "patchouli:image",
+      "border": true,
+      "images": [
+        "bonsaitrees4:textures/patchouli/acacia_tree.png",
+        "bonsaitrees4:textures/patchouli/acacia_leaves.png",
+        "bonsaitrees4:textures/patchouli/acacia_flower.png"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "category": "irregular_implements:blocks",
+  "icon": "irregular_implements:auto_placer",
+  "name": "自动放置器",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "irregular_implements:auto_placer",
+      "link_recipe": true,
+      "text": "$(bold)自动放置器$()会尝试将内部的方块放到正前方。$(br2)它每刻尝试一次；收到红石信号时暂停工作。",
+      "title": "自动放置器"
+    }
+  ]
+}

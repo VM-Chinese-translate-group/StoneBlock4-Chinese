@@ -1,0 +1,35 @@
+{
+  "name": "樱花树",
+  "icon": "minecraft:cherry_sapling",
+  "category": "bonsaitrees4:minecraft",
+  "pages": [
+    {
+      "type": "bonsaitrees4:tree",
+      "tree_name": "樱花树",
+      "tree_sapling": "minecraft:cherry_sapling"
+    },
+    {
+      "type": "patchouli:link",
+      "title": "游戏中的它",
+      "text": "樱花树有醒目的粉红色树叶和弯曲的枝条，形态与金合欢略有相似。它们只会自然生成于樱花树林生物群系。",
+      "url": "https://minecraft.wiki/w/Cherry",
+      "link_text": "Minecraft Wiki"
+    },
+    {
+      "type": "patchouli:link",
+      "title": "现实中的它",
+      "text": "樱花是李属樱亚属树木的花。“樱花”通常指以观花为目的栽培的樱树，如山樱花的园艺品种，而非以果实为主要用途的樱桃树。它们在东亚很常见，尤其在日本有悠久的栽培历史，育成了众多品种。",
+      "url": "https://en.wikipedia.org/wiki/Cherry_blossom",
+      "link_text": "Wikipedia"
+    },
+    {
+      "type": "patchouli:image",
+      "border": true,
+      "images": [
+        "bonsaitrees4:textures/patchouli/cherry_tree.png",
+        "bonsaitrees4:textures/patchouli/cherry_leaves.png",
+        "bonsaitrees4:textures/patchouli/cherry_tea.png"
+      ]
+    }
+  ]
+}

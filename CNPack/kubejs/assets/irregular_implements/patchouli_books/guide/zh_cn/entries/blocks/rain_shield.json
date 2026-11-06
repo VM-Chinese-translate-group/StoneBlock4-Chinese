@@ -1,0 +1,14 @@
+{
+  "category": "irregular_implements:blocks",
+  "icon": "irregular_implements:rain_shield",
+  "name": "驱雨盾",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "irregular_implements:rain_shield",
+      "link_recipe": true,
+      "text": "$(bold)驱雨盾$()会阻止周围一定范围内降雨，默认半径为 5 个区块。$(br2)施加红石信号可关闭效果。",
+      "title": "驱雨盾"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "main.mdx": "简易刀剑",
+  "friendly-fire.mdx": "友军伤害",
+  "weapon-types": "武器类型",
+  "awakening": "觉醒与符文锻炉",
+  "gem-socketing": "宝石镶嵌",
+  "runic-powers": "符文之力",
+  "nether-powers": "狱灵之力",
+  "unique-weapons": {
+    "name": "独特武器",
+    "icon": null
+  }
+}

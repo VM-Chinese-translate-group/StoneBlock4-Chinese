@@ -1,0 +1,84 @@
+{
+  "name": {
+    "text": {
+      "translate": "ftb.machine.snowmaker"
+    }
+  },
+  "appearance": {
+    "running": {
+      "custommachinery:ambient_sound": {
+        "sound": "mekanism:tile.machine.resistive_heater",
+        "pitch": 2.0
+      },
+      "custommachinery:block": "ftb:machine/snowmaker_active#standalone"
+    },
+    "custommachinery:block": "ftb:machine/snowmaker#standalone",
+    "idle": {
+      "custommachinery:block": "ftb:machine/snowmaker_idle#standalone"
+    }
+  },
+  "components": [
+    {
+      "type": "custommachinery:item",
+      "id": "item_output",
+      "mode": "output"
+    }
+  ],
+  "gui": [
+    {
+      "type": "custommachinery:background",
+      "texture": {
+        "texture": "ftb:textures/gui/base_background_snowmaker.png"
+      },
+      "width": 256,
+      "height": 192
+    },
+    {
+      "type": "custommachinery:config",
+      "x": 229,
+      "y": 6,
+      "width": 20
+    },
+    {
+      "type": "custommachinery:player_inventory",
+      "texture": {
+        "texture": "ftb:textures/gui/base_inventory.png"
+      },
+      "x": 47,
+      "y": 104,
+      "width": 162,
+      "height": 76
+    },
+    {
+      "type": "custommachinery:progress",
+      "orientation": "BOTTOM",
+      "x": 113,
+      "y": 34,
+      "width": 31,
+      "height": 32,
+      "texture_empty": {
+        "texture": "ftb:textures/gui/snowmaker/snowflake_empty.png"
+      },
+      "texture_filled": {
+        "texture": "ftb:textures/gui/snowmaker/snowflake_filled.png"
+      }
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "item_output",
+      "priority": 1,
+      "texture": {
+        "texture": "ftb:textures/gui/base_slot.png"
+      },
+      "x": 119,
+      "y": 74
+    },
+    {
+      "type": "custommachinery:status",
+      "x": 6,
+      "y": 6,
+      "width": 16,
+      "height": 16
+    }
+  ]
+}

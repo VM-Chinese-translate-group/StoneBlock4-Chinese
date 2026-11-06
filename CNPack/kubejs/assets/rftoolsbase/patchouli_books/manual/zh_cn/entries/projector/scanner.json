@@ -1,0 +1,19 @@
+{
+  "name": "扫描器",
+  "icon": "rftoolsbuilder:scanner",
+  "category": "rftoolsbase:category_rftoolsbuilder_projector",
+  "extra_recipe_mappings": {
+    "rftoolsbuilder:scanner": 0
+  },
+  "sortnum": 10,
+  "pages": [
+    {
+      "type": "text",
+      "text": "扫描器会扫描世界中的指定区域，并将结果写入形状卡。"
+    },
+    {
+      "type": "text",
+      "text": "在左上槽位放入输入形状卡，用它指定扫描区域的尺寸与偏移。$(br2)点击$(thing)扫描$()，将结果写入左下槽位的形状卡。"
+    }
+  ]
+}

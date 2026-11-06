@@ -1,0 +1,17 @@
+{
+  "name": "动物幼仔分管机",
+  "icon": "industrialforegoing:animal_baby_separator",
+  "category": "industrialforegoing:agriculture_husbandry",
+  "sortnum": 16,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "将$(6)幼年$()动物与成年动物分开。幼崽会被传送到机器背面；也可以在界面中更改要转移的生物类型。"
+    },
+    {
+      "type": "crafting",
+      "recipe": "industrialforegoing:animal_baby_separator"
+    }
+  ]
+}

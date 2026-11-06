@@ -1,0 +1,21 @@
+{
+  "advanced_redstone_interface.mdx": "高级红石接口",
+  "advanced_redstone_torch.mdx": "高级红石火把",
+  "analog_emitter.mdx": "模拟信号发生器",
+  "basic_redstone_interface.mdx": "基础红石接口",
+  "block_detector.mdx": "方块探测器",
+  "chat_detector.mdx": "聊天探测器",
+  "contact_button.mdx": "接触式按钮",
+  "contact_lever.mdx": "接触式拉杆",
+  "entity_detector.mdx": "实体探测器",
+  "inventory_tester.mdx": "容器测试器",
+  "moon_phase_detector.mdx": "月相探测器",
+  "online_detector.mdx": "在线探测器",
+  "redstone_observer.mdx": "红石侦测器",
+  "sided_block_of_redstone.mdx": "单面红石块",
+  "trigger_glass.mdx": "触发玻璃",
+  "quartz_lamp.mdx": "石英灯",
+  "lapis_lamp.mdx": "青金石灯",
+  "iron_dropper.mdx": "铁质投掷器",
+  "block_destabilizer.mdx": "方块失稳器"
+}

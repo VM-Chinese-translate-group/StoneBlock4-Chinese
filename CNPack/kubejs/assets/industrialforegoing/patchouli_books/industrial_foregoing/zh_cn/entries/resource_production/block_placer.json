@@ -1,0 +1,17 @@
+{
+  "name": "方块放置器",
+  "icon": "industrialforegoing:block_placer",
+  "category": "industrialforegoing:resource_production",
+  "sortnum": 5,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "将方块放置到世界中。$(br2)每次消耗 $(6)1000$() RF，并放置内部物品栏中的方块。"
+    },
+    {
+      "type": "crafting",
+      "recipe": "industrialforegoing:block_placer"
+    }
+  ]
+}

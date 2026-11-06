@@ -1,0 +1,15 @@
+{
+  "name": "组合器",
+  "icon": "rftoolsbuilder:composer",
+  "category": "rftoolsbase:category_rftoolsbuilder_projector",
+  "extra_recipe_mappings": {
+    "rftoolsbuilder:composer": 0
+  },
+  "sortnum": 30,
+  "pages": [
+    {
+      "type": "text",
+      "text": "组合器可以将多张形状卡合成为一张。$(br2)每个输入形状都能进行相加、相减或求交集操作，让简单形状组合成复杂结构。"
+    }
+  ]
+}

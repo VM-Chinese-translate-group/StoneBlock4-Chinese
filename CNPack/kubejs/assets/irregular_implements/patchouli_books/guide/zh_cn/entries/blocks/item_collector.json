@@ -1,0 +1,21 @@
+{
+  "category": "irregular_implements:blocks",
+  "icon": "irregular_implements:item_collector",
+  "name": "物品收集器",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "irregular_implements:item_collector",
+      "link_recipe": true,
+      "text": "将$(bold)物品收集器$()放在容器上，即可收集周围半径 3 格内的掉落物。$(br2)收集范围是以收集器为中心的 7×7×7 方块区域。",
+      "title": "物品收集器"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "irregular_implements:advanced_item_collector",
+      "link_recipe": true,
+      "text": "$(d)高级物品收集器$()原理相同，但收集半径可设为 0～10 格。$(br2)X、Y、Z 三个轴向可分别设置。$(br2)还可插入$(l:items/item_filter)物品过滤器$(/l)，只收集符合条件的物品。",
+      "title": "高级物品收集器"
+    }
+  ]
+}

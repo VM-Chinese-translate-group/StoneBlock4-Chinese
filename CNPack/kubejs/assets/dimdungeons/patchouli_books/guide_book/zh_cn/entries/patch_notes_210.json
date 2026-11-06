@@ -1,0 +1,16 @@
+{
+  "name": "版本 210",
+  "icon": "minecraft:book",
+  "category": "dimdungeons:patch_notes",
+  "sortnum": 210,
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(li)非敌对实体现在也可使用传送门！$(li)修复光照问题。$(li)更新方块和物品纹理。$(li)修复饰纹陶罐。"
+    },
+    {
+      "type": "text",
+      "text": "$(li)修复多项房间问题。$(li)玩家现在可以在地牢维度中喝牛奶。$(li)修复了你正在阅读的这本手册。"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "name": "自定义模式",
+  "icon": "mffs:custom_mode",
+  "category": "mffs:projector_modes",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "mffs:custom_mode",
+      "link_recipe": true,
+      "text": "自定义模式最为灵活，可以投射任意形状或结构的力场。先用模式物品分析并保存你搭建的方块结构，投影仪就能生成形状完全一致的力场。从桥梁、房屋到整座堡垒，只要能搭出来，就能投射！"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mffs:custom_mode",
+      "text": "制作$(2)自定义模式$()。"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "使用方法",
+      "text": "手持$(2)自定义模式$()物品，依次对世界中的两个方块使用，选定待分析区域的两个对角点。$(2)自定义模式$()会将坐标记录为“第一位置”和“第二位置”。随后潜行使用，让$(2)自定义模式$()物品分析并保存两点之间的全部方块。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "投影仪识别到正确槽位中的$(2)自定义模式$()物品后，会持续在上方显示随机全息图，表示该结构不属于预设形状，这是正常现象。可在方向槽位中加入$(l:mffs:projector_modules/translation_module)$(5)移动模块$()，调整力场相对于投影仪的位置。"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "调整力场",
+      "text": "和其他模式一样，自定义力场也能分别通过$(l:mffs:projector_modules/rotation_module)旋转模块$()和$(l:mffs:upgrade_modules/scale_module)尺寸模块$()旋转、缩放。"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "mffs:textures/gui/handbook/custom_mode.png"
+      ],
+      "border": true,
+      "title": "投影示例",
+      "text": "正在投射的$(2)自定义模式$()力场。"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "mffs:textures/gui/handbook/custom_mode_camo.png"
+      ],
+      "border": true,
+      "title": "投影示例",
+      "text": "应用了$(l:mffs:projector_modules/camouflage_module)$(5)伪装模块$()的$(2)自定义模式$()力场。"
+    }
+  ]
+}

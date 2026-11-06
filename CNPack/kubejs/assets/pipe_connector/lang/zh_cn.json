@@ -1,16 +1,15 @@
 {
-
   "item.pipe_connector.pipe_connector": "管道连接器",
   "item.pipe_connector.message.holdValidItem": "你必须在副手持有有效的管道物品。",
   "item.pipe_connector.gui.button.tooltip.disabledButtonHoldValidItem": "你必须在副手持有有效的管道物品。",
   "item.pipe_connector.message.UpSideNotAllowed": "你无法将管道连接至方块顶部。",
   "item.pipe_connector.message.firstPositionSet": "第一个位置已选定在：%s",
-  "item.pipe_connector.message.secondPositionSet":"第二个位置已选定在：%s",
+  "item.pipe_connector.message.secondPositionSet": "第二个位置已选定在：%s",
   "item.pipe_connector.message.resettingPositions": "重置位置",
-  "item.pipe_connector.tooltip.usageExplanation":"Shift + 右击方块即可设置位置",
-  "item.pipe_connector.tooltip.CancelSelectionExplanation":"Shift + 右击空气将取消选择",
-  "item.pipe_connector.tooltip.changeDepthExplanation":"Shift + 滚轮以调整管道深度",
-  "item.pipe_connector.tooltip.openGui":"Shift + 右击空气，可打开界面放置管道或重置位置。",
+  "item.pipe_connector.tooltip.usageExplanation": "Shift + 右击方块即可设置位置",
+  "item.pipe_connector.tooltip.CancelSelectionExplanation": "Shift + 右击空气将取消选择",
+  "item.pipe_connector.tooltip.changeDepthExplanation": "Shift + 滚轮以调整管道深度",
+  "item.pipe_connector.tooltip.openGui": "Shift + 右击空气，可打开界面放置管道或重置位置。",
   "item.pipe_connector.tooltip.shiftForMoreInfo": "按住 Shift 以获得更多信息",
   "item.pipe_connector.message.newDepth": "深度已设为 %s",
   "item.pipe_connector.message.notEnoughPipes": "物品栏中的管道不足，缺少 %s 根管道",
@@ -33,7 +32,7 @@
   "item.pipe_connector.gui.tooltip.defaultPathfindingImportantInfo": "曼哈顿机制会筛选矿石并将其送入虚空。",
   "item.pipe_connector.gui.tooltip.performanceImpact": "性能影响：",
   "item.pipe_connector.gui.tooltip.performanceImpactLow": "低",
-  "item.pipe_connector.gui.tooltip.performanceImpactMediumHigh": "Medium-High",
+  "item.pipe_connector.gui.tooltip.performanceImpactMediumHigh": "中高",
   "item.pipe_connector.gui.button.defaultPathfinding": "曼哈顿寻路算法",
   "item.pipe_connector.gui.button.stepPath": "步骤路径",
   "item.pipe_connector.gui.tooltip.stepPath": "选定第一个位置后，路径将根据所选深度沿着你的行进方向生成。",
@@ -49,8 +48,15 @@
   "item.pipe_connector.gui.button.tooltip.InventoryGuard": "这样可以防止带有容器的方块被破坏。",
   "item.pipe_connector.jei.supportedPipesInfo": "支持的管道类型",
   "item.pipe_connector.jei.description": "管道连接器允许你通过按住Shift+右击选择最多%s个位置。所有位置选定后，将显示路径的预览。\n你可以通过按住Shift+滚轮来调整管道的深度。\n当你对路径满意后，按住Shift+右击打开界面，然后点击“放置管道”来布置管道。\n若对所选位置不满意，点击\"重置选点\"可清除当前设置。\n支持的管道类型列表可在JEI模组中查看。",
-  "item.pipe_connector.message.maxNodesReached": "已达到节点数量上限，Shift+右击将现有节点移除"
-
-
-
+  "item.pipe_connector.message.maxNodesReached": "已达到节点数量上限，Shift+右击将现有节点移除",
+  "item.pipe_connector.gui.button.preview_solid": "填满",
+  "item.pipe_connector.gui.label.avoidInventoryBlocks": "避开存储方块",
+  "item.pipe_connector.gui.button.tooltip.noPathFound": "未找到有效路径（被阻挡或需要避让）",
+  "item.pipe_connector.preview.position": "位置",
+  "item.pipe_connector.gui.button.tooltip.avoidInventoryBlocks": "尽可能让管道绕开带物品栏的方块。",
+  "item.pipe_connector.message.inventoryBlocksNotAvoided": "此路径无法避开所有存储方块",
+  "item.pipe_connector.gui.button.preview_outline": "轮廓",
+  "item.pipe_connector.gui.label.preview_style": "预览样式",
+  "item.pipe_connector.gui.label.pipe_vision": "管道透视",
+  "item.pipe_connector.gui.button.tooltip.manhattanMirror": "镜像路径，仅适用于曼哈顿寻路。"
 }

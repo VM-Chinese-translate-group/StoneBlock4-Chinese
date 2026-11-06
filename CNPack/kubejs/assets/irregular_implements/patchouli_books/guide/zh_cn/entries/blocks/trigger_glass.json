@@ -1,0 +1,14 @@
+{
+  "category": "irregular_implements:blocks",
+  "icon": "irregular_implements:trigger_glass",
+  "name": "触发玻璃",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "irregular_implements:trigger_glass",
+      "link_recipe": true,
+      "text": "$(d)触发玻璃$()平时是实体方块，收到红石脉冲后会暂时变得可以穿过。$(br2)这一效果会传播到一定距离内相连的触发玻璃。",
+      "title": "触发玻璃"
+    }
+  ]
+}

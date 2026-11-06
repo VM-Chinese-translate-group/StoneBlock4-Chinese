@@ -1,0 +1,18 @@
+{
+  "name": "归途明珠",
+  "icon": "dimdungeons:item_homeward_pearl",
+  "category": "dimdungeons:artifacts",
+  "sortnum": 30,
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "dimdungeons:item_homeward_pearl",
+      "text": "归途明珠是一件方便的工具，使用后会将你传送回地牢入口，但明珠也会随之破碎。"
+    },
+    {
+      "type": "crafting",
+      "recipe": "dimdungeons:recipe_item_homeward_pearl",
+      "text": "不再需要的钥匙，可以用来合成归途明珠！"
+    }
+  ]
+}

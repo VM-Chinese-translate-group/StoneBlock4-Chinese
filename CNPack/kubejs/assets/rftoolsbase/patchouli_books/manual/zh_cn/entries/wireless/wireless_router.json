@@ -1,0 +1,23 @@
+{
+  "name": "无线路由器",
+  "icon": "xnet:wireless_router",
+  "category": "rftoolsbase:category_xnet_wireless",
+  "extra_recipe_mappings": {
+    "xnet:wireless_router": 0
+  },
+  "sortnum": 10,
+  "pages": [
+    {
+      "type": "text",
+      "text": "无线路由器可以连接两个彼此独立的控制器网络。$(br2)在路由器顶部安装天线，天线等级决定无线通信距离。"
+    },
+    {
+      "type": "text",
+      "text": "无线路由器通过路由网络工作。本地一侧应使用路由线缆与路由连接器，再在路由器界面中发布或接入频道。"
+    },
+    {
+      "type": "crafting",
+      "recipe": "xnet:wireless_router"
+    }
+  ]
+}

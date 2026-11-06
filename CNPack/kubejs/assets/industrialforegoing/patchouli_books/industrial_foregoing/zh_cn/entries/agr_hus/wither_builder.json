@@ -1,0 +1,16 @@
+{
+  "name": "凋灵生成器",
+  "icon": "industrialforegoing:wither_builder",
+  "category": "industrialforegoing:agriculture_husbandry",
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "用于召唤凋灵。提供能量、$(6)3 个凋灵骷髅头颅$()和 $(6)4 块灵魂沙$()后，机器会在工作范围内自动搭建完整的凋灵召唤结构。"
+    },
+    {
+      "type": "crafting",
+      "recipe": "industrialforegoing:wither_builder"
+    }
+  ]
+}

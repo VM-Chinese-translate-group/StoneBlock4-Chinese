@@ -1,0 +1,18 @@
+{
+  "category": "irregular_implements:blocks",
+  "icon": "irregular_implements:diaphanous_block",
+  "name": "通透方块",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(d)通透方块$()远看像普通方块，靠近后便会隐去。$(br2)与目标外观方块合成即可设置外观。",
+      "title": "通透方块"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "irregular_implements:diaphanous_block,irregular_implements:diaphanous_block[irregular_implements:block=\"minecraft:oak_log\"]",
+      "link_recipe": true,
+      "text": "单独合成通透方块可反转效果，让它近处显形、远处隐去。"
+    }
+  ]
+}

@@ -8,7 +8,7 @@
 	chapter.2523CB3E44086BA3.title: "阶段5：许珀里翁"
 	chapter.2EF5133328945047.title: "打点行装"
 	chapter.2FFD2690C1D8029D.title: "阶段2：地平线"
-	chapter.33808F1AE9F1266A.title: "Backstage"
+	chapter.33808F1AE9F1266A.title: "后台流程"
 	chapter.391B65CD04A90459.title: "能源"
 	chapter.39E1055DAEF9F36E.title: "阶段3：破晓"
 	chapter.3B99F85218D37371.title: "实用物品和小贴士"
@@ -25,7 +25,7 @@
 	chapter_group.337473E1389D8A71.title: "&6失落知识"
 	chapter_group.4B65568899D62A0C.title: "&6往日余音"
 	file.0000000000000001.title: "&6石头世界4"
-	image.1921E6064403BF31.title: "ftb.hover.reactor_wiki"
+	image.1921E6064403BF31.title: "Oritech 核反应堆搭建指南"
 	image.1B8538AADE27E44F.title: "ftb.hover.bug"
 	image.58FB752DEB6896EA.title: "ftb.hover.discord"
 	quest.0065DA4214B7B303.quest_desc: [
@@ -34,7 +34,7 @@
 		"该结构散布在&d虚空裂隙&r环周围。"
 	]
 	quest.0065DA4214B7B303.title: "击杀&6远古遗魂&r"
-	quest.0071ADE2804C1B24.title: "Light Bender Check 2"
+	quest.0071ADE2804C1B24.title: "折光师进度检查 2"
 	quest.007CD364F96C2912.quest_desc: ["&a自由助跑器&r只能提供一点点防御能力，但可以完全免疫摔落伤害。"]
 	quest.007F4A173D5CA51F.quest_desc: [
 		"说是“交流”的话，或许有些牵强了。"
@@ -158,7 +158,7 @@
 		"&7&o在你位于宝库256格范围内时，潜行右击指南针便能立即传送到入口处！&r"
 	]
 	quest.02735F0443CA9727.title: "&f定位&3宝库"
-	quest.027E1E97D874D0EB.title: "Infinity Meet"
+	quest.027E1E97D874D0EB.title: "拜访无尽"
 	quest.02BC8FCDB2D94F0E.quest_desc: [
 		"提交&3升级&f所需的方块并领取奖励，即可自动为你团队的&6世界引擎&r组装该升级。"
 		""
@@ -190,7 +190,7 @@
 	]
 	quest.030F1F8A4B0C1EBF.title: "&c散热口&f与&c热量管道"
 	quest.033F3D2427ED6F40.quest_subtitle: "允许更多类型的红石信号控制"
-	quest.0355F5FB00143754.title: "Fabricator Check 1"
+	quest.0355F5FB00143754.title: "构件师进度检查 1"
 	quest.036047DE66198D10.quest_desc: [
 		"烘干后的&a树叶&r可以制成更坚韧的纤维。"
 		""
@@ -347,7 +347,7 @@
 		""
 		"只需将制作好的&b模块&r放入&a改造站&r中画有模块图标的槽位中，再把要改装的装备放入箭头所指的槽位中即可。"
 	]
-	quest.05C3502C9F7BB7A3.title: "&6Meka-Suit"
+	quest.05C3502C9F7BB7A3.title: "&6Meka 动力装甲"
 	quest.05CEF45909A11F60.quest_desc: [
 		"&2精妙背包&r能轻松解决你的物品栏问题！它们可以升级，以便容纳更多物品，并且还有许多很酷炫的升级，可以在探险中提供帮助，比如可以随时随地使用工作台的&a合成升级&r。"
 		""
@@ -377,7 +377,7 @@
 	quest.066342488E03F3B5.title: "&f再构矿物"
 	quest.066B47D2AB72355C.quest_desc: ["此地牢生成在x:512，z:512左右。"]
 	quest.066B47D2AB72355C.title: "找到&d奥术林地"
-	quest.068C117DD3DD10C2.title: "Guidance Check 3"
+	quest.068C117DD3DD10C2.title: "指引者进度检查 3"
 	quest.06C9E9DBE25887D9.quest_desc: ["&6Oritech&r模组的&a熔岩发电机&r可消耗熔岩产生RF，加装&b插件&r可提升发电效率。"]
 	quest.06D54A3D73AB7DE8.title: "存储气体"
 	quest.06EC32E6140E68C1.quest_desc: [
@@ -411,7 +411,7 @@
 		""
 		"&e注意&f：你可以重命名&2鸡舍&r使你的养鸡场更有条理，尤其是在使用&a鸡舍收集器（Roost Collector）&r时。"
 	]
-	quest.081EA35CCBDF793F.title: "Roost Ultimate"
+	quest.081EA35CCBDF793F.title: "终极鸡舍"
 	quest.08204AA5ACCC914E.quest_desc: ["&a背包&r可以染色！这样一来，无论是用颜色来区分不同的背包，还是单纯想背着黑色背包耍酷，两者皆可。"]
 	quest.0826EF3E7B15B219.quest_desc: ["消耗粉红色的物品发电。"]
 	quest.08766B8721B4E541.quest_desc: [
@@ -439,7 +439,7 @@
 		""
 		"右击它，就会显示你目前传送机的全部频率。选择并传送即可！"
 	]
-	quest.087D1FBAE8A425C0.quest_subtitle: "With Subtitles"
+	quest.087D1FBAE8A425C0.quest_subtitle: "含副标题"
 	quest.087D1FBAE8A425C0.title: "&f打造&d传送门&f！"
 	quest.091B8E814908DEDF.quest_desc: [
 		"&d原子锻造器&r是个强大的机器，可以合成一些高阶芯片、强化深板岩……甚至可以复制矿物！"
@@ -448,7 +448,7 @@
 		""
 		"能量管道无法直接连接到&d原子锻造器&r；需要用&a末影激光器&r来为机器供能。"
 	]
-	quest.091F82E2770F3011.title: "Ancient Check 1"
+	quest.091F82E2770F3011.title: "远古族裔进度检查 1"
 	quest.094A534C72917405.quest_desc: ["此地牢会生成在&b海洋&r环的下层。"]
 	quest.094A534C72917405.title: "找到&b冰霜蜘蛛巢"
 	quest.099481C1F0718B67.quest_desc: ["&#FCD205牧师&r可在&d一则传说——一位知道了太多的牧师&r传送门中找到。"]
@@ -579,7 +579,7 @@
 		"用你收集到的第一批木材制作几把&a木剪刀&r，这样就能收割那些树叶啦！"
 	]
 	quest.0B295CE75D367D59.title: "&f片叶不留"
-	quest.0B3FD3C2AD980AD7.title: "Ancient Meet"
+	quest.0B3FD3C2AD980AD7.title: "拜访远古族裔"
 	quest.0B65713A23351790.quest_desc: [
 		"&d双足飞龙剑&r是一把由能量驱动的剑，它具有多个自定义选项。"
 		""
@@ -605,7 +605,7 @@
 		"对着&a齿轮&r进行&b思索&r，了解它们如何应用于增加或减少动力网络中的&b每分钟转速&r（&bRPM&r）。"
 	]
 	quest.0BAF0C06F01C4E80.quest_subtitle: "提升储电能力，提高能量传输速率。"
-	quest.0BD2630DFA958C65.title: "Twilight Meet"
+	quest.0BD2630DFA958C65.title: "拜访暮光族裔"
 	quest.0BE524ECA97A0E63.quest_desc: [
 		"&c警告&r：完成此任务将立即跳过整合包的所有流程。"
 		""
@@ -643,7 +643,7 @@
 	]
 	quest.0C0B04B6FEFD2928.title: "接口连接"
 	quest.0C2523AA8CA20CC4.quest_subtitle: "绿鸡+钻石鸡"
-	quest.0C2DAB30B7A2A7C0.title: "Stage 5 'and' Check"
+	quest.0C2DAB30B7A2A7C0.title: "第5阶段全部条件检查"
 	quest.0C5173F51D68317C.quest_desc: [
 		"使用&5幽影精魂&r，你可以合成一种强大的武器。"
 		""
@@ -717,7 +717,7 @@
 		"&e注意&r：要合成该模组的&a管道&r，需要先用&a机器方块&r进行&6世界引擎升级&r。"
 	]
 	quest.0DB5CBE2E76D2FD9.title: "Pipez"
-	quest.0DE73FC2EE3C60A9.title: "Guidance 5 Completed"
+	quest.0DE73FC2EE3C60A9.title: "指引者阶段完成 5"
 	quest.0DF48D4589272952.title: "&f游玩&a10小时"
 	quest.0DF5D2B35FDEE536.quest_desc: [
 		"&eXNET&r是一个物流模组，它允许你在一个网络中设定至多8种频道（能量、物品、流体、气体、化学品及其他）。"
@@ -881,7 +881,7 @@
 		"[\"你只能在\", { \"text\": \"电路加工机\", \"color\": \"light_purple\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"663460DE8AF7E464\" }, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"跳转到电路加工机任务\"} }, \"组装它们。\"]"
 	]
 	quest.1069575C4B5BCE39.title: "精致存储2"
-	quest.106A9E7AD6051D8C.title: "Guidance Completed 3"
+	quest.106A9E7AD6051D8C.title: "指引者阶段完成 3"
 	quest.107C26E8BF309BC1.quest_desc: [
 		"你冒险的时候，也许会搜刮到很多&d奥术&r战利品。"
 		""
@@ -1100,11 +1100,11 @@
 	quest.15DE76B303680F79.title: "&d龙芯&r"
 	quest.160C4C63A3CEACE1.title: "力场子灌注块交易"
 	quest.1617D99EA1AE47E4.quest_desc: [
-		"&bCheck&f: &lSubmitting&r Chronon Generator"
+		"&b检查条件&f：&l提交&r时元发生器"
 		""
-		"&bUnlocks&f:"
+		"&b解锁内容&f："
 	]
-	quest.1617D99EA1AE47E4.title: "Guidance 1.2 check"
+	quest.1617D99EA1AE47E4.title: "指引者进度检查 1.2"
 	quest.165A1B6F56051FA6.quest_desc: [
 		"&e任意门&r是一个传送模组，你可以使用一种被称为“时门”的临时传送门，实现在不同的标记点之间传送。"
 		""
@@ -1236,7 +1236,7 @@
 		"&2锤子&r也能敲碎&a压缩方块&r，这样比一个一个敲快多了！"
 	]
 	quest.193690C049F4B4BB.title: "&f进一步粉碎"
-	quest.19C13B2B7F137956.title: "Simple Teleporters"
+	quest.19C13B2B7F137956.title: "简易传送器"
 	quest.19C696F8143FB1B6.title: "&6觉醒龙锭&f交易"
 	quest.19C7CC772EC56E7B.quest_desc: [
 		"一旦你有了一些蛋，你就可以将蛋与任何彩虹色合成以得到&a染色的鸡蛋&r。"
@@ -1396,7 +1396,7 @@
 		"这张附魔台可以让你手动配置&a位阶&f、&c量子化&f和&d阿卡那&f，无需依赖附近书架。"
 	]
 	quest.1D464EAED6D9BE28.title: "&z渡鸦附魔台"
-	quest.1D52FC5D0EAD911B.title: "Guidance Check 2"
+	quest.1D52FC5D0EAD911B.title: "指引者进度检查 2"
 	quest.1D87C5E9D52341C4.quest_desc: [
 		"要制作&e龙之进化&r更高级的物品，你需要一种被称作&d聚合注入&r的特殊合成装置。"
 		""
@@ -1415,7 +1415,7 @@
 		"调节这些管道需要&a耶塔扳手&r，如果你把管道放在了&2导管框架&r下，但是又想调整这个管道的话，手持扳手它们就会显现出来，以便于配置。"
 	]
 	quest.1DA78BAB2A6E2C82.title: "末影接口导管"
-	quest.1DE16238ECFB074D.title: "Chaos Meet"
+	quest.1DE16238ECFB074D.title: "拜访混沌"
 	quest.1E061D2E5C560867.quest_desc: [
 		"&c慈悲竞技场&r是生成于&e末地&r环中的大型结构。"
 		""
@@ -1444,7 +1444,7 @@
 		"将&b身份卡&r放进其余九个槽位以定义对应玩家的权限。"
 	]
 	quest.1E2A91B73A752B3B.title: "生物识别器"
-	quest.1E307C13D534A75C.title: "Light Bender Check 1"
+	quest.1E307C13D534A75C.title: "折光师进度检查 1"
 	quest.1E6014F4B7CBE373.quest_desc: [
 		"&6电池&r是&bCAD&r中的&d可选附件&r，可以在基础Psi能量耗尽时，提供&b额外的Psi能量&r。"
 		""
@@ -1474,7 +1474,7 @@
 		""
 		"手持电池时，潜行右击可将其切换为放电模式，此模式下电池会为物品栏中的其他物品充能。"
 	]
-	quest.1F052C1F0AC1330C.title: "Radiance Meet"
+	quest.1F052C1F0AC1330C.title: "拜访辐光"
 	quest.1F0F37429F1177DF.quest_desc: [
 		"随着更多&6档案&r被解锁，是时候探索大厅，去寻找&d暮光族裔的回响&r了。"
 		""
@@ -1557,7 +1557,7 @@
 		"这道激光会把路径上的掉落物或放置在激光两侧的方块全部晶体化。"
 	]
 	quest.206987FC6B1524F8.title: "&a原子再构机"
-	quest.206F8B25D5A3CB7E.title: "Catalyst Meet"
+	quest.206F8B25D5A3CB7E.title: "拜访精械师"
 	quest.20D7DA6055C540FA.quest_desc: [
 		"悬赏板中的大多数任务都是可重复且&a每24小时刷新&r的！"
 		""
@@ -1690,7 +1690,7 @@
 		""
 		"&a能量立方&rGUI右侧的槽位可以给物品充能。"
 	]
-	quest.2323A6EEDF97BE96.title: "Wayfinder Check 1"
+	quest.2323A6EEDF97BE96.title: "寻路者进度检查 1"
 	quest.2341297707B00E93.quest_desc: [
 		"本章中的其他发电机都属于&a游戏末期发电机&r。"
 		""
@@ -1704,7 +1704,7 @@
 		"每当败于同一Boss之手，你都将获得针对该敌人的额外抗性，并能对其造成更高的伤害。"
 	]
 	quest.23562C59CEDE9879.title: "&6机械降神"
-	quest.23DC842244086CB9.title: "Wayfinder Meet"
+	quest.23DC842244086CB9.title: "拜访寻路者"
 	quest.24401E59D87AC23A.quest_desc: [
 		"&6聚变反应堆&r是&e通用机械的&r发电的最终解决方案。它消耗&a氘&r和&2氚&r或两者的混合物作为燃料，能够以相对较低的维护成本去生产大量的电力或热能。两种燃料成分都只需水和能量即可轻松生产！"
 		""
@@ -1769,11 +1769,11 @@
 	]
 	quest.261B2184A4839741.title: "建立并加入一个队伍"
 	quest.2646D51DBAD8AD42.quest_desc: [
-		"&bCheck&f: Getting Shadow Casing"
+		"&b检查条件&f：获得暗影机壳"
 		""
-		"&bUnlocks&f: \"Create Vault\" Technically players can get there before"
+		"&b解锁内容&f：机械动力宝库（实际上玩家此前就可能到达）"
 	]
-	quest.2646D51DBAD8AD42.title: "Machinist Check 1"
+	quest.2646D51DBAD8AD42.title: "机械师进度检查 1"
 	quest.26727A01D814C5A9.title: "虚空碎片"
 	quest.2682A911828C2D88.quest_desc: [
 		"&e框架方块&r可用于制作自定义方块与形状，且几乎能套用整合包中任何其他方块的纹理！"
@@ -1801,7 +1801,7 @@
 		"&7&o下一页包含截图以作操作引导，最后一页则是完整的结构截图。->"
 		"{@pagebreak}"
 		"{image:ftb:textures/quests/ae2/circuit_fabricator_ui.png width:180 height:100 align:center}"
-		"{image:ftb:textures/quests/ae2/circuit_fabricator_jei.png width:205 height:144 align:center)"
+		"{image:ftb:textures/quests/ae2/circuit_fabricator_jei.png width:205 height:144 align:center}"
 		"{@pagebreak}"
 		"完整的结构应像下图所示，在神秘方块所在三面各有聚能石英玻璃。"
 		""
@@ -1906,7 +1906,7 @@
 		"未来你会需要大量的&6觉醒龙锭&r，因此这种制作方法恐怕不是最好的。"
 	]
 	quest.28C1BB5C88F65CA0.title: "&6觉醒龙锭"
-	quest.28DB6A7095E20B2A.title: "Reactor"
+	quest.28DB6A7095E20B2A.title: "反应堆"
 	quest.28E63B302DFCF6D9.quest_desc: [
 		"有时候你可能需要为你的附魔设施增加一些&d阿卡那&r。"
 		""
@@ -1950,7 +1950,7 @@
 	]
 	quest.2950D495BCF2D52D.title: "&f金属灌注"
 	quest.2A456EFB14ECA6C2.title: "击杀&d荒野奇美拉"
-	quest.2AB07DEF9E14C784.title: "Stage 3 'or' Check"
+	quest.2AB07DEF9E14C784.title: "第3阶段任一条件检查"
 	quest.2AB58696A843E9C2.quest_desc: [
 		"随着更多&6档案&r被解锁，是时候探索大厅，去寻找&d构件师的回响&r了。"
 		""
@@ -2084,7 +2084,7 @@
 		"使用扳手拆卸网络设备会完整保留设备的配置、升级和样板。"
 	]
 	quest.2CEF038B5DA1FF25.quest_desc: ["消耗烟花火箭发电。"]
-	quest.2D0E345C7C7B3AC0.title: "Quartermaster Meet"
+	quest.2D0E345C7C7B3AC0.title: "拜访军需官"
 	quest.2D110AB9A38178C5.quest_desc: [
 		"&d炼狱使者&r提到了一座埋藏在&c下界&r环中的&3宝库&r，它深藏在下界岩中， 栖息着极其危险的炽热之魂。"
 		""
@@ -2132,7 +2132,7 @@
 		"[\"此时，你也可以制作\", { \"text\": \"双足飞龙工具\", \"color\": \"light_purple\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"056990503617C147\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"跳转到双足飞龙工具任务\"}}, \"、\", { \"text\": \"双足飞龙武器\", \"color\": \"light_purple\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0B65713A23351790\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"跳转到双足飞龙武器任务\"}}, \"和\", {\"text\": \"双足飞龙护胸\", \"color\": \"light_purple\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2DF77DA2ED65FBAC\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"跳转到双足飞龙护胸任务\"}}, \"。\"]"
 	]
 	quest.2D95FEECCF48B088.title: "&d龙之进化&f通量容器"
-	quest.2D99F429A18BEED1.title: "Catalyst Check 2"
+	quest.2D99F429A18BEED1.title: "精械师进度检查 2"
 	quest.2DF77DA2ED65FBAC.quest_desc: [
 		"&d双足飞龙护胸&r是一件由能量驱动的盔甲，它具有多个自定义选项。"
 		""
@@ -2149,7 +2149,7 @@
 		"用&b力场子灌注块&r进行&6世界引擎升级&r后方可使用该机器。"
 	]
 	quest.2E619195856B3B9F.title: "&f用Mek激光生成矿物"
-	quest.2E7B0F8AF8BA8041.title: "Meka Teleporter"
+	quest.2E7B0F8AF8BA8041.title: "通用机械传送装置"
 	quest.2E9F9DD6660745B3.quest_desc: [
 		"&b机械动力&r的&a动力收割机&r可以被安置在旋转结构上，以自动收割它接触的任何作物。"
 		""
@@ -2213,7 +2213,7 @@
 		"上述的设备可以加装各种&a卡&r，比如能让它受红石控制的卡，只允许特定NBT物品输入（或者模糊）的卡，提升速度的&e加速卡&r，以及提升样板存储容量的&e容量卡&r。"
 	]
 	quest.300503F48627E3DB.title: "下界碎片"
-	quest.30453DA99EE2BCBF.title: "Wyrmwright Meet"
+	quest.30453DA99EE2BCBF.title: "拜访飞龙匠人"
 	quest.304B25BADD64077D.quest_desc: [
 		"升级你的背包，扩大存储空间！"
 		""
@@ -2259,13 +2259,13 @@
 		"刷沙子可以获得黏土。"
 	]
 	quest.30F922372D95D407.title: "&f盆栽树"
-	quest.31042D7EBA3B39AD.title: "Infinity Check 1"
+	quest.31042D7EBA3B39AD.title: "无尽进度检查 1"
 	quest.31705AD5BE50E2CB.quest_desc: [
 		"&a加压反应室&r是台高级机器，它可以将一份流体、一份气体和一份物品进行组合，产生一个新物品；也偶尔有气体作为副产物。"
 		""
 		"该机器可以制作&6乙烯&r、&6高密度聚乙烯丸&r等材料！"
 	]
-	quest.317FE947A23C965A.title: "Fabricator Meet"
+	quest.317FE947A23C965A.title: "拜访构件师"
 	quest.31C83D9253FFF685.quest_desc: [
 		"&3工业涡轮&r是垂直的多方块结构，它能将&7蒸汽&r转化为能量，并可以使用&9饱和冷凝器&r将其变回&b水&r。注意，如果涡轮储存的能量已满，它将开始储存蒸汽并停止工作。"
 		""
@@ -2366,7 +2366,7 @@
 	]
 	quest.32653261B16850B3.quest_subtitle: "次要世界引擎升级"
 	quest.32653261B16850B3.title: "&f最终的暮色宝库"
-	quest.32A6859ECF7E775F.title: "Enchanter Check 1"
+	quest.32A6859ECF7E775F.title: "附魔师进度检查 1"
 	quest.32ACE9E47B8A6C87.quest_desc: [
 		"&6Psi金属装甲&f是一套可以让你无缝地将&b术式施放&f融入日常冒险的盔甲！"
 		""
@@ -2519,7 +2519,7 @@
 		"&e注意&r：深暗书架也可用于&6世界引擎升级&r。"
 	]
 	quest.353F6C94B5D5FF0B.title: "深暗书架"
-	quest.35412128EF4B8692.title: "Enchanter Meet"
+	quest.35412128EF4B8692.title: "拜访附魔师"
 	quest.355C3ACB16CC2DE9.quest_desc: [
 		"每个&6量子计算机加速器&r在多方块结构内相当于一个&b八核并行处理器&r。"
 		""
@@ -2601,8 +2601,8 @@
 	quest.371D1FEFBD49CCFF.title: "&b苍穹晶&f武器"
 	quest.37499343396BC372.quest_desc: ["领取此任务奖励将在&d回响&6档案室&r入口处设置一个路径点。"]
 	quest.37499343396BC372.title: "&f定位&d飞龙匠人"
-	quest.375A2BF4EA6F4EA9.title: "Stage 4 'or' Check"
-	quest.375DBC764A420D98.title: "Infernal Meet"
+	quest.375A2BF4EA6F4EA9.title: "第4阶段任一条件检查"
+	quest.375DBC764A420D98.title: "拜访炼狱使者"
 	quest.376227602F2E3DA4.quest_desc: [
 		"&z时间水晶&r是一种高级材料，处于物品栏时将扭曲现实本身。"
 		""
@@ -2610,7 +2610,7 @@
 	]
 	quest.376227602F2E3DA4.title: "&z时间水晶&r"
 	quest.37A6FBA47B056D57.title: "暗影机壳交易"
-	quest.37CC00D0136EFDAE.title: "Guidance Check 4.1"
+	quest.37CC00D0136EFDAE.title: "指引者进度检查 4.1"
 	quest.37F6FA6FD524AB9F.quest_desc: [
 		"&6数据中心&f多方块结构尺寸为7x7x7，最多可同时运行25个&z自我意识&r级数据模型。"
 		""
@@ -2814,7 +2814,7 @@
 		"&e注意&r：&a基础->铜升级&r只能从商店购买。铜之后的存储升级就可以制作了。"
 	]
 	quest.3ACF3359B3B59A05.title: "&e精妙存储"
-	quest.3B06321F0E2F0EC9.title: "Tier 1 WE 'or' Check"
+	quest.3B06321F0E2F0EC9.title: "第一阶段世界引擎任一条件检查"
 	quest.3B2B26B1AD947CC5.quest_desc: [
 		"&a大型能量存储&r的基础容量为20M RF，可用&b插件&r升级。"
 		""
@@ -2859,7 +2859,7 @@
 		"&6量子计算机储存方块&r可以高效提升一次可执行的线程。"
 	]
 	quest.3BFF8EFB5E7186A4.title: "&d量子计算机合成存储器"
-	quest.3C0A24054C75BF91.title: "Quartermaster Check 1"
+	quest.3C0A24054C75BF91.title: "军需官进度检查 1"
 	quest.3CADD463CFC2FE32.quest_desc: [
 		"&a热传导发电机&r可利用其两侧方块的温差产生&a低压&r能量。"
 		""
@@ -3054,7 +3054,7 @@
 		"制作&a灌注室&r，并用它将&a青金石&r转化为&d魔源宝石&r。"
 	]
 	quest.3F81256B4E65076F.title: "&f魔法精华灌注"
-	quest.3F8D9684ADAC01E8.title: "Catalyst Check 3"
+	quest.3F8D9684ADAC01E8.title: "精械师进度检查 3"
 	quest.3FA9D6A475E4D1C6.quest_desc: [
 		"&d寻路者&r通晓穿行于此世间的一切知识。"
 		""
@@ -3292,11 +3292,11 @@
 		"更多细节请查阅AE2教程。"
 	]
 	quest.43949500F6A0B46A.title: "&d多方块自动合成"
-	quest.43A632369D0E2CE0.title: "Guidance Completed 4.1"
+	quest.43A632369D0E2CE0.title: "指引者阶段完成 4.1"
 	quest.43B92A87F280211F.title: "TF West"
 	quest.4402F6855A75B7F6.quest_desc: ["此地牢会生成在&2暮色森林&r环的下层。"]
 	quest.4402F6855A75B7F6.title: "找到&2巨魔洞穴"
-	quest.4426687CCCDD759A.title: "Magician Check 2"
+	quest.4426687CCCDD759A.title: "魔法师进度检查 2"
 	quest.4445906BD04FC37D.quest_desc: [
 		"你的&3发掘&r水平更加精进了，应该能轻松从方块中刷出更好的材料了吧。"
 		""
@@ -3522,7 +3522,7 @@
 		"要了解更多有关发电机的搭建与使用的信息，请参阅&b工程师手册&r的&a电网&r部分。"
 	]
 	quest.4843F5564CA5810C.title: "柴油发电机"
-	quest.487BD65BA8F5337D.title: "Machinist Meet"
+	quest.487BD65BA8F5337D.title: "拜访机械师"
 	quest.4882D3E03CC01268.quest_desc: [
 		"&bME存储总线&r能让你的ME网络读取并操作外部容器或存储网络里的物品，比如一个普通的箱子，或是来自&6功能性存储&r模组的&e存储控制器&r。"
 		""
@@ -3724,11 +3724,11 @@
 	]
 	quest.4BFF8EE3F588E006.title: "&f见到&d附魔师"
 	quest.4C52D3DE2F7701D0.quest_desc: [
-		"&bCheck&f: Crafting the brush"
+		"&b检查条件&f：合成刷子"
 		""
-		"&bUnlocks&f:"
+		"&b解锁内容&f："
 	]
-	quest.4C52D3DE2F7701D0.title: "Guidance 1.1 check"
+	quest.4C52D3DE2F7701D0.title: "指引者进度检查 1.1"
 	quest.4C549866DEB8DB61.quest_desc: [
 		"为了合成&3机器方块升级&r所需的&a机械部件&r，你需要一些能制造合金线和金属板的基础机器。"
 		""
@@ -3939,7 +3939,7 @@
 		""
 		"这些机器的用法简单，你还可以在机器的GUI里轻松配置机器。"
 	]
-	quest.4FCD78F6E1712BD8.title: "Guidance Check 1"
+	quest.4FCD78F6E1712BD8.title: "指引者进度检查 1"
 	quest.4FE01499D831CACC.quest_desc: [
 		"随着更多&6世界引擎&r配方的解锁，你会发现部分配方需消耗流体。"
 		""
@@ -3963,11 +3963,11 @@
 	]
 	quest.500074C1D4EC9591.title: "&f见到&d精械师"
 	quest.50AC369D1F5B7DD8.quest_desc: [
-		"&bCheck&f: Getting Magical Trees and Saplings"
+		"&b检查条件&f：获得魔法树木和树苗"
 		""
-		"&bUnlocks&f: "
+		"&b解锁内容&f："
 	]
-	quest.50AC369D1F5B7DD8.title: "Magician Check 1"
+	quest.50AC369D1F5B7DD8.title: "魔法师进度检查 1"
 	quest.50B0E45705EDB5F2.quest_desc: [
 		"提交&3升级&f所需的方块并领取奖励，即可自动为你团队的&6世界引擎&r组装该升级。"
 		""
@@ -4001,7 +4001,7 @@
 		""
 		"当你获得了鸡蛋和羽毛后，你就可以制作&a鸡调试棒&r了。它是这个模组的扳手，可以让你从世界中拾取鸡。"
 	]
-	quest.50E133C3E351255E.quest_subtitle: "Roost Ultimate"
+	quest.50E133C3E351255E.quest_subtitle: "终极鸡舍"
 	quest.50E133C3E351255E.title: "&f鸡！！"
 	quest.5119EFBB9FB39CDE.quest_desc: ["你可能会在&d奥术林地&r结构中找到其中之一，也可从&d一则传说——一位知道了太多的牧师&r传送门中找到。"]
 	quest.5119EFBB9FB39CDE.title: "击杀&d高位唤魔者"
@@ -4109,7 +4109,7 @@
 		""
 		"一旦实现了自动化，这在矿物生成方面十分强力！"
 	]
-	quest.53D550D3FD459ED2.title: "Guidance Completed 2"
+	quest.53D550D3FD459ED2.title: "指引者阶段完成 2"
 	quest.53E949B1A0D04290.quest_desc: [
 		"你需要至少21个&c耐火砖块&r才能搭建最小尺寸的&6熔铸炉&r外墙。"
 		""
@@ -4150,7 +4150,7 @@
 	quest.551964C1A41FA3D0.title: "鸡的繁育"
 	quest.5535D64E2B05005E.quest_desc: [""]
 	quest.5535D64E2B05005E.quest_subtitle: "增加方块破坏器和末影激光器的工作范围"
-	quest.555BB3F7C11CD6F9.title: "Radiance Check 1"
+	quest.555BB3F7C11CD6F9.title: "辐光进度检查 1"
 	quest.558A4BBC3BDB853D.quest_desc: ["击杀&6王国&r，它位于&d虚空&r环中的&6王国竞技场&r，然后&c提交它的战利品&r来领取赏金。"]
 	quest.55D17BDE3E9C81CC.quest_desc: [
 		"提交&3升级&f所需的方块并领取奖励，即可自动为你团队的&6世界引擎&r组装该升级。"
@@ -4158,7 +4158,7 @@
 		"&e注意&f：任何放置在升级组装处的方块将被替换。"
 	]
 	quest.55D17BDE3E9C81CC.title: "&f自动建造&3力场子升级"
-	quest.55DF810785A9B938.title: "Catalyst Check 1"
+	quest.55DF810785A9B938.title: "精械师进度检查 1"
 	quest.562156281B8D0843.quest_desc: [
 		"该机器可以将某些流体（比如&b水&r）电解成两种不同的&a气体&r。"
 		""
@@ -4354,7 +4354,7 @@
 		""
 		"手持配置卡，Shift右击一个网络设备即可复制其配置，然后Shift右击另一个设备即可粘贴配置。Shift右击空气以清除配置。"
 	]
-	quest.58BC57B1119204CA.title: "Magician Meet"
+	quest.58BC57B1119204CA.title: "拜访魔法师"
 	quest.58DDBF43D54AF67F.quest_desc: ["&e灵灾&r武器通常具有特殊的能力，与此模组的其他特性或机制协同可造成大量伤害。"]
 	quest.58DDBF43D54AF67F.title: "&e灵灾&f武器"
 	quest.592A206B63BF556E.quest_desc: [
@@ -4561,7 +4561,7 @@
 	]
 	quest.5E1FFB29D89798F5.quest_desc: ["虽然随时放置一个&aQIO仪表板&r来访问存储已足够便捷，但如果你根本不需要放置它呢？"]
 	quest.5E1FFB29D89798F5.title: "&f便携式&aQIO仪表板"
-	quest.5E2764E8DB1B789B.title: "Light Bender Meet"
+	quest.5E2764E8DB1B789B.title: "拜访折光师"
 	quest.5E2F4A6147694D5C.quest_desc: [
 		"[\"\", {\"text\": \"混沌\", \"color\": \"rainbow\"}, \"工具是\", {\"text\": \"神龙\", \"color\": \"gold\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"11A35E8F97ACA240\" }, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"前往神龙工具任务\"}}, \"工具的最终升级版，可安装\", {\"text\": \"升级模块\", \"color\": \"green\"}, \"的数量最多，拥有最强的可定制性。\"]"
 		""
@@ -4660,7 +4660,7 @@
 		""
 		"最后，将&b灵魂管道&r连接到该&a接口&r，接口便会消耗其中的&3监守者灵魂&r来驱动&b灵魂促速器&r。"
 	]
-	quest.609DF15D870AE2C0.title: "&eSoulplied Energistics"
+	quest.609DF15D870AE2C0.title: "&e精魂驱动的应用能源"
 	quest.60B8D5DAA4BA7DC4.quest_desc: [
 		"&eReplication: Matter Overflow&f模组的&a物质储罐&r能自动销毁特定种类的过量物质。"
 		""
@@ -4818,7 +4818,7 @@
 	quest.62802965CA91E8C9.title: "&b二阶&fCAD弹夹"
 	quest.62C92C8960875611.quest_desc: ["无论是在物理领域还是在魔法领域，金属加工都是非常重要的，不过两个领域的加工方式大相径庭。注入了精魂的金属锭非常有利于更加深远的发展。"]
 	quest.62C92C8960875611.title: "&f精魂冶金学"
-	quest.62CEFEB50E7D4489.title: "Quartermaster Check 2"
+	quest.62CEFEB50E7D4489.title: "军需官进度检查 2"
 	quest.6323068C93CF7DCE.quest_desc: ["&d对称之杖&r可以设置布局，自动镜像你放置的方块。"]
 	quest.634884134E2786B2.quest_desc: [
 		"&d王国竞技场&r是生成于&d虚空裂隙&r环中的大型结构。"
@@ -4896,7 +4896,7 @@
 		"&e注意&f：任何放置在升级组装处的方块将被替换。"
 	]
 	quest.65B10C46C1AE5026.title: "&f自动建造&3黑暗虚空升级"
-	quest.65C1A809B6A22758.title: "Wyrmwright Check 2"
+	quest.65C1A809B6A22758.title: "飞龙匠人进度检查 2"
 	quest.6600E26635FD3D0E.quest_desc: [
 		"许多&e模块化力场系统&r的机器都可以安装&2速度模块&r，通常会加快他们的性能。"
 		""
@@ -4937,7 +4937,7 @@
 	quest.66FF7D88B712C969.title: "&f定位&d寻路者"
 	quest.67012432915196A3.title: "武器"
 	quest.67078BCAD52BC4B4.title: "击杀史莱姆"
-	quest.67181BD1F2434E2C.title: "Wyrmwright Check 1"
+	quest.67181BD1F2434E2C.title: "飞龙匠人进度检查 1"
 	quest.67396087E1916115.quest_desc: [
 		"&a分子重组仪&r是一种能将&e方尖碑&r的经验注入材料，然后制作出产物的设备。它不仅能使某些配方的造价降低，而且还是制作某些&2认知&r模组中的资源的必要途径。"
 		""
@@ -4984,7 +4984,7 @@
 		"&7&o在你位于宝库256格范围内时，潜行右击指南针便能立即传送到入口处！&r"
 	]
 	quest.6781D1A7A53A5F1D.title: "&f定位&3宝库"
-	quest.67AA6621E5A00E37.title: "Twilight Check 1"
+	quest.67AA6621E5A00E37.title: "暮光族裔进度检查 1"
 	quest.67AD604F2C4E5CC9.quest_desc: [
 		"并不是所有&b流体牛&r都可以由繁育或者&a粘土苹果&r得到。"
 		""
@@ -5097,7 +5097,7 @@
 	]
 	quest.6AA51581B0CA5271.title: "虚拟存储驱动器"
 	quest.6B2F4AA722DAC535.quest_desc: ["消耗下界之星发电。"]
-	quest.6B31A5D836677A89.title: "Wyrmwright Check 3"
+	quest.6B31A5D836677A89.title: "飞龙匠人进度检查 3"
 	quest.6B387999FBEE2E9E.quest_desc: [
 		"这个整合包里有各种各样的随机事件，但它们在默认情况下是不会发生的。完成这个任务，就可以启用它们！"
 		""
@@ -5154,7 +5154,7 @@
 		"手持某些物品右击经验泉可以为它们注入经验。"
 	]
 	quest.6C25708068B5197C.title: "其他经验设备"
-	quest.6C293F6A07C1657A.title: "Chaos Check 1"
+	quest.6C293F6A07C1657A.title: "混沌进度检查 1"
 	quest.6C4441CC63BC7603.quest_desc: [
 		"&c热力蒸馏塔&r可以加热内部的流体，以此来制造出新的流体。你可以利用这个机制来将&9水&r制作成&e盐水&r。"
 		""
@@ -5442,7 +5442,7 @@
 		"&e注意&f：饮用一瓶&a仙馔蜜酒&r可以切换此机制（默认关闭），并清除所有已激活的增益效果。"
 	]
 	quest.71C8BC0FFC1A3E58.title: "机械降神"
-	quest.71EF740F3234EA08.title: "Mycelial Reactor"
+	quest.71EF740F3234EA08.title: "菌丝反应堆"
 	quest.71F17C85D540C559.quest_desc: [
 		"&a线缆&r用于连接网络设备。"
 		""
@@ -5561,8 +5561,8 @@
 	quest.73EC5E7F2300B99D.title: "&b赛特斯石英&r"
 	quest.73FD015A3696ABFB.quest_desc: ["通过将&a龙之心&r注入到&d龙锭&r中，你就能获得&6觉醒龙锭&r了，这是你升级已有&e龙之进化&r装置的必需材料。"]
 	quest.73FD015A3696ABFB.title: "&6觉醒龙锭"
-	quest.73FEE6C6149817E7.title: "Infernal Check 1"
-	quest.7408FB23D476F791.title: "Guidance Completed 1"
+	quest.73FEE6C6149817E7.title: "炼狱使者进度检查 1"
+	quest.7408FB23D476F791.title: "指引者阶段完成 1"
 	quest.740B9F63604944F3.title: "Ocean North"
 	quest.7435EC96F4A4B39F.title: "创造魔源罐"
 	quest.744120E37CD03AE0.quest_desc: [
@@ -5815,7 +5815,7 @@
 		"&e注意&r：某些合成配方只有跳入哭泣之井后才会显示。"
 	]
 	quest.781D7DA09E444B95.title: "哭泣之井"
-	quest.78610F56E29472F7.title: "Stage 0 Check"
+	quest.78610F56E29472F7.title: "第零阶段检查"
 	quest.787BD711CFF837C6.quest_desc: [
 		"随着更多&6档案&r被解锁，是时候探索大厅，寻找&d折光师的回响&r了。"
 		""
@@ -5849,7 +5849,7 @@
 		""
 		"想知道能制作哪些魔咒？看看JEI吧！"
 	]
-	quest.78D488A506FD3EB8.title: "Machinist Check 2"
+	quest.78D488A506FD3EB8.title: "机械师进度检查 2"
 	quest.78F7CFEA0EB5024C.quest_desc: ["这一排的发电机属于&a入门发电机&r，为你提供最初的电力支持！"]
 	quest.7913B52AD9D28D2B.quest_desc: [
 		"&6先驱者&r是个存在于&6古代工厂&r结构中的强悍生物。"
@@ -5869,7 +5869,7 @@
 		""
 		"第一种&b凝胶&r叫做&a原初浆凝胶&r，只需要消耗一点点基础材料就能做出来。"
 	]
-	quest.7983727D0EE456FD.title: "&eJust Dire Things"
+	quest.7983727D0EE456FD.title: "&eJust Dire Things"
 	quest.79873815DEB7A086.quest_desc: [
 		"&a输入端口&r和&a输出端口&r能从你的&dQIO网络&r输入和输出资源。"
 		""
@@ -6054,11 +6054,11 @@
 	quest.7CC7824471E1B45F.quest_desc: ["&z创造凝胶&r永远不会死亡，并且等级与最高级的凝胶一致。"]
 	quest.7CC7824471E1B45F.title: "创造凝胶"
 	quest.7D1FB9A40B5CAE97.quest_desc: [
-		"&bCheck&f: Getting Worker Token"
+		"&b检查条件&f：获得劳工令牌"
 		""
-		"&bUnlocks&f: Doors to T1 Echoes and Chapter 1"
+		"&b解锁内容&f：通往第一阶段回响的大门及第一章任务"
 	]
-	quest.7D1FB9A40B5CAE97.title: "Guidance 1.3 check"
+	quest.7D1FB9A40B5CAE97.title: "指引者进度检查 1.3"
 	quest.7D23D1C9DE75721F.title: "击杀骷髅"
 	quest.7D2A583FBDCE4FC7.quest_desc: [
 		"&6CAD的插槽&r实际上是它的&a弹夹&r。"
@@ -6105,7 +6105,7 @@
 		"&e注意&f：使用&a操作板&r传送时，&6时域仪&r&c不会&f被视作时元存储装置。"
 	]
 	quest.7DE9A4C7979AC1FA.title: "&6时域仪"
-	quest.7E1A18D82B74B6CC.title: "Enchanter Check 2"
+	quest.7E1A18D82B74B6CC.title: "附魔师进度检查 2"
 	quest.7E4FF5A454039E47.quest_desc: [
 		"数字化存储的主要用处就是&3自动制造物品&r。"
 		""
@@ -6340,7 +6340,7 @@
 	task.01A493D72943A94B.title: "流体部件"
 	task.01AB71CC57E2057D.title: "任意#minecraft:candles"
 	task.0284D9E486F445FC.title: "&f找到九头蛇宝库"
-	task.02CC4D7DB653D0B6.title: "Check"
+	task.02CC4D7DB653D0B6.title: "进度检查"
 	task.04FA10D12C67E713.title: "原版下界合金工具"
 	task.05118382686E3B7F.title: "灵灾武器"
 	task.053465F0FFC2E3BB.title: "幻影骑士宝库"
@@ -6398,7 +6398,7 @@
 	task.18D6F8FAB2FA69F7.title: "虚空南"
 	task.1918A324D7CB282A.title: "组装电路加工机"
 	task.192926FA19E0AFB0.title: "传送枪"
-	task.1986452842DD2E46.title: "Check"
+	task.1986452842DD2E46.title: "进度检查"
 	task.19893A74AF61880F.title: "至高木树苗"
 	task.1A33A7B304C14570.title: "无线发送器"
 	task.1A4A5A59FFF815E2.title: "加热器"
@@ -6489,7 +6489,7 @@
 	task.3A0AA4ECFE92B8F8.title: "饰品"
 	task.3A831AEACF765BB4.title: "增加&c量子化&r的物品"
 	task.3B13BCC752215E0A.title: "灵魂存储部件"
-	task.3B60BAD2A4BEA950.title: "Check"
+	task.3B60BAD2A4BEA950.title: "进度检查"
 	task.3B68713C93B4FAA8.title: "&a拾取升级"
 	task.3C26A988187EEF02.title: "下界西"
 	task.3C30835D105E888F.title: "流体抽屉"
@@ -6661,7 +6661,7 @@
 	task.7695C5FDA30F4196.title: "烈焰金盔甲"
 	task.769744CFA9DB671F.title: "定位回响"
 	task.76987C0F742A8A14.title: "&f与&6无尽的回响&f对话"
-	task.76D42E59F98B63FA.title: "Reward Check"
+	task.76D42E59F98B63FA.title: "奖励领取检查"
 	task.7747C8ECA64D179D.title: "&f与&d指引者的回响&f对话"
 	task.77F88B2E5E3A0AE2.title: "&f与&6混沌&f对话"
 	task.7805089FB14CE3E1.title: "&f与&d炼狱使者的回响对话"

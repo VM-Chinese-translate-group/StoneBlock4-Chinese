@@ -1,0 +1,14 @@
+{
+  "category": "irregular_implements:blocks/plates",
+  "icon": "irregular_implements:redirector_plate",
+  "name": "重定向板",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "irregular_implements:redirector_plate",
+      "link_recipe": true,
+      "text": "$(d)重定向板$()有两个生效侧面，实体从一侧进入时会被传送到另一侧。$(br2)右击设置第一个侧面，潜行右击设置第二个。",
+      "title": "重定向板"
+    }
+  ]
+}

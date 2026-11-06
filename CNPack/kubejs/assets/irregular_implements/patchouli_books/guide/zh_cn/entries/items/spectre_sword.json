@@ -1,0 +1,20 @@
+{
+  "category": "irregular_implements:items",
+  "icon": "irregular_implements:spectre_sword",
+  "name": "通灵工具",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "irregular_implements:spectre_sword",
+      "link_recipe": true,
+      "text": "$(d)通灵剑$()的性能与钻石剑相当，但耐久和附魔能力更高。$(br2)它能将实体交互距离增加 3 格，还可以击杀游魂。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "irregular_implements:spectre_pickaxe,irregular_implements:spectre_axe,irregular_implements:spectre_shovel",
+      "link_recipe": true,
+      "text": "$(d)通灵镐、通灵斧和通灵锹$()的性能与对应钻石工具相当，但耐久和附魔能力更高。$(br2)每件工具都可将方块交互距离增加 3 格。",
+      "title": " "
+    }
+  ]
+}

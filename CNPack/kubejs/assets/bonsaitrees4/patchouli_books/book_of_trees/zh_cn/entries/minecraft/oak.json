@@ -1,0 +1,35 @@
+{
+  "name": "橡树",
+  "icon": "minecraft:oak_sapling",
+  "category": "bonsaitrees4:minecraft",
+  "pages": [
+    {
+      "type": "bonsaitrees4:tree",
+      "tree_name": "橡树",
+      "tree_sapling": "minecraft:oak_sapling"
+    },
+    {
+      "type": "patchouli:link",
+      "title": "游戏中的它",
+      "text": "橡树是游戏中最常见的树木，分布于多种生物群系，并有若干形态和特性各异的变体。",
+      "url": "https://minecraft.wiki/w/Oak",
+      "link_text": "Minecraft Wiki"
+    },
+    {
+      "type": "patchouli:link",
+      "title": "现实中的它",
+      "text": "现实中的橡树属于壳斗科栎属，是硬木乔木或灌木。叶片螺旋排列，边缘常有裂片，所结坚果称为橡子。橡树广泛分布于北半球，从地中海半荒漠到亚热带雨林，都是多种生态系统中的关键物种。",
+      "url": "https://en.wikipedia.org/wiki/Oak",
+      "link_text": "Wikipedia"
+    },
+    {
+      "type": "patchouli:image",
+      "border": true,
+      "images": [
+        "bonsaitrees4:textures/patchouli/oak_tree.png",
+        "bonsaitrees4:textures/patchouli/oak_acorns.png",
+        "bonsaitrees4:textures/patchouli/oak_tree_2.png"
+      ]
+    }
+  ]
+}

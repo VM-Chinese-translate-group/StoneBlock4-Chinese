@@ -1,0 +1,23 @@
+{
+  "name": "载具卡",
+  "icon": "rftoolsbuilder:vehicle_card",
+  "category": "rftoolsbase:category_rftoolsbuilder_mover",
+  "extra_recipe_mappings": {
+    "rftoolsbuilder:vehicle_card": 1
+  },
+  "sortnum": 40,
+  "pages": [
+    {
+      "type": "text",
+      "text": "载具卡保存组成载具的方块。载具建造机从有效的空间区域读取结构，并将其写入卡片。"
+    },
+    {
+      "type": "crafting",
+      "recipe": "rftoolsbuilder:vehicle_card"
+    },
+    {
+      "type": "text",
+      "text": "把载具卡插入传运器，可以在该节点放置载具。随后即可通过传运器控制器，让载具在相连节点之间移动。"
+    }
+  ]
+}

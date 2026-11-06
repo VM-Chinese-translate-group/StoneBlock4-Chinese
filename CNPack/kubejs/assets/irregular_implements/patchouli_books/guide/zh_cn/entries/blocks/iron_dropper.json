@@ -1,0 +1,18 @@
+{
+  "category": "irregular_implements:blocks",
+  "icon": "irregular_implements:iron_dropper",
+  "name": "铁质投掷器",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(d)铁质投掷器$()是普通投掷器的升级版，附带多项可调功能。$(br2)界面中有 4 个设置按钮。$(br2)红石模式包括：$(br)$(li)收到脉冲时投出。$(li)通电期间持续投出。$(li)始终投出。",
+      "title": "铁质投掷器"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "irregular_implements:iron_dropper",
+      "link_recipe": true,
+      "text": "拾取延迟可设为 20、5 或 0 刻。$(br2)投出方向可选择直线，或略带随机偏移。$(br2)还可分别控制投出时是否播放粒子和声音。"
+    }
+  ]
+}

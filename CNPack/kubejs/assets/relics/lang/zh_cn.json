@@ -1,0 +1,16 @@
+{
+  "tooltip.relics.holy_locket.ability.faith": "信仰",
+  "tooltip.relics.holy_locket.ability.faith.description": "可切换神圣与亵渎两种模式。红色神圣模式会夺取半径 %3$s 格内可见实体所受治疗量的 %1$s%%，并转移给佩戴者。蓝色亵渎模式会对相同范围内所有可见实体造成伤害，伤害量为佩戴者所受治疗量的 %2$s%%。",
+  "tooltip.relics.holy_locket.ability.penitence": "忏悔",
+  "tooltip.relics.holy_locket.ability.penitence.description": "点燃亡灵敌人 10 秒，并使对其造成的伤害提高 %1$s%%。",
+  "tooltip.relics.holy_locket.ability.ascension": "升天",
+  "tooltip.relics.holy_locket.ability.ascension.description": "击杀目标后，佩戴者获得持续 %2$s 秒的不死效果；持续时间可叠加，最多 %1$s 秒。",
+  "tooltip.relics.holy_locket.leveling_source.faith.title": "信仰",
+  "tooltip.relics.holy_locket.leveling_source.faith.description": "每次触发 %2$s 能力，获得 %1$s 点经验。",
+  "tooltip.relics.holy_locket.leveling_source.penitence.title": "忏悔",
+  "tooltip.relics.holy_locket.leveling_source.penitence.description": "每次对尚未燃烧的亡灵敌人触发 %2$s 能力，获得 %1$s 点经验。",
+  "tooltip.relics.holy_locket.leveling_source.ascension.title": "升天",
+  "tooltip.relics.holy_locket.leveling_source.ascension.description": "每次触发 %2$s 能力，获得 %1$s 点经验。",
+  "tooltip.relics.leafy_ring.description": "[开发中]",
+  "effect.relics.immortality": "不死"
+}

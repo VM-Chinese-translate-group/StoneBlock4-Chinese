@@ -1,0 +1,18 @@
+{
+  "category": "irregular_implements:items",
+  "icon": "irregular_implements:entity_filter",
+  "name": "实体过滤器",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(d)实体过滤器$()供各类物品和方块$(3)按实体类型筛选$()。$(br2)对目标实体使用过滤器即可记录类型。",
+      "title": "实体过滤器"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "irregular_implements:entity_filter",
+      "link_recipe": true,
+      "text": "潜行使用时，会将实体类型设为玩家。"
+    }
+  ]
+}

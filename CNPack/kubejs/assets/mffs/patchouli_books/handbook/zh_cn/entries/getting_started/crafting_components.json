@@ -1,0 +1,19 @@
+{
+  "name": "合成组件",
+  "icon": "mffs:focus_matrix",
+  "category": "mffs:getting_started",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "mffs:focus_matrix",
+      "link_recipe": true,
+      "text": "坚固的钢制板件，用于制作$(l:mffs:projector_modes)投影模式$()、$(l:mffs:projector_modules)投影模块$()和$(l:mffs:machines)机器$()。常备几个总能派上用场。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mffs:focus_matrix",
+      "text": "制作聚焦矩阵。"
+    }
+  ]
+}

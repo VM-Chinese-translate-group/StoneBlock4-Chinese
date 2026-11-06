@@ -1,0 +1,7 @@
+{
+  "name": "能量存储",
+  "description": "用于本地及跨维度储能的各种方案。",
+  "parent": "rftoolsbase:category_rftoolspower",
+  "icon": "rftoolspower:dimensionalcell",
+  "sortnum": 20
+}

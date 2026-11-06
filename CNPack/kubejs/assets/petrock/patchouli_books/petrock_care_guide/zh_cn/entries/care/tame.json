@@ -1,0 +1,38 @@
+{
+  "name": "驯服石头宠物",
+  "icon": "petrock:stoneium",
+  "category": "petrock:care_category",
+  "pages": [
+    {
+      "type": "text",
+      "title": "石灵素",
+      "text": "石灵素矿石生成于主世界。使用石灵素锭，可以驯服石头宠物。"
+    },
+    {
+      "type": "spotlight",
+      "item": {
+        "item": "petrock:raw_stoneium"
+      },
+      "text": "采掘石灵素矿石会掉落粗石灵素。"
+    },
+    {
+      "type": "smelting",
+      "recipe": "petrock:stoneium_from_smelting_raw_stoneium"
+    },
+    {
+      "type": "blasting",
+      "recipe": "petrock:stoneium_from_blasting_raw_stoneium"
+    },
+    {
+      "type": "smelting",
+      "recipe": "petrock:stoneium_from_smelting_stoneium_ore",
+      "recipe2": "petrock:stoneium_from_smelting_deepslate_stoneium_ore"
+    },
+    {
+      "type": "blasting",
+      "recipe": "petrock:stoneium_from_blasting_stoneium_ore",
+      "recipe2": "petrock:stoneium_from_blasting_deepslate_stoneium_ore",
+      "recipe3": "petrock:stoneium_from_blasting_raw_stoneium"
+    }
+  ]
+}

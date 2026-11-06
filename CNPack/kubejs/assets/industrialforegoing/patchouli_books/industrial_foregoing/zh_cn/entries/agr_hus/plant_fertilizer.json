@@ -1,0 +1,21 @@
+{
+  "name": "植物施肥机",
+  "icon": "industrialforegoing:plant_fertilizer",
+  "category": "industrialforegoing:agriculture_husbandry",
+  "sortnum": 5,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "用于给植物$(6)施加$()骨粉。$(br2)机器会持续给同一株作物施肥，直到它不再接受骨粉，然后才处理下一株。因此，$(6)向日葵$()这类始终能接受骨粉的植物，或永远无法进入最终成熟阶段的作物，可能会让机器一直停留在同一目标上。"
+    },
+    {
+      "type": "text",
+      "text": "植物施肥机接受以下材料：$(br)$(li)骨粉 $(li)肥料"
+    },
+    {
+      "type": "crafting",
+      "recipe": "industrialforegoing:plant_fertilizer"
+    }
+  ]
+}

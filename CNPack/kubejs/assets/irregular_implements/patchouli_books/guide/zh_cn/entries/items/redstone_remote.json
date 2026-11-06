@@ -1,0 +1,18 @@
+{
+  "category": "irregular_implements:items",
+  "icon": "irregular_implements:redstone_remote",
+  "name": "红石遥控器",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(d)红石遥控器$()类似于$(l:items/redstone_activator)红石激活器$(/l)，但可远程操作最多 9 个位置。$(br2)潜行右击打开设置界面，把已设置好的$(l:items/location_filter)位置过滤器$(/l)放入对应槽位即可添加目标。旁边的图标槽可放入物品，用作遥控按钮图标。",
+      "title": "红石遥控器"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "irregular_implements:redstone_remote",
+      "link_recipe": true,
+      "text": "不潜行直接使用即可打开位置按钮界面。点击按钮会让对应位置短暂通电。"
+    }
+  ]
+}

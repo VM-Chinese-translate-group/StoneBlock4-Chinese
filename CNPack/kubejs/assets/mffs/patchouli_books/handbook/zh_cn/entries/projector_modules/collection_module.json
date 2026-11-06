@@ -1,0 +1,18 @@
+{
+  "name": "收集模块",
+  "icon": "mffs:collection_module",
+  "category": "mffs:projector_modules",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "mffs:collection_module",
+      "link_recipe": true,
+      "text": "将$(5)收集模块$()与$(l:mffs:projector_modules/disintegration_module)$(5)分解模块$()一起装入$(l:mffs:machines/projector)力场投影仪$()的矩阵槽，可把破坏方块产生的掉落物收进投影仪周围的容器。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mffs:collection_module",
+      "text": "制作$(5)收集模块$()。"
+    }
+  ]
+}

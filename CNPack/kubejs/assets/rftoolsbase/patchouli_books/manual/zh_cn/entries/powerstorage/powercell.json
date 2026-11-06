@@ -1,0 +1,51 @@
+{
+  "name": "能量单元",
+  "icon": "rftoolspower:cell1",
+  "category": "rftoolsbase:category_rftoolspower_powerstorage",
+  "extra_recipe_mappings": {
+    "rftoolspower:cell1": 0,
+    "rftoolspower:cell2": 0,
+    "rftoolspower:cell3": 0,
+    "rftoolspower:power_core1": 0,
+    "rftoolspower:power_core2": 0,
+    "rftoolspower:power_core3": 0
+  },
+  "sortnum": 10,
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(item)能量单元$()可以储存大量能量。它们既可单独使用，也能相邻摆放组成多方块储能结构。各单元会自动与相邻单元均分 RF，不同等级也可以连接在一起。"
+    },
+    {
+      "type": "text",
+      "text": "能量单元没有操作界面。将$(l:rftoolsbase:tools/smartwrench)智能扳手$()切至$(thing)扳手模式$()，对指定侧面操作，即可切换输入、输出或禁用。蓝色代表输入，黄色代表输出，空白面既不输入也不输出。"
+    },
+    {
+      "type": "crafting",
+      "recipe": "rftoolspower:power_core1",
+      "recipe2": "rftoolspower:cell1"
+    },
+    {
+      "type": "text",
+      "text": "默认情况下，每个$(item)低级能量单元$()可以储存 500,000 RF。"
+    },
+    {
+      "type": "crafting",
+      "recipe": "rftoolspower:power_core2",
+      "recipe2": "rftoolspower:cell2"
+    },
+    {
+      "type": "text",
+      "text": "默认情况下，每个$(item)中级能量单元$()可以储存 4,000,000 RF。"
+    },
+    {
+      "type": "crafting",
+      "recipe": "rftoolspower:power_core3",
+      "recipe2": "rftoolspower:cell3"
+    },
+    {
+      "type": "text",
+      "text": "默认情况下，每个$(item)高级能量单元$()可以储存 20,000,000 RF。这电量可真不少！"
+    }
+  ]
+}

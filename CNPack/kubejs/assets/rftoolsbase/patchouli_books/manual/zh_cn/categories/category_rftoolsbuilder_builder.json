@@ -1,0 +1,7 @@
+{
+  "name": "建造机",
+  "description": "建造机用途广泛，可以建造、采掘，也能收集资源。",
+  "parent": "rftoolsbase:category_rftoolsbuilder",
+  "icon": "rftoolsbuilder:builder",
+  "sortnum": 20
+}

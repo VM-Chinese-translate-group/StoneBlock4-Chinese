@@ -1,0 +1,7 @@
+{
+  "name": "无线网络",
+  "description": "以无线方式连接多个网络。",
+  "parent": "rftoolsbase:category_xnet",
+  "icon": "xnet:antenna",
+  "sortnum": 30
+}

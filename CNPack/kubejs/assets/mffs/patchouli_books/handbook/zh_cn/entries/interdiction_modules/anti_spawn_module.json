@@ -1,0 +1,18 @@
+{
+  "name": "反生成模块",
+  "icon": "mffs:anti_spawn_module",
+  "category": "mffs:interdiction_modules",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "mffs:anti_spawn_module",
+      "link_recipe": true,
+      "text": "$(5)反生成模块$()是$(l:mffs:machines/interdiction_matrix)结界矩阵$()的可选模块。安装后，矩阵会阻止友好生物和敌对生物在作用区域内生成。不过，站在作用范围之外的玩家仍可使用刷怪蛋，向保护区内生成生物。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mffs:anti_spawn_module",
+      "text": "制作$(5)反生成模块$()。"
+    }
+  ]
+}

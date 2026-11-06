@@ -1,0 +1,14 @@
+{
+  "setup.mdx": {
+    "name": "配置游戏内模组手册"
+  },
+  "markdown.mdx": {
+    "name": "Markdown 与 MDX 语法参考"
+  },
+  "gradle_task.mdx": {
+    "name": "（可选）使用 Gradle 自动同步 Wiki"
+  },
+  "content_unlocks.mdx": {
+    "name": "内容解锁系统"
+  }
+}

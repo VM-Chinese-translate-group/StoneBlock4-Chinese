@@ -1,0 +1,18 @@
+{
+  "name": "旋转模块",
+  "icon": "mffs:rotation_module",
+  "category": "mffs:projector_modules",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "mffs:rotation_module",
+      "link_recipe": true,
+      "text": "将旋转模块放入 $(l:mffs:machines/projector)力场投影仪$() 的方向槽位，可旋转投射的力场。$(br2)把模块放进相应槽位，即可让力场绕 X、Y 或 Z 轴旋转：$(br2)$(li)东、西：调整偏航角。$(li)上、下：调整俯仰角。$(li)南、北：调整翻滚角。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mffs:rotation_module",
+      "text": "制作$(5)旋转模块$()。"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "无限电锤",
+  "icon": "industrialforegoing:infinity_hammer",
+  "category": "industrialforegoing:tools",
+  "sortnum": 3,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "无限电锤可以对一片区域内的敌人造成伤害。随着等级提升，会解锁更高等级的$(6)斩首$()效果，方便获取生物头颅。"
+    },
+    {
+      "type": "text",
+      "text": "右击地面时，会在使用者前方的锥形区域内引发$(6)碎地冲击$()。"
+    },
+    {
+      "type": "industrialforegoing:dissolution",
+      "recipe": "industrialforegoing:dissolution_chamber/infinity_hammer"
+    }
+  ]
+}

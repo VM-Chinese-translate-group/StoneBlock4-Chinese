@@ -1,0 +1,49 @@
+{
+  "name": "维度能量单元",
+  "icon": "rftoolspower:dimensionalcell",
+  "category": "rftoolsbase:category_rftoolspower_powerstorage",
+  "extra_recipe_mappings": {
+    "rftoolspower:dimensionalcell_simple": 0,
+    "rftoolspower:dimensionalcell": 0,
+    "rftoolspower:dimensionalcell_advanced": 0,
+    "rftoolspower:dimensionalcell_creative": 0
+  },
+  "sortnum": 20,
+  "pages": [
+    {
+      "type": "text",
+      "text": "维度能量单元是一种跨维度储能装置。它与$(l:rftoolsbase:powerstorage/powercell)能量单元$(/l)一样能存储和传输 FE，但相互绑定的单元无需接触就能共享电力。"
+    },
+    {
+      "type": "text",
+      "text": "维度能量单元通过$(l:rftoolsbase:powerstorage/powercell_card)维度标记卡$(/l)连接。插入未绑定的卡片可以新建连接，也可以将单元已有的连接信息复制到另一张卡。"
+    },
+    {
+      "type": "text",
+      "text": "界面包含绑定与复制用的卡槽、FE 物品充电槽、网络储能条、各面工作模式按钮，以及查看能量输入输出情况的统计按钮。"
+    },
+    {
+      "type": "text",
+      "text": "“无”“输入”和“输出”按钮可以把所有面统一设为禁用、接收或传送 FE。也可以用$(l:rftoolsbase:tools/smartwrench)智能扳手$(/l)逐面调整：蓝色为输入，黄色为输出，空白为禁用。"
+    },
+    {
+      "type": "text",
+      "text": "维度能量单元也有一个缺点：处于$(thing)输出模式$()时，从远处单元取用 RF 会有少量损耗。通常只有几个百分点，但长期累积也不可忽视。好在可以通过$(l:rftoolsbase:machines/infusing)注能$()降低损耗。"
+    },
+    {
+      "type": "crafting",
+      "recipe": "rftoolspower:dimensionalcell_simple",
+      "text": "最低等级的维度能量单元可储存 250,000 RF，每刻最多输入或输出 1,250 RF。通过$(l:rftoolsbase:machines/infusing)注能$()可以提高传输速度。"
+    },
+    {
+      "type": "crafting",
+      "recipe": "rftoolspower:dimensionalcell",
+      "text": "中等级的维度能量单元可储存 1,000,000 RF，每刻最多输入或输出 5,000 RF。通过$(l:rftoolsbase:machines/infusing)注能$()可以提高传输速度。"
+    },
+    {
+      "type": "crafting",
+      "recipe": "rftoolspower:dimensionalcell_advanced",
+      "text": "最高等级的维度能量单元可储存 4,000,000 RF，每刻最多输入或输出 20,000 RF。通过$(l:rftoolsbase:machines/infusing)注能$()可以提高传输速度。"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "category": "irregular_implements:items",
+  "icon": "irregular_implements:grass_seeds",
+  "name": "草籽",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "irregular_implements:grass_seeds",
+      "link_recipe": true,
+      "text": "对泥土等方块使用$(d)草籽$()，可以将其变成草方块。$(br2)具体支持所有带有 $(3)irregular_implements:grass_seeds_compatible$() 标签的方块。",
+      "title": "草籽"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "irregular_implements:grass_seeds_red,irregular_implements:grass_seeds_white,irregular_implements:grass_seeds_orange,irregular_implements:grass_seeds_magenta,irregular_implements:grass_seeds_light_blue,irregular_implements:grass_seeds_yellow,irregular_implements:grass_seeds_lime,irregular_implements:grass_seeds_pink,irregular_implements:grass_seeds_gray,irregular_implements:grass_seeds_light_gray,irregular_implements:grass_seeds_cyan,irregular_implements:grass_seeds_purple,irregular_implements:grass_seeds_blue,irregular_implements:grass_seeds_brown,irregular_implements:grass_seeds_green,irregular_implements:grass_seeds_red,irregular_implements:grass_seeds_black",
+      "link_recipe": true,
+      "text": "$(d)染色草籽$()会种出对应颜色的草方块。$(br2)除颜色外，其行为与普通草方块相同。",
+      "title": "染色草籽"
+    }
+  ]
+}

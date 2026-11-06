@@ -1,0 +1,6 @@
+{
+  "parent": "irregular_implements:blocks",
+  "description": "功能板主要用于引导、搬运实体，尤其适合处理掉落物。",
+  "icon": "irregular_implements:directional_accelerator_plate",
+  "name": "功能板"
+}

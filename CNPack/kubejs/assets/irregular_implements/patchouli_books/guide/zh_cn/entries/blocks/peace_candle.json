@@ -1,0 +1,18 @@
+{
+  "category": "irregular_implements:blocks",
+  "icon": "irregular_implements:peace_candle",
+  "name": "和平蜡烛",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(d)和平蜡烛$()会阻止周围生成敌对生物。默认半径为 1 个区块，即 3×3 区块区域。$(br2)施加红石信号可关闭效果。",
+      "title": "和平蜡烛"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "irregular_implements:peace_candle",
+      "link_recipe": true,
+      "text": "部分村庄神殿中能找到和平蜡烛；通常摆放酿造台的位置，有时会换成和平蜡烛。"
+    }
+  ]
+}

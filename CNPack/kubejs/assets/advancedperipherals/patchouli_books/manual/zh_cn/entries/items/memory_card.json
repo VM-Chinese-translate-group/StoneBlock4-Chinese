@@ -1,0 +1,15 @@
+{
+  "name": "记忆卡",
+  "icon": "advancedperipherals:memory_card",
+  "category": "advancedperipherals:items",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(9)$(l:items/memory_card)记忆卡$(/l)$()可以配合$(9)$(l:peripherals/inventory_manager)库存管理器$(/l)$()访问玩家物品栏。$(p)手持记忆卡右击，即可将它绑定到自己。$(p)完整文档请参阅$(9)$(l:https://docs.advanced-peripherals.de/0.7/items/memory_card/)官方 Wiki 页面$(/l)$()！"
+    },
+    {
+      "type": "crafting",
+      "recipe": "advancedperipherals:memory_card"
+    }
+  ]
+}

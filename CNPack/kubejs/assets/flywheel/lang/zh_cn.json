@@ -1,0 +1,14 @@
+{
+  "argument.flywheel_backend.id.unknown": "未知的渲染后端“%s”",
+  "command.flywheel.backend.get": "当前 Flywheel 渲染后端为“%s”",
+  "command.flywheel.backend.set": "已将 Flywheel 渲染后端设为“%s”",
+  "command.flywheel.backend.set.unavailable": "请求的渲染后端“%s”不可用",
+  "command.flywheel.limit_updates.get.off": "当前未限制更新频率",
+  "command.flywheel.limit_updates.get.on": "当前已限制更新频率",
+  "command.flywheel.limit_updates.set.off": "已取消更新频率限制",
+  "command.flywheel.limit_updates.set.on": "已启用更新频率限制",
+  "command.flywheel.use_light_directions.get.off": "当前未使用光照方向",
+  "command.flywheel.use_light_directions.get.on": "当前正在使用光照方向",
+  "command.flywheel.use_light_directions.set.off": "已关闭光照方向",
+  "command.flywheel.use_light_directions.set.on": "已开启光照方向"
+}

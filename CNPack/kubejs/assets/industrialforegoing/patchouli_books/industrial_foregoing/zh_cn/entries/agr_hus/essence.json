@@ -1,0 +1,13 @@
+{
+  "name": "精华液（桶装）",
+  "icon": "industrialforegoing:essence_bucket",
+  "category": "industrialforegoing:agriculture_husbandry",
+  "sortnum": 7,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "由$(l:agr_hus/mob_crusher)生物粉碎机$()产生的液态经验。"
+    }
+  ]
+}

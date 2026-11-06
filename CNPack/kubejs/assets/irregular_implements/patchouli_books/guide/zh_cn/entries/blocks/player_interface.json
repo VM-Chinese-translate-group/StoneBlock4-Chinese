@@ -1,0 +1,18 @@
+{
+  "category": "irregular_implements:blocks",
+  "icon": "irregular_implements:player_interface",
+  "name": "玩家接口",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(d)玩家接口$()允许管道等设备$(3)访问主人的物品栏$()。$(br2)主人就是放置接口的玩家。$(br2)各个侧面分别对应物品栏的不同区域。",
+      "title": "玩家接口"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "irregular_implements:player_interface",
+      "link_recipe": true,
+      "text": "$(li)顶部：盔甲槽。$(li)底部：快捷栏。$(li)北侧：副手槽。$(li)其余侧面：主物品栏。"
+    }
+  ]
+}

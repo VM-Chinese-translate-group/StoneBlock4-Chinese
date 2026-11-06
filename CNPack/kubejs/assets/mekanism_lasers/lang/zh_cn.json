@@ -1,0 +1,6 @@
+{
+  "block.mekanism_lasers.energy_transformer": "能量转换器",
+  "block.mekanism_lasers.odecm": "ODECM 核心",
+  "description.mekanism.energy_transformer": "将激光转换为能量。",
+  "description.mekanism.odecm": "ODECM——矿石复制能量凝聚矩阵"
+}

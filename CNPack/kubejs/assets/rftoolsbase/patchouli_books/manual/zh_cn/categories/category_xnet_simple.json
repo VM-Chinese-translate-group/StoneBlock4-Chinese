@@ -1,0 +1,7 @@
+{
+  "name": "简单网络",
+  "description": "搭建一个简单网络。",
+  "parent": "rftoolsbase:category_xnet",
+  "icon": "xnet:netcable_red",
+  "sortnum": 10
+}

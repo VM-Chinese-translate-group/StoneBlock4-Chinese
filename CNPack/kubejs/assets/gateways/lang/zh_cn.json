@@ -1,0 +1,11 @@
+{
+  "rule.gateways.requires_nearby_player": "需要附近有玩家：%s",
+  "rule.gateways.lives": "剩余生命：%s",
+  "error.gateways.no_nearby_player": "附近没有玩家，传送门已坍缩",
+  "error.gateways.out_of_lives": "生命次数已耗尽，传送门已坍缩",
+  "subtitle.gateways.gate_warp": "传送门生成物体",
+  "subtitle.gateways.gate_ambient": "传送门环境音",
+  "subtitle.gateways.gate_start": "传送门开启",
+  "subtitle.gateways.gate_end": "传送门结束",
+  "text.gateways.errored_gate_pearl": "未知传送门：%s"
+}

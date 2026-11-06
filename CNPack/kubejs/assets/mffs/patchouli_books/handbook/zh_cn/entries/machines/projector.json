@@ -1,0 +1,36 @@
+{
+  "name": "力场投影仪",
+  "icon": "mffs:projector",
+  "category": "mffs:machines",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "mffs:projector",
+      "link_recipe": true,
+      "text": "力场投影仪是 MFFS 的核心机器之一，消耗 力场子，在世界中投射不同形状和大小的力场。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mffs:projector",
+      "text": "制作$(9)力场投影仪$()。"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "使用方法",
+      "text": "先把$(9)力场投影仪$()与附近的$(l:mffs:machines/fortron_capacitor)力场子容器$()连接，为其提供$(l:mffs:getting_started/fortron)力场子$()：$(li)右键$(9)力场投影仪$()，在界面中输入相同的频率。$(li)或手持$(l:mffs:tools/frequency_card)频率卡$()，潜行右键投影仪。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "制作所需的$(l:mffs:projector_modes)投影模式物品$()来决定形状，放入界面中央由向外箭头围绕的红色槽位。再制作一些$(l:mffs:upgrade_modules/scale_module)$(5)尺寸模块$()，放进$(9)力场投影仪$()界面左侧的矩阵槽。每个$(l:mffs:upgrade_modules/scale_module)$(5)尺寸模块$()会使力场半径增加 1 格。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "界面底部显示维持当前形状与大小的力场所需的力场子。施加红石信号后，$(9)力场投影仪$()会由红变蓝；只要$(l:mffs:getting_started/fortron)力场子$()充足，就会开始投影。$(p)要穿过力场，需要通过$(l:mffs:machines/biometric_identifier)生物识别器$()授权。"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "升级",
+      "text": "$(9)力场投影仪$()可安装多种模块。通用模块的效果如下：$(li)$(l:mffs:upgrade_modules/scale_module)$(5)尺寸模块$()：调整力场形状和大小。$(li)$(l:mffs:upgrade_modules/speed_module)$(5)速度模块$()：加快力场生成。$(li)$(l:mffs:upgrade_modules/capacity_module)$(5)电容模块$()：增加投影仪的$(l:mffs:getting_started/fortron)力场子$()储量。$()"
+    }
+  ]
+}

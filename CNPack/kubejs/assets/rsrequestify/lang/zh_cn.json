@@ -1,0 +1,9 @@
+{
+  "button.refinedstoragerequestify:requester.save": "保存",
+  "block.rsrequestify.requester": "请求器",
+  "block.rsrequestify.crafting_emitter": "合成信号发射器",
+  "block.rsrequestify.crafting_emitter.tooltip": "当过滤器中的物品或流体正在自动合成，且合成数量达到或超过设定值时，输出红石信号。",
+  "block.rsrequestify.requester.tooltip": "自动补充过滤器中的物品或流体，使库存维持在指定数量。",
+  "block.rsrequestify.requester.tooltip.filter": "需要在存储网络中保持库存的资源",
+  "block.rsrequestify.crafting_emitter.tooltip.filter": "用于触发红石信号的资源"
+}

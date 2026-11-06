@@ -1,0 +1,127 @@
+{
+  "name": "石头宠物的外观变种",
+  "icon": "petrock:petrockbox",
+  "category": "petrock:petrock_category",
+  "pages": [
+    {
+      "type": "text",
+      "title": "石头宠物的外观变种",
+      "text": "这里展示了石头宠物的各种外观。$(br)想要更换外观，只需从本列表选择一种方块，手持它右击已经驯服的石头宠物。"
+    },
+    {
+      "type": "entity",
+      "entity": "petrock:petrock{rock_variant:0}",
+      "text": "石头外观"
+    },
+    {
+      "type": "entity",
+      "entity": "petrock:petrock{rock_variant:1}",
+      "text": "下界岩外观"
+    },
+    {
+      "type": "entity",
+      "entity": "petrock:petrock{rock_variant:2}",
+      "text": "末地石外观"
+    },
+    {
+      "type": "entity",
+      "entity": "petrock:petrock{rock_variant:3}",
+      "text": "深板岩外观"
+    },
+    {
+      "type": "entity",
+      "entity": "petrock:petrock{rock_variant:4}",
+      "text": "闪长岩外观"
+    },
+    {
+      "type": "entity",
+      "entity": "petrock:petrock{rock_variant:5}",
+      "text": "花岗岩外观"
+    },
+    {
+      "type": "entity",
+      "entity": "petrock:petrock{rock_variant:6}",
+      "text": "安山岩外观"
+    },
+    {
+      "type": "entity",
+      "entity": "petrock:petrock{rock_variant:7}",
+      "text": "黏土外观"
+    },
+    {
+      "type": "entity",
+      "entity": "petrock:petrock{rock_variant:9}",
+      "text": "Squidgy 外观：将石头宠物命名为“Squidgy”即可获得。"
+    },
+    {
+      "type": "entity",
+      "entity": "petrock:petrock{rock_variant:8}",
+      "text": "基岩外观：仅创造模式可用。"
+    },
+    {
+      "type": "entity",
+      "entity": "petrock:petrock{rock_variant:-1}",
+      "text": "MissingNo 外观：正常生存流程无法获得，需要使用作弊手段。"
+    },
+    {
+      "type": "text",
+      "title": "长腿石头宠物的外观变种",
+      "text": "这里展示了长腿石头宠物的各种外观。$(br)想要更换外观，只需从本列表选择一种方块，手持它右击已经驯服的石头宠物。"
+    },
+    {
+      "type": "entity",
+      "entity": "petrock:petrockwithlegs{rock_variant:0}",
+      "text": "石头外观"
+    },
+    {
+      "type": "entity",
+      "entity": "petrock:petrockwithlegs{rock_variant:1}",
+      "text": "下界岩外观"
+    },
+    {
+      "type": "entity",
+      "entity": "petrock:petrockwithlegs{rock_variant:2}",
+      "text": "末地石外观"
+    },
+    {
+      "type": "entity",
+      "entity": "petrock:petrockwithlegs{rock_variant:3}",
+      "text": "深板岩外观"
+    },
+    {
+      "type": "entity",
+      "entity": "petrock:petrockwithlegs{rock_variant:4}",
+      "text": "闪长岩外观"
+    },
+    {
+      "type": "entity",
+      "entity": "petrock:petrockwithlegs{rock_variant:5}",
+      "text": "花岗岩外观"
+    },
+    {
+      "type": "entity",
+      "entity": "petrock:petrockwithlegs{rock_variant:6}",
+      "text": "安山岩外观"
+    },
+    {
+      "type": "entity",
+      "entity": "petrock:petrockwithlegs{rock_variant:7}",
+      "text": "黏土外观"
+    },
+    {
+      "type": "entity",
+      "entity": "petrock:petrockwithlegs{rock_variant:9}",
+      "text": "Squidgy 外观：将石头宠物命名为“Squidgy”即可获得。"
+    },
+    {
+      "type": "entity",
+      "entity": "petrock:petrockwithlegs{rock_variant:8}",
+      "text": "基岩外观：仅创造模式可用。"
+    },
+    {
+      "type": "entity",
+      "entity": "petrock:petrockwithlegs{rock_variant:-1}",
+      "text": "MissingNo 外观：正常生存流程无法获得，需要使用作弊手段。"
+    }
+  ]
+}

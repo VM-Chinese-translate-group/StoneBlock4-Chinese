@@ -1,0 +1,35 @@
+{
+  "name": "云杉",
+  "icon": "minecraft:spruce_sapling",
+  "category": "bonsaitrees4:minecraft",
+  "pages": [
+    {
+      "type": "bonsaitrees4:tree",
+      "tree_name": "云杉",
+      "tree_sapling": "minecraft:spruce_sapling"
+    },
+    {
+      "type": "patchouli:link",
+      "title": "游戏中的它",
+      "text": "云杉及其松树状变体拥有深色树皮和棕色木材。它们的生长方式与条件和白桦相近，但外观不同，主要见于针叶林生物群系。",
+      "url": "https://minecraft.wiki/w/Spruce",
+      "link_text": "Minecraft Wiki"
+    },
+    {
+      "type": "patchouli:link",
+      "title": "现实中的它",
+      "text": "现实中的云杉属于松科云杉属，该属约有 40 种常绿针叶树，分布于北温带和寒温带针叶林地区。云杉是高大乔木，成熟后通常高约 20—60 米（约 60—200 英尺），枝条轮生，树形呈圆锥状。",
+      "url": "https://en.wikipedia.org/wiki/Spruce",
+      "link_text": "Wikipedia"
+    },
+    {
+      "type": "patchouli:image",
+      "border": true,
+      "images": [
+        "bonsaitrees4:textures/patchouli/spruce_tree.png",
+        "bonsaitrees4:textures/patchouli/spruce_forest.png",
+        "bonsaitrees4:textures/patchouli/spruce_needles.png"
+      ]
+    }
+  ]
+}

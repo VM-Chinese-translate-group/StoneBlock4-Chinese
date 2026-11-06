@@ -1,0 +1,70 @@
+{
+  "name": "psi.book.entry.tutorial6",
+  "category": "psi:basics",
+  "icon": "psi:textures/spell/trick_explode.png",
+  "priority": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "psi.book.page.tutorial6.0",
+      "title": "爆炸！！"
+    },
+    {
+      "type": "text",
+      "text": "psi.book.page.tutorial6.1"
+    },
+    {
+      "type": "text",
+      "text": "psi.book.page.tutorial6.2"
+    },
+    {
+      "type": "text",
+      "text": "psi.book.page.tutorial6.3"
+    },
+    {
+      "type": "text",
+      "text": "psi.book.page.tutorial6.4"
+    },
+    {
+      "type": "text",
+      "text": "psi.book.page.tutorial6.5"
+    },
+    {
+      "type": "text",
+      "text": "psi.book.page.tutorial6.6"
+    },
+    {
+      "type": "text",
+      "text": "psi.book.page.tutorial6.7"
+    },
+    {
+      "type": "text",
+      "text": "psi.book.page.tutorial6.8"
+    },
+    {
+      "type": "text",
+      "text": "psi.book.page.tutorial6.9"
+    },
+    {
+      "type": "psi:spell_grid",
+      "spell": "{modsRequired:[{modName:\"psi\",modVersion:\"2.0.0\"}],spellList:[{data:{key:\"psi:selector_caster\"},x:3,y:3},{data:{key:\"psi:operator_entity_position\",params:{_target:1}},x:3,y:4},{data:{key:\"psi:operator_entity_look\",params:{_target:3}},x:4,y:3},{data:{key:\"psi:operator_vector_raycast\",params:{_max:0,_position:3,_ray:1}},x:4,y:4},{data:{key:\"psi:trick_explode\",params:{_position:1,_power:4}},x:4,y:5},{data:{constantValue:\"1.4\",key:\"psi:constant_number\"},x:5,y:5}],spellName:\"Explode\",uuidLeast:-8344502881889052755L,uuidMost:8904817452787319960L,validSpell:1b}",
+      "text": "psi.book.page.tutorial6.10"
+    },
+    {
+      "type": "text",
+      "text": "psi.book.page.tutorial6.11"
+    },
+    {
+      "type": "text",
+      "text": "psi.book.page.tutorial6.12"
+    },
+    {
+      "type": "text",
+      "text": "psi.book.page.tutorial6.13"
+    },
+    {
+      "type": "text",
+      "text": "psi.book.page.tutorial6.14"
+    }
+  ]
+}

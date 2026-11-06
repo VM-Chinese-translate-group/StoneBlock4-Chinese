@@ -1,0 +1,7 @@
+{
+  "name": "多网络互联",
+  "description": "通过路由器连接多个网络。",
+  "parent": "rftoolsbase:category_xnet",
+  "icon": "xnet:router",
+  "sortnum": 20
+}

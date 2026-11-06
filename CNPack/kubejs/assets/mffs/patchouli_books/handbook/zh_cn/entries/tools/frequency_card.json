@@ -1,0 +1,18 @@
+{
+  "name": "频率卡",
+  "icon": "mffs:frequency_card",
+  "category": "mffs:tools",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "mffs:frequency_card",
+      "link_recipe": true,
+      "text": "频率卡可以储存、复制和生成机器使用的频率。放入机器的频率槽即可读取该机器的频率；对另一台机器使用时，会把卡中频率写入机器。手持频率卡潜行右键，可生成随机频率。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mffs:frequency_card",
+      "text": "制作$(5)频率卡$()。"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "fancymenu.actions.blocks.else": "否则",
+  "fancymenu.actions.blocks.else_if": "否则如果（%s）",
+  "fancymenu.actions.blocks.while": "当（%s）时循环",
+  "fancymenu.actions.show_toast.default_title": "FancyMenu 通知",
+  "fancymenu.decoration_overlays.buddy": "小伙伴",
+  "fancymenu.placeholders.pi": "§opi §r（数学常数）",
+  "fancymenu.ui.filechooser.create_folder.default_name": "新建文件夹",
+  "fancymenu.actions.screens.finish.no_action_selected": "§x请先选择一个动作！",
+  "fancymenu.elements.browser.rinku_initializing.line_1": "浏览器正在启动……",
+  "fancymenu.elements.browser.rinku_initializing.line_2": "正在等待 Rinku 完成初始化。",
+  "fancymenu.elements.browser.rinku_failed.line_1": "浏览器初始化失败！",
+  "fancymenu.elements.browser.rinku_failed.line_2": "详细信息请查看游戏日志。"
+}

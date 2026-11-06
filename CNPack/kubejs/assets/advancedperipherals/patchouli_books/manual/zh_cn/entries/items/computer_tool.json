@@ -1,0 +1,15 @@
+{
+  "name": "计算机扳手",
+  "icon": "advancedperipherals:computer_tool",
+  "category": "advancedperipherals:items",
+  "pages": [
+    {
+      "type": "text",
+      "text": "计算机扳手原本用于打开本模组方块的界面。目前它没有实际功能，只是一件漂亮的物品。$(p)完整文档请参阅$(9)$(l:https://docs.advanced-peripherals.de/items/computer_tool/)官方 Wiki 页面$(/l)$()！"
+    },
+    {
+      "type": "crafting",
+      "recipe": "advancedperipherals:computer_tool"
+    }
+  ]
+}

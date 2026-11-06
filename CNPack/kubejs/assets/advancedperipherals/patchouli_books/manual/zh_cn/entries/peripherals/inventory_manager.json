@@ -1,0 +1,30 @@
+{
+  "name": "库存管理器",
+  "icon": "advancedperipherals:inventory_manager",
+  "category": "advancedperipherals:peripherals",
+  "pages": [
+    {
+      "type": "text",
+      "text": "库存管理器可以访问玩家的物品栏。使用前，先手持记忆卡右击进行绑定，再将卡放入管理器。$(p)完整文档请参阅$(9)$(l:https://docs.advanced-peripherals.de/peripherals/inventory_manager/)官方 Wiki 页面$(/l)$()！"
+    },
+    {
+      "type": "crafting",
+      "recipe": "advancedperipherals:inventory_manager"
+    },
+    {
+      "type": "multiblock",
+      "multiblock": {
+        "mapping": {
+          "0": "computercraft:computer_advanced",
+          "P": "advancedperipherals:inventory_manager"
+        },
+        "pattern": [
+          [
+            "0P"
+          ]
+        ]
+      },
+      "text": "将库存管理器连接到电脑，即可使用！"
+    }
+  ]
+}

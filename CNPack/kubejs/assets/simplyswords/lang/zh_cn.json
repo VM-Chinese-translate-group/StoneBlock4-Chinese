@@ -1,0 +1,9 @@
+{
+  "hud.simplyswords.dawnquiver.drawing": "拉弓中...",
+  "item.simplyswords.emberiresworditem.tooltip2": "向刀刃中灌注能量。松开时向瞄准的目标射出炽热碎片；蓄力越久，伤害越高。",
+  "item.simplyswords.emberiresworditem.tooltip6": "在蓄力的最后一秒内松开，可额外发射一枚碎片。",
+  "item.simplyswords.volcanicfurysworditem.tooltip7": "锁链被拉伸时会积攒压力，攻击被束缚的敌人也会增加压力。",
+  "item.simplyswords.ferocitysworditem.tooltip3": "拥有凶猛效果时，命中可触发渐强打击，伤害并击退附近敌人。",
+  "item.simplyswords.gloampiercersworditem.tooltip2": "朝 3–12 格外的敌人挥动武器，召唤一个空中暗影分身，向目标投掷爆裂长矛。",
+  "item.simplyswords.stoneskinsworditem.tooltip2": "命中时有概率牺牲移动速度，换取抗性提升。"
+}

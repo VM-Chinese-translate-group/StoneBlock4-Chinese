@@ -1,0 +1,18 @@
+{
+  "category": "irregular_implements:items",
+  "icon": "irregular_implements:block_mover",
+  "name": "方块移动器",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(d)方块移动器$()可以轻松搬动方块，$(3)连箱子这类带有方块实体的方块也可以$()！$(br2)右击方块可将其拿起，再右击一次重新放置。",
+      "title": "方块移动器"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "irregular_implements:block_mover",
+      "link_recipe": true,
+      "text": "带有方块标签 $(c)#irregular_implements:block_mover_blacklist$() 的方块不能搬运。$(br2)默认包括基岩等方块。"
+    }
+  ]
+}

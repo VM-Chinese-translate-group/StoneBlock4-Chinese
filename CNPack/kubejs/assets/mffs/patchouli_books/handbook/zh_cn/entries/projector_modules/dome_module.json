@@ -1,0 +1,18 @@
+{
+  "name": "圆顶模块",
+  "icon": "mffs:dome_module",
+  "category": "mffs:projector_modules",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "mffs:dome_module",
+      "link_recipe": true,
+      "text": "将圆顶模块放进 $(l:mffs:machines/projector)力场投影仪$() 的矩阵槽后，会移除所有低于投影仪 Y 坐标的投影方块，形成圆顶。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mffs:dome_module",
+      "text": "制作$(5)圆顶模块$()。"
+    }
+  ]
+}

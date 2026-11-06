@@ -9,5 +9,10 @@
   "mecrh.subtitle.forcefield_on": "力场：启动",
   "mecrh.subtitle.laser_end": "激光：消散",
   "mecrh.subtitle.laser_loop": "激光：发射",
-  "mecrh.subtitle.laser_start": "激光：充能"
+  "mecrh.subtitle.laser_start": "激光：充能",
+  "item.mecrh.music_disc_chicken_of_chaos": "音乐唱片",
+  "item.mecrh.test_stick": "测试木棍",
+  "mecrh.message.chicken_despawn_warning": "竞技场内没有玩家！混沌鸡将在 %s 秒后消失！",
+  "mecrh.subtitle.chaos_hurt": "混沌鸡受伤",
+  "mecrh.subtitle.clear_warn": "混沌鸡尖啸"
 }

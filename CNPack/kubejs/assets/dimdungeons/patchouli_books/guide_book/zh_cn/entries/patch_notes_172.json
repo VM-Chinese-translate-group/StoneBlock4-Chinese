@@ -1,0 +1,16 @@
+{
+  "name": "版本 172",
+  "icon": "minecraft:book",
+  "category": "dimdungeons:patch_notes",
+  "sortnum": 172,
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(li)感谢 Nageih 和 Dolosaber，更新了中文翻译。$(li)加入 George-bruh 提供的俄语翻译。$(li)取出钥匙后，传送大厅的传送门会从两侧同时关闭。此规则仅适用于 2—8 号门；第一扇橡木门永久开放，防止玩家被困。"
+    },
+    {
+      "type": "text",
+      "text": "$(li)新增 /dimdungeons getroom 命令，用于显示当前房间名称。$(li)修复其他模组通过 Mixin 修改玩家名称时，好友名单或黑名单可能失效的问题，尤其是 Apotheosis。$(li)激活钥匙现在正确返回 SUCCESS，而非 PASS，应能解决剩余的钥匙一直保持空白的问题。"
+    }
+  ]
+}

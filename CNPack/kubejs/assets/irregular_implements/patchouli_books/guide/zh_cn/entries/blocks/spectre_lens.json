@@ -1,0 +1,14 @@
+{
+  "category": "irregular_implements:blocks",
+  "icon": "irregular_implements:spectre_lens",
+  "name": "通灵透镜",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "irregular_implements:spectre_lens",
+      "link_recipe": true,
+      "text": "将$(d)通灵透镜$()放在信标上，可让信标在同一维度内无视距离作用于你。$(br2)这个扩展效果仅对放置透镜的玩家生效。",
+      "title": "通灵透镜"
+    }
+  ]
+}

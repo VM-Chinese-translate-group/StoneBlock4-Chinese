@@ -1,0 +1,22 @@
+{
+  "name": "治疗",
+  "icon": "petrock:kibble",
+  "category": "petrock:care_category",
+  "pages": [
+    {
+      "type": "text",
+      "title": "石头宠粮",
+      "text": "石头宠粮可以为受伤的石头宠物恢复生命，也可用于繁殖。"
+    },
+    {
+      "type": "crafting",
+      "recipe": "petrock:kibble"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "title": "其他食物",
+      "text": "上方列表中的物品都能为受伤的石头宠物恢复生命，也可用于繁殖。",
+      "item": "tag:petrock:petrock_food"
+    }
+  ]
+}

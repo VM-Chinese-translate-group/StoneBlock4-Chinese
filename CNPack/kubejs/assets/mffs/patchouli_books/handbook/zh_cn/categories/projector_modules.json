@@ -1,0 +1,6 @@
+{
+  "name": "投影模块",
+  "description": "适用于力场投影仪的升级模块。",
+  "sortnum": 4,
+  "icon": "mffs:dome_module"
+}

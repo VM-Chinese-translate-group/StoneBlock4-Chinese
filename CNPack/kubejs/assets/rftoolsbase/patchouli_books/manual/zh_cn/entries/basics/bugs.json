@@ -1,0 +1,16 @@
+{
+  "name": "发现了问题？",
+  "icon": "minecraft:tnt",
+  "category": "rftoolsbase:category_basics",
+  "priority": "true",
+  "pages": [
+    {
+      "type": "text",
+      "text": "如果在我的模组中发现漏洞，请通过下面对应的链接报告！不过，如果是在整合包中遇到问题，最好先向整合包作者反馈，让他们判断是否由整合包配置引起。"
+    },
+    {
+      "type": "text",
+      "text": "$(li)$(l:https://github.com/McJtyMods/DeepResonance/issues)Deep Resonance$() $(li)$(l:https://github.com/McJtyMods/RFToolsBase/issues)RFTools Base$() $(li)$(l:https://github.com/McJtyMods/RFToolsBuilder/issues)RFTools Builder$() $(li)$(l:https://github.com/McJtyMods/RFToolsControl/issues)RFTools Control$() $(li)$(l:https://github.com/McJtyMods/RFToolsDimensions/issues)RFTools Dimensions$() $(li)$(l:https://github.com/McJtyMods/RFToolsPower/issues)RFTools Power$() $(li)$(l:https://github.com/McJtyMods/RFToolsStorage/issues)RFTools Storage$() $(li)$(l:https://github.com/McJtyMods/RFToolsUtility/issues)RFTools Utility$() $(li)$(l:https://github.com/McJtyMods/XNet/issues)XNet$()"
+    }
+  ]
+}

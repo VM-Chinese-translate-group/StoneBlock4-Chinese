@@ -1,0 +1,6 @@
+{
+  "name": "投影模式",
+  "description": "力场投影仪可使用的各种力场形状。",
+  "sortnum": 3,
+  "icon": "mffs:cube_mode"
+}

@@ -1,0 +1,16 @@
+{
+  "name": "版本 152",
+  "icon": "minecraft:book",
+  "category": "dimdungeons:patch_notes",
+  "sortnum": 152,
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(li)将地牢生成拆分成更小的步骤，分散到多个游戏刻执行。$(li)为传送门基石加入音效和粒子，方便判断它是否正在工作。$(li)修复多项进度相关问题。"
+    },
+    {
+      "type": "text",
+      "text": "$(li)为沙地主题添加天花板，并调整了部分房间。$(li)修复某间提示房内盔甲架的问题。$(li)修复某位被囚村民的交易。$(li)调整模组版本编号，减少与 Minecraft 版本号的混淆。"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "版本 177",
+  "icon": "minecraft:book",
+  "category": "dimdungeons:patch_notes",
+  "sortnum": 177,
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(li)新增两间高塔房间。$(li)主题钥匙现在也会出现在高级地牢中。$(li)为自定义房间制作者增加新的数据方块。"
+    }
+  ]
+}

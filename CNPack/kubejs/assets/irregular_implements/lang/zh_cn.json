@@ -1,0 +1,14 @@
+{
+  "irregular_implements.configuration.collapseInvertsControls": "收缩时反转控制",
+  "message.irregular_implements.extraction_plate.input_direction": "提取板输入方向：%s",
+  "message.irregular_implements.inventory_rerouter.side": "%s 面已重定向到 %s",
+  "message.irregular_implements.processing_plate.input_direction": "加工板提取方向：%s",
+  "message.irregular_implements.processing_plate.output_direction": "加工板输出方向：%s",
+  "tooltip.irregular_implements.fireplace_home": "家",
+  "Welcome to the Irregular Implements!": "欢迎使用奇趣道具！",
+  "Irregular Implements Instructional Index": "奇趣道具使用指南",
+  "tooltip.irregular_implements.lazy": "记忆模式",
+  "tooltip.irregular_implements.not_lazy": "实时模式",
+  "tooltip.irregular_implements.show_lazy_shape": "显示记忆形状",
+  "tooltip.irregular_implements.forget_lazy_shape": "清除记忆形状"
+}

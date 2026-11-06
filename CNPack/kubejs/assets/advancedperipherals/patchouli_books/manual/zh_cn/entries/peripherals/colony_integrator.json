@@ -1,0 +1,30 @@
+{
+  "name": "殖民地接口",
+  "icon": "advancedperipherals:colony_integrator",
+  "category": "advancedperipherals:peripherals",
+  "pages": [
+    {
+      "type": "text",
+      "text": "殖民地接口可以与模拟殖民地（MineColonies）的殖民地交互。$(p)完整文档请参阅$(9)$(l:https://docs.advanced-peripherals.de/peripherals/colony_integrator/)官方 Wiki 页面$(/l)$()！"
+    },
+    {
+      "type": "crafting",
+      "recipe": "advancedperipherals:colony_integrator"
+    },
+    {
+      "type": "multiblock",
+      "multiblock": {
+        "mapping": {
+          "0": "computercraft:computer_advanced",
+          "P": "advancedperipherals:colony_integrator"
+        },
+        "pattern": [
+          [
+            "0P"
+          ]
+        ]
+      },
+      "text": "将殖民地接口连接到殖民地范围内的电脑，即可使用！"
+    }
+  ]
+}

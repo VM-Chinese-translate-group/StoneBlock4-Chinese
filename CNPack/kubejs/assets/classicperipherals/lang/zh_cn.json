@@ -1,0 +1,17 @@
+{
+  "block.classicperipherals.antenna": "无线电天线",
+  "block.classicperipherals.cryptographic_accelerator": "加密运算加速器",
+  "block.classicperipherals.cryptographic_accelerator_slim": "加密运算加速器",
+  "block.classicperipherals.nfc_reader": "NFC 读卡器",
+  "block.classicperipherals.rfid_scanner": "RFID 扫描器",
+  "block.classicperipherals.scanner": "扫描器",
+  "block.classicperipherals.tower_base": "无线电塔控制器",
+  "block.classicperipherals.tower_head": "无线电塔天线",
+  "block.classicperipherals.tower_segment": "无线电塔杆",
+  "item.classicperipherals.copper_coil": "铜线圈",
+  "item.classicperipherals.nfc_card": "NFC 卡",
+  "item.classicperipherals.rfid_badge": "RFID 徽章",
+  "tooltip.classicperipherals.enderModemNerf": "Classic Peripherals 将末影调制解调器的通信范围限制为无线调制解调器的 %.2f 倍。",
+  "upgrade.crypto.adjective": "加密运算",
+  "upgrade.radio.adjective": "无线电"
+}

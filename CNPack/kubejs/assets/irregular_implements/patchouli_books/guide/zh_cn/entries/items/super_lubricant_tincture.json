@@ -1,0 +1,18 @@
+{
+  "category": "irregular_implements:items",
+  "icon": "irregular_implements:super_lubricant_tincture",
+  "name": "超级滑滑剂",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "将$(d)超级滑滑剂$()与任意靴子合成，可使穿戴者在低于一定速度时$(3)完全不受摩擦力影响$()。$(br2)一旦滑起来，就很难停下！",
+      "title": "超级滑滑剂"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "irregular_implements:super_lubricant_tincture",
+      "link_recipe": true,
+      "text": "把处理后的靴子与水瓶合成，即可洗去润滑剂。"
+    }
+  ]
+}

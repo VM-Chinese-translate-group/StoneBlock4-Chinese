@@ -1,0 +1,30 @@
+{
+  "name": "RS 网关",
+  "icon": "advancedperipherals:rs_bridge",
+  "category": "advancedperipherals:peripherals",
+  "pages": [
+    {
+      "type": "text",
+      "text": "RS 网关可以与精致存储网络交互，用来提取物品、发起合成、获取全部物品列表等。$(p)完整文档请参阅$(9)$(l:https://docs.advanced-peripherals.de/peripherals/rs_bridge/)官方 Wiki 页面$(/l)$()！"
+    },
+    {
+      "type": "crafting",
+      "recipe": "advancedperipherals:rs_bridge"
+    },
+    {
+      "type": "multiblock",
+      "multiblock": {
+        "mapping": {
+          "0": "computercraft:computer_advanced",
+          "P": "advancedperipherals:rs_bridge"
+        },
+        "pattern": [
+          [
+            "0P"
+          ]
+        ]
+      },
+      "text": "将 RS 网关连接到电脑，即可使用！"
+    }
+  ]
+}

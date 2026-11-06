@@ -1,0 +1,31 @@
+{
+  "name": "线缆",
+  "icon": "xnet:netcable_red",
+  "category": "rftoolsbase:category_xnet_simple",
+  "extra_recipe_mappings": {
+    "xnet:netcable_red": 0,
+    "xnet:netcable_green": 0,
+    "xnet:netcable_blue": 0,
+    "xnet:netcable_yellow": 0,
+    "xnet:netcable_routing": 0
+  },
+  "sortnum": 20,
+  "pages": [
+    {
+      "type": "text",
+      "text": "彩色线缆组成局部网络。红、绿、蓝、黄四种颜色之间不会相连，即使紧挨着放置也一样。"
+    },
+    {
+      "type": "text",
+      "text": "路由线缆用途不同：它们配合路由器和无线路由器，把多个控制器网络连接起来。"
+    },
+    {
+      "type": "crafting",
+      "recipe": "xnet:netcable_red"
+    },
+    {
+      "type": "crafting",
+      "recipe": "xnet:netcable_routing"
+    }
+  ]
+}

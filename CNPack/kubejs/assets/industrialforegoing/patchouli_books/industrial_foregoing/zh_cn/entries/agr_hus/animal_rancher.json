@@ -1,0 +1,17 @@
+{
+  "name": "动物资源收获机",
+  "icon": "industrialforegoing:animal_rancher",
+  "category": "industrialforegoing:agriculture_husbandry",
+  "sortnum": 0,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "用于给绵羊$(6)剪毛$()，或给奶牛$(6)挤奶$()。"
+    },
+    {
+      "type": "crafting",
+      "recipe": "industrialforegoing:animal_rancher"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "name": "警告模块",
+  "icon": "mffs:warn_module",
+  "category": "mffs:interdiction_modules",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "mffs:warn_module",
+      "link_recipe": true,
+      "text": "将警告模块放入$(l:mffs:machines/interdiction_matrix)结界矩阵$()的模块槽后，矩阵会定期向作用范围内所有未授权玩家发送警告。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mffs:warn_module",
+      "text": "制作$(5)警告模块$()。"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "category": "irregular_implements:blocks",
+  "icon": "irregular_implements:slime_cube",
+  "name": "史莱姆立方",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "irregular_implements:slime_cube",
+      "link_recipe": true,
+      "text": "$(bold)史莱姆立方$()未通电时，会使周围区域能够生成史莱姆。默认作用半径为 1 个区块，即以自身所在区块为中心的 3×3 区块范围。$(br2)通电后则反过来，阻止同一区域内生成史莱姆。",
+      "title": "史莱姆立方"
+    }
+  ]
+}

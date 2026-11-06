@@ -1,0 +1,21 @@
+{
+  "category": "irregular_implements:items",
+  "icon": "irregular_implements:ender_bucket",
+  "name": "末影桶",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "irregular_implements:ender_bucket",
+      "link_recipe": true,
+      "text": "$(d)末影桶$()可以远距离收取流体。$(br2)对流动流体使用空桶时，它会寻找最近的源方块，并将其收走。",
+      "title": "末影桶"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "irregular_implements:reinforced_ender_bucket",
+      "link_recipe": true,
+      "text": "$(d)强化末影桶$()功能相同，但最多能$(3)同时储存 10 桶流体$()。",
+      "title": "强化末影桶"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "category": "irregular_implements:blocks/redstone",
+  "icon": "irregular_implements:contact_lever",
+  "name": "接触式拉杆",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "irregular_implements:contact_lever",
+      "link_recipe": true,
+      "text": "点击$(d)接触式拉杆$()正前方的方块，可切换拉杆开关状态。$(br2)开启时，其余侧面会输出红石信号。",
+      "title": "接触式拉杆"
+    }
+  ]
+}

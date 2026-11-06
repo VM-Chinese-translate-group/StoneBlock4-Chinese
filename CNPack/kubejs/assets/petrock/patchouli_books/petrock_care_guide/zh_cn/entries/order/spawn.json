@@ -1,0 +1,25 @@
+{
+  "name": "迎接你的新宠物",
+  "icon": "petrock:petrockbox",
+  "category": "petrock:order_category",
+  "pages": [
+    {
+      "type": "text",
+      "title": "如何放出宠物",
+      "text": "使用这个物品，会在点击的位置生成一只尚未驯服的石头宠物。"
+    },
+    {
+      "type": "entity",
+      "entity": "petrock:petrock"
+    },
+    {
+      "type": "crafting",
+      "recipe": "petrock:petrockwithlegsbox",
+      "text": "宠物还在盒子里时，你也可以为它装上石腿。"
+    },
+    {
+      "type": "entity",
+      "entity": "petrock:petrockwithlegs"
+    }
+  ]
+}

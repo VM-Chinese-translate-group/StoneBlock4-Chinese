@@ -1,0 +1,7 @@
+{
+  "name": "形状卡",
+  "description": "形状卡用于记录指定形状，可供建造机和护盾投射仪使用。",
+  "parent": "rftoolsbase:category_rftoolsbuilder",
+  "icon": "rftoolsbuilder:shape_card_def",
+  "sortnum": 10
+}

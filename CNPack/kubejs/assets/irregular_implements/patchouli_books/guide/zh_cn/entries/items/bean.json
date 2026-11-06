@@ -1,0 +1,14 @@
+{
+  "category": "irregular_implements:items",
+  "icon": "irregular_implements:bean",
+  "name": "豆子",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "irregular_implements:bean",
+      "link_recipe": true,
+      "text": "普通的$(d)豆子$()，可用于一些配方。$(br2)自然生长于主世界不炎热、不寒冷、不干燥且植被不稀疏的生物群系。$(br2)对泥土使用即可种下更多豆子！",
+      "title": "豆子"
+    }
+  ]
+}

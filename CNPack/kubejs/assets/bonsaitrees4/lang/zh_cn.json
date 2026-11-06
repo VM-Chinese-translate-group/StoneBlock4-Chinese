@@ -1,0 +1,13 @@
+{
+  "jei.bonsaitrees4.recipes.chance": "概率：§e%.1f%%§r",
+  "jei.bonsaitrees4.recipes.rolls": "抽取次数：§e%d§r",
+  "bonsaitrees4.configuration.debug.show_unused_soil_recipes_in_jei": "在 JEI 中显示未使用的土壤配方",
+  "bonsaitrees4.configuration.debug.show_unused_soil_recipes_in_jei.tooltip": "有助于排查土壤配方问题。",
+  "bonsaitrees4.configuration.debug.show_rolls_as_count_in_jei": "在 JEI 中将抽取次数显示为物品数量",
+  "bonsaitrees4.configuration.debug.show_rolls_as_count_in_jei.tooltip": "显示生成掉落物时对该物品进行多少次抽取。",
+  "bonsaitrees4.configuration.gameplay.toolAllowIndestructible": "允许使用不损耗耐久的工具",
+  "bonsaitrees4.configuration.gameplay.toolAllowIndestructible.tooltip": "启用后，不会损耗耐久的工具（例如神秘农业的至尊斧）也能用于砍伐盆景。",
+  "The Book of Trees": "树木之书",
+  "Everything you wanted to know about the trees in your world.$(br2)Includes$(li)3D pictures$(li)Short descriptions$(li)Real world photography$(li)Your favorite facts$(br2)Explore the beautiful world of trees! This book teaches you everything you need to know about the art of Bonsai Trees.": "关于这个世界中的树木，你想了解的知识都在这里。$(br2)本书收录：$(li)三维图像$(li)简明介绍$(li)实景照片$(li)有趣的树木知识$(br2)一起来探索美丽的树木世界吧！本书将带你掌握盆栽树的栽培之道。",
+  "Bonsai Edition": "盆栽版"
+}

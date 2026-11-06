@@ -1,0 +1,35 @@
+{
+  "name": "杜鹃",
+  "icon": "minecraft:flowering_azalea",
+  "category": "bonsaitrees4:minecraft",
+  "pages": [
+    {
+      "type": "bonsaitrees4:tree",
+      "tree_name": "杜鹃",
+      "tree_sapling": "minecraft:flowering_azalea"
+    },
+    {
+      "type": "patchouli:link",
+      "title": "游戏中的它",
+      "text": "杜鹃树较为罕见，可能生成在繁茂洞穴生物群系上方，是地表识别繁茂洞穴的线索。它的根系会向下延伸，直达地下洞穴。",
+      "url": "https://minecraft.wiki/w/Azalea_tree",
+      "link_text": "Minecraft Wiki"
+    },
+    {
+      "type": "patchouli:link",
+      "title": "现实中的它",
+      "text": "杜鹃是杜鹃花科杜鹃花属的开花灌木，通常在春季开花，花期可持续数周。它们耐阴，喜欢生长在树木附近或树荫下。园艺爱好者培育杜鹃品种的历史已有数百年。",
+      "url": "https://en.wikipedia.org/wiki/Azalea",
+      "link_text": "Wikipedia"
+    },
+    {
+      "type": "patchouli:image",
+      "border": true,
+      "images": [
+        "bonsaitrees4:textures/patchouli/azalea_shrub.png",
+        "bonsaitrees4:textures/patchouli/azalea_flower.png",
+        "bonsaitrees4:textures/patchouli/azalea_garden.png"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "入门",
+  "icon": "advancedperipherals:weak_automata_core",
+  "category": "advancedperipherals:metaphysics",
+  "priority": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "这个世界仍对你藏着许多秘密。你隐约觉得，即使是一只普通海龟，也能成为操控现实的强大工具；只需在其中放入某种真实的东西。某种更像是……灵魂的东西？"
+    }
+  ]
+}

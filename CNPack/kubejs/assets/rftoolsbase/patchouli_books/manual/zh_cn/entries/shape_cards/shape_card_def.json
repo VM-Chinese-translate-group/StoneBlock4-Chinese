@@ -1,0 +1,23 @@
+{
+  "name": "普通形状卡",
+  "icon": "rftoolsbuilder:shape_card_def",
+  "category": "rftoolsbase:category_rftoolsbuilder_shape_cards",
+  "extra_recipe_mappings": {
+    "rftoolsbuilder:shape_card_def": 1
+  },
+  "sortnum": 10,
+  "pages": [
+    {
+      "type": "text",
+      "text": "普通形状卡记录形状、尺寸、偏移量及实心或空心模式。放入建造机可按形状放置方块；放入护盾投射仪则可定义对应形状的护盾。"
+    },
+    {
+      "type": "crafting",
+      "recipe": "rftoolsbuilder:shape_card_def"
+    },
+    {
+      "type": "text",
+      "text": "右击卡片可编辑长方体、球体、圆柱、圆锥、圆环、棱柱、扫描结果或组合形状等。潜行使用还能辅助选取世界中的位置。"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "name": "模拟器",
+  "icon": "rftoolsutility:analog",
+  "category": "rftoolsbase:category_rftoolsutility_logic",
+  "extra_recipe_mappings": {
+    "rftoolsutility:analog": 0
+  },
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(item)模拟器$()可以根据 A、B 两个输入的比较结果，对主输入信号进行运算。$(br2)右击打开界面，其中会标出输出端 O、主输入端 I，以及两侧的比较输入端 A 和 B。"
+    },
+    {
+      "type": "crafting",
+      "heading": "Analog",
+      "recipe": "rftoolsutility:analog",
+      "text": "下一页有界面示意及详细说明。"
+    },
+    {
+      "type": "text",
+      "title": "界面",
+      "text": "界面标出了输出端、主输入端及 A/B 比较输入端。针对每种比较结果，都可以设置作用于主输入信号的乘数与偏移量。"
+    },
+    {
+      "type": "text",
+      "text": "模拟器示意图下方列出三种条件：A = B、A 小于 B，以及 A 大于 B。$(br2)每种条件都可以对主输入做基本算术运算，既能乘上指定倍数，也能加上指定数值。例如，把输入信号翻倍，再加 10。"
+    },
+    {
+      "type": "text",
+      "text": "想要做除法或减法，可以分别使用小于 1 的乘数，或加上负数。例如，乘以 0.5 相当于除以 2，加上 -10 相当于减去 10。$(br2)由于这里处理的是红石信号，结果高于 15 时按满强度 15 输出，低于 0 时则不输出信号。$(br2)$(i)数学是不是挺有意思？$()"
+    }
+  ]
+}

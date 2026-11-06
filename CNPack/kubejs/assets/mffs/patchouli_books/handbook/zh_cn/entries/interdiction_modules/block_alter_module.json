@@ -1,0 +1,18 @@
+{
+  "name": "修改拦截模块",
+  "icon": "mffs:block_alter_module",
+  "category": "mffs:interdiction_modules",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "mffs:block_alter_module",
+      "link_recipe": true,
+      "text": "$(5)修改拦截模块$()是$(l:mffs:machines/interdiction_matrix)结界矩阵$()的可选模块，用于阻止玩家放置或破坏方块。玩家试图修改$(l:mffs:machines/interdiction_matrix)结界矩阵$()作用区内的方块时，会收到无权限提示，所做的更改也会被还原。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mffs:block_alter_module",
+      "text": "制作$(5)修改拦截模块$()。"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "name": "机器注能",
+  "icon": "rftoolsbase:machine_infuser",
+  "category": "rftoolsbase:category_machines",
+  "extra_recipe_mappings": {
+    "rftoolsbase:machine_infuser": 0
+  },
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(item)机器注能机$()消耗$(l:rftoolsbase:basics/dimensional_shards)维度碎片$()，$(thing)提升多种机器的效率$()。大多数机器注能后会降低耗电量，部分装置还会获得额外增益。$(br2)给注能机本身进行$(thing)注能$()，也能降低它的耗电量。"
+    },
+    {
+      "type": "crafting",
+      "recipe": "rftoolsbase:machine_infuser",
+      "text": "根据已安装的其他模组，机器注能机还有更多用途，详见下一页。"
+    },
+    {
+      "type": "text",
+      "flag": "mod:rftoolsutility",
+      "title": "RF工具丨实用设备",
+      "text": "$(li)$(l:rftoolsbase:machines/environmental)环境控制器$() $(li)$(l:rftoolsbase:machines/dialing_device)传送控制器$() $(li)$(l:rftoolsbase:machines/matter_receiver)物质接收器$() $(li)$(l:rftoolsbase:machines/matter_transmitter)物质传输器$()（提高速度）$(li)$(l:rftoolsbase:machines/spawner)刷怪笼$() $(li)$(l:rftoolsbase:machines/matter_beamer)物质投影仪$()（提高速度、减少所需物品）$(li)$(l:rftoolsbase:machines/screen_controller)屏幕控制器$()（扩大范围）$(li)$(l:rftoolsbase:machines/crafter)合成器$()"
+    },
+    {
+      "type": "text",
+      "flag": "mod:rftoolsstorage",
+      "title": "RFTools Storage",
+      "text": "$(li)存储扫描器"
+    },
+    {
+      "type": "text",
+      "flag": "mod:rftoolspower",
+      "title": "RF工具丨能量",
+      "text": "$(li)$(l:rftoolsbase:powergeneration/coalgenerator)燃煤发电机$() $(li)$(l:rftoolsbase:powergeneration/endergenic)末影能发电机$()（提高发电量、降低保持末影珍珠时的能量损耗）$(li)$(l:rftoolsbase:powerstorage/dimensionalcell)维度能量单元$()（降低远距离取用 RF 的损耗、提高每刻输出）$(li)$(l:rftoolsbase:powergeneration/blazingagitator)烈焰激活器$()（提高烈焰棒品质）$(li)$(l:rftoolsbase:powergeneration/blazinggenerator)烈焰发电机$()（提高发电量）"
+    },
+    {
+      "type": "text",
+      "flag": "mod:rftoolsdim",
+      "title": "RFTools Dimensions",
+      "text": "$(li)研究器（提高速度）$(li)维度构建器（提高速度）"
+    },
+    {
+      "type": "text",
+      "flag": "mod:rftoolsbuilder",
+      "title": "RF工具丨建筑机",
+      "text": "$(li)$(l:rftoolsbase:shield/shield_intro)护盾投射仪$()（提高伤害）$(li)$(l:rftoolsbase:builder/builder_intro)建造机$()（提高速度）"
+    }
+  ]
+}

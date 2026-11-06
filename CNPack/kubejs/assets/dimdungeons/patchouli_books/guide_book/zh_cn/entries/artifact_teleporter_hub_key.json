@@ -1,0 +1,22 @@
+{
+  "name": "传送大厅钥匙",
+  "icon": "dimdungeons:item_blank_teleporter_key",
+  "category": "dimdungeons:artifacts",
+  "sortnum": 60,
+  "advancement": "dimdungeons:dungeons/find_teleporter_key",
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "dimdungeons:item_blank_teleporter_key",
+      "text": "你找到了一把通往$(bold)传送大厅$()的钥匙！严格来说，每座大厅也是一座地牢，只是里面没有生物或宝藏，而是一间开阔大厅：八扇门分别通往八座传送门，每扇门都有自己的钥匙。"
+    },
+    {
+      "type": "text",
+      "text": "你手中的钥匙对应八扇门中的第一扇。进入大厅后，就能取得其余七把钥匙。用这些钥匙搭建的传送门会与大厅中的对应出口相连，让你轻松跨越遥远距离，甚至往返不同维度！"
+    },
+    {
+      "type": "text",
+      "text": "别忘了，通往地牢维度的传送门可以搭在任何维度。你可以用这些钥匙把基地、要塞和末地外岛连成捷径。每把新找到的空白传送大厅钥匙都通往一座新的大厅，里面另有七把不同的钥匙。传送大厅钥匙无法补办，千万别弄丢！"
+    }
+  ]
+}

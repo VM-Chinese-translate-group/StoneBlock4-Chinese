@@ -1,0 +1,17 @@
+{
+  "name": "生物屠宰厂",
+  "icon": "industrialforegoing:mob_slaughter_factory",
+  "category": "industrialforegoing:agriculture_husbandry",
+  "sortnum": 9,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "将怪物和动物加工成$(l:agr_hus/meat)肉汤$()和$(l:agr_hus/pink_slime)粉红黏液$()。被这台机器杀死的生物不会掉落物品或经验。$(br2)友好生物产生的粉红黏液比非友好生物更多。"
+    },
+    {
+      "type": "crafting",
+      "recipe": "industrialforegoing:mob_slaughter_factory"
+    }
+  ]
+}

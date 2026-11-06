@@ -1,0 +1,14 @@
+{
+  "category": "irregular_implements:blocks/plates",
+  "icon": "irregular_implements:item_sealer_plate",
+  "name": "物品封滞板",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "irregular_implements:item_sealer_plate",
+      "link_recipe": true,
+      "text": "掉落物接触$(bold)物品封滞板$()后，接下来的 30 秒内无法被拾取。",
+      "title": "物品封滞板"
+    }
+  ]
+}

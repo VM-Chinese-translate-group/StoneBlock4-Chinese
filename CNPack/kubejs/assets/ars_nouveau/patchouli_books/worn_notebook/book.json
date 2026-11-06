@@ -1,0 +1,6 @@
+{
+  "name": "元素笔记",
+  "landing_text": "从破旧笔记本中散落的笔记",
+  "version": 1,
+  "extend": "ars_nouveau:worn_notebook"
+}

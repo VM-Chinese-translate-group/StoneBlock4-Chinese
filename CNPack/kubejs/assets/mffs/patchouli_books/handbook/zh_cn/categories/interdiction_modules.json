@@ -1,0 +1,6 @@
+{
+  "name": "结界模块",
+  "description": "适用于结界矩阵的升级模块。",
+  "sortnum": 5,
+  "icon": "mffs:anti_hostile_module"
+}

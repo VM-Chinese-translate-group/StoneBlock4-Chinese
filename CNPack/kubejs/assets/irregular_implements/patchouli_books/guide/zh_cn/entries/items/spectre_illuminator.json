@@ -1,0 +1,19 @@
+{
+  "category": "irregular_implements:items",
+  "icon": "irregular_implements:spectre_illuminator",
+  "name": "通灵光源",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "irregular_implements:spectre_illuminator",
+      "link_recipe": true,
+      "text": "$(d)通灵光源$()可$(3)照亮整个区块$()。$(br2)使用后会放出一个缓缓上浮的实体，最终停在略高于区块最高方块的位置。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "irregular_implements:blackout_powder",
+      "link_recipe": true,
+      "text": "右击该实体，或在区块内使用$(d)消光粉$()，即可移除照明。"
+    }
+  ]
+}

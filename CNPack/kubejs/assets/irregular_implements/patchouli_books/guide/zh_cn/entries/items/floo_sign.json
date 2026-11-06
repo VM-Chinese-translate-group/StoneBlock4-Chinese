@@ -1,0 +1,32 @@
+{
+  "category": "irregular_implements:items",
+  "icon": "irregular_implements:floo_sign",
+  "name": "飞路网络",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "irregular_implements:floo_sign",
+      "link_recipe": true,
+      "text": "$(d)飞路网络$()可以在同一维度的不同$(3)飞路壁炉$()之间传送。$(br2)对已放置的砖块使用$(d)飞路牌$()，就会将它们转为$(3)飞路砖块$()并组成壁炉。壁炉名称取自飞路牌在铁砧中设置的名称。",
+      "title": "飞路网络"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "irregular_implements:floo_brick",
+      "link_recipe": true,
+      "text": "飞路牌没有命名时，创建的壁炉也没有名字。无名壁炉$(c)不能作为传送目的地$()，但可以作为出发点。$(br2)站在壁炉上，$(3)在聊天中说出另一座壁炉的名字$()即可传送。$(br2)传送需要飞路粉，详情见下页。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "irregular_implements:floo_powder",
+      "link_recipe": true,
+      "text": "传送时需手持$(d)飞路粉$()，每次消耗 1 份。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "irregular_implements:floo_pouch",
+      "link_recipe": true,
+      "text": "也可使用$(d)飞路袋$()，最多存放 128 份飞路粉，放在物品栏任意位置均可生效。$(br2)潜行右击飞路袋，可将物品栏中的飞路粉装入袋中。"
+    }
+  ]
+}

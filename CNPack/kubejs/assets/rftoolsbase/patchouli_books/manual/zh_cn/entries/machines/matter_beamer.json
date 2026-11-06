@@ -1,0 +1,29 @@
+{
+  "name": "物质投影仪",
+  "icon": "rftoolsutility:matter_beamer",
+  "category": "rftoolsbase:category_rftoolsutility_machines",
+  "extra_recipe_mappings": {
+    "rftoolsutility:matter_beamer": 0
+  },
+  "pages": [
+    {
+      "type": "text",
+      "text": "物质投影仪向$(l:rftoolsbase:machines/spawner)刷怪笼$(/l)输送材料。它有一个输入槽，运行时消耗 FE；只有相连刷怪笼能够使用的物品才会被输送。"
+    },
+    {
+      "type": "crafting",
+      "heading": "Matter Beamer",
+      "recipe": "rftoolsutility:matter_beamer"
+    },
+    {
+      "type": "text",
+      "title": "绑定",
+      "text": "先用扳手选中物质投影仪，再对目标刷怪笼使用扳手，即可绑定。对已选中的投影仪再次使用扳手，会清除目的地。"
+    },
+    {
+      "type": "text",
+      "title": "操作",
+      "text": "向投影仪提供红石信号，并放入刷怪配方需要的材料。$(5)注能$()后，每个脉冲可输送更多物品，且耗电量降低。"
+    }
+  ]
+}

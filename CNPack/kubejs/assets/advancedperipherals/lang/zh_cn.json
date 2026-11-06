@@ -1,0 +1,7 @@
+{
+  "item.advancedperipherals.end_automata_core": "末地自动化核心",
+  "item.advancedperipherals.tooltip.colony_integrator": "&7读取 MineColonies 殖民地及居民的数据。",
+  "item.advancedperipherals.tooltip.player_detector": "&7这个外设可以侦测玩家的位置；请尊重其他玩家的隐私。",
+  "Advanced Peripherals": "高级外设手册",
+  "This manual provides basic information about all the peripherals added by this mod.$(p)For more information please see $(9)$(l:https://docs.advanced-peripherals.de/)the official documentation$(/l)$().": "本手册介绍模组所添加的各类外设的基本用法。$(p)更多信息请参阅$(9)$(l:https://docs.advanced-peripherals.de/)官方文档$(/l)$()。"
+}

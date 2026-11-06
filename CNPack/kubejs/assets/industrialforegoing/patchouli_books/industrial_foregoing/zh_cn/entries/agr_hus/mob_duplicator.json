@@ -1,0 +1,20 @@
+{
+  "name": "生物复制机",
+  "icon": "industrialforegoing:mob_duplicator",
+  "category": "industrialforegoing:agriculture_husbandry",
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "用于生成生物。提供能量、$(l:agr_hus/essence)精华液$()，以及装有目标实体的$(l:tools/mib)生物捕捉工具$()后，机器会在周围生成这种实体。$(br2)机器会统计附近的实体数量，过多时自动停止。"
+    },
+    {
+      "type": "crafting",
+      "recipe": "industrialforegoing:mob_duplicator"
+    },
+    {
+      "type": "crafting",
+      "recipe": "industrialforegoing:mob_imprisonment_tool"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "custommachinerycreate.gui.creation.components.contraption": "旋转动力",
+  "custommachinery.machine.component.contraption": "旋转动力",
+  "custommachinerycreate.gui.creation.components.contraption.stress_impact": "应力占用",
+  "custommachinerycreate.requirement.blazeburner.info": "所需热量：%s",
+  "custommachinerycreate.requirement.contraption.info.speed.input": "所需转速：%s RPM",
+  "custommachinerycreate.requirement.contraption.info.speed.output": "输出转速：%s RPM",
+  "custommachinerycreate.requirement.contraption.info.stress.input": "应力占用：%s×转速（RPM）",
+  "custommachinerycreate.requirement.contraption.info.stress.output": "应力容量：%s×转速（RPM）",
+  "custommachinerycreate.requirement.contraption.info.scaling": "加工速度随转速提高而加快",
+  "custommachinerycreate.requirement.contraption.error.speed.input": "转速不足：需要 %s RPM，当前为 %s RPM",
+  "custommachinerycreate.requirement.contraption.error.stress.input": "这台机器的应力已超载！"
+}

@@ -1,0 +1,17 @@
+{
+  "name": "镭射钻基座",
+  "icon": "industrialforegoing:ore_laser_base",
+  "category": "industrialforegoing:resource_production",
+  "sortnum": 14,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "由$(l:resource_production/laser_drill)镭射钻$()充满能量后，即可产出矿石。每种矿石的产出权重取决于机器所在的生物群系以及设定的钻探深度。$(br2)安装镭射透镜可以提高对应矿石的产出权重。$(br2)具体数值请查看 JEI。"
+    },
+    {
+      "type": "crafting",
+      "recipe": "industrialforegoing:ore_laser_base"
+    }
+  ]
+}

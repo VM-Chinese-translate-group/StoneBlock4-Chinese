@@ -1,0 +1,22 @@
+---
+title: 末影桥
+id: irregular_implements:ender_bridge
+icon: irregular_implements:item/ender_bridge
+related_items: [irregular_implements:ender_bridge, irregular_implements:prismarine_ender_bridge, irregular_implements:ender_anchor]
+type: block
+---
+
+
+**末影桥**和**海晶石末影桥**收到红石信号时，会将上方的实体传送到其瞄准的**末影锚**。
+
+传送可穿过方块，距离不限，途中也可以经过未加载区块，但目标末影锚必须处于已加载区块内。桥必须**正对**目标锚。
+
+收到信号后，桥会在已加载的末影锚中寻找瞄准方向上最近的一座。找不到时会发出失败提示音。
+
+找到目标后，桥会先蓄力再传送。蓄力时间由距离和桥的等级决定。
+
+普通末影桥每相隔 1 格需蓄力 1 刻；海晶石末影桥的速度是它的两倍。
+
+<ProjectRecipe id="irregular_implements:ender_bridge"/>
+<ProjectRecipe id="irregular_implements:prismarine_ender_bridge"/>
+<ProjectRecipe id="irregular_implements:ender_anchor"/>

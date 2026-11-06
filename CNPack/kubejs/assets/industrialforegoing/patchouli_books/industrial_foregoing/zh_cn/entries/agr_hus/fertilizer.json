@@ -1,0 +1,13 @@
+{
+  "name": "肥料",
+  "icon": "industrialforegoing:fertilizer",
+  "category": "industrialforegoing:agriculture_husbandry",
+  "sortnum": 15,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "由$(l:agr_hus/sewage_composter)污水堆肥机$()生产的材料，使用方式与骨粉相同。"
+    }
+  ]
+}

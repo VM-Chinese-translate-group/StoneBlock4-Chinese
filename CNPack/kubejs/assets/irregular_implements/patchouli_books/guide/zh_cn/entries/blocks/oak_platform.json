@@ -1,0 +1,28 @@
+{
+  "category": "irregular_implements:blocks",
+  "icon": "irregular_implements:oak_platform",
+  "name": "平台",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "irregular_implements:oak_platform,irregular_implements:oak_platform,irregular_implements:spruce_platform,irregular_implements:birch_platform,irregular_implements:jungle_platform,irregular_implements:acacia_platform,irregular_implements:dark_oak_platform,irregular_implements:crimson_platform,irregular_implements:warped_platform,irregular_implements:mangrove_platform,irregular_implements:bamboo_platform,irregular_implements:cherry_platform",
+      "link_recipe": true,
+      "text": "$(bold)平台$()可以从上方站立，但从下方或侧面可以直接穿过。$(br2)潜行时也能从平台上落下。",
+      "title": "平台"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "irregular_implements:super_lubricant_platform",
+      "link_recipe": true,
+      "text": "$(d)超级滑滑平台$()拥有普通平台的功能，还像其他$(l:blocks/super_lubricant_stone)超级滑滑方块$(/l)一样完全没有摩擦力。$(br2)它很适合运送物品，尤其适合搭配$(l:blocks/plates)功能板$(/l)。",
+      "title": "超级滑滑平台"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "irregular_implements:filtered_super_lubricant_platform",
+      "link_recipe": true,
+      "text": "$(d)过滤超级滑滑平台$()功能相同，还可安装$(l:items/item_filter)物品过滤器$(/l)。$(br2)符合过滤条件的物品会穿过平台落下。",
+      "title": "过滤超级滑滑平台"
+    }
+  ]
+}

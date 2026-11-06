@@ -1,0 +1,17 @@
+{
+  "name": "生物粉碎机",
+  "icon": "industrialforegoing:mob_crusher",
+  "category": "industrialforegoing:agriculture_husbandry",
+  "sortnum": 6,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "模拟玩家$(6)击杀$()生物，获得掉落物和精华液。掉落物直接按该生物的战利品池生成。$(br2)机器还有另一种模式：放弃生产精华液，改用随机等级的$(6)时运$()加成来生成掉落物。"
+    },
+    {
+      "type": "crafting",
+      "recipe": "industrialforegoing:mob_crusher"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "蓄水器",
+  "icon": "industrialforegoing:water_condensator",
+  "category": "industrialforegoing:resource_production",
+  "sortnum": 11,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "利用周围的水源方块生成$(6)水$()。$(br2)与至少 $(6)2 个水源方块$()相邻时，机器便会开始工作。$(br)增加相邻水源，并为每次操作提供 $(6)1000()RF，可以显著提高产水速度。"
+    },
+    {
+      "type": "crafting",
+      "recipe": "industrialforegoing:water_condensator"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "category": "irregular_implements:items",
+  "icon": "irregular_implements:player_filter",
+  "name": "玩家过滤器",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "对目标玩家使用过滤器即可绑定。",
+      "title": "$(d)玩家过滤器$()用于$(3)筛选某一位特定玩家$()。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "irregular_implements:player_filter",
+      "link_recipe": true,
+      "text": "潜行使用可绑定自己。"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "化学溶解室",
+  "icon": "industrialforegoing:dissolution_chamber",
+  "category": "industrialforegoing:basics",
+  "sortnum": 6,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "这是一台功能强大的加工机器，最多可以使用 $(6)8$() 种物品及 $(6)1$() 种流体作为原料，产出物品或流体。$(br2)所有配方均为无序配方，原料可放在任意槽位。$(br2)检测到有效配方后，机器会锁定所有槽位，防止继续插入物品。"
+    },
+    {
+      "type": "crafting",
+      "recipe": "industrialforegoing:dissolution_chamber"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "category": "irregular_implements:items",
+  "icon": "irregular_implements:spectre_key",
+  "name": "通灵钥匙",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(d)通灵钥匙$()可将你$(3)传送到另一维度的私人房间$()，每位玩家都有独立空间。$(br2)可以在那里安心建造、存放物品，下次回来时一切仍会保留。再次使用钥匙，或点击地面上的通灵核心，即可离开。",
+      "title": "通灵钥匙"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "irregular_implements:spectre_key",
+      "link_recipe": true,
+      "text": "房间底面为 16×16 格，初始内部高度为 2 格。$(br2)对通灵核心使用$(l:items/ectoplasm)灵胚$(/l)可以向上扩建。$(br2)每个灵胚增加 1 格高度，使用时会一次消耗整组。"
+    }
+  ]
+}

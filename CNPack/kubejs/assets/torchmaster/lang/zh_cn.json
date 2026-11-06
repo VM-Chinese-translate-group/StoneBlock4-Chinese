@@ -1,0 +1,12 @@
+{
+  "screen.torchmaster.feral_flare_lantern.title": "狂野闪耀之灯",
+  "screen.torchmaster.volume_gui.title": "火把大师范围显示",
+  "screen.torchmaster.volume_gui.toggle_on": "关闭范围显示",
+  "screen.torchmaster.volume_gui.toggle_off": "开启范围显示",
+  "screen.torchmaster.volume_gui.range": "各方向的有效范围：§a%s§r 格",
+  "screen.torchmaster.feral_flare_lantern.description": "光源放置",
+  "screen.torchmaster.feral_flare_lantern.line_of_sight.enabled": "仅照亮灯笼视线可达的空间。",
+  "screen.torchmaster.feral_flare_lantern.line_of_sight.enabled.description": "不会在墙后放置光源。",
+  "screen.torchmaster.feral_flare_lantern.line_of_sight.disabled": "也照亮墙后空间。",
+  "screen.torchmaster.feral_flare_lantern.line_of_sight.disabled.description": "灯笼无需能直接看见目标位置。"
+}

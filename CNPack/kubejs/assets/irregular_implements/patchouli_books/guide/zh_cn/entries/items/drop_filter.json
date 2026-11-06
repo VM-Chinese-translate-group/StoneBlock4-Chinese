@@ -1,0 +1,19 @@
+{
+  "category": "irregular_implements:items",
+  "icon": "irregular_implements:drop_filter",
+  "name": "掉落物过滤器",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "irregular_implements:drop_filter",
+      "link_recipe": true,
+      "text": "$(d)掉落物过滤器$()可以安装$(l:items/item_filter)物品过滤器$(/l)，阻止符合条件的物品进入你的物品栏。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "irregular_implements:voiding_drop_filter",
+      "link_recipe": true,
+      "text": "$(d)虚空掉落物过滤器$()功能相近，但会$(c)直接销毁符合条件的物品$()。"
+    }
+  ]
+}

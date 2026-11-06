@@ -1,0 +1,36 @@
+{
+  "name": "力场子容器",
+  "icon": "mffs:fortron_capacitor",
+  "category": "mffs:machines",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "mffs:fortron_capacitor",
+      "link_recipe": true,
+      "text": "$(l:mffs:getting_started/fortron)力场子$()容器是 MFFS 的能量储存与分配中枢。它收集$(l:mffs:machines/coercion_deriver)能源转换器$()产生的 力场子，再将其传给需要 力场子 的其他机器。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mffs:fortron_capacitor",
+      "text": "制作$(9)力场子容器$()。"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "使用方法",
+      "text": "放置容器后设置频率，默认值为 0。可通过以下方式修改：$(li)右键容器，在界面中输入所需频率。$(li)手持$(l:mffs:tools/frequency_card)频率卡$()，潜行右键容器。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "施加红石信号即可激活力场子容器。容器会由红变蓝，开始在范围内同频率的 MFFS 设备之间传输$(l:mffs:getting_started/fortron)力场子$()，默认范围为 15 格。"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "升级",
+      "text": "力场子容器可通过模块增强：$(li)$(l:mffs:upgrade_modules/scale_module)$(5)尺寸模块$()：扩大连接距离，每个模块在默认 15 格基础上增加 1 格。$(li)$(l:mffs:upgrade_modules/speed_module)$(5)速度模块$()：加快与机器之间的$(l:mffs:getting_started/fortron)力场子$()传输，每个模块增加 50 FE 的传输速率。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(li)$(l:mffs:upgrade_modules/capacity_module)$(5)电容模块$()：增加容器可储存的$(l:mffs:getting_started/fortron)力场子$()总量。"
+    }
+  ]
+}

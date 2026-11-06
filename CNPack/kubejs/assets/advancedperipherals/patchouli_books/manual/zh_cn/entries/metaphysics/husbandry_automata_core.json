@@ -1,0 +1,20 @@
+{
+  "name": "畜牧自动化核心",
+  "icon": "advancedperipherals:husbandry_automata_core",
+  "category": "advancedperipherals:metaphysics",
+  "advancement": "advancedperipherals:weak_automata_core",
+  "pages": [
+    {
+      "type": "spotlight",
+      "title": "畜牧自动化核心",
+      "item": "advancedperipherals:husbandry_automata_core",
+      "text": "吞噬鸡、牛和绵羊各 3 只后，弱自动化核心会变成畜牧自动化核心！$(p)除了增强基础核心的能力，这个灵魂似乎还赋予海龟与动物互动的能力。"
+    },
+    {
+      "type": "link",
+      "text": "除了弱自动化核心的能力外，此核心还能与动物交互，甚至将动物收纳到内部！$(p)注意：海龟被破坏后，所有收纳的动物都会丢失。",
+      "url": "https://docs.advanced-peripherals.de/metaphysics/husbandry_automata/",
+      "link_text": "API documentation"
+    }
+  ]
+}

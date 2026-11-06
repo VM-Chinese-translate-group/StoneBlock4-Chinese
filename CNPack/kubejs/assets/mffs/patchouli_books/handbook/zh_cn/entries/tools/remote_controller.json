@@ -1,0 +1,28 @@
+{
+  "name": "遥控器",
+  "icon": "mffs:remote_controller",
+  "category": "mffs:tools",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "mffs:remote_controller",
+      "link_recipe": true,
+      "text": "遥控器不仅能远程开关 MFFS 机器，还能直接打开机器的操作界面。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mffs:remote_controller",
+      "text": "制作$(5)遥控器$()。"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "运行原理",
+      "text": "启用后，遥控器会与已绑定的机器建立双向物质通道。你不仅能调整全部设置，还能存取其中的物品，就像站在机器旁边一样。$(br2)遥控器不需要单独充电，会直接从附近同频率的 MFFS 机器抽取能量。可用$(l:mffs:getting_started/fortron)力场子$()不足时，它无法工作。"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "使用方法",
+      "text": "$(li)打开要控制的 MFFS 机器界面，将遥控器放进频率槽，设置遥控器的频率。$(li)手持遥控器潜行右键目标机器进行绑定。遥控器上会显示目标机器的名称与坐标。$(li)离开机器后，手持遥控器右键即可打开该机器界面。"
+    }
+  ]
+}

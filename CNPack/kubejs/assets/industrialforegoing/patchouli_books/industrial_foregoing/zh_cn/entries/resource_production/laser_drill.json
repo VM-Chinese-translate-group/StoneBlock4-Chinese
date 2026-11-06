@@ -1,0 +1,17 @@
+{
+  "name": "镭射钻",
+  "icon": "industrialforegoing:laser_drill",
+  "category": "industrialforegoing:resource_production",
+  "sortnum": 13,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "供电后，这台机器会在工作范围内寻找$(l:resource_production/ore_laser_base)镭射钻基座$()和$(l:resource_production/fluid_laser_base)流体镭射钻基座$()，为找到的第一个目标充能。"
+    },
+    {
+      "type": "crafting",
+      "recipe": "industrialforegoing:laser_drill"
+    }
+  ]
+}

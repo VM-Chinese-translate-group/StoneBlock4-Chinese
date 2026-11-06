@@ -1,0 +1,18 @@
+{
+  "category": "irregular_implements:items",
+  "icon": "irregular_implements:item_filter",
+  "name": "物品过滤器",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(d)物品过滤器$()可设置最多 9 个样本，作为白名单或黑名单。$(br2)使用过滤器打开界面，将物品放入槽位即可添加条件。$(br2)最右侧按钮可为整个过滤器$(3)切换黑名单或白名单模式$()。",
+      "title": "物品过滤器"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "irregular_implements:item_filter",
+      "link_recipe": true,
+      "text": "每个样本槽上方有两个按钮。左按钮用于$(3)切换物品匹配和标签匹配$()。$(br2)物品模式下，右按钮决定$(3)是否同时匹配数据组件$()。$(br2)标签模式下，右按钮用于$(3)循环选择物品标签$()。例如铁锭可选择“信标支付物”“锭”“盔甲纹饰材料”等标签。"
+    }
+  ]
+}

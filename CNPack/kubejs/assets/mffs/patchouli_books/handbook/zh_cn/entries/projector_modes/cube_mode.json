@@ -1,0 +1,32 @@
+{
+  "name": "立方模式",
+  "icon": "mffs:cube_mode",
+  "category": "mffs:projector_modes",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "mffs:cube_mode",
+      "link_recipe": true,
+      "text": "默认情况下，立方模式让投影仪生成厚度恰好为 1 格的立方体力场。$(br2)每个 $(l:mffs:upgrade_modules/scale_module)尺寸模块$() 会使力场向所有方向扩大 1 格。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mffs:cube_mode",
+      "text": "制作$(2)立方模式$()。"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "调整力场",
+      "text": "立方模式也能生成长方体力场。将 $(l:mffs:upgrade_modules/scale_module)尺寸模块$() 放入带方向箭头的槽位，只会让对应方向延伸 1 格。$(br2)例如，若要让力场高度增加 1 格，可将 尺寸模块 放进界面左上或右上方向箭头对应的槽位。"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "mffs:textures/gui/handbook/cube_mode.png"
+      ],
+      "border": true,
+      "title": "投影示例",
+      "text": "扩大后的$(2)立方模式$()力场。"
+    }
+  ]
+}

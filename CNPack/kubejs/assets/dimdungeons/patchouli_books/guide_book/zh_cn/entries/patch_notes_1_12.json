@@ -1,0 +1,16 @@
+{
+  "name": "版本 1.12",
+  "icon": "minecraft:book",
+  "category": "dimdungeons:patch_notes",
+  "sortnum": 120,
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(li)添加钥匙刻字台。$(li)在服务端配置中加入极限模式。$(li)添加归途明珠。"
+    },
+    {
+      "type": "text",
+      "text": "$(li)现在可配置多种生物属性。$(li)高级地牢现在会生成女巫和卫道士，可通过配置调整。"
+    }
+  ]
+}

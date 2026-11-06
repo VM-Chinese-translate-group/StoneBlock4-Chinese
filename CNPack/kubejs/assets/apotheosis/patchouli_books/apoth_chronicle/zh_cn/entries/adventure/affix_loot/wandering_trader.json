@@ -1,0 +1,25 @@
+{
+  "name": "流浪商人",
+  "icon": "minecraft:emerald",
+  "category": "apotheosis:adventure/affix_loot",
+  "flag": "apotheosis:adventure",
+  "sortnum": 10,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "你是否遇见过那种突然出现在自家草坪上、看起来神神秘秘的商贩？$(p)他们就是$(9)流浪商人$()。$(p)通常，他们卖的东西实在不怎么值钱。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "不过，神化为他们加入了大量新交易，现在很值得上前看看。$(p)商品包括$(9)信标$()、$(9)不死图腾$()，以及随机的$(9)词缀装备$()；词缀装备需要用绿宝石加上对应的修复材料购买。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "在$(9)高峰$()和$(9)顶点$()世界层级，商人还可能出售强力的预设装备。其中大多数需要安装 Apothic Enchanting 或 Apothic Spawners。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "神化还提高了流浪商人的出现频率，缩短了停留时间，并允许他们在地下生成。这些行为可以在配置中调整。"
+    }
+  ]
+}

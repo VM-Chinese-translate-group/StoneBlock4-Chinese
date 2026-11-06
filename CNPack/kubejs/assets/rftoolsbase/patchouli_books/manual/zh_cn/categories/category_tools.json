@@ -1,0 +1,7 @@
+{
+  "name": "工具",
+  "description": "这些工具可以帮助你更方便地操作和配置各种科技机器。",
+  "parent": "rftoolsbase:category_rftoolsbase",
+  "icon": "rftoolsbase:smartwrench",
+  "sortnum": 20
+}

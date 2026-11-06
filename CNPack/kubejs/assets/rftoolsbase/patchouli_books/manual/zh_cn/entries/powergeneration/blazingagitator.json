@@ -1,0 +1,27 @@
+{
+  "name": "烈焰激活器",
+  "icon": "rftoolspower:blazing_agitator",
+  "category": "rftoolsbase:category_rftoolspower_powergeneration",
+  "extra_recipe_mappings": {
+    "rftoolspower:blazing_agitator": 0
+  },
+  "sortnum": 23,
+  "pages": [
+    {
+      "type": "text",
+      "text": "烈焰激活器为$(l:rftoolsbase:powergeneration/blazinggenerator)烈焰发电机$(/l)准备燃料。它消耗少量 FE，把普通烈焰棒加工成充能烈焰棒。"
+    },
+    {
+      "type": "crafting",
+      "recipe": "rftoolspower:blazing_agitator"
+    },
+    {
+      "type": "text",
+      "text": "输入网格中相邻的烈焰棒会互相强化。优质烈焰棒能缩短加工时间，并提高成品的发电品质，因此在网格中保留几根强力烈焰棒很有帮助。"
+    },
+    {
+      "type": "text",
+      "text": "九个锁定按钮可以阻止对应槽位的成品进入输出栏。用它们固定优质烈焰棒，让这些棒继续为后续加工提供增益。"
+    }
+  ]
+}

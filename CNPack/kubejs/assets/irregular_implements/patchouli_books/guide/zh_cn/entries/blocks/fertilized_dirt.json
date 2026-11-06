@@ -1,0 +1,14 @@
+{
+  "category": "irregular_implements:blocks",
+  "icon": "irregular_implements:fertilized_dirt",
+  "name": "沃土",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "irregular_implements:fertilized_dirt",
+      "link_recipe": true,
+      "text": "$(d)沃土$()无需水源、不怕踩踏，并能让$(3)作物以 3 倍速度生长$()。$(br2)播种前仍需先用锄耕作。",
+      "title": "沃土"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "name": "末地自动化核心",
+  "icon": "advancedperipherals:end_automata_core",
+  "category": "advancedperipherals:metaphysics",
+  "advancement": "advancedperipherals:weak_automata_core",
+  "pages": [
+    {
+      "type": "spotlight",
+      "title": "末地自动化核心",
+      "item": "advancedperipherals:end_automata_core",
+      "text": "吞噬 10 只末影人后，弱自动化核心会变成末地自动化核心！$(p)除了增强基础核心的能力，这个灵魂似乎还让海龟获得了有限的传送能力。"
+    },
+    {
+      "type": "link",
+      "text": "除了弱自动化核心的能力外，这个灵魂还允许海龟在同一维度内有限度地传送。先保存目标位置，再传送过去即可！$(p)注意：海龟被破坏后，所有保存的位置都会丢失。",
+      "url": "https://docs.advanced-peripherals.de/metaphysics/end_automata/",
+      "link_text": "API documentation"
+    }
+  ]
+}

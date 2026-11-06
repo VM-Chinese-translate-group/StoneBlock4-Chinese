@@ -1,0 +1,51 @@
+{
+  "name": "传送带升级",
+  "icon": "industrialforegoing:conveyor_extraction_upgrade",
+  "category": "industrialforegoing:transport",
+  "sortnum": 1,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "industrialforegoing:conveyor_extraction_upgrade",
+      "title": "抽取",
+      "text": "从容器中抽取物品和流体，也可以抽取玩家背包中的物品。$(br2)可在界面中筛选需要抽取的物品或流体。"
+    },
+    {
+      "type": "spotlight",
+      "item": "industrialforegoing:conveyor_insertion_upgrade",
+      "title": "输入",
+      "text": "将物品和流体送入容器。它有两种模式：接收接触传送带的物品，或仅接收直接接触此升级装置的物品。$(br2)可在界面中筛选要输入的物品和流体。"
+    },
+    {
+      "type": "spotlight",
+      "item": "industrialforegoing:conveyor_detection_upgrade",
+      "title": "检测",
+      "text": "检测传送带上的物品和实体。$(br2)可在界面中筛选检测目标；将装有目标生物的生物捕捉工具（MIB）放入过滤槽，即可设置实体过滤条件。"
+    },
+    {
+      "type": "spotlight",
+      "item": "industrialforegoing:conveyor_bouncing_upgrade",
+      "title": "弹射",
+      "text": "弹射传送带上的物品和实体，可在界面中调整水平及竖直方向的力度。$(br2)还可筛选要弹射的物品和实体；使用装有目标生物的 MIB 设置实体过滤条件。"
+    },
+    {
+      "type": "spotlight",
+      "item": "industrialforegoing:conveyor_dropping_upgrade",
+      "title": "下落",
+      "text": "让传送带上的物品和实体直接落到传送带下方。$(br2)可在界面中筛选下落目标；使用装有目标生物的 MIB 设置实体过滤条件。"
+    },
+    {
+      "type": "spotlight",
+      "item": "industrialforegoing:conveyor_blinking_upgrade",
+      "title": "闪现",
+      "text": "传送传送带上的物品和实体，可在界面中调整水平及竖直方向的传送距离。$(br2)还可筛选要传送的物品和实体；使用装有目标生物的 MIB 设置实体过滤条件。"
+    },
+    {
+      "type": "spotlight",
+      "item": "industrialforegoing:conveyor_splitting_upgrade",
+      "title": "分流",
+      "text": "按照界面中设定的比例，将传送带上的物品和实体分流到不同方向。每个参与分流的方向都需要安装升级装置。"
+    }
+  ]
+}

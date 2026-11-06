@@ -1,0 +1,8 @@
+{
+  "advancements.mekanism.configuration_copying.title": "复制、贴上",
+  "configuration.mekanism.projecte.mapper.chemical_chemical_to_chemical": "Mekanism 化学品与化学品合成",
+  "configuration.mekanism.projecte.mapper.chemical_to_chemical": "Mekanism 化学品转化",
+  "configuration.mekanism.projecte.mapper.item_chemical_to_item": "Mekanism 物品与化学品合成",
+  "configuration.mekanism.projecte.mapper.item_to_chemical": "Mekanism 物品转化为化学品",
+  "configuration.mekanism.projecte.mapper.pressurized_reaction": "Mekanism 加压反应室"
+}

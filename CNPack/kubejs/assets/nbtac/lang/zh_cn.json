@@ -1,0 +1,14 @@
+{
+  "nbtac.options.field.json_string_suggestion.recommended": "建议",
+  "nbtac.options.field.default_quotation_mark": "默认引号",
+  "nbtac.options.field.default_quotation_mark.desc": "设置默认使用哪种引号。\nsingle：单引号 [']\ndouble：双引号 [\"]\n在 1.21.4 及更早版本中，此设置不影响 JSON 文本组件。",
+  "nbtac.options.field.json_string_suggestion.desc": "设置 JSON 文本组件的字符串起始补全方式。\nnone：不补全\nrecommended：在 1.20.4 及更新版本使用 default_for_strings，更早版本使用 legacy_separated。\ndefault_for_strings：使用“默认引号”设置中的类型。\nlegacy_separated：[' \"]\nlegacy_merged：['\"]，与 legacy_separated 类似，但不含空格。\nlegacy_backslash：[\"\\\"]。",
+  "nbtac.options.field.update_on_cursor_movement": "移动光标时更新",
+  "nbtac.options.field.update_on_cursor_movement.desc": "光标移动时更新补全建议。\n此设置影响所有命令补全，不仅限于 NBT Autocomplete 提供的建议。\n用于恢复 Minecraft 26.1 之前的行为；在更早版本中设为 false 不会产生影响。",
+  "nbtac.options.field.placing_of_irrelevant.desc": "设置不相关建议的显示位置。\n可选值：normal（正常）、at_the_bottom（置底）、hidden（隐藏）。\n除 normal 外，其他选项都需要启用自定义排序。",
+  "nbtac.options.field.unknown_item_components": "未知物品组件",
+  "nbtac.options.field.unknown_item_components.relevant_by_default": "默认视为相关",
+  "nbtac.options.field.unknown_item_components.relevant_within_namespace": "同命名空间时视为相关",
+  "nbtac.options.field.unknown_item_components.irrelevant_by_default": "默认视为不相关",
+  "nbtac.options.field.unknown_item_components.desc": "设置未知物品数据组件的默认相关性，主要针对模组添加的组件。\n若仅安装 NBTac 的原版游戏中出现未知物品组件，请提交问题反馈。\nrelevant_by_default：默认将未知组件标为相关。\nrelevant_within_namespace：仅当组件 ID 与物品 ID 属于同一命名空间时标为相关。\nirrelevant_by_default：默认将未知组件标为不相关。"
+}

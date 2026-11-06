@@ -1,0 +1,30 @@
+---
+title: 内容解锁系统
+---
+
+Oracle Index 支持先解锁、后阅读的内容。尚未解锁的页面会显示为混淆文本，也不会出现在搜索结果中。
+如果文件夹内的所有条目均未解锁，整个文件夹都会隐藏。
+
+<Callout variant="warning">
+    此功能仅适用于游戏内 Wiki，不适用于在线 Wiki。它主要面向希望逐步揭示内容、而非一次展示全部内容的整合包作者。
+</Callout>
+
+要控制解锁条件，需要在页面的 frontmatter（开头的元数据区）中添加 *unlock* 字段，例如：
+
+```
+---
+title: Ingame Mod View Setup
+unlock: advancement:minecraft:oritech/pulverizer
+---
+"unlock" is always the same
+"advancement" is the name of the progress validator
+anything after the "advancement:" part is passed to the validator
+```
+
+# 验证器
+模组开发者可以通过 **Oracle Progress API** 注册自定义验证器。详细说明请参阅该 API 类的 Javadoc。
+
+Oracle Index 不会保存哪些条目已经解锁，而是在需要时调用验证器判断。
+
+## 进度验证器
+模组默认只内置一种验证器：进度验证器。它会检查玩家是否已经完成指定进度，来决定是否允许查看页面。

@@ -1,0 +1,21 @@
+{
+  "name": "菌丝网络产能反应堆",
+  "icon": "industrialforegoing:mycelial_reactor",
+  "category": "industrialforegoing:generators",
+  "sortnum": 2,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "反应堆借助$(6)菌丝网络$()——一个包含活体菌丝群的亚空间领域——感知其他$(6)菌丝网络发电机$()，从而产生海量 FE。$(br2)要让反应堆运转，必须让每一种配套发电机至少各有一台同时工作。"
+    },
+    {
+      "type": "text",
+      "text": "也许未来还能利用这个网络发现更多新技术。"
+    },
+    {
+      "type": "industrialforegoing:dissolution",
+      "recipe": "industrialforegoing:dissolution_chamber/mycelial_reactor"
+    }
+  ]
+}

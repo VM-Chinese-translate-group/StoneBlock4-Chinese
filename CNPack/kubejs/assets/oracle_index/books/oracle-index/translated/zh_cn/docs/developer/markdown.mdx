@@ -1,0 +1,158 @@
+---
+title: Markdown 与 MDX 语法参考
+---
+
+Oracle Index 能渲染 ModdedMC Wiki 所支持语法中的常用部分。只要游戏内展示所需的内容没有超出下列功能，同一份页面就能同时用于在线 Wiki 和游戏内手册。
+
+## 标准 Markdown
+
+支持的 Markdown 功能包括：
+
+- 标题
+- 段落与换行
+- **粗体**、*斜体*与 `inline code`（行内代码）
+- 有序列表与无序列表，包括嵌套列表
+- 相对路径链接、内容 ID 链接、页面引用、原版物品链接和网页链接
+- 围栏代码块，可指定语言与文件名
+- 引用块
+- GitHub 风格的表格
+- 图片，可使用替代文字作说明，并指定尺寸属性
+
+游戏内渲染器不会执行任意 HTML、JSX、JavaScript 或 CSS。不支持的 HTML 块与自定义组件会被忽略，不会作为文本显示。
+
+## 链接
+
+普通相对链接以当前页面为起点解析。Oracle Index 还支持以下 Wiki 链接形式：
+
+```md
+[Relative page](../machines/generator)
+[](@minecraft:diamond_pickaxe)
+[](+custom_page_ref)
+[]($getting_started)
+[Website](https://example.com)
+```
+
+`@namespace:id` 打开该注册 ID 对应的已索引内容页。`+ref` 使用内容页 frontmatter 中的 `ref` 值。`$slug` 指向文档页面。链接文字留空时，会使用目标页面的标题；适用时也会使用原版物品的本地化名称。
+
+游戏内目前不支持跳转到标题锚点。为兼容原文，标题末尾的属性块会从显示内容中隐藏；但 `{#details}` 或 `{clear}` 等 ID 与属性不会影响布局，也不会生成可滚动跳转的目标。
+
+## 图片与资源
+
+支持 Markdown 图片、普通 HTML `<img>` 元素，以及 `<Asset>` / `<ModAsset>` 别名：
+
+```md
+![](@example:machine_layout)
+![Machine layout](@example:machine_layout){center width=160}
+![Small icon](@example:icon){item}
+<img src="@example:machine_layout" width="160" />
+<Asset location="example:machine_layout.png" width="50%" />
+```
+
+图片默认居中。`{left}` 表示左对齐，`{center}` 明确指定居中。为兼容原文，也接受 `{right}`，但 Oracle Index 无法让图片浮动在文字旁，因此游戏内仍会居中显示。宽高属性以屏幕像素为单位，百分比宽度则相对于内容区域的可用宽度计算。图片不会超出可用宽度。
+
+`{item}` 属性会始终以 32×32 的尺寸显示，适用于物品图标。`@minecraft:diamond` 这样的物品注册 ID 会使用游戏中的真实物品模型。独立的 Markdown 图片若带有替代文字，会将其显示为图片说明。
+
+Schema 1 格式从 Wiki 内部的 `assets/<namespace>/` 加载资源。图片默认扩展名为 `.png`，音频默认扩展名为 `.ogg`。旧版 Wiki 则使用 `.assets/<namespace>/`。
+
+## 提示框与警告框
+
+GitHub 风格的提示框支持 `NOTE`、`TIP`、`IMPORTANT`、`WARNING` 和 `CAUTION`：
+
+```md
+> [!TIP] Optional custom title
+> Helpful content.
+
+> [!WARNING]+
+> Expanded by default and collapsible.
+
+> [!CAUTION]- At your own risk
+> Collapsed by default and expandable.
+```
+
+`+` 标记表示可折叠且默认展开，`-` 标记表示可折叠且默认收起。
+
+对应的组件支持 `note` / `info`、`tip`、`important`、`warning` 和 `caution` / `danger` 这些类型：
+
+```mdx
+<Callout variant="warning" title="Back up first" collapsible>
+    Callout content can contain supported Markdown.
+</Callout>
+
+<Callout variant="danger" collapsed>
+    This starts collapsed.
+</Callout>
+```
+
+`collapsible` 表示默认展开。`collapsed` 同时启用折叠功能，并让组件默认收起。内置类型的名称由 Oracle Index 负责翻译；自定义标题属于页面正文，需要写入各语言的 MDX 文件。
+
+## 代码块与代码标签页
+
+围栏代码块可以包含语言和文件名：
+
+````md
+```json recipe.json
+{"type": "minecraft:crafting_shaped"}
+```
+````
+
+代码标签页的直接子元素应为围栏代码块。在语言后添加 `!!tabs`，再写上要显示的标签页标题：
+
+````mdx
+<CodeTabs>
+```js !!tabs main.js
+console.log("Hello");
+```
+
+```css !!tabs styles.css
+body { margin: 0; }
+```
+</CodeTabs>
+````
+
+目前不提供语法高亮或专用等宽字体。语言标记仅作为元数据，各标签页均使用 Minecraft 字体显示纯文本。不会递归解析 `<CodeTabs>` 内嵌套的包装组件。
+
+## 其他支持的组件
+
+`CraftingRecipe` 显示一个 3×3 有序合成配方。其 `slots` 数组必须恰好包含九项，每项为物品 ID 或空字符串。它不会查询配方管理器，也不支持其他尺寸的配方。
+
+```mdx
+<CraftingRecipe
+    slots={['', 'minecraft:stick', '', '', 'minecraft:stick', '', '', 'minecraft:diamond', '']}
+    result="minecraft:diamond_shovel"
+    count={1}
+/>
+```
+
+`Audio` 通过游戏内的播放／停止按钮播放 `.ogg` 音频资源：
+
+```mdx
+<Audio controls src="example:sounds/notification.ogg" />
+```
+
+`VideoEmbed` 会生成一个按钮，点击后在 YouTube 上打开视频。Oracle Index 不会在游戏内流式播放或嵌入视频：
+
+```mdx
+<VideoEmbed id="Y_WnAEKoeA4" />
+```
+
+悬停提示使用 `?[label](description)` 语法：
+
+```md
+A pickaxe is required to ?[mine](break while also dropping an item) this block.
+```
+
+标签文字与描述均为纯文本。描述内不支持嵌套格式，也不能包含右圆括号。
+
+## 翻译加载方式
+
+Schema 1 格式的翻译文件位于 `translated/<locale>/` 下，保持与原文相同的相对路径。例如：
+
+```text
+docs/machines/generator.mdx
+translated/de_de/docs/machines/generator.mdx
+translated/de_de/docs/machines/_meta.json
+```
+
+旧版 Wiki 使用 `.translated/<locale>/`。语言匹配使用当前 Minecraft 语言的完整代码。英语语言选项使用基础资源；如果缺少翻译文件，则回退到基础页面或元数据。
+
+页面标题取自翻译页面 frontmatter 中的 `title`、第一个一级标题，或游戏内物品的本地化名称。简体中文搜索优先使用译文，并保留基础页面路径；点击结果会打开对应页面。

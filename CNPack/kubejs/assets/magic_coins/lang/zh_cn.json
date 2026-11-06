@@ -1,0 +1,5 @@
+{
+  "item.magic_coins.silver_coin.description": "此硬币价值 $%s",
+  "item.magic_coins.gold_coin.description": "此硬币价值 $%s",
+  "item.magic_coins.crystal_coin.description": "此硬币价值 $%s"
+}
