@@ -243,11 +243,12 @@ element {
 }
 
 element {
+  description = 购买石头世界 4 周边
   button_element_executable_block_identifier = 2bd5611c-ff0c-47f5-9651-bbea55dda8f2-1763053043093
   [executable_action_instance:cdd344d9-833f-4aea-8110-a168bf7e0101-1763054905101][action_type:openlink] = https://shop.feed-the-beast.com/?utm_source=main-menu&utm_medium=modpack&utm_campaign=stoneblock4&utm_content=button-2
   [executable_block:2bd5611c-ff0c-47f5-9651-bbea55dda8f2-1763053043093][type:generic] = [executables:cdd344d9-833f-4aea-8110-a168bf7e0101-1763054905101;]
-  backgroundnormal = [source:local]/config/fancymenu/assets/buttons/merch_store_v2.png
-  backgroundhovered = [source:local]/config/fancymenu/assets/buttons/merch_store_hover_v2.png
+  backgroundnormal = [source:local]/config/fancymenu/assets/buttons/zh_cn/sb4_merch.png
+  backgroundhovered = [source:local]/config/fancymenu/assets/buttons/zh_cn/sb4_merch_hover.png
   restartbackgroundanimations = true
   nine_slice_custom_background = false
   nine_slice_border_x = 5
@@ -306,11 +307,12 @@ element {
 }
 
 element {
+  description = 购买石头世界 4 周边
   button_element_executable_block_identifier = 2bd5611c-ff0c-47f5-9651-bbea55dda8f2-1763053043093
   [executable_action_instance:b21cb0ab-d186-4ccf-8606-501d189cb339-1763054889389][action_type:openlink] = https://shop.feed-the-beast.com/?utm_source=main-menu&utm_medium=modpack&utm_campaign=stoneblock4&utm_content=button-1
   [executable_block:2bd5611c-ff0c-47f5-9651-bbea55dda8f2-1763053043093][type:generic] = [executables:b21cb0ab-d186-4ccf-8606-501d189cb339-1763054889389;]
-  backgroundnormal = [source:local]/config/fancymenu/assets/buttons/merch_store.png
-  backgroundhovered = [source:local]/config/fancymenu/assets/buttons/merch_store_hover.png
+  backgroundnormal = [source:local]/config/fancymenu/assets/buttons/zh_cn/sb4_merch.png
+  backgroundhovered = [source:local]/config/fancymenu/assets/buttons/zh_cn/sb4_merch_hover.png
   restartbackgroundanimations = true
   nine_slice_custom_background = false
   nine_slice_border_x = 5
@@ -367,11 +369,12 @@ element {
 }
 
 element {
+  description = 加入 Discord 社群
   button_element_executable_block_identifier = 79e0e424-ff25-43dd-a674-f1564f113136-1763052483682
   [executable_action_instance:6813055e-1826-48c4-a9fd-a0b580bec71b-1763052804351][action_type:openlink] = https://go.ftb.team/discord
   [executable_block:79e0e424-ff25-43dd-a674-f1564f113136-1763052483682][type:generic] = [executables:6813055e-1826-48c4-a9fd-a0b580bec71b-1763052804351;]
-  backgroundnormal = [source:local]/config/fancymenu/assets/buttons/long_discord.png
-  backgroundhovered = [source:local]/config/fancymenu/assets/buttons/long_discord_hover.png
+  backgroundnormal = [source:local]/config/fancymenu/assets/buttons/zh_cn/sb4_discord.png
+  backgroundhovered = [source:local]/config/fancymenu/assets/buttons/zh_cn/sb4_discord_hover.png
   restartbackgroundanimations = true
   nine_slice_custom_background = false
   nine_slice_border_x = 5
@@ -429,11 +432,12 @@ element {
 }
 
 element {
+  description = 创建服务器
   button_element_executable_block_identifier = 2d59e42f-5c02-4579-8a38-8e707cd3c555-1739016436124
   [executable_action_instance:8d731bd8-ff36-4cee-9594-ea30879c12b2-1739097814935][action_type:opengui] = com.bisecthosting.mods.bhmenu.modules.servercreatorbanner.screens.BHOrderScreen
   [executable_block:2d59e42f-5c02-4579-8a38-8e707cd3c555-1739016436124][type:generic] = [executables:8d731bd8-ff36-4cee-9594-ea30879c12b2-1739097814935;]
-  backgroundnormal = [source:local]/config/fancymenu/assets/buttons/bisect.png
-  backgroundhovered = [source:local]/config/fancymenu/assets/buttons/bisect_hover.png
+  backgroundnormal = [source:local]/config/fancymenu/assets/buttons/zh_cn/sb4_create_server.png
+  backgroundhovered = [source:local]/config/fancymenu/assets/buttons/zh_cn/sb4_create_server_hover.png
   restartbackgroundanimations = true
   nine_slice_custom_background = false
   nine_slice_border_x = 5
