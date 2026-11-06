@@ -1,0 +1,14 @@
+[
+  {
+    "key": "quest.2690BF30D8119E77.quest_desc08",
+    "original": "{image:ftb:textures/quests/ae2/circuit_fabricator_jei.png width:205 height:144 align:center)",
+    "translation": "{image:ftb:textures/quests/ae2/circuit_fabricator_jei.png width:205 height:144 align:center}",
+    "context": "修订 quest.2690BF30D8119E77.quest_desc；源文件 config/ftbquests/quests/lang/en_us.snbt。"
+  },
+  {
+    "key": "quest.609DF15D870AE2C0.title",
+    "original": "&eSoulplied Energistics",
+    "translation": "&e精魂驱动的应用能源",
+    "context": "修订 quest.609DF15D870AE2C0.title；源文件 config/ftbquests/quests/lang/en_us.snbt。"
+  }
+]

@@ -1,0 +1,48 @@
+{
+  "schema": 1,
+  "base_commit": "c5577ec22b44c6efde60d7c5457c22a9084ad928",
+  "release_tag": "1.24.1",
+  "release_sha256": "55b4b699e5cbc86b58afb235c3fb226c38dc0ef3d150bcb8a6215665cf09a765",
+  "resource_counts": {
+    "missing_keys_added": 15656,
+    "language_files": 219,
+    "different_keys_carried": 331,
+    "manual_files": 853,
+    "same_keys_skipped": 51,
+    "visual_compat_files": 9,
+    "priority_scripts": 2,
+    "group_config_files": 1,
+    "group_config_keys": 1304
+  },
+  "resource_outputs": 1084,
+  "script_and_t4_outputs": 15,
+  "quest_and_menu_outputs": 10,
+  "language_merge": {
+    "same_keys_skipped": 51,
+    "upstream_unmodified_keys_preserved": 2732
+  },
+  "quest_scope": {
+    "existing_logical_keys_revised": 78,
+    "new_keys": 0,
+    "deleted_keys": 0,
+    "flattened_strings_changed": 83,
+    "backroom_progress_check_strings": 75,
+    "player_page_strings": 8,
+    "legacy_hover_strings": 3,
+    "unreferenced_historical_keys_excluded": 421
+  },
+  "compatibility_component": {
+    "optional": true,
+    "in_cnpack_mods": false,
+    "tested_jar_sha256": "7bd25c2a417ce4b6f9285b361ec23f4ffecf2ef0ee41fc7fb91d1135a7aac8da",
+    "rebuild_class_resource_bytes_identical": true
+  },
+  "excluded": [
+    "StoneUI generic widget and settings background theme",
+    "user saves and options",
+    "launcher configuration",
+    "RGP remote caches",
+    "local logs, backups and installation manifests"
+  ],
+  "runtime_limit": "Representative tests were performed on the preceding local fixes, not a fresh installation of this ported CNPack. No claim of all guides or all gameplay branches tested."
+}

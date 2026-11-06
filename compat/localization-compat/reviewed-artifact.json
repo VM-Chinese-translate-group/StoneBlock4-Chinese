@@ -1,0 +1,37 @@
+{
+  "schema": 1,
+  "artifact": "sb4-localization-compat.jar",
+  "sha256": "7bd25c2a417ce4b6f9285b361ec23f4ffecf2ef0ee41fc7fb91d1135a7aac8da",
+  "java_release": 21,
+  "source_files": {
+    "src\\main\\java\\cn\\codex\\sb4compat\\mixin\\CompatMixinPlugin.java": "5b14d46537788c3cfa41ac0dbd9ccb21afa99f92eb31d17d62cf68ad82c44422",
+    "src\\main\\java\\cn\\codex\\sb4compat\\mixin\\OracleSearchScreenMixin.java": "ed821221cdc62629f3d48494b5f19639bbaf85272f824c2c9ded276f40c8c135",
+    "src\\main\\java\\cn\\codex\\sb4compat\\mixin\\OracleSemanticSearchMixin.java": "d6c28103ee7baedbc47fcc3b25dafebba559dfe309a0cbcdcd45f2cd691092cd",
+    "src\\main\\java\\cn\\codex\\sb4compat\\mixin\\PatchouliBookEditionMixin.java": "b968bd64f1ae4445f305531bb30b72206040b1e077caf0e982a610bfe0d3ff4c",
+    "src\\main\\java\\cn\\codex\\sb4compat\\mixin\\SimplyTooltipsCaptureMixin.java": "cb45b5d21949b086b8d2cacac385de89207f38d94b17dd05b33a285a71ff2ca9",
+    "src\\main\\java\\cn\\codex\\sb4compat\\mixin\\SimplyTooltipsRendererMixin.java": "4b31851a150af9f908708ff02a1267b1835380e803d812dad8dface580641440",
+    "src\\main\\java\\cn\\codex\\sb4compat\\mixin\\SimplyTooltipsStudioMixin.java": "c33bb3e6226ec7302c6e44e64495ed96ccf3326d1233e20e72c92e9e279ae3d1",
+    "src\\main\\java\\cn\\codex\\sb4compat\\mixin\\SimplyTooltipsThemeListMixin.java": "be2819193f7c15b43181d2cf84b192e5eb9abf8fe6f1b50f41309fc69938679b",
+    "src\\main\\java\\cn\\codex\\sb4compat\\oracle\\KeywordIndex.java": "dc04d697fc6a8520f610e8d9857100de1ca3a14efe94c3eecf58f8c2d09677e0",
+    "src\\main\\java\\cn\\codex\\sb4compat\\oracle\\OracleLocalizedSearch.java": "e735e75a8c9347e5c548c707b51f5d5f1d79ba29c2a7fbeb813b480779bcfaac",
+    "src\\main\\java\\cn\\codex\\sb4compat\\PatchouliEdition.java": "bee2c0e80dc8fb67026eecf52b47f986cfc1dfdc29b3de5a262ff183860c83bc",
+    "src\\main\\java\\cn\\codex\\sb4compat\\Sb4LocalizationCompat.java": "27072ae3474a530ee1f660be0a37cde3ea033154ee001240b83b5fc9efbc55e4",
+    "src\\main\\java\\cn\\codex\\sb4compat\\SimplyTooltipsText.java": "cccaf9dc17d72c77cb5eea54e6027dd7c595fbdd2ccce4ec961e2303b8cddff3",
+    "src\\main\\java\\cn\\codex\\sb4compat\\SimplyTooltipsTranslations.java": "f2c82dcf24aff4fdd4c7495c979115af1e4577587234d9242fa3e6739954ab64"
+  },
+  "resource_files": {
+    "src\\main\\resources\\assets\\sb4_localization_compat\\lang\\en_us.json": "098fb40c63b47352d03f35c34924beae68a4e595bad3efe03adfaa4a804ff0a2",
+    "src\\main\\resources\\assets\\sb4_localization_compat\\lang\\zh_cn.json": "751e34e1b8a7b1f5711a068dd9c74867ce7597b2f53405066a55964e71554967",
+    "src\\main\\resources\\META-INF\\neoforge.mods.toml": "48db4f2aae0b7380235959c3e5885828a4919125ac3e4f03e8b176d384bf4d55",
+    "src\\main\\resources\\sb4_localization_compat.mixins.json": "97e7298ca0ec2b6b57bb6d169519f4755121fcce0638a5f54f1149d1a9b9ef37"
+  },
+  "required_versions": {
+    "minecraft": "1.21.1",
+    "neoforge": "21.1.262",
+    "oracle_index": "1.4.0",
+    "simplytooltips": "0.1.5",
+    "patchouli": "1.21.1-93-NEOFORGE"
+  },
+  "packaged_in_cnpack_by_default": false,
+  "scope": "Translation/search compatibility only. No StoneUI classes, widgets or background."
+}

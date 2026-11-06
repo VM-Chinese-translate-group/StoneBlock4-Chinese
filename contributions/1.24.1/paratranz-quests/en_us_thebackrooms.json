@@ -1,0 +1,452 @@
+[
+  {
+    "key": "chapter.33808F1AE9F1266A.title",
+    "original": "Backstage",
+    "translation": "后台流程",
+    "context": "修订 chapter.33808F1AE9F1266A.title；源文件 config/ftbquests/quests/lang/en_us.snbt。"
+  },
+  {
+    "key": "quest.0071ADE2804C1B24.title",
+    "original": "Light Bender Check 2",
+    "translation": "折光师进度检查 2",
+    "context": "修订 quest.0071ADE2804C1B24.title；源文件 config/ftbquests/quests/lang/en_us.snbt。"
+  },
+  {
+    "key": "quest.027E1E97D874D0EB.title",
+    "original": "Infinity Meet",
+    "translation": "拜访无尽",
+    "context": "修订 quest.027E1E97D874D0EB.title；源文件 config/ftbquests/quests/lang/en_us.snbt。"
+  },
+  {
+    "key": "quest.0355F5FB00143754.title",
+    "original": "Fabricator Check 1",
+    "translation": "构件师进度检查 1",
+    "context": "修订 quest.0355F5FB00143754.title；源文件 config/ftbquests/quests/lang/en_us.snbt。"
+  },
+  {
+    "key": "quest.068C117DD3DD10C2.title",
+    "original": "Guidance Check 3",
+    "translation": "指引者进度检查 3",
+    "context": "修订 quest.068C117DD3DD10C2.title；源文件 config/ftbquests/quests/lang/en_us.snbt。"
+  },
+  {
+    "key": "quest.091F82E2770F3011.title",
+    "original": "Ancient Check 1",
+    "translation": "远古族裔进度检查 1",
+    "context": "修订 quest.091F82E2770F3011.title；源文件 config/ftbquests/quests/lang/en_us.snbt。"
+  },
+  {
+    "key": "quest.0B3FD3C2AD980AD7.title",
+    "original": "Ancient Meet",
+    "translation": "拜访远古族裔",
+    "context": "修订 quest.0B3FD3C2AD980AD7.title；源文件 config/ftbquests/quests/lang/en_us.snbt。"
+  },
+  {
+    "key": "quest.0BD2630DFA958C65.title",
+    "original": "Twilight Meet",
+    "translation": "拜访暮光族裔",
+    "context": "修订 quest.0BD2630DFA958C65.title；源文件 config/ftbquests/quests/lang/en_us.snbt。"
+  },
+  {
+    "key": "quest.0C2DAB30B7A2A7C0.title",
+    "original": "Stage 5 'and' Check",
+    "translation": "第5阶段全部条件检查",
+    "context": "修订 quest.0C2DAB30B7A2A7C0.title；源文件 config/ftbquests/quests/lang/en_us.snbt。"
+  },
+  {
+    "key": "quest.0DE73FC2EE3C60A9.title",
+    "original": "Guidance 5 Completed",
+    "translation": "指引者阶段完成 5",
+    "context": "修订 quest.0DE73FC2EE3C60A9.title；源文件 config/ftbquests/quests/lang/en_us.snbt。"
+  },
+  {
+    "key": "quest.106A9E7AD6051D8C.title",
+    "original": "Guidance Completed 3",
+    "translation": "指引者阶段完成 3",
+    "context": "修订 quest.106A9E7AD6051D8C.title；源文件 config/ftbquests/quests/lang/en_us.snbt。"
+  },
+  {
+    "key": "quest.1617D99EA1AE47E4.quest_desc01",
+    "original": "&bCheck&f: &lSubmitting&r Chronon Generator",
+    "translation": "&b检查条件&f：&l提交&r时元发生器",
+    "context": "修订 quest.1617D99EA1AE47E4.quest_desc；源文件 config/ftbquests/quests/lang/en_us.snbt。"
+  },
+  {
+    "key": "quest.1617D99EA1AE47E4.quest_desc03",
+    "original": "&bUnlocks&f:",
+    "translation": "&b解锁内容&f：",
+    "context": "修订 quest.1617D99EA1AE47E4.quest_desc；源文件 config/ftbquests/quests/lang/en_us.snbt。"
+  },
+  {
+    "key": "quest.1617D99EA1AE47E4.title",
+    "original": "Guidance 1.2 check",
+    "translation": "指引者进度检查 1.2",
+    "context": "修订 quest.1617D99EA1AE47E4.title；源文件 config/ftbquests/quests/lang/en_us.snbt。"
+  },
+  {
+    "key": "quest.19C13B2B7F137956.title",
+    "original": "Simple Teleporters",
+    "translation": "简易传送器",
+    "context": "修订 quest.19C13B2B7F137956.title；源文件 config/ftbquests/quests/lang/en_us.snbt。"
+  },
+  {
+    "key": "quest.1D52FC5D0EAD911B.title",
+    "original": "Guidance Check 2",
+    "translation": "指引者进度检查 2",
+    "context": "修订 quest.1D52FC5D0EAD911B.title；源文件 config/ftbquests/quests/lang/en_us.snbt。"
+  },
+  {
+    "key": "quest.1DE16238ECFB074D.title",
+    "original": "Chaos Meet",
+    "translation": "拜访混沌",
+    "context": "修订 quest.1DE16238ECFB074D.title；源文件 config/ftbquests/quests/lang/en_us.snbt。"
+  },
+  {
+    "key": "quest.1E307C13D534A75C.title",
+    "original": "Light Bender Check 1",
+    "translation": "折光师进度检查 1",
+    "context": "修订 quest.1E307C13D534A75C.title；源文件 config/ftbquests/quests/lang/en_us.snbt。"
+  },
+  {
+    "key": "quest.1F052C1F0AC1330C.title",
+    "original": "Radiance Meet",
+    "translation": "拜访辐光",
+    "context": "修订 quest.1F052C1F0AC1330C.title；源文件 config/ftbquests/quests/lang/en_us.snbt。"
+  },
+  {
+    "key": "quest.206F8B25D5A3CB7E.title",
+    "original": "Catalyst Meet",
+    "translation": "拜访精械师",
+    "context": "修订 quest.206F8B25D5A3CB7E.title；源文件 config/ftbquests/quests/lang/en_us.snbt。"
+  },
+  {
+    "key": "quest.2323A6EEDF97BE96.title",
+    "original": "Wayfinder Check 1",
+    "translation": "寻路者进度检查 1",
+    "context": "修订 quest.2323A6EEDF97BE96.title；源文件 config/ftbquests/quests/lang/en_us.snbt。"
+  },
+  {
+    "key": "quest.23DC842244086CB9.title",
+    "original": "Wayfinder Meet",
+    "translation": "拜访寻路者",
+    "context": "修订 quest.23DC842244086CB9.title；源文件 config/ftbquests/quests/lang/en_us.snbt。"
+  },
+  {
+    "key": "quest.2646D51DBAD8AD42.quest_desc01",
+    "original": "&bCheck&f: Getting Shadow Casing",
+    "translation": "&b检查条件&f：获得暗影机壳",
+    "context": "修订 quest.2646D51DBAD8AD42.quest_desc；源文件 config/ftbquests/quests/lang/en_us.snbt。"
+  },
+  {
+    "key": "quest.2646D51DBAD8AD42.quest_desc03",
+    "original": "&bUnlocks&f: \"Create Vault\" Technically players can get there before",
+    "translation": "&b解锁内容&f：机械动力宝库（实际上玩家此前就可能到达）",
+    "context": "修订 quest.2646D51DBAD8AD42.quest_desc；源文件 config/ftbquests/quests/lang/en_us.snbt。"
+  },
+  {
+    "key": "quest.2646D51DBAD8AD42.title",
+    "original": "Machinist Check 1",
+    "translation": "机械师进度检查 1",
+    "context": "修订 quest.2646D51DBAD8AD42.title；源文件 config/ftbquests/quests/lang/en_us.snbt。"
+  },
+  {
+    "key": "quest.28DB6A7095E20B2A.title",
+    "original": "Reactor",
+    "translation": "反应堆",
+    "context": "修订 quest.28DB6A7095E20B2A.title；源文件 config/ftbquests/quests/lang/en_us.snbt。"
+  },
+  {
+    "key": "quest.2AB07DEF9E14C784.title",
+    "original": "Stage 3 'or' Check",
+    "translation": "第3阶段任一条件检查",
+    "context": "修订 quest.2AB07DEF9E14C784.title；源文件 config/ftbquests/quests/lang/en_us.snbt。"
+  },
+  {
+    "key": "quest.2D0E345C7C7B3AC0.title",
+    "original": "Quartermaster Meet",
+    "translation": "拜访军需官",
+    "context": "修订 quest.2D0E345C7C7B3AC0.title；源文件 config/ftbquests/quests/lang/en_us.snbt。"
+  },
+  {
+    "key": "quest.2D99F429A18BEED1.title",
+    "original": "Catalyst Check 2",
+    "translation": "精械师进度检查 2",
+    "context": "修订 quest.2D99F429A18BEED1.title；源文件 config/ftbquests/quests/lang/en_us.snbt。"
+  },
+  {
+    "key": "quest.2E7B0F8AF8BA8041.title",
+    "original": "Meka Teleporter",
+    "translation": "通用机械传送装置",
+    "context": "修订 quest.2E7B0F8AF8BA8041.title；源文件 config/ftbquests/quests/lang/en_us.snbt。"
+  },
+  {
+    "key": "quest.30453DA99EE2BCBF.title",
+    "original": "Wyrmwright Meet",
+    "translation": "拜访飞龙匠人",
+    "context": "修订 quest.30453DA99EE2BCBF.title；源文件 config/ftbquests/quests/lang/en_us.snbt。"
+  },
+  {
+    "key": "quest.31042D7EBA3B39AD.title",
+    "original": "Infinity Check 1",
+    "translation": "无尽进度检查 1",
+    "context": "修订 quest.31042D7EBA3B39AD.title；源文件 config/ftbquests/quests/lang/en_us.snbt。"
+  },
+  {
+    "key": "quest.317FE947A23C965A.title",
+    "original": "Fabricator Meet",
+    "translation": "拜访构件师",
+    "context": "修订 quest.317FE947A23C965A.title；源文件 config/ftbquests/quests/lang/en_us.snbt。"
+  },
+  {
+    "key": "quest.32A6859ECF7E775F.title",
+    "original": "Enchanter Check 1",
+    "translation": "附魔师进度检查 1",
+    "context": "修订 quest.32A6859ECF7E775F.title；源文件 config/ftbquests/quests/lang/en_us.snbt。"
+  },
+  {
+    "key": "quest.35412128EF4B8692.title",
+    "original": "Enchanter Meet",
+    "translation": "拜访附魔师",
+    "context": "修订 quest.35412128EF4B8692.title；源文件 config/ftbquests/quests/lang/en_us.snbt。"
+  },
+  {
+    "key": "quest.375A2BF4EA6F4EA9.title",
+    "original": "Stage 4 'or' Check",
+    "translation": "第4阶段任一条件检查",
+    "context": "修订 quest.375A2BF4EA6F4EA9.title；源文件 config/ftbquests/quests/lang/en_us.snbt。"
+  },
+  {
+    "key": "quest.375DBC764A420D98.title",
+    "original": "Infernal Meet",
+    "translation": "拜访炼狱使者",
+    "context": "修订 quest.375DBC764A420D98.title；源文件 config/ftbquests/quests/lang/en_us.snbt。"
+  },
+  {
+    "key": "quest.37CC00D0136EFDAE.title",
+    "original": "Guidance Check 4.1",
+    "translation": "指引者进度检查 4.1",
+    "context": "修订 quest.37CC00D0136EFDAE.title；源文件 config/ftbquests/quests/lang/en_us.snbt。"
+  },
+  {
+    "key": "quest.3B06321F0E2F0EC9.title",
+    "original": "Tier 1 WE 'or' Check",
+    "translation": "第一阶段世界引擎任一条件检查",
+    "context": "修订 quest.3B06321F0E2F0EC9.title；源文件 config/ftbquests/quests/lang/en_us.snbt。"
+  },
+  {
+    "key": "quest.3C0A24054C75BF91.title",
+    "original": "Quartermaster Check 1",
+    "translation": "军需官进度检查 1",
+    "context": "修订 quest.3C0A24054C75BF91.title；源文件 config/ftbquests/quests/lang/en_us.snbt。"
+  },
+  {
+    "key": "quest.3F8D9684ADAC01E8.title",
+    "original": "Catalyst Check 3",
+    "translation": "精械师进度检查 3",
+    "context": "修订 quest.3F8D9684ADAC01E8.title；源文件 config/ftbquests/quests/lang/en_us.snbt。"
+  },
+  {
+    "key": "quest.43A632369D0E2CE0.title",
+    "original": "Guidance Completed 4.1",
+    "translation": "指引者阶段完成 4.1",
+    "context": "修订 quest.43A632369D0E2CE0.title；源文件 config/ftbquests/quests/lang/en_us.snbt。"
+  },
+  {
+    "key": "quest.4426687CCCDD759A.title",
+    "original": "Magician Check 2",
+    "translation": "魔法师进度检查 2",
+    "context": "修订 quest.4426687CCCDD759A.title；源文件 config/ftbquests/quests/lang/en_us.snbt。"
+  },
+  {
+    "key": "quest.487BD65BA8F5337D.title",
+    "original": "Machinist Meet",
+    "translation": "拜访机械师",
+    "context": "修订 quest.487BD65BA8F5337D.title；源文件 config/ftbquests/quests/lang/en_us.snbt。"
+  },
+  {
+    "key": "quest.4C52D3DE2F7701D0.quest_desc01",
+    "original": "&bCheck&f: Crafting the brush",
+    "translation": "&b检查条件&f：合成刷子",
+    "context": "修订 quest.4C52D3DE2F7701D0.quest_desc；源文件 config/ftbquests/quests/lang/en_us.snbt。"
+  },
+  {
+    "key": "quest.4C52D3DE2F7701D0.quest_desc03",
+    "original": "&bUnlocks&f:",
+    "translation": "&b解锁内容&f：",
+    "context": "修订 quest.4C52D3DE2F7701D0.quest_desc；源文件 config/ftbquests/quests/lang/en_us.snbt。"
+  },
+  {
+    "key": "quest.4C52D3DE2F7701D0.title",
+    "original": "Guidance 1.1 check",
+    "translation": "指引者进度检查 1.1",
+    "context": "修订 quest.4C52D3DE2F7701D0.title；源文件 config/ftbquests/quests/lang/en_us.snbt。"
+  },
+  {
+    "key": "quest.4FCD78F6E1712BD8.title",
+    "original": "Guidance Check 1",
+    "translation": "指引者进度检查 1",
+    "context": "修订 quest.4FCD78F6E1712BD8.title；源文件 config/ftbquests/quests/lang/en_us.snbt。"
+  },
+  {
+    "key": "quest.50AC369D1F5B7DD8.quest_desc01",
+    "original": "&bCheck&f: Getting Magical Trees and Saplings",
+    "translation": "&b检查条件&f：获得魔法树木和树苗",
+    "context": "修订 quest.50AC369D1F5B7DD8.quest_desc；源文件 config/ftbquests/quests/lang/en_us.snbt。"
+  },
+  {
+    "key": "quest.50AC369D1F5B7DD8.quest_desc03",
+    "original": "&bUnlocks&f: ",
+    "translation": "&b解锁内容&f：",
+    "context": "修订 quest.50AC369D1F5B7DD8.quest_desc；源文件 config/ftbquests/quests/lang/en_us.snbt。"
+  },
+  {
+    "key": "quest.50AC369D1F5B7DD8.title",
+    "original": "Magician Check 1",
+    "translation": "魔法师进度检查 1",
+    "context": "修订 quest.50AC369D1F5B7DD8.title；源文件 config/ftbquests/quests/lang/en_us.snbt。"
+  },
+  {
+    "key": "quest.53D550D3FD459ED2.title",
+    "original": "Guidance Completed 2",
+    "translation": "指引者阶段完成 2",
+    "context": "修订 quest.53D550D3FD459ED2.title；源文件 config/ftbquests/quests/lang/en_us.snbt。"
+  },
+  {
+    "key": "quest.555BB3F7C11CD6F9.title",
+    "original": "Radiance Check 1",
+    "translation": "辐光进度检查 1",
+    "context": "修订 quest.555BB3F7C11CD6F9.title；源文件 config/ftbquests/quests/lang/en_us.snbt。"
+  },
+  {
+    "key": "quest.55DF810785A9B938.title",
+    "original": "Catalyst Check 1",
+    "translation": "精械师进度检查 1",
+    "context": "修订 quest.55DF810785A9B938.title；源文件 config/ftbquests/quests/lang/en_us.snbt。"
+  },
+  {
+    "key": "quest.58BC57B1119204CA.title",
+    "original": "Magician Meet",
+    "translation": "拜访魔法师",
+    "context": "修订 quest.58BC57B1119204CA.title；源文件 config/ftbquests/quests/lang/en_us.snbt。"
+  },
+  {
+    "key": "quest.5E2764E8DB1B789B.title",
+    "original": "Light Bender Meet",
+    "translation": "拜访折光师",
+    "context": "修订 quest.5E2764E8DB1B789B.title；源文件 config/ftbquests/quests/lang/en_us.snbt。"
+  },
+  {
+    "key": "quest.62CEFEB50E7D4489.title",
+    "original": "Quartermaster Check 2",
+    "translation": "军需官进度检查 2",
+    "context": "修订 quest.62CEFEB50E7D4489.title；源文件 config/ftbquests/quests/lang/en_us.snbt。"
+  },
+  {
+    "key": "quest.65C1A809B6A22758.title",
+    "original": "Wyrmwright Check 2",
+    "translation": "飞龙匠人进度检查 2",
+    "context": "修订 quest.65C1A809B6A22758.title；源文件 config/ftbquests/quests/lang/en_us.snbt。"
+  },
+  {
+    "key": "quest.67181BD1F2434E2C.title",
+    "original": "Wyrmwright Check 1",
+    "translation": "飞龙匠人进度检查 1",
+    "context": "修订 quest.67181BD1F2434E2C.title；源文件 config/ftbquests/quests/lang/en_us.snbt。"
+  },
+  {
+    "key": "quest.67AA6621E5A00E37.title",
+    "original": "Twilight Check 1",
+    "translation": "暮光族裔进度检查 1",
+    "context": "修订 quest.67AA6621E5A00E37.title；源文件 config/ftbquests/quests/lang/en_us.snbt。"
+  },
+  {
+    "key": "quest.6B31A5D836677A89.title",
+    "original": "Wyrmwright Check 3",
+    "translation": "飞龙匠人进度检查 3",
+    "context": "修订 quest.6B31A5D836677A89.title；源文件 config/ftbquests/quests/lang/en_us.snbt。"
+  },
+  {
+    "key": "quest.6C293F6A07C1657A.title",
+    "original": "Chaos Check 1",
+    "translation": "混沌进度检查 1",
+    "context": "修订 quest.6C293F6A07C1657A.title；源文件 config/ftbquests/quests/lang/en_us.snbt。"
+  },
+  {
+    "key": "quest.71EF740F3234EA08.title",
+    "original": "Mycelial Reactor",
+    "translation": "菌丝反应堆",
+    "context": "修订 quest.71EF740F3234EA08.title；源文件 config/ftbquests/quests/lang/en_us.snbt。"
+  },
+  {
+    "key": "quest.73FEE6C6149817E7.title",
+    "original": "Infernal Check 1",
+    "translation": "炼狱使者进度检查 1",
+    "context": "修订 quest.73FEE6C6149817E7.title；源文件 config/ftbquests/quests/lang/en_us.snbt。"
+  },
+  {
+    "key": "quest.7408FB23D476F791.title",
+    "original": "Guidance Completed 1",
+    "translation": "指引者阶段完成 1",
+    "context": "修订 quest.7408FB23D476F791.title；源文件 config/ftbquests/quests/lang/en_us.snbt。"
+  },
+  {
+    "key": "quest.78610F56E29472F7.title",
+    "original": "Stage 0 Check",
+    "translation": "第零阶段检查",
+    "context": "修订 quest.78610F56E29472F7.title；源文件 config/ftbquests/quests/lang/en_us.snbt。"
+  },
+  {
+    "key": "quest.78D488A506FD3EB8.title",
+    "original": "Machinist Check 2",
+    "translation": "机械师进度检查 2",
+    "context": "修订 quest.78D488A506FD3EB8.title；源文件 config/ftbquests/quests/lang/en_us.snbt。"
+  },
+  {
+    "key": "quest.7D1FB9A40B5CAE97.quest_desc01",
+    "original": "&bCheck&f: Getting Worker Token",
+    "translation": "&b检查条件&f：获得劳工令牌",
+    "context": "修订 quest.7D1FB9A40B5CAE97.quest_desc；源文件 config/ftbquests/quests/lang/en_us.snbt。"
+  },
+  {
+    "key": "quest.7D1FB9A40B5CAE97.quest_desc03",
+    "original": "&bUnlocks&f: Doors to T1 Echoes and Chapter 1",
+    "translation": "&b解锁内容&f：通往第一阶段回响的大门及第一章任务",
+    "context": "修订 quest.7D1FB9A40B5CAE97.quest_desc；源文件 config/ftbquests/quests/lang/en_us.snbt。"
+  },
+  {
+    "key": "quest.7D1FB9A40B5CAE97.title",
+    "original": "Guidance 1.3 check",
+    "translation": "指引者进度检查 1.3",
+    "context": "修订 quest.7D1FB9A40B5CAE97.title；源文件 config/ftbquests/quests/lang/en_us.snbt。"
+  },
+  {
+    "key": "quest.7E1A18D82B74B6CC.title",
+    "original": "Enchanter Check 2",
+    "translation": "附魔师进度检查 2",
+    "context": "修订 quest.7E1A18D82B74B6CC.title；源文件 config/ftbquests/quests/lang/en_us.snbt。"
+  },
+  {
+    "key": "task.02CC4D7DB653D0B6.title",
+    "original": "Check",
+    "translation": "进度检查",
+    "context": "修订 task.02CC4D7DB653D0B6.title；源文件 config/ftbquests/quests/lang/en_us.snbt。"
+  },
+  {
+    "key": "task.1986452842DD2E46.title",
+    "original": "Check",
+    "translation": "进度检查",
+    "context": "修订 task.1986452842DD2E46.title；源文件 config/ftbquests/quests/lang/en_us.snbt。"
+  },
+  {
+    "key": "task.3B60BAD2A4BEA950.title",
+    "original": "Check",
+    "translation": "进度检查",
+    "context": "修订 task.3B60BAD2A4BEA950.title；源文件 config/ftbquests/quests/lang/en_us.snbt。"
+  },
+  {
+    "key": "task.76D42E59F98B63FA.title",
+    "original": "Reward Check",
+    "translation": "奖励领取检查",
+    "context": "修订 task.76D42E59F98B63FA.title；源文件 config/ftbquests/quests/lang/en_us.snbt。"
+  }
+]

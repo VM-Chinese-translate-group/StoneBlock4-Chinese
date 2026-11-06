@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "cn.codex.sb4compat.mixin",
+  "plugin": "cn.codex.sb4compat.mixin.CompatMixinPlugin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "OracleSemanticSearchMixin",
+    "OracleSearchScreenMixin",
+    "SimplyTooltipsCaptureMixin",
+    "SimplyTooltipsRendererMixin",
+    "SimplyTooltipsStudioMixin",
+    "SimplyTooltipsThemeListMixin",
+    "PatchouliBookEditionMixin"
+  ],
+  "injectors": {"defaultRequire": 1}
+}

@@ -1,0 +1,20 @@
+[
+  {
+    "key": "chapter.1FD2F304ADC237D0.image.1.hover01",
+    "original": "粒子加速器Wiki",
+    "translation": "粒子加速器搭建指南",
+    "context": "CNPack旧格式悬停文案：CNPack/config/ftbquests/quests/chapters/oritech.snbt images[1].hover[0]。当前Source未提取此key，维护者须先同步源结构或保留此手工章节补丁。"
+  },
+  {
+    "key": "chapter.1C63D973F178FD60.image.1.hover01",
+    "original": "ftb.hover.discord",
+    "translation": "加入 Discord 社区",
+    "context": "CNPack旧格式悬停文案：CNPack/config/ftbquests/quests/chapters/welcome.snbt images[1].hover[0]。当前Source未提取此key，维护者须先同步源结构或保留此手工章节补丁。"
+  },
+  {
+    "key": "chapter.1C63D973F178FD60.image.2.hover01",
+    "original": "ftb.hover.bug",
+    "translation": "反馈问题",
+    "context": "CNPack旧格式悬停文案：CNPack/config/ftbquests/quests/chapters/welcome.snbt images[2].hover[0]。当前Source未提取此key，维护者须先同步源结构或保留此手工章节补丁。"
+  }
+]

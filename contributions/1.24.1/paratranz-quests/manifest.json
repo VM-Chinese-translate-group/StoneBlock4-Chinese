@@ -1,0 +1,48 @@
+{
+  "schema": 1,
+  "source_commit": "c5577ec22b44c6efde60d7c5457c22a9084ad928",
+  "language_entries_revised": 78,
+  "flattened_changed_strings": 83,
+  "files": [
+    {
+      "file": "en_us_exploration__combat.json",
+      "remote_path": "kubejs/assets/quests/lang/en_us_exploration__combat.json",
+      "strings": 1
+    },
+    {
+      "file": "en_us_gearing_up.json",
+      "remote_path": "kubejs/assets/quests/lang/en_us_gearing_up.json",
+      "strings": 1
+    },
+    {
+      "file": "en_us_logistics__storage.json",
+      "remote_path": "kubejs/assets/quests/lang/en_us_logistics__storage.json",
+      "strings": 2
+    },
+    {
+      "file": "en_us_other_entries.json",
+      "remote_path": "kubejs/assets/quests/lang/en_us_other_entries.json",
+      "strings": 1
+    },
+    {
+      "file": "en_us_resource_generation.json",
+      "remote_path": "kubejs/assets/quests/lang/en_us_resource_generation.json",
+      "strings": 2
+    },
+    {
+      "file": "en_us_technology.json",
+      "remote_path": "kubejs/assets/quests/lang/en_us_technology.json",
+      "strings": 1
+    },
+    {
+      "file": "en_us_thebackrooms.json",
+      "remote_path": "kubejs/assets/quests/lang/en_us_thebackrooms.json",
+      "strings": 75
+    }
+  ],
+  "legacy_hover_strings": 3,
+  "legacy_hover_requires_source_sync": true,
+  "uploaded": false,
+  "excluded_unreferenced_language_entries": 421,
+  "note": "Only translation data is included; no logs, screenshots, account details, backups or runtime manifests."
+}
