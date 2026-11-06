@@ -1,0 +1,5 @@
+# Explicitly publish this optional package despite the repository-wide ZIP rule.
+!/packages/StoneBlock4_StoneUI.zip
+/build/
+/bridge/build/
+__pycache__/

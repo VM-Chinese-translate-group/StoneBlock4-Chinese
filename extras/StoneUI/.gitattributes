@@ -1,0 +1,8 @@
+# Preserve the exact resource bytes used in the runtime-tested archives.
+resourcepack/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+bridge/src/main/resources/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+# The tested TOML also contains a final blank line; preserve its member hash.
+bridge/src/main/resources/META-INF/neoforge.mods.toml whitespace=blank-at-eol,-blank-at-eof,space-before-tab,cr-at-eol
+*.png -text
+*.zip -text
+*.jar -text

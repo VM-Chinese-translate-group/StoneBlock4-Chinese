@@ -1,0 +1,27 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="MIT"
+
+[[mods]]
+modId="sb4_stone_ui_bridge"
+version="1.0.0"
+displayName="石头世界 4 · 石板界面兼容"
+description='''仅在独立石板资源包启用时替换原版设置页背景；保留模组自定义界面，不改变操作或配置值。'''
+
+[[mixins]]
+config="sb4_stone_ui_bridge.mixins.json"
+
+[[dependencies.sb4_stone_ui_bridge]]
+modId="minecraft"
+type="required"
+versionRange="[1.21.1]"
+ordering="NONE"
+side="CLIENT"
+
+[[dependencies.sb4_stone_ui_bridge]]
+modId="neoforge"
+type="required"
+versionRange="[21.1.262]"
+ordering="NONE"
+side="CLIENT"
+
