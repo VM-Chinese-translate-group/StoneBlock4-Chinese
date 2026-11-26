@@ -40,7 +40,7 @@
 			id: "13FE28AF74A357CD"
 			rewards: [
 				{
-					amount: 10
+					amount: 10L
 					id: "39D280EA484DEB92"
 					type: "currency"
 				}
@@ -79,7 +79,7 @@
 			id: "0DF5D2B35FDEE536"
 			optional: true
 			rewards: [{
-				amount: 3
+				amount: 3L
 				id: "22B6E57677E09757"
 				type: "currency"
 			}]
@@ -108,7 +108,7 @@
 			min_width: 300
 			rewards: [
 				{
-					amount: 3
+					amount: 3L
 					id: "5F7EB120D18D6EDE"
 					type: "currency"
 				}
@@ -150,7 +150,7 @@
 			id: "1DA78BAB2A6E2C82"
 			min_width: 300
 			rewards: [{
-				amount: 3
+				amount: 3L
 				id: "67E0D8F57D8ECCEC"
 				type: "currency"
 			}]
@@ -178,7 +178,7 @@
 			id: "1ABA5F2ECAA6D9D2"
 			min_width: 300
 			rewards: [{
-				amount: 3
+				amount: 3L
 				id: "0AF06E3ADBE3BF55"
 				type: "currency"
 			}]
@@ -207,7 +207,7 @@
 			min_width: 300
 			rewards: [
 				{
-					amount: 3
+					amount: 3L
 					id: "3DAE91206A90B978"
 					type: "currency"
 				}
@@ -259,7 +259,7 @@
 			optional: true
 			rewards: [
 				{
-					amount: 5
+					amount: 5L
 					id: "75EE060BCF20B8D5"
 					type: "currency"
 				}
@@ -302,7 +302,7 @@
 			id: "718C72A43E57B75A"
 			optional: true
 			rewards: [{
-				amount: 1
+				amount: 1L
 				id: "7762E294281EA097"
 				type: "currency"
 			}]
@@ -321,7 +321,7 @@
 			}
 			id: "4FA08F4A78785162"
 			rewards: [{
-				amount: 5
+				amount: 5L
 				id: "12F90627CB3F5516"
 				type: "currency"
 			}]
@@ -340,7 +340,7 @@
 			}
 			id: "5CFC04F4F9A4B01D"
 			rewards: [{
-				amount: 1
+				amount: 1L
 				id: "71F3EFC541571C10"
 				type: "currency"
 			}]
@@ -366,7 +366,7 @@
 			}
 			id: "61B830759B316300"
 			rewards: [{
-				amount: 5
+				amount: 5L
 				id: "547BEF4B3F9E0B71"
 				type: "currency"
 			}]
@@ -385,7 +385,7 @@
 			optional: true
 			rewards: [
 				{
-					amount: 10
+					amount: 10L
 					id: "7042E659010FE446"
 					type: "currency"
 				}
@@ -413,7 +413,7 @@
 			optional: true
 			rewards: [
 				{
-					amount: 10
+					amount: 10L
 					id: "322AAF7F8FED2832"
 					type: "currency"
 				}
