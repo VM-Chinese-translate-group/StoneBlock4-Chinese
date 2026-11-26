@@ -1,12 +1,12 @@
 {
   "modpack": {
     "name": "石头世界4",
-    "version": "1.24.1",
+    "version": "1.24.2",
     "translation": {
       "id": "sb4",
       "url": "https://vmct.top/modpacks/sb4/",
       "language": "zh_cn",
-      "version": "1.24.1"
+      "version": "1.24.2"
     }
   }
 }

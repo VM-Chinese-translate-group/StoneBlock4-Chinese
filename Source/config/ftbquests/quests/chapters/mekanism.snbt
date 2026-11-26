@@ -78,7 +78,7 @@
 			id: "616E3CE38F1D73AE"
 			min_width: 300
 			rewards: [{
-				amount: 1
+				amount: 1L
 				id: "148A52D65B7BE57F"
 				type: "currency"
 			}]
@@ -100,7 +100,7 @@
 			}
 			id: "3E7E07DB49639EA5"
 			rewards: [{
-				amount: 1
+				amount: 1L
 				id: "7E58C7C6572D4CA4"
 				type: "currency"
 			}]
@@ -134,7 +134,7 @@
 			}
 			id: "437F2C378CD6FE51"
 			rewards: [{
-				amount: 1
+				amount: 1L
 				id: "12E07667739B566B"
 				type: "currency"
 			}]
@@ -161,7 +161,7 @@
 			hide_dependent_lines: true
 			id: "131199313AE3F5E9"
 			rewards: [{
-				amount: 1
+				amount: 1L
 				id: "0755A30BAD420F09"
 				type: "currency"
 			}]
@@ -183,7 +183,7 @@
 			id: "7FCCB25011D69673"
 			min_width: 300
 			rewards: [{
-				amount: 1
+				amount: 1L
 				id: "4552BF3D64F8CC65"
 				type: "currency"
 			}]
@@ -203,7 +203,7 @@
 			id: "6A3BFD63419A15CE"
 			min_width: 300
 			rewards: [{
-				amount: 3
+				amount: 3L
 				id: "46ED8A62CE73B29A"
 				type: "currency"
 			}]
@@ -222,7 +222,7 @@
 			hide_dependent_lines: true
 			id: "33A9FF901E2D7725"
 			rewards: [{
-				amount: 2
+				amount: 2L
 				id: "0D20DAE63426948F"
 				type: "currency"
 			}]
@@ -241,7 +241,7 @@
 			id: "7EF7546FF007EF36"
 			rewards: [
 				{
-					amount: 2
+					amount: 2L
 					id: "571E6C08CA40E271"
 					type: "currency"
 				}
@@ -274,7 +274,7 @@
 			id: "562156281B8D0843"
 			min_width: 250
 			rewards: [{
-				amount: 3
+				amount: 3L
 				id: "6A516A3B68E85BD4"
 				type: "currency"
 			}]
@@ -298,7 +298,7 @@
 			min_width: 350
 			rewards: [
 				{
-					amount: 10
+					amount: 10L
 					id: "529615006C459A90"
 					type: "currency"
 				}
@@ -348,7 +348,7 @@
 			id: "212600F8D3C1E1EB"
 			rewards: [
 				{
-					amount: 3
+					amount: 3L
 					id: "513359DB11CCCEE0"
 					type: "currency"
 				}
@@ -376,7 +376,7 @@
 			dependencies: ["7FCCB25011D69673"]
 			id: "31705AD5BE50E2CB"
 			rewards: [{
-				amount: 3
+				amount: 3L
 				id: "2A8890100500C2B3"
 				type: "currency"
 			}]
@@ -402,7 +402,7 @@
 			min_width: 300
 			rewards: [
 				{
-					amount: 3
+					amount: 3L
 					id: "0D0AE2A26B02233B"
 					type: "currency"
 				}
@@ -445,7 +445,7 @@
 			min_width: 350
 			optional: true
 			rewards: [{
-				amount: 1
+				amount: 1L
 				id: "6C57A3EB6C391BC1"
 				type: "currency"
 			}]
@@ -465,7 +465,7 @@
 			id: "35B5935902738DCC"
 			min_width: 300
 			rewards: [{
-				amount: 1
+				amount: 1L
 				id: "43D988793B282616"
 				type: "currency"
 			}]
@@ -484,7 +484,7 @@
 			id: "0D7F5F7A7E41FDF3"
 			min_width: 250
 			rewards: [{
-				amount: 1
+				amount: 1L
 				id: "43C6C178310DD60E"
 				type: "currency"
 			}]
@@ -510,7 +510,7 @@
 			id: "0533C0C07AE600FD"
 			min_width: 300
 			rewards: [{
-				amount: 10
+				amount: 10L
 				id: "2B8C9B0C4B5550BE"
 				type: "currency"
 			}]
@@ -559,7 +559,7 @@
 			id: "31C83D9253FFF685"
 			min_width: 350
 			rewards: [{
-				amount: 10
+				amount: 10L
 				id: "3CF8C2A789ABED6B"
 				type: "currency"
 			}]
@@ -627,7 +627,7 @@
 			min_width: 300
 			rewards: [
 				{
-					amount: 10
+					amount: 10L
 					id: "5EE8B0BE890C3F01"
 					type: "currency"
 				}
@@ -688,7 +688,7 @@
 			id: "333E8FBE15AE980D"
 			min_width: 300
 			rewards: [{
-				amount: 10
+				amount: 10L
 				id: "41D49A03DF1E64F9"
 				type: "currency"
 			}]
@@ -718,7 +718,7 @@
 			id: "49B8310D0C7A6C55"
 			min_width: 350
 			rewards: [{
-				amount: 10
+				amount: 10L
 				id: "5C5532130EF55BE3"
 				type: "currency"
 			}]
@@ -759,7 +759,7 @@
 			optional: true
 			rewards: [
 				{
-					amount: 50
+					amount: 50L
 					id: "38A1EC536136FE3A"
 					type: "currency"
 				}
@@ -817,7 +817,7 @@
 			id: "66BC4434409F959B"
 			rewards: [
 				{
-					amount: 10
+					amount: 10L
 					id: "65F4BD8FA59CD8C4"
 					type: "currency"
 				}
@@ -851,7 +851,7 @@
 			min_width: 400
 			optional: true
 			rewards: [{
-				amount: 25
+				amount: 25L
 				id: "4C7F57520B866EBE"
 				type: "currency"
 			}]
@@ -908,7 +908,7 @@
 			min_width: 300
 			rewards: [
 				{
-					amount: 20
+					amount: 20L
 					id: "1E227D7CEE8CD2D6"
 					type: "currency"
 				}

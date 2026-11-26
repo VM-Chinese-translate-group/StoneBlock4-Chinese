@@ -4515,7 +4515,7 @@
 		""
 		"You can place them back into the world using the Token, but will need to pick them back up with the &aEcho Encoder&r."
 		""
-		"&cWarning&r: Placing the Villager back into the world as a Token will cause the Villager to lose their job and levels!"
+		"&cWarning&r: Placing the Villager back into the world as a Token will reset the Villager's level!"
 		"{@pagebreak}"
 		"While they can work without food, feeding them is probably a good idea."
 		""

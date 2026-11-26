@@ -181,7 +181,7 @@
 					type: "item"
 				}
 				{
-					amount: 250
+					amount: 250L
 					id: "7C15D76E402A519F"
 					type: "currency"
 				}
@@ -285,7 +285,7 @@
 			id: "25CCA572C4D5CEA0"
 			rewards: [
 				{
-					amount: 100
+					amount: 100L
 					id: "14DA10C8742CAA9A"
 					type: "currency"
 				}
@@ -352,7 +352,7 @@
 					type: "item"
 				}
 				{
-					amount: 250
+					amount: 250L
 					id: "70C97777B7C813C4"
 					type: "currency"
 				}
@@ -430,7 +430,7 @@
 					type: "item"
 				}
 				{
-					amount: 250
+					amount: 250L
 					id: "7E7AFE8A70442E39"
 					type: "currency"
 				}
@@ -490,7 +490,7 @@
 					type: "item"
 				}
 				{
-					amount: 250
+					amount: 250L
 					id: "7AB1E8CAE91437FE"
 					type: "currency"
 				}
@@ -540,7 +540,7 @@
 					type: "item"
 				}
 				{
-					amount: 250
+					amount: 250L
 					id: "2FE6B3DDF4FA4641"
 					type: "currency"
 				}
@@ -599,7 +599,7 @@
 					type: "item"
 				}
 				{
-					amount: 250
+					amount: 250L
 					id: "0A3F503312D00067"
 					type: "currency"
 				}
@@ -651,7 +651,7 @@
 					type: "item"
 				}
 				{
-					amount: 250
+					amount: 250L
 					id: "2AC182CB1533C9D6"
 					type: "currency"
 				}
@@ -718,7 +718,7 @@
 					type: "item"
 				}
 				{
-					amount: 250
+					amount: 250L
 					id: "67F64DFF612DAAC2"
 					type: "currency"
 				}
@@ -770,7 +770,7 @@
 					type: "item"
 				}
 				{
-					amount: 250
+					amount: 250L
 					id: "28D9AD0EFC7B4934"
 					type: "currency"
 				}
@@ -822,7 +822,7 @@
 					type: "item"
 				}
 				{
-					amount: 250
+					amount: 250L
 					id: "34757855A9ACB493"
 					type: "currency"
 				}
@@ -897,7 +897,7 @@
 					type: "item"
 				}
 				{
-					amount: 250
+					amount: 250L
 					id: "1DF9DA1DA494F99A"
 					type: "currency"
 				}
@@ -969,7 +969,7 @@
 					type: "item"
 				}
 				{
-					amount: 250
+					amount: 250L
 					id: "23A8EAD7054B6ED1"
 					type: "currency"
 				}
@@ -1042,7 +1042,7 @@
 					type: "item"
 				}
 				{
-					amount: 250
+					amount: 250L
 					id: "2D9A4BB391BE8F1D"
 					type: "currency"
 				}
@@ -1113,7 +1113,7 @@
 					type: "item"
 				}
 				{
-					amount: 2500
+					amount: 2500L
 					id: "761E2E467F18B9E7"
 					type: "currency"
 				}
@@ -1164,7 +1164,7 @@
 					type: "item"
 				}
 				{
-					amount: 100000
+					amount: 100000L
 					id: "22432D77CE1ACCBF"
 					type: "currency"
 				}
@@ -1361,7 +1361,7 @@
 					type: "item"
 				}
 				{
-					amount: 5000
+					amount: 5000L
 					id: "6E262B8AD632F108"
 					type: "currency"
 				}
