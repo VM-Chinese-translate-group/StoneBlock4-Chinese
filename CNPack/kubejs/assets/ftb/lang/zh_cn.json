@@ -1368,6 +1368,8 @@
   "ftb.tooltip.rftoolsutility.weakness_module.uses_piglin": "§aⓘ§f需要使用§6猪灵注射器§f制作。",
   "ftb.tooltip.ae2.channels_multiplied_info": "§aⓘ§f§5AE2的频道§f已被设置为默认的§64倍§f§8（默认：8 -> 现在：32）§f",
   "ftb.tooltip.ae2.channels_multiplied_info_1": "§aⓘ§f§5AE2的频道§f已被设置为默认的§64倍§f§8（默认：32 -> 现在：128）§f",
+  "ftb.tooltip.ae2.spatial_radius": "§aⓘ§f §6Spatial IO§f only works within §a512 blocks§f of §dX 0, Z 0§f in every dimension.",
+  "ftb.message.ae2.spatial_radius": "Spatial IO only works within 512 blocks of X 0, Z 0.",
   "ftb.tooltip.grains_of_infinity_and_xycraft": "§aⓘ§f可通过§3Xycraft模组的提取器§f与§6营火§f或§c火焰方块§f一同制作获得。",
   "ftb.tooltip.multiblock_printer.desc.keybind": "§aⓘ§f 对带有“§a#%2$s§f”标签的方块%1$s，即可自动搭建对应的多方块结构。",
   "ftb.tooltip.multiblock_printer.desc.extract": "§aⓘ§f 从物品栏提取方块并逐个放置。",

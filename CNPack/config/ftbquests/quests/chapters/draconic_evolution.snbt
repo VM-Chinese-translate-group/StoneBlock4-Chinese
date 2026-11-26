@@ -55,7 +55,7 @@
 			dependencies: ["73FD015A3696ABFB"]
 			id: "5BE257CE3FD1FDAC"
 			rewards: [{
-				amount: 15
+				amount: 15L
 				id: "3A7DF88E6069C32C"
 				type: "currency"
 			}]
@@ -80,7 +80,7 @@
 			]
 			id: "48935E2DFCA1E835"
 			rewards: [{
-				amount: 25
+				amount: 25L
 				id: "5B6545FA16FB9353"
 				type: "currency"
 			}]
@@ -102,7 +102,7 @@
 			dependencies: ["4A1DBDE0963407E7"]
 			id: "7279FFED00B223D7"
 			rewards: [{
-				amount: 5
+				amount: 5L
 				id: "047E2FF13EF3CE60"
 				type: "currency"
 			}]
@@ -122,7 +122,7 @@
 		{
 			id: "4A1DBDE0963407E7"
 			rewards: [{
-				amount: 3
+				amount: 3L
 				id: "0AFE4024E9CB91DA"
 				type: "currency"
 			}]
@@ -146,7 +146,7 @@
 			}
 			id: "53060D307C063C25"
 			rewards: [{
-				amount: 5
+				amount: 5L
 				id: "152CC5250AD32612"
 				type: "currency"
 			}]
@@ -171,7 +171,7 @@
 			id: "4E474C940C683371"
 			min_width: 350
 			rewards: [{
-				amount: 40
+				amount: 40L
 				id: "6BC9CCFAFDE59F6E"
 				type: "currency"
 			}]
@@ -224,7 +224,7 @@
 			id: "1E6E38DC6183463A"
 			min_width: 300
 			rewards: [{
-				amount: 5
+				amount: 5L
 				id: "2AA31FA52117A947"
 				type: "currency"
 			}]
@@ -269,7 +269,7 @@
 			}
 			id: "2D95FEECCF48B088"
 			rewards: [{
-				amount: 10
+				amount: 10L
 				id: "474D4B0DD7CF60DD"
 				type: "currency"
 			}]
@@ -313,7 +313,7 @@
 			dependencies: ["18A36EA79A9355C4"]
 			id: "73FD015A3696ABFB"
 			rewards: [{
-				amount: 15
+				amount: 15L
 				id: "68F39A79598DC403"
 				type: "currency"
 			}]
@@ -338,7 +338,7 @@
 			id: "2D1B390B363E0F27"
 			min_width: 300
 			rewards: [{
-				amount: 5
+				amount: 5L
 				id: "174E2D393563927B"
 				type: "currency"
 			}]
@@ -401,7 +401,7 @@
 			}
 			id: "1D87C5E9D52341C4"
 			rewards: [{
-				amount: 10
+				amount: 10L
 				id: "40740062655ED799"
 				type: "currency"
 			}]
@@ -435,7 +435,7 @@
 			]
 			id: "18A36EA79A9355C4"
 			rewards: [{
-				amount: 5
+				amount: 5L
 				id: "07162A9FF353DA24"
 				type: "currency"
 			}]
@@ -459,7 +459,7 @@
 			]
 			id: "0F7CB818AC0A9187"
 			rewards: [{
-				amount: 5
+				amount: 5L
 				id: "664D5754D8C631AF"
 				type: "currency"
 			}]
